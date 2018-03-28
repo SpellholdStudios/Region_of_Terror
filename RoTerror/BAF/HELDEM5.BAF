@@ -1,0 +1,28 @@
+IF
+	Global("Madsfds","LOCALS",0)
+	OR(6)
+		Range(Player1,20)
+		Range(Player2,20)
+		Range(Player3,20)
+		Range(Player4,20)
+		Range(Player5,20)
+		Range(Player6,20)
+THEN
+	RESPONSE #100
+		SetGlobal("Madsfds","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("DemonAttack","RA3750",2)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly("HelDem1",ENEMY)
+		ChangeEnemyAlly("HelDem2",ENEMY)
+		ChangeEnemyAlly("HelDem3",ENEMY)
+		ChangeEnemyAlly("HelDem4",ENEMY)
+		ChangeEnemyAlly("HelDem5",ENEMY)
+		SetGlobal("DemonAttack","RA3750",3)
+END
+
+

@@ -1,0 +1,68 @@
+IF
+	Global("Wulfgarsquest","GLOBAL",1)
+	Global("IWDMovings","GLOBAL",0)
+	!See([ENEMY])
+	Delay(3)
+THEN
+	RESPONSE #100
+		MoveToObject(Player1)
+END
+
+IF
+	Dead("BarBar1") // Barbarian
+	Dead("Beogorn") // Beogorn
+	Global("Commentdeath1","LOCALS",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@573227)
+		SetGlobal("Commentdeath1","LOCALS",1)
+		Continue()
+END
+
+IF
+	Dead("BarBar2") // Barbarian
+	Dead("Beogorn") // Beogorn
+	Global("Commentdeath2","LOCALS",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@573228)
+		SetGlobal("Commentdeath2","LOCALS",1)
+		Continue()
+END
+
+IF
+	Dead("BarBar3") // Barbarian
+	Dead("Beogorn") // Beogorn
+	Global("Commentdeath3","LOCALS",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@573229)
+		SetGlobal("Commentdeath3","LOCALS",1)
+		Continue()
+END
+
+IF
+	Dead("BarBar4") // Barbarian
+	Dead("Beogorn") // Beogorn
+	Global("Commentdeath4","LOCALS",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@573230)
+		SetGlobal("Commentdeath4","LOCALS",1)
+		Continue()
+END
+
+IF
+	Dead("Beogorn") // Beogorn
+	Global("Commentdeath5","LOCALS",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@573231)
+		SmallWait(1)
+		ApplySpell(Myself,BARBARIAN_RAGE)
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+		SetGlobal("Commentdeath5","LOCALS",1)
+		Continue()
+END
+
+

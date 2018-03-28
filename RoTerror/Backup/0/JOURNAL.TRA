@@ -1,0 +1,919 @@
+// AHIGGHMA3.DLG
+//solved - 33, 34  -> #71679
+@500000 = ~Mordaufträge
+
+Ich habe mich dazu entschieden, Regean nicht zu töten und habe ihm statt dessen von Zemir erzählt. Resultat: Regean lebendig, Zemir tot.~
+
+
+//ALISSA1.DLG
+//unsolved - 5, 6, 7  -> #74337
+@574337 = ~Alissas Gaben
+
+Eine Priesterin Deneirs namens Alissa begleitet meine Gruppe. Sie erzählte mir, sie hätte einige merkwürdige Gaben an sich entdeckt und wäre nun auf der Suche nach deren Hintergründen. Ich habe mich bereit erklärt, ihr zu helfen.~
+
+
+//ALISSA1J.DLG
+//unsolved - 4, 8   -> #74338
+@574338 = ~Alissas Gaben
+
+Alissa erzählte Bruder Cadderly von ihren besonderen Gaben. Er versprach ihr, in einem Tempel des Oghma nach Antworten zu suchen.~
+
+
+//ALROR.DLG
+//unsolved - 15  -> #66095
+@566095 = ~Drizzt dabei helfen seine Freunde zu finden
+
+Wir fanden eine weitere Drow in den Umar-Hügeln. Sie erzählte uns, dass Bruenor in einem Haus im kleinen Dorf Westchar zu finden ist. Dort wird unser nächster Stop sein.~
+
+
+//ARLAXT3.DLG
+//unsolved - 3, 4
+@569174 = ~Entflohener Gefangener
+
+Ich fand Tresham in der Kupferkrone, anscheinend wartete er hier auf jemanden. Er entkam, aber sein "Freund" erzählte mir, er würde Morgen Nacht einen anderen "Freund" auf den Straßen der Slums treffen. Ich sollte auch zu diesem Treffen gehen...~ /* #69174 */
+
+
+//ARLAXT1.DLG
+//unsolved - 4, 10
+//ARLAXT7.DLG
+//unsolved - 4, 10
+@569173 = ~Entflohener Gefangener
+
+Ich quetschte einige Informationen aus einem örtlichen Dieb heraus. Tresham ist wohl in die Slums von Athkatla geflohen, um dort unterzutauchen.~ /* #69173 */
+
+
+//ARLAXP6.DLG
+//unsolved - 13
+@576186 = ~Ein Geist
+
+Ein einfacher Bürger führte mich zum Geist. Der Geist war einmal eine Frau und sprach von jemandem namens Henrick. Das könnte einer der Magier von Arlax sein.~ /* #76186 */
+
+
+//ARLAXGC.DLG
+//unsolved - 3
+@568920 = ~Entflohener Gefangener
+
+Der Gardehauptmann von Arlax erzählte mir von einem entflohenen Gefangenen. Dieser Dieb namens Tresham entkam während der letzten Nacht, ohne Spuren zu hinterlassen. Die örtlichen Diebe könnten vielleicht etwas über seinen Aufenthaltsort wissen, weshalb ich mich bereit erklärt, ihn zurückzubringen.~ /* #68920 */
+//solved - 12
+@569177 = ~Entflohener Gefangener
+
+Ich habe den Dieb Tresham getötet und schleppe seinen Körper jetzt zurück zum Gardehauptmann von Arlax.~ /* #69177 */
+//solved - 14
+@569178 = ~Entflohener Gefangener
+
+Ich brachte den Dieb Tresham zurück und erhielt meine Belohnung.~ /* #69178 */
+
+
+//BIGGS.DLG
+//unsolved - 8
+@564128 = ~Burgen im Krieg
+
+Ein Bote namens Biggs kam zu mir und erzählte von seinem Herrn, der eine Burg nahe Athkatla besitzt. Er hat irgendwelche Probleme mit einer anderen Burg und bat mich nun um Hilfe in dieser Angelegenheit. Ich soll so schnell wie möglich dorthin gehen.~ /* #64128 */
+
+
+//BREHERM1.DLG
+//unsolved - 8
+@572810 = ~Der Einsiedler
+
+Ich traf einen Einsiedler und erklärte mich dazu bereit, ihm neue Vorräte aus Bremen zu besorgen.~ /* #72810 */
+//unsolved - 18, 27
+@572811 = ~Der Einsiedler
+
+Ich brachte ihm seine Vorräte und stimmte zu, ihm einen weiteren Gefallen zu tun. Ich versprach ihm einen verlorenen Edelstein wiederzubeschaffen. Er ist jetzt warscheinlich im Besitz irgendeines Monsters nahe seiner Hütte.~ /* #72811 */
+//solved  - 35
+@572812 = ~Der Einsiedler
+
+Ich brachte dem Einsiedler seinen Edelstein zurück und er verstarb daraufhin friedlich. Seine letzten Worte waren "Ihr dürft die Kiste jetzt öffnen, wenn Ihr wollt...".~ /* #72812 */
+
+
+//BRELAMOR.DLG
+//unsolved - 5
+@572896 = ~Lamorines Bruder
+
+Eine Frau namens Lamorine bat mich, ihren Bruder Torvald sicher nach Bremen zu eskortieren. Der Kerl ist ein Angeber und beharrte darauf, durch die Berge zu kommen. Er sollte eigentlich innerhalb der nächsten zwei bis fünf Tage ankommen. Ich habe nicht viel Lust darauf, ihm zu erzählen, dass ich gekommen bin, um ihm zu helfen.~ /* #72896 */
+//solved - 15
+@572897 = ~Lamorines Bruder
+
+Ich war erfolgreich. Der verlorene Bruder ist sicher nach Bremen zurückgekehrt.~ /* #72897 */
+//solved - 17
+@572898 = ~Lamorines Bruder
+
+Ich habe versagt und Torvald ist tot.~ /* #72898 */
+//solved - 20
+@572899 = ~Lamorines Bruder
+
+Ich habe den Bruder nicht finden können. Vielleicht ist er gestorben.~ /* #72899 */
+//solved - 24
+@572903 = ~Lamorines Bruder
+
+Ich habe Torvald alleine ziehen lassen. Warscheinlich ist er jetzt tot.~ /* #72903 */
+
+
+//BRUNDOR, BRUNDOR2.DLG
+//unsolved - 83
+@571685 = ~Die merkwürdige sprechende Rüstung
+
+Ich zeigte Brundor dem Schmied heute die Seelenrüstung, die ich im Hort des Drachen Hephaestus gefunden habe. Er konnte mir nichts darüber sagen, versprach aber, sich bei Chade aus Westchar darüber zu erkundigen.~ /* #71685 */
+
+
+//CADDER3.DLG
+//unsolved - 17
+@571235 = ~Dämonen in der Schwebenden Seele 
+
+Ich kam an der Schweebenden Seele an und Bruder Cadderly erklärte mir die aktuelle Situation. Ein Neuling benutzte die primäre Beschwörungskammer dazu, ein Tor in die Abyss zu öffnen. Cadderly konnte mir nicht sagen, wie er es überhaupt bis in die primäre Kammer geschafft hat, fest steht nur, dass er es getan hat. Bald nach dem Öffnen des Portales stömten Dämonen herein und übernahmen sehr schnell den Tempel. Den Priestern gelang es, das Hauptportal zu versiegeln, auch wenn die Siegel nicht mehr lange halten werden. Unser Plan sieht nun vor, in den Tempel einzudringen und mit Hilfe von Bruder Lucas das geöffnete Portal zu schließen. Er wird während dieses Rituals den Tod finden, doch ich muss ihn lange genug am Leben halten, bis es vergeschlossen ist.~ /* #71235 */
+//unsolved - 20
+@571236 = ~Dämonen in der Schwebenden Seele
+
+Ich habe den Tempel betreten. Ich muss nun die primäre Beschwörungskammer erreichen und versuchen, Bruder Lucas am Leben zu erhalten.~ /* #71236 */
+
+
+//CADDER5.DLG
+//solved - 1
+@571237 = ~Dämonen in der Schwebenden Seele
+
+Wir waren erfolgreich und das Portal konnte geschlossen werden. Jetzt ist es Zeit, nach Amn zurückzukehren.~ /* #71237 */
+
+
+//CADDERLY.DLG
+//unsolved - 14
+@566097 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Wir trafen den Mann, der weiß, wie der Kristallsplitter zu zerstören ist. Sein Name ist Cadderly. Er versprach uns, einige seiner Schriften zu konsultieren um eventuellen Hinweisen nachzugehen. Er versprach, in ein oder zwei Tagen damit fertig zu sein.~ /* #66097 */
+//unsolved - 28
+@566098 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Cadderly fand einige nützliche Informationen für uns. Das von Enteri und Jarlaxle benutzte Artefakt kann nur im Feuer eines großen Drachen zerstört werden. Wir können den Kristallsplitter nicht bewegen, ohne in Gefahr zu geraten, unseren freien Willen an das Artefakt zu verlieren. Deshalb muss er wohl dort zerstört werden, wo er im Moment liegt. Wir haben also keine andere Wahl, als einen großen Drachen einzukerkern und ihn freizulassen, wenn wir Enteri und Jarlaxle gegenübertreten. Er wird dann den Kristallsplitter zerstören. Die Einkerkerung selbst kann nur mit einem Artefakt gelingen, das sich momentan in der Hölle selbst befindet. Dort gehen wir jetzt hin.~ /* #66098 */
+//unsolved - 33
+@566099 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Wir haben einen Drachen gefangen. Nun müssen wir auf den nächsten Hinweis warten.~ /* #66099 */
+
+
+//CAIN.DLG
+//unsolved - 7
+@568192 = ~Dem Dieb in Arlax helfen
+
+Ich habe zugestimmt, einem Dieb namens Cain bei einer ihm übertragenen Aufgabe zu helfen. Er ist ein lausiger Dieb, aber dazu ausersehen, mehrere Dinge aus Arlax zu stehlen. Ich werde ihm dabei helfen, diese Objekte zu bekommen. Das erste Objekt, ein goldener Dolch, ist irgendwo im Tempel des Helm zu finden. Der genaue Verwahrungsort ist unbekannt, weshalb ich mich danach umsehen muss.~ /* #68192 */
+//unsolved - 17
+@568205 = ~Dem Dieb in Arlax helfen
+
+Ich habe den ersten Diebstahl erfolgreich durchgeführt und Cain hat mir den zweiten Auftrag gegeben. Ich soll ins alte Gasthaus gehen und einem dort untergekommenen Reisenden einen Diamanten stehlen. Der Reisende wird in zwei Tagen weiterreisen, deshalb muss ich schnell agieren.~ /* #68205 */
+//unsolved - 19
+@568220 = ~Dem Dieb in Arlax helfen
+
+Ich habe auch den zweiten Diebstahl durchgeführt und Cain hat mir den dritten und letzten Auftrag gegeben. Ich soll einem Magier namens Henvis einen Zauberspruch stehlen. Er steht wohl vor dem Gebäude des Hohen Konzils der Magie.~ /* #68220 */
+//solved - 15
+@568198 = ~Dem Dieb in Arlax helfen
+
+Ich habe mich dazu entschieden, ihm doch nicht zu helfen. Ich habe dafür keine Zeit.~ /* #68198 */
+//solved - 21
+@568221 = ~Dem Dieb in Arlax helfen
+
+Ich habe beim zweiten Diebstahl versagt. Ich kam zu spät beim Diamanten an.~ /* #68221 */
+//solved - 23
+@568222 = ~Dem Dieb in Arlax helfen
+
+Ich war auch beim letzten Diebstahl erfolgreich und brachte Cain den Zauberspruch. Er versprach mir, mich zu bezahlen, sobald er die Möglichkeit dazu hat... Ja, richtig gehört!~ /* #68222 */
+
+
+//CATT2.DLG
+//solved - 1, 2  - íåò íè îäíîãî EraseJournalEntry() !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+@566428 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Enteri und Jarlaxle sind tot. Der Kristallsplitter wurde zerstört. Drizzts Freunde sind gerettet. Die Jagd ist vorbei.~ /* #66428 */
+
+
+//CHADE.DLG
+//unsolved - 6, 7
+@571711 = ~Die merkwürdige sprechende Rüstung
+
+Ich sprach mit Chade. Er sagte, er könne die gefesselte Seele befreien, benötigt aber einen Priester als Hilfe. Zum Glück lebt einer hier im Dorf.~ /* #71711 */
+//solved - 8
+@571709 = ~Die merkwürdige sprechende Rüstung
+
+Ich sprach mit Chade. Er sagte, er könne die gefesselte Seele befreien, aber ich sagte nein.~ /* #71709 */
+//solved - 11
+@571712 = ~Die merkwürdige sprechende Rüstung
+
+Ich sparch mit dem Priester und er stimmte zu, uns zu helfen. Wir konnten die gefesselte Seele erfolgreich aus der Rüstung befreien.~ /* #71712 */
+
+
+//CHAUNTI.DLG
+//unsolved - 3
+@571233 = ~Dämonen in der Schwebenden Seele
+
+Ein Priester namens Bruder Chaunticleer aus dem Kloster Schwebende Seele suchte bei Drizzt Do'Urden Hilfe. Dämonen hätten den Tempel gestürmt, oder so, er wuste selbst nichts näheres. Wir gingen sofort, um zu sehen, was passiert ist.~ /* #71233 */
+
+
+//CLOB.DLG
+//unsolved - 5
+@567005 = ~Clobs vermisster Sohn
+
+Ich habe zugestimmt, nach Clobs vermisstem Sohn zu suchen. Er wurde in Athkatlas Brückenviertel geschickt, um dort eine Robe zu kaufen. Ich werde dort mit meiner Suche beginnen.~ /* #67005 */
+
+
+//CULTBE.DLG
+//unsolved - 8, 9
+@574058 = ~Der Kult der Bestie
+
+Auf der Suche nach Matthew Wyndons nächtlichen Aktivitäten fanden wir den Zugang zum Versteck eines Bestienkultes. Jetzt haben wir zwei Möglichkeiten: mitmachen oder sterben.~ /* #74058 */
+
+
+//CULTBEH.DLG
+//unsolved - 18
+@574059 = ~Der Kult der Bestie
+
+Ich beschloss, mich dem Kult anzuschließen und wurde ein minderes Mitglied. Ich erhielt ein Symbol, mit welchem es mit gestatet wird, das Heiligtum zu betreten, wenn ich gerufen werde. Bevor ich zu einem vollwertigen Mitglied werden kann, muss ich allerdings noch einige Tests bestehen.~ /* #74059 */
+//solved - 60
+@574061 = ~Der Kult der Bestie
+
+Ich vollbrachte allerhand übelste Aufgaben und bin nun ein vollwertiges Mitglied. Ich erhielt auch ein anderes Symbol, mit dem ich das Heiligtum jederzeit erneut betreten kann. Ich bin dazu außersehen, einmal in der Woche an einem großen Ritual teilzunehmen.~ /* #74061 */
+
+
+//DRIZ2.DLG
+//unsolved - 28, 32, 34, 37, 48, 50
+@566094 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Ein Drow namens Drizzt Do'Urden begleitet mich. Er hat auf mysteriöse weise seine Freunde verloren und wir stimmten zu, ihm zu helfen. Helfe ich ihm, dann hilft er mir bei der Verfolgung meines unbekannten Entführers. Im Moment haben wir nicht die geringste Ahnung, wo wir mit der Suche beginnen sollen.~ /* #66094 */
+
+
+//DRIZ2J.DLG
+//unsolved - 11, 24
+@574781 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Ein Djinn tauchte auf und sagte Drizzt, dass ein Mann namens Artemis Entreri seine Freunde gekidnappt hat. In der Stadt Arlax sollen wir mehr Informationen erhalten können.~ /* #74781 */
+//unsolved - 28
+@564316 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Artemis Enteri hat einen weiteren Djinn geschickt. Er wies uns den Weg in die Stadt Arlax, in der wir wohl einen Hinweis auf Drizzts Freunde finden können.~ /* #64316 */
+//unsolved - 41, 47-51, 54, 55
+@563195 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Wir fanden die Kontaktperson in den Abwasserkanälen von Arlax. Er verriet uns, dass einer der entführten Freunde sich an einem Ort namens Monzumas Höhle befindet, hoch in den Bergen nahe Arlax. Wir sollten schnellstmöglich dorthin gehen.~ /* #63195 */
+//unsolved - 86, 87, 89, 90, 91, 93
+@566096 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Wir fanden Bruenor und konnten ihn befreien. Drizzt erzälte mir von einem Mann, der weiss, wie der Kristallsplitter, der irgendwie in die genze Sache verwickelt zu sein scheint, zu zerstören ist. Wir können diesen Feund mit Hilfe des Priesters Martin von Brynnlaw aus erreichen.~ /* #66096 */
+//unsolved - 121
+@566101 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Wir hörten, dass das Eiswindtal von Monstern angegriffen wird. Enteri und Jarlaxle scheinen sie zu kontrollieren. Diese Mission scheint immer wichtiger und wichtiger zu werden.~ /* #66101 */
+//unsolved - 165, 169
+@572915 = ~Die vermissten Waffen
+
+Die Waffen von Drizzt und Wulfgar wurden gestohlen und sind jetzt wohl in der Höhle von Thorin Eisbart. Die Höhle befindet sich irgendwo westlich von Bremen.~ /* #72915 */
+
+
+//EGALD1.DLG
+//unsolved - 4,16,18,19
+@571803 = ~Reise in den Norden
+
+Ein Mann namens Edomis Galdenburg sprach mich an und bot mir fünfhundert Goldstücke für den Geleitschutz für seinen Handelszug ins Eiswindtal. Ich nahm den Auftrag an.~ /* #71803 */
+//unsolved - 5
+@571802 = ~Reise in den Norden
+
+Ein Mann namens Edomis Galdenburg sprach mich an und bat mir fünfhundert Goldstücke für den Geleitschutz für seinen Handelszug ins Eiswindtal. Ich sagte noch nicht fest zu. Wenn ich mich endgültig entschieden habe, kann ich Ihn am Stadttor von Athkatlafinden.~ /* #71802 */
+//unsolved - 8,20
+@571801 = ~Reise in den Norden
+
+Ein Mann namens Edomis Galdenburg sprach mich an und bat mir fünfhundert Goldstücke für den Geleitschutz für seinen Handelszug ins Eiswindtal. Wir werden abreisen, sobald ich hier fertig bin.~ /* #71801 */
+//unsolved - 9, 11
+@575862 = ~Reise in den Norden
+
+Wir begannen mit der Reise.~ /* #75862 */
+
+
+//EGALD2.DLG
+//unsolved - 1
+@571806 = ~Reise in den Norden
+
+Wir erreichten Bremen ohne Schwierigkeiten. Vielleicht sollte ich mich ein wenig umschauen, während Edomis seine Geschäfte im Einsamen Wald abwickelt.~ /* #71806 */
+
+
+//EGALD3.DLG
+//solved - 1
+@571805 = ~Reise in den Norden
+
+Wir sind nach Amn zurückgekehrt. Die Reise war erfolgreich.~ /* #71805 */
+
+
+//ELEANA2.DLG
+//solved - 2
+@568695 = ~Eleana und der Zauberspruch
+
+Ich habe vergessen, mit dem Händler zu sprechen. Ich habe versagt.~ /* #68695 */
+//solved - 4
+@568867 = ~Eleana und der Zauberspruch
+
+Ich kehrte zu Eleana zurück, ohne mich bei Gaidan um den Spruch gekümmert zu haben. Diese Probleme sind nicht länger meine.~ /* #68867 */
+//solved - 6, 10
+@568877 = ~Eleana und der Zauberspruch
+
+Ich drang in die alte Ruine ein, tötete Gaidan und nahm ihm den Zauberspruch ab. Dann kehrte ich zu Eleana zurück und gab ihr den Zauberspruch.~ /* #68877 */
+//solved - 7,9,11,12
+@568875 = ~Eleana und der Zauberspruch
+
+Ich drang in die alte Ruine ein, tötete Gaidan und nahm ihm den Zauberspruch ab. Dann kehrte ich zu Eleana zurück, gab ihr den Zauberspruch und sackte meine Belohnung ein.~ /* #68875 */
+//solved - 16,17
+@568873 = ~Eleana und der Zauberspruch
+
+Ich drang in die alte Ruine ein, tötete Gaidan und nahm ihm den Zauberspruch ab. Dann kehrte ich zu Eleana zurück, gab ihr den Zauberspruch und sackte meine Belohnung ein, leider nur die Hälfte.~ /* #68873 */
+//solved - 19
+@568881 = ~Eleana und der Zauberspruch
+
+Ich drang in die alte Ruine ein, erledigte für Gaidan einen Auftrag und erhielt im Gegenzug den Zauberspruch von ihm. Dann kehrte ich zu Eleana zurück und gab ihn ihr.~ /* #68881 */
+//solved - 20, 21
+@568882 = ~Eleana und der Zauberspruch
+
+Ich drang in die alte Ruine ein, erledigte für Gaidan einen Auftrag und erhielt im Gegenzug den Zauberspruch von ihm. Dann kehrte ich zu Eleana zurück, gab ihr den Spruch und sackte meine Belohnung ein.~ /* #68882 */
+
+
+//ELEANA.DLG
+//unsolved - 6
+@568689 = ~Eleana und der Zauberspruch
+
+Auf Bitten der Magierin Eleana reise ich nach Athkatla, um von einem dortigen Händler einen Zauberspruch zu holen. Er sollte nahe des Stadttores zu finden sein. Eleana gab mir einen Brief, den ich dem Händler vorlegen soll, um von ihm den Spruch zu bekommen. Sie sagte mir auch, falls ich sie bei meiner Rückkehr nicht im Hohen Konzil antreffen sollte, wäre sie im Domizil neben dem Stadtgefängnis.
+
+Und, ach ja, der Händler bleibt nur für zehn Tage, weshalb ich mich beeilen sollte.~ /* #68689 */
+
+
+//ENTDJIN3.DLG
+//unsolved - 0
+@566100 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Wir haben den letzten Hinweis gefunden. Enteri hält sich in einer Höhle nahe dem Dorf Maribur auf. Dort wird alles enden.~ /* #66100 */
+
+
+//ENTER2.DLG
+//solved - 1,2 - no Erase!!!!!!!!!!!!!!!!!!!!
+@575863 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Ich habe Drizzt verraten und mich Enteri und Jarlaxle angeschlossen.~ /* #75863 */
+
+
+//ERANDA2.DLG
+//unsolved - 5
+@570608 = ~Probleme in der Burg
+
+Eine Gruppe Reisender hat mein Land betreten und sich in der hölzernen Festung eingerichtet. Man hat mich um ein Treffen gebeten. Ich habe zugestimmt, einmal hinzugehen und nach dem Rechten zu sehen.~ /* #70608 */
+//solved - 10,11
+@570607 = ~Probleme in der Burg
+
+Es gab ein Problem mit einer unfreundlichen Gruppe fremder Reisender, die mich sprechen wollten. Ich befahl ihre Abschlachtung.~ /* #70607 */
+//solved - 14
+@570609 = ~Probleme in der Burg
+
+Ich habe mich um die Reisenden gekümmert. Sie werden mich nicht mehr stören.~ /* #70609 */
+
+
+//ESATH2.DLG
+//unsolved - 0
+@568545 = ~Den Bauern helfen
+
+Ich bin zu den außerhalb Arlax liegenden Bauernhöfen gezogen. Esath hat mich dort getroffen und mich gen Norden geschickt. Wenn ich der Straße dort folge, soll ich zu einem zerstörten Minenlager und einer nahen Höhle kommen. Der Hordenführer soll sich dort drin verstecken.~ /* #68545 */
+//solved - 3
+@568546 = ~Den Bauern helfen
+
+Ich habe den Führer der Untoten - einen Leichnahm - getötet und bin zu Esath zurückgekehrt. Er bedankte sich und versprach mir eine Belohnung im Inneren seines Hauses.~ /* #68546 */
+
+
+//ESATH.DLG
+//unsolved - 14,19
+@568549 = ~Den Bauern helfen
+
+Ein Bauer namens Esath sprach mich in Arlax an und bat um Hilfe für einige außerhalb der Stadt liegende Farmen. Angeblich überfallen ganze Horden von Monstern organisiert die Höfe, werden gar von einem geheimnisvollen Anführer angetrieben. Ich versprach nun gegen diesen Hordenführer vorzugehen, muss aber schnell sein. Wenn ich ein oder zwei Wochen warte könnten die Bauern bereits tot sein...~ /* #68549 */
+
+
+//GAREM.DLG
+//unsolved - 2
+@568263 = ~Garems Ring in den Kanälen
+
+Ich stimmte zu, in den Kanälen von Arlax nach einem verlorenen Ring zu suchen. Der Name "Garem" soll in den Ring eingraviert sein, sollte also nicht schwer zu finden sein. Vielleicht hat ihn sogar schon jemand gefunden.~ /* #68263 */
+//solved - 9,11,13,15
+@568281 = ~Garems Ring in den Kanälen
+
+Ich fand den Ring und habe ihn seinem rechtmäßigen Besitzer zurückgegeben.~ /* #68281 */
+
+
+//GRAGHAK.DLG
+//unsolved - 28
+@564865 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Ich sprach mit dem König der Gragha. Er sagte mir, dass Bruenor vielleicht in einer anderen Stadt, ähnlich dieser hier, festgehalten wird. Ich kann diese andere Stadt nur betreten, wenn ich das "Große Rätsel" löse. Es gibt fünf in Stein gemeißelte Teile einer Geschichte, verstreut in der Stadt. Ich habe eines davon. Jeder Teil gibt mir einen Hinweis auf den Aufbewahrungsort des nächsten Teiles. Wenn ich alle Teile beisammen habe, muss ich die Geschichte am Tor zwischen den Städten laut und in der richtigen Reihenfolge vorlesen. Dann wird es mir möglich sein, das Tor zu durchschreiten.~ /* #64865 */
+
+
+//GRAYFOT2.DLG
+//unsolved - 179
+@570462 = ~Auf der Suche nach dem Auge eines Gottes
+
+Pip Graufuß, der Edelsteinschmied aus Arlax, erzählte mir die Geschichte von einem legendären Stein namens "Auge eines Gottes". Er weiß nicht, ob es dieses Juwel wirklich gibt, markierte aber den legendären Aufbewahrungsort auf meiner Karte. Wenn dieser Edelstein wirklich existiert und an einen Gegenstand geschmiedet werden könnte, ergäben sich sicherlich unglaubliche magische Möglichkeiten. Vielleicht sollte ich dem markierten Gebiet einmal einen Besuch abstatten und mich auf die Suche nach dem Auge machen.~ /* #70462 */
+//unsolved - 199
+@570505 = ~Auf der Suche nach dem Auge eines Gottes
+
+Ich fand das Auge und brachte es zu Pip, der es mit einem meiner Gegenstände verband. Nach dieser Tat erzählte er mir von einem neu gefundenen Standort für seine Schmiede, wünschte mir alles Gute und ging seines Weges.~ /* #70505 */
+
+
+//HANDS.DLG
+//unsolved - 9,10
+@566652 = ~Rache im Auftrag des Hands
+
+Ein Mann namens Hands erzählte mir vom Überfall einer Horde Monster, bei dem einer seiner Söhne getötet wurde. Ich versprach ihm für seine Rache zu sorgen. Die Monster halten sich warscheinlich in einer nahem Höhle auf.~ /* #66652 */
+//solved - 18,19
+@566653 = ~Rache im Auftrag des Hands
+
+Ich fand die Monster und tötete sie.~ /* #66653 */
+
+
+//HEDAN.DLG
+//unsolved - 4
+@565530 = ~Westchar in Gefahr
+
+Ich traf den Dorfältesten. Er gab mir einen Schlüssel für Emanaths Haus. Ich muß dort eindringen und ihn töten, wenngleich ich keine Ahnung habe, was mich im Inneren erwarten könnte.~ /* #65530 */
+//unsolved - 17
+@565533 = ~Westchar in Gefahr
+
+Ich habe mich entschieden, ihnen trotz allem zu helfen.~ /* #65533 */
+//unsolved - 24,29
+@565536 = ~Westchar in Gefahr
+
+Ich habe von Problemen im nahen Dorf Westchar gehört. Angeblich wurden sie von Goblins, Orks und anderen Dienern des Bösen angegriffen. Der Grund für all dieses Übel ist ein Zauberer namens Emanath. Er bewohnt ein Haus am Rande des Dorfes.~ /* #65536 */
+//solved - 30
+@565656 = ~Westchar in Gefahr
+
+Ich tötete Emanath, ohne eine Belohnung dafür erhalten zu haben. Ich verfluchte die armen Bastarde wegen ihrer Knausrigkeit und ging.~ /* #65656 */
+//solved - 30,32
+@565655 = ~Westchar in Gefahr
+
+Ich habe Emanath getötet.~ /* #65655 */
+//solved - 34
+@566285 = ~Westchar in Gefahr
+
+Hedan denkt, ich hätte Emanath getötet. Er hatte mir schon früher erzählt, das Dorf könne mich nicht bezahlen und hielt sein Wort, ich bekam nichts. Ich verfluchte die armen Bastarde für ihre Knausrigkeit und ging.~ /* #66285 */
+//solved - 35
+@565653 = ~Westchar in Gefahr
+
+Ich habe versehentlich doch ausgeplaudert, dass Emanath nicht tot ist. Hedan war nicht erfreut, akzeptierte aber meine Entscheidung.~ /* #65653 */
+//solved - 36
+@566284 = ~Westchar in Gefahr
+
+Ich habe Hedan wie versprochen von Emanaths Tod berichtet. Ich kann nun mit Sicherheit sagen, dass der Konflikt ein Ende hat.~ /* #66284 */
+
+
+//ILHAN.DLG
+//unsolved - 5,24,25
+@563941 = ~Den Zyklopenführer töten
+
+Ich habe zugestimmt, einen Zyklopenführer nahe Olmars Burg zu töten. Die Zyklopen haben schon für viel Ärger gesorgt, ohne dass der Burghäuptling sich bisher darum gekümmert hat. Jetzt sorge ich selbst für Ruhe.~ /* #63941 */
+//solved - 19,21
+@563943 = ~Den Zyklopenführer töten
+
+Ich habe den Zyklopenführer getötet. Die verbliebenen Zyklopen werden das Gebiet nun schnell verlassen.~ /* #63943 */
+
+//ILHAN2.DLG
+//unsolved - 6,11,13
+@570748 = ~Ilhans Nachricht
+
+Ilhan hatte die Idee, einen wohlhabend aussehenden Händler auszurauben, der einige Meilen westlich auf der großen Nordstraße unterwegs ist. Ich denke, es ist eine gute Idee, und befinde mich auf dem Weg, den Mann zu überfallen.~ /* #70748 */
+//solved - 36,39
+@570736 = ~Ilhans Nachricht
+
+Wir raubten den Händler aus und teilten uns die recht umfangreiche Beute.~ /* #70736 */
+
+
+//JAPHET.DLG
+//unsolved - 3
+@566785 = ~Ein Dieb in Kindasts Laden
+
+Japhet stahl das Elixier, um seiner kranken Frau zu helfen. Ich entschied mich dazu, die Tat Kindast zu melden.~ /* #66785 */
+//unsolved - 5
+@566784 = ~Ein Dieb in Kindasts Laden
+
+Japhet stahl das Elixier, um seiner kranken Frau zu helfen. Ich entschied mich dazu, das Elixier zu bezahlen.~ /* #66784 */
+
+
+//JATTA.DLG
+//unsolved - 6
+@567011 = ~Clobs vermisster Sohn
+
+Eine Hure erinnerte sich an den Jungen. Sie sagte mir, einige große Kerle hätten ihn in das große Gebäude im Nordteil des Viertels verschleppt.~ /* #67011 */
+
+
+//KINDAST.DLG
+//unsolved - 6,8,10
+@566777 = ~Ein Dieb in Kindasts Laden
+
+Kindast, der Händler von Maribur, warb mich an, weil ein Dieb ihm etwas Geld und ein magisches Elixier gestohlen hat. Ich sollte meine Untersuchungen vielleicht mit der Bewachung des Ladens bei Nacht beginnen.~ /* #66777 */
+//unsolved - 18
+@566781 = ~Ein Dieb in Kindasts Laden
+
+Ich sah den Dieb. Er wird Japhet genannt und wohnt hier im Ort. Ich muss nun herausfinden, warum er tat, was er tat.~ /* #66781 */
+//solved - 22
+@566782 = ~Ein Dieb in Kindasts Laden
+
+Kindast kann Japhets Gründe für den Diebstahl verstehen, und ich bezahlte ihn für das entwendete Elexier. Ein glücklicher Tag.~ /* #66782 */
+//solved - 26,27,28
+@566783 = ~Ein Dieb in Kindasts Laden
+
+Kindast schenkte Japhet das Elixier und ich bekam meine Belohnung.~ /* #66783 */
+
+
+//LOREM.DLG
+//unsolved - 9
+@576084 = ~Auf der Jagd
+
+Die Einwohner von Westchar werden permanent angegriffen, wodurch der Großteil der Bevölkerung zur Verteidigung des Dorfes gebunden ist. Das hat zu einem Versorgungsengpass bei den Nahrungsmitteln des Ortes geführt und ich habe mich bereit erklärt, ihnen fünfhundert Pfund Fleisch zu erjagen.~ /* #76084 */
+//solved - 3
+@576086 = ~Auf der Jagd
+
+Ich war in der Lage, Lorem genügend Fleisch zu bringen, um Westchars Versorgung zu sichern.~ /* #76086 */
+
+
+//LATHAR.DLG
+//unsolved - 6
+@576185 = ~Ein Geist
+
+Angeblich wurde in Arlax ein Geist gesehen. Ein Bürger nahe der alten Kneipe soll mehr dazu wissen.~ /* #76185 */
+
+
+//MARALDA.DLG
+//unsolved - 4,9,10,12,14,16
+@563708 = ~Maraldas Spruchrolle finden
+
+Jemand hat einer Magierin namens Maralda eine Spruchrolle entwendet. Sie sagte, als Dieb kämen entweder Alenna oder Melan in Frage. Ich sollte mal mit beiden sprechen.~ /* #63708 */
+//solved - 32,36,39,51
+@563712 = ~Maraldas Spruchrolle finden
+
+Ich fand heraus, dass Alenna die Spruchrolle gestohlen hatte. Das war wirklich einfach, kaum meiner Zeit wert.~ /* #63712 */
+
+
+//MARTWYN1.DLG
+//unsolved - 10,12,13
+@573330 = ~Das Heiligtum der Drachen
+
+Ein alter Mann namens Martwyn erzählte mir von einem alten Heiligtum der Drachen. Wenn ich dorthin gehen wollte, müsste ich versteckt durch das unpassierbare Land wandern und meinen Weg durch das Eislabyrinth finden.~ /* #73330 */
+
+
+//MAYASSI.DLG
+//unsolved - 7
+@574055 = ~Was ist mit Matthew los?
+
+Der Assistent des Bürgermeisters von Bremen bat mich, herauszufinden, was um Mitternacht im Haus des Bremer Bürgers Matthew Wyndon passiert. Er soll ein merkwürdiger Kerl sein, ich sollte wohl besser mit allem rechnen.~ /* #74055 */
+//solved - 21
+@574056 = ~Was ist mit Matthew los?
+
+Ich fand heraus, dass Matthew nachts eine Art Portal benutzt, um irgendwohin zu gehen, sah aber erstmal von einer Verfolgung ab.~ /* #74056 */
+//solved - 23
+@574057 = ~Was ist mit Matthew los?
+
+Ich fand heraus, dass Matthew nachts eine Art Portal benutzt, um ein geheimes Versteck einer Art Kult zu erreichen. Anscheinend gehört er diesem Kult an. Der Assistent des Bürgermeisters dankte mir und versprach uns, mit dem Bürgermeister darüber zu sprechen.~ /* #74057 */
+
+
+//MAYDOBR.DLG
+//unsolved - 4,16
+@572659 = ~Die depressiven Leute
+
+Wir haben zugestimmt, mit den Bewohnern von Bremen zu sprechen, um die allgemein schlechte Stimmungslage in der Stadt zu verbessern. Es gehen die Gerüchte um, viele Einwohner wollten die Stadt wegen der häufigen Angriffe verlassen. Wir sollten versuchen, sie zum bleiben zu überreden.~ /* #72659 */
+//solved - 29
+@572660 = ~Die depressiven Leute
+
+Wir haben vortreffliche Arbeit geleistet. Niemand spricht mehr davon, Bremen zu verlassen.~ /* #72660 */
+//solved - 30
+@572661 = ~Die depressiven Leute
+
+Wir haben exzellente Arbeit geleistet. Niemand spricht mehr vom weggehen.~ /* #72661 */
+//solved - 31
+@572662 = ~Die depressiven Leute
+
+Wir haben gute Arbeit geleistet. Niemand spricht mehr vom wegziehen.~ /* #72662 */
+//solved - 32
+@572663 = ~Die depressiven Leute
+
+Wir haben unser bestes getan. Die Einwohner sind noch immer depressiv, aber es ist nicht mehr so schlimm, wie zuvor.~ /* #72663 */
+//solved - 33,34
+@572664 = ~Die depressiven Leute
+
+Ich war nicht in der Lage, die Stimmungslage zu verbessern.~ /* #72664 */
+//solved - 35
+@572666 = ~Die depressiven Leute
+
+Ich habe nur mehr Schaden angerichtet.~ /* #72666 */
+//solved - 36,37
+@572670 = ~Die depressiven Leute
+
+Ich senkte die Stimmungslage der Dörfler auf ein nie dagewesenes Niveau ab. *LACH*~ /* #72670 */
+
+
+//MENDOR.DLG
+//unsolved - 8
+@567010 = ~Clobs vermisster Sohn
+
+Ich traf im großen Gebäude auf einen Dieb. Er erzählte mir, dass sein Haus als Sklavenquartier genutzt wird und der vermisste Junge dort eingesperrt wurde, um als Sklave verkauft zu werden. Die Sklavenhändler lagern außerhalb der Stadt. Er markierte den Ort auf meiner Karte.~ /* #67010 */
+
+
+//MOLLY2.DLG
+//unsolved - 8
+@566564 = ~Mollys gestohlene Kette
+
+Ich traf in Westchar eine Frau namens Molly. Ihre Halskette wurde gestohlen und ich erklärte mich bereit, nach ihr zu suchen. Molly verdächtigt Burrich, den Wirt.~
+//solved - 19
+@566565 = ~Mollys gestohlene Kette
+
+Ich habe die verlorene Kette gefunden. Der Dieb war der "Böse Mann". Ich musste ihn töten, um an die Kette zu gelangen.~ /* #66565 */
+//solved - 21
+@566566 = ~Mollys gestohlene Kette
+
+Ich habe die verlorene Kette gefunden. Der Dieb war der "Böse Mann". Ich musste ihn töten, um an die Kette zu gelangen.~ /* #66566 */
+
+
+//OLMAR4.DLG
+//solved - 3
+@564221 = ~Burgen im Krieg
+
+Wir waren erfolgreich. Talavans Burg wurde erobert und ich wurde als neuer Statthalter Olmars eingesetzt. Ilhan wird sich bei mir melden, wenn etwas in der Burg passiert, das meine Aufmerksamkeit verdient.~ /* #64221 */
+//solved - 4
+@564220 = ~Burgen im Krieg
+
+Wir waren erfolgreich. Talavans Burg wurde erobert und Ilhan als Statthalter Olmars eingesetzt.~ /* #64220 */
+
+
+//OLMMESS.DLG
+//unsolved - 1
+@570734 = ~Ilhans Nachricht
+
+Ilhan sandte mir eine Nachricht zu. Irgend etwas scheint in der Burg nicht zu stimmen. Ich sollte so schnell wie möglich dorthin und nach dem Rechten sehen.~ /* #70734 */
+
+
+//OLMAR.DLG
+//unsolved - 15-19
+@564219 = ~Burgen im Krieg
+
+Ich habe den Schlüssel bekommen, werde aber Olmars Seite wählen. Ich werde Talavan töten, wenn wir Olmars Burg erreichen und dann gemeinsam mit Olmar Talavans Burg erstürmen.~ /* #64219 */
+//unsolved - 26-30
+@564130 = ~Burgen im Krieg
+
+Ich habe den Schlüssel. Wenn ich zurückkehre, werden wir Olmars Burg engreifen.~ /* #64130 */
+
+
+//PLADJIN.DLG
+//unsolved - 34
+@576012 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Die Suche nach Bruenor hat uns in eine Art äußere Ebene geführt. Dort trafen wir auf einen heiligen Wächter. Er hält Wacht über die Stadt der "Gragha". Es gibt keinen Weg zurück, nur vorwärts. Um Zugang zur Stadt zu erhalten, muss ich vier Tests des Heiligen über mich ergehen lassen.~ /* #76012 */
+//unsolved - 83
+@564701 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Ich habe alle vier Tests erfolgreich absolviert und nun Zugang zur Stadt der Gragha.~ /* #64701 */
+
+
+//RANDALLJ.DLG
+//unsolved - 3
+@574048 = ~Nekromanten jagen Randall
+
+Wir wurden von einem Nekromanten und mehreren Skeletten angegriffen. Allem Anschein nach waren sie hinter Randall her. Der Grund für den Angriff ist nach wie vor mysteriös.~ /* #74048 */
+//unsolved - 5,6
+@574049 = ~Nekromanten jagen Randall
+
+Das selbe ist wieder geschehen. Randall beteuerte uns, nichts getan zu haben, um diese Angriffe zu provozieren.~ /* #74049 */
+//unsolved - 12
+@574051 = ~Nekromanten jagen Randall
+
+Schon wieder. Aber dieses Mal fanden wir eine Notiz, die uns zum Versteck des Hintermannes führen kann. Wir werden dorthin gehen, um herauszufinden, was hinter den Angriffen steckt.~ /* #74051 */
+//solved - 7
+@574050 = ~Nekromanten jagen Randall
+
+Das gleiche passierte erneut. Ich denke, es ist zu gefährlich, weiterhin gemeinsam mit Randall zu ziehen, ich habe ihn zurückgelassen.~ /* #74050 */
+//solved - 17
+@574052 = ~Nekromanten jagen Randall
+
+Der Mann, der hinter Randall her war, ist nun tot. Randall schwor uns, seinen Stiefvater aufzusuchen, um mehr über den Tod seiner wahren Eltern herauszufinden.~ /* #74052 */
+
+
+//REG2.DLG
+//unsolved - 13,14
+@564415 = ~Drizzt dabei helfen, seine Freunde zu finden
+
+Wir haben den Gefangenen in Monzumas Höhle gefunden. Es war Regis. Er konnte uns erzählen, dass Entreri möchte, dass wir als nächstes zu den Umarhügeln ziehen sollen.~ /* #64415 */
+
+
+//ROB.DLG
+//unsolved - 4,6
+@564299 = ~Riesen haben Robs Frau entführt
+
+Einige Riesen haben Robs Ehefrau in Monzumas Höhle entführt. Ich werde nach ihr Ausschau halten, während ich drinnen bin.~ /* #64299 */
+//solved - 9,10
+@564301 = ~Riesen haben Robs Frau entführt
+
+Robs Frau ist tot, ihr Körper war von einem Dämon besessen.~ /* #64301 */
+
+
+//ROBEMER.DLG
+//unsolved - 3
+@567006 = ~Clobs vermisster Sohn
+
+Ich sprach mit dem Händler. Er schickte mich zu den Fünf Krügen, wo der Junge angeblich unterkommen wollte.~ /* #67006 */
+
+
+//RODGER.DLG
+//solved - 2,3
+@567008 = ~Clobs vermisster Sohn
+
+Ich habe den Jungen gefunden. Er wurde gefangen genommen, um als Sklave verkauft zu werden. Ich habe die Sklavenhändler getötet und die Gefangenen befreit.~ /* #67008 */
+
+
+//RYONN.DLG
+//unsolved - 14
+@565535 = ~Westchar in Gefahr
+
+Ich traf auf einen Mann namens Ryon. Er bat mich darum, seinem Dorf zu helfen. Sie werden seit kurzem von Horden von Goblins, Orks und anderen Wesen angegriffen. Hinter diesen Angriffen steckt ein Magier namens Emantah. Sein Haus liegt nahe am Dorfrand. Ich weiß nicht genau, was dahinter steckt, aber ich denke, dass ich es herausfinden kann.~ /* #65535 */
+//unsolved - 16
+@565529 = ~Westchar in Gefahr 
+
+Ich traf auf einen Mann namens Ryon. Er bat mich darum, seinem Dorf zu helfen. Sie werden seit kurzem von Horden von Goblins, Orks und anderen Wesen angegriffen. Hinter diesen Angriffen steckt ein Magier namens Emantah. Obwohl ich mich weigerte, ihm zu helfen, markierte er die Lage seines Dorfes auf meiner Karte für den Fall, dass ich es mir doch noch anders überlege.~ /* #65529 */
+
+
+//QUINTIP1.DLG
+//unsolved - 4,7,9
+@572863 = ~Die Jäger
+
+Ich bin auf der Suche nach einer Jagdgesellschaft in den Bergen außerhalb Bremens. Sie hätten schon längst ankommen sollen und ich soll herausfinden, wo sie abgeblieben sind.~ /* #72863 */
+//solved - 14
+@572864 = ~Die Jäger
+
+Ich fand heraus, was passiert ist. Die Jagdgesellschaft wurde von einer ungewöhnlich großen Gruppe Monster angegriffen. Es hat leider kaum ein Jäger den Angriff überlebt.~ /* #72864 */
+
+
+//SCRLMER.DLG
+//unsolved - 16,17,19
+@568691 = ~Eleana und der Zauberspruch
+
+Ich habe mit dem Händler gesprochen und er berichtete mir, er wäre von der "Diebesbande des Gaidan" überfallen und ausgeraubt worden. Er erklärte mir den Weg zu Gaidans Versteck, so dass ich dorthin reisen und den Räubern den Zauberspruch wieder abnehmen kann. Alternativ könnte ich natürlich auch zu Eleana zurückkehren und ihr erklären, was passiert ist. Dann wird das alles nicht mehr mein Problem sein.
+
+Der Händler kann mir noch Hinweise über diesen Gaidan und seine Bande geben.~ /* #68691 */
+
+
+//SHDW1.DLG
+//unsolved - 2
+@571713 = ~Die merkwürdige sprechende Rüstung
+
+Ich wurde von jemandem, oder etwas, angesprochen, der die Rüstung verbessern könnte, falls ich den Priester töte...~ /* #71713 */
+//solved - 5
+@571714 = ~Die merkwürdige sprechende Rüstung
+
+Ich habe den Priester ermordet. (Ich bin BÖSE!!) Der Schatten hielt daraufhin sein Versprechen und verbesserte die Rüstung.~ /* #71714 */
+
+
+//SLAVET5.DLG
+//solved - 5
+@567009 = ~Clobs vermisster Sohn
+
+Ich habe den Jungen gefunden. Er wurde gefangen genommen, um als Sklave verkauft zu werden. Ich nahm den Sklavenhändlern etwas Geld ab und ließ sie danach ziehen.~ /* #67009 */
+
+
+//TALAVAN3.DLG
+//solved - 2
+@564132 = ~Burgen im Krieg
+
+Die Mission war erfolgreich. Olmar ist tot und Talavan nun Herr zweier Burgen. Er bat mir die Stelle eines Statthalters in Olmars ehemaliger Burg an. Ick akzeptierte. Eranda wird sich bei mir melden, wenn es Probleme in meiner neuen Burg geben sollte.~ /* #64132 */
+//solved - 4
+@564131 = ~Burgen im Krieg
+
+Die Mission war erfolgreich. Olmar ist tot und Talavan nun Herr zweier Burgen. Eranda wurde als Statthalterin in Olmars Burg zurückgelassen.~ /* #64131 */
+
+
+//TALAVAN.DLG
+//unsolved - 30
+@564129 = ~Burgen im Krieg
+
+Burgherr Talavan erklärte mir die Lage. Er wird die andere Burg angreifen, sobald ich dem verfeindeten Burgherren den Schlüssel zu einem geheimen Fluchttunnel gestohlen habe. Wenn ich den Schlüssel habe, kann der Angriff der Truppen beginnen, während ich durch den Tunnel in die Festung eindringe und dort die Verteidigung breche.~ /* #64129 */
+
+
+//TALMESS.DLG
+//unsolved - 0,1
+@570606 = ~Probleme in der Burg
+
+Mich hat eine Nachricht aus meiner Burg erreicht. Es scheint Probleme dort zu geben. Ich sollte dorthin ziehen und schnellstmöglich nach dem Rechten sehen.~ /* #70606 */
+
+
+//TRESHAM1.DLG
+//unsolved - 4
+@569184 = ~Entflohener Gefangener
+
+Ich habe Tresham gefangen. Ich sollte ihn nun zum Gardehauptmann von Arlax bringe.~ /* #69184 */
+
+
+//ULGARTH.DLG
+//unsolved - 0
+@573242 = ~Wulfgars Frau
+
+Im Eiswindtal trafen wir auf eine Gruppe Barbaren, die uns schlechte Neuigkeiten brachten. Wulfgars Frau scheint entführt worden zu sein. Die Spuren hatten die Barbaren nahe an seiner Frau vorbeigeführt und wir ziehen nun schnell los, um sie zu retten.~ /* #73242 */
+
+
+//ULTIMM.DLG
+//unsolved - 17
+@565641 = ~Westchar in Gefahr
+
+Ich fand den "Ultimativen Meister". Überraschenderweise konnte ich ihn davon überzeugen, sein Haus zu verlassen. Der Friede im Dorf ist nun wieder eingekehrt. Ich denke nun, Hedan sollte vom Ergebnis dieses Gespräches unterrichtet werden.~ /* #65641 */
+
+
+//ZEMIR.DLG
+//unsolved - 24
+@571675 = ~Mordaufträge
+
+In den Kanälen von Arlax traf ich einen Dieb namens Zemir. Ich ließ mich von ihm für Mordanschläge anwerben und bekam gleich den ersten Auftrag. Ich soll zu den Docks von Athkatla gehen und dort des nachts eine Frau namens Galan töten.~ /* #71675 */
+//unsolved - 28
+@571676 = ~Mordaufträge
+
+Ich tötete Galan und erhielt mein zweites Ziel zugewiesen. Sein Name ist Laron, ein Gemischtwarenhändler in Waukeens Promenade in Athkatla.~ /* #71676 */
+//unsolved - 33
+@571677 = ~Mordaufträge
+
+Ich tötete Laron und erhielt meinen letzten Auftrag. Ich soll den Hochmagier Regean von Arlax ermorden. Er ist im Konzil der Hohen Magie zu finden.~ /* #71677 */
+//solved - 29
+@571680 = ~Mordaufträge
+
+Ich tötete Galan, verweigerte mich aber weiteren Morden. Zemir griff mich dafür an.~ /* #71680 */
+//solved - 40
+@571678 = ~Mordaufträge
+
+Ich tötete Regean und schloß damit die Mordaufträge ab.~ /* #71678 */
+//solved - 43
+@571681 = ~Mordaufträge
+
+Ich tötete Laron, verweigerte mich aber weiteren Morden. Zemir griff mich dafür an.~ /* #71681 */
+
+
+//*********************************************************************************************************************
+//*********************************************************************************************************************
+//Missed Journal entries from scripts (??)
+@573244 = ~Wulfgars Frau
+
+Wir töteten die Monster im gesamten Gebiet. Anscheinend hatten sie die Geister der Mönche aus dem Kloster unter ihre Kontrolle gebracht. Wie auch immer, wir fanden schließlich Wulfgars Frau, leider tot. Er will noch nicht aufgeben und wir sind nun auf der Suche nach einem Tempel, der sie ins Leben zurückrufen kann.~
+
+//morand1.baf
+@563001 = ~Morandin helfen
+
+Ich stimmte zu, einem Magier namens Morandin bei einem Problem mit Monstern zu helfen, die sich am Grab seines Vaters unter dem Haus zu schaffen machen. Ich habe keine Ahnung, was mich dort erwarten könnte. Als Belohnung darf ich alles behalten, was ich im Grab finde.~
+
+
+//*********************************************************************************************************************
+//*********************************************************************************************************************
+//Journal entries from scripts
+@573245 = ~Wulfgars Frau
+
+Unsere Suche war nicht umsonst. Wir fanden einen Kreis von Heilpriestern und belebten Dellys Körper wieder. Wulfgar brachte sie sofort zurück nach Bremen.~
+
+//ra5601.baf - unsolved
+@573243 = ~Wulfgars Frau
+
+Mehr wurde herausgefunden. Wir sind auf dem Grund eines Klosters. Ungeheuer haben den Platz übernommen, und eine Art  Geist öffnete die Haupttüren für mich.~
+//ra5611.baf - solved
+@572917 = ~Die vermissten Waffen
+
+Wir haben die Waffen zurück.~
+
+//rr3303.baf - unsolved
+@575059 = ~Die vermissten Gragha
+
+Als ich mit dem König der Gragha sprach, deutete er an, dass noch einige Gragha in der anderen Stadt am Leben sein könnten. Ich sollte einmal nach ihnen sehen.~
+@575061 = ~Die vermissten Gragha 
+
+Ich habe drei überlebende Gragha gefunden. Sie haben sich auf den Weg zurück in die Stadt gemacht.~
+
+//solved
+@575062 = ~Die vermissten Gragha
+
+Die vermissten Gragha sind sicher zurückgekehrt.~
+
+//rr3100.baf - solved
+@576184 = ~Ein Geist
+
+Ich habe Henrick gefunden und ihn zum Geist geführt. Es hat sich herausgestellt, dass sie seine Geliebte war und auch im Tode nicht loslassen konnte. Henrick liebte sie auch, mehr noch als sein Leben. Jetzt sind sie beide fort. Die Liebe war sogar stärker als der Tod.~
+
+//ra5412.baf - solved
+@573332 = ~Das Heiligtum der Drachen
+
+Ich fand das Gebiet. Vielleicht sollte ich es ein wenig erforschen.~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

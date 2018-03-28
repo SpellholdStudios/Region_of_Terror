@@ -1,0 +1,343 @@
+IF
+	Global("VisualEffects","RA5004",0)
+THEN
+	RESPONSE #100
+		SaveGame(0)
+		CreateVisualEffect("HolyLi2",[1226.1098])
+		SetGlobal("VisualEffects","RA5004",1)
+END
+
+IF
+	Global("BattlefertheEye","RA5004",2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Garrax",DestroySelf())
+		SmallWait(1)
+		CreateCreature("Garrax2",[1075.1078],4) // Lord Garrax
+		SmallWait(1)
+		ActionOverride("Garrax2",FaceObject(NearestEnemyOf(Myself)))
+		Wait(2)
+		FadeFromColor([20.0],0)
+		Wait(2)
+		CreateVisualEffect("SlayerS",[1115.985])
+		SmallWait(6)
+		CreateVisualEffect("SlayerS",[1311.985])
+		SmallWait(6)
+		CreateVisualEffect("SlayerS",[1115.1210])
+		SmallWait(6)
+		CreateVisualEffect("SlayerS",[1311.1210])
+		SmallWait(6)
+		CreateVisualEffect("SPFIRSDI",[1120.980])
+		SmallWait(5)
+		CreateCreature("GarTopz1",[1120.980],0) // Topaz Golem
+		SmallWait(8)
+		CreateVisualEffect("SPFIRSDI",[1321.980])
+		SmallWait(5)
+		CreateCreature("GarServ1",[1321.980],0) // Servant of the Eye
+		SmallWait(8)
+		CreateVisualEffect("SPFIRSDI",[1120.1200])
+		SmallWait(5)
+		CreateCreature("GarMari1",[1120.1200],7) // Marilith Lord
+		SmallWait(8)
+		CreateVisualEffect("SPFIRSDI",[1321.1200])
+		SmallWait(5)
+		CreateCreature("GarSwrd1",[1321.1200],7) // Garrax's Sword
+		Wait(1)
+		SetGlobal("BattlefertheEye","RA5004",3)
+		SmallWait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Garrax2",StartDialogueNoSet(NearestEnemyOf(Myself)))
+END
+
+IF
+	Dead("GarSwrd1") // Garrax's Sword
+	Global("CreateOne","RA5004",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIRSDI",[1321.1200])
+		SmallWait(5)
+		CreateCreature("GarSaph1",[1321.1200],7) // Sapphire Golem
+		SetGlobal("CreateOne","RA5004",1)
+END
+
+IF
+	Dead("GarSaph1") // Sapphire Golem
+	Global("CreateOne","RA5004",1)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIRSDI",[1321.1200])
+		SmallWait(5)
+		CreateCreature("GarMari2",[1321.1200],7) // Marilith Lord
+		SetGlobal("CreateOne","RA5004",2)
+END
+
+IF
+	Dead("GarMari2") // Marilith Lord
+	Global("CreateOne","RA5004",2)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIRSDI",[1321.1200])
+		SmallWait(5)
+		CreateCreature("GarServ4",[1321.1200],7) // Servant of the Eye
+		SetGlobal("CreateOne","RA5004",3)
+END
+
+IF
+	Dead("GarMari1") // Marilith Lord
+	Global("CreateTwo","RA5004",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIRSDI",[1120.1200])
+		SmallWait(5)
+		CreateCreature("GarLich1",[1120.1200],7) // Elemental Lich
+		SetGlobal("CreateTwo","RA5004",1)
+END
+
+IF
+	Dead("GarLich1") // Elemental Lich
+	Global("CreateTwo","RA5004",1)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIRSDI",[1120.1200])
+		SmallWait(5)
+		CreateCreature("GarTopz2",[1120.1200],7) // Topaz Golem
+		SetGlobal("CreateTwo","RA5004",2)
+END
+
+IF
+	Dead("GarTopz2") // Topaz Golem
+	Global("CreateTwo","RA5004",2)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIRSDI",[1120.1200])
+		SmallWait(5)
+		CreateCreature("GarServ3",[1120.1200],7) // Servant of the Eye
+		SetGlobal("CreateTwo","RA5004",3)
+END
+
+IF
+	Dead("GarServ1") // Servant of the Eye
+	Global("CreateThree","RA5004",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIRSDI",[1321.980])
+		SmallWait(5)
+		CreateCreature("GarSwrd2",[1321.980],0) // Garrax's Sword
+		SetGlobal("CreateThree","RA5004",1)
+END
+
+IF
+	Dead("GarSwrd2") // Garrax's Sword
+	Global("CreateThree","RA5004",1)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIRSDI",[1321.980])
+		SmallWait(5)
+		CreateCreature("GarSaph2",[1321.980],0) // Sapphire Golem
+		SetGlobal("CreateThree","RA5004",2)
+END
+
+IF
+	Dead("GarSaph2") // Sapphire Golem
+	Global("CreateThree","RA5004",2)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIRSDI",[1321.980])
+		SmallWait(5)
+		CreateCreature("GarLich2",[1321.980],0) // Elemental Lich
+		SetGlobal("CreateThree","RA5004",3)
+END
+
+IF
+	Dead("GarTopz1") // Topaz Golem
+	Global("CreateFour","RA5004",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIRSDI",[1120.980])
+		SmallWait(5)
+		CreateCreature("GarServ2",[1120.980],0) // Servant of the Eye
+		SetGlobal("CreateFour","RA5004",1)
+END
+
+IF
+	Dead("GarServ2") // Servant of the Eye
+	Global("CreateFour","RA5004",1)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIRSDI",[1120.980])
+		SmallWait(5)
+		CreateCreature("GarMari3",[1120.980],0) // Cambion Lord
+		SetGlobal("CreateFour","RA5004",2)
+END
+
+IF
+	Dead("GarMari3") // Cambion Lord
+	Global("CreateFour","RA5004",2)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIRSDI",[1120.980])
+		SmallWait(5)
+		CreateCreature("GarMari4",[1120.980],0) // Cambion Lord
+		SetGlobal("CreateFour","RA5004",3)
+END
+
+IF
+	Global("Polymorphs","RA5004",1)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPPOWWRD","Garrax2")
+		Wait(2)
+		CreateCreatureObject("Garrax3","Garrax2",0,0,0) // Lord Garrax
+		SetGlobal("Polymorphs","RA5004",2)
+END
+
+IF
+	Global("Polymorphs","RA5004",3)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPPOWWRD","Garrax3")
+		Wait(2)
+		CreateCreatureObject("Garrax4","Garrax3",0,0,0) // Lord Garrax
+		SetGlobal("Polymorphs","RA5004",4)
+END
+
+IF
+	Global("Polymorphs","RA5004",5)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPPOWWRD",[1284.778])
+		Wait(2)
+		CreateCreature("Garrax5",[1284.778],0) // Lord Garrax
+		SetGlobal("Polymorphs","RA5004",6)
+END
+
+IF
+	Dead("Garrax5") // Lord Garrax
+	Global("YougottheEye","GLOBAL",0)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		Wait(1)
+		MoveViewObject("Garrax5",INSTANT)
+		ScreenShake([1226.1098],20)
+		CreateVisualEffectObject("ENCHANX","Garrax5")
+		Wait(2)
+		EndCutSceneMode()
+		CreateVisualEffect("AquaEff",[1295.913])
+		SmallWait(2)
+		CreateVisualEffect("AquaEff",[1541.1115])
+		SmallWait(2)
+		CreateVisualEffect("AquaEff",[1241.1345])
+		SmallWait(2)
+		CreateVisualEffect("AquaEff",[857.1077])
+		SmallWait(2)
+		CreateVisualEffect("CLOUDBA",[1159.805])
+		CreateVisualEffect("SlayerS",[1113.747])
+		SmallWait(2)
+		CreateVisualEffect("CLOUDBA",[1405.835])
+		CreateVisualEffect("SlayerS",[1135.675])
+		SmallWait(2)
+		CreateVisualEffect("CLOUDBA",[1569.1047])
+		CreateVisualEffect("SlayerS",[1319.671])
+		SmallWait(2)
+		CreateVisualEffect("CLOUDBA",[1559.1197])
+		CreateVisualEffect("SlayerS",[1465.705])
+		SmallWait(2)
+		CreateVisualEffect("CLOUDBA",[1349.1335])
+		CreateVisualEffect("SlayerS",[1660.795])
+		SmallWait(2)
+		CreateVisualEffect("CLOUDBA",[1058.1309])
+		CreateVisualEffect("SlayerS",[1776.927])
+		SmallWait(2)
+		CreateVisualEffect("CLOUDBA",[846.1151])
+		CreateVisualEffect("SlayerS",[1794.1051])
+		SmallWait(2)
+		CreateVisualEffect("CLOUDBA",[850.979])
+		CreateVisualEffect("SlayerS",[1710.1257])
+		SmallWait(2)
+		CreateVisualEffect("SlayerS",[1596.1463])
+		CreateVisualEffect("CONJUH",[1231.965])
+		CreateVisualEffect("CONJUH",[1405.1115])
+		CreateVisualEffect("CONJUH",[1225.1263])
+		CreateVisualEffect("CONJUH",[1035.1103])
+		SmallWait(4)
+		CreateVisualEffect("SlayerS",[1470.1469])
+		CreateVisualEffect("ENCHAH",[1231.965])
+		CreateVisualEffect("ENCHAH",[1405.1115])
+		CreateVisualEffect("ENCHAH",[1225.1263])
+		CreateVisualEffect("ENCHAH",[1035.1103])
+		SmallWait(4)
+		CreateVisualEffect("SlayerS",[1269.1491])
+		CreateVisualEffect("CONJUH",[1231.965])
+		CreateVisualEffect("CONJUH",[1405.1115])
+		CreateVisualEffect("CONJUH",[1225.1263])
+		CreateVisualEffect("CONJUH",[1035.1103])
+		SmallWait(4)
+		CreateVisualEffect("SlayerS",[1010.1461])
+		CreateVisualEffect("ENCHAH",[1231.965])
+		CreateVisualEffect("ENCHAH",[1405.1115])
+		CreateVisualEffect("ENCHAH",[1225.1263])
+		CreateVisualEffect("ENCHAH",[1035.1103])
+		SmallWait(4)
+		CreateVisualEffect("SlayerS",[1831.1387])
+		CreateVisualEffect("CONJUH",[1231.965])
+		CreateVisualEffect("CONJUH",[1405.1115])
+		CreateVisualEffect("CONJUH",[1225.1263])
+		CreateVisualEffect("CONJUH",[1035.1103])
+		SmallWait(4)
+		CreateVisualEffect("SlayerS",[731.1265])
+		CreateVisualEffect("ENCHAH",[1231.965])
+		CreateVisualEffect("ENCHAH",[1405.1115])
+		CreateVisualEffect("ENCHAH",[1225.1263])
+		CreateVisualEffect("ENCHAH",[1035.1103])
+		SmallWait(4)
+		CreateVisualEffect("SlayerS",[709.1089])
+		CreateVisualEffect("ENCHANX",[1231.965])
+		SmallWait(4)
+		CreateVisualEffect("SlayerS",[739.935])
+		CreateVisualEffect("ENCHANX",[1231.965])
+		SmallWait(4)
+		CreateVisualEffect("SlayerS",[853.805])
+		CreateVisualEffect("ENCHANX",[1231.965])
+		SmallWait(4)
+		CreateVisualEffect("ENCHANX",[1231.965])
+		SmallWait(4)
+		CreateVisualEffect("IPWKILLX",[1227.1003])
+		CreateVisualEffect("IPWKILLX",[1217.1207])
+		SmallWait(4)
+		CreateVisualEffect("IPWKILLX",[1351.1115])
+		CreateVisualEffect("IPWKILLX",[1097.1107])
+		SmallWait(4)
+		CreateVisualEffect("IWDeath1",[1226.1098])
+		SmallWait(4)
+		CreateVisualEffect("IWDeath1",[1226.1098])
+		SmallWait(4)
+		CreateVisualEffect("IWDeath1",[1226.1098])
+		SmallWait(4)
+		CreateVisualEffect("IWDeath1",[1226.1098])
+		StartCutSceneMode()
+		HideGUI()
+		Wait(4)
+		FadeToColor([20.0],0)
+		Wait(3)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		MoveViewObject(Player1,INSTANT)
+		Wait(1)
+		CreateVisualEffectObject("CLOUDBH",Player1)
+		ActionOverride(Player1,DisplayStringHead(Myself,@570451))
+		Wait(1)
+		ActionOverride("Garrax5",GiveItemCreate("HolyGem",Player1,0,0,0)) // The Eye of a God
+		Wait(2)
+		SetGlobal("YougottheEye","GLOBAL",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END

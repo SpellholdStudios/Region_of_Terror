@@ -1,0 +1,189 @@
+IF
+	Global("Travelculta","GLOBAL",6)
+	Delay(2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		CreateVisualEffectObject("SPCLOUD1",Player1)
+		CreateVisualEffectObject("SPCLOUD1",Player2)
+		CreateVisualEffectObject("SPCLOUD1",Player3)
+		CreateVisualEffectObject("SPCLOUD1",Player4)
+		CreateVisualEffectObject("SPCLOUD1",Player5)
+		CreateVisualEffectObject("SPCLOUD1",Player6)
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("Youcandoitwithone","GLOBAL",1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RA5501","",[2862.353],2))
+		ActionOverride(Player2,LeaveAreaLUA("RA5501","",[2862.356],2))
+		ActionOverride(Player3,LeaveAreaLUA("RA5501","",[2862.359],2))
+		ActionOverride(Player4,LeaveAreaLUA("RA5501","",[2865.353],2))
+		ActionOverride(Player5,LeaveAreaLUA("RA5501","",[2868.353],2))
+		ActionOverride(Player6,LeaveAreaLUA("RA5501","",[2871.353],2))
+END
+
+IF
+	Global("HighestRealPlace","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("HighestRealPlace","GLOBAL",0)
+END
+
+IF
+	Global("FadeFromGlobal","GLOBAL",1)
+THEN
+	RESPONSE #100
+		FadeFromColor([20.0],0)
+		SetGlobal("FadeFromGlobal","GLOBAL",2)
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",5)
+	Global("CultTaskNum1","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JoinTheCult","GLOBAL",7)
+		SetGlobal("CultTaskNum1","GLOBAL",2)
+END
+
+IF
+	Global("MtoCult2","GLOBAL",1)
+	Global("Thecoming","RA5500",0)
+THEN
+	RESPONSE #100
+		FadeFromColor([20.0],0)
+		SetGlobal("Thecoming","RA5500",1)
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",13)
+	Global("CultTaskNum2","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JoinTheCult","GLOBAL",15)
+		SetGlobal("CultTaskNum2","GLOBAL",2)
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",19)
+	Global("CultTaskNum3","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JoinTheCult","GLOBAL",20)
+		SetGlobal("CultTaskNum3","GLOBAL",2)
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",28)
+	Global("CultTaskNum4","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JoinTheCult","GLOBAL",29)
+		SetGlobal("CultTaskNum4","GLOBAL",2)
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",37)
+	Global("CultTaskNum5","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JoinTheCult","GLOBAL",38)
+		SetGlobal("CultTaskNum5","GLOBAL",2)
+END
+
+IF
+	Global("MtCult2","GLOBAL",1)
+	Global("Thecoming","RA5500",0)
+THEN
+	RESPONSE #100
+		FadeFromColor([20.0],0)
+		SetGlobal("Thecoming","RA5500",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",0)
+	!Global("BeastCultMembership","GLOBAL",2)
+	OR(4)
+		PartyHasItem("CultWep1") // Cult Sword
+		PartyHasItem("CultWep2") // Cult Halberd +2
+		PartyHasItem("CultWep3") // Cult Staff +2
+		PartyHasItem("CultWep4") // Cult Mace +2
+THEN
+	RESPONSE #100
+		ActionOverride("CultBe25",DisplayStringHead(Myself,@573753))
+		SetGlobal("HostileBeastCult","GLOBAL",1)
+END
+
+IF
+	Global("Choise","RA5500",0)
+	Global("BeastCultMembership","GLOBAL",2)
+	OR(4)
+		PartyHasItem("CultWep1") // Cult Sword
+		PartyHasItem("CultWep2") // Cult Halberd +2
+		PartyHasItem("CultWep3") // Cult Staff +2
+		PartyHasItem("CultWep4") // Cult Mace +2
+THEN
+	RESPONSE #100
+		ActionOverride("CultBe25",DisplayStringHead(Myself,@573752))
+		SetGlobal("Choise","RA5500",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",0)
+	Global("Choise","RA5500",1)
+	PartyHasItem("CultWep1") // Cult Sword
+	OR(3)
+		PartyHasItem("CultWep2") // Cult Halberd +2
+		PartyHasItem("CultWep3") // Cult Staff +2
+		PartyHasItem("CultWep4") // Cult Mace +2
+THEN
+	RESPONSE #100
+		ActionOverride("CultBe25",DisplayStringHead(Myself,@573754))
+		SetGlobal("HostileBeastCult","GLOBAL",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",0)
+	Global("Choise","RA5500",1)
+	PartyHasItem("CultWep2") // Cult Halberd +2
+	OR(3)
+		PartyHasItem("CultWep1") // Cult Sword
+		PartyHasItem("CultWep3") // Cult Staff +2
+		PartyHasItem("CultWep4") // Cult Mace +2
+THEN
+	RESPONSE #100
+		ActionOverride("CultBe25",DisplayStringHead(Myself,@573754))
+		SetGlobal("HostileBeastCult","GLOBAL",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",0)
+	Global("Choise","RA5500",1)
+	PartyHasItem("CultWep3") // Cult Staff +2
+	OR(3)
+		PartyHasItem("CultWep1") // Cult Sword
+		PartyHasItem("CultWep2") // Cult Halberd +2
+		PartyHasItem("CultWep4") // Cult Mace +2
+THEN
+	RESPONSE #100
+		ActionOverride("CultBe25",DisplayStringHead(Myself,@573754))
+		SetGlobal("HostileBeastCult","GLOBAL",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",0)
+	Global("Choise","RA5500",1)
+	PartyHasItem("CultWep4") // Cult Mace +2
+	OR(3)
+		PartyHasItem("CultWep1") // Cult Sword
+		PartyHasItem("CultWep2") // Cult Halberd +2
+		PartyHasItem("CultWep3") // Cult Staff +2
+THEN
+	RESPONSE #100
+		ActionOverride("CultBe25",DisplayStringHead(Myself,@573754))
+		SetGlobal("HostileBeastCult","GLOBAL",1)
+END
+
+

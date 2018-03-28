@@ -1,0 +1,15 @@
+IF
+	Clicked([ANYONE])
+	OR(3)
+		Global("Youcanleavenow","GLOBAL",0)
+		!Global("Youcanleavenow2","GLOBAL",0)
+		!Global("Youcanleavenow3","GLOBAL",0)
+	InParty("Driz2")
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SmallWait(1)
+		ActionOverride("Driz2",DisplayStringHead(Myself,@572907))
+END
+
+

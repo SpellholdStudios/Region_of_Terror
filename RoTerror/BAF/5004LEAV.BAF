@@ -1,0 +1,33 @@
+IF
+	!Global("YougottheEye","GLOBAL",1)
+	Clicked([ANYONE])
+	Range(LastTrigger,17)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@570452)
+END
+
+IF
+	Global("YougottheEye","GLOBAL",1)
+	Clicked([ANYONE])
+	Range(LastTrigger,17)
+THEN
+	RESPONSE #100
+		SetGlobal("YougottheEye","GLOBAL",2)
+		ActionOverride(Player1,LeaveAreaLUA("RA4900","",[930.880],2))
+		ActionOverride(Player2,LeaveAreaLUA("RA4900","",[844.838],3))
+		ActionOverride(Player3,LeaveAreaLUA("RA4900","",[920.808],3))
+		ActionOverride(Player4,LeaveAreaLUA("RA4900","",[956.840],2))
+		ActionOverride(Player5,LeaveAreaLUA("RA4900","",[966.802],2))
+		ActionOverride(Player6,LeaveAreaLUA("RA4900","",[956.760],3))
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,17)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702)
+END
+
+

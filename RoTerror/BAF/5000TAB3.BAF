@@ -1,0 +1,10 @@
+IF
+	Global("SpeakDivine","RA5000",5)
+	Global("Tabthree","RA5000",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Tabthree","RA5000",1)
+		CreateItem("Tabl3",0,0,0) // Tablet III
+END
+
+

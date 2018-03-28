@@ -1,0 +1,12 @@
+IF
+	Global("Trigger4","RA5416",0)
+	OR(2)
+		Entered([ANYONE])
+		Range([ANYONE],2)
+THEN
+	RESPONSE #100
+		CreateCreature("ShdwSam6",[1725.1600],13) // Shadow Samurai
+		SetGlobal("Trigger4","RA5416",1)
+END
+
+

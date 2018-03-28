@@ -1,0 +1,3 @@
+@0    = ~Using the Effect Maker you can make new effects into the game. The effects are afterwards added to items or spells with the command Use EFF. File (in the IEEP tool).~
+@1    = ~For example, the effects are used if you want some creature type to receive more damage than the others from the hit of your weapon. There are only a few boxes to fill to do this sort of stuff so you shouldn't have much problems.~
+@2    = ~And oh, 0 % - 100 % probability means that your effect will work on every hit, or spell. 0 % - 100 % means always a 100 % chance of happening.~

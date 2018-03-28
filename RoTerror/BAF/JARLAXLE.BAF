@@ -1,0 +1,27 @@
+IF
+	Global("Beffinba","RR4002",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Beffinba","RR4002",2)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("EntandDri","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("EntandDri","GLOBAL",3)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	HPLT(Myself,50)
+	Global("JarDristo","RR4002",0)
+THEN
+	RESPONSE #100
+		UseItem("StoPot","Jarlax_R") // Potion of Stoneskin
+		SmallWait(1)
+		SetGlobal("JarDristo","RR4002",1)
+END
+
+

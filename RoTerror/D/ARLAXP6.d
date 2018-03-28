@@ -1,0 +1,89 @@
+BEGIN ~ARLAXP6~
+
+IF ~Global("ArlTemplQ","GLOBAL",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("ArlTemplQ","GLOBAL",1)~ THEN BEGIN 1
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 2
+  IF ~~ THEN REPLY @2 EXIT
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0
+  SAY @3
+  IF ~~ THEN REPLY @4 GOTO 3
+  IF ~~ THEN REPLY @5 EXIT
+END
+
+IF ~~ THEN BEGIN 3 // from: 2.0
+  SAY @6
+  IF ~~ THEN REPLY @7 GOTO 4
+  IF ~~ THEN REPLY @8 GOTO 4
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.1 3.0
+  SAY @9
+  IF ~~ THEN DO ~SetGlobal("ArlTemplQ","GLOBAL",2)~ EXIT
+END
+
+IF ~Global("ArlTemplQ","GLOBAL",3)~ THEN BEGIN 5
+  SAY @10
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("ArlTemplQ","GLOBAL",4)
+!TimeOfDay(NIGHT)~ THEN BEGIN 6
+  SAY @11
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("ArlTemplQ","GLOBAL",4)
+TimeOfDay(NIGHT)~ THEN BEGIN 7
+  SAY @12
+  IF ~~ THEN REPLY @13 DO ~SetGlobal("ArlTemplQ","GLOBAL",5)~ EXIT
+  IF ~~ THEN REPLY @14 EXIT
+END
+
+IF ~Global("ArlTemplQ","GLOBAL",6)~ THEN BEGIN 8
+  SAY @15
+  IF ~~ THEN GOTO 9
+END
+
+IF ~~ THEN BEGIN 9 // from: 8.0
+  SAY @16
+  IF ~~ THEN REPLY @17 GOTO 10
+  IF ~~ THEN REPLY @18 GOTO 14
+END
+
+IF ~~ THEN BEGIN 10 // from: 9.0
+  SAY @19
+  IF ~~ THEN GOTO 11
+END
+
+IF ~~ THEN BEGIN 11 // from: 14.0 10.0
+  SAY @20
+  IF ~~ THEN GOTO 12
+END
+
+IF ~~ THEN BEGIN 12 // from: 11.0
+  SAY @21
+  IF ~~ THEN REPLY @22 GOTO 13
+  IF ~~ THEN REPLY @23 GOTO 13
+END
+
+IF ~~ THEN BEGIN 13 // from: 12.1 12.0
+  SAY @24
+  IF ~~ THEN DO ~SetGlobal("ArlTemplQ","GLOBAL",7)~ UNSOLVED_JOURNAL @576186 EXIT
+END
+
+IF ~~ THEN BEGIN 14 // from: 9.1
+  SAY @25
+  IF ~~ THEN GOTO 11
+END
+
+IF ~GlobalGT("ArlTemplQ","GLOBAL",6)~ THEN BEGIN 15
+  SAY @26
+  IF ~~ THEN EXIT
+END

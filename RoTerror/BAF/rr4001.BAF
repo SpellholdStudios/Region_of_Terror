@@ -1,0 +1,33 @@
+IF
+	Global("Sfquestbd","GLOBAL",2)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Fidemi",DestroySelf())
+		ActionOverride(Player2,MakeUnselectable(999999))
+		ActionOverride(Player3,MakeUnselectable(999999))
+		ActionOverride(Player4,MakeUnselectable(999999))
+		ActionOverride(Player5,MakeUnselectable(999999))
+		ActionOverride(Player6,MakeUnselectable(999999))
+		SmallWait(1)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RR4004","",[1880.1520],5))
+		SetGlobal("Sfquestbd","GLOBAL",3)
+END
+
+IF
+	Global("Igottac","GLOBAL",3)
+THEN
+	RESPONSE #100
+		OpenDoor("ar4001door2")
+		ActionOverride(Player1,DisplayStringHead(Myself,@565852))
+		SetGlobal("Igottac","GLOBAL",4)
+END
+
+

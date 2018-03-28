@@ -1,0 +1,56 @@
+IF
+	Global("Infatwc","RR3300",0)
+	!Global("MovUlm","GLOBAL",1)
+	OR(6)
+		Range(Player1,20)
+		Range(Player2,20)
+		Range(Player3,20)
+		Range(Player4,20)
+		Range(Player5,20)
+		Range(Player6,20)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		Wait(1)
+		MoveViewPoint([830.941],VERY_FAST)
+		Wait(3)
+		ActionOverride("HedBoy3",DisplayStringHead(Myself,@566297))
+		Wait(5)
+		DisplayStringHead(Myself,@566298)
+		Wait(5)
+		ActionOverride("HedBoy3",DisplayStringHead(Myself,@566299))
+		Wait(5)
+		ActionOverride("HedGir2",DisplayStringHead(Myself,@566300))
+		CreateCreature("HedOrc1",[556.669],13) // Orc
+		CreateCreature("HedOrc2",[506.711],13) // Orc
+		CreateCreature("HedOrc3",[476.736],13) // Orc
+		SmallWait(1)
+		ActionOverride("HedOrc1",MoveToPoint([781.831]))
+		ActionOverride("HedOrc2",MoveToPoint([717.869]))
+		ActionOverride("HedOrc3",MoveToPoint([703.905]))
+		Wait(3)
+		DisplayStringHead(Myself,@566303) // Help! Monsters!
+		Wait(1)
+		ActionOverride("HedBoy3",Face(5))
+		ActionOverride("HedGir2",Face(5))
+		SmallWait(5)
+		ActionOverride("HedBoy3",DisplayStringHead(Myself,@566302))
+		ActionOverride("HedGir2",DisplayStringHead(Myself,@566301))
+		Wait(1)
+		ActionOverride("HedWar7",DisplayStringHead(Myself,@566304))
+		ActionOverride("HedBoy3",MoveToPoint([1400.850]))
+		ActionOverride("HedGir2",MoveToPoint([1400.870]))
+		MoveToPoint([1400.890])
+		SetGlobal("Infatwc","RR3300",1)
+		UnhideGUI()
+		EndCutSceneMode()
+		Wait(1)
+		ActionOverride("HedBoy3",DestroySelf())
+		ActionOverride("HedGir2",DestroySelf())
+		SmallWait(1)
+		DestroySelf()
+END
+
+

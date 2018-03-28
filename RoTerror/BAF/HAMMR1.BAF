@@ -1,0 +1,19 @@
+IF
+	Global("CreatinHamm","RR3100",2)
+THEN
+	RESPONSE #100
+		MoveToObject(Player1)
+		SetGlobal("CreatinHamm","RR3100",3)
+END
+
+IF
+	Range(Player1,15)
+	Global("CreatinHamm","RR3100",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CreatinHamm","RR3100",4)
+		PlaySong(34)
+		ActionOverride("Hammr1",StartDialogueNoSet(Player1))
+END
+
+

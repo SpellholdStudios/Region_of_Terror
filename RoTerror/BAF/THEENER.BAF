@@ -1,0 +1,26 @@
+IF
+        True()
+//	Global("Bedrinofri","GLOBAL",11)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		SmallWait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		SetGlobal("Bedrinofri","GLOBAL",12)
+		SmallWait(1)
+		LeaveAreaLUA("RR3950","",[955.705],5)
+		ActionOverride(Player2,LeaveAreaLUA("RR3950","",[960.760],5))
+		ActionOverride(Player3,LeaveAreaLUA("RR3950","",[990.740],5))
+		ActionOverride(Player4,LeaveAreaLUA("RR3950","",[1000.705],5))
+		ActionOverride(Player5,LeaveAreaLUA("RR3950","",[1020.670],5))
+		ActionOverride(Player6,LeaveAreaLUA("RR3950","",[1040.720],5))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("Bedrinofri","GLOBAL",13)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

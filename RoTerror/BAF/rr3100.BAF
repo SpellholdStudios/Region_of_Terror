@@ -1,0 +1,1307 @@
+IF
+	OnCreation()
+	Global("Reveal3100","RR3100",0)
+THEN
+	RESPONSE #100
+		Explore()
+		SetGlobal("Reveal3100","RR3100",1)
+END
+
+IF
+	Global("Arlaxthief","GLOBAL",2)
+	Global("dflkjad","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ArlThif","RR3100",TWO_DAYS)
+		SetGlobal("dflkjad","GLOBAL",1)
+END
+
+IF
+	Global("dflkjad","GLOBAL",1)
+	GlobalTimerExpired("ArlThif","RR3100")
+THEN
+	RESPONSE #100
+		SetGlobal("Arlaxthief","GLOBAL",3)
+		SmallWait(1)
+		SetGlobal("dflkjad","GLOBAL",2)
+END
+
+IF
+	Global("CreaEsath","RR3100",0)
+	LevelGT(Player1,0)
+THEN
+	RESPONSE #100
+		CreateCreature("Esath",[4150.612],0) // Esath
+		SetGlobal("CreaEsath","RR3100",1)
+END
+
+IF
+	Global("Esathquest","GLOBAL",3)
+	Global("Frmrkill","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Killfrmrs","GLOBAL",TEN_DAYS)
+		SetGlobal("Frmrkill","GLOBAL",1)
+END
+
+IF
+	Global("Eleanquest","GLOBAL",14)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Spawneleann","GLOBAL",FIVE_DAYS)
+		SetGlobal("Eleanquest","GLOBAL",15)
+END
+
+IF
+	Global("GuardCquest","GLOBAL",1)
+	HPLT("ArlaxT1",25)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly("ArlaxT1",NEUTRAL)
+		ClearAllActions()
+		Wait(1)
+		ActionOverride("ArlaxT1",DisplayStringHead(Myself,@568948))
+		Wait(1)
+		SetGlobal("sljdfja","RR3100",1)
+		Wait(1)
+		ActionOverride("ArlaxT1",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("GuardCquest","GLOBAL",1)
+	HPLT("ArlaxT7",25)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly("ArlaxT7",NEUTRAL)
+		ClearAllActions()
+		Wait(1)
+		ActionOverride("ArlaxT7",DisplayStringHead(Myself,@568948))
+		Wait(1)
+		SetGlobal("sljdfja","RR3100",1)
+		Wait(1)
+		ActionOverride("ArlaxT7",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("Pipleaves","GLOBAL",2)
+THEN
+	RESPONSE #100
+		Wait(1)
+		CreateCreature("Grayfot2",[2956.1085],14) // Pip Grayfoot
+		SmallWait(1)
+		ActionOverride("Grayfot2",Face(14))
+		SetGlobal("Pipleaves","GLOBAL",3)
+END
+
+IF
+	Global("StartForgGray","RR3100",1)
+THEN
+	RESPONSE #100
+		SetGlobal("StartForgGray","RR3100",2)
+		HideGUI()
+		StartCutSceneMode()
+		StartCutScene("Grayfot3")
+//		Continue()
+END
+
+IF
+	Global("StartForgGray2","RR3100",1)
+THEN
+	RESPONSE #100
+		SetGlobal("StartForgGray2","RR3100",2)
+		HideGUI()
+		StartCutSceneMode()
+		StartCutScene("Grayfot4")
+//		Continue()
+END
+
+IF
+	Global("RuleCas","GLOBAL",1)
+	Global("EraQuest","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Problemwcas","RR3100",TEN_DAYS)
+		SetGlobal("EraQuest","GLOBAL",1)
+END
+
+IF
+	Global("EraQuest","GLOBAL",1)
+	GlobalTimerExpired("Problemwcas","RR3100")
+THEN
+	RESPONSE #100
+		CreateCreatureObject("TalMess",Player1,0,0,0) // Messenger
+		Wait(1)
+		ActionOverride("TalMess",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("MeRule","GLOBAL",1)
+	Global("IlhSQuest","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Probilhwcas","RR3100",TEN_DAYS)
+		SetGlobal("IlhSQuest","GLOBAL",1)
+END
+
+IF
+	Global("IlhSQuest","GLOBAL",1)
+	GlobalTimerExpired("Probilhwcas","RR3100")
+THEN
+	RESPONSE #100
+		CreateCreatureObject("OlmMess",Player1,0,0,0) // Messenger
+		Wait(1)
+		ActionOverride("OlmMess",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",0)
+	Global("CreatinHamm","RR3100",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("HammCrea","RR3100",ONE_DAY)
+		SetGlobal("CreatinHamm","RR3100",1)
+END
+
+IF
+	Global("CreatinHamm","RR3100",1)
+	GlobalTimerExpired("HammCrea","RR3100")
+THEN
+	RESPONSE #100
+		CreateCreatureObjectOffScreen("Hammr1",Player1,0,0,0) // Haman
+		Wait(1)
+		SetGlobal("CreatinHamm","RR3100",2)
+END
+
+IF
+	Global("CreatinHamm3","GLOBAL",1)
+	GlobalTimerExpired("HammCrea4","GLOBAL")
+THEN
+	RESPONSE #100
+		CreateCreature("Hammr3",[2426.1010],8) // Haman
+		CreateCreature("HamAra2",[2400.1050],13) // Aragon
+		CreateCreature("HamJen2",[2426.982],0) // Jenave
+		CreateCreature("HamRob2",[2462.1072],5) // Rob
+		CreateCreature("HamMan2",[2442.1044],1) // Manev
+		CreateCreature("HamOlg2",[2414.1110],9) // Olga
+		SetGlobal("CreatinHamm3","GLOBAL",2)
+		SetGlobal("Hammermeetings","GLOBAL",6)
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",6)
+	Global("dsaskjfl","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("HammDest1","GLOBAL",FOUR_DAYS)
+		SetGlobal("dsaskjfl","GLOBAL",1)
+END
+
+IF
+	!Global("Hammermeetings","GLOBAL",7)
+	Global("dsaskjfl","GLOBAL",1)
+	GlobalTimerExpired("HammDest1","GLOBAL")
+THEN
+	RESPONSE #100
+		ActionOverride("Hammr3",DestroySelf())
+		ActionOverride("HamAra2",DestroySelf())
+		ActionOverride("HamMan2",DestroySelf())
+		ActionOverride("HamRob2",DestroySelf())
+		ActionOverride("HamOlg2",DestroySelf())
+		ActionOverride("HamJen2",DestroySelf())
+		SetGlobal("dsaskjfl","GLOBAL",2)
+		SetGlobal("Hammermeetings","GLOBAL",7)
+END
+
+IF
+	Global("KillHamm1","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly("Hammr3",ENEMY)
+		ChangeEnemyAlly("HamAra2",ENEMY)
+		ChangeEnemyAlly("HamMan2",ENEMY)
+		ChangeEnemyAlly("HamRob2",ENEMY)
+		ChangeEnemyAlly("HamOlg2",ENEMY)
+		ChangeEnemyAlly("HamJen2",ENEMY)
+		SetGlobal("KillHamm1","GLOBAL",2)
+END
+
+IF
+	Global("EscapeHamm1","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride("HamJen2",DestroySelf())
+		SmallWait(1)
+		ActionOverride("Hammr3",EscapeArea())
+		ActionOverride("HamOlg2",EscapeArea())
+		ActionOverride("HamRob2",EscapeArea())
+		ActionOverride("HamAra2",EscapeArea())
+		ActionOverride("HamMan2",EscapeArea())
+		SetGlobal("EscapeHamm1","GLOBAL",2)
+		SetGlobal("Hammermeetings","GLOBAL",7)
+END
+
+IF
+	Global("CreatinHamm3","GLOBAL",5)
+THEN
+	RESPONSE #100
+		ActionOverride("Hammr3",EscapeArea())
+		ActionOverride("HamOlg2",EscapeArea())
+		ActionOverride("HamRob2",EscapeArea())
+		ActionOverride("HamAra2",EscapeArea())
+		ActionOverride("HamMan2",EscapeArea())
+		ActionOverride("HamJen2",EscapeArea())
+		SetGlobal("CreatinHamm3","GLOBAL",6)
+END
+
+IF
+	Global("Wellmeethihg","GLOBAL",2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("AHighMa3",JumpToPoint([865.315]))
+		Wait(1)
+		ActionOverride("AHighMa3",FaceObject(Player1))
+		ActionOverride(Player1,FaceObject("AHighMa3"))
+		ActionOverride(Player2,FaceObject("AHighMa3"))
+		ActionOverride(Player3,FaceObject("AHighMa3"))
+		ActionOverride(Player4,FaceObject("AHighMa3"))
+		ActionOverride(Player5,FaceObject("AHighMa3"))
+		ActionOverride(Player6,FaceObject("AHighMa3"))
+		Wait(1)
+		EndCutSceneMode()
+		RestParty()
+		SmallWait(1)
+		StartCutSceneMode()
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("Wellmeethihg","GLOBAL",3)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("AHighMa3",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("ArlTemplQ","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("MeGhost","RR3100",SIX_HOURS)   //ONE_DAY
+		SetGlobal("ArlTemplQ","GLOBAL",3)
+END
+
+IF
+	Global("ArlTemplQ","GLOBAL",3)
+	GlobalTimerExpired("MeGhost","RR3100")
+	TimeGT(0)
+	TimeLT(6)
+THEN
+	RESPONSE #100
+		SetGlobal("ArlTemplQ","GLOBAL",4)
+END
+
+IF
+	Global("ArlTemplQ","GLOBAL",5)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		Wait(1)
+		FadeToColor([20.0],0)
+		StorePartyLocations()
+		Wait(1)
+		ActionOverride("ArlaxP8",JumpToPoint([253.1145]))
+		ActionOverride(Player1,JumpToPoint([323.1155]))
+		ActionOverride(Player2,JumpToPoint([226.1233]))
+		ActionOverride(Player3,JumpToPoint([227.1233]))
+		ActionOverride(Player4,JumpToPoint([228.1233]))
+		ActionOverride(Player5,JumpToPoint([229.1234]))
+		ActionOverride(Player6,JumpToPoint([229.1235]))
+		SmallWait(1)
+		MoveViewPoint([253.1145],INSTANT)
+		ActionOverride(Player1,FaceObject("ArlaxP8"))
+		ActionOverride(Player2,FaceObject("ArlaxP8"))
+		ActionOverride(Player3,FaceObject("ArlaxP8"))
+		ActionOverride(Player4,FaceObject("ArlaxP8"))
+		ActionOverride(Player5,FaceObject("ArlaxP8"))
+		ActionOverride(Player6,FaceObject("ArlaxP8"))
+		ActionOverride("ArlaxP8",FaceObject(Player1))
+		Wait(2)
+		FadeFromColor([20.0],0)
+		Wait(2)
+		ActionOverride("ArlaxP8",DisplayStringHead(Myself,@576137))
+		Wait(3)
+		FadeToColor([20.0],0)
+		Wait(3)
+		CreateCreature("MeGhost",[592.891],8) // Ghost
+		FadeFromColor([20.0],0)
+		Wait(2)
+		ActionOverride("MeGhost",MoveToPoint([436.987]))
+		Wait(1)
+		ActionOverride("ArlaxP8",DisplayStringHead(Myself,@576138))
+		ActionOverride("ArlaxP8",FaceObject("MeGhost"))
+		Wait(1)
+		ActionOverride(Player1,FaceObject("MeGhost"))
+		ActionOverride(Player2,FaceObject("MeGhost"))
+		ActionOverride(Player3,FaceObject("MeGhost"))
+		ActionOverride(Player4,FaceObject("MeGhost"))
+		ActionOverride(Player5,FaceObject("MeGhost"))
+		ActionOverride(Player6,FaceObject("MeGhost"))
+		Wait(2)
+		ActionOverride("MeGhost",DisplayStringHead(Myself,@576139))
+		Wait(3)
+		ActionOverride("MeGhost",MoveToPoint([274.1015]))
+		Wait(2)
+		ActionOverride("MeGhost",DisplayStringHead(Myself,@576140))
+		Wait(3)
+		ActionOverride("MeGhost",MoveToPoint([157.935]))
+		Wait(2)
+		ActionOverride("MeGhost",DisplayStringHead(Myself,@576139))
+		Wait(3)
+		ActionOverride("MeGhost",MoveToPoint([51.671]))
+		Wait(3)
+		ActionOverride("MeGhost",DestroySelf())
+		SetGlobal("ArlTemplQ","GLOBAL",6)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("ArlaxP8",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("ArlTemplQ","GLOBAL",7)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		RestorePartyLocations()
+		Wait(1)
+		ActionOverride("ArlaxP8",JumpToPoint([2575.2467]))
+		MoveViewObject(Player1,INSTANT)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("ArlTemplQ","GLOBAL",8)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("ArlTemplQ","GLOBAL",11)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		SmallWait(1)
+		MoveViewPoint([253.1145],INSTANT)
+		ActionOverride(Player1,FaceObject("ArlaxMa7"))
+		ActionOverride(Player2,FaceObject("ArlaxMa7"))
+		ActionOverride(Player3,FaceObject("ArlaxMa7"))
+		ActionOverride(Player4,FaceObject("ArlaxMa7"))
+		ActionOverride(Player5,FaceObject("ArlaxMa7"))
+		ActionOverride(Player6,FaceObject("ArlaxMa7"))
+		ActionOverride("ArlaxMa7",FaceObject(Player1))
+		Wait(2)
+		FadeFromColor([20.0],0)
+		Wait(2)
+		ActionOverride("ArlaxMa7",DisplayStringHead(Myself,@576172))
+		Wait(3)
+		ActionOverride(Player1,DisplayStringHead(Myself,@576173))
+		Wait(3)
+		CreateCreature("MeGhost",[272.755],0) // Ghost
+		Wait(1)
+		ActionOverride("MeGhost",MoveToPoint([274.1015]))
+		Wait(1)
+		ActionOverride("ArlaxMa7",FaceObject("MeGhost"))
+		ActionOverride(Player1,FaceObject("MeGhost"))
+		ActionOverride(Player2,FaceObject("MeGhost"))
+		ActionOverride(Player3,FaceObject("MeGhost"))
+		ActionOverride(Player4,FaceObject("MeGhost"))
+		ActionOverride(Player5,FaceObject("MeGhost"))
+		ActionOverride(Player6,FaceObject("MeGhost"))
+		Wait(2)
+		ActionOverride("ArlaxMa7",DisplayStringHead(Myself,@576174))
+		Wait(1)
+		ActionOverride("ArlaxMa7",MoveToPoint([274.1040]))
+		Wait(1)
+		ActionOverride("MeGhost",DisplayStringHead(Myself,@576175)) 
+		Wait(1)
+		ActionOverride("ArlaxMa7",FaceObject("MeGhost"))
+		Wait(3)
+		ActionOverride("ArlaxMa7",DisplayStringHead(Myself,@576176))
+		Wait(5)
+		ActionOverride("MeGhost",DisplayStringHead(Myself,@576177)) 
+		Wait(6)
+		ActionOverride("ArlaxMa7",DisplayStringHead(Myself,@576178))
+		Wait(5)
+		ActionOverride("MeGhost",DisplayStringHead(Myself,@576179)) 
+		Wait(5)
+		ActionOverride("ArlaxMa7",DisplayStringHead(Myself,@576180))
+		Wait(7)
+		ActionOverride("MeGhost",DisplayStringHead(Myself,@576181))
+		Wait(7)
+		ActionOverride("MeGhost",DestroySelf())
+		ActionOverride("ArlaxMa7",DestroySelf())
+		CreateVisualEffect("SPDEATH3",[274.985])
+		CreateVisualEffect("SPDEATH3",[274.1010])
+		Wait(7)
+		FadeToColor([20.0],0)
+		Wait(2)
+		ActionOverride(Player1,JumpToPoint([4851.3430]))
+		ActionOverride(Player2,JumpToPoint([4852.3430]))
+		ActionOverride(Player3,JumpToPoint([4853.3430]))
+		ActionOverride(Player4,JumpToPoint([4851.3431]))
+		ActionOverride(Player5,JumpToPoint([4851.3432]))
+		ActionOverride(Player6,JumpToPoint([4851.3433]))
+		MoveViewPoint([4851.3430],INSTANT)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		AddJournalEntry(@576184,QUEST_DONE)
+		SetGlobal("ArlTemplQ","GLOBAL",12)
+		UnhideGUI()
+		EndCutSceneMode()
+		EraseJournalEntry(@576185)
+		EraseJournalEntry(@576186)
+		ActionOverride(Player1,AddXPObject(Player1,5000))
+		ActionOverride(Player1,AddXPObject(Player2,5000))
+		ActionOverride(Player1,AddXPObject(Player3,5000))
+		ActionOverride(Player1,AddXPObject(Player4,5000))
+		ActionOverride(Player1,AddXPObject(Player5,5000))
+		ActionOverride(Player1,AddXPObject(Player6,5000))
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+THEN
+	RESPONSE #100
+		MultiPlayerSync()
+		SetInterrupt(FALSE)
+		Wait(1)
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCHAN01",Player1) // Drow Elven Chain +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCHAN01",Player1) // Drow Elven Chain +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCHAN01",Player2) // Drow Elven Chain +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCHAN01",Player2) // Drow Elven Chain +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCHAN01",Player3) // Drow Elven Chain +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCHAN01",Player3) // Drow Elven Chain +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCHAN01",Player4) // Drow Elven Chain +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCHAN01",Player4) // Drow Elven Chain +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCHAN01",Player5) // Drow Elven Chain +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCHAN01",Player5) // Drow Elven Chain +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCHAN01",Player6) // Drow Elven Chain +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCHAN01",Player6) // Drow Elven Chain +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCHAN02",Player1) // Drow Adamantine Chain +5
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCHAN02",Player1) // Drow Adamantine Chain +5
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCHAN02",Player2) // Drow Adamantine Chain +5
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCHAN02",Player2) // Drow Adamantine Chain +5
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCHAN02",Player3) // Drow Adamantine Chain +5
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCHAN02",Player3) // Drow Adamantine Chain +5
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCHAN02",Player4) // Drow Adamantine Chain +5
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCHAN02",Player4) // Drow Adamantine Chain +5
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCHAN02",Player5) // Drow Adamantine Chain +5
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCHAN02",Player5) // Drow Adamantine Chain +5
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCHAN02",Player6) // Drow Adamantine Chain +5
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCHAN02",Player6) // Drow Adamantine Chain +5
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSW1H01",Player1) // Drow Scimitar +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSW1H01",Player1) // Drow Scimitar +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSW1H01",Player2) // Drow Scimitar +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSW1H01",Player2) // Drow Scimitar +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSW1H01",Player3) // Drow Scimitar +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSW1H01",Player3) // Drow Scimitar +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSW1H01",Player4) // Drow Scimitar +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSW1H01",Player4) // Drow Scimitar +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSW1H01",Player5) // Drow Scimitar +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSW1H01",Player5) // Drow Scimitar +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSW1H01",Player6) // Drow Scimitar +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSW1H01",Player6) // Drow Scimitar +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSW1H02",Player1) // Drow Longsword +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSW1H02",Player1) // Drow Longsword +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSW1H02",Player2) // Drow Longsword +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSW1H02",Player2) // Drow Longsword +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSW1H02",Player3) // Drow Longsword +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSW1H02",Player3) // Drow Longsword +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSW1H02",Player4) // Drow Longsword +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSW1H02",Player4) // Drow Longsword +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSW1H02",Player5) // Drow Longsword +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSW1H02",Player5) // Drow Longsword +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSW1H02",Player6) // Drow Longsword +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSW1H02",Player6) // Drow Longsword +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBLUN01",Player1) // Drow Flail +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBLUN01",Player1) // Drow Flail +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBLUN01",Player2) // Drow Flail +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBLUN01",Player2) // Drow Flail +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBLUN01",Player3) // Drow Flail +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBLUN01",Player3) // Drow Flail +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBLUN01",Player4) // Drow Flail +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBLUN01",Player4) // Drow Flail +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBLUN01",Player5) // Drow Flail +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBLUN01",Player5) // Drow Flail +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBLUN01",Player6) // Drow Flail +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBLUN01",Player6) // Drow Flail +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWHALB01",Player1) // Drow Halberd +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWHALB01",Player1) // Drow Halberd +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWHALB01",Player2) // Drow Halberd +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWHALB01",Player2) // Drow Halberd +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWHALB01",Player3) // Drow Halberd +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWHALB01",Player3) // Drow Halberd +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWHALB01",Player4) // Drow Halberd +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWHALB01",Player4) // Drow Halberd +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWHALB01",Player5) // Drow Halberd +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWHALB01",Player5) // Drow Halberd +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWHALB01",Player6) // Drow Halberd +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWHALB01",Player6) // Drow Halberd +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSPER01",Player1) // Drow Lance +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSPER01",Player1) // Drow Lance +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSPER01",Player2) // Drow Lance +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSPER01",Player2) // Drow Lance +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSPER01",Player3) // Drow Lance +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSPER01",Player3) // Drow Lance +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSPER01",Player4) // Drow Lance +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSPER01",Player4) // Drow Lance +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSPER01",Player5) // Drow Lance +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSPER01",Player5) // Drow Lance +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSPER01",Player6) // Drow Lance +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSPER01",Player6) // Drow Lance +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWXBOW01",Player1) // Drow Crossbow of Speed
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWXBOW01",Player1) // Drow Crossbow of Speed
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWXBOW01",Player2) // Drow Crossbow of Speed
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWXBOW01",Player2) // Drow Crossbow of Speed
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWXBOW01",Player3) // Drow Crossbow of Speed
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWXBOW01",Player3) // Drow Crossbow of Speed
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWXBOW01",Player4) // Drow Crossbow of Speed
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWXBOW01",Player4) // Drow Crossbow of Speed
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWXBOW01",Player5) // Drow Crossbow of Speed
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWXBOW01",Player5) // Drow Crossbow of Speed
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWXBOW01",Player6) // Drow Crossbow of Speed
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWXBOW01",Player6) // Drow Crossbow of Speed
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSHLD01",Player1) // Drow Shield +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSHLD01",Player1) // Drow Shield +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSHLD01",Player2) // Drow Shield +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSHLD01",Player2) // Drow Shield +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSHLD01",Player3) // Drow Shield +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSHLD01",Player3) // Drow Shield +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSHLD01",Player4) // Drow Shield +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSHLD01",Player4) // Drow Shield +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSHLD01",Player5) // Drow Shield +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSHLD01",Player5) // Drow Shield +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWSHLD01",Player6) // Drow Shield +3
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWSHLD01",Player6) // Drow Shield +3
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCLCK01",Player1) // Drow Piwafwi Cloak
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCLCK01",Player1) // Drow Piwafwi Cloak
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCLCK01",Player2) // Drow Piwafwi Cloak
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCLCK01",Player2) // Drow Piwafwi Cloak
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCLCK01",Player3) // Drow Piwafwi Cloak
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCLCK01",Player3) // Drow Piwafwi Cloak
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCLCK01",Player4) // Drow Piwafwi Cloak
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCLCK01",Player4) // Drow Piwafwi Cloak
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCLCK01",Player5) // Drow Piwafwi Cloak
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCLCK01",Player5) // Drow Piwafwi Cloak
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWCLCK01",Player6) // Drow Piwafwi Cloak
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWCLCK01",Player6) // Drow Piwafwi Cloak
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT01",Player1) // Drow Bolt of Sleep
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT01",Player1) // Drow Bolt of Sleep
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT01",Player2) // Drow Bolt of Sleep
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT01",Player2) // Drow Bolt of Sleep
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT01",Player3) // Drow Bolt of Sleep
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT01",Player3) // Drow Bolt of Sleep
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT01",Player4) // Drow Bolt of Sleep
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT01",Player4) // Drow Bolt of Sleep
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT01",Player5) // Drow Bolt of Sleep
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT01",Player5) // Drow Bolt of Sleep
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT01",Player6) // Drow Bolt of Sleep
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT01",Player6) // Drow Bolt of Sleep
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT02",Player1) // Drow Bolt of Stunning
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT02",Player1) // Drow Bolt of Stunning
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT02",Player2) // Drow Bolt of Stunning
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT02",Player2) // Drow Bolt of Stunning
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT02",Player3) // Drow Bolt of Stunning
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT02",Player3) // Drow Bolt of Stunning
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT02",Player4) // Drow Bolt of Stunning
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT02",Player4) // Drow Bolt of Stunning
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT02",Player5) // Drow Bolt of Stunning
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT02",Player5) // Drow Bolt of Stunning
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT02",Player6) // Drow Bolt of Stunning
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT02",Player6) // Drow Bolt of Stunning
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT03",Player1) // Drow Bolt +1
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT03",Player1) // Drow Bolt +1
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT03",Player2) // Drow Bolt +1
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT03",Player2) // Drow Bolt +1
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT03",Player3) // Drow Bolt +1
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT03",Player3) // Drow Bolt +1
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT03",Player4) // Drow Bolt +1
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT03",Player4) // Drow Bolt +1
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT03",Player5) // Drow Bolt +1
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT03",Player5) // Drow Bolt +1
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWBOLT03",Player6) // Drow Bolt +1
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWBOLT03",Player6) // Drow Bolt +1
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWPLAT01",Player1) // Drow Full Plate +5
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWPLAT01",Player1) // Drow Full Plate +5
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWPLAT01",Player2) // Drow Full Plate +5
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWPLAT01",Player2) // Drow Full Plate +5
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWPLAT01",Player3) // Drow Full Plate +5
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWPLAT01",Player3) // Drow Full Plate +5
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWPLAT01",Player4) // Drow Full Plate +5
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWPLAT01",Player4) // Drow Full Plate +5
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWPLAT01",Player5) // Drow Full Plate +5
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWPLAT01",Player5) // Drow Full Plate +5
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("DWPLAT01",Player6) // Drow Full Plate +5
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","DWPLAT01",Player6) // Drow Full Plate +5
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("MISC9W",Player1) // Drow Piwafwi Cloak
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","MISC9W",Player1) // Drow Piwafwi Cloak
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("MISC9W",Player2) // Drow Piwafwi Cloak
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","MISC9W",Player2) // Drow Piwafwi Cloak
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("MISC9W",Player3) // Drow Piwafwi Cloak
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","MISC9W",Player3) // Drow Piwafwi Cloak
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("MISC9W",Player4) // Drow Piwafwi Cloak
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","MISC9W",Player4) // Drow Piwafwi Cloak
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("MISC9W",Player5) // Drow Piwafwi Cloak
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","MISC9W",Player5) // Drow Piwafwi Cloak
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+	HasItem("MISC9W",Player6) // Drow Piwafwi Cloak
+THEN
+	RESPONSE #100
+		TakeItemReplace("DWDUST","MISC9W",Player6) // Drow Piwafwi Cloak
+		Continue()
+END
+
+IF
+	Global("DROWITEMCHECKDONE","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetInterrupt(TRUE)
+		SetGlobal("DROWITEMCHECKDONE","GLOBAL",1)
+END
+
+

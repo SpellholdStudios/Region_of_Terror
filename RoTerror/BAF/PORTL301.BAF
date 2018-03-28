@@ -1,0 +1,41 @@
+IF
+	Clicked([ANYONE])
+	!PartyHasItem("UltKey") // Key to the Ultima
+	Range(LastTrigger,20)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@574998)
+END
+
+IF
+	Clicked([ANYONE])
+	PartyHasItem("UltKey") // Key to the Ultima
+	Range(LastTrigger,20)
+THEN
+	RESPONSE #100
+		FadeToColor([20.0],0)
+		PlaySound("EFF_M28")
+		Wait(1)
+		SaveGame(0)
+		MultiPlayerSync()
+		ActionOverride(Player1,LeaveAreaLUAPanic("RA3014","",[591.897],0))
+		ActionOverride(Player1,LeaveAreaLUA("RA3014","",[591.897],0))
+		ActionOverride(Player2,LeaveAreaLUA("RA3014","",[591.897],0))
+		ActionOverride(Player3,LeaveAreaLUA("RA3014","",[591.897],0))
+		ActionOverride(Player4,LeaveAreaLUA("RA3014","",[591.897],0))
+		ActionOverride(Player5,LeaveAreaLUA("RA3014","",[591.897],0))
+		ActionOverride(Player6,LeaveAreaLUA("RA3014","",[591.897],0))
+		FadeFromColor([20.0],0)
+		ActionOverride(Player1,MultiPlayerSync())
+		SetGlobal("Portl301","RA3014",3)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,20)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702)
+END
+
+

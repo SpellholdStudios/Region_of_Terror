@@ -1,0 +1,30 @@
+IF
+	Global("DemonAttack","RA5001",0)
+THEN
+	RESPONSE #100
+		MoveToObject(Player1)
+		SetGlobal("DemonAttack","RA5001",1)
+END
+
+IF
+	Range(Player1,10)
+	Global("DemonAttack","RA5001",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		SmallWait(1)
+		FaceObject(Player1)
+		MoveViewObject(Myself,INSTANT)
+		Wait(1)
+		ActionOverride(Player1,FaceObject(Myself))
+		Wait(1)
+		DisplayStringHead(Myself,@570105)
+		Wait(4)
+		SetGlobal("DemonAttack","RA5001",2)
+		ChangeEnemyAlly(Myself,ENEMY)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

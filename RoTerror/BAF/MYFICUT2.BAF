@@ -1,0 +1,28 @@
+IF
+        True()
+//	Global("Secndcutfiof","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeFromColor([20.0],0)
+		ActionOverride("Driz2",JoinParty())
+		Wait(1)
+		SetGlobal("Secndcutfiof","GLOBAL",1)
+		MoveViewPoint([600.419],VERY_FAST)
+		SmallWait(1)
+		Wait(2)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Driz2",StartDialogueNoSet("Enteri"))
+		SmallWait(1)
+		/*
+		MakeUnselectable(999999)
+		ActionOverride(Player2,MakeUnselectable(999999))
+		ActionOverride(Player3,MakeUnselectable(999999))
+		ActionOverride(Player4,MakeUnselectable(999999))
+		ActionOverride(Player5,MakeUnselectable(999999))
+		ActionOverride(Player6,MakeUnselectable(999999))
+		*/
+END
+
+

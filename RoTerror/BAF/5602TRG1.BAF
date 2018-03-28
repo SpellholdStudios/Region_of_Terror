@@ -1,0 +1,18 @@
+IF
+	Entered([ANYONE])
+	Global("Getdakey","RA5602",0)
+	CombatCounter(0)
+	Delay(8)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("FLLGBLU",[1724.1669])
+		Wait(2)
+		CreateVisualEffect("FLLGBLU",[1572.1893])
+		Wait(2)
+		CreateVisualEffect("SPCALLLI",[1572.1893])
+		Wait(1)
+		CreateCreature("ShdwSam4",[1572.1893],2) // Dark Guardian
+		SetGlobal("Getdakey","RA5602",1)
+END
+
+

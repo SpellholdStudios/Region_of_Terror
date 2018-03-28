@@ -1,0 +1,169 @@
+
+//ROT Area Links Table
+SRC_AREA  SRC_NWSE  TARGET_ARE  ENTRY_NAME  TRV_TIME  DEF_ENTRY  ENC1     ENC2     ENC3     ENC4     ENC5     ENC_PROB
+
+AR0020    S         RA4300      ExitS       0         4          AR0046   N        N        N        N        10
+AR0400    N         RA4300      ExitS       0         4          AR0046   N        N        N        N        10
+AR0400    E         RA4300      ExitS       0         4          AR0046   N        N        N        N        10
+AR0400    S         RA4300      ExitS       0         4          AR0046   N        N        N        N        10
+RA4300    N         AR0020      ExitSW      0         4          AR0046   N        N        N        N        10
+RA4300    E         AR0020      ExitSW      0         4          AR0046   N        N        N        N        10
+RA4300    S         AR0020      ExitSW      0         4          AR0046   N        N        N        N        10
+RA4300    W         AR0020      ExitSW      0         4          AR0046   N        N        N        N        10
+
+
+AR0020    E         RR0044      ExitN      25         4          N        N        N        N        N        0
+AR0020    N         RR0044      ExitN      25         4          N        N        N        N        N        0
+RR0044    S         AR0020      ExitNE     25         1          N        N        N        N        N        0
+
+
+AR0020    E         RA4900      ExitS      25         4          N        N        N        N        N        0
+AR0020    N         RA4900      ExitS      25         4          N        N        N        N        N        0
+AR1300    N         RA4900      ExitS      23         4          N        N        N        N        N        0
+AR1304    N         RA4900      ExitS      23         4          N        N        N        N        N        0
+AR1400    W         RA4900      ExitS      21         4          N        N        N        N        N        0
+AR1404    W         RA4900      ExitS      21         4          N        N        N        N        N        0
+RA4900    S         AR0020      ExitNE     25         1          N        N        N        N        N        0
+RA4900    S         AR1300      N          23         1          N        N        N        N        N        0
+RA4900    S         AR1304      N          23         1          N        N        N        N        N        0
+RA4900    S         AR1400      ExitE      21         8          N        N        N        N        N        0
+RA4900    S         AR1404      ExitE      21         8          N        N        N        N        N        0
+
+RA4900    S         RR3450      ExitSE      2         1          N        N        N        N        N        0
+RA4900    S         RR3400      ExitS       2         1          N        N        N        N        N        0
+RR3400    S         RA4900      ExitS       2         4          N        N        N        N        N        0
+RR3450    S         RA4900      ExitS       2         4          N        N        N        N        N        0
+
+AR0020    E         RR3400      ExitS      29         4          N        N        N        N        N        0
+AR0020    N         RR3400      ExitS      29         4          N        N        N        N        N        0
+AR1100    W         RR3400      ExitS      24         2          N        N        N        N        N        0
+AR1300    N         RR3400      ExitS      27         4          N        N        N        N        N        0
+AR1304    N         RR3400      ExitS      27         4          N        N        N        N        N        0
+AR1400    W         RR3400      ExitS      25         4          N        N        N        N        N        0
+AR1404    W         RR3400      ExitS      25         4          N        N        N        N        N        0
+RR3400    W         AR0020      ExitNE     29         1          N        N        N        N        N        0
+RR3400    E         AR1100      ExitSE     24         1          N        N        N        N        N        0
+RR3400    S         AR0020      ExitNE     29         1          N        N        N        N        N        0
+RR3400    S         AR1100      ExitSE     24         1          N        N        N        N        N        0
+RR3400    S         AR1300      N          27         1          N        N        N        N        N        0
+RR3400    S         AR1304      N          27         1          N        N        N        N        N        0
+RR3400    S         AR1400      ExitE      25         8          N        N        N        N        N        0
+RR3400    S         AR1404      ExitE      25         8          N        N        N        N        N        0
+
+RR3400    S         RR3450      ExitSE      1         1          N        N        N        N        N        0
+RR3450    S         RR3400      ExitS       1         1          N        N        N        N        N        0
+
+AR0020    E         RR3450      ExitSE     29         4          N        N        N        N        N        0
+AR0020    N         RR3450      ExitSE     29         4          N        N        N        N        N        0
+AR1300    N         RR3450      ExitSE     27         4          N        N        N        N        N        0
+AR1304    N         RR3450      ExitSE     27         4          N        N        N        N        N        0
+AR1400    W         RR3450      ExitSE     25         4          N        N        N        N        N        0
+AR1404    W         RR3450      ExitSE     25         4          N        N        N        N        N        0
+RR3450    S         AR0020      ExitNE     29         1          N        N        N        N        N        0
+RR3450    S         AR1300      N          27         1          N        N        N        N        N        0
+RR3450    S         AR1304      N          27         1          N        N        N        N        N        0
+RR3450    S         AR1400      ExitE      25         8          N        N        N        N        N        0
+RR3450    S         AR1404      ExitE      25         8          N        N        N        N        N        0
+
+
+AR0020    E         RR3300      ExitE      29         2          N        N        N        N        N        0
+AR0020    N         RR3300      ExitE      29         2          N        N        N        N        N        0
+AR1100    N         RR3300      ExitE      24         2          N        N        N        N        N        0
+AR1300    N         RR3300      ExitE      27         2          N        N        N        N        N        0
+AR1304    N         RR3300      ExitE      27         2          N        N        N        N        N        0
+AR1400    N         RR3300      ExitE      25         2          N        N        N        N        N        0
+AR1404    N         RR3300      ExitE      25         2          N        N        N        N        N        0
+RR3300    E         AR0020      ExitNE     29         1          N        N        N        N        N        0
+RR3300    E         AR1100      ExitNW     24         1          N        N        N        N        N        0
+RR3300    E         AR1300      ExitSE     27         1          N        N        N        N        N        0
+RR3300    E         AR1304      ExitSE     27         1          N        N        N        N        N        0
+RR3300    E         AR1400      ExitE      25         1          N        N        N        N        N        0
+RR3300    E         AR1404      ExitE      25         1          N        N        N        N        N        0
+
+RR3400    E         RR3300      ExitE       2         1          N        N        N        N        N        0
+RR3450    S         RR3300      ExitE       2         1          N        N        N        N        N        0
+RR3300    E         RR3450      ExitSE      2         1          N        N        N        N        N        0
+RR3300    E         RR3400      N           2         2          N        N        N        N        N        0
+
+
+AR0020    N         RR3900      ExitNE     27         1          N        N        N        N        N        0
+AR0020    E         RR3900      ExitNE     27         1          N        N        N        N        N        0
+AR1100    E         RR3900      ExitNE     22         1          N        N        N        N        N        0
+AR1200    N         RR3900      ExitNE     25         1          N        N        N        N        N        0
+AR1900    E         RR3900      ExitNE     27         1          N        N        N        N        N        0
+RR3900    W         AR0020      ExitNE     27         1          N        N        N        N        N        0
+RR3900    W         AR1100      ExitSE     22         1          N        N        N        N        N        0
+RR3900    S         AR1200      ExitW      25         1          N        N        N        N        N        0
+RR3900    W         AR1900      ExitW      27         1          N        N        N        N        N        0
+
+AR0020    N         RR3950      ExitN       28        1          N        N        N        N        N        0
+AR0020    E         RR3950      ExitN       28        1          N        N        N        N        N        0
+AR1100    N         RR3950      ExitN       23        1          N        N        N        N        N        0
+AR1200    N         RR3950      N           26        2          N        N        N        N        N        0
+RR3950    W         AR0020      ExitNE      28        1          N        N        N        N        N        0
+RR3950    W         AR1100      ExitSE      23        1          N        N        N        N        N        0
+RR3950    S         AR1200      N           26        2          N        N        N        N        N        0
+
+AR0020    N         RA4200      ExitW      28         8          N        N        N        N        N        0
+AR0020    E         RA4200      ExitW      28         8          N        N        N        N        N        0
+AR1100    N         RA4200      ExitW      23         8          N        N        N        N        N        0
+AR1200    N         RA4200      ExitS      26         4          N        N        N        N        N        0
+AR1900    E         RA4200      ExitW      28         8          N        N        N        N        N        0
+RA4200    W         AR0020      ExitNE     28         1          N        N        N        N        N        0
+RA4200    W         AR1100      ExitSE     23         1          N        N        N        N        N        0
+RA4200    S         AR1200      N          26         1          N        N        N        N        N        0
+RA4200    W         AR1900      N          28         2          N        N        N        N        N        0
+
+RA4200    S         RR3900      ExitNE      1         1          N        N        N        N        N        0
+RR3900    W         RA4200      ExitS       1         4          N        N        N        N        N        0
+RA4200    E         RR3950      ExitN       1         1          N        N        N        N        N        0
+RR3950    W         RA4200      N           1         2          N        N        N        N        N        0
+RR3900    N         RR3950      ExitN       1         1          N        N        N        N        N        0
+RR3950    S         RR3900      ExitNE      1         1          N        N        N        N        N        0
+
+
+AR0020    E         RR3100      ExitNE      35        1          N        N        N        N        N        0
+AR0020    N         RR3100      ExitNE      35        1          N        N        N        N        N        0
+AR1100    S         RR3100      ExitNE      30        1          N        N        N        N        N        0
+AR1200    S         RR3100      ExitNE      28        1          N        N        N        N        N        0
+AR1300    S         RR3100      ExitNE      28        1          N        N        N        N        N        0
+AR1304    S         RR3100      ExitNE      28        1          N        N        N        N        N        0
+AR1400    S         RR3100      ExitNE      26        1          N        N        N        N        N        0
+AR1404    S         RR3100      ExitNE      26        1          N        N        N        N        N        0
+AR1900    S         RR3100      ExitNE      34        1          N        N        N        N        N        0
+AR2000    S         RR3100      ExitNE      33        1          N        N        N        N        N        0
+RR3100    N         AR0020      ExitNE      35        1          N        N        N        N        N        0
+RR3100    N         AR1100      ExitSE      30        1          N        N        N        N        N        0
+RR3100    N         AR1200      ExitW       28        1          N        N        N        N        N        0
+RR3100    N         AR1300      ExitSE      28        1          N        N        N        N        N        0
+RR3100    N         AR1304      ExitSE      28        1          N        N        N        N        N        0
+RR3100    N         AR1400      ExitE       26        1          N        N        N        N        N        0
+RR3100    N         AR1404      ExitE       26        1          N        N        N        N        N        0
+RR3100    N         AR1900      ExitW       34        1          N        N        N        N        N        0
+RR3100    N         AR2000      ExitNW      33        1          N        N        N        N        N        0
+
+AR0020    E         RA4500      ExitN       35        1          N        N        N        N        N        0
+AR0020    N         RA4500      ExitN       35        1          N        N        N        N        N        0
+RA4500    W         AR0020      ExitNE      35        1          N        N        N        N        N        0
+
+AR0020    E         RA4700      ExitN       36        1          N        N        N        N        N        0
+AR0020    N         RA4700      ExitN       36        1          N        N        N        N        N        0
+AR2000    S         RA4700      ExitN       36        1          N        N        N        N        N        0
+RA4700    N         AR0020      ExitNE      36        1          N        N        N        N        N        0
+RA4700    N         AR2000      ExitNW      36        1          N        N        N        N        N        0
+
+RR3100    W         RR3200      ExitSE      2         4          N        N        N        N        N        0
+RR3200    S         RR3100      ExitSE      2         2          N        N        N        N        N        0
+RR3100    S         RA4500      ExitS       2         4          N        N        N        N        N        0
+RA4500    W         RR3100      ExitSE      2         2          N        N        N        N        N        0
+RA4700    E         RA4500      ExitS       2         4          N        N        N        N        N        0
+RA4500    W         RA4700      ExitE       2         2          N        N        N        N        N        0
+RR3100    S         RA4700      ExitE       2         2          N        N        N        N        N        0
+RA4700    E         RR3100      ExitSE      2         2          N        N        N        N        N        0
+RA5700    S         RR3100      ExitNE      2         1          N        N        N        N        N        0
+RR3100    E         RA5700      ExitS       2         4          N        N        N        N        N        0
+RA5700    S         RA4500      ExitS       2         1          N        N        N        N        N        0
+RA4500    N         RA5700      ExitS       2         4          N        N        N        N        N        0
+
+
+

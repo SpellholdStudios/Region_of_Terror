@@ -1,0 +1,23 @@
+IF
+	Clicked([ANYONE])
+	XPLT(Player1,1250000)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		ActionOverride(Player1,DisplayStringHead(Myself,@576249))
+END
+
+IF
+	Clicked([ANYONE])
+	XPGT(Player1,1249999)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUA("RR3301","",[382.776],9))
+		ActionOverride(Player2,LeaveAreaLUA("RR3301","",[383.776],9))
+		ActionOverride(Player3,LeaveAreaLUA("RR3301","",[384.776],9))
+		ActionOverride(Player4,LeaveAreaLUA("RR3301","",[385.779],8))
+		ActionOverride(Player5,LeaveAreaLUA("RR3301","",[385.778],8))
+		ActionOverride(Player6,LeaveAreaLUA("RR3301","",[385.777],8))
+END
+
+

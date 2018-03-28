@@ -1,0 +1,20 @@
+IF
+	Global("Dorrclosing2","RR3410",0)
+	OR(11)
+		Range("TalWar40",15)
+		Range("TalWar41",15)
+		Range("TalWar42",15)
+		Range("TalWar43",15)
+		Range("TalWar44",15)
+		Range("TalWar45",15)
+		Range("TalWar46",15)
+		Range("TalWar47",15)
+		Range("TalWar48",15)
+		Range("TalWar49",15)
+		Range("TalWar50",15)
+THEN
+	RESPONSE #100
+		SetGlobal("Dorrclosing2","RR3410",1)
+END
+
+

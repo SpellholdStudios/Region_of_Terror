@@ -1,0 +1,23 @@
+IF
+	!Global("Notopened","LOCALS",1)
+	OR(6)
+		Range(Player1,5)
+		Range(Player2,5)
+		Range(Player3,5)
+		Range(Player4,5)
+		Range(Player5,5)
+		Range(Player6,5)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("Notopened","LOCALS",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+		SetGlobal("Notopened","LOCALS",2)
+END
+
+

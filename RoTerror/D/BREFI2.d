@@ -1,0 +1,52 @@
+BEGIN ~BREFI2~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 GOTO 2
+  IF ~~ THEN REPLY @3 GOTO 6
+END
+
+IF ~~ THEN BEGIN 1 // from: 7.0 5.0 3.0 2.0 0.0
+  SAY @4
+  IF ~~ THEN DO ~StartStore("Bremen1",LastTalkedToBy())~ EXIT
+END
+
+IF ~~ THEN BEGIN 2 // from: 7.1 0.1
+  SAY @5
+  IF ~~ THEN REPLY @6 GOTO 1
+  IF ~~ THEN REPLY @7 GOTO 3
+  IF ~~ THEN REPLY @8 GOTO 4
+  IF ~~ THEN REPLY @9 GOTO 6
+END
+
+IF ~~ THEN BEGIN 3 // from: 5.1 2.1
+  SAY @10
+  IF ~~ THEN REPLY @11 GOTO 1
+  IF ~~ THEN REPLY @8 GOTO 4
+  IF ~~ THEN REPLY @12 GOTO 6
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.1 2.2
+  SAY @13
+  IF ~~ THEN GOTO 5
+END
+
+IF ~~ THEN BEGIN 5 // from: 4.0
+  SAY @14
+  IF ~~ THEN REPLY @11 GOTO 1
+  IF ~~ THEN REPLY @7 GOTO 3
+  IF ~~ THEN REPLY @12 GOTO 6
+END
+
+IF ~~ THEN BEGIN 6 // from: 7.2 5.2 3.2 2.3 0.2
+  SAY @15
+  IF ~~ THEN EXIT
+END
+
+IF ~NumTimesTalkedToGT(0)~ THEN BEGIN 7
+  SAY @16
+  IF ~~ THEN REPLY @17 GOTO 1
+  IF ~~ THEN REPLY @18 GOTO 2
+  IF ~~ THEN REPLY @19 GOTO 6
+END

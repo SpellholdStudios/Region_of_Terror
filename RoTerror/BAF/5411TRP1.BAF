@@ -1,0 +1,12 @@
+IF
+	Global("Trigger","RA5411",0)
+	OR(2)
+		Entered([ANYONE])
+		Range([ANYONE],1)
+THEN
+	RESPONSE #100
+		ForceSpell(LastTrigger,CLERIC_HEAL)
+		SetGlobal("Trigger","RA5411",1)
+END
+
+

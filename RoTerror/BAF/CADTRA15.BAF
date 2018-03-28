@@ -1,0 +1,12 @@
+IF
+	Clicked([ANYONE])
+	OR(2)
+		Global("CQuestActive","GLOBAL",12)
+		Global("CQuestActive","GLOBAL",13)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		ActionOverride(Player1,DisplayStringHead(Myself,@571210))
+END
+
+

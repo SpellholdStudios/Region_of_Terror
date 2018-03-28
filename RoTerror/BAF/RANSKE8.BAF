@@ -1,0 +1,10 @@
+IF
+	Global("Razorbattle","GLOBAL",1)
+	Global("Medasuxorenemy","LOCALS",0)
+THEN
+	RESPONSE #100
+		Enemy()
+		SetGlobal("Medasuxorenemy","LOCALS",1)
+END
+
+

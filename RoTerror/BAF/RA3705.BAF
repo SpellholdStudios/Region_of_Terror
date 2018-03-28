@@ -1,0 +1,9 @@
+IF
+	Global("EnteredArea","RA3705",0)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@571085))
+		SetGlobal("EnteredArea","RA3705",1)
+END
+
+

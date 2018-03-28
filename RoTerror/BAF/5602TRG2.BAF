@@ -1,0 +1,15 @@
+IF
+	Global("GetItem","RA5602",0)
+	OR(4)
+		Entered([PC])
+		Entered([ALLY])
+		Entered([CONTROLLED])
+		Entered([GOODBUTBLUE])
+THEN
+	RESPONSE #100
+		TriggerActivation("Trigger2",TRUE)
+		ApplyDamage(LastTrigger(Myself),20,MAGIC)
+		ApplyDamage(LastTrigger(Myself),70,FIRE)
+END
+
+

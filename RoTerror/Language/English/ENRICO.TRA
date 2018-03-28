@@ -1,0 +1,4 @@
+@0    = ~I'm here to tell you about making new creatures and editing the old ones.~
+@1    = ~The Creature Maker is very easy to use. Just remember to save the name of the creature and the bio of the creature to the dialog.tlk - file. Otherwise they won't show in the game.~
+@2    = ~This is just filling boxes. It's clearly stated what you need to put in each of the boxes and after the creature is ready, just save it to the override - folder so it can be used in the game.~
+@3    = ~Remember that the "Death Variable" box should be filled with the name of the creature file. The text you have in the death variable box will be used in scripts.~

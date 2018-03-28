@@ -1,0 +1,12 @@
+IF
+	Global("Trigger8","RA5416",0)
+	OR(2)
+		Entered([ANYONE])
+		Range([ANYONE],2)
+THEN
+	RESPONSE #100
+		CreateCreature("JellKing",[1340.1847],5) // Green Slime King
+		SetGlobal("Trigger8","RA5416",1)
+END
+
+

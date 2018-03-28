@@ -1,0 +1,83 @@
+IF
+	!Global("Reg2Spawn","RR3220",1)
+	Global("Reg2JoinedOnce","GLOBAL",0)
+	XPLT(Player1,160000)
+THEN
+	RESPONSE #100
+		ActionOverride("Reg2",DestroySelf())
+		CreateCreature("Reg2",[3268.309],2) // Regis
+		SetGlobal("Reg2Spawn","RR3220",1)
+END
+
+IF
+	!Global("Reg2Spawn","RR3220",2)
+	Global("Reg2JoinedOnce","GLOBAL",0)
+	XPGT(Player1,159999)
+	XPLT(Player1,440000)
+THEN
+	RESPONSE #100
+		ActionOverride("Reg2",DestroySelf())
+		CreateCreature("Reg21",[3268.309],2) // Regis
+		SetGlobal("Reg2Spawn","RR3220",2)
+END
+
+IF
+	!Global("Reg2Spawn","RR3220",3)
+	Global("Reg2JoinedOnce","GLOBAL",0)
+	XPGT(Player1,439999)
+	XPLT(Player1,880000)
+THEN
+	RESPONSE #100
+		ActionOverride("Reg2",DestroySelf())
+		CreateCreature("Reg22",[3268.309],2) // Regis
+		SetGlobal("Reg2Spawn","RR3220",3)
+END
+
+IF
+	!Global("Reg2Spawn","RR3220",4)
+	Global("Reg2JoinedOnce","GLOBAL",0)
+	XPGT(Player1,879999)
+THEN
+	RESPONSE #100
+		ActionOverride("Reg2",DestroySelf())
+		CreateCreature("Reg23",[3268.309],2) // Regis
+		SetGlobal("Reg2Spawn","RR3220",4)
+END
+
+IF
+	Global("RobDead","GLOBAL",3)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIREPI",[1858.2516])
+		PlaySound("EFF_M13")
+		ActionOverride("Marliss",Kill(Myself))
+		Wait(1)
+		CreateCreature("Tannar",[1858.2516],2) // Tanar'ri
+		SetGlobal("RobDead","GLOBAL",4)
+END
+
+IF
+	Global("ReveDemn","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(1)
+		CreateVisualEffect("SPFIREPI",[1858.2516])
+		PlaySound("EFF_M13")
+		ActionOverride("Marliss",Kill(Myself))
+		Wait(1)
+		CreateCreature("Tannar",[1858.2516],2) // Tanar'ri
+		SetGlobal("ReveDemn","GLOBAL",2)
+END
+
+IF
+	Dead("Errtu") // Errtu
+	Dead("Tannar2") // Tanar'ri
+	Dead("Tannar3") // Tanar'ri
+	Global("DeErr","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Driz2",DisplayStringHead(Myself,@575057))
+		SetGlobal("DeErr","GLOBAL",1)
+END
+
+

@@ -1,0 +1,29 @@
+IF
+	Global("Attackfrom1","RA5602",0)
+	Delay(15)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #20
+		DisplayStringHead(Myself,@573061)
+		FaceObject(LastSeenBy(Myself))
+	RESPONSE #20
+		DisplayStringHead(Myself,@573062)
+		FaceObject(LastSeenBy(Myself))
+	RESPONSE #20
+		DisplayStringHead(Myself,@573063)
+		FaceObject(LastSeenBy(Myself))
+	RESPONSE #20
+		DisplayStringHead(Myself,@573064)
+		FaceObject(LastSeenBy(Myself))
+	RESPONSE #20
+		DisplayStringHead(Myself,@573065)
+		FaceObject(LastSeenBy(Myself))
+END
+
+

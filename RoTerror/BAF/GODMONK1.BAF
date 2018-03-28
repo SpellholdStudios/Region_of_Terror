@@ -1,0 +1,56 @@
+IF
+	Global("SharServ","RA5000",0)
+	OR(6)
+		Range(Player1,15)
+		Range(Player2,15)
+		Range(Player3,15)
+		Range(Player4,15)
+		Range(Player5,15)
+		Range(Player6,15)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		MoveViewPoint([680.805],VERY_FAST)
+		Wait(2)
+		DisplayStringHead(Myself,@569874)
+		Wait(8)
+		DisplayStringHead(Myself,@570102)
+		Wait(12)
+		SmallWait(3)
+		DisplayStringHead(Myself,@570104)
+		Wait(9)
+		Face(7)
+		Wait(1)
+		DisplayStringHead(Myself,@569880)
+		Wait(5)
+		ActionOverride(Player1,ChangeEnemyAlly("GodMonk1",ENEMY))
+		ActionOverride(Player1,ChangeEnemyAlly("GodMonk2",ENEMY))
+		ActionOverride(Player1,ChangeEnemyAlly("GodMonk3",ENEMY))
+		ActionOverride(Player1,ChangeEnemyAlly("GodMonk4",ENEMY))
+		SetGlobal("SharServ","RA5000",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("SharServ","RA5000",1)
+	HPLT(Myself,45)
+	HPGT(Myself,0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		Wait(1)
+		DisplayStringHead(Myself,@569882)
+		Wait(6)
+		ApplyDamage(Myself,100,CRUSHING)
+		SetGlobal("SharServ","RA5000",2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

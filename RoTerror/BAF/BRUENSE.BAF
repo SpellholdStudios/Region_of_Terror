@@ -1,0 +1,38 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("MovBr","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@575067))
+		Wait(5)
+		FadeToColor([20.0],0)
+		HideGUI()
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("RR3302","",[472.1727],5))
+		ActionOverride(Player2,LeaveAreaLUA("RR3302","",[434.1711],5))
+		ActionOverride(Player3,LeaveAreaLUA("RR3302","",[398.1751],5))
+		ActionOverride(Player4,LeaveAreaLUA("RR3302","",[443.1826],5))
+		ActionOverride(Player5,LeaveAreaLUA("RR3302","",[444.1744],5))
+		ActionOverride(Player6,LeaveAreaLUA("RR3302","",[377.1817],5))
+		FadeFromColor([20.0],0)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702)
+END
+
+IF
+	Global("MovBr","GLOBAL",1)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@575068))
+END
+
+

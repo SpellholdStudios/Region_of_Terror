@@ -1,0 +1,26 @@
+BEGIN ~MORDRGP~
+
+IF ~Global("KickedOut","LOCALS",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 DO ~JoinParty()~ EXIT
+END
+
+IF ~~ THEN BEGIN 1 // from: 0.0
+  SAY @3
+  IF ~~ THEN DO ~SetGlobal("KickedOut","LOCALS",1)~ EXIT
+END
+
+IF ~Global("KickedOut","LOCALS",1)~ THEN BEGIN 2
+  SAY @4
+  IF ~~ THEN REPLY @5 DO ~SetGlobal("KickedOut","LOCALS",0)
+JoinParty()~ EXIT
+  IF ~~ THEN REPLY @6 EXIT
+END
+
+IF ~Global("KickedOut","LOCALS",0)
+HappinessLT(Myself,-290)~ THEN BEGIN 3
+  SAY @7
+  IF ~~ THEN DO ~LeaveParty()
+EscapeArea()~ EXIT
+END

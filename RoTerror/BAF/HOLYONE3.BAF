@@ -1,0 +1,82 @@
+IF
+	Global("StrtDur","RR3302",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		MoveViewPoint([650.1294],INSTANT)
+		ActionOverride(Player1,LeaveAreaLUA("RR3302","",[713.1349],7))
+		ActionOverride(Player2,LeaveAreaLUA("RR3302","",[441.1779],7))
+		ActionOverride(Player3,LeaveAreaLUA("RR3302","",[446.1801],7))
+		ActionOverride(Player4,LeaveAreaLUA("RR3302","",[396.1796],7))
+		ActionOverride(Player5,LeaveAreaLUA("RR3302","",[471.1687],7))
+		ActionOverride(Player6,LeaveAreaLUA("RR3302","",[473.1810],7))
+		LeaveAreaLUA("RR3302","",[592.1137],14)
+		SmallWait(1)
+		ActionOverride(Player1,FaceObject("HolyOne3"))
+		FaceObject(Player1)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(2)
+		ForceSpell(Player1,WIZARD_MAGIC_MISSILE)
+		UnhideGUI()
+		EndCutSceneMode()
+		Wait(1)
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		ForceSpell(Player1,WIZARD_MELF_ACID_ARROW)
+		UnhideGUI()
+		EndCutSceneMode()
+		Wait(1)
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		ForceSpell(Player1,WIZARD_FIREBALL)
+		UnhideGUI()
+		EndCutSceneMode()
+		Wait(1)
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		ForceSpell(Player1,WIZARD_LIGHTNING_BOLT)
+		UnhideGUI()
+		EndCutSceneMode()
+		Wait(1)
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		ForceSpell(Player1,WIZARD_SUN_FIRE)
+		UnhideGUI()
+		EndCutSceneMode()
+		SmallWait(1)
+		SetGlobal("StrtDur","RR3302",2)
+END
+
+IF
+	Global("StrtDur","RR3302",2)
+THEN
+	RESPONSE #100
+		SetGlobal("PassDur","GLOBAL",1)
+		Wait(1)
+		StartDialog("HolyOne3",[PC])
+		SetGlobal("StrtDur","RR3302",3)
+END
+
+IF
+	Global("PassDur","GLOBAL",2)
+THEN
+	RESPONSE #100
+		FadeToColor([20.0],0)
+		Wait(1)
+		LeaveAreaLUA("RR3302","",[1886.1539],7)
+		SmallWait(1)
+		FadeFromColor([20.0],0)
+		SmallWait(1)
+		SetGlobal("PassDur","GLOBAL",3)
+END
+
+

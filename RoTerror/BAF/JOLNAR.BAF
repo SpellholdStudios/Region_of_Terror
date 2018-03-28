@@ -1,0 +1,16 @@
+IF
+	Global("Ihstdwy","RR3900",0)
+	OR(6)
+		Range(Player1,15)
+		Range(Player2,15)
+		Range(Player3,15)
+		Range(Player4,15)
+		Range(Player5,15)
+		Range(Player6,15)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@565676)
+		SetGlobal("Ihstdwy","RR3900",1)
+END
+
+

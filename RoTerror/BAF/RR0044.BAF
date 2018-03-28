@@ -1,0 +1,82 @@
+IF
+	Global("Eihuvimmee","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride("SlaveT1",Enemy())
+		ActionOverride("SlaveT2",Enemy())
+		ActionOverride("SlaveT3",Enemy())
+		ActionOverride("SlaveT4",Enemy())
+		SetGlobal("Eihuvimmee","GLOBAL",2)
+END
+
+IF
+	Global("Clobsson","GLOBAL",6)
+	Global("Letsgrot","RR0044",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("SlaveT1",DestroySelf())
+		ActionOverride("SlaveT2",DestroySelf())
+		ActionOverride("SlaveT3",DestroySelf())
+		ActionOverride("SlaveT4",DestroySelf())
+		ActionOverride("SlaveT5",DestroySelf())
+		ActionOverride("SlaveM1",DestroySelf())
+		ActionOverride("SlaveM2",DestroySelf())
+		ActionOverride("SlaveM3",DestroySelf())
+		ActionOverride("SlaveM4",DestroySelf())
+		ActionOverride("SlaveW1",DestroySelf())
+		ActionOverride("SlaveW2",DestroySelf())
+		ActionOverride("SlaveW3",DestroySelf())
+		ActionOverride("SlaveW4",DestroySelf())
+		ActionOverride("SlaveW5",DestroySelf())
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("Letsgrot","RR0044",2)
+END
+
+IF
+	Global("Clobsson","GLOBAL",6)
+	Global("Slavesrun","RR0044",0)
+THEN
+	RESPONSE #100
+		Wait(2)
+		ActionOverride("SlaveM1",DisplayStringHead(Myself,@566989))
+		ActionOverride("SlaveW1",DisplayStringHead(Myself,@566991))
+		Wait(3)
+		ActionOverride("SlaveM1",EscapeArea())
+		ActionOverride("SlaveW1",EscapeArea())
+		ActionOverride("SlaveM2",EscapeArea())
+		ActionOverride("SlaveW2",EscapeArea())
+		SetGlobal("Slavesrun","RR0044",1)
+END
+
+IF
+	Global("Clobsson","GLOBAL",6)
+	Dead("SlaveT1") // Slave Trader
+	Dead("SlaveT2") // Slave Trader
+	Dead("SlaveT3") // Slave Trader
+	Dead("SlaveT4") // Slave Trader
+	Dead("SlaveT5") // Slave Trader
+THEN
+	RESPONSE #100
+		Wait(1)
+		ActionOverride("SlaveM3",DisplayStringHead(Myself,@566992))
+		ActionOverride("SlaveM4",DisplayStringHead(Myself,@566993))
+		ActionOverride("SlaveW3",DisplayStringHead(Myself,@566994))
+		Wait(3)
+		ActionOverride("SlaveW4",EscapeArea())
+		ActionOverride("SlaveW5",EscapeArea())
+		ActionOverride("SlaveW3",EscapeArea())
+		ActionOverride("SlaveM4",EscapeArea())
+		ActionOverride("SlaveM3",EscapeArea())
+		SetGlobal("Clobsson","GLOBAL",7)
+END
+
+

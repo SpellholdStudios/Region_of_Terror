@@ -1,0 +1,23 @@
+IF
+	Global("EntDjin11","AR0400",0)
+	See("Driz2")
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		SmallWait(3)
+		FaceObject("Driz2")
+		ActionOverride("Driz2",FaceObject("EntDjin"))
+		DisplayStringHead(Myself,@574776)
+		Wait(6)
+		ActionOverride("Driz2",DisplayStringHead(Myself,@574777))
+		Wait(1)
+		ActionOverride("EntDjin",ForceSpell(Myself,DRYAD_TELEPORT))
+		UnhideGUI()
+		SetGlobal("EntDjin11","AR0400",1)
+		SetGlobal("EntDjin55","AR0400",1)
+		EndCutSceneMode()
+		ActionOverride("EntDjin",DestroySelf())
+END
+
+

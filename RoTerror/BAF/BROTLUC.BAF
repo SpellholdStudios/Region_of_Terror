@@ -1,0 +1,41 @@
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Followme","LOCALS",1)
+	HPLT(Myself,30)
+	HaveSpell(CLERIC_RESTORATION)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_RESTORATION)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Followme","LOCALS",1)
+	HPLT(Myself,80)
+	HasItem("POTN52",Myself) // Potion of Extra Healing
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Followme","LOCALS",1)
+	DamageTakenGT(1)
+	HasItem("StoPot",Myself) // Potion of Stoneskin
+THEN
+	RESPONSE #100
+		UseItem("StoPot",Myself) // Potion of Stoneskin
+END
+
+IF
+	Global("CQuestActive","GLOBAL",13)
+	Global("Followme","LOCALS",1)
+	Delay(3)
+THEN
+	RESPONSE #100
+		MoveToPointNoInterrupt([664.601])
+		SetGlobal("Followme","LOCALS",2)
+END
+
+

@@ -1,0 +1,13 @@
+IF
+	Global("Trigger5","RA5416",0)
+	OR(2)
+		Entered([ANYONE])
+		Range([ANYONE],2)
+THEN
+	RESPONSE #100
+		CreateCreature("Abishai1",[1430.1380],13) // Abishai
+		CreateCreature("Abishai1",[1432.1382],13) // Abishai
+		SetGlobal("Trigger5","RA5416",1)
+END
+
+

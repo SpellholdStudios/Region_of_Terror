@@ -1,0 +1,112 @@
+IF
+	Global("EnteredArea","RA5001",0)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@570046))
+		SetGlobal("EnteredArea","RA5001",1)
+END
+
+IF
+	Global("EnteredArea","RA5001",1)
+THEN
+	RESPONSE #100
+		ActionOverride("GodBear1",MoveToObject(Player1))
+		ActionOverride("GodBear2",MoveToObject(Player1))
+		ActionOverride("GodBear3",MoveToObject(Player1))
+		ActionOverride("GodBear4",MoveToObject(Player1))
+		ActionOverride("GodWolf1",MoveToObject(Player1))
+		ActionOverride("GodWolf2",MoveToObject(Player1))
+		ActionOverride("GodWolf3",MoveToObject(Player1))
+		ActionOverride("GodWolf4",MoveToObject(Player1))
+		ActionOverride("GodWolf5",MoveToObject(Player1))
+		SetGlobal("EnteredArea","RA5001",2)
+END
+
+IF
+	Dead("GodAdv1") // Possessed Fighter
+	Global("jlkds","RA5001",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPWRDFLD","GodAdv1")
+		Wait(3)
+		ActionOverride("GodAdv1",DestroySelf())
+		SetGlobal("jlkds","RA5001",1)
+END
+
+IF
+	Dead("GodAdv2") // Possessed Fighter
+	Global("adsfag","RA5001",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPWRDFLD","GodAdv2")
+		Wait(3)
+		ActionOverride("GodAdv2",DestroySelf())
+		SetGlobal("adsfag","RA5001",1)
+END
+
+IF
+	Dead("GodAdv3") // Possessed Monk
+	Global("dgdahf","RA5001",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPWRDFLD","GodAdv3")
+		Wait(3)
+		ActionOverride("GodAdv3",DestroySelf())
+		SetGlobal("dgdahf","RA5001",1)
+END
+
+IF
+	Dead("GodAdv4") // Possessed Thief
+	Global("djsfgeth","RA5001",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPWRDFLD","GodAdv4")
+		Wait(3)
+		ActionOverride("GodAdv4",DestroySelf())
+		SetGlobal("djsfgeth","RA5001",1)
+END
+
+IF
+	Dead("GodAdv5") // Possessed Wizard
+	Global("ahfeahdf","RA5001",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPWRDFLD","GodAdv5")
+		Wait(3)
+		ActionOverride("GodAdv5",DestroySelf())
+		SetGlobal("ahfeahdf","RA5001",1)
+END
+
+IF
+	Dead("GodAdv6") // Possessed Cleric
+	Global("adfhahdf","RA5001",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPWRDFLD","GodAdv6")
+		Wait(3)
+		ActionOverride("GodAdv6",DestroySelf())
+		SetGlobal("adfhahdf","RA5001",1)
+END
+
+IF
+	Global("SkeletonAttack","RA5001",1)
+THEN
+	RESPONSE #100
+		Wait(10)
+		SetGlobal("SkeletonAttack","RA5001",2)
+END
+
+IF
+	Global("SkeletonAttack","RA5001",2)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		Wait(1)
+		CreateVisualEffect("SPPLANAR",[1089.681])
+		Wait(2)
+		SmallWait(8)
+		CreateCreature("Cratzyl",[1089.681],14) // Cratzyl
+		SetGlobal("SkeletonAttack","RA5001",3)
+END
+
+

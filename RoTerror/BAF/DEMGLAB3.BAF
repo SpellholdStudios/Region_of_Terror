@@ -1,0 +1,61 @@
+IF
+	OR(7)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+		See("CadPri15")
+	StateCheck(LastSeenBy,STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		AttackOneRound(LastSeenBy)
+		AttackOneRound(LastSeenBy)
+END
+
+IF
+	OR(2)
+		See([0.0.0.CLERIC_ALL])
+		See([0.0.0.LONG_BOW])
+	Global("Prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy,WIZARD_DISPEL_MAGIC)
+		SetGlobal("Prep","LOCALS",1)
+END
+
+IF
+	OR(7)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+		See("CadPri15")
+	Global("Prep","LOCALS",1)
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_POWER_WORD_STUN)
+		SetGlobal("Prep","LOCALS",2)
+END
+
+IF
+	OR(7)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+		See("CadPri15")
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #70
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+	RESPONSE #30
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_POWER_WORD_STUN)
+END
+
+

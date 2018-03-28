@@ -1,0 +1,12 @@
+@0    = ~There are three big tools around currently. Which one of them would you like to learn about?~
+@1    = ~Near Infinity.~
+@2    = ~Dragonlance TC Editor Pro.~
+@3    = ~Weidu.~
+@4    = ~None of them, thank you.~
+@5    = ~Near Infinity is mostly meant for editing, not creating. You can edit every single file by using it.~
+@6    = ~It also offers features like 'Search' which for example allows you to search for a specific attribute. You can search all the creature files for Jon Irenicus and stuff like that.~
+@7    = ~I have nothing more to ask.~
+@8    = ~This is the best too around at the moment. It is constantly updated and you can create and edit almost everything with it.~
+@9    = ~One downside is that it looks pretty scary to newbies. Lot's of boxes and stuff like that so it might take a while to understand all that you can do with it.~
+@10   = ~Unfortunately I am unfamiliar with this tool. Anyway it works in Dos - style (black background, white text) and you use it with commands.~
+@11   = ~A very useful tool for dialogs and scripting and mod distributing if you learn how to use it.~

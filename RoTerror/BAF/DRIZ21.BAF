@@ -1,0 +1,157 @@
+IF
+	See(Player1)
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("EntDjin55","AR0400",1)
+THEN
+	RESPONSE #100
+		SetGlobal("EntDjin55","AR0400",2)
+END
+
+IF
+	Global("EntDjin55","AR0400",2)
+THEN
+	RESPONSE #100
+		Wait(3)
+		SetGlobal("EntDjin55","AR0400",3)
+		SmallWait(2)
+		StartDialog("Driz2J",[PC])
+		SmallWait(2)
+		SetGlobal("EntDjin55","AR0400",4)
+END
+
+IF
+	Global("JarDjin65","AR0400",0)
+	GlobalTimerExpired("EntDjin15","AR0400")
+THEN
+	RESPONSE #100
+		SetGlobal("JarDjin65","AR0400",2)
+END
+
+IF
+	Global("JarDjin65","AR0400",2)
+THEN
+	RESPONSE #100
+		Wait(3)
+		SetGlobal("JarDjin65","AR0400",3)
+		SmallWait(2)
+		StartDialog("Driz2J",[PC])
+		SmallWait(2)
+		SetGlobal("JarDjin65","AR0400",4)
+END
+
+IF
+	Global("AfterMes","RR3150",1)
+	See(Player1)
+THEN
+	RESPONSE #100
+		Wait(4)
+		SetGlobal("AfterMes","RR3150",2)
+		SmallWait(2)
+		StartDialog("Driz2J",[PC])
+		SmallWait(2)
+		SetGlobal("AfterMes","RR3150",3)
+END
+
+IF
+	Global("AloDriz","GLOBAL",1)
+	See(Player1)
+THEN
+	RESPONSE #100
+		Wait(4)
+		StartDialog("Driz2J",[PC])
+END
+
+IF
+	Global("NCaDri","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartDialog("Driz2J",[PC])
+END
+
+IF
+	Global("Affihdr","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartDialog("Driz2J",[PC])
+END
+
+IF
+	Global("Driknicd","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartDialog("Driz2J",[PC])
+END
+
+IF
+	Global("Speakwithice","RA5611",0)
+	See("Icebeard")
+THEN
+	RESPONSE #100
+		SetGlobal("Speakwithice","RA5611",1)
+END
+
+IF
+	Global("BruenorOut","GLOBAL",1)
+	Delay(5)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("BruenorOut","GLOBAL",2)
+		StartDialog("Driz2J",[PC])
+END
+
+IF
+	!Global("Theendisnear","GLOBAL",1)
+	!Global("Theendisnear","GLOBAL",2)
+	!Global("Theendisnear","GLOBAL",3)
+	Global("CattiBrieOut","GLOBAL",1)
+	Delay(5)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("CattiBrieOut","GLOBAL",2)
+		StartDialog("Driz2J",[PC])
+END
+
+IF
+	Global("RegisOut","GLOBAL",1)
+	Delay(5)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("RegisOut","GLOBAL",2)
+		StartDialog("Driz2J",[PC])
+END
+
+IF
+	InParty(Myself)
+	Global("WulfgarOut","GLOBAL",1)
+	Delay(5)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("WulfgarOut","GLOBAL",2)
+		StartDialog("Driz2J",[PC])
+END
+
+IF
+	Global("DrizWulfTalk","LOCALS",0)
+	IsValidForPartyDialog("Wulfg2")
+	AreaCheck("AR0700")
+	Delay(20)
+THEN
+	RESPONSE #100
+		SetGlobal("DrizWulfTalk","LOCALS",1)
+		StartDialog("Driz2J",[PC])
+END
+
+

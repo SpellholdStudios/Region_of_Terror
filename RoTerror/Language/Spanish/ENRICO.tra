@@ -1,0 +1,4 @@
+@0    = ~Estoy aquí para hablaros de cómo hacer nuevas criaturas y como editar las viejas.~
+@1    = ~El Creature Maker es muy fácil de usar. Solo recordad de guardar el nombre de la criatura y la bio en el fichero - dialog.tlk. Sino no se mostrarán en el juego.~
+@2    = ~Solo se trata de rellenar casillas. Se muestra claramente lo que necesitáis poner en cada una de la casillas y cuando la criatura esté terminada, guardadla en la carpeta - override para que se pueda usar en el juego.~
+@3    = ~Recordad que la casilla "Death Variable" debería rellenarse con el nombre del fichero de la criatura. El texto que hay en la casilla "death variable" se usará en los scripts.~

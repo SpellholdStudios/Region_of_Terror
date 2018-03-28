@@ -1,0 +1,19 @@
+IF
+	Global("Piggg","AR1000",0)
+	XPGT(Player1,999999)
+	ReputationGT(Player1,13)
+THEN
+	RESPONSE #100
+		CreateCreature("Biggs",[2986.1116],5) // Biggs
+		SetGlobal("Piggg","AR1000",1)
+END
+
+IF
+	Global("Crecrie","AR1000",0)
+THEN
+	RESPONSE #100
+		CreateCreature("TellAre1",[2214.862],13) // Town Crier
+		SetGlobal("Crecrie","AR1000",1)
+END
+
+

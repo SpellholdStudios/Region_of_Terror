@@ -1,0 +1,18 @@
+IF
+	Range(NearestEnemyOf(Myself),15)
+	Delay(15)
+THEN
+	RESPONSE #40
+		ForceSpell(Myself,GOLEM_GASCLOUD)
+	RESPONSE #60
+		ReallyForceSpell(Myself,WIZARD_INCENDIARY_CLOUD)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),5)
+END
+
+

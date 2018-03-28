@@ -1,0 +1,22 @@
+IF
+	Global("spawned","AR0528",0)
+THEN
+	RESPONSE #100
+		CreateCreature("Mendor",[344.296],1)
+		SetGlobal("spawned","AR0528",1)
+END
+
+IF
+	Dead("Mendor") // Mendor
+	Global("Kezaeza","AR0528",0)
+	Global("Clobsson","GLOBAL",5)
+THEN
+	RESPONSE #100
+		Wait(1)
+		ActionOverride(Player1,DisplayStringHead(Myself,@566966)) // You extract a scroll from the man´s body. It tells you the location of Clob´s son.
+		Wait(3)
+		RevealAreaOnMap("RR0044")
+		SetGlobal("Kezaeza","AR0528",1)
+END
+
+

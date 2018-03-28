@@ -1,0 +1,22 @@
+BEGIN ~ARLAXM6~
+
+IF ~!Global("Pipleaves","GLOBAL",3)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 2
+  IF ~~ THEN REPLY @2 EXIT
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0 0.0
+  SAY @3
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("Pipleaves","GLOBAL",3)~ THEN BEGIN 3
+  SAY @0
+  IF ~~ THEN GOTO 4
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.0
+  SAY @4
+  IF ~~ THEN EXIT
+END

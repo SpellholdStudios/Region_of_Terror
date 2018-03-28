@@ -1,0 +1,24 @@
+IF
+        True()
+THEN
+	RESPONSE #100
+		CutSceneId("Grayfoot")
+		Wait(1)
+		JumpToPoint([650.209])
+		Face(11)
+		Wait(2)
+		CreateVisualEffect("sparmor2",[650.209])
+		CreateVisualEffect("spcrtwpn",[650.209])
+		Wait(1)
+		Swing()
+		Wait(1)
+		JumpToPoint([603.293])
+		Face(14)
+		Wait(1)
+		SetGlobal("StartForgGray","RR3101",0)
+		UnhideGUI()
+		EndCutSceneMode()
+		StartDialogueNoSet(Player1)
+END
+
+

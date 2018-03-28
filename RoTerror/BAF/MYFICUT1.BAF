@@ -1,0 +1,20 @@
+IF
+        True()
+//	Global("MyFiCut1","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		StorePartyLocations()
+		SetGlobal("MyFiCut1","GLOBAL",1)
+		SmallWait(2)
+		SetGlobal("MyFiCut1","GLOBAL",2)
+		SmallWait(5)
+		LeaveAreaLUAPanic("RR4005","",[0.0],0)
+		LeaveAreaLUA("RR4005","",[0.0],0)
+		MultiPlayerSync()
+		MoveViewPoint([600.419],INSTANT)
+		Wait(1)
+		StartCutScene("MyFiCut2")
+END
+
+

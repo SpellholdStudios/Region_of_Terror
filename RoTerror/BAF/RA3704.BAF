@@ -1,0 +1,609 @@
+IF
+	Global("CQuestActive","GLOBAL",12)
+	!Global("Hammermeetings","GLOBAL",9)
+	!Global("Hammermeetings","GLOBAL",10)
+	!Global("Hammermeetings","GLOBAL",11)
+	!Global("Hammermeetings","GLOBAL",12)
+	Global("EnteredArea","RA3704",0)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		DayNight(DAWN_START)
+		SmallWait(5)
+		ActionOverride("CadDem18",FaceObject(Player1))
+		SmallWait(5)
+		ActionOverride(Player1,FaceObject("CadDem18"))
+		ActionOverride(Player2,FaceObject("CadDem18"))
+		ActionOverride(Player3,FaceObject("CadDem18"))
+		ActionOverride(Player4,FaceObject("CadDem18"))
+		ActionOverride(Player5,FaceObject("CadDem18"))
+		ActionOverride(Player6,FaceObject("CadDem18"))
+		ActionOverride("CadPri15",FaceObject("CadDem18"))
+		Wait(1)
+		ActionOverride("CadPri15",DisplayStringHead(Myself,@571206))
+		Wait(3)
+		ActionOverride("CadDem18",DisplayStringHead(Myself,@571207))
+		SetGlobal("EnteredArea","RA3704",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	!Global("Hammermeetings","GLOBAL",9)
+	!Global("Hammermeetings","GLOBAL",10)
+	!Global("Hammermeetings","GLOBAL",11)
+	!Global("Hammermeetings","GLOBAL",12)
+	Dead("CadDem18") // Carethron
+THEN
+	RESPONSE #100
+		Wait(2)
+		ActionOverride("CadPri15",DisplayStringHead(Myself,@571208))
+		Wait(7)
+		SetGlobal("CQuestActive","GLOBAL",13)
+		Wait(4)
+		StartCutSceneMode()
+		HideGUI()
+		ActionOverride(Player1,JumpToPoint([819.512]))
+		ActionOverride(Player2,JumpToPoint([843.545]))
+		ActionOverride(Player3,JumpToPoint([809.729]))
+		ActionOverride(Player4,JumpToPoint([769.745]))
+		ActionOverride(Player5,JumpToPoint([551.487]))
+		ActionOverride(Player6,JumpToPoint([511.505]))
+		SmallWait(1)
+		MoveViewPoint([664.601],VERY_FAST)
+		ActionOverride(Player1,FaceObject("CadPri15"))
+		ActionOverride(Player2,FaceObject("CadPri15"))
+		ActionOverride(Player3,FaceObject("CadPri15"))
+		ActionOverride(Player4,FaceObject("CadPri15"))
+		ActionOverride(Player5,FaceObject("CadPri15"))
+		ActionOverride(Player6,FaceObject("CadPri15"))
+		Wait(6)
+		ActionOverride("CadPri15",ForceSpell(Myself,2128))
+		Wait(7)
+		CreateVisualEffectObject("IDESTRUH","CadPri15")
+		Wait(5)
+		ActionOverride("CadPri15",Kill(Myself))
+		Wait(1)
+		CreateVisualEffectObject("IPWKILLX","CadPri15")
+		CreateVisualEffectObject("IWDEATH1","CadPri15")
+		Wait(2)
+		CreateVisualEffectObject("IPWKILLX","CadPri15")
+		Wait(2)
+		CreateVisualEffectObject("IPWKILLX","CadPri15")
+		Wait(3)
+		CreateVisualEffect("IWDEATH2",[667.617])
+		ActionOverride("CadPri15",DestroySelf())
+		Wait(4)
+		DayNight(MIDNIGHT)
+		Wait(3)
+		FadeToColor([20.0],0)
+		Wait(2)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RA3703","",[784.412],2))
+		ActionOverride(Player2,LeaveAreaLUA("RA3703","",[752.392],2))
+		ActionOverride(Player3,LeaveAreaLUA("RA3703","",[784.364],2))
+		ActionOverride(Player4,LeaveAreaLUA("RA3703","",[828.392],2))
+		ActionOverride(Player5,LeaveAreaLUA("RA3703","",[860.362],2))
+		ActionOverride(Player6,LeaveAreaLUA("RA3703","",[820.332],2))
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",9)
+	Global("CQuestActive","GLOBAL",12)
+	Global("EnteredArea","RA3704",0)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		DayNight(DAWN_START)
+		SmallWait(5)
+		ActionOverride("CadDem18",DestroySelf())
+		SmallWait(1)
+		CreateCreature("CadDem25",[667.601],9) // Carethron
+		SmallWait(3)
+		ActionOverride("CadDem25",FaceObject(Player1))
+		SmallWait(5)
+		ActionOverride(Player1,FaceObject("CadDem25"))
+		ActionOverride(Player2,FaceObject("CadDem25"))
+		ActionOverride(Player3,FaceObject("CadDem25"))
+		ActionOverride(Player4,FaceObject("CadDem25"))
+		ActionOverride(Player5,FaceObject("CadDem25"))
+		ActionOverride(Player6,FaceObject("CadDem25"))
+		ActionOverride("CadPri15",FaceObject("CadDem25"))
+		Wait(1)
+		ActionOverride("CadPri15",DisplayStringHead(Myself,@571206))
+		Wait(3)
+		ActionOverride("CadDem25",DisplayStringHead(Myself,@571207))
+		SetGlobal("CQuestActive","GLOBAL",13)
+		Wait(1)
+		ActionOverride("CadDem25",ReallyForceSpell("CadPri15",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
+		Wait(3)
+		ActionOverride(Player1,DisplayStringHead(Myself,@571422))
+		Wait(1)
+		ActionOverride("CadDem25",DisplayStringHead(Myself,@571483))
+		SmallWait(1)
+		ActionOverride("CadDem25",ForceSpell(Myself,2131))
+		Wait(3)
+		CreateVisualEffect("SPFIRSDI",[725.542])
+		CreateCreature("CadDem23",[725.542],12) // Cornugon
+		CreateVisualEffect("SPFIRSDI",[763.586])
+		CreateCreature("CadDem24",[763.586],11) // Demon
+		SetGlobal("Hammermeetings","GLOBAL",10)
+		SetGlobal("EnteredArea","RA3704",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("EnteredArea","RA3704",1)
+	InParty("Driz2")
+	!Dead("Driz2") // Drizzt Do'Urden
+	Delay(20)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Driz2",DisplayStringHead(Myself,@571474))
+		Wait(1)
+		ActionOverride("CadDem25",DisplayStringHead(Myself,@571482))
+		SetGlobal("EnteredArea","RA3704",2)
+END
+
+IF
+	Global("EnteredArea","RA3704",2)
+	InParty("Catt2")
+	!Dead("Catt2") // Catti-Brie
+	Delay(8)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Catt2",DisplayStringHead(Myself,@571435))
+		SetGlobal("EnteredArea","RA3704",4)
+END
+
+IF
+	Global("EnteredArea","RA3704",2)
+	!InParty("Catt2")
+	InParty("Wulfg2")
+	!Dead("Wulfg2") // Wulfgar
+	Delay(8)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Wulfg2",DisplayStringHead(Myself,@571435))
+		SetGlobal("EnteredArea","RA3704",4)
+END
+
+IF
+	Global("EnteredArea","RA3704",2)
+	!InParty("Catt2")
+	!InParty("Wulfg2")
+	InParty("Brue2")
+	!Dead("Brue2") // Bruenor
+	Delay(8)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Brue2",DisplayStringHead(Myself,@571437))
+		SetGlobal("EnteredArea","RA3704",4)
+END
+
+IF
+	Global("EnteredArea","RA3704",2)
+	!InParty("Catt2")
+	!InParty("Wulfg2")
+	!InParty("Brue2")
+	InParty("Keldorn")
+	!Dead("Keldorn") // Fire Shield (Blue)
+	Delay(8)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Keldorn",DisplayStringHead(Myself,@571435))
+		SetGlobal("EnteredArea","RA3704",4)
+END
+
+IF
+	Global("EnteredArea","RA3704",2)
+	!InParty("Catt2")
+	!InParty("Wulfg2")
+	!InParty("Brue2")
+	!InParty("Keldorn")
+	Delay(8)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@571435))
+		SetGlobal("EnteredArea","RA3704",3)
+		SetGlobal("PlayerOneDlg","RA3704",1)
+END
+
+IF
+	Global("EnteredArea","RA3704",3)
+	Global("PlayerOneDlg","RA3704",1)
+	Delay(10)
+THEN
+	RESPONSE #100
+		ActionOverride("Driz2",DisplayStringHead(Myself,@571439))
+		SetGlobal("PlayerOneDlg","RA3704",2)
+END
+
+IF
+	Global("EnteredArea","RA3704",3)
+	Global("PlayerOneDlg","RA3704",2)
+	Delay(8)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@571444))
+		SetGlobal("PlayerOneDlg","RA3704",3)
+END
+
+IF
+	Global("EnteredArea","RA3704",3)
+	Global("PlayerOneDlg","RA3704",3)
+	Delay(12)
+THEN
+	RESPONSE #100
+		ActionOverride("Driz2",DisplayStringHead(Myself,@571448))
+		SetGlobal("PlayerOneDlg","RA3704",4)
+END
+
+IF
+	Global("EnteredArea","RA3704",3)
+	Global("PlayerOneDlg","RA3704",4)
+	Delay(14)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@571469))
+		SetGlobal("PlayerOneDlg","RA3704",5)
+END
+
+IF
+	Global("EnteredArea","RA3704",3)
+	Global("PlayerOneDlg","RA3704",5)
+	Delay(15)
+THEN
+	RESPONSE #100
+		ActionOverride("Driz2",DisplayStringHead(Myself,@571470))
+		SetGlobal("PlayerOneDlg","RA3704",6)
+END
+
+IF
+	Global("EnteredArea","RA3704",3)
+	Global("PlayerOneDlg","RA3704",6)
+	Delay(8)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@571471))
+		SetGlobal("EnteredArea","RA3704",10)
+		SetGlobal("PlayerOneDlg","RA3704",7)
+END
+
+IF
+	Global("EnteredArea","RA3704",4)
+	InParty("Driz2")
+	!Dead("Driz2") // Drizzt Do'Urden
+	Delay(10)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Driz2",DisplayStringHead(Myself,@571439))
+		SetGlobal("EnteredArea","RA3704",5)
+END
+
+IF
+	Global("EnteredArea","RA3704",5)
+	InParty("Wulfg2")
+	!Dead("Wulfg2") // Wulfgar
+	Delay(8)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Wulfg2",DisplayStringHead(Myself,@571484))
+		SetGlobal("EnteredArea","RA3704",6)
+END
+
+IF
+	Global("EnteredArea","RA3704",5)
+	!InParty("Wulfg2")
+	InParty("Brue2")
+	!Dead("Brue2") // Bruenor
+	Delay(8)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Brue2",DisplayStringHead(Myself,@571475))
+		SetGlobal("EnteredArea","RA3704",6)
+END
+
+IF
+	Global("EnteredArea","RA3704",5)
+	!InParty("Brue2")
+	!InParty("Wulfg2")
+	InParty("Catt2")
+	!Dead("Catt2") // Catti-Brie
+	Delay(8)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Catt2",DisplayStringHead(Myself,@571441))
+		SetGlobal("EnteredArea","RA3704",6)
+END
+
+IF
+	Global("EnteredArea","RA3704",5)
+	!InParty("Catt2")
+	!InParty("Wulfg2")
+	!InParty("Brue2")
+	InParty("Keldorn")
+	!Dead("Keldorn") // Fire Shield (Blue)
+	Delay(8)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Keldorn",DisplayStringHead(Myself,@571443))
+		SetGlobal("EnteredArea","RA3704",6)
+END
+
+IF
+	Global("EnteredArea","RA3704",6)
+	InParty("Reg2")
+	!Dead("Reg2") // Regis
+	Delay(8)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Reg2",DisplayStringHead(Myself,@571476))
+		SetGlobal("EnteredArea","RA3704",7)
+END
+
+IF
+	Global("EnteredArea","RA3704",6)
+	!InParty("Reg2")
+	Delay(8)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		SetGlobal("EnteredArea","RA3704",7)
+END
+
+IF
+	Global("EnteredArea","RA3704",7)
+	InParty("Driz2")
+	!Dead("Driz2") // Drizzt Do'Urden
+	Delay(10)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Driz2",DisplayStringHead(Myself,@571477))
+		Wait(1)
+		ActionOverride("CadDem25",DisplayStringHead(Myself,@571482))
+		SetGlobal("EnteredArea","RA3704",8)
+END
+
+IF
+	Global("EnteredArea","RA3704",8)
+	InParty("Wulfg2")
+	!Dead("Wulfg2") // Wulfgar
+	Delay(12)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Wulfg2",DisplayStringHead(Myself,@571473))
+		SetGlobal("EnteredArea","RA3704",9)
+END
+
+IF
+	Global("EnteredArea","RA3704",8)
+	!InParty("Wulfg2")
+	InParty("Catt2")
+	!Dead("Catt2") // Catti-Brie
+	Delay(12)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Catt2",DisplayStringHead(Myself,@571451))
+		SetGlobal("EnteredArea","RA3704",9)
+END
+
+IF
+	Global("EnteredArea","RA3704",8)
+	!InParty("Catt2")
+	!InParty("Wulfg2")
+	InParty("Brue2")
+	!Dead("Brue2") // Bruenor
+	Delay(12)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Brue2",DisplayStringHead(Myself,@571478))
+		SetGlobal("EnteredArea","RA3704",9)
+END
+
+IF
+	Global("EnteredArea","RA3704",8)
+	!InParty("Catt2")
+	!InParty("Wulfg2")
+	!InParty("Brue2")
+	InParty("Keldorn")
+	!Dead("Keldorn") // Fire Shield (Blue)
+	Delay(12)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Keldorn",DisplayStringHead(Myself,@571479))
+		SetGlobal("EnteredArea","RA3704",9)
+END
+
+IF
+	Global("EnteredArea","RA3704",9)
+	InParty("Driz2")
+	!Dead("Driz2") // Drizzt Do'Urden
+	Delay(20)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Driz2",DisplayStringHead(Myself,@571454))
+		SetGlobal("EnteredArea","RA3704",10)
+END
+
+IF
+	Global("EnteredArea","RA3704",10)
+	Delay(1)
+THEN
+	RESPONSE #100
+		ActionOverride("CadDem25",DisplayStringHead(Myself,@571480))
+		SetGlobal("Hammermeetings","GLOBAL",12)
+		ActionOverride("Deneir2",DestroySelf())
+		Wait(3)
+		CreateVisualEffect("SPBDIMSP",[725.542])
+		ActionOverride("CadDem23",DestroySelf())
+		CreateVisualEffect("SPBDIMSP",[763.586])
+		ActionOverride("CadDem24",DestroySelf())
+		Wait(1)
+		StartCutSceneMode()
+		HideGUI()
+		MoveViewObject(Player1,INSTANT)
+		SmallWait(1)
+		ActionOverride(Player1,DisplayStringHead(Myself,@571488))
+		Wait(1)
+		ActionOverride("CadDem25",DisplayStringHead(Myself,@571481))
+		Wait(1)
+		ActionOverride(Player1,MoveToPoint([786.524]))
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,JumpToPoint([786.524]))
+		ActionOverride(Player2,JumpToPoint([542.480]))
+		ActionOverride(Player3,JumpToPoint([506.500]))
+		ActionOverride(Player4,JumpToPoint([524.452]))
+		ActionOverride(Player5,JumpToPoint([472.476]))
+		ActionOverride(Player6,JumpToPoint([468.434]))
+		SmallWait(1)
+		MoveViewObject(Player1,INSTANT)
+		ActionOverride(Player1,Face(10))
+		ActionOverride(Player2,Face(12))
+		ActionOverride(Player3,Face(11))
+		ActionOverride(Player4,Face(12))
+		ActionOverride(Player5,Face(11))
+		ActionOverride(Player6,Face(12))
+		ActionOverride("CadDem25",Face(10))
+		FadeFromColor([20.0],0)
+		Wait(1)
+		PlaySong(34)   //MXAERIE
+		Wait(4)
+		CreateCreature("Hammr5",[925.469],3) // Haman
+		ActionOverride(Player1,FaceObject("Hammr5"))
+		ActionOverride(Player2,FaceObject("Hammr5"))
+		ActionOverride(Player3,FaceObject("Hammr5"))
+		ActionOverride(Player4,FaceObject("Hammr5"))
+		ActionOverride(Player5,FaceObject("Hammr5"))
+		ActionOverride(Player6,FaceObject("Hammr5"))
+		ActionOverride("CadDem25",FaceObject("Hammr5"))
+		ActionOverride("Hammr5",FaceObject(Player1))
+		Wait(1)
+		ActionOverride(Player1,DisplayStringHead(Myself,@571458))
+		SmallWait(5)
+		ActionOverride("Hammr5",DisplayStringHead(Myself,@571467))
+		Wait(4)
+		ActionOverride(Player1,DisplayStringHead(Myself,@571460)) 
+		Wait(5)
+		ActionOverride("Hammr5",DisplayStringHead(Myself,@571461))
+		Wait(5)
+		ActionOverride("Hammr5",DisplayStringHead(Myself,@571462))
+		Wait(7)
+		ActionOverride("Hammr5",DisplayStringHead(Myself,@571489))
+		Wait(4)
+		ActionOverride("CadDem25",DisplayStringHead(Myself,@571464))
+		Wait(2)
+		ActionOverride("CadDem25",ReallyForceSpell("Hammr5",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
+		SmallWait(2)
+		ActionOverride(Player1,DisplayStringHead(Myself,@571485))
+		SmallWait(2)
+		ActionOverride("Hammr5",ReallyForceSpell(Myself,WIZARD_TIME_STOP))
+		Wait(2)
+		ActionOverride("Hammr5",DisplayStringHead(Myself,@571465))
+		Wait(3)
+		ActionOverride("Hammr5",DisplayStringHead(Myself,@571490))
+		Wait(1)
+		ActionOverride("Hammr5",JumpToPoint([661.577]))
+		MoveViewPoint([664.601],VERY_FAST)
+		Wait(1)
+		ActionOverride("Hammr5",DisplayStringHead(Myself,@571491))
+		Wait(2)
+		ActionOverride("Hammr5",ForceSpell(Myself,2128))
+		Wait(7)
+		ActionOverride("CadDem25",DestroySelf())
+		SmallWait(1)
+		ActionOverride("Hammr5",JumpToPoint([668.60]))
+		SmallWait(1)
+		CreateVisualEffectObject("IDESTRUH","Hammr5")
+		Wait(2)
+		ActionOverride("Hammr5",Kill(Myself))
+		Wait(1)
+		CreateVisualEffect("IPWKILLX",[667.617])
+		CreateVisualEffect("IWDEATH1",[667.617])
+		Wait(2)
+		CreateVisualEffect("IPWKILLX",[667.617])
+		Wait(2)
+		CreateVisualEffect("IPWKILLX",[667.617])
+		Wait(3)
+		CreateVisualEffect("IWDEATH2",[667.617])
+		ActionOverride("Hammr5",DestroySelf())
+		Wait(4)
+		DayNight(MIDNIGHT)
+		Wait(5)
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("EnteredArea","RA3704",11)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RA3703","",[784.412],2))
+		ActionOverride(Player2,LeaveAreaLUA("RA3703","",[752.392],2))
+		ActionOverride(Player3,LeaveAreaLUA("RA3703","",[784.364],2))
+		ActionOverride(Player4,LeaveAreaLUA("RA3703","",[828.392],2))
+		ActionOverride(Player5,LeaveAreaLUA("RA3703","",[860.362],2))
+		ActionOverride(Player6,LeaveAreaLUA("RA3703","",[820.332],2))
+END
+
+

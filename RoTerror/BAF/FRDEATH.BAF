@@ -1,0 +1,16 @@
+IF
+	Global("Deathbattle","RA4602",0)
+	OR(6)
+		Range(Player1,24)
+		Range(Player2,24)
+		Range(Player3,24)
+		Range(Player4,24)
+		Range(Player5,24)
+		Range(Player6,24)
+THEN
+	RESPONSE #100
+		SmallWait(1)
+		SetGlobal("Deathbattle","RA4602",1)
+END
+
+

@@ -1,0 +1,11 @@
+BEGIN ~CADPRI15~
+
+IF ~~ THEN BEGIN 0 // from:
+  SAY @0
+  IF ~~ THEN EXTERN ~CADDER3~ 17
+END
+
+IF ~True()~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN EXIT
+END

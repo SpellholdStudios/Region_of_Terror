@@ -1,0 +1,23 @@
+IF
+	Clicked([ANYONE])
+	!Global("TheBattle","RA4006",3)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		ActionOverride(Player1,DisplayStringHead(Myself,@574918))
+END
+
+IF
+	Clicked([ANYONE])
+	Global("TheBattle","RA4006",3)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUA("RR4001","",[3032.2571],5))
+		ActionOverride(Player2,LeaveAreaLUA("RR4001","",[3032.2573],5))
+		ActionOverride(Player3,LeaveAreaLUA("RR4001","",[3032.2575],6))
+		ActionOverride(Player4,LeaveAreaLUA("RR4001","",[3034.2571],5))
+		ActionOverride(Player5,LeaveAreaLUA("RR4001","",[3036.2571],6))
+		ActionOverride(Player6,LeaveAreaLUA("RR4001","",[3030.2571],5))
+END
+
+

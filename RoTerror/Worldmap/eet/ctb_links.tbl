@@ -1,0 +1,52 @@
+
+//CtB-RoT Cross Links Table
+SRC_AREA  SRC_NWSE  TARGET_ARE  ENTRY_NAME  TRV_TIME  DEF_ENTRY  ENC1     ENC2     ENC3     ENC4     ENC5     ENC_PROB
+
+RA4900    S         AR3520      ExitSW      28        1          AR0042   AR0044   N        N        N        60
+AR3520    W         RA4900      ExitS       28        1          AR0042   AR0044   N        N        N        60
+RA4900    S         AR3587      ExitE       22        1          AR0042   AR0044   N        N        N        20
+AR3587    E         RA4900      ExitS       22        1          AR0042   AR0044   N        N        N        20
+
+RR3400    N         AR3520      ExitSW      26        1          AR0042   AR0044   N        N        N        50
+AR3520    W         RR3400      ExitE       26        1          AR0042   AR0044   N        N        N        50
+RR3400    N         AR3587      ExitE       23        1          AR0042   AR0044   N        N        N        20
+AR3587    E         RR3400      ExitS       23        1          AR0042   AR0044   N        N        N        20
+
+RR3450    S         AR3520      ExitSW      26        1          AR0042   AR0044   N        N        N        50
+RR3450    E         AR3520      ExitSW      26        1          AR0042   AR0044   N        N        N        50
+AR3520    W         RR3450      ExitSE      26        1          AR0042   AR0044   N        N        N        50
+RR3450    S         AR3587      ExitE       24        1          AR0042   AR0044   N        N        N        25
+AR3587    E         RR3450      ExitSE      24        1          AR0042   AR0044   N        N        N        25
+
+RR3300    E         AR3520      ExitSW      22        1          AR0042   AR0044   N        N        N        30
+AR3520    W         RR3300      ExitE       22        1          AR0042   AR0044   N        N        N        30
+RR3300    S         AR3587      ExitE       28        1          AR0042   AR0044   N        N        N        25
+AR3587    E         RR3300      ExitE       28        1          AR0042   AR0044   N        N        N        25
+
+RR3900    N         AR3520      ExitSW      23        1          N        N        N        N        N        0
+AR3520    W         RR3900      ExitNE      23        1          AR0042   AR0044   N        N        N        35
+
+RR3950    N         AR3520      ExitSW      23        1          N        N        N        N        N        0
+AR3520    W         RR3950      ExitN       23        1          AR0042   AR0044   N        N        N        30
+
+RA4200    N         AR3520      ExitSW      22        1          N        N        N        N        N        0
+AR3520    W         RA4200      ExitN       22        1          AR0042   AR0044   N        N        N        30
+
+RR3100    N         AR3610      ExitN       31        1          AR0042   AR0044   N        N        N        20
+AR3610    N         RR3100      ExitNE      31        1          AR0042   AR0044   N        N        N        20
+RR3900    E         AR3610      ExitN       38        1          AR0042   AR0044   N        N        N        40
+AR3610    N         RR3900      ExitNE      38        1          AR0042   AR0044   N        N        N        40
+
+RR3100    W         AR3570      ExitNE      15        1          N        N        N        N        N        0
+AR3570    N         RR3100      ExitNE      15        1          N        N        N        N        N        0
+
+RR3100    N         AR3540      ExitSW      5         4          N        N        N        N        N        0
+AR3540    S         RR3100      ExitNE      5         1          N        N        N        N        N        0
+
+RR3900    N         AR3540      ExitSW      20        4          N        N        N        N        N        0
+AR3540    S         RR3900      N           20        4          N        N        N        N        N        0
+
+RR3100    N         AR3534      ExitW       11        1          N        N        N        N        N        0
+AR3534    W         RR3100      ExitNE      11        8          N        N        N        N        N        0
+
+

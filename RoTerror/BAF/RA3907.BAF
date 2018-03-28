@@ -1,0 +1,9 @@
+IF
+	Global("Crewife","RA3907",0)
+THEN
+	RESPONSE #100
+		CreateCreatureImpassable("JapWif",[172.193],6) // Japhet's Wife
+		SetGlobal("Crewife","RA3907",1)
+END
+
+

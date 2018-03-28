@@ -1,0 +1,40 @@
+IF
+	Global("Trinkalittle","LOCALS",0)
+	!CombatCounter(0)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		SmallWait(2)
+		UseItem("POTN10",Myself) // Potion of Invisibility
+		SetGlobal("Trinkalittle","LOCALS",1)
+	RESPONSE #100
+		SmallWait(2)
+		SetGlobal("Trinkalittle","LOCALS",1)
+END
+
+IF
+	HPLT(Myself,30)
+	!CombatCounter(0)
+	Global("Trinkalittle","LOCALS",1)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		UseItem("POTN10",Myself) // Potion of Invisibility
+		SetGlobal("Trinkalittle","LOCALS",2)
+	RESPONSE #100
+		SetGlobal("Trinkalittle","LOCALS",2)
+END
+
+

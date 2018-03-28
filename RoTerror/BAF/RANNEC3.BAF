@@ -1,0 +1,12 @@
+IF
+	Global("Speak","LOCALS",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@574011)
+		Wait(1)
+		ActionOverride("Randall",DisplayStringHead(Myself,@574010))
+		Enemy()
+		SetGlobal("Speak","LOCALS",1)
+END
+
+

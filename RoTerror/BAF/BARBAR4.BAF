@@ -1,0 +1,25 @@
+IF
+	Global("Wulfgarsquest","GLOBAL",1)
+	Global("IWDMovings","GLOBAL",0)
+	Global("IWDMovings2","LOCALS",0)
+	Delay(1)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,CONTROLLED)
+		SetGlobal("IWDMovings2","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Barbariannum4","GLOBAL")
+	Global("Mespeaksenglish","LOCALS",0)
+	See([ENEMY])
+	!CombatCounter(0)
+	TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@573226)
+		SetGlobal("Mespeaksenglish","LOCALS",1)
+		Continue()
+END
+
+

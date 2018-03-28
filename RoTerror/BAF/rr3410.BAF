@@ -1,0 +1,273 @@
+IF
+	Global("Olmsidthebat","GLOBAL",0)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		CreateCreature("Olmar5",[1147.949],5) // Chieftain Olmar
+		Wait(1)
+		ActionOverride(Player1,FaceObject("Olmar5"))
+		ActionOverride(Player2,FaceObject("Olmar5"))
+		ActionOverride(Player3,FaceObject("Olmar5"))
+		ActionOverride(Player4,FaceObject("Olmar5"))
+		ActionOverride(Player5,FaceObject("Olmar5"))
+		ActionOverride(Player6,FaceObject("Olmar5"))
+		ActionOverride("Olmar5",FaceObject(Player1))
+		SmallWait(5)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Olmar5",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("Olmsidthebat","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		ActionOverride("Olmar5",MoveToPoint([1587.1279]))
+		Wait(2)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Olmar5",DestroySelf())
+		SmallWait(5)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("Olmsidthebat","GLOBAL",2)
+		SaveGame(0)
+END
+
+IF
+	Global("Olmsidthebat","GLOBAL",2)
+THEN
+	RESPONSE #100
+		Wait(20)
+		CreateCreature("SndGrl2",[0.0],10) // Sound Gurlie
+		PlaySound("Horn3")
+		Wait(1)
+		PlaySound("Horn2")
+		Wait(2)
+		PlaySound("Horn1")
+		SetGlobal("Olmsidthebat","GLOBAL",4)
+		SetGlobal("Screenshakes","RR3410",1)
+		Continue()
+END
+
+IF
+	Global("Olmsidthebat","GLOBAL",4)
+THEN
+	RESPONSE #100
+		Wait(20)
+		CreateCreature("OlmWar60",[1568.1387],8) // Elite Warrior
+		CreateCreature("OlmWar61",[1568.1387],9) // Elite Warrior
+		CreateCreature("OlmWar62",[1568.1387],8) // Elite Warrior
+		CreateCreature("OlmWar63",[1568.1387],9) // Elite Warrior
+		CreateCreature("OlmWar64",[1568.1387],9) // Elite Warrior
+		CreateCreature("OlmWar65",[1568.1387],8) // Elite Warrior
+		SmallWait(1)
+		ActionOverride("OlmWar60",DisplayStringHead(Myself,@570819))
+		Wait(1)
+		PlaySound("Horn1")
+		ActionOverride("OlmWar60",MoveToPointNoInterrupt([2397.1027]))
+		ActionOverride("OlmWar61",MoveToPointNoInterrupt([2397.1028]))
+		ActionOverride("OlmWar62",MoveToPointNoInterrupt([2397.1029]))
+		ActionOverride("OlmWar63",MoveToPointNoInterrupt([2397.1030]))
+		ActionOverride("OlmWar64",MoveToPointNoInterrupt([2398.1027]))
+		ActionOverride("OlmWar65",MoveToPointNoInterrupt([2399.1027]))
+		Wait(1)
+		SetGlobal("Olmsidthebat","GLOBAL",5)
+END
+
+IF
+	Global("Olmsidthebat","GLOBAL",5)
+THEN
+	RESPONSE #100
+		Wait(65)
+		CreateCreature("OlmWar51",[2397.1027],9) // Olmar's Warrior
+		CreateCreature("OlmWar52",[2397.1027],8) // Olmar's Warrior
+		CreateCreature("OlmWar53",[2397.1027],9) // Olmar's Warrior
+		CreateCreature("OlmWar54",[2397.1027],9) // Olmar's Warrior
+		CreateCreature("OlmWar55",[2397.1027],8) // Olmar's Warrior
+		CreateCreature("OlmWar56",[2397.1027],8) // Olmar's Warrior
+		CreateCreature("OlmWar57",[2397.1027],9) // Olmar's Warrior
+		CreateCreature("OlmWar58",[2397.1027],9) // Olmar's Warrior
+		CreateCreature("OlmWar59",[2397.1027],8) // Olmar's Warrior
+		Wait(1)
+		ActionOverride("OlmWar51",MoveToPointNoInterrupt([1568.1389]))
+		ActionOverride("OlmWar52",MoveToPointNoInterrupt([1568.1390]))
+		ActionOverride("OlmWar53",MoveToPointNoInterrupt([1568.1386]))
+		ActionOverride("OlmWar54",MoveToPointNoInterrupt([1568.1385]))
+		ActionOverride("OlmWar55",MoveToPointNoInterrupt([1938.1134]))
+		ActionOverride("OlmWar56",MoveToPointNoInterrupt([1938.1136]))
+		ActionOverride("OlmWar57",MoveToPointNoInterrupt([1938.1135]))
+		ActionOverride("OlmWar58",MoveToPointNoInterrupt([1938.1133]))
+		ActionOverride("OlmWar59",MoveToPointNoInterrupt([1938.1132]))
+		Wait(1)
+		SetGlobal("Olmsidthebat","GLOBAL",6)
+END
+
+IF
+	Global("Olmsidthebat","GLOBAL",6)
+THEN
+	RESPONSE #100
+		Wait(50)
+		PlaySound("Swords2")
+		Wait(1)
+		PlaySound("Swords2")
+		Wait(2)
+		PlaySound("Swords2")
+		Wait(3)
+		PlaySound("Swords2")
+		Wait(1)
+		PlaySound("Swords2")
+		SetGlobal("Olmsidthebat","GLOBAL",7)
+END
+
+IF
+	Global("Olmsidthebat","GLOBAL",7)
+THEN
+	RESPONSE #100
+		Wait(10)
+		CreateCreature("TalWar40",[1568.1388],8) // Talavan's Warrior
+		CreateCreature("TalWar40",[1568.1388],9) // Talavan's Warrior
+		CreateCreature("TalWar41",[1568.1388],9) // Talavan's Warrior
+		CreateCreature("TalWar45",[1568.1388],8) // Talavan's Warrior
+		CreateCreature("TalWar40",[1938.1134],8) // Talavan's Warrior
+		CreateCreature("TalWar41",[1938.1134],9) // Talavan's Warrior
+		CreateCreature("TalWar41",[1938.1134],9) // Talavan's Warrior
+		CreateCreature("TalWar41",[1938.1134],8) // Talavan's Warrior
+		SetGlobal("Olmsidthebat","GLOBAL",8)
+END
+
+IF
+	Global("Olmsidthebat","GLOBAL",8)
+THEN
+	RESPONSE #100
+		Wait(120)
+		CreateCreature("TalWar42",[1568.1388],8) // Elite Warrior
+		CreateCreature("TalWar42",[1568.1388],9) // Elite Warrior
+		CreateCreature("TalWar41",[1568.1388],9) // Talavan's Warrior
+		CreateCreature("TalWar43",[1568.1388],8) // Elite Warrior
+		CreateCreature("TalWar41",[1938.1134],8) // Talavan's Warrior
+		CreateCreature("TalWar43",[1938.1134],8) // Elite Warrior
+		CreateCreature("TalWar43",[1938.1134],8) // Elite Warrior
+		SetGlobal("Olmsidthebat","GLOBAL",9)
+END
+
+IF
+	Global("Olmsidthebat","GLOBAL",9)
+THEN
+	RESPONSE #100
+		Wait(160)
+		CreateCreature("OlmWar66",[2397.1027],8) // Elite Warrior
+		CreateCreature("OlmWar67",[2397.1027],9) // Elite Warrior
+		CreateCreature("OlmWar68",[2397.1027],9) // Elite Warrior
+		CreateCreature("OlmWar69",[2397.1027],8) // Elite Warrior
+		SmallWait(1)
+		ActionOverride("OlmWar66",DisplayStringHead(Myself,@570818))
+		Wait(1)
+		ActionOverride("OlmWar66",MoveToPointNoInterrupt([1938.1136]))
+		ActionOverride("OlmWar67",MoveToPointNoInterrupt([1938.1135]))
+		ActionOverride("OlmWar68",MoveToPointNoInterrupt([1938.1133]))
+		ActionOverride("OlmWar69",MoveToPointNoInterrupt([1938.1134]))
+		Wait(1)
+		SetGlobal("Olmsidthebat","GLOBAL",10)
+END
+
+IF
+	Global("Olmsidthebat","GLOBAL",10)
+THEN
+	RESPONSE #100
+		Wait(40)
+		CreateCreature("TalWar44",[1568.1388],8) // Commander Tylin
+		CreateCreature("TalWar49",[1568.1388],9) // Elite Warrior
+		CreateCreature("TalWar50",[1568.1388],8) // Elite Warrior
+		CreateCreature("TalWar48",[1938.1134],8) // Elite Warrior
+		CreateCreature("TalWar47",[1938.1134],9) // Elite Warrior
+		CreateCreature("TalWar46",[1938.1134],8) // Elite Warrior
+		SetGlobal("Olmsidthebat","GLOBAL",11)
+END
+
+IF
+	Global("Olmsidthebat","GLOBAL",11)
+	Dead("TalWar44") // Commander Tylin
+	Dead("TalWar46") // Elite Warrior
+	Dead("TalWar47") // Elite Warrior
+	Dead("TalWar48") // Elite Warrior
+	Dead("TalWar49") // Elite Warrior
+	Dead("TalWar50") // Elite Warrior
+THEN
+	RESPONSE #100
+		Wait(30)
+		StartCutSceneMode()
+		HideGUI()
+		SoundActivate("Battl1",FALSE)
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		EndCutSceneMode()
+		RestParty()
+		SmallWait(1)
+		StartCutSceneMode()
+		SmallWait(5)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		CreateCreature("Olmar5",[1587.1279],5) // Chieftain Olmar
+		Wait(1)
+		ActionOverride("Olmar5",MoveToObject(Player1))
+		SetGlobal("Olmsidthebat","GLOBAL",12)
+END
+
+IF
+	Global("Olmsidthebat","GLOBAL",14)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		StartCutScene("TallsDe")
+END
+
+IF
+	Global("Dorrclosing1","RR3410",1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,OpenDoor("DOOR05"))
+		SetGlobal("Dorrclosing1","RR3410",2)
+		Continue()
+END
+
+IF
+	Global("Dorrclosing1","RR3410",2)
+	Delay(20)
+THEN
+	RESPONSE #100
+		SetGlobal("Dorrclosing1","RR3410",0)
+END
+
+IF
+	Global("Dorrclosing2","RR3410",1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,OpenDoor("DOOR06"))
+		SetGlobal("Dorrclosing2","RR3410",2)
+		Continue()
+END
+
+IF
+	Global("Dorrclosing2","RR3410",2)
+	Delay(20)
+THEN
+	RESPONSE #100
+		SetGlobal("Dorrclosing2","RR3410",0)
+END
+
+

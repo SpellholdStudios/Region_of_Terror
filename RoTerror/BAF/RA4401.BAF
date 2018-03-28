@@ -1,0 +1,21 @@
+IF
+	Global("TapJoins","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Tapio2",DestroySelf())
+		SmallWait(1)
+		CreateCreature("Tapio",[994.796],13) // Tapio Perkiomaki
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		ActionOverride("Tapio",JoinParty())
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("TapJoins","GLOBAL",2)
+END
+
+

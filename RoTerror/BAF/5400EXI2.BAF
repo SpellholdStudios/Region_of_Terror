@@ -1,0 +1,45 @@
+IF
+	Global("Brothertimeriwd","GLOBAL",7)
+	OR(6)
+		Range(Player1,30)
+		Range(Player2,30)
+		Range(Player3,30)
+		Range(Player4,30)
+		Range(Player5,30)
+		Range(Player6,30)
+THEN
+	RESPONSE #100
+		SetGlobal("Brothertimeriwd","GLOBAL",10)
+		ActionOverride("BreTor1",StartDialogueNoSet(Player1))
+END
+
+IF
+	OR(6)
+	!StateCheck(Player1,STATE_INVISIBLE)
+	!StateCheck(Player2,STATE_INVISIBLE)
+	!StateCheck(Player3,STATE_INVISIBLE)
+	!StateCheck(Player4,STATE_INVISIBLE)
+	!StateCheck(Player5,STATE_INVISIBLE)
+	!StateCheck(Player6,STATE_INVISIBLE)
+	Clicked([ANYONE])
+	!GlobalGT("Knowabouttl","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Knowabouttl","GLOBAL",2)
+		FadeToColor([20.0],0)
+END
+
+IF
+	Global("Knowabouttl","GLOBAL",2)
+	Global("dsalffjad","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("dsalffjad","GLOBAL",0)
+		SetGlobal("Knowabouttl","GLOBAL",1)
+		FadeFromColor([20.0],0)
+		SmallWait(5)
+		ActionOverride(Player1,DisplayStringHead(Myself,@573246))
+		SetGlobal("Knowabouttl","GLOBAL",999)
+END
+
+

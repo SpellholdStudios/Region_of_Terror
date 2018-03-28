@@ -1,0 +1,8 @@
+IF
+	Range([ANYONE],3)
+THEN
+	RESPONSE #100
+		ForceSpellRES("ROT5410",Nearest(Myself))
+END
+
+

@@ -1,0 +1,18 @@
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Dennotstrike1","GLOBAL",0)
+	OR(7)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+		See("CadPri15")
+THEN
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",4)
+		SetGlobal("Dennotstrike1","GLOBAL",1)
+END
+
+

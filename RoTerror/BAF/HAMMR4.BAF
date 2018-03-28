@@ -1,0 +1,17 @@
+IF
+	Global("Hammermeetings","GLOBAL",8)
+	Global("akljdsflfdla","RR3109",0)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		ActionOverride("Hammr4",StartDialogueNoSet(Player1))
+		SetGlobal("akljdsflfdla","RR3109",1)
+END
+
+

@@ -1,0 +1,24 @@
+IF
+	Opened([ANYONE])
+	Global("Attackfrom1","RA5602",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPFIREPI","MonksS13")
+		CreateVisualEffectObject("SPFIREPI","MonksS14")
+		CreateVisualEffectObject("SPFIREPI","MonksS15")
+		CreateVisualEffectObject("SPFIREPI","MonksS16")
+		PlaySound("EFF_M13")
+		ActionOverride("MonksS13",Kill(Myself))
+		ActionOverride("MonksS15",Kill(Myself))
+		ActionOverride("MonksS16",Kill(Myself))
+		Wait(1)
+		SetGlobal("Attackfrom1","RA5602",1)
+		CreateCreature("IwdMist8",[766.1339],0) // Poison Mist
+		CreateCreature("IwdMist5",[622.1365],13) // Lightning Mist
+		CreateCreature("IwdMist6",[502.1367],11) // Fire Mist
+		CreateCreature("IwdMist7",[546.1277],5) // Ice Mist
+		Wait(2)
+		OpenDoor("DOOR11")
+END
+
+

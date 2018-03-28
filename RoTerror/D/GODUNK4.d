@@ -1,0 +1,12 @@
+BEGIN ~GODUNK4~
+
+IF ~Global("BeforetheEye","RA5003",10)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 EXIT
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @3
+  IF ~~ THEN DO ~SetGlobal("BeforetheEye","RA5003",11)~ EXIT
+END

@@ -1,0 +1,178 @@
+IF
+	Global("EnteredArea","RA5000",0)
+	OR(2)
+		Alignment(Player1,MASK_GOOD)
+		Alignment(Player1,MASK_GENEUTRAL)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@569881))
+		SetGlobal("EnteredArea","RA5000",1)
+END
+
+IF
+	Global("EnteredArea","RA5000",0)
+	Alignment(Player1,MASK_EVIL)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@570013))
+		SetGlobal("EnteredArea","RA5000",1)
+END
+
+IF
+	PartyHasItem("Tabl1") // Tablet I
+	Global("Tabone","RA5000",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPCHLGT1",[640.819])
+		SmallWait(4)
+		ScreenShake([640.819],8)
+		CreateVisualEffect("SPFIREPI",[640.819])
+		PlaySound("EFF_M13")
+		CreateCreature("LichGuar",[640.819],12) // Guardian Lich
+		Wait(3)
+		ActionOverride(Player1,GiveItem("Tabl1","LichGuar")) // Tablet I
+		ActionOverride("LichGuar",DisplayStringHead(Myself,@570004))
+		Wait(3)
+		SetGlobal("Tabone","RA5000",2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	PartyHasItem("Tabl2") // Tablet II
+	Global("Tabtwo","RA5000",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPRDRABU",[1718.858])
+		PlaySound("EFF_M13")
+		Wait(1)
+		CreateCreature("GodDoom1",[1718.1084],9) // Prince of Doom
+		Wait(2)
+		CreateVisualEffect("SPRDRABU",[1686.908])
+		PlaySound("EFF_M13")
+		Wait(1)
+		CreateCreature("GodDoom2",[1686.1138],9) // Doom Knight
+		Wait(2)
+		CreateVisualEffect("SPRDRABU",[1632.866])
+		PlaySound("EFF_M13")
+		Wait(1)
+		CreateCreature("GodDoom3",[1642.1096],10) // Doom Knight
+		Wait(2)
+		CreateVisualEffect("SPRDRABU",[1746.914])
+		PlaySound("EFF_M13")
+		Wait(1)
+		CreateCreature("GodDoom4",[1756.1144],8) // Doom Knight
+		Wait(1)
+		ActionOverride(Player1,GiveItem("Tabl2","GodDoom1")) // Tablet II
+		Wait(1)
+		SetGlobal("Tabtwo","RA5000",2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	PartyHasItem("Tabl3") // Tablet III
+	Global("Tabthree","RA5000",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPRMPARI",[2364.2571])
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[2364.2571])
+		PlaySound("EFF_M13")
+		CreateCreature("Yatolsa",[2364.2571],7) // Ya'tol'sa
+		Wait(2)
+		CreateVisualEffect("SPRMPARI",[2422.2559])
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[2422.2559])
+		PlaySound("EFF_M13")
+		CreateCreature("Xsadfae",[2422.2559],6) // Xsad'faé
+		Wait(2)
+		CreateVisualEffect("SPRMPARI",[2454.2533])
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[2454.2533])
+		PlaySound("EFF_M13")
+		CreateCreature("Zagorr",[2454.2533],5) // Za'gorr
+		Wait(1)
+		ActionOverride(Player1,GiveItem("Tabl3","Yatolsa")) // Tablet III
+		Wait(1)
+		SetGlobal("Tabthree","RA5000",2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	PartyHasItem("Tabl4") // Tablet IV
+	Global("Tabfour","RA5000",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPCLKFRI",[1184.2309])
+		Wait(3)
+		CreateCreature("Valesh",[1184.2309],5) // Valesh
+		Wait(1)
+		CreateVisualEffect("SPCLKFRI",[1090.2337])
+		Wait(3)
+		CreateCreature("CalTorn",[1090.2337],7) // Cal'Torn
+		Wait(1)
+		CreateVisualEffect("SPCLKFRI",[1236.2185])
+		Wait(3)
+		CreateCreature("CalDar",[1236.2185],3) // Cal'Dar
+		Wait(1)
+		CreateVisualEffect("SPCLKFRI",[998.2355])
+		Wait(3)
+		CreateCreature("Marelid",[998.2355],8) // Marelid
+		Wait(1)
+		CreateVisualEffect("SPCLKFRI",[928.2351])
+		Wait(3)
+		CreateCreature("Nuessa",[928.2351],9) // Nu'essa
+		Wait(1)
+		ActionOverride(Player1,GiveItem("Tabl4","Valesh")) // Tablet IV
+		Wait(1)
+		SetGlobal("Tabfour","RA5000",2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	PartyHasItem("Tabl1") // Tablet I
+	PartyHasItem("Tabl2") // Tablet II
+	PartyHasItem("Tabl3") // Tablet III
+	PartyHasItem("Tabl4") // Tablet IV
+	Global("Tabfour","RA5000",2)
+	Global("Tabthree","RA5000",2)
+	Global("Tabtwo","RA5000",2)
+	Global("Tabone","RA5000",2)
+	Global("SpeakDivine","RA5000",5)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("SpeakDivine","RA5000",6)
+END
+
+IF
+	Global("SpeakDivine","RA5000",7)
+	Global("Killdaavas","RA5000",0)
+THEN
+	RESPONSE #100
+		SmallWait(1)
+		ActionOverride("GodAva1",DestroySelf())
+		ActionOverride("GodAva2",DestroySelf())
+		SetGlobal("Killdaavas","RA5000",1)
+END
+
+

@@ -1,0 +1,270 @@
+IF
+	InParty("Wulfg2")
+	Global("Wulfgarsquest","GLOBAL",0)
+	Delay(1)
+THEN
+	RESPONSE #100
+		ActionOverride("Beogorn",StartDialogueNoSet(Player1))
+END
+
+IF
+	!InParty("Wulfg2")
+	Global("Wulfgarsquest","GLOBAL",0)
+	Delay(1)
+THEN
+	RESPONSE #100
+		ActionOverride("Beogorn",DisplayStringHead(Myself,@572968))
+		Wait(1)
+		SetGlobal("Wulfgarsquest","GLOBAL",2)
+		ActionOverride("Beogorn",EscapeArea())
+		ActionOverride("Ulgarth",EscapeArea())
+		ActionOverride("Barbar1",EscapeArea())
+		ActionOverride("Barbar2",EscapeArea())
+		ActionOverride("Barbar3",EscapeArea())
+		ActionOverride("Barbar4",EscapeArea())
+END
+
+IF
+	Global("Wulfgarsquest","GLOBAL",1)
+	Global("RestParty","RA5601",0)
+	Delay(4)
+THEN
+	RESPONSE #100
+		RestParty()
+		SetGlobal("RestParty","RA5601",1)
+END
+
+IF
+	Global("MonkOpenDoor","RA5601",0)
+	Dead("Malar3") // Tezz
+	Dead("Malar4") // Malarchite
+	Dead("Malar5") // Malarchite
+	Dead("GolSaph1") // Sapphire Golem
+	Dead("GolSaph2") // Sapphire Golem
+THEN
+	RESPONSE #100
+		SetGlobal("MonkOpenDoor","RA5601",1)
+END
+
+IF
+	Global("MonkOpenDoor","RA5601",4)
+	InParty("Wulfg2")
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("MonksS2",JumpToPoint([2625.745]))
+		ActionOverride(Player1,JumpToPoint([2555.793]))
+		ActionOverride(Player2,JumpToPoint([2607.819]))
+		ActionOverride(Player3,JumpToPoint([2749.769]))
+		ActionOverride(Player4,JumpToPoint([2719.805]))
+		ActionOverride(Player5,JumpToPoint([2551.695]))
+		ActionOverride(Player6,JumpToPoint([2571.731]))
+		ActionOverride("Ulgarth",JumpToPoint([2799.869]))
+		ActionOverride("Beogorn",JumpToPoint([2396.701]))
+		ActionOverride("Barbar1",JumpToPoint([2749.903]))
+		ActionOverride("Barbar2",JumpToPoint([2801.925]))
+		ActionOverride("Barbar3",JumpToPoint([2344.731]))
+		ActionOverride("Barbar4",JumpToPoint([2400.753]))
+		SmallWait(1)
+		MoveViewObject(Player1,INSTANT)
+		ActionOverride("MonksS2",Face(9))
+		ActionOverride(Player1,FaceObject("MonksS2"))
+		ActionOverride(Player2,FaceObject("MonksS2"))
+		ActionOverride(Player3,FaceObject("MonksS2"))
+		ActionOverride(Player4,FaceObject("MonksS2"))
+		ActionOverride(Player5,FaceObject("MonksS2"))
+		ActionOverride(Player6,FaceObject("MonksS2"))
+		ActionOverride("Ulgarth",FaceObject("MonksS2"))
+		ActionOverride("Beogorn",FaceObject("MonksS2"))
+		ActionOverride("Barbar1",FaceObject("MonksS2"))
+		ActionOverride("Barbar2",FaceObject("MonksS2"))
+		ActionOverride("Barbar3",FaceObject("MonksS2"))
+		ActionOverride("Barbar4",FaceObject("MonksS2"))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		ActionOverride("MonksS2",ForceSpellRES("ROT5601",Myself)) //CASTINPRI3
+		Wait(6)
+		Unlock("5601Gate")
+		OpenDoor("5601Gate")
+		Wait(1)
+		ActionOverride("MonksS2",JumpToPoint([1812.1939]))
+		SmallWait(1)
+		AddJournalEntry(@573243,QUEST)
+		SetGlobal("MonkOpenDoor","RA5601",5)
+		ActionOverride("MonksS2",Face(9))
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("MonkOpenDoor","RA5601",4)
+	!InParty("Wulfg2")
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("MonksS2",JumpToPoint([2625.745]))
+		ActionOverride(Player1,JumpToPoint([2555.793]))
+		ActionOverride(Player2,JumpToPoint([2607.819]))
+		ActionOverride(Player3,JumpToPoint([2749.769]))
+		ActionOverride(Player4,JumpToPoint([2719.805]))
+		ActionOverride(Player5,JumpToPoint([2551.695]))
+		ActionOverride(Player6,JumpToPoint([2571.731]))
+		ActionOverride("Ulgarth",JumpToPoint([2799.869]))
+		ActionOverride("Beogorn",JumpToPoint([2396.701]))
+		ActionOverride("Barbar1",JumpToPoint([2749.903]))
+		ActionOverride("Barbar2",JumpToPoint([2801.925]))
+		ActionOverride("Barbar3",JumpToPoint([2344.731]))
+		ActionOverride("Barbar4",JumpToPoint([2400.753]))
+		SmallWait(1)
+		MoveViewObject(Player1,INSTANT)
+		ActionOverride("MonksS2",Face(9))
+		ActionOverride(Player1,FaceObject("MonksS2"))
+		ActionOverride(Player2,FaceObject("MonksS2"))
+		ActionOverride(Player3,FaceObject("MonksS2"))
+		ActionOverride(Player4,FaceObject("MonksS2"))
+		ActionOverride(Player5,FaceObject("MonksS2"))
+		ActionOverride(Player6,FaceObject("MonksS2"))
+		ActionOverride("Ulgarth",FaceObject("MonksS2"))
+		ActionOverride("Beogorn",FaceObject("MonksS2"))
+		ActionOverride("Barbar1",FaceObject("MonksS2"))
+		ActionOverride("Barbar2",FaceObject("MonksS2"))
+		ActionOverride("Barbar3",FaceObject("MonksS2"))
+		ActionOverride("Barbar4",FaceObject("MonksS2"))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		ActionOverride("MonksS2",ForceSpellRES("ROT5601",Myself)) //CASTINPRI3
+		Wait(6)
+		Unlock("5601Gate")
+		OpenDoor("5601Gate")
+		Wait(1)
+		ActionOverride("MonksS2",JumpToPoint([1812.1939]))
+		SmallWait(1)
+		SetGlobal("MonkOpenDoor","RA5601",5)
+		ActionOverride("MonksS2",Face(9))
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("Wulfgarsquest","GLOBAL",1)
+	Global("Timers","RA5601",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Barbariannum1","GLOBAL",ONE_DAY)
+		SetGlobalTimer("Barbariannum2","GLOBAL",ONE_DAY)
+		SetGlobalTimer("Barbariannum3","GLOBAL",TWO_DAYS)
+		SetGlobalTimer("Barbariannum4","GLOBAL",TWO_DAYS)
+		SetGlobalTimer("Barbariannum5","GLOBAL",ONE_DAY)
+		SetGlobal("Timers","RA5601",1)
+END
+
+IF
+	Global("MonkOpenDoor","RA5601",2)
+	InParty("Wulfg2")
+	Dead("Malar3") // Tezz
+	Dead("Malar4") // Malarchite
+	Dead("Malar5") // Malarchite
+	Dead("GolSaph1") // Sapphire Golem
+	Dead("GolSaph2") // Sapphire Golem
+	CombatCounter(0)
+	Delay(1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,JumpToPoint([2590.797]))
+		SmallWait(1)
+		MoveViewObject(Player1,INSTANT)
+		FadeFromColor([20.0],0)
+		Wait(2)
+		ActionOverride("MonksS2",JumpToPoint([2625.745]))
+		SmallWait(1)
+		ActionOverride("MonksS2",FaceObject(Player1))
+		SmallWait(5)
+		ActionOverride("MonksS2",DisplayStringHead(Myself,@573029))
+		Wait(3)
+		ActionOverride("MonksS2",DisplayStringHead(Myself,@573030))
+		Wait(3)
+		ActionOverride("MonksS2",Face(9))
+		Wait(1)
+		ActionOverride("MonksS2",DisplayStringHead(Myself,@573031))
+		Wait(2)
+		Unlock("5601Gate")
+		OpenDoor("5601Gate")
+		Wait(1)
+		ActionOverride("MonksS2",JumpToPoint([1812.1939]))
+		SmallWait(1)
+		AddJournalEntry(@573243,QUEST)
+		SetGlobal("MonkOpenDoor","RA5601",5)
+		ActionOverride("MonksS2",Face(9))
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("MonkOpenDoor","RA5601",2)
+	!InParty("Wulfg2")
+	Dead("Malar3") // Tezz
+	Dead("Malar4") // Malarchite
+	Dead("Malar5") // Malarchite
+	Dead("GolSaph1") // Sapphire Golem
+	Dead("GolSaph2") // Sapphire Golem
+	CombatCounter(0)
+	Delay(1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,JumpToPoint([2590.797]))
+		SmallWait(1)
+		MoveViewObject(Player1,INSTANT)
+		FadeFromColor([20.0],0)
+		Wait(2)
+		ActionOverride("MonksS2",JumpToPoint([2625.745]))
+		SmallWait(1)
+		ActionOverride("MonksS2",FaceObject(Player1))
+		SmallWait(5)
+		ActionOverride("MonksS2",DisplayStringHead(Myself,@573029))
+		Wait(3)
+		ActionOverride("MonksS2",DisplayStringHead(Myself,@573030))
+		Wait(3)
+		ActionOverride("MonksS2",Face(9))
+		Wait(1)
+		ActionOverride("MonksS2",DisplayStringHead(Myself,@573031))
+		Wait(2)
+		Unlock("5601Gate")
+		OpenDoor("5601Gate")
+		Wait(1)
+		ActionOverride("MonksS2",JumpToPoint([1812.1939]))
+		SmallWait(1)
+		SetGlobal("MonkOpenDoor","RA5601",5)
+		ActionOverride("MonksS2",Face(9))
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	InParty("Brue2")
+	Global("FinalBattleofitemp","GLOBAL",8)
+	Global("CreatePwent","RA5601",0)
+THEN
+	RESPONSE #100
+		CreateCreature("TPwent",[2378.1675],6) // Thibbledorf Pwent
+		SetGlobal("CreatePwent","RA5601",1)
+END
+
+

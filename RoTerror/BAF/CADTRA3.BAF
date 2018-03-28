@@ -1,0 +1,20 @@
+IF
+	Clicked([ANYONE])
+	Global("CQuestActive","GLOBAL",12)
+THEN
+	RESPONSE #100
+		ActionOverride("CadPri15",MoveBetweenAreas("RA3709",[1591.526],1))
+END
+
+IF
+	Range("Jan",20)
+	!Dead("Jan")
+	Global("Speaking2","RA3708",0)
+	Delay(5)
+THEN
+	RESPONSE #100
+		ActionOverride("Jan",DisplayStringHead(Myself,@571183))
+		SetGlobal("Speaking2","RA3708",1)
+END
+
+

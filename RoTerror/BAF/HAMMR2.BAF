@@ -1,0 +1,17 @@
+IF
+	Global("CreatinHamm2","GLOBAL",3)
+	Range(Player1,20)
+THEN
+	RESPONSE #100
+		SetGlobal("CreatinHamm2","GLOBAL",4)
+		PlaySong(34)
+		ActionOverride("HamOlg1",FaceObject(Player1))
+		ActionOverride("HamAra1",FaceObject(Player1))
+		ActionOverride("HamMan1",FaceObject(Player1))
+		ActionOverride("HamJen1",FaceObject(Player1))
+		ActionOverride("HamRob1",FaceObject(Player1))
+		ActionOverride("Hammr2",FaceObject(Player1))
+		ActionOverride("Hammr2",StartDialogueNoSet(Player1))
+END
+
+

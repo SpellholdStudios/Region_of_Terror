@@ -1,0 +1,27 @@
+IF
+	Clicked([ANYONE])
+	Global("DlCadd","GLOBAL",8)
+	PartyHasItem("DragCap") // Fangor's Holder
+THEN
+	RESPONSE #100
+		SetGlobal("DlCadd","GLOBAL",9)
+		ActionOverride(Player1,LeaveAreaLUA("RR3702","",[1379.893],10))
+		ActionOverride(Player2,LeaveAreaLUA("RR3702","",[1301.758],12))
+		ActionOverride(Player3,LeaveAreaLUA("RR3702","",[1578.836],4))
+		ActionOverride(Player4,LeaveAreaLUA("RR3702","",[1412.846],10))
+		ActionOverride(Player5,LeaveAreaLUA("RR3702","",[1386.756],13))
+		ActionOverride(Player6,LeaveAreaLUA("RR3702","",[1521.790],3))
+END
+
+IF
+	Clicked([ANYONE])
+	Global("DlCadd","GLOBAL",8)
+	!PartyHasItem("DragCap") // Fangor's Holder
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SmallWait(1)
+		ActionOverride(Player1,DisplayStringHead(Myself,@574829)) // Let's get the item first.
+END
+
+

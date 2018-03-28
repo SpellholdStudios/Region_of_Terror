@@ -1,0 +1,58 @@
+IF
+	Global("Sfquestbd","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("Sfquestbd","GLOBAL",4)
+END
+
+IF
+	Global("Sfquestbd","GLOBAL",26)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		FadeFromColor([20.0],0)
+		ActionOverride(Player1,LeaveAreaLUA("RR4003","",[474.779],4))
+		SetGlobal("Sfquestbd","GLOBAL",27)
+END
+
+IF
+	Global("wonshamo","GLOBAL",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ActionOverride("UndApp",LeaveAreaLUA("RR4004","",[1813.1450],13))
+		SetGlobal("wonshamo","GLOBAL",2)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("Igottac","GLOBAL",1)
+		ActionOverride("UndApp",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("Igottac","GLOBAL",2)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		ActionOverride(Player2,MakeUnselectable(1))
+		ActionOverride(Player3,MakeUnselectable(1))
+		ActionOverride(Player4,MakeUnselectable(1))
+		ActionOverride(Player5,MakeUnselectable(1))
+		ActionOverride(Player6,MakeUnselectable(1))
+		SmallWait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("Igottac","GLOBAL",3)
+		ActionOverride(Player1,LeaveAreaLUA("RR4001","",[413.355],13))
+END
+
+

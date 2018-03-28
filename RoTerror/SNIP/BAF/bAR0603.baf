@@ -1,0 +1,8 @@
+IF
+	Global("CreaDrizzi","AR0603",0)
+THEN
+	RESPONSE #100
+		CreateCreature("Driz21",[3240.1940],3) // Drizzt Do'Urden
+		SetGlobal("CreaDrizzi","AR0603",1)
+END
+

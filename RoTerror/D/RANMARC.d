@@ -1,0 +1,70 @@
+BEGIN ~RANMARC~
+
+IF ~GlobalLT("RandallJoin","GLOBAL",20)
+!Global("Scheisse","ar1515",1)
+!Global("Scheisse2","ar1515",1)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 1 // from:
+  SAY @1
+  IF ~~ THEN EXTERN ~RANDALLJ~ 19
+END
+
+IF ~~ THEN BEGIN 2 // from:
+  SAY @2
+  IF ~~ THEN EXTERN ~RANDALLJ~ 20
+END
+
+IF ~~ THEN BEGIN 3 // from:
+  SAY @3
+  IF ~~ THEN EXTERN ~RANDALLJ~ 21
+END
+
+IF ~~ THEN BEGIN 4 // from:
+  SAY @4
+  IF ~~ THEN EXTERN ~RANDALLJ~ 22
+END
+
+IF ~Global("RandallJoin","GLOBAL",20)
+!Global("Scheisse","ar1515",1)
+!Global("Scheisse2","ar1515",1)~ THEN BEGIN 5
+  SAY @5
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 6 // from:
+  SAY @6
+  IF ~~ THEN EXTERN ~RANDALLJ~ 24
+END
+
+IF ~~ THEN BEGIN 7 // from:
+  SAY @7
+  IF ~~ THEN EXTERN ~RANDALLJ~ 25
+END
+
+IF ~~ THEN BEGIN 8 // from:
+  SAY @8
+  IF ~~ THEN EXTERN ~RANDALLJ~ 26
+END
+
+IF ~~ THEN BEGIN 9 // from:
+  SAY @1
+  IF ~~ THEN EXTERN ~RANDALLJ~ 28
+END
+
+IF ~~ THEN BEGIN 10 // from:
+  SAY @2
+  IF ~~ THEN EXTERN ~RANDALLJ~ 29
+END
+
+IF ~~ THEN BEGIN 11 // from:
+  SAY @3
+  IF ~~ THEN EXTERN ~RANDALLJ~ 30
+END
+
+IF ~~ THEN BEGIN 12 // from:
+  SAY @4
+  IF ~~ THEN EXTERN ~RANDALLJ~ 23
+END

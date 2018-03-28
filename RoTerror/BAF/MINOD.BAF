@@ -1,0 +1,60 @@
+IF
+	Global("Minsounds","LOCALS",1)
+	!CombatCounter(0)
+THEN
+	RESPONSE #25
+		DisplayStringHead(Myself,@568525)
+		SmallWait(1)
+		SetGlobal("Minsounds","LOCALS",0)
+	RESPONSE #25
+		DisplayStringHead(Myself,@568526)
+		SmallWait(1)
+		SetGlobal("Minsounds","LOCALS",0)
+	RESPONSE #25
+		DisplayStringHead(Myself,@568527)
+		SmallWait(1)
+		SetGlobal("Minsounds","LOCALS",0)
+	RESPONSE #25
+		DisplayStringHead(Myself,@568528)
+		SmallWait(1)
+		SetGlobal("Minsounds","LOCALS",0)
+END
+
+IF
+	Global("Minsounds","LOCALS",0)
+	OR(6)
+		Range(Player1,25)
+		Range(Player2,25)
+		Range(Player3,25)
+		Range(Player4,25)
+		Range(Player5,25)
+		Range(Player6,25)
+THEN
+	RESPONSE #25
+		AttackOneRound(NearestEnemyOf(Myself))
+		SmallWait(1)
+		SetGlobal("Minsounds","LOCALS",1)
+	RESPONSE #25
+		AttackOneRound(NearestEnemyOf(Myself))
+		SmallWait(1)
+		AttackOneRound(NearestEnemyOf(Myself))
+		SetGlobal("Minsounds","LOCALS",1)
+	RESPONSE #25
+		AttackOneRound(NearestEnemyOf(Myself))
+		SmallWait(1)
+		AttackOneRound(NearestEnemyOf(Myself))
+		SmallWait(1)
+		AttackOneRound(NearestEnemyOf(Myself))
+		SetGlobal("Minsounds","LOCALS",1)
+	RESPONSE #25
+		AttackOneRound(NearestEnemyOf(Myself))
+		SmallWait(1)
+		AttackOneRound(NearestEnemyOf(Myself))
+		SmallWait(1)
+		AttackOneRound(NearestEnemyOf(Myself))
+		SmallWait(1)
+		AttackOneRound(NearestEnemyOf(Myself))
+		SetGlobal("Minsounds","LOCALS",1)
+END
+
+

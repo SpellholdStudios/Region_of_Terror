@@ -1,0 +1,21 @@
+IF
+	Global("ArenaRews","GLOBAL",19)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@567539)
+		Wait(2)
+		GiveItemCreate("Lionh",Player1,0,0,0) // Lionheart +6
+		SetGlobal("ArenaRews","GLOBAL",20)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702)
+END
+
+

@@ -1,0 +1,9 @@
+@0    = ~BAM Editieren ist sehr einfach, daher werde ich Euch hier nur die Grundlagen erklären.~
+
+@1    = ~Zuerst braucht Ihr das Werkzeug BamWorkshop(2). Dann öffnet einfach eine .bam-Datei aus dem Spiel und Ihr werdet alles verstehen.~
+
+@2    = ~Es gibt zwei Typen von .bam-Dateien. Nichtanimierte (Bilder von Gegenständen, Zaubersprüche...) und animierte (Kreaturen-Animationen, Spruch-Animationen...).~
+
+@3    = ~Das heisst, dass man Bilder und Animationen mit BamWorkshop erschaffen kann. Das ist sehr einfach in der Anwendung. So wie bei den Programm "Paint", wenn man von den Animationen einmal absieht.~
+
+@4    = ~Ladet einfach die Datei SKYBOLT, wenn Ihr ein Beispiel einer Animation sehen wollt, Oder die Datei SPWI901A, wenn Ihr ein Bild ansehen und editieren wollt.~

@@ -1,0 +1,28 @@
+IF
+	Global("GetKey","RA5603",0)
+	Clicked([ANYONE])
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPCLOUD2",[1912.1416])
+		CreateVisualEffect("SPCLOUD2",[2188.1535])
+		CreateVisualEffect("SPCLOUD2",[2134.1379])
+		Wait(1)
+		CreateVisualEffect("SPCLOUDI",[1912.1416])
+		CreateVisualEffect("SPCLOUDI",[2188.1535])
+		CreateVisualEffect("SPCLOUDI",[2134.1379])
+		Wait(1)
+		CreateCreature("Malar8",[1912.1416],9) // Malarchite
+		CreateCreature("Malar8",[2188.1535],9) // Malarchite
+		CreateCreature("GregDemi",[2134.1379],9) // Gregorraxx
+		SetGlobal("GetKey","RA5603",1)
+END
+
+IF
+	Global("GetKey","RA5603",1)
+	Clicked([ANYONE])
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@573127)
+END
+
+

@@ -1,0 +1,11 @@
+IF
+	Global("Itstfacti","AR0400",3)
+	HPLT(Myself,25)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,NEUTRAL)
+		ClearAllActions()
+		SetGlobal("Itstfacti","AR0400",4)
+END
+
+

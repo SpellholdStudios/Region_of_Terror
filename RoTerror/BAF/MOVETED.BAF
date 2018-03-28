@@ -1,0 +1,58 @@
+IF
+	!Range("Edwin",15)
+	OR(11)
+		Global("FigEdw","GLOBAL",1)
+		Global("FigEdw","GLOBAL",2)
+		Global("FigEdw","GLOBAL",3)
+		Global("FigEdw","GLOBAL",4)
+		Global("FigEdw","GLOBAL",5)
+		Global("FigEdw","GLOBAL",6)
+		Global("FigEdw","GLOBAL",7)
+		Global("FigEdw","GLOBAL",8)
+		Global("FigEdw","GLOBAL",9)
+		Global("FigEdw","GLOBAL",10)
+		Global("FigEdw","GLOBAL",11)
+THEN
+	RESPONSE #100
+		MoveToObject("Edwin")
+END
+
+IF
+	!Range("Aerie",15)
+	OR(11)
+		Global("FigAer","GLOBAL",1)
+		Global("FigAer","GLOBAL",2)
+		Global("FigAer","GLOBAL",3)
+		Global("FigAer","GLOBAL",4)
+		Global("FigAer","GLOBAL",5)
+		Global("FigAer","GLOBAL",6)
+		Global("FigAer","GLOBAL",7)
+		Global("FigAer","GLOBAL",8)
+		Global("FigAer","GLOBAL",9)
+		Global("FigAer","GLOBAL",10)
+		Global("FigAer","GLOBAL",11)
+THEN
+	RESPONSE #100
+		MoveToObject("Aerie")
+END
+
+IF
+	!Range(Player1,15)
+	OR(11)
+		Global("FigPla","GLOBAL",1)
+		Global("FigPla","GLOBAL",2)
+		Global("FigPla","GLOBAL",3)
+		Global("FigPla","GLOBAL",4)
+		Global("FigPla","GLOBAL",5)
+		Global("FigPla","GLOBAL",6)
+		Global("FigPla","GLOBAL",7)
+		Global("FigPla","GLOBAL",8)
+		Global("FigPla","GLOBAL",9)
+		Global("FigPla","GLOBAL",10)
+		Global("FigPla","GLOBAL",11)
+THEN
+	RESPONSE #100
+		MoveToObject(Player1)
+END
+
+

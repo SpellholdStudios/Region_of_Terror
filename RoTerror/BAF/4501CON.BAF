@@ -1,0 +1,16 @@
+IF
+	Global("Esathquest","GLOBAL",6)
+	Global("4501Con","RA4501",0)
+THEN
+	RESPONSE #100
+		CreateItem("BOOT04",0,0,0) // Boots of Avoidance
+		CreateItem("BOW11",0,0,0) // Strong Arm +2
+		CreateItem("SW1H05",0,0,0) // Long Sword +1
+		CreateItem("SW1H09",0,0,0) // Short Sword +2
+		CreateItem("MISC07",97,0,0) // Gold Piece
+		CreateItem("SHLD04",0,0,0) // Medium Shield +1
+		CreateItem("MISC45",0,0,0) // Rogue Stone
+		SetGlobal("4501Con","RA4501",1)
+END
+
+

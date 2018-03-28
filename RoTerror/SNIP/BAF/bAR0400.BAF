@@ -1,0 +1,143 @@
+IF
+	Global("EnteredAreaT","AR0400",0)
+THEN
+	RESPONSE #100
+		SetGlobal("EnteredAreaT","AR0400",1)
+		SetGlobalTimer("EntDjin1","AR0400",TWO_DAYS)
+END
+
+IF
+	Global("EnteredAreaT","AR0400",1)
+	GlobalTimerExpired("EntDjin1","AR0400")
+	InParty("Driz2")
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		CreateCreature("EntDjin",[3200.3003],14) // Djinni
+		SmallWait(1)
+		SetGlobal("EnteredAreaT","AR0400",2)
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("AR0400","",[3200.2850],0))
+		ActionOverride(Player2,LeaveAreaLUA("AR0400","",[3150.2850],4))
+		ActionOverride(Player3,LeaveAreaLUA("AR0400","",[3160.2850],4))
+		ActionOverride(Player4,LeaveAreaLUA("AR0400","",[3170.2850],2))
+		ActionOverride(Player5,LeaveAreaLUA("AR0400","",[3180.2850],0))
+		ActionOverride(Player6,LeaveAreaLUA("AR0400","",[3190.2850],0))
+		MoveViewPoint([3200.2850],INSTANT)
+		SmallWait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobalTimer("CSCutScene4","GLOBAL",TWO_DAYS)
+		SetGlobal("EnteredAreaT","AR0400",4)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("EnteredAreaT","AR0400",1)
+	GlobalTimerExpired("EntDjin1","AR0400")
+	!InParty("Driz2")
+THEN
+	RESPONSE #100
+		SetGlobal("EnteredAreaT","AR0400",0)
+END
+
+IF
+	Global("CreaRyhh","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("Ryonn",[2393.2433],13) // Ryon
+		SetGlobal("CreaRyhh","GLOBAL",1)
+END
+
+IF
+	Global("DestyRyo","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride("Ryonn",DestroySelf())
+		SetGlobal("DestyRyo","GLOBAL",2)
+END
+
+IF
+	Global("GuardCquest","GLOBAL",2)
+	GlobalTimerExpired("Thefinmewt","GLOBAL")
+	Global("Itstfacti","AR0400",0)
+	TimeOfDay(NIGHT)
+	Global("onlyoncedt","AR0400",0)
+THEN
+	RESPONSE #100
+		SetGlobal("onlyoncedt","AR0400",1)
+		CreateCreature("ArlaxT2",[200.1777],8) // Thief
+		CreateCreature("ArlaxT4",[300.1712],0) // Thief
+		CreateCreature("ArlaxT5",[230.1712],0) // Thief
+		CreateCreature("ArlaxT6",[180.1712],0) // Thief
+		CreateCreature("Tresham1",[256.1777],8) // Tresham
+		SmallWait(1)
+		ActionOverride("ArlaxT6",FaceObject("ArlaxT2"))
+		ActionOverride("ArlaxT5",FaceObject("Tresham1"))
+		ActionOverride("ArlaxT4",FaceObject("Tresham1"))
+		ActionOverride("ArlaxT2",FaceObject("ArlaxT6"))
+		ActionOverride("Tresham1",FaceObject("ArlaxT4"))
+		SetGlobal("Itstfacti","AR0400",1)
+END
+
+IF
+	Global("GuardCquest","GLOBAL",2)
+	Global("Itstfacti","AR0400",1)
+	OR(3)
+		TimeOfDay(DAY)
+		TimeOfDay(DUSK)
+		TimeOfDay(MORNING)
+THEN
+	RESPONSE #100
+		ActionOverride("Tresham1",DestroySelf())
+		ActionOverride("ArlaxT2",DestroySelf())
+		ActionOverride("ArlaxT4",DestroySelf())
+		ActionOverride("ArlaxT5",DestroySelf())
+		ActionOverride("ArlaxT6",DestroySelf())
+		SetGlobal("GuardCquest","GLOBAL",3)
+END
+
+IF
+	Global("Itstfacti","AR0400",2)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		MoveViewPoint([278.1732],INSTANT)
+		Wait(1)
+		ActionOverride("ArlaxT4",DisplayStringHead(Myself,@569152)) // Do you hav... Hey! Someone's coming!
+		Wait(1)
+		ActionOverride("ArlaxT4",FaceObject(Player1))
+		Wait(1)
+		ActionOverride("Tresham1",FaceObject(Player1))
+		Wait(3)
+		ActionOverride("Tresham1",DisplayStringHead(Myself,@569153)) // ...I know them. They are here to capture me.
+		Wait(6)
+		ActionOverride("ArlaxT4",DisplayStringHead(Myself,@569154)) // Well, then... Why don't we teach 'em a lesson!
+		Wait(4)
+		SetGlobal("Itstfacti","AR0400",3)
+		SetGlobal("GuardCquest","GLOBAL",4)
+		UnhideGUI()
+		EndCutSceneMode()
+		ChangeEnemyAlly("ArlaxT2",ENEMY)
+		ChangeEnemyAlly("ArlaxT4",ENEMY)
+		ChangeEnemyAlly("ArlaxT5",ENEMY)
+		ChangeEnemyAlly("ArlaxT6",ENEMY)
+		ChangeEnemyAlly("Tresham1",ENEMY)
+END
+
+IF
+	PartyHasItem("TresDead") // Tresham's Body
+	Global("Kllhmm","AR0400",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Tresham1",DestroySelf())
+		SetGlobal("Kllhmm","AR0400",1)
+END
+
+

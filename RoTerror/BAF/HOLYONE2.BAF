@@ -1,0 +1,22 @@
+IF
+	Global("HolWron","GLOBAL",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		SmallWait(1)
+		ForceSpell(Player1,WIZARD_IMPRISONMENT)
+		ForceSpell(Player2,WIZARD_IMPRISONMENT)
+		ForceSpell(Player3,WIZARD_IMPRISONMENT)
+		ForceSpell(Player4,WIZARD_IMPRISONMENT)
+		ForceSpell(Player5,WIZARD_IMPRISONMENT)
+		ForceSpell(Player6,WIZARD_IMPRISONMENT)
+		ForceSpell(Player1,WIZARD_WAIL_OF_THE_BANSHEE)
+		ForceSpell(Player2,WIZARD_WAIL_OF_THE_BANSHEE)
+		ForceSpell(Player3,WIZARD_WAIL_OF_THE_BANSHEE)
+		ForceSpell(Player4,WIZARD_WAIL_OF_THE_BANSHEE)
+		ForceSpell(Player5,WIZARD_WAIL_OF_THE_BANSHEE)
+		ForceSpell(Player6,WIZARD_WAIL_OF_THE_BANSHEE)
+END
+
+

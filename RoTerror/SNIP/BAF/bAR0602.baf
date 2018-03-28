@@ -1,0 +1,21 @@
+IF
+	Global("CreaWulfi","AR0602",0)
+THEN
+	RESPONSE #100
+		CreateCreature("Wulfg2",[630.2340],13) // Wulfgar
+		SetGlobal("CreaWulfi","AR0602",1)
+END
+
+IF
+	Global("EntJar1","AR0602",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		SetGlobal("EntJar1","AR0602",1)
+		HideGUI()
+		StartCutSceneMode()
+		StartCutScene("EntJar1")
+		UnhideGUI()
+END
+
+

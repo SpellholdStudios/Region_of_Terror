@@ -1,0 +1,9 @@
+IF
+	Global("dflkjad","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("dflkjad","GLOBAL",4)
+		DestroyItem("ArDiam") // Rare Diamond
+END
+
+

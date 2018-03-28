@@ -1,0 +1,477 @@
+IF
+	Global("Prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,WIZARD_STONE_SKIN)
+		DisplayString(Myself,39968) // Spell Trigger - Fired
+		ApplySpell(Myself,WIZARD_MIRROR_IMAGE)
+		ApplySpell(Myself,WIZARD_IMPROVED_INVISIBILITY)
+		ApplySpell(Myself,WIZARD_PROTECTION_FROM_THE_ELEMENTS)
+		ApplySpell(Myself,WIZARD_SPELL_SHIELD)
+		ApplySpell(Myself,WIZARD_SPELL_TURNING)
+		SetGlobal("Prep","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	StateCheck(Myself,STATE_SILENCED)
+	GlobalLT("Vocal","LOCALS",5)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_VOCALIZE)
+		IncrementGlobal("Vocal","LOCALS",1)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	Detect([PC])
+	!See(LastSeenBy(Myself))
+	Global("TruSigh","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_TRUE_SIGHT)
+		SetGlobal("TruSigh","LOCALS",1)
+END
+
+IF
+	Global("TruSigh","LOCALS",1)
+	Allegiance(Myself,ENEMY)
+	Detect([PC])
+	!See(LastSeenBy(Myself))
+	!HaveSpell(WIZARD_TRUE_SIGHT)
+	Delay(10)
+THEN
+	RESPONSE #100
+		ReallyForceSpell(Myself,WIZARD_TRUE_SIGHT)
+END
+
+IF
+	Delay(20)
+	!Range("Edwin",20)
+	OR(11)
+		Global("FigEdw","GLOBAL",1)
+		Global("FigEdw","GLOBAL",2)
+		Global("FigEdw","GLOBAL",3)
+		Global("FigEdw","GLOBAL",4)
+		Global("FigEdw","GLOBAL",5)
+		Global("FigEdw","GLOBAL",6)
+		Global("FigEdw","GLOBAL",7)
+		Global("FigEdw","GLOBAL",8)
+		Global("FigEdw","GLOBAL",9)
+		Global("FigEdw","GLOBAL",10)
+		Global("FigEdw","GLOBAL",11)
+THEN
+	RESPONSE #100
+		MoveToObject("Edwin")
+END
+
+IF
+	Delay(20)
+	!Range("Randall",20)
+	OR(11)
+		Global("FigRan","GLOBAL",1)
+		Global("FigRan","GLOBAL",2)
+		Global("FigRan","GLOBAL",3)
+		Global("FigRan","GLOBAL",4)
+		Global("FigRan","GLOBAL",5)
+		Global("FigRan","GLOBAL",6)
+		Global("FigRan","GLOBAL",7)
+		Global("FigRan","GLOBAL",8)
+		Global("FigRan","GLOBAL",9)
+		Global("FigRan","GLOBAL",10)
+		Global("FigRan","GLOBAL",11)
+THEN
+	RESPONSE #100
+		MoveToObject("Randall")
+END
+
+IF
+	Delay(20)
+	!Range("Aerie",20)
+	OR(11)
+		Global("FigAer","GLOBAL",1)
+		Global("FigAer","GLOBAL",2)
+		Global("FigAer","GLOBAL",3)
+		Global("FigAer","GLOBAL",4)
+		Global("FigAer","GLOBAL",5)
+		Global("FigAer","GLOBAL",6)
+		Global("FigAer","GLOBAL",7)
+		Global("FigAer","GLOBAL",8)
+		Global("FigAer","GLOBAL",9)
+		Global("FigAer","GLOBAL",10)
+		Global("FigAer","GLOBAL",11)
+THEN
+	RESPONSE #100
+		MoveToObject("Aerie")
+END
+
+IF
+	Delay(20)
+	!Range(Player1,20)
+	OR(11)
+		Global("FigPla","GLOBAL",1)
+		Global("FigPla","GLOBAL",2)
+		Global("FigPla","GLOBAL",3)
+		Global("FigPla","GLOBAL",4)
+		Global("FigPla","GLOBAL",5)
+		Global("FigPla","GLOBAL",6)
+		Global("FigPla","GLOBAL",7)
+		Global("FigPla","GLOBAL",8)
+		Global("FigPla","GLOBAL",9)
+		Global("FigPla","GLOBAL",10)
+		Global("FigPla","GLOBAL",11)
+THEN
+	RESPONSE #100
+		MoveToObject(Player1)
+END
+
+IF
+	See([GOODCUTOFF.0.0.0.0.SUMMONED])
+	GlobalLT("summon","LOCALS",5)
+THEN
+	RESPONSE #100
+		FaceObject(LastSeenBy(Myself))
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_DEATH_SPELL)
+		IncrementGlobal("summon","LOCALS",1)
+END
+
+IF
+	!HasBounceEffects(Myself)
+	!HasImmunityEffects(Myself)
+	HaveSpell(WIZARD_PROTECTION_FROM_ENERGY)
+	Allegiance(Myself,ENEMY)
+	Global("Prep","LOCALS",2)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,WIZARD_PROTECTION_FROM_ENERGY)
+		ApplySpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
+		SetGlobal("Prep","LOCALS",3)
+END
+
+IF
+	HPLT(Myself,30)
+	GlobalLT("Potions","LOCALS",2)
+THEN
+	RESPONSE #100
+		UseItem("NewPo01",Myself) // Elixir of Life
+		IncrementGlobal("Potions","LOCALS",1)
+END
+
+IF
+	HPLT(Myself,40)
+	Global("Potions","LOCALS",2)
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		SetGlobal("Potions","LOCALS",3)
+		SetGlobal("Potions1","LOCALS",1)
+END
+
+IF
+	HPLT(Myself,40)
+	GlobalLT("Potions1","LOCALS",5)
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		IncrementGlobal("Potions1","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_METEOR_SWARM)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_METEOR_SWARM)
+END
+
+IF
+	HasImmunityEffects(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_DISPEL_MAGIC)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_DISPEL_MAGIC)
+END
+
+IF
+	HasBounceEffects(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_TRUE_DISPEL_MAGIC)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_TRUE_DISPEL_MAGIC)
+END
+
+IF
+	OR(2)
+		HasBounceEffects(NearestEnemyOf(Myself))
+		HasImmunityEffects(NearestEnemyOf(Myself))
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_RUBY_RAY_OF_REVERSAL)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_RUBY_RAY_OF_REVERSAL)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_LIGHTNING_BOLT)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_LIGHTNING_BOLT)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SLOW)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_SLOW)
+END
+
+IF
+	OR(2)
+		!HasBounceEffects(Myself)
+		!HasImmunityEffects(Myself)
+	HaveSpell(WIZARD_SPELL_DEFLECTION)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,WIZARD_SPELL_DEFLECTION)
+		ApplySpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_ENERGY)
+END
+
+IF
+	OR(2)
+		HasBounceEffects(NearestEnemyOf(Myself))
+		HasImmunityEffects(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_BREACH)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_BREACH)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_GREATER_MALISON)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_GREATER_MALISON)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_LOWER_RESISTANCE)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_LOWER_RESISTANCE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_TIME_STOP)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_TIME_STOP)
+END
+
+IF
+	OR(2)
+		HasBounceEffects(NearestEnemyOf(Myself))
+		HasImmunityEffects(NearestEnemyOf(Myself))
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SPELL_STRIKE)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_SPELL_STRIKE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_ENERGY_DRAIN)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_ENERGY_DRAIN)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_EMOTION_HOPELESSNESS)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_EMOTION_HOPELESSNESS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Symstun","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_SYMBOL_STUN)
+		SetGlobal("Symstun","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("SecTimeStop","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_TIME_STOP)
+		SetGlobal("SecTimeStop","LOCALS",1)
+END
+
+IF
+	Global("Potions2","LOCALS",0)
+THEN
+	RESPONSE #100
+		UseItem("POTN19",Myself) // Potion of Agility
+		UseItem("POTN24",Myself) // Potion of Defense
+		SetGlobal("Potions2","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SPELL_TRAP)
+	Global("Spells2","LOCALS",0)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_SPELL_TRAP)
+		SetGlobal("Spells2","LOCALS",1)
+END
+
+IF
+	OR(2)
+		HasBounceEffects(NearestEnemyOf(Myself))
+		HasImmunityEffects(NearestEnemyOf(Myself))
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_PIERCE_SHIELD)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_PIERCE_SHIELD)
+END
+
+IF
+	HasImmunityEffects(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_DISPEL_MAGIC)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_DISPEL_MAGIC)
+END
+
+IF
+	HasBounceEffects(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_TRUE_DISPEL_MAGIC)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_TRUE_DISPEL_MAGIC)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_ABI_DALZIMS_HORRID_WILTING)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_PROJECT_IMAGE)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_PROJECT_IMAGE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CONE_OF_COLD)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_CONE_OF_COLD)
+END
+
+IF
+	OR(2)
+		HasBounceEffects(NearestEnemyOf(Myself))
+		HasImmunityEffects(NearestEnemyOf(Myself))
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_PIERCE_MAGIC)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_PIERCE_MAGIC)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CHAIN_LIGHTNING)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_CHAIN_LIGHTNING)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_FIREBALL)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_FIREBALL)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_FINGER_OF_DEATH)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_FINGER_OF_DEATH)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MELF_ACID_ARROW)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_MELF_ACID_ARROW)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_AGANNAZAR_SCORCHER)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_AGANNAZAR_SCORCHER)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MAGIC_MISSILE)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_LARLOCH_MINOR_DRAIN)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_LARLOCH_MINOR_DRAIN)
+END
+
+IF
+	Global("Potions3","LOCALS",0)
+THEN
+	RESPONSE #100
+		UseItem("POTN10",Myself) // Potion of Invisibility
+		SetGlobal("Potions3","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+

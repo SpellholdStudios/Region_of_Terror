@@ -1,0 +1,11 @@
+IF
+	ActionListEmpty()
+	OR(2)
+		Global("Olmsidthebat","GLOBAL",5)
+		Global("Olmsidthebat","GLOBAL",6)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+

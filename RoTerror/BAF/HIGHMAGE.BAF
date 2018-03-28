@@ -1,0 +1,34 @@
+IF
+        True()
+//	Global("ZemirQuests","GLOBAL",14)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("AHighMa3",MoveBetweenAreas("RR3100",[631.356],13))
+		LeaveAreaLUA("RR3100","",[701.408],5)
+		ActionOverride(Player2,LeaveAreaLUA("RR3100","",[701.460],5))
+		ActionOverride(Player3,LeaveAreaLUA("RR3100","",[765.450],5))
+		ActionOverride(Player4,LeaveAreaLUA("RR3100","",[777.418],5))
+		ActionOverride(Player5,LeaveAreaLUA("RR3100","",[743.490],5))
+		ActionOverride(Player6,LeaveAreaLUA("RR3100","",[793.470],5))
+		Wait(3)
+		ActionOverride("AHighMa3",FaceObject(Player1))
+		FaceObject("AHighMa3")
+		ActionOverride(Player2,FaceObject("AHighMa3"))
+		ActionOverride(Player3,FaceObject("AHighMa3"))
+		ActionOverride(Player4,FaceObject("AHighMa3"))
+		ActionOverride(Player5,FaceObject("AHighMa3"))
+		ActionOverride(Player6,FaceObject("AHighMa3"))
+		SmallWait(1)
+		MoveViewObject(Player1,INSTANT)
+		FadeFromColor([20.0],0)
+		SetGlobal("ZemirQuests","GLOBAL",15)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("AHighMa3",StartDialogueNoSet(Player1))
+END
+
+

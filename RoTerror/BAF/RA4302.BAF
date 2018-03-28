@@ -1,0 +1,1181 @@
+IF
+	Global("FigEdw","GLOBAL",4)
+	Dead("ArenaGo1") // Goblin
+	Dead("ArenaGo2") // Goblin
+	Dead("ArenaGo3") // Goblin
+	Dead("ArenaGo4") // Goblin
+	Dead("ArenaGo5") // Goblin
+	Dead("ArenaGo6") // Goblin
+	Dead("ArenaGo7") // Goblin
+	Dead("ArenaGo8") // Goblin
+	Dead("ArenaGo9") // Goblin
+	Dead("ArenaHo1") // Hobgoblin Warrior
+	Dead("ArenaHo2") // Hobgoblin Warrior
+	Dead("ArenaHo3") // Hobgoblin Warrior
+	Dead("ArenaHo4") // Hobgoblin Warrior
+	Dead("ArenaHo5") // Hobgoblin Captain
+	Dead("ArenaHo6") // Hobgoblin Wizard
+	Dead("ArenaHo7") // Hobgoblin Wizard
+	Dead("ArenaHo8") // Hobgoblin Wizard
+	Dead("ArenaHo9") // Hobgoblin Shaman
+	Dead("ArenaOr1") // Orc
+	Dead("ArenaOr2") // Orc
+	Dead("ArenaOr3") // Orc
+	Dead("ArenaOr4") // Orc
+	Dead("ArenGo10") // Goblin
+	Dead("ArenGo11") // Goblin
+	Dead("ArenGo12") // Goblin
+	Dead("ArenGo13") // Goblin
+	Dead("ArenGo14") // Goblin
+	Dead("ArenGo15") // Goblin
+	Dead("ArenHo10") // Hobgoblin Shaman
+	Dead("ArenHo11") // Hobgoblin Captain
+	Dead("ArenHo12") // Hobgoblin Wizard
+	Dead("ArenHo13") // Hobgoblin Wizard
+THEN
+	RESPONSE #100
+		SetGlobal("FigEdw","GLOBAL",5)
+END
+
+IF
+	Global("FigEdw","GLOBAL",6)
+	!Global("DedEdw","GLOBAL",1)
+	!Global("DedEdw","GLOBAL",2)
+	!Global("DedEdw","GLOBAL",3)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Edwin",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa1",[2727.891],3) // Olath
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigEdw","GLOBAL",7)
+END
+
+IF
+	Global("FigEdw","GLOBAL",7)
+	!Global("DedEdw","GLOBAL",1)
+	!Global("DedEdw","GLOBAL",2)
+	!Global("DedEdw","GLOBAL",3)
+	Dead("ArenaMa1") // Olath
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Edwin",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa2",[2727.891],3) // Veldrin
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigEdw","GLOBAL",8)
+END
+
+IF
+	Global("FigEdw","GLOBAL",8)
+	!Global("DedEdw","GLOBAL",1)
+	!Global("DedEdw","GLOBAL",2)
+	!Global("DedEdw","GLOBAL",3)
+	Dead("ArenaMa2") // Veldrin
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Edwin",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa3",[2727.891],3) // Mynor
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigEdw","GLOBAL",9)
+END
+
+IF
+	Global("FigEdw","GLOBAL",9)
+	!Global("DedEdw","GLOBAL",1)
+	!Global("DedEdw","GLOBAL",2)
+	!Global("DedEdw","GLOBAL",3)
+	Dead("ArenaMa3") // Mynor
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Edwin",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa4",[2727.891],3) // Yvonne
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigEdw","GLOBAL",10)
+END
+
+IF
+	Global("FigEdw","GLOBAL",10)
+	!Global("DedEdw","GLOBAL",1)
+	!Global("DedEdw","GLOBAL",2)
+	!Global("DedEdw","GLOBAL",3)
+	Dead("ArenaMa4") // Yvonne
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Edwin",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa5",[2727.891],3) // Cedar
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigEdw","GLOBAL",11)
+END
+
+IF
+	Dead("Edwin")
+	OR(11)
+		Global("FigEdw","GLOBAL",1)
+		Global("FigEdw","GLOBAL",2)
+		Global("FigEdw","GLOBAL",3)
+		Global("FigEdw","GLOBAL",4)
+		Global("FigEdw","GLOBAL",5)
+		Global("FigEdw","GLOBAL",6)
+		Global("FigEdw","GLOBAL",7)
+		Global("FigEdw","GLOBAL",8)
+		Global("FigEdw","GLOBAL",9)
+		Global("FigEdw","GLOBAL",10)
+		Global("FigEdw","GLOBAL",11)
+	Global("DeadEd","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("DeadEd","GLOBAL",1)
+END
+
+IF
+	Global("DeadEd","GLOBAL",2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("StaffM11",ForceSpell("Edwin",CLERIC_RESURRECTION))
+		Wait(5)
+		MoveViewPoint([1020.2070],INSTANT)
+		ActionOverride("ArenaGo1",DestroySelf())
+		ActionOverride("ArenaGo2",DestroySelf())
+		ActionOverride("ArenaGo3",DestroySelf())
+		ActionOverride("ArenaGo4",DestroySelf())
+		ActionOverride("ArenaGo5",DestroySelf())
+		ActionOverride("ArenaGo6",DestroySelf())
+		ActionOverride("ArenaGo7",DestroySelf())
+		ActionOverride("ArenaGo8",DestroySelf())
+		ActionOverride("ArenaGo9",DestroySelf())
+		ActionOverride("ArenaHo1",DestroySelf())
+		ActionOverride("ArenaHo2",DestroySelf())
+		ActionOverride("ArenaHo3",DestroySelf())
+		ActionOverride("ArenaHo4",DestroySelf())
+		ActionOverride("ArenaHo5",DestroySelf())
+		ActionOverride("ArenaHo6",DestroySelf())
+		ActionOverride("ArenaHo7",DestroySelf())
+		ActionOverride("ArenaHo8",DestroySelf())
+		ActionOverride("ArenaHo9",DestroySelf())
+		ActionOverride("ArenaOr1",DestroySelf())
+		ActionOverride("ArenaOr2",DestroySelf())
+		ActionOverride("ArenaOr3",DestroySelf())
+		ActionOverride("ArenaOr4",DestroySelf())
+		ActionOverride("ArenGo10",DestroySelf())
+		ActionOverride("ArenGo11",DestroySelf())
+		ActionOverride("ArenGo12",DestroySelf())
+		ActionOverride("ArenGo13",DestroySelf())
+		ActionOverride("ArenGo14",DestroySelf())
+		ActionOverride("ArenGo15",DestroySelf())
+		ActionOverride("ArenHo10",DestroySelf())
+		ActionOverride("ArenHo11",DestroySelf())
+		ActionOverride("ArenHo12",DestroySelf())
+		ActionOverride("ArenHo13",DestroySelf())
+		ActionOverride("ArenaMa1",DestroySelf())
+		ActionOverride("ArenaMa2",DestroySelf())
+		ActionOverride("ArenaMa3",DestroySelf())
+		ActionOverride("ArenaMa4",DestroySelf())
+		ActionOverride("ArenaMa5",DestroySelf())
+		Wait(1)
+		FadeFromColor([20.0],0)
+		ActionOverride(Player1,LeaveAreaLUA("RA4301","",[385.227],11))
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Edwin",LeaveAreaLUA("ra4302","",[1028.2046],8))
+		SetGlobal("DedEdw","GLOBAL",1)
+		SetGlobal("DeadEd","GLOBAL",3)
+END
+
+IF
+	Global("Goodbed","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,MakeUnselectable(1))
+		ActionOverride(Player2,MakeUnselectable(1))
+		ActionOverride(Player3,MakeUnselectable(1))
+		ActionOverride(Player4,MakeUnselectable(1))
+		ActionOverride(Player5,MakeUnselectable(1))
+		ActionOverride(Player6,MakeUnselectable(1))
+		Wait(1)
+		SmallWait(1)
+		SetGlobal("Goodbed","GLOBAL",2)
+		EndCutSceneMode()
+		UnhideGUI()
+		FadeFromColor([20.0],0)
+		ActionOverride("Edwin",LeaveAreaLUA("RA4301","",[386.226],10))
+END
+
+IF
+	Global("FigEdw","GLOBAL",11)
+	!Global("DedEdw","GLOBAL",1)
+	!Global("DedEdw","GLOBAL",2)
+	!Global("DedEdw","GLOBAL",3)
+	Dead("ArenaMa5") // Cedar
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Edwin",LeaveAreaLUA("RA4302","",[1020.2070],8))
+		MoveViewPoint([1020.2070],INSTANT)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigEdw","GLOBAL",12)
+END
+
+IF
+	Global("FigEdw","GLOBAL",14)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,MakeUnselectable(1))
+		ActionOverride(Player2,MakeUnselectable(1))
+		ActionOverride(Player3,MakeUnselectable(1))
+		ActionOverride(Player4,MakeUnselectable(1))
+		ActionOverride(Player5,MakeUnselectable(1))
+		ActionOverride(Player6,MakeUnselectable(1))
+		Wait(1)
+		SmallWait(1)
+		SetGlobal("FigEdw","GLOBAL",15)
+		EndCutSceneMode()
+		UnhideGUI()
+		FadeFromColor([20.0],0)
+		ActionOverride("Edwin",LeaveAreaLUA("RA4301","",[386.226],10))
+END
+
+IF
+	Global("FigAer","GLOBAL",4)
+	Dead("ArenaGo1") // Goblin
+	Dead("ArenaGo2") // Goblin
+	Dead("ArenaGo3") // Goblin
+	Dead("ArenaGo4") // Goblin
+	Dead("ArenaGo5") // Goblin
+	Dead("ArenaGo6") // Goblin
+	Dead("ArenaGo7") // Goblin
+	Dead("ArenaGo8") // Goblin
+	Dead("ArenaGo9") // Goblin
+	Dead("ArenaHo1") // Hobgoblin Warrior
+	Dead("ArenaHo2") // Hobgoblin Warrior
+	Dead("ArenaHo3") // Hobgoblin Warrior
+	Dead("ArenaHo4") // Hobgoblin Warrior
+	Dead("ArenaHo5") // Hobgoblin Captain
+	Dead("ArenaHo6") // Hobgoblin Wizard
+	Dead("ArenaHo7") // Hobgoblin Wizard
+	Dead("ArenaHo8") // Hobgoblin Wizard
+	Dead("ArenaHo9") // Hobgoblin Shaman
+	Dead("ArenaOr1") // Orc
+	Dead("ArenaOr2") // Orc
+	Dead("ArenaOr3") // Orc
+	Dead("ArenaOr4") // Orc
+	Dead("ArenGo10") // Goblin
+	Dead("ArenGo11") // Goblin
+	Dead("ArenGo12") // Goblin
+	Dead("ArenGo13") // Goblin
+	Dead("ArenGo14") // Goblin
+	Dead("ArenGo15") // Goblin
+	Dead("ArenHo10") // Hobgoblin Shaman
+	Dead("ArenHo11") // Hobgoblin Captain
+	Dead("ArenHo12") // Hobgoblin Wizard
+	Dead("ArenHo13") // Hobgoblin Wizard
+THEN
+	RESPONSE #100
+		SetGlobal("FigAer","GLOBAL",5)
+END
+
+IF
+	Global("FigAer","GLOBAL",6)
+	!Global("DedAr","GLOBAL",1)
+	!Global("DedAr","GLOBAL",2)
+	!Global("DedAr","GLOBAL",3)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Aerie",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa1",[2727.891],3) // Olath
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigAer","GLOBAL",7)
+END
+
+IF
+	Global("FigAer","GLOBAL",7)
+	!Global("DedAr","GLOBAL",1)
+	!Global("DedAr","GLOBAL",2)
+	!Global("DedAr","GLOBAL",3)
+	Dead("ArenaMa1") // Olath
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Aerie",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa2",[2727.891],3) // Veldrin
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigAer","GLOBAL",8)
+END
+
+IF
+	Global("FigAer","GLOBAL",8)
+	!Global("DedAr","GLOBAL",1)
+	!Global("DedAr","GLOBAL",2)
+	!Global("DedAr","GLOBAL",3)
+	Dead("ArenaMa2") // Veldrin
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Aerie",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa3",[2727.891],3) // Mynor
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigAer","GLOBAL",9)
+END
+
+IF
+	Global("FigAer","GLOBAL",9)
+	!Global("DedAr","GLOBAL",1)
+	!Global("DedAr","GLOBAL",2)
+	!Global("DedAr","GLOBAL",3)
+	Dead("ArenaMa3") // Mynor
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Aerie",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa4",[2727.891],3) // Yvonne
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigAer","GLOBAL",10)
+END
+
+IF
+	Global("FigAer","GLOBAL",10)
+	!Global("DedAr","GLOBAL",1)
+	!Global("DedAr","GLOBAL",2)
+	!Global("DedAr","GLOBAL",3)
+	Dead("ArenaMa4") // Yvonne
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Aerie",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa5",[2727.891],3) // Cedar
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigAer","GLOBAL",11)
+END
+
+IF
+	Dead("Aerie") // Aerie
+	OR(11)
+		Global("FigAer","GLOBAL",1)
+		Global("FigAer","GLOBAL",2)
+		Global("FigAer","GLOBAL",3)
+		Global("FigAer","GLOBAL",4)
+		Global("FigAer","GLOBAL",5)
+		Global("FigAer","GLOBAL",6)
+		Global("FigAer","GLOBAL",7)
+		Global("FigAer","GLOBAL",8)
+		Global("FigAer","GLOBAL",9)
+		Global("FigAer","GLOBAL",10)
+		Global("FigAer","GLOBAL",11)
+	Global("DeadAer","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("DeadAer","GLOBAL",1)
+END
+
+IF
+	Global("DeadAer","GLOBAL",2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("StaffM11",ForceSpell("Aerie",CLERIC_RESURRECTION))
+		Wait(5)
+		MoveViewPoint([1020.2070],INSTANT)
+		ActionOverride("ArenaGo1",DestroySelf())
+		ActionOverride("ArenaGo2",DestroySelf())
+		ActionOverride("ArenaGo3",DestroySelf())
+		ActionOverride("ArenaGo4",DestroySelf())
+		ActionOverride("ArenaGo5",DestroySelf())
+		ActionOverride("ArenaGo6",DestroySelf())
+		ActionOverride("ArenaGo7",DestroySelf())
+		ActionOverride("ArenaGo8",DestroySelf())
+		ActionOverride("ArenaGo9",DestroySelf())
+		ActionOverride("ArenaHo1",DestroySelf())
+		ActionOverride("ArenaHo2",DestroySelf())
+		ActionOverride("ArenaHo3",DestroySelf())
+		ActionOverride("ArenaHo4",DestroySelf())
+		ActionOverride("ArenaHo5",DestroySelf())
+		ActionOverride("ArenaHo6",DestroySelf())
+		ActionOverride("ArenaHo7",DestroySelf())
+		ActionOverride("ArenaHo8",DestroySelf())
+		ActionOverride("ArenaHo9",DestroySelf())
+		ActionOverride("ArenaOr1",DestroySelf())
+		ActionOverride("ArenaOr2",DestroySelf())
+		ActionOverride("ArenaOr3",DestroySelf())
+		ActionOverride("ArenaOr4",DestroySelf())
+		ActionOverride("ArenGo10",DestroySelf())
+		ActionOverride("ArenGo11",DestroySelf())
+		ActionOverride("ArenGo12",DestroySelf())
+		ActionOverride("ArenGo13",DestroySelf())
+		ActionOverride("ArenGo14",DestroySelf())
+		ActionOverride("ArenGo15",DestroySelf())
+		ActionOverride("ArenHo10",DestroySelf())
+		ActionOverride("ArenHo11",DestroySelf())
+		ActionOverride("ArenHo12",DestroySelf())
+		ActionOverride("ArenHo13",DestroySelf())
+		ActionOverride("ArenaMa1",DestroySelf())
+		ActionOverride("ArenaMa2",DestroySelf())
+		ActionOverride("ArenaMa3",DestroySelf())
+		ActionOverride("ArenaMa4",DestroySelf())
+		ActionOverride("ArenaMa5",DestroySelf())
+		Wait(1)
+		FadeFromColor([20.0],0)
+		ActionOverride(Player1,LeaveAreaLUA("RA4301","",[385.227],11))
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Aerie",LeaveAreaLUA("ra4302","",[1028.2046],8))
+		SetGlobal("DedAr","GLOBAL",1)
+		SetGlobal("DeadAer","GLOBAL",3)
+END
+
+IF
+	Global("Goodbar","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,MakeUnselectable(1))
+		ActionOverride(Player2,MakeUnselectable(1))
+		ActionOverride(Player3,MakeUnselectable(1))
+		ActionOverride(Player4,MakeUnselectable(1))
+		ActionOverride(Player5,MakeUnselectable(1))
+		ActionOverride(Player6,MakeUnselectable(1))
+		Wait(1)
+		SmallWait(1)
+		SetGlobal("Goodbar","GLOBAL",2)
+		EndCutSceneMode()
+		UnhideGUI()
+		FadeFromColor([20.0],0)
+		ActionOverride("Aerie",LeaveAreaLUA("RA4301","",[386.226],10))
+END
+
+IF
+	Global("FigAer","GLOBAL",11)
+	!Global("DedAr","GLOBAL",1)
+	!Global("DedAr","GLOBAL",2)
+	!Global("DedAr","GLOBAL",3)
+	Dead("ArenaMa5") // Cedar
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Aerie",LeaveAreaLUA("RA4302","",[1020.2070],8))
+		MoveViewPoint([1020.2070],INSTANT)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigAer","GLOBAL",12)
+END
+
+IF
+	Global("FigAer","GLOBAL",14)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,MakeUnselectable(1))
+		ActionOverride(Player2,MakeUnselectable(1))
+		ActionOverride(Player3,MakeUnselectable(1))
+		ActionOverride(Player4,MakeUnselectable(1))
+		ActionOverride(Player5,MakeUnselectable(1))
+		ActionOverride(Player6,MakeUnselectable(1))
+		Wait(1)
+		SmallWait(1)
+		SetGlobal("FigAer","GLOBAL",15)
+		EndCutSceneMode()
+		UnhideGUI()
+		FadeFromColor([20.0],0)
+		ActionOverride("Aerie",LeaveAreaLUA("RA4301","",[386.226],10))
+END
+
+IF
+	Global("FigPla","GLOBAL",4)
+	Dead("ArenaGo1") // Goblin
+	Dead("ArenaGo2") // Goblin
+	Dead("ArenaGo3") // Goblin
+	Dead("ArenaGo4") // Goblin
+	Dead("ArenaGo5") // Goblin
+	Dead("ArenaGo6") // Goblin
+	Dead("ArenaGo7") // Goblin
+	Dead("ArenaGo8") // Goblin
+	Dead("ArenaGo9") // Goblin
+	Dead("ArenaHo1") // Hobgoblin Warrior
+	Dead("ArenaHo2") // Hobgoblin Warrior
+	Dead("ArenaHo3") // Hobgoblin Warrior
+	Dead("ArenaHo4") // Hobgoblin Warrior
+	Dead("ArenaHo5") // Hobgoblin Captain
+	Dead("ArenaHo6") // Hobgoblin Wizard
+	Dead("ArenaHo7") // Hobgoblin Wizard
+	Dead("ArenaHo8") // Hobgoblin Wizard
+	Dead("ArenaHo9") // Hobgoblin Shaman
+	Dead("ArenaOr1") // Orc
+	Dead("ArenaOr2") // Orc
+	Dead("ArenaOr3") // Orc
+	Dead("ArenaOr4") // Orc
+	Dead("ArenGo10") // Goblin
+	Dead("ArenGo11") // Goblin
+	Dead("ArenGo12") // Goblin
+	Dead("ArenGo13") // Goblin
+	Dead("ArenGo14") // Goblin
+	Dead("ArenGo15") // Goblin
+	Dead("ArenHo10") // Hobgoblin Shaman
+	Dead("ArenHo11") // Hobgoblin Captain
+	Dead("ArenHo12") // Hobgoblin Wizard
+	Dead("ArenHo13") // Hobgoblin Wizard
+THEN
+	RESPONSE #100
+		SetGlobal("FigPla","GLOBAL",5)
+END
+
+IF
+	Global("FigPla","GLOBAL",6)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa1",[2727.891],3) // Olath
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigPla","GLOBAL",7)
+END
+
+IF
+	Global("FigPla","GLOBAL",7)
+	Dead("ArenaMa1") // Olath
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa2",[2727.891],3) // Veldrin
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigPla","GLOBAL",8)
+END
+
+IF
+	Global("FigPla","GLOBAL",8)
+	Dead("ArenaMa2") // Veldrin
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa3",[2727.891],3) // Mynor
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigPla","GLOBAL",9)
+END
+
+IF
+	Global("FigPla","GLOBAL",9)
+	Dead("ArenaMa3") // Mynor
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa4",[2727.891],3) // Yvonne
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigPla","GLOBAL",10)
+END
+
+IF
+	Global("FigPla","GLOBAL",10)
+	Dead("ArenaMa4") // Yvonne
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa5",[2727.891],3) // Cedar
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigPla","GLOBAL",11)
+END
+
+IF
+	Global("FigPla","GLOBAL",11)
+	Dead("ArenaMa5") // Cedar
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("RA4302","",[1020.2070],8))
+		MoveViewPoint([1020.2070],INSTANT)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigPla","GLOBAL",12)
+END
+
+IF
+	Global("FigPla","GLOBAL",14)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,MakeUnselectable(1))   //*************************************
+		ActionOverride(Player2,MakeUnselectable(1))
+		ActionOverride(Player3,MakeUnselectable(1))
+		ActionOverride(Player4,MakeUnselectable(1))
+		ActionOverride(Player5,MakeUnselectable(1))
+		ActionOverride(Player6,MakeUnselectable(1))
+		Wait(1)
+		SmallWait(1)
+		SetGlobal("FigPla","GLOBAL",15)
+		EndCutSceneMode()
+		UnhideGUI()
+		FadeFromColor([20.0],0)
+		ActionOverride(Player1,LeaveAreaLUA("RA4301","",[386.226],10))
+END
+
+IF
+	Global("FigRan","GLOBAL",4)
+	Dead("ArenaGo1") // Goblin
+	Dead("ArenaGo2") // Goblin
+	Dead("ArenaGo3") // Goblin
+	Dead("ArenaGo4") // Goblin
+	Dead("ArenaGo5") // Goblin
+	Dead("ArenaGo6") // Goblin
+	Dead("ArenaGo7") // Goblin
+	Dead("ArenaGo8") // Goblin
+	Dead("ArenaGo9") // Goblin
+	Dead("ArenaHo1") // Hobgoblin Warrior
+	Dead("ArenaHo2") // Hobgoblin Warrior
+	Dead("ArenaHo3") // Hobgoblin Warrior
+	Dead("ArenaHo4") // Hobgoblin Warrior
+	Dead("ArenaHo5") // Hobgoblin Captain
+	Dead("ArenaHo6") // Hobgoblin Wizard
+	Dead("ArenaHo7") // Hobgoblin Wizard
+	Dead("ArenaHo8") // Hobgoblin Wizard
+	Dead("ArenaHo9") // Hobgoblin Shaman
+	Dead("ArenaOr1") // Orc
+	Dead("ArenaOr2") // Orc
+	Dead("ArenaOr3") // Orc
+	Dead("ArenaOr4") // Orc
+	Dead("ArenGo10") // Goblin
+	Dead("ArenGo11") // Goblin
+	Dead("ArenGo12") // Goblin
+	Dead("ArenGo13") // Goblin
+	Dead("ArenGo14") // Goblin
+	Dead("ArenGo15") // Goblin
+	Dead("ArenHo10") // Hobgoblin Shaman
+	Dead("ArenHo11") // Hobgoblin Captain
+	Dead("ArenHo12") // Hobgoblin Wizard
+	Dead("ArenHo13") // Hobgoblin Wizard
+THEN
+	RESPONSE #100
+		SetGlobal("FigRan","GLOBAL",5)
+END
+
+IF
+	Global("FigRan","GLOBAL",6)
+	!Global("DedRan","GLOBAL",1)
+	!Global("DedRan","GLOBAL",2)
+	!Global("DedRan","GLOBAL",3)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Randall",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa1",[2727.891],3) // Olath
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigRan","GLOBAL",7)
+END
+
+IF
+	Global("FigRan","GLOBAL",7)
+	!Global("DedRan","GLOBAL",1)
+	!Global("DedRan","GLOBAL",2)
+	!Global("DedRan","GLOBAL",3)
+	Dead("ArenaMa1") // Olath
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Randall",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa2",[2727.891],3) // Veldrin
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigRan","GLOBAL",8)
+END
+
+IF
+	Global("FigRan","GLOBAL",8)
+	!Global("DedRan","GLOBAL",1)
+	!Global("DedRan","GLOBAL",2)
+	!Global("DedRan","GLOBAL",3)
+	Dead("ArenaMa2") // Veldrin
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Randall",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa3",[2727.891],3) // Mynor
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigRan","GLOBAL",9)
+END
+
+IF
+	Global("FigRan","GLOBAL",9)
+	!Global("DedRan","GLOBAL",1)
+	!Global("DedRan","GLOBAL",2)
+	!Global("DedRan","GLOBAL",3)
+	Dead("ArenaMa3") // Mynor
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Randall",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa4",[2727.891],3) // Yvonne
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigRan","GLOBAL",10)
+END
+
+IF
+	Global("FigRan","GLOBAL",10)
+	!Global("DedRan","GLOBAL",1)
+	!Global("DedRan","GLOBAL",2)
+	!Global("DedRan","GLOBAL",3)
+	Dead("ArenaMa4") // Yvonne
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		RestParty()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Randall",LeaveAreaLUA("RA4302","",[1133.1295],12))
+		MoveViewPoint([1133.1295],INSTANT)
+		Wait(1)
+		CreateCreature("ArenaMa5",[2727.891],3) // Cedar
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigRan","GLOBAL",11)
+END
+
+IF
+	Dead("Randall")
+	OR(11)
+		Global("FigRan","GLOBAL",1)
+		Global("FigRan","GLOBAL",2)
+		Global("FigRan","GLOBAL",3)
+		Global("FigRan","GLOBAL",4)
+		Global("FigRan","GLOBAL",5)
+		Global("FigRan","GLOBAL",6)
+		Global("FigRan","GLOBAL",7)
+		Global("FigRan","GLOBAL",8)
+		Global("FigRan","GLOBAL",9)
+		Global("FigRan","GLOBAL",10)
+		Global("FigRan","GLOBAL",11)
+	Global("DeadRan","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("DeadRan","GLOBAL",1)
+END
+
+IF
+	Global("DeadRan","GLOBAL",2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("StaffM11",ForceSpell("Randall",CLERIC_RESURRECTION))
+		Wait(5)
+		MoveViewPoint([1020.2070],INSTANT)
+		ActionOverride("ArenaGo1",DestroySelf())
+		ActionOverride("ArenaGo2",DestroySelf())
+		ActionOverride("ArenaGo3",DestroySelf())
+		ActionOverride("ArenaGo4",DestroySelf())
+		ActionOverride("ArenaGo5",DestroySelf())
+		ActionOverride("ArenaGo6",DestroySelf())
+		ActionOverride("ArenaGo7",DestroySelf())
+		ActionOverride("ArenaGo8",DestroySelf())
+		ActionOverride("ArenaGo9",DestroySelf())
+		ActionOverride("ArenaHo1",DestroySelf())
+		ActionOverride("ArenaHo2",DestroySelf())
+		ActionOverride("ArenaHo3",DestroySelf())
+		ActionOverride("ArenaHo4",DestroySelf())
+		ActionOverride("ArenaHo5",DestroySelf())
+		ActionOverride("ArenaHo6",DestroySelf())
+		ActionOverride("ArenaHo7",DestroySelf())
+		ActionOverride("ArenaHo8",DestroySelf())
+		ActionOverride("ArenaHo9",DestroySelf())
+		ActionOverride("ArenaOr1",DestroySelf())
+		ActionOverride("ArenaOr2",DestroySelf())
+		ActionOverride("ArenaOr3",DestroySelf())
+		ActionOverride("ArenaOr4",DestroySelf())
+		ActionOverride("ArenGo10",DestroySelf())
+		ActionOverride("ArenGo11",DestroySelf())
+		ActionOverride("ArenGo12",DestroySelf())
+		ActionOverride("ArenGo13",DestroySelf())
+		ActionOverride("ArenGo14",DestroySelf())
+		ActionOverride("ArenGo15",DestroySelf())
+		ActionOverride("ArenHo10",DestroySelf())
+		ActionOverride("ArenHo11",DestroySelf())
+		ActionOverride("ArenHo12",DestroySelf())
+		ActionOverride("ArenHo13",DestroySelf())
+		ActionOverride("ArenaMa1",DestroySelf())
+		ActionOverride("ArenaMa2",DestroySelf())
+		ActionOverride("ArenaMa3",DestroySelf())
+		ActionOverride("ArenaMa4",DestroySelf())
+		ActionOverride("ArenaMa5",DestroySelf())
+		Wait(1)
+		FadeFromColor([20.0],0)
+		ActionOverride(Player1,LeaveAreaLUA("RA4301","",[385.227],11))
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Randall",LeaveAreaLUA("ra4302","",[1028.2046],8))
+		SetGlobal("DedRan","GLOBAL",1)
+		SetGlobal("DeadRan","GLOBAL",3)
+END
+
+IF
+	Global("GoodbRan","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,MakeUnselectable(1))
+		ActionOverride(Player2,MakeUnselectable(1))
+		ActionOverride(Player3,MakeUnselectable(1))
+		ActionOverride(Player4,MakeUnselectable(1))
+		ActionOverride(Player5,MakeUnselectable(1))
+		ActionOverride(Player6,MakeUnselectable(1))
+		Wait(1)
+		SmallWait(1)
+		SetGlobal("GoodbRan","GLOBAL",2)
+		EndCutSceneMode()
+		UnhideGUI()
+		FadeFromColor([20.0],0)
+		ActionOverride("Randall",LeaveAreaLUA("RA4301","",[386.226],10))
+END
+
+IF
+	Global("FigRan","GLOBAL",11)
+	!Global("DedRan","GLOBAL",1)
+	!Global("DedRan","GLOBAL",2)
+	!Global("DedRan","GLOBAL",3)
+	Dead("ArenaMa5") // Cedar
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Randall",LeaveAreaLUA("RA4302","",[1020.2070],8))
+		MoveViewPoint([1020.2070],INSTANT)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FigRan","GLOBAL",12)
+END
+
+IF
+	Global("FigRan","GLOBAL",14)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,MakeUnselectable(1))
+		ActionOverride(Player2,MakeUnselectable(1))
+		ActionOverride(Player3,MakeUnselectable(1))
+		ActionOverride(Player4,MakeUnselectable(1))
+		ActionOverride(Player5,MakeUnselectable(1))
+		ActionOverride(Player6,MakeUnselectable(1))
+		Wait(1)
+		SmallWait(1)
+		SetGlobal("FigRan","GLOBAL",15)
+		EndCutSceneMode()
+		UnhideGUI()
+		FadeFromColor([20.0],0)
+		ActionOverride("Randall",LeaveAreaLUA("RA4301","",[386.226],10))
+END
+
+

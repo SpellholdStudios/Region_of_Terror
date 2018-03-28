@@ -1,0 +1,16 @@
+IF
+	Global("Jashitit","LOCALS",0)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		SetGlobal("Jashitit","LOCALS",1)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		RandomWalk()
+END
+
+

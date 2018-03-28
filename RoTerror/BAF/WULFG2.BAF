@@ -1,0 +1,68 @@
+IF
+	Global("MetWulfff","LOCALS",0)
+	CombatCounter(0)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		SetGlobal("MetWulfff","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("Wulfgargone","GLOBAL",1)
+	Global("Wulfgarback","LOCALS",0)
+	AreaCheck("RA5100")
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		SetGlobal("Wulfgarback","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Dead("BarBar1") // Barbarian
+	Dead("BarBar2") // Barbarian
+	Dead("BarBar3") // Barbarian
+	Dead("BarBar4") // Barbarian
+	Dead("Ulgarth") // Ulgarth
+	Dead("Beogorn") // Beogorn
+	Global("CommentdeathsWulfgar","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Wulfg2",DisplayStringHead(Myself,@573237))
+		SetGlobal("CommentdeathsWulfgar","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("FinalBattleofitemp","GLOBAL",7)
+	Global("CommentdeathsWulfgar","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Wulfg2",DisplayStringHead(Myself,@573238))
+		SetGlobal("CommentdeathsWulfgar","GLOBAL",2)
+		SetGlobal("Barbariansleave","RA5603",1)
+END
+
+IF
+	Global("DrizztKickedOut","GLOBAL",1)
+	Global("DrizztWulfgarOut","LOCALS",0)
+	Delay(4)
+THEN
+	RESPONSE #100
+		ActionOverride("Wulfg2",StartDialog("Wulfg2J",[PC]))
+END
+
+

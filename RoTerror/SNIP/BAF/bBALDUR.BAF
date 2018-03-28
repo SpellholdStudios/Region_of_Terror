@@ -1,0 +1,1294 @@
+IF
+	Delay(150)
+	!CombatCounter(0)
+	OR(6)
+		HasItemEquipedReal("SoulArmr",Player1) // Soul Armor +2
+		HasItemEquipedReal("SoulArmr",Player2) // Soul Armor +2
+		HasItemEquipedReal("SoulArmr",Player3) // Soul Armor +2
+		HasItemEquipedReal("SoulArmr",Player4) // Soul Armor +2
+		HasItemEquipedReal("SoulArmr",Player5) // Soul Armor +2
+		HasItemEquipedReal("SoulArmr",Player6) // Soul Armor +2
+THEN
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563207) // Aaaargh! Stop...hitting...me...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563208) // Master, kill it, kill it!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563209) // No, no more hits, no more...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563210) // Aaaaargh, the pain!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563211) // AAAAAAH! Slay my attacker...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563212) // I can´t take it anymore, please...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563213) // No more, no more! AAAARGH!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563214) // Kill, kill quickly!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563215) // AAAAAAAAAAAAAAAAAARRRGH!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563216) // NO! NO! End the battle quickly...
+END
+
+IF
+	Delay(550)
+	CombatCounter(0)
+	OR(6)
+		HasItemEquipedReal("SoulArmr",Player1) // Soul Armor +2
+		HasItemEquipedReal("SoulArmr",Player2) // Soul Armor +2
+		HasItemEquipedReal("SoulArmr",Player3) // Soul Armor +2
+		HasItemEquipedReal("SoulArmr",Player4) // Soul Armor +2
+		HasItemEquipedReal("SoulArmr",Player5) // Soul Armor +2
+		HasItemEquipedReal("SoulArmr",Player6) // Soul Armor +2
+THEN
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563196) // No, please, no more pain...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563198) // Please, save me!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563199) // Don't take me to a battle anymore, master...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563200) // Release me, release me, please!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563201) // Don't let them hurt me...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563202) // They came, they came from nowhere...I'm here now...Nobody saw what they did to me...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563203) // I can't take the pain...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563204) // He did it. I never thought he'd really do it, never.
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563205) // Please, guide me to rest...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArmr",@563206) // Destroy me, destroy me! You must do it!
+END
+
+IF
+	Delay(100)
+	!CombatCounter(0)
+	OR(6)
+		HasItemEquipedReal("SoulArm3",Player1) // Soul Armor +3
+		HasItemEquipedReal("SoulArm3",Player2) // Soul Armor +3
+		HasItemEquipedReal("SoulArm3",Player3) // Soul Armor +3
+		HasItemEquipedReal("SoulArm3",Player4) // Soul Armor +3
+		HasItemEquipedReal("SoulArm3",Player5) // Soul Armor +3
+		HasItemEquipedReal("SoulArm3",Player6) // Soul Armor +3
+THEN
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563207) // Aaaargh! Stop...hitting...me...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563208) // Master, kill it, kill it!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563209) // No, no more hits, no more...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563210) // Aaaaargh, the pain!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563211) // AAAAAAH! Slay my attacker...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563212) // I can't take it anymore, please...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563213) // No more, no more! AAAARGH!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563214) // Kill, kill quickly!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563215) // AAAAAAAAAAAAAAAAAARRRGH!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563216) // NO! NO! End the battle quickly...
+END
+
+IF
+	Delay(400)
+	CombatCounter(0)
+	OR(6)
+		HasItemEquipedReal("SoulArm3",Player1) // Soul Armor +3
+		HasItemEquipedReal("SoulArm3",Player2) // Soul Armor +3
+		HasItemEquipedReal("SoulArm3",Player3) // Soul Armor +3
+		HasItemEquipedReal("SoulArm3",Player4) // Soul Armor +3
+		HasItemEquipedReal("SoulArm3",Player5) // Soul Armor +3
+		HasItemEquipedReal("SoulArm3",Player6) // Soul Armor +3
+THEN
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563196) // No, please, no more pain...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563198) // Please, save me!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563199) // Don't take me to a battle anymore, master...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563200) // Release me, release me, please!
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563201) // Don't let them hurt me...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563202) // They came, they came from nowhere...I'm here now...Nobody saw what they did to me...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563203) // I can't take the pain...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563204) // He did it. I never thought he'd really do it, never.
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563205) // Please, guide me to rest...
+	RESPONSE #10
+		DisplayStringHeadOwner("SoulArm3",@563206) // Destroy me, destroy me! You must do it!
+END
+
+IF
+	GlobalGT("Drizztiwdornot","GLOBAL",12)
+	GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
+	Global("TrigCQuest","GLOBAL",1)
+	!Global("TrigCQCip","GLOBAL",1)
+	!Global("TrigCQCip","GLOBAL",2)
+	XPGT(Player1,3299999)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("StartCQuest","GLOBAL",THREE_DAYS)
+		SetGlobal("TrigCQuest","GLOBAL",2)
+		SetGlobal("CQuestActive","GLOBAL",1)
+END
+
+IF
+	GlobalGT("Drizztiwdornot","GLOBAL",12)
+	GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
+	Global("TrigCQCip","GLOBAL",1)
+	!Global("TrigCQuest","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("StartCQuest","GLOBAL",ONE_DAY)
+		SetGlobal("TrigCQCip","GLOBAL",2)
+		SetGlobal("CQuestActive","GLOBAL",1)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",1)
+	GlobalTimerExpired("StartCQuest","GLOBAL")
+	InParty("Driz2")
+	CombatCounter(0)
+	AreaType(CITY)
+	!AreaCheck("AR2200")
+	!AreaCheck("AR1600")
+	!AreaCheck("AR5100")
+THEN
+	RESPONSE #100
+		CreateCreatureObject("Chaunti",Player1,0,0,0) // Brother Chaunticleer
+		SetGlobal("CQuestActive","GLOBAL",2)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",3)
+	Global("DrizLeaves","GLOBAL",0)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ActionOverride("Driz2",LeaveParty())
+		ActionOverride("Catt2",LeaveParty())
+		ActionOverride("Reg2",LeaveParty())
+		ActionOverride("Wulfg2",LeaveParty())
+		ActionOverride("Brue2",LeaveParty())
+		Wait(1)
+		ActionOverride("Driz2",EscapeArea())
+		ActionOverride("Catt2",EscapeArea())
+		ActionOverride("Reg2",EscapeArea())
+		ActionOverride("Wulfg2",EscapeArea())
+		ActionOverride("Brue2",EscapeArea())
+		ActionOverride("Chaunti",EscapeArea())
+		Wait(3)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("DrizLeaves","GLOBAL",1)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",5)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("RA3707","",[137.2134],9))
+		ActionOverride(Player2,LeaveAreaLUA("RA3707","",[169.2166],9))
+		ActionOverride(Player3,LeaveAreaLUA("RA3707","",[91.2168],9))
+		ActionOverride(Player4,LeaveAreaLUA("RA3707","",[127.2206],9))
+		ActionOverride(Player5,LeaveAreaLUA("RA3707","",[43.2202],9))
+		ActionOverride(Player6,LeaveAreaLUA("RA3707","",[75.2244],9))
+		DayNight(2)
+		Wait(1)
+		MultiPlayerSync()
+		EndCutSceneMode()
+		TextScreen("SCRTXT11")
+		SmallWait(1)
+		StartCutSceneMode()
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("CQuestActive","GLOBAL",6)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Dead("CadPri15") // Brother Lucas
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@571165)) // Brother Lucas died. You failed to protect him.
+		Wait(3)
+		ActionOverride(Player1,Kill(Myself))
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("DeneirHelps","GLOBAL",0)
+	!CombatCounter(0)
+	Delay(400)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("Deneir2",Protagonist,0,0,0) // Deneir
+		SetGlobal("TimefDentost","GLOBAL",1)
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",2)
+	RESPONSE #100
+		CreateCreatureObject("Deneir2",Protagonist,0,0,0) // Deneir
+		SetGlobal("TimefDentost","GLOBAL",2)
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",2)
+END
+
+IF
+	Global("TimefDentost","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride("Deneir2",ForceSpell(NearestEnemyOf(Myself),0))
+		Wait(2)
+		ActionOverride("Deneir2",DestroySelf())
+		Wait(2)
+		ActionOverride(Player1,DisplayStringHead(Myself,@571166)) // (That must've been Deneir...)
+		SetGlobal("DeneirHelps","GLOBAL",1)
+		SetGlobal("TimefDentost","GLOBAL",5)
+END
+
+IF
+	Global("TimefDentost","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ActionOverride("Deneir2",ForceSpell(NearestEnemyOf(Myself),0))
+		Wait(2)
+		ActionOverride("Deneir2",DestroySelf())
+		Wait(2)
+		ActionOverride(Player1,DisplayStringHead(Myself,@571166)) // (That must've been Deneir...)
+		SetGlobal("DeneirHelps","GLOBAL",1)
+		SetGlobal("TimefDentost","GLOBAL",5)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("DeneirHelps","GLOBAL",1)
+	!CombatCounter(0)
+	Delay(400)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("Deneir2",Protagonist,0,0,0) // Deneir
+		SetGlobal("TimefDentost","GLOBAL",3)
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",3)
+	RESPONSE #100
+		CreateCreatureObject("Deneir2",Protagonist,0,0,0) // Deneir
+		SetGlobal("TimefDentost","GLOBAL",4)
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",3)
+END
+
+IF
+	Global("TimefDentost","GLOBAL",3)
+THEN
+	RESPONSE #100
+		ActionOverride("Deneir2",ForceSpell(NearestEnemyOf(Myself),0))
+		Wait(2)
+		ActionOverride("Deneir2",DestroySelf())
+		SetGlobal("DeneirHelps","GLOBAL",3)
+		SetGlobal("TimefDentost","GLOBAL",5)
+END
+
+IF
+	Global("TimefDentost","GLOBAL",4)
+THEN
+	RESPONSE #100
+		ActionOverride("Deneir2",ForceSpell(NearestEnemyOf(Myself),0))
+		Wait(2)
+		ActionOverride("Deneir2",DestroySelf())
+		SetGlobal("DeneirHelps","GLOBAL",3)
+		SetGlobal("TimefDentost","GLOBAL",5)
+END
+
+IF
+	Global("DeneirHelps","GLOBAL",2)
+	!CombatCounter(0)
+	Delay(20)
+THEN
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",0)
+END
+
+IF
+	Global("DeneirHelps","GLOBAL",3)
+	!CombatCounter(0)
+	Delay(20)
+THEN
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",1)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Dennotstrike1","GLOBAL",1)
+	Dead("CadDem16") // Balor Lord
+THEN
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",1)
+		SetGlobal("Dennotstrike1","GLOBAL",2)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Dennotstrike2","GLOBAL",1)
+	Dead("CadDem17") // Xer
+THEN
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",1)
+		SetGlobal("Dennotstrike2","GLOBAL",2)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Dennotstrike3","GLOBAL",1)
+	Dead("CadDem18") // Carethron
+THEN
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",1)
+		SetGlobal("Dennotstrike3","GLOBAL",2)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Dennotstrike4","GLOBAL",1)
+	Dead("CadDem19") // Bane Lord
+THEN
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",1)
+		SetGlobal("Dennotstrike4","GLOBAL",2)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Dennotstrike5","GLOBAL",1)
+	Dead("CadDem21") // Balor Lord
+THEN
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",1)
+		SetGlobal("Dennotstrike5","GLOBAL",2)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Dennotstrike6","GLOBAL",1)
+	Dead("CadDem22") // Hand of Evil
+THEN
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",1)
+		SetGlobal("Dennotstrike6","GLOBAL",2)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",18)
+	Global("Lgthofss","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("ar0020","",[764.511],3))
+		ActionOverride(Player2,LeaveAreaLUA("ar0020","",[736.485],3))
+		ActionOverride(Player3,LeaveAreaLUA("ar0020","",[768.465],3))
+		ActionOverride(Player4,LeaveAreaLUA("ar0020","",[792.487],3))
+		ActionOverride(Player5,LeaveAreaLUA("ar0020","",[814.463],3))
+		ActionOverride(Player6,LeaveAreaLUA("ar0020","",[786.439],3))
+		Wait(1)
+		MultiPlayerSync()
+		EndCutSceneMode()
+		TextScreen("SCRTXT12")
+		SmallWait(1)
+		StartCutSceneMode()
+		Wait(1)
+		FadeFromColor([20.0],0)
+		SetGlobal("CQuestActive","GLOBAL",19)
+		SetGlobal("Lgthofss","GLOBAL",3)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Chaunti2",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("CQuestActive","GLOBAL",18)
+	Global("Lgthofss","GLOBAL",2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("RR3100","",[4679.160],3))
+		ActionOverride(Player2,LeaveAreaLUA("RR3100","",[4727.190],3))
+		ActionOverride(Player3,LeaveAreaLUA("RR3100","",[4699.144],3))
+		ActionOverride(Player4,LeaveAreaLUA("RR3100","",[4749.174],3))
+		ActionOverride(Player5,LeaveAreaLUA("RR3100","",[4775.140],3))
+		ActionOverride(Player6,LeaveAreaLUA("RR3100","",[4723.106],3))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		SetGlobal("CQuestActive","GLOBAL",19)
+		SetGlobal("Lgthofss","GLOBAL",3)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Chaunti2",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",1)
+	Global("CreatinHamm2","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("HammCrea2","GLOBAL",FIFTEEN_DAYS)
+		SetGlobal("CreatinHamm2","GLOBAL",1)
+END
+
+IF
+	Global("CreatinHamm2","GLOBAL",1)
+	GlobalTimerExpired("HammCrea2","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("HammCrea3","GLOBAL",ONE_DAY)
+		SetGlobal("CreatinHamm2","GLOBAL",2)
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",5)
+	Global("CreatinHamm3","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("HammCrea4","GLOBAL",FIFTEEN_DAYS)
+		SetGlobal("CreatinHamm3","GLOBAL",1)
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",7)
+	Global("CreatinHamm4","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("HammCrea5","GLOBAL",TEN_DAYS)
+		SetGlobal("CreatinHamm4","GLOBAL",1)
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",8)
+	Global("dsaskjfldfg","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("HammDest2","GLOBAL",THREE_DAYS)
+		SetGlobal("dsaskjfldfg","GLOBAL",1)
+END
+
+IF
+	Global("dsaskjfldfg","GLOBAL",1)
+	GlobalTimerExpired("HammDest2","GLOBAL")
+THEN
+	RESPONSE #100
+		ActionOverride("Hammr4",DestroySelf())
+		ActionOverride("HamAra3",DestroySelf())
+		ActionOverride("HamMan3",DestroySelf())
+		ActionOverride("HamRob3",DestroySelf())
+		ActionOverride("HamOlg3",DestroySelf())
+		ActionOverride("HamJen3",DestroySelf())
+		SetGlobal("CreatinHamm4","GLOBAL",3)
+		SetGlobal("Hammermeetings","GLOBAL",9)
+		SetGlobal("dsaskjfldfg","GLOBAL",2)
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",10)
+	StateCheck(Player2,STATE_REALLY_DEAD)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("Deneir2",Protagonist,0,0,0) // Deneir
+		Wait(1)
+		ActionOverride("Deneir2",ReallyForceSpell(Player2,CLERIC_RESURRECTION))
+		Wait(1)
+		ActionOverride("Deneir2",DestroySelf())
+		SetGlobal("Hammermeetings","GLOBAL",11)
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",10)
+	StateCheck(Player3,STATE_REALLY_DEAD)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("Deneir2",Protagonist,0,0,0) // Deneir
+		Wait(1)
+		ActionOverride("Deneir2",ReallyForceSpell(Player3,CLERIC_RESURRECTION))
+		Wait(1)
+		ActionOverride("Deneir2",DestroySelf())
+		SetGlobal("Hammermeetings","GLOBAL",11)
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",10)
+	StateCheck(Player4,STATE_REALLY_DEAD)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("Deneir2",Protagonist,0,0,0) // Deneir
+		Wait(1)
+		ActionOverride("Deneir2",ReallyForceSpell(Player4,CLERIC_RESURRECTION))
+		Wait(1)
+		ActionOverride("Deneir2",DestroySelf())
+		SetGlobal("Hammermeetings","GLOBAL",11)
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",10)
+	StateCheck(Player5,STATE_REALLY_DEAD)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("Deneir2",Protagonist,0,0,0) // Deneir
+		Wait(1)
+		ActionOverride("Deneir2",ReallyForceSpell(Player5,CLERIC_RESURRECTION))
+		Wait(1)
+		ActionOverride("Deneir2",DestroySelf())
+		SetGlobal("Hammermeetings","GLOBAL",11)
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",10)
+	StateCheck(Player6,STATE_REALLY_DEAD)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("Deneir2",Protagonist,0,0,0) // Deneir
+		Wait(1)
+		ActionOverride("Deneir2",ReallyForceSpell(Player6,CLERIC_RESURRECTION))
+		Wait(1)
+		ActionOverride("Deneir2",DestroySelf())
+		SetGlobal("Hammermeetings","GLOBAL",11)
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",10)
+	StateCheck(Player1,STATE_REALLY_DEAD)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("Deneir2",Protagonist,0,0,0) // Deneir
+		Wait(1)
+		ActionOverride("Deneir2",ReallyForceSpell(Player1,CLERIC_RESURRECTION))
+		Wait(1)
+		ActionOverride("Deneir2",DestroySelf())
+		SetGlobal("Hammermeetings","GLOBAL",11)
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("Hammermeetings","GLOBAL",10)
+END
+
+IF
+	CombatCounter(0)
+	Delay(5)
+	OR(2)
+		Global("Hammermeetings","GLOBAL",10)
+		Global("Hammermeetings","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("CadDem25",ForceSpell(Myself,0))
+		Wait(3)
+		CreateVisualEffect("SPFIRSDI",[725.542])
+		CreateCreature("CadDem23",[725.542],12) // Cornugon
+		CreateVisualEffect("SPFIRSDI",[763.586])
+		CreateCreature("CadDem24",[763.586],11) // Demon
+END
+
+IF
+	Global("Seethemayor","GLOBAL",2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(2)
+		ActionOverride(Player1,LeaveAreaLUA("RA5101","",[421.507],9))
+		ActionOverride(Player2,LeaveAreaLUA("RA5101","",[473.525],8))
+		ActionOverride(Player3,LeaveAreaLUA("RA5101","",[399.529],9))
+		ActionOverride(Player4,LeaveAreaLUA("RA5101","",[455.545],8))
+		ActionOverride(Player5,LeaveAreaLUA("RA5101","",[385.553],9))
+		ActionOverride(Player6,LeaveAreaLUA("RA5101","",[433.571],8))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("Seethemayor","GLOBAL",3)
+END
+
+IF
+	Global("BreVil1","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil1","GLOBAL",ONE_DAY)
+		SetGlobal("BreVil1","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil1","GLOBAL")
+	Global("BreVil1","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil1","GLOBAL",3)
+END
+
+IF
+	Global("BreVil2","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil2","GLOBAL",ONE_DAY)
+		SetGlobal("BreVil2","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil2","GLOBAL")
+	Global("BreVil2","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil2","GLOBAL",3)
+END
+
+IF
+	Global("BreVil3","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil3","GLOBAL",ONE_DAY)
+		SetGlobal("BreVil3","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil3","GLOBAL")
+	Global("BreVil3","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil3","GLOBAL",3)
+END
+
+IF
+	Global("BreVil4","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil4","GLOBAL",ONE_DAY)
+		SetGlobal("BreVil4","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil4","GLOBAL")
+	Global("BreVil4","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil4","GLOBAL",3)
+END
+
+IF
+	Global("BreVil5","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil5","GLOBAL",ONE_DAY)
+		SetGlobal("BreVil5","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil5","GLOBAL")
+	Global("BreVil5","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil5","GLOBAL",3)
+END
+
+IF
+	Global("BreVil6","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil6","GLOBAL",ONE_DAY)
+		SetGlobal("BreVil6","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil6","GLOBAL")
+	Global("BreVil6","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil6","GLOBAL",3)
+END
+
+IF
+	Global("BreVil7","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil7","GLOBAL",ONE_DAY)
+		SetGlobal("BreVil7","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil7","GLOBAL")
+	Global("BreVil7","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil7","GLOBAL",3)
+END
+
+IF
+	Global("BreVil8","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil8","GLOBAL",ONE_DAY)
+		SetGlobal("BreVil8","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil8","GLOBAL")
+	Global("BreVil8","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil8","GLOBAL",3)
+END
+
+IF
+	Global("BreVil9","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil9","GLOBAL",ONE_DAY)
+		SetGlobal("BreVil9","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil9","GLOBAL")
+	Global("BreVil9","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil9","GLOBAL",3)
+END
+
+IF
+	Global("BreVil10","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil10","GLOBAL",ONE_DAY)
+		SetGlobal("BreVil10","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil10","GLOBAL")
+	Global("BreVil10","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil10","GLOBAL",3)
+END
+
+IF
+	Global("BreVil11","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil11","GLOBAL",FOUR_DAYS)
+		SetGlobal("BreVil11","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil11","GLOBAL")
+	Global("BreVil11","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil11","GLOBAL",3)
+	RESPONSE #100
+		SetGlobal("BreVil11","GLOBAL",4)
+	RESPONSE #100
+		SetGlobal("BreVil11","GLOBAL",5)
+	RESPONSE #100
+		SetGlobal("BreVil11","GLOBAL",5)
+END
+
+IF
+	OR(3)
+		Global("BreVil11","GLOBAL",6)
+		Global("BreVil11","GLOBAL",7)
+		Global("BreVil11","GLOBAL",8)
+	Global("BreVil12","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil12","GLOBAL",ONE_DAY)
+		SetGlobal("BreVil12","GLOBAL",1)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil12","GLOBAL")
+	Global("BreVil12","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil12","GLOBAL",2)
+END
+
+IF
+	Global("BreVil13","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil13","GLOBAL",ONE_DAY)
+		SetGlobal("BreVil13","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil13","GLOBAL")
+	Global("BreVil13","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil13","GLOBAL",3)
+END
+
+IF
+	Global("BreVil14","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("ChangeVil14","GLOBAL",THREE_DAYS)
+		SetGlobal("BreVil14","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("ChangeVil14","GLOBAL")
+	Global("BreVil14","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil14","GLOBAL",3)
+END
+
+IF
+	GlobalTimerExpired("Brotiwd22","GLOBAL")
+	Global("Brothertimeriwd","GLOBAL",1)
+	!Global("Brothertimeriwd","GLOBAL",5)
+	!Global("Brothertimeriwd","GLOBAL",6)
+	!Global("Brothertimeriwd","GLOBAL",7)
+THEN
+	RESPONSE #100
+		SetGlobal("Brothertimeriwd","GLOBAL",4)
+END
+
+IF
+	Global("Wulfgarsquest","GLOBAL",1)
+	Global("Wulfgarsendinp","GLOBAL",0)
+	!InParty("Wulfg2")
+	OR(8)
+		Global("FinalBattleofitemp","GLOBAL",0)
+		Global("FinalBattleofitemp","GLOBAL",1)
+		Global("FinalBattleofitemp","GLOBAL",2)
+		Global("FinalBattleofitemp","GLOBAL",3)
+		Global("FinalBattleofitemp","GLOBAL",4)
+		Global("FinalBattleofitemp","GLOBAL",5)
+		Global("FinalBattleofitemp","GLOBAL",6)
+		Global("FinalBattleofitemp","GLOBAL",7)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly("Beogorn",NEUTRAL)
+		ChangeEnemyAlly("Ulgarth",NEUTRAL)
+		ChangeEnemyAlly("BarBar1",NEUTRAL)
+		ChangeEnemyAlly("BarBar2",NEUTRAL)
+		ChangeEnemyAlly("BarBar3",NEUTRAL)
+		ChangeEnemyAlly("BarBar4",NEUTRAL)
+		SmallWait(1)
+		ActionOverride("Beogorn",EscapeArea())
+		ActionOverride("Ulgarth",EscapeArea())
+		ActionOverride("BarBar1",EscapeArea())
+		ActionOverride("BarBar2",EscapeArea())
+		ActionOverride("BarBar3",EscapeArea())
+		ActionOverride("BarBar4",EscapeArea())
+		ActionOverride("Wulfg2",EscapeArea())
+		SetGlobal("Wulfgarsendinp","GLOBAL",1)
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",5)
+	GlobalTimerExpired("BeastCultTask1","GLOBAL")
+	PartyHasItem("CultSym1") // Cult Symbol
+	Delay(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CultTaskNum1","GLOBAL",1)
+		ActionOverride(Player1,DisplayStringHead(Myself,@573572)) // The Symbol vibrates.
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",5)
+	GlobalTimerExpired("BeastCultTask1","GLOBAL")
+	PartyHasItem("CultSym1") // Cult Symbol
+	Delay(50)
+THEN
+	RESPONSE #100
+		SetGlobal("JoinTheCult","GLOBAL",7)
+END
+
+IF
+	OR(5)
+		Global("CultTaskNum1","GLOBAL",1)
+		Global("CultTaskNum2","GLOBAL",1)
+		Global("CultTaskNum3","GLOBAL",1)
+		Global("CultTaskNum4","GLOBAL",1)
+		Global("CultTaskNum5","GLOBAL",1)
+	Global("MvtoCult","GLOBAL",1)
+	!AreaCheck("RA5500")
+	!AreaCheck("RA5501")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		PlaySound("EFF_M07")
+		StorePartyLocations()
+		Wait(1)
+		CreateVisualEffectObject("SPCLOUD1",Player1)
+		CreateVisualEffectObject("SPCLOUD1",Player2)
+		CreateVisualEffectObject("SPCLOUD1",Player3)
+		CreateVisualEffectObject("SPCLOUD1",Player4)
+		CreateVisualEffectObject("SPCLOUD1",Player5)
+		CreateVisualEffectObject("SPCLOUD1",Player6)
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("MvtoCult","GLOBAL",0)
+		SetGlobal("MtoCult2","GLOBAL",1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player2,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player3,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player4,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player5,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player6,LeaveAreaLUA("RA5500","",[2877.563],2))
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",13)
+	GlobalTimerExpired("BeastCultTask2","GLOBAL")
+	PartyHasItem("CultSym1") // Cult Symbol
+	Delay(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CultTaskNum2","GLOBAL",1)
+		ActionOverride(Player1,DisplayStringHead(Myself,@573572)) // The Symbol vibrates.
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",13)
+	GlobalTimerExpired("BeastCultTask2","GLOBAL")
+	PartyHasItem("CultSym1") // Cult Symbol
+	Delay(50)
+THEN
+	RESPONSE #100
+		SetGlobal("JoinTheCult","GLOBAL",15)
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",19)
+	GlobalTimerExpired("BeastCultTask3","GLOBAL")
+	PartyHasItem("CultSym1") // Cult Symbol
+	Delay(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CultTaskNum3","GLOBAL",1)
+		ActionOverride(Player1,DisplayStringHead(Myself,@573572)) // The Symbol vibrates.
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",19)
+	GlobalTimerExpired("BeastCultTask3","GLOBAL")
+	PartyHasItem("CultSym1") // Cult Symbol
+	Delay(50)
+THEN
+	RESPONSE #100
+		SetGlobal("JoinTheCult","GLOBAL",20)
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",28)
+	GlobalTimerExpired("BeastCultTask4","GLOBAL")
+	PartyHasItem("CultSym1") // Cult Symbol
+	Delay(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CultTaskNum4","GLOBAL",1)
+		ActionOverride(Player1,DisplayStringHead(Myself,@573572)) // The Symbol vibrates.
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",28)
+	GlobalTimerExpired("BeastCultTask4","GLOBAL")
+	PartyHasItem("CultSym1") // Cult Symbol
+	Delay(50)
+THEN
+	RESPONSE #100
+		SetGlobal("JoinTheCult","GLOBAL",29)
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",37)
+	GlobalTimerExpired("BeastCultTask5","GLOBAL")
+	PartyHasItem("CultSym1") // Cult Symbol
+	Delay(10)
+THEN
+	RESPONSE #100
+		SetGlobal("CultTaskNum5","GLOBAL",1)
+		ActionOverride(Player1,DisplayStringHead(Myself,@573572)) // The Symbol vibrates.
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",37)
+	GlobalTimerExpired("BeastCultTask5","GLOBAL")
+	PartyHasItem("CultSym1") // Cult Symbol
+	Delay(50)
+THEN
+	RESPONSE #100
+		SetGlobal("JoinTheCult","GLOBAL",38)
+END
+
+IF
+	Global("MotoCult","GLOBAL",1)
+	!AreaCheck("RA5500")
+	!AreaCheck("RA5501")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		PlaySound("EFF_M07")
+		StorePartyLocations()
+		Wait(1)
+		CreateVisualEffectObject("SPCLOUD1",Player1)
+		CreateVisualEffectObject("SPCLOUD1",Player2)
+		CreateVisualEffectObject("SPCLOUD1",Player3)
+		CreateVisualEffectObject("SPCLOUD1",Player4)
+		CreateVisualEffectObject("SPCLOUD1",Player5)
+		CreateVisualEffectObject("SPCLOUD1",Player6)
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("MotoCult","GLOBAL",0)
+		SetGlobal("MtCult2","GLOBAL",1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player2,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player3,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player4,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player5,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player6,LeaveAreaLUA("RA5500","",[2877.563],2))
+END
+
+IF
+	Global("RandallJoin","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("RandallJoin","GLOBAL",5)
+		SetGlobalTimer("RandallQuest","GLOBAL",FIVE_DAYS)
+END
+
+IF
+	GlobalTimerExpired("RandallQuest","GLOBAL")
+	Global("RandallJoin","GLOBAL",5)
+	!Global("Chapter","GLOBAL",%bg2_chapter_4%)
+	!Global("Chapter","GLOBAL",%bg2_chapter_5%)
+	!Global("Chapter","GLOBAL",%bg2_chapter_7%)
+	!AreaType(CITY)
+	AreaType(OUTDOOR)
+	!AreaCheck("AR2500")
+	!AreaCheck("AR1901")
+	XPGT(Player1,250000)
+THEN
+	RESPONSE #100
+		Wait(2)
+		SetGlobal("RandallJoin","GLOBAL",6)
+		CreateCreatureObjectOffScreen("RanNec1",Player1,0,0,0) // Necromancer
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke2",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke3",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke4",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke5",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke6",Player1,0,0,0) // Strong Skeleton
+END
+
+IF
+	Global("RandallJoin","GLOBAL",6)
+	!Dead("Randall")
+	Dead("RanNec1") // Necromancer
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("RandallJoin","GLOBAL",7)
+END
+
+IF
+	Global("RandallJoin","GLOBAL",7)
+	InParty("Randall")
+	!StateCheck("Randall",CD_STATE_NOTVALID)
+THEN
+	RESPONSE #100
+		ActionOverride("Randall",StartDialog("RandallJ",[PC]))
+END
+
+IF
+	Global("RandallJoin","GLOBAL",8)
+THEN
+	RESPONSE #100
+		SetGlobal("RandallJoin","GLOBAL",9)
+		SetGlobalTimer("RandallQuest2","GLOBAL",TEN_DAYS)
+END
+
+IF
+	GlobalTimerExpired("RandallQuest2","GLOBAL")
+	Global("RandallJoin","GLOBAL",9)
+	!Global("Chapter","GLOBAL",%bg2_chapter_4%)
+	!Global("Chapter","GLOBAL",%bg2_chapter_5%)
+	!Global("Chapter","GLOBAL",%bg2_chapter_7%)
+	!AreaType(CITY)
+	AreaType(OUTDOOR)
+	!AreaCheck("AR2500")
+	!AreaCheck("AR1901")
+	XPGT(Player1,500000)
+THEN
+	RESPONSE #100
+		Wait(2)
+		SetGlobal("RandallJoin","GLOBAL",10)
+		CreateCreatureObjectOffScreen("RanNec2",Player1,0,0,0) // Necromancer
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke7",Player1,0,0,0) // Skeleton Warrior
+		CreateCreatureObjectOffScreen("RanSke7",Player1,0,0,0) // Skeleton Warrior
+END
+
+IF
+	Global("RandallJoin","GLOBAL",10)
+	!Dead("Randall")
+	Dead("RanNec2") // Necromancer
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("RandallJoin","GLOBAL",11)
+END
+
+IF
+	Global("RandallJoin","GLOBAL",11)
+THEN
+	RESPONSE #100
+		ActionOverride("Randall",StartDialog("RandallJ",[PC]))
+END
+
+IF
+	Global("RandallJoin","GLOBAL",12)
+THEN
+	RESPONSE #100
+		SetGlobal("RandallJoin","GLOBAL",13)
+		SetGlobalTimer("RandallQuest3","GLOBAL",TEN_DAYS)
+END
+
+IF
+	GlobalTimerExpired("RandallQuest3","GLOBAL")
+	Global("RandallJoin","GLOBAL",13)
+	!Global("Chapter","GLOBAL",%bg2_chapter_4%)
+	!Global("Chapter","GLOBAL",%bg2_chapter_5%)
+	!Global("Chapter","GLOBAL",%bg2_chapter_7%)
+	!AreaType(CITY)
+	AreaType(OUTDOOR)
+	!AreaCheck("AR2500")
+	!AreaCheck("AR1901")
+	XPGT(Player1,1000000)
+THEN
+	RESPONSE #100
+		Wait(2)
+		SetGlobal("RandallJoin","GLOBAL",14)
+		CreateCreatureObjectOffScreen("RanNec3",Player1,0,0,0) // Bheodin
+		CreateCreatureObjectOffScreen("RanNec4",Player1,0,0,0) // Necromancer
+		CreateCreatureObjectOffScreen("RanNec5",Player1,0,0,0) // Necromancer
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke1",Player1,0,0,0) // Strong Skeleton
+		CreateCreatureObjectOffScreen("RanSke7",Player1,0,0,0) // Skeleton Warrior
+		CreateCreatureObjectOffScreen("RanSke7",Player1,0,0,0) // Skeleton Warrior
+END
+
+IF
+	Global("RandallJoin","GLOBAL",14)
+	!Dead("Randall")
+	Dead("RanNec2") // Necromancer
+	Dead("RanNec4") // Necromancer
+	Dead("RanNec5") // Necromancer
+	CombatCounter(0)
+	PartyHasItem("RanNote") // A note
+THEN
+	RESPONSE #100
+		SetGlobal("RandallJoin","GLOBAL",15)
+END
+
+IF
+	Global("RandallJoin","GLOBAL",15)
+THEN
+	RESPONSE #100
+		ActionOverride("Randall",StartDialog("RandallJ",[PC]))
+END
+
+IF
+	!CombatCounter(0)
+	Global("SwrdRain","GLOBAL",1)
+	Global("Rainoftheswrd","GLOBAL",0)
+	AreaType(OUTDOOR)
+THEN
+	RESPONSE #100
+		Weather(RAIN)
+		SetGlobal("Rainoftheswrd","GLOBAL",1)
+END
+
+IF
+	CombatCounter(0)
+	Global("SwrdRain","GLOBAL",1)
+	Global("Rainoftheswrd","GLOBAL",1)
+	AreaType(OUTDOOR)
+THEN
+	RESPONSE #100
+		Weather(NOWEATHER)
+		SetGlobal("Rainoftheswrd","GLOBAL",0)
+END
+
+IF
+	Global("CSCutS4","GLOBAL",0)
+	GlobalTimerExpired("CSCutScene4","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("CSCutS4","GLOBAL",1)
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		StartCutScene("CSCutS4")
+//		Continue()
+END
+
+

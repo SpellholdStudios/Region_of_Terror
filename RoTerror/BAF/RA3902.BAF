@@ -1,0 +1,20 @@
+IF
+	Global("Kinquest","GLOBAL",3)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		CreateCreature("Japhet2",[190.254],1) // Japhet
+		Wait(1)
+		ActionOverride("Japhet2",DisplayStringHead(Myself,@566732))
+		Wait(3)
+		ActionOverride("Japhet2",EscapeArea())
+		Wait(3)
+		ActionOverride("Japhet2",DestroySelf())
+		SetGlobal("Kinquest","GLOBAL",4)
+		SmallWait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

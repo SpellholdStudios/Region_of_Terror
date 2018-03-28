@@ -1,0 +1,25 @@
+IF
+	Global("Sfquestbd","GLOBAL",27)
+THEN
+	RESPONSE #100
+		SetGlobal("Sfquestbd","GLOBAL",28)
+END
+
+IF
+	Dead("Shamon") // Shamon'na
+	Global("wonshamo","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Wait(1)
+		HideGUI()
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		FadeFromColor([20.0],0)
+		SetGlobal("wonshamo","GLOBAL",1)
+		ActionOverride(Player1,LeaveAreaLUA("RR4004","",[1880.1520],5))
+END
+
+

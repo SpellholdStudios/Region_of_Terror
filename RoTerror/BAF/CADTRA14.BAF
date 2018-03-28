@@ -1,0 +1,11 @@
+IF
+	See("CadPri15")
+	Global("Speaking5","RA3703",0)
+	Delay(2)
+THEN
+	RESPONSE #100
+		ActionOverride("CadPri15",DisplayStringHead(Myself,@571200))
+		SetGlobal("Speaking5","RA3703",1)
+END
+
+

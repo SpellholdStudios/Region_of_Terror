@@ -1,0 +1,9 @@
+IF
+	StealFailed([ANYONE])
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		StartDialog("stolen2",LastTrigger)
+END
+
+

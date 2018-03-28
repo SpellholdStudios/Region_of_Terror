@@ -1,0 +1,33 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	OR(3)
+		Global("Thirdquest","RA5002",0)
+		Global("Thirdquest","RA5002",1)
+		Global("Thirdquest","RA5002",2)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@570251) // You cannot flick the switch.
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("Thirdquest","RA5002",3)
+THEN
+	RESPONSE #100
+		OpenDoor("AR6101_Switch")
+		Wait(3)
+		DisplayString(Myself,@570252) // You did what was told, but for some reason nothing happens.
+		SetGlobal("Thirdquest","RA5002",4)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702) // You are too far away to use that.
+END
+
+

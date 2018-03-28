@@ -1,0 +1,25 @@
+IF
+	Global("Knowabouttl","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("dsalffjad","GLOBAL",1)
+		ActionOverride(Player1,LeaveAreaLUA("RA5400","",[3640.1511],4))
+		ActionOverride(Player2,LeaveAreaLUA("RA5400","",[3640.1470],5))
+		ActionOverride(Player3,LeaveAreaLUA("RA5400","",[3682.1511],4))
+		ActionOverride(Player4,LeaveAreaLUA("RA5400","",[3682.1470],5))
+		ActionOverride(Player5,LeaveAreaLUA("RA5400","",[3734.1511],4))
+		ActionOverride(Player6,LeaveAreaLUA("RA5400","",[3734.1470],5))
+END
+
+IF
+	Global("Creation","RA5410",1)
+THEN
+	RESPONSE #100
+		CreateCreature("DaDragon",[1607.935],2) // Fanguarrax
+		SmallWait(1)
+		ActionOverride("DaDragon",DisplayStringHead(Myself,@573250))
+		SetGlobal("Creation","RA5410",2)
+		Continue()
+END
+
+

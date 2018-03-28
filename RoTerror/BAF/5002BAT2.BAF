@@ -1,0 +1,78 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat2","RA5002",0)
+	!Global("Blockact2","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[2986.1536])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodGol3",[2986.1536],10) // Diamond Golem
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2902.1554])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodGol2",[2902.1554],10) // Adamantite Golem
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2962.1618])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodGol1",[2962.1618],9) // Adamantite Golem
+		Wait(1)
+		SetGlobal("StartBat2","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat2","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[2986.1536])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodGol3",[2986.1536],10) // Diamond Golem
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodGol3",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[2902.1554])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodGol2",[2902.1554],10) // Adamantite Golem
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2962.1618])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodGol1",[2962.1618],9) // Adamantite Golem
+		Wait(1)
+		SetGlobal("StartBat2","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+	Global("StartBat2","RA5002",0)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702) // You are too far away to use that.
+END
+
+

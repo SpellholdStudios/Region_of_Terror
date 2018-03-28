@@ -1,0 +1,227 @@
+IF
+	Global("WakeUp","LOCALS",0)
+	OR(6)
+		Range([PC],10)
+		Range([FAMILIAR],10)
+		Range([ALLY],10)
+		Range([CONTROLLED],10)
+		Range([CHARMED],10)
+		AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		DestroyItem("DRAGSIL2") // No such index
+		SmallWait(1)
+		EquipMostDamagingMelee()
+		SmallWait(5)
+		ChangeEnemyAlly(Myself,ENEMY)
+		SetGlobal("WakeUp","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("RemoveMagic","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,DRAGON_STONE_SKIN)
+		ForceSpell(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC)
+		SetGlobal("RemoveMagic","LOCALS",1)
+END
+
+IF
+	!Detect([PC])
+	HPLT(Myself,50)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("RemoveMagic","LOCALS",0)
+		SetGlobal("WingBuffet","LOCALS",0)
+		SetGlobal("Haste","LOCALS",0)
+		SetGlobal("DRAGONFEAR","LOCALS",0)
+		ForceSpell(Myself,CLERIC_HEAL)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("DRAGONFEAR","LOCALS",0)
+THEN
+	RESPONSE #100
+		ReallyForceSpell(NearestEnemyOf(Myself),DRAGON_FEAR)
+		SetGlobal("DRAGONFEAR","LOCALS",1)
+		SetGlobalTimer("SILVERDRAGONBREATH","GLOBAL",1)
+		SetGlobalTimer("SILVERDRAGONBREATH2","GLOBAL",1)
+		ForceSpell(LastSeenBy(Myself),DRAGON_WING_BUFFET)
+END
+
+IF
+	OR(2)
+		GlobalTimerExpired("SILVERDRAGONBREATH2","GLOBAL")
+		GlobalTimerExpired("SILVERDRAGONBREATH","GLOBAL")
+	See(NearestEnemyOf(Myself))
+	Range(LastSeenBy(Myself),11)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),DRAGON_WING_BUFFET)
+	RESPONSE #60
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),10)
+	GlobalTimerExpired("SILVERDRAGONBREATH2","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("WingBuffet","LOCALS",0)
+		ForceSpell(LastSeenBy(Myself),SILVER_DRAGON_BREATH_PARALIZATION)
+		SetGlobalTimer("SILVERDRAGONBREATH2","GLOBAL",18)
+END
+
+IF
+	See(SixthNearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),10)
+	GlobalTimerExpired("SILVERDRAGONBREATH","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("WingBuffet","LOCALS",0)
+		ForceSpell(LastSeenBy(Myself),SILVER_DRAGON_BREATH_COLD)
+		SetGlobalTimer("SILVERDRAGONBREATH","GLOBAL",18)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),10)
+	GlobalTimerExpired("SILVERDRAGONBREATH","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("WingBuffet","LOCALS",0)
+		ForceSpell(LastSeenBy(Myself),SILVER_DRAGON_BREATH_COLD)
+		SetGlobalTimer("SILVERDRAGONBREATH","GLOBAL",18)
+END
+
+IF
+	Global("WingBuffet","LOCALS",1)
+	See(NearestEnemyOf(Myself))
+	Range(LastSeenBy(Myself),11)
+THEN
+	RESPONSE #100
+		SetGlobal("WingBuffet","LOCALS",0)
+		SetGlobalTimer("SILVERDRAGONBREATH2","GLOBAL",18)
+		SetGlobalTimer("SILVERDRAGONBREATH","GLOBAL",18)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("SpellTurn","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,BEHOLDER_SPELL_TURNING)
+		SetGlobal("SpellTurn","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("DeathWard","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_DEATH_WARD)
+		SetGlobal("DeathWard","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("IceStorm","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_ICE_STORM)
+		SetGlobal("IceStorm","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("StoneSkin","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,DRAGON_STONE_SKIN)
+		SetGlobal("StoneSkin","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Offense1","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),WIZARD_GREATER_MALISON)
+		SetGlobal("Offense1","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Haste","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_HASTE)
+		SetGlobal("Haste","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Invisible","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_INVISIBILITY)
+		SetGlobal("Invisible","LOCALS",1)
+		RunAwayFrom(LastSeenBy(Myself),36)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("HoldPerson","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),CLERIC_HOLD_PERSON)
+		SetGlobal("HoldPerson","LOCALS",1)
+END
+
+IF
+	Global("Silence","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),DRAGON_SILENCE)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	HPLT(Myself,100)
+	GlobalLT("MediumWounds","LOCALS",3)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_CURE_MEDIUM_WOUNDS)
+		IncrementGlobal("MediumWounds","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),35)
+	RESPONSE #10
+		ForceSpell(LastSeenBy(Myself),WIZARD_CHROMATIC_ORB)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf(Myself))
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+

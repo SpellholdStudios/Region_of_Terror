@@ -1,0 +1,10 @@
+IF
+	Global("DeadPeple2","GLOBAL",1)
+	Global("ChangeName","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetName(@563887) // Guardian
+		SetGlobal("ChangeName","LOCALS",1)
+END
+
+

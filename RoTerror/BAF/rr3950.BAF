@@ -1,0 +1,12 @@
+IF
+	Global("Theendisnear","GLOBAL",5)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		SmallWait(1)
+		SetGlobal("Theendisnear","GLOBAL",6)
+		StartCutScene("ModCred")
+END
+
+

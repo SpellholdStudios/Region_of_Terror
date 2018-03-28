@@ -1,0 +1,24 @@
+IF
+	Global("Moving","LOCALS",0)
+THEN
+	RESPONSE #100
+		MoveToObject(Player1)
+		SetGlobal("Moving","LOCALS",1)
+END
+
+IF
+	Global("Traitors","LOCALS",0)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@570820)
+		SetGlobal("Traitors","LOCALS",1)
+END
+
+

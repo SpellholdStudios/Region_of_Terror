@@ -1,0 +1,45 @@
+IF
+        True()
+//	Global("Theendisnear","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		SmallWait(5)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Catt2",DestroySelf())
+		DestroyItem("DragCap") // Fangor's Holder
+		DestroyItem("ChaKey") // Key of Chaos
+		SmallWait(1)
+		MakeUnselectable(1)
+		ActionOverride(Player2,MakeUnselectable(1))
+		ActionOverride(Player3,MakeUnselectable(1))
+		ActionOverride(Player4,MakeUnselectable(1))
+		ActionOverride(Player5,MakeUnselectable(1))
+		ActionOverride(Player6,MakeUnselectable(1))
+		Wait(2)
+		LeaveAreaLUA("RR3950","",[955.705],5)
+		ActionOverride(Player2,LeaveAreaLUA("RR3950","",[960.760],5))
+		ActionOverride(Player3,LeaveAreaLUA("RR3950","",[990.740],5))
+		ActionOverride(Player4,LeaveAreaLUA("RR3950","",[1000.705],5))
+		ActionOverride(Player5,LeaveAreaLUA("RR3950","",[1020.670],5))
+		ActionOverride(Player6,LeaveAreaLUA("RR3950","",[1040.720],5))
+		SmallWait(1)
+		ActionOverride("Driz2",LeaveAreaLUA("RR3950","",[740.640],12))
+		SmallWait(2)
+		CreateCreature("Catt21",[770.610],12) // Catti-Brie
+		SmallWait(1)
+		ActionOverride("Catt2",DestroyItem("CaBow2")) // Taulmaril the Heartseeker +5
+		SmallWait(1)
+		ActionOverride("Catt2",EquipRanged())
+		ActionOverride("Driz2",FaceObject(Player1))
+		ActionOverride("Catt2",FaceObject(Player1))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("Theendisnear","GLOBAL",2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

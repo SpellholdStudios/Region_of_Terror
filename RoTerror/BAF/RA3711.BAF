@@ -1,0 +1,30 @@
+IF
+	Global("CQuestActive","GLOBAL",16)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		MoveViewPoint([967.1603],VERY_FAST)
+		ActionOverride(Player1,MoveToPoint([1314.1641]))
+		ActionOverride(Player2,MoveToPoint([886.1329]))
+		ActionOverride(Player3,MoveToPoint([1342.1619]))
+		ActionOverride(Player4,MoveToPoint([916.1307]))
+		ActionOverride(Player5,MoveToPoint([1394.1601]))
+		ActionOverride(Player6,MoveToPoint([946.1293]))
+		FadeFromColor([20.0],0)
+		Wait(1)
+		ActionOverride("Cadder5",FaceObject(Player1))
+		SmallWait(1)
+		ActionOverride("Cadder5",DisplayStringHead(Myself,@571227))
+		Wait(2)
+		ActionOverride("Cadder5",MoveToObject(Player1))
+		Wait(5)
+		SetGlobal("CQuestActive","GLOBAL",17)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Cadder5",StartDialogueNoSet(Player1))
+END
+
+

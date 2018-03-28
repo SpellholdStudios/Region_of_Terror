@@ -1,0 +1,916 @@
+// AHIGGHMA3.DLG
+//solved - 33, 34  -> #71679
+@500000 = ~Assasinations
+
+I decided not to kill Regean and told him about Zemir. Result: Regean alive, Zemir dead.~
+
+
+//ALISSA1.DLG
+//unsolved - 5, 6, 7  -> #74337
+@574337 = ~Alissa's abilities
+
+A priest of Deneir, Alissa, joined my group. She told me that she has been learning strange abilities on her own and is on a search to learn something about them. I decided to help.~
+
+
+//ALISSA1J.DLG
+//unsolved - 4, 8   -> #74338
+@574338 = ~Alissa's abilities
+
+Alissa told about her abilities to brother Cadderly. He adviced to go and seek for a temple of Oghma.~
+
+
+//ALROR.DLG
+//unsolved - 15  -> #66095
+@566095 = ~Help Drizzt finding his friends
+
+We found another drow from the Umar Hills. She told us that Bruenor can be found from a house at the village of Westchar. That will be our next stop.~
+
+
+//ARLAXT3.DLG
+//unsolved - 3, 4
+@569174 = ~Escaped Prisoner
+
+I found Tresham waiting in the Copper Coronet. He escaped but his "friend" told me he is going to meet some other "friends" of his on the streets of the Slums after one day has passed, during the night. I should go to this meeting too...~ /* #69174 */
+
+
+//ARLAXT1.DLG
+//unsolved - 4, 10
+//ARLAXT7.DLG
+//unsolved - 4, 10
+@569173 = ~Escaped Prisoner
+
+I squeezed some information out of a local thief. Tresham has apparently escaped to the Slums in Athkatla.~ /* #69173 */
+
+
+//ARLAXP6.DLG
+//unsolved - 13
+@576186 = ~A ghost
+
+The commoner took me to see the ghost. The ghost was a woman and spoke about someone named Henrick. He could be one of the mages of Arlax.~ /* #76186 */
+
+
+//ARLAXGC.DLG
+//unsolved - 3
+@568920 = ~Escaped Prisoner
+
+The city guard captain of Arlax told me about an escaped prisoner. This thief, Tresham, escaped during the night and left no leads. The local thieves might know something so I promised to try to find him and bring him back.~ /* #68920 */
+//solved - 12
+@569177 = ~Escaped Prisoner
+
+I killed the thief Tresham and took his body back to the city guard captain.~ /* #69177 */
+//solved - 14
+@569178 = ~Escaped Prisoner
+
+I brought the thief Tresham back and got my reward.~ /* #69178 */
+
+
+//BIGGS.DLG
+//unsolved - 8
+@564128 = ~Castles at War
+
+A messenger called Biggs came to me and told about his master who owns a castle near Athkatla. He has had some problems with some other castle and I have been called to aid. I should go there as soon as possible.~ /* #64128 */
+
+
+//BREHERM1.DLG
+//unsolved - 8
+@572810 = ~The hermit
+
+I met a hermit and agreed to go get supplies for him from the town of Bremen.~ /* #72810 */
+//unsolved - 18, 27
+@572811 = ~The hermit
+
+I gave him the supplies and agreed to do another task. I'm supposed to go and find a gem he lost. It is most likely carried by some monster near the cabin.~ /* #72811 */
+//solved  - 35
+@572812 = ~The hermit
+
+I got the gem back to the Hermit and he said he's going to die now. And that is what he did. He also said "You can open the box if you want...".~ /* #72812 */
+
+
+//BRELAMOR.DLG
+//unsolved - 5
+@572896 = ~Lamorine's Brother
+
+A woman called Lamorine asked me to go and guide her brother Torvald safely to Bremen. The guy is a show off and ensisted on coming through the mountains. He should be heading down within two to five days. I am not supposed to tell him I'm there to help him.~ /* #72896 */
+//solved - 15
+@572897 = ~Lamorine's Brother
+
+I was successful. The brother got safely to Bremen.~ /* #72897 */
+//solved - 17
+@572898 = ~Lamorine's Brother
+
+I failed and Torvald died.~ /* #72898 */
+//solved - 20
+@572899 = ~Lamorine's Brother
+
+I didn't find the brother. He probably died.~ /* #72899 */
+//solved - 24
+@572903 = ~Lamorine's Brother
+
+I let Torvald go on his own. He probably died.~ /* #72903 */
+
+
+//BRUNDOR, BRUNDOR2.DLG
+//unsolved - 83
+@571685 = ~The strange talking armor
+
+I went to Brundor the smith and showed him the Soul Armor I found from the lair of the dragon Hephaestus. He couldn't say anything about it but told me to go and speak with Chade who lives in Westchar.~ /* #71685 */
+
+
+//CADDER3.DLG
+//unsolved - 17
+@571235 = ~Demons in the Spirit Soaring
+
+I arrived at the Spirit Soaring and brother Cadderly explained the situation. Some newcomer had used the high level summoning circle to open a gate to the Abyss. Cadderly couldn't say how he was even allowed to enter the area where the circle is but somehow he had done that. Soon after the gate had been opened, demons started to flood in and quickly they took over the temple. The priests were able to seal the entrance but can't hold it much longer. The plan is that I go into the temple and close the portal with the help of brother Lucas. He will die in the process but I am to keep him alive till we reach the portal.~ /* #71235 */
+//unsolved - 20
+@571236 = ~Demons in the Spirit Soaring
+
+I'm in the temple. I am supposed to locate the high level summoning chamber and try to keep brother Lucas alive.~ /* #71236 */
+
+
+//CADDER5.DLG
+//solved - 1
+@571237 = ~Demons in the Spirit Soaring
+
+We were succesful and the portal was closed. Now it's time to go back to Amn.~ /* #71237 */
+
+
+//CADDERLY.DLG
+//unsolved - 14
+@566097 = ~Help Drizzt finding his friends
+
+We met the man who knows how to destroy the Crystal Shard. Cadderly is his name. He promised to take a look at some writings which might help our cause. He should be finished with them within a day or two.~ /* #66097 */
+//unsolved - 28
+@566098 = ~Help Drizzt finding his friends
+
+Cadderly dug some useful information for me. This artefact that Enteri and Jarlaxle are using can only be destroyed in the breath of a powerful dragon. We cannot take the Crystal Shard ourselved or it might take our minds and use us for it's own purposes. Thus it must be destroyed to the place it lies. So, we have no choise but to capture a powerful dragon and release it once we confront Enteri and Jarlaxle. It will then destroy the Crystal Shard. The capturing can be done with an item which lies in the hells. That's where we are going now.~ /* #66098 */
+//unsolved - 33
+@566099 = ~Help Drizzt finding his friends
+
+We have trapped a dragon. Now we must wait for the next clue.~ /* #66099 */
+
+
+//CAIN.DLG
+//unsolved - 7
+@568192 = ~Help the thief in Arlax
+
+I have agreed to help a thief, Cain, with some tasks he has been given. He is a lousy thief but is supposed to steal some things from Arlax. I will help him to get the objects. The first object, a golden dagger, can be found from the temple of Helm. The exact location is unknown so I'll have to look for it.~ /* #68192 */
+//unsolved - 17
+@568205 = ~Help the thief in Arlax
+
+I have completed the first task and the thief has given me the second. I am to go to the old inn and steal a diamond from a traveller. The traveller is leaving after two days so I'll have to act swiftly.~ /* #68205 */
+//unsolved - 19
+@568220 = ~Help the thief in Arlax
+
+I have completed the second task and the thief has given me the third and final. I am supposed to steal a scroll from a mage called Henvis. He can be found from the mage high council building.~ /* #68220 */
+//solved - 15
+@568198 = ~Help the thief in Arlax
+
+I decided not to help him after all. I had no time.~ /* #68198 */
+//solved - 21
+@568221 = ~Help the thief in Arlax
+
+I failed the second task. I was too late in stealing the diamond.~ /* #68221 */
+//solved - 23
+@568222 = ~Help the thief in Arlax
+
+I was succesful in the final task and took the scroll to Cain. He promised to pay me back if he gets a chance...Yeah, right!~ /* #68222 */
+
+
+//CATT2.DLG
+//solved - 1, 2  - íåò íè îäíîãî EraseJournalEntry() !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+@566428 = ~Help Drizzt finding his friends
+
+Enteri and Jarlaxle are dead. The Crystal Shard has been destroyed. Drizzt's friends are safe. The hunt is over.~ /* #66428 */
+
+
+//CHADE.DLG
+//unsolved - 6, 7
+@571711 = ~The strange talking armor
+
+I spoke with Chade. He said we could free the trapped soul but we need a priest to help us. Luckily there's one living inside the village.~ /* #71711 */
+//solved - 8
+@571709 = ~The strange talking armor
+
+I spoke with Chade. He said we could free the trapped soul but I said no.~ /* #71709 */
+//solved - 11
+@571712 = ~The strange talking armor
+
+I spoke with the priest and he agreed to help. We were able to free the spirit from the armor.~ /* #71712 */
+
+
+//CHAUNTI.DLG
+//unsolved - 3
+@571233 = ~Demons in the Spirit Soaring
+
+A priest called brother Chaunticleer came from the temple of Spirit Soaring, seeking the aid of Drizzt Do'Urden. Demons have taken over the temple, or something, he didn't know much. We immediately left to see what was going on.~ /* #71233 */
+
+
+//CLOB.DLG
+//unsolved - 5
+@567005 = ~Clob's son missing
+
+I volunteered to try to look for Clob's missing son. He was sent to buy a robe from a merchant in Athkatla's Bridge District. I am to start my search there.~ /* #67005 */
+
+
+//CULTBE.DLG
+//unsolved - 8, 9
+@574058 = ~The Cult of the Beast
+
+On the quest of finding out Matthew Wyndon's nightly activities I found myself from the stronghold of a Beast Cult. I have two options; to join or to die.~ /* #74058 */
+
+
+//CULTBEH.DLG
+//unsolved - 18
+@574059 = ~The Cult of the Beast
+
+I chose to join and became a minor member. I received a symbol which I can use to come to the stronghold when I am summoned. I am supposed to perform some tests before I can become a full member.~ /* #74059 */
+//solved - 60
+@574061 = ~The Cult of the Beast
+
+I performed all sorts of cruelties and became a member. I received another symbol which I can use to come to the stronghold whenever I want. I am supposed to take a part in a ritual at least once a week.~ /* #74061 */
+
+
+//DRIZ2.DLG
+//unsolved - 28, 32, 34, 37, 48, 50
+@566094 = ~Help Drizzt finding his friends
+
+A drow named Drizzt Do'Urden joined my company. He lost his friends mysteriously and we agreed to look for them. If I help, he'll help me with my unknown capturer. At this point we haven't got any clue where to start looking.~ /* #66094 */
+
+
+//DRIZ2J.DLG
+//unsolved - 11, 24
+@574781 = ~Help Drizzt finding his friends
+
+A djinni came to give Drizzt a word that a man named Artemis Entreri has captured his friends. We are to go to the city of Arlax for more information.~ /* #74781 */
+//unsolved - 28
+@564316 = ~Help Drizzt finding his friends
+
+Artemis Enteri has sent another Djinni.He pointed to the city of Arlax and we now have to go there and try to find out there something about Drizzt`s friends.~ /* #64316 */
+//unsolved - 41, 47-51, 54, 55
+@563195 = ~Help Drizzt finding his friends
+
+We have found the contact person from the sewers of Arlax. He told us that one of the kidnapped is held in place called Monzuma's Cave. It is up on the mountains near Arlax. We should make our way there as soon as possible.~ /* #63195 */
+//unsolved - 86, 87, 89, 90, 91, 93
+@566096 = ~Help Drizzt finding his friends
+
+We found Bruenor and freed him. Drizzt told me about a man who knows how to destroy the Crystal Shard, which is somehow involved in this. We can get to the man from Brynnlaw with the help of the priest Martin.~ /* #66096 */
+//unsolved - 121
+@566101 = ~Help Drizzt finding his friends
+
+We heard that the Icewind Dale is attacked by monsters. Enteri and Jarlaxle control them. This mission is starting to become more and more important.~ /* #66101 */
+//unsolved - 165, 169
+@572915 = ~Weapons missing
+
+The weapons of Drizzt and Wulfgar have been stolen. They are probably in the cave of Thorin Icebeard. The cave can be located west from the village of Bremen.~ /* #72915 */
+
+
+//EGALD1.DLG
+//unsolved - 4,16,18,19
+@571803 = ~Journey to the North
+
+A man named Edomis Galdenburg approached me and offered me five hundred gold pieces for guarding his way to the Icewind Dale. I said yes.~ /* #71803 */
+//unsolved - 5
+@571802 = ~Journey to the North
+
+A man named Edomis Galdenburg approached me and offered me five hundred gold pieces for guarding his way to the Icewind Dale. I said I might help him. If I decide to help, he'll be waiting at the city gates of Athkatla.~ /* #71802 */
+//unsolved - 8,20
+@571801 = ~Journey to the North
+
+A man named Edomis Galdenburg approached me and offered me five hundred gold pieces for guarding his way to the Icewind Dale. We will depart as soon as I'm ready.~ /* #71801 */
+//unsolved - 9, 11
+@575862 = ~Journey to the North
+
+We began the journey.~ /* #75862 */
+
+
+//EGALD2.DLG
+//unsolved - 1
+@571806 = ~Journey to the North
+
+We managed to get to Bremen without any difficulties. Maybe I should check around while Edomis is doing business in Lonelywood.~ /* #71806 */
+
+
+//EGALD3.DLG
+//solved - 1
+@571805 = ~Journey to the North
+
+We arrived back to Amn. The journey was succesful.~ /* #71805 */
+
+
+//ELEANA2.DLG
+//solved - 2
+@568695 = ~Eleana and the scroll
+
+I forgot to speak with the merchant. I failed the quest.~ /* #68695 */
+//solved - 4
+@568867 = ~Eleana and the scroll
+
+I went back to Eleana and didn't go for the quest to get the scroll back from Gaidan. The problem is no longer mine.~ /* #68867 */
+//solved - 6, 10
+@568877 = ~Eleana and the scroll
+
+I went to the old castle, killed Gaidan and got the scroll back from him. Then I returned to Eleana and gave it to her.~ /* #68877 */
+//solved - 7,9,11,12
+@568875 = ~Eleana and the scroll
+
+I went to the old castle, killed Gaidan and got the scroll back from him. Then I returned to Eleana, gave it to her and collected my reward.~ /* #68875 */
+//solved - 16,17
+@568873 = ~Eleana and the scroll
+
+I went to the old castle, met Gaidan and bought the scroll from him. Then I returned to Eleana, gave her the scroll and requested my money back. I got only half.~ /* #68873 */
+//solved - 19
+@568881 = ~Eleana and the scroll
+
+I went to the old castle, did a job for Gaidan and he gave me the scroll back. Then I returned to Eleana and gave it to her.~ /* #68881 */
+//solved - 20, 21
+@568882 = ~Eleana and the scroll
+
+I went to the old castle, did a job for Gaidan and he gave me the scroll back. Then I returned to Eleana, gave it to her and collected my reward.~ /* #68882 */
+
+
+//ELEANA.DLG
+//unsolved - 6
+@568689 = ~Eleana and the scroll
+
+By the request of mage Eleana I promised to go to Athkatla and get a spell scroll from a merchant. I should be able to find him at the Gates. Eleana gave me a letter and when I show it to the merchant, he'll give me the scroll. She also told me that if I can't find her in the mage high council building when I come back, she is staying in the estate next to the prison.
+
+And oh, the merchant is staying only ten days so I'll have to hurry a bit.~ /* #68689 */
+
+
+//ENTDJIN3.DLG
+//unsolved - 0
+@566100 = ~Help Drizzt finding his friends
+
+We got the final clue. Enteri can be found from a cave near the village of Maribur. This all ends there.~ /* #66100 */
+
+
+//ENTER2.DLG
+//solved - 1,2 - no Erase!!!!!!!!!!!!!!!!!!!!
+@575863 = ~Help Drizzt finding his friends
+
+I betrayed Drizzt and joined with Enteri and Jarlaxle.~ /* #75863 */
+
+
+//ERANDA2.DLG
+//unsolved - 5
+@570608 = ~Problems in the Castle
+
+Some group of people have trespassed my lands and made their stay at the wooden fortress. They want to talk with me. I said I would go there and see what they want.~ /* #70608 */
+//solved - 10,11
+@570607 = ~Problems in the Castle
+
+The problem was only some unhappy group of people who wanted to talk with me. I ordered them to be slaughtered.~ /* #70607 */
+//solved - 14
+@570609 = ~Problems in the Castle
+
+I dealt with the people. They won't bother me again.~ /* #70609 */
+
+
+//ESATH2.DLG
+//unsolved - 0
+@568545 = ~Helping the Farmers
+
+I made my way to the outlying farms. Esath met me there and told me to follow the way to north. I will find a destoyed settlement and near it a cave. The leader can be found inside of it.~ /* #68545 */
+//solved - 3
+@568546 = ~Helping the Farmers
+
+I killed the leader - it was a lich - and returned to Esath. He thanked me and told that I can find my reward inside his house.~ /* #68546 */
+
+
+//ESATH.DLG
+//unsolved - 14,19
+@568549 = ~Helping the Farmers
+
+A farmer called Esath approached me and asked for my help in Arlax. The outlying farms are in danger; monsters attack in groups, not randomly. They have a leader. I promised to go and kill this leader but I'll have to act swiftly. If I delay a week or two, the farmers might already be dead...~ /* #68549 */
+
+
+//GAREM.DLG
+//unsolved - 2
+@568263 = ~Find Garem's ring from the sewers
+
+I have agreed to search for a ring in the Sewers of Arlax. The name "Garem" is carved on it so finding it shouldn't be very hard. Someone might have picked it up, though.~ /* #68263 */
+//solved - 9,11,13,15
+@568281 = ~Find Garem's ring from the sewers
+
+I found the ring and gave it back to it's rightful owner.~ /* #68281 */
+
+
+//GRAGHAK.DLG
+//unsolved - 28
+@564865 = ~Help Drizzt finding his friends
+
+I have spoken with the Gragha King. He told me that Bruenor might be in another city of this place. I can only enter that other city by solving the "great riddle". There are five pieces of a story, carved on stone, around this city. I have one. Each of them gives me a hint where the next one will be. When I have collected all the stones, I am to go to the door between cities and read the story written on the stones. Then I will be able to go through the door.~ /* #64865 */
+
+
+//GRAYFOT2.DLG
+//unsolved - 179
+@570462 = ~The Quest for the Eye of a God
+
+Pip Grayfoot, the gem forgin' specialist of Arlax, told me about a legendary gem called "The Eye of a God". He didn't know if it even existed but marked the would be location of the gem on my map. If this gem is real and it is forged on some item, it would give incredible powers. Maybe I should go and see what I can find in the location he showed me.~ /* #70462 */
+//unsolved - 199
+@570505 = ~The Quest for the Eye of a God
+
+I found the Eye and brought it to Pip. He forged it on an item. After that he announced that he had found a perfect place for a new smithy, bade me farewell and left.~ /* #70505 */
+
+
+//HANDS.DLG
+//unsolved - 9,10
+@566652 = ~Revenge on the behalf of Hands
+
+A man named Hands has told me about a horde of monsters which attacked him and killed one of his sons. I agreed to take revenge for him. The monsters can probably be found from a cave.~ /* #66652 */
+//solved - 18,19
+@566653 = ~Revenge on the behalf of Hands
+
+I found the monsters and killed them.~ /* #66653 */
+
+
+//HEDAN.DLG
+//unsolved - 4
+@565530 = ~Westchar in troubles
+
+I met the leader of the village. He gave me a key which I can use to enter the house of Emanath. I must go in and kill him, although I have no idea what will be facing me in the house.~ /* #65530 */
+//unsolved - 17
+@565533 = ~Westchar in troubles
+
+I decided to help them after all.~ /* #65533 */
+//unsolved - 24,29
+@565536 = ~Westchar in troubles
+
+I became aware of the troubles of the village of Westchar. They have been attacked by goblins, orcs and other minions of evil. The cause of these attacks is a wizard named Emanath. His house lays at the edge of the village.~ /* #65536 */
+//solved - 30
+@565656 = ~Westchar in troubles
+
+I killed Emanath but got no reward. I said that the whole bunch of them were poor bastards and left.~ /* #65656 */
+//solved - 30,32
+@565655 = ~Westchar in troubles
+
+I killed Emanath.~ /* #65655 */
+//solved - 34
+@566285 = ~Westchar in troubles
+
+Hedan presumed I had killed Emanath. He had told me earlier he wouldn't pay me anything, so I got nothing. I said that the whole bunch of them are poor bastards and left.~ /* #66285 */
+//solved - 35
+@565653 = ~Westchar in troubles
+
+I accidently told that Emanath didn't die. Hedan wasn't pleased but he accepted it.~ /* #65653 */
+//solved - 36
+@566284 = ~Westchar in troubles
+
+I did as I promised and told Hedan Emanath died. I can pretty safely say that this conflict is over now.~ /* #66284 */
+
+
+//ILHAN.DLG
+//unsolved - 5,24,25
+@563941 = ~Kill the cyclop leader
+
+I have agreed to slay the cyclop leader near Olmar's Castle. The cyclops have been causing troubles to the castle and as the chieftain of the castle won't do anything, I am going to take care of the problem.~ /* #63941 */
+//solved - 19,21
+@563943 = ~Kill the cyclop leader
+
+I have killed the cyclop leader. The other cyclops are expected to leave the area soon.~ /* #63943 */
+
+//ILHAN2.DLG
+//unsolved - 6,11,13
+@570748 = ~Ilhan's Message
+
+Ilhan had an idea to rob a wealthy looking merchant heading north just few miles west from the castle. I thought it was a good idea and we went off to rob the man.~ /* #70748 */
+//solved - 36,39
+@570736 = ~Ilhan's Message
+
+We robbed the merchant and both of us got quite a good amount of gold.~ /* #70736 */
+
+
+//JAPHET.DLG
+//unsolved - 3
+@566785 = ~Thief at Kindast's store
+
+Japhet stole the potion to cure his sick wife. I decided to take this matter to Kindast.~ /* #66785 */
+//unsolved - 5
+@566784 = ~Thief at Kindast's store
+
+Japhet stole the potion to cure his sick wife. I decided to pay for the potion.~ /* #66784 */
+
+
+//JATTA.DLG
+//unsolved - 6
+@567011 = ~Clob's Son Missing
+
+Some whore remembered the boy. She told me that some big fellahs had taken him into the high building at the northern part of the District.~ /* #67011 */
+
+
+//KINDAST.DLG
+//unsolved - 6,8,10
+@566777 = ~Thief at Kindast's store
+
+Kindast, the merchant of Maribur, has hired me to capture a thief who has stolen some money and a potion from him. I should start my investigation by guarding his store at night.~ /* #66777 */
+//unsolved - 18
+@566781 = ~Thief at Kindast's store
+
+I saw the thief. It was someone called Japhet. I am now supposed to find out why he did what he did.~ /* #66781 */
+//solved - 22
+@566782 = ~Thief at the Kindast's store
+
+Kindast accepted Japhet's reason to steal the potion and I paid for it. A happy end.~ /* #66782 */
+//solved - 26,27,28
+@566783 = ~Thief at the Kindast's store
+
+Kindast donated the potion to Japhet. I got my reward.~ /* #66783 */
+
+
+//LOREM.DLG
+//unsolved - 9
+@576084 = ~Hunting
+
+The people of the village of Westchar have been under attacks and thus they have needed men to defend their village. This has caused a lack in the food supplies' and I agreed to go hunt them five hundred pounds of meat.~ /* #76084 */
+//solved - 3
+@576086 = ~Hunting
+
+I was able to bring enough meat to satisfy Lorem.~ /* #76086 */
+
+
+//LATHAR.DLG
+//unsolved - 6
+@576185 = ~A ghost
+
+I was told that a ghost has been seen in the city of Arlax. A commoner near the old inn knows more about it.~ /* #76185 */
+
+
+//MARALDA.DLG
+//unsolved - 4,9,10,12,14,16
+@563708 = ~Find Maralda's Scroll
+
+Someone has stolen a scroll from a mage called Maralda. She said that the thief is either Alenna or Melan. I should go and speak with both of them.~ /* #63708 */
+//solved - 32,36,39,51
+@563712 = ~Find Maralda's Scroll
+
+I found out that Alenna was the one who stole the scroll. This was a really simple matter, not worth of my time, really.~ /* #63712 */
+
+
+//MARTWYN1.DLG
+//unsolved - 10,12,13
+@573330 = ~Dragon's Sanctuary
+
+An old man named Martwyn told me about a sacred area of the dragons. If I wanted to go there, I would have to hide from the eyes of the guardian to get through the unpassable lands and then make my way out of the Ice Maze.~ /* #73330 */
+
+
+//MAYASSI.DLG
+//unsolved - 7
+@574055 = ~What is Matthew up to?
+
+The assistant of the Mayor of Bremen asked if I could find out what happens in the house of Matthew Wyndon at midnights. He's a strange fellow so anything can be expected.~ /* #74055 */
+//solved - 21
+@574056 = ~What is Matthew up to?
+
+I found out that Matthew uses some sort of portal to go somewhere but refused to go through it myself.~ /* #74056 */
+//solved - 23
+@574057 = ~What is Matthew up to?
+
+I found out that Matthew uses a portal to go to a secret hideout of some cult. Apparently he is a member. The mayor's assistant thanked me and promised to talk about this with the mayor.~ /* #74057 */
+
+
+//MAYDOBR.DLG
+//unsolved - 4,16
+@572659 = ~The depressed people
+
+It has been agreed that our party will try to speak with the people of Bremen to bring their spirits up. They have been talking about leaving the village because of the continuous monster attacks. The task is to try to make them stay.~ /* #72659 */
+//solved - 29
+@572660 = ~The depressed people
+
+We did an incredible job. No one speaks about leaving anymore.~ /* #72660 */
+//solved - 30
+@572661 = ~The depressed people
+
+We did an excellent job. No one speaks about leaving anymore.~ /* #72661 */
+//solved - 31
+@572662 = ~The depressed people
+
+We did a good job. No one speaks about leaving anymore.~ /* #72662 */
+//solved - 32
+@572663 = ~The depressed people
+
+We did a fine job. The people are still quite depressed but there has been some improvement.~ /* #72663 */
+//solved - 33,34
+@572664 = ~The depressed people
+
+I was not able to cause any difference.~ /* #72664 */
+//solved - 35
+@572666 = ~The depressed people
+
+I did only harm.~ /* #72666 */
+//solved - 36,37
+@572670 = ~The depressed people
+
+I banalized the spirit of the village lower than it has ever been. *LOL*~ /* #72670 */
+
+
+//MENDOR.DLG
+//unsolved - 8
+@567010 = ~Clob's Son Missing
+
+I met a thief in the high building. He told his house has been used as a slave storage room and that the boy was captured to become a slave. The slave traders are just outside the city. He marked the spot on my map.~ /* #67010 */
+
+
+//MOLLY2.DLG
+//unsolved - 8
+@566564 = ~Molly's Stolen Necklace
+
+I met a woman named Molly in Westchar. Her necklace has been stolen and I am to get it back. She suspects Burrich, the innkeeper.~
+//solved - 19
+@566565 = ~Molly's Stolen Necklace
+
+I found the necklace from the village. The thief was "the evil man". I had to kill him to get the necklace back.~ /* #66565 */
+//solved - 21
+@566566 = ~Molly's Stolen Necklace
+
+I found the necklace from the village. The thief was "the evil man". I had to kill him to get the necklace back.~ /* #66566 */
+
+
+//OLMAR4.DLG
+//solved - 3
+@564221 = ~Castles at War
+
+We were succesful. Talavan's Castle was conquered and I was named as the new ruler. Ilhan will send me a word if anything in the castle requires my attention.~ /* #64221 */
+//solved - 4
+@564220 = ~Castles at War
+
+We were succesful. Talavan's Castle was conquered and Ilhan was named as the new ruler.~ /* #64220 */
+
+
+//OLMMESS.DLG
+//unsolved - 1
+@570734 = ~Ilhan's Message
+
+Ilhan sent a message to me. There's something going on at the castle. I should go and check it out as soon as possible.~ /* #70734 */
+
+
+//OLMAR.DLG
+//unsolved - 15-19
+@564219 = ~Castles at War
+
+I got the key but I chose to take Olmar's side. I will kill Talavan when we are at Olmar's Castle and then I will conqure Talavan's Castle with Olmar.~ /* #64219 */
+//unsolved - 26-30
+@564130 = ~Castles at War
+
+I have got the key. When I return with it, we shall attack Olmar's Castle.~ /* #64130 */
+
+
+//PLADJIN.DLG
+//unsolved - 34
+@576012 = ~Help Drizzt finding his friends
+
+The search for Bruenor has led us into somekind of an outer plane. We met someone named as Holy Guardian. He guards the city of "the Gragha". There is no return so we have to go forward. I must complete four tests of the Holy Ones' to get the access to the city.~ /* #76012 */
+//unsolved - 83
+@564701 = ~Help Drizzt finding his friends
+
+I have succeeded in all of the four tests. I have now the permission to enter the city of Gragha.~ /* #64701 */
+
+
+//RANDALLJ.DLG
+//unsolved - 3
+@574048 = ~Necromancer after Randall
+
+The party was attacked by a necromancer and a group of skeletons. It was obvious that they were after Randall. The reason of this attack is a mystery.~ /* #74048 */
+//unsolved - 5,6
+@574049 = ~Necromancer after Randall
+
+The same happened again. Randall claims he has done nothing to provoke these attacks.~ /* #74049 */
+//unsolved - 12
+@574051 = ~Necromancer after Randall
+
+Again. But this time there was a note which leads us to the hideout of the man who is behind this. We agreed to go there and see what we can find.~ /* #74051 */
+//solved - 7
+@574050 = ~Necromancer after Randall
+
+The same happened again. I though it was too dangerous to travel with Randall so I dumped him.~ /* #74050 */
+//solved - 17
+@574052 = ~Necromancer after Randall
+
+The man who was after Randall is dead now. Randall swore to find his stepfather to get more information about the death of his real parents.~ /* #74052 */
+
+
+//REG2.DLG
+//unsolved - 13,14
+@564415 = ~Help Drizzt finding his friends
+
+We found the prisoner in Monzuma's Cave. He was Regis. He told us that Entreri wants us to go to the Umar Hills next.~ /* #64415 */
+
+
+//ROB.DLG
+//unsolved - 4,6
+@564299 = ~Giants took Rob's wife
+
+Some giants had taken Rob's wife into the Monzuma's Cave. I'll try to find her while I'm inside.~ /* #64299 */
+//solved - 9,10
+@564301 = ~Giants took Rob's wife
+
+I found Rob's wife dead, body taken over by a demon.~ /* #64301 */
+
+
+//ROBEMER.DLG
+//unsolved - 3
+@567006 = ~Clob's Son Missing
+
+I spoke to the merchant. He directed me to the Five Flagon's Inn where the boy had said to be going.~ /* #67006 */
+
+
+//RODGER.DLG
+//solved - 2,3
+@567008 = ~Clob's Son Missing
+
+I found the boy. He had indeed been captured to be a slave. I killed the slave traders and freed the prisoners.~ /* #67008 */
+
+
+//RYONN.DLG
+//unsolved - 14
+@565535 = ~Westchar in troubles
+
+I met a man called Ryon. He convised me to help his village. They have been attacked by goblins, orcs and other minions of evil. The cause for these attacks is a wizard named Emantah. His house is lays near the edge of the village. I don't know exactly yet what is going to happen but I think I'll find it out in the village.~ /* #65535 */
+//unsolved - 16
+@565529 = ~Westchar in troubles
+
+I met a man called Ryon. He tried to get me to help his village. They have been attacked by goblins, orcs and other minions of evil. The cause for these attacks is a wizard named Emantah. I said I wouldn't help but he still marked the village on my map in case I change my mind.~ /* #65529 */
+
+
+//QUINTIP1.DLG
+//unsolved - 4,7,9
+@572863 = ~The hunters
+
+There has been a hunting party out on the mountains near Bremen. They are late from their scheduled arrival and I agreed to try to find out the reason.~ /* #72863 */
+//solved - 14
+@572864 = ~The hunters
+
+I found out what had happened. They were attacked by an unusually large group of monsters. Most likely there were no survivors.~ /* #72864 */
+
+
+//SCRLMER.DLG
+//unsolved - 16,17,19
+@568691 = ~Eleana and the scroll
+
+I have spoken with the merchant and he told me that he was robbed by the "thieving group of Gaidan". He gave me the location of Gaidan's stronghold so that I can go and get the scroll back from him. Alternatively I could go back to Eleana and tell her what happened. It would not be my problem then.
+
+The merchant also told me that he can answer to my questions about this Gaidan.~ /* #68691 */
+
+
+//SHDW1.DLG
+//unsolved - 2
+@571713 = ~The strange talking armor
+
+I were approached by someone, or something. He said he could enchant the armor for me if I killed the priest...~ /* #71713 */
+//solved - 5
+@571714 = ~The strange talking armor
+
+Well, I did kill the priest. (I was feeling EVIL!!) The shadow did what he had promised and enchanted the armor for me.~ /* #71714 */
+
+
+//SLAVET5.DLG
+//solved - 5
+@567009 = ~Clob's Son Missing
+
+I found the boy. He had indeed been captured to be a slave. I took a pay from the slave traders and let them go.~ /* #67009 */
+
+
+//TALAVAN3.DLG
+//solved - 2
+@564132 = ~Castles at War
+
+The mission has been completed. Olmar is dead and Talavan is in charge of both of the castles. He also offered me the position as the new ruler of Olmar's castle. I accepted it. Eranda will send me a word if anything there requires my attention.~ /* #64132 */
+//solved - 4
+@564131 = ~Castles at War
+
+The mission has been completed. Olmar is dead and Talavan is in charge of both of the castles. Eranda has been left to take care of things in Olmar's castle.~ /* #64131 */
+
+
+//TALAVAN.DLG
+//unsolved - 30
+@564129 = ~Castles at War
+
+The master, Talavan, explained the whole thing to me. He is going to attack the other castle after I have stolen some key of a magical door from the other castle's leader. When I have the key and the attack has proceeded, I'm supposed to go into the other castle and slay everybody.~ /* #64129 */
+
+
+//TALMESS.DLG
+//unsolved - 0,1
+@570606 = ~Problems in the Castle
+
+A message was sent from my castle. They have a problem there. I should go and check it out as soon as possible.~ /* #70606 */
+
+
+//TRESHAM1.DLG
+//unsolved - 4
+@569184 = ~Escaped Prisoner
+
+I captured Tresham. I should take him to the city guard captain of Arlax.~ /* #69184 */
+
+
+//ULGARTH.DLG
+//unsolved - 0
+@573242 = ~Wulfgar's Wife
+
+We met a group of barbarians in the Icewind Dale. They had dire news. Wulfgar's wife has been kidnapped. The tracks had led the barbarians near the wife and we immediately set out for a quest to find her.~ /* #73242 */
+
+
+//ULTIMM.DLG
+//unsolved - 17
+@565641 = ~Westchar in troubles
+
+I found "the Ultima Master". Surprisingly I was able to convinse him to leave. The peace has now been restored to the village. I think I should go and tell Hedan what happened.~ /* #65641 */
+
+
+//ZEMIR.DLG
+//unsolved - 24
+@571675 = ~Assassinations
+
+I have met a thief called Zemir in the sewers of Arlax. I agreed to become his assassin and he gave me my first job. I am to go to the docks of Athkatla at night and kill a woman named Galan.~ /* #71675 */
+//unsolved - 28
+@571676 = ~Assassinations
+
+I killed Galan and got my second target. His name is Laron and he can be found selling goods at the Waukeen's Promenade in Athkatla.~ /* #71676 */
+//unsolved - 33
+@571677 = ~Assassinations
+
+I killed Laron and got my final job. I am supposed to kill the high mage Regean of Arlax. He can be found from the mage high council building.~ /* #71677 */
+//solved - 29
+@571680 = ~Assassinations
+
+I killed Galan but said I won't continue this murdering. Zemir attacked me.~ /* #71680 */
+//solved - 40
+@571678 = ~Assassinations
+
+I killed Regean and completed my assassination missions.~ /* #71678 */
+//solved - 43
+@571681 = ~Assassinations
+
+I killed Laron but said that I won't continue this murdering. Zemir attacked me.~ /* #71681 */
+
+
+//*********************************************************************************************************************
+//*********************************************************************************************************************
+//Missed Journal entries from scripts (??)
+@573244 = ~Wulfgar's Wife
+
+We killed the monsters who were running the place. Apparently they had enslaved the spirits of the monks who used to live in the monastery. Anyway, we found Wulfgar's wife, but she was dead. He doesn't want to give up and we are trying to find something to revive her in the temple.~
+
+//morand1.baf
+@563001 = ~Help Morandin
+
+I agreed to help a mage called Morandin by killing some creature from his father's grave under his house. I haven't got any idea what will be facing me there. As for reward I have the permission to keep anything I find from the grave.~
+
+
+//*********************************************************************************************************************
+//*********************************************************************************************************************
+//Journal entries from scripts
+@573245 = ~Wulfgar's Wife
+
+Our search was not in vain. We found somekind of a resurrection circle and revived Delly. Wulfgar took her immediately back to Bremen.~
+
+//ra5601.baf - unsolved
+@573243 = ~Wulfgar's Wife
+
+More has been found out. We are on the grounds of a monastery. Monsters have taken over the place and somekind of a ghost opened the main doors for me.~
+//ra5611.baf - solved
+@572917 = ~Weapons missing
+
+We got the weapons back.~
+
+//rr3303.baf - unsolved
+@575059 = ~The lost Gragha
+
+While speaking with the Gragha King it was mentioned that there might be a few Graghas still alive in the other city. I should try to look for them.~
+@575061 = ~The lost Gragha  I found three Gragha alive. They started making their way back to the city.~
+//solved
+@575062 = ~The lost Gragha
+
+The lost Gragha returned safely.~
+
+//rr3100.baf - solved
+@576184 = ~A ghost
+
+I found Henrick and took him to meet the ghost. It became apparent that she had been his lover and had loved him too much to let go. Henrick also loved her more than his own life. They left. Love overcame death.~
+
+//ra5412.baf - solved
+@573332 = ~Dragons' Sanctuary
+
+I found the area. Maybe I should explore it a little.~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

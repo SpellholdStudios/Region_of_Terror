@@ -1,0 +1,68 @@
+BEGIN ~MYSHDW04~
+
+IF ~Global("TheGame","RA4006",1)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 DO ~SetGlobal("LiarShdwE","RA4006",1)~ GOTO 3
+  IF ~~ THEN REPLY @3 GOTO 4
+  IF ~~ THEN REPLY @4 GOTO 5
+  IF ~~ THEN REPLY @5 GOTO 6
+  IF ~~ THEN REPLY @6 GOTO 7
+  IF ~~ THEN REPLY @7 EXIT
+END
+
+IF ~~ THEN BEGIN 1 // from: 6.0 5.0 3.0 0.0
+  SAY @8
+  IF ~~ THEN REPLY @9 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0
+  SAY @10
+  IF ~Global("LiarShdwE","RA4006",1)~ THEN DO ~SetGlobal("LiarShdw3","RA4006",1)
+SetGlobal("LiarShdw5","RA4006",1)~ EXIT
+  IF ~!Global("LiarShdwE","RA4006",1)~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 3 // from: 6.1 5.1 4.0 0.1
+  SAY @11
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @3 GOTO 4
+  IF ~~ THEN REPLY @4 GOTO 5
+  IF ~~ THEN REPLY @5 GOTO 6
+  IF ~~ THEN REPLY @6 GOTO 7
+  IF ~~ THEN REPLY @12 EXIT
+END
+
+IF ~~ THEN BEGIN 4 // from: 6.2 5.2 3.1 0.2
+  SAY @13
+  IF ~~ THEN REPLY @2 DO ~SetGlobal("LiarShdwE","RA4006",1)~ GOTO 3
+  IF ~~ THEN REPLY @4 GOTO 5
+  IF ~~ THEN REPLY @5 GOTO 6
+  IF ~~ THEN REPLY @6 GOTO 7
+  IF ~~ THEN REPLY @12 EXIT
+END
+
+IF ~~ THEN BEGIN 5 // from: 6.3 4.1 3.2 0.3
+  SAY @14
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 DO ~SetGlobal("LiarShdwE","RA4006",1)~ GOTO 3
+  IF ~~ THEN REPLY @3 GOTO 4
+  IF ~~ THEN REPLY @5 GOTO 6
+  IF ~~ THEN REPLY @6 GOTO 7
+  IF ~~ THEN REPLY @12 EXIT
+END
+
+IF ~~ THEN BEGIN 6 // from: 5.3 4.2 3.3 0.4
+  SAY @13
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 DO ~SetGlobal("LiarShdwE","RA4006",1)~ GOTO 3
+  IF ~~ THEN REPLY @3 GOTO 4
+  IF ~~ THEN REPLY @4 GOTO 5
+  IF ~~ THEN REPLY @6 GOTO 7
+  IF ~~ THEN REPLY @12 EXIT
+END
+
+IF ~~ THEN BEGIN 7 // from: 6.4 5.4 4.3 3.4 0.5
+  SAY @15
+  IF ~~ THEN DO ~SetGlobal("BattlShdw3","RA4006",1)~ EXIT
+END

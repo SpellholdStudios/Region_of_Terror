@@ -1,0 +1,17 @@
+IF
+	!Global("FinalBattleofitemp","GLOBAL",8)
+	Clicked([ANYONE])
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@573210)
+END
+
+IF
+	Global("FinalBattleofitemp","GLOBAL",8)
+	Clicked([ANYONE])
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@573216)
+END
+
+

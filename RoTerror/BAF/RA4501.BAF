@@ -1,0 +1,20 @@
+IF
+	Global("Esathquest","GLOBAL",6)
+	Global("Creaesath","ra4501",0)
+THEN
+	RESPONSE #100
+		CreateCreature("Esath3",[184.250],13) // Esath
+		SmallWait(1)
+		SetGlobal("Creaesath","ra4501",1)
+END
+
+IF
+	Global("Frmrkill","GLOBAL",2)
+	Global("killallhere","RA4501",0)
+THEN
+	RESPONSE #100
+		ActionOverride("EsathW",Kill(Myself))
+		SetGlobal("killallhere","RA4501",1)
+END
+
+

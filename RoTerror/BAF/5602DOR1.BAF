@@ -1,0 +1,14 @@
+IF
+	Opened([ANYONE])
+	Global("Attackfrom3","RA5602",0)
+THEN
+	RESPONSE #100
+		ActionOverride("MonksS18",DisplayStringHead(Myself,@573071))
+		OpenDoor("DOOR10")
+		Wait(1)
+		ActionOverride("MonksS18",EscapeArea())
+		AddexperienceParty(2500)
+		SetGlobal("Attackfrom3","RA5602",1)
+END
+
+

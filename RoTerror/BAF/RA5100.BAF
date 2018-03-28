@@ -1,0 +1,194 @@
+IF
+	!Global("AlissaSpawn","RA5100",1)
+	Global("AlissaJoinedOnce","GLOBAL",0)
+	XPLT(Player1,1850000)
+THEN
+	RESPONSE #100
+		ActionOverride("Alissa1",DestroySelf())
+		CreateCreature("Alissa8",[858.977],2) // Alissa
+		SetGlobal("AlissaSpawn","RA5100",1)
+END
+
+IF
+	!Global("AlissaSpawn","RA5100",2)
+	Global("AlissaJoinedOnce","GLOBAL",0)
+	XPGT(Player1,1849999)
+	XPLT(Player1,2250000)
+THEN
+	RESPONSE #100
+		ActionOverride("Alissa1",DestroySelf())
+		CreateCreature("Alissa10",[858.977],2) // Alissa
+		SetGlobal("AlissaSpawn","RA5100",2)
+END
+
+IF
+	!Global("AlissaSpawn","RA5100",3)
+	Global("AlissaJoinedOnce","GLOBAL",0)
+	XPGT(Player1,2249999)
+	XPLT(Player1,2700000)
+THEN
+	RESPONSE #100
+		ActionOverride("Alissa1",DestroySelf())
+		CreateCreature("Alissa12",[858.977],2) // Alissa
+		SetGlobal("AlissaSpawn","RA5100",3)
+END
+
+IF
+	!Global("AlissaSpawn","RA5100",4)
+	Global("AlissaJoinedOnce","GLOBAL",0)
+	XPGT(Player1,2699999)
+THEN
+	RESPONSE #100
+		ActionOverride("Alissa1",DestroySelf())
+		CreateCreature("Alissa14",[858.977],2) // Alissa
+		SetGlobal("AlissaSpawn","RA5100",4)
+END
+
+IF
+	Global("Drizztiwdornot","GLOBAL",9)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		MultiPlayerSync()
+		EndCutSceneMode()
+		TextScreen("SCRTXT09")
+		SmallWait(1)
+		StartCutSceneMode()
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("Drizztiwdornot","GLOBAL",10)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("EGald2",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("Drizztiwdornot","GLOBAL",11)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("EgMage1",DestroySelf())
+		ActionOverride("EgMage2",DestroySelf())
+		Wait(1)
+		IncrementGlobal("BardPlot1","GLOBAL",-80)
+		IncrementGlobal("JosterReturn","GLOBAL",-80)
+		IncrementGlobal("NotifyThiefHead","GLOBAL",-80)
+		IncrementGlobal("KeepPlot","GLOBAL",-80)
+		IncrementGlobal("KPRunnerSpawn","GLOBAL",-80)
+		IncrementGlobal("NatulaSpawn","GLOBAL",-80)
+		IncrementGlobal("DruidADSpawn","GLOBAL",-80)
+		IncrementGlobal("DruidStronghold","GLOBAL",-80)
+		SetGlobal("Drizztiwdornot","GLOBAL",12)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("AR0020","",[654.531],10))
+		ActionOverride(Player2,LeaveAreaLUA("AR0020","",[698.565],10))
+		ActionOverride(Player3,LeaveAreaLUA("AR0020","",[626.563],10))
+		ActionOverride(Player4,LeaveAreaLUA("AR0020","",[670.597],10))
+		ActionOverride(Player5,LeaveAreaLUA("AR0020","",[606.607],10))
+		ActionOverride(Player6,LeaveAreaLUA("AR0020","",[644.635],10))
+END
+
+IF
+	Global("Changepeodialogs","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Convincethem","GLOBAL",SEVEN_DAYS)
+		SetGlobal("Changepeodialogs","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("Convincethem","GLOBAL")
+	OR(2)
+		Global("Convincethepeople","GLOBAL",1)
+		Global("Convincethepeople","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Convincethepeople","GLOBAL",3)
+END
+
+IF
+	Global("Theboy","RA5100",2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(3)
+		ActionOverride("BreVil7",MoveToPoint([612.473]))
+		Wait(7)
+		SetGlobal("Theboy","RA5100",3)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("BreFi10",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("Caravanquest","GLOBAL",0)
+	Global("Openthegate","RA5100",1)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Caravanquest1","GLOBAL",THREE_DAYS)
+		SetGlobal("Caravanquest","GLOBAL",1)
+END
+
+IF
+	GlobalTimerExpired("Caravanquest1","GLOBAL")
+	Global("Caravanquest","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreature("QuintiP2",[1616.387],8) // Quintin Pinewood
+		SetGlobal("Caravanquest","GLOBAL",2)
+END
+
+IF
+	Global("Doorlockings","RA5100",0)
+	TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,CloseDoor("AR1100_Door4"))
+		ActionOverride(Player1,Lock("AR1100_Door4"))
+		SetGlobal("Doorlockings","RA5100",1)
+END
+
+IF
+	Global("Doorlockings","RA5100",1)
+	OR(3)
+		TimeOfDay(DAY)
+		TimeOfDay(DUSK)
+		TimeOfDay(MORNING)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,Unlock("AR1100_Door4"))
+		ActionOverride(Player1,OpenDoor("AR1100_Door4"))
+		SetGlobal("Doorlockings","RA5100",0)
+END
+
+IF
+	Global("jkasdflk","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("jkasdflk","GLOBAL",0)
+END
+
+
+IF
+	PartyRested()
+	//AreaCheck("RA5100")
+THEN
+	RESPONSE #100
+		ApplyDamage(Player2,50,COLD)
+		ApplyDamage(Player3,50,COLD)
+		ApplyDamage(Player4,50,COLD)
+		ApplyDamage(Player5,50,COLD)
+		ApplyDamage(Player6,50,COLD)
+		ApplyDamage(Myself,50,COLD)
+		Wait(1)
+		DisplayStringHead(Myself,@573848) // Icecold wind blows from the lake, chilling your bones. It is not wise to sleep outside.
+END

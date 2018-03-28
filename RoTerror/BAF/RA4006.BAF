@@ -1,0 +1,164 @@
+IF
+	Global("BattlShdw1","RA4006",1)
+THEN
+	RESPONSE #100
+		CreateCreature("Maril",[3130.1969],13) // Marilith
+		CreateCreature("Maril",[3142.1951],13) // Marilith
+		SetGlobal("BattlShdw1","RA4006",2)
+END
+
+IF
+	Global("BattlShdw2","RA4006",1)
+THEN
+	RESPONSE #100
+		CreateCreature("Abishai1",[3130.1969],13) // Abishai
+		CreateCreature("Abishai1",[3142.1951],13) // Abishai
+		SetGlobal("BattlShdw2","RA4006",2)
+END
+
+IF
+	Global("BattlShdw3","RA4006",1)
+THEN
+	RESPONSE #100
+		CreateCreature("GolSaph3",[3130.1969],13) // Sapphire Golem
+		SetGlobal("BattlShdw3","RA4006",2)
+END
+
+IF
+	Global("BattlShdw4","RA4006",1)
+THEN
+	RESPONSE #100
+		CreateCreature("IceSal2",[3130.1969],13) // Great Ice Salamander
+		CreateCreature("IceSal2",[3142.1951],13) // Great Ice Salamander
+		CreateCreature("IceSal2",[3135.1969],13) // Great Ice Salamander
+		CreateCreature("IceSal2",[3147.1951],13) // Great Ice Salamander
+		SetGlobal("BattlShdw4","RA4006",2)
+END
+
+IF
+	Global("BattlShdw5","RA4006",1)
+THEN
+	RESPONSE #100
+		CreateCreature("Cambion",[3130.1969],13) // Cornugon
+		CreateCreature("Cambion",[3142.1951],13) // Cornugon
+		SetGlobal("BattlShdw5","RA4006",2)
+END
+
+IF
+	Global("BattlShdw6","RA4006",1)
+THEN
+	RESPONSE #100
+		CreateCreature("FireSal2",[3130.1969],13) // Great Fire Salamander
+		CreateCreature("FireSal2",[3142.1951],13) // Great Fire Salamander
+		CreateCreature("FireSal2",[3135.1969],13) // Great Fire Salamander
+		CreateCreature("FireSal2",[3147.1951],13) // Great Fire Salamander
+		SetGlobal("BattlShdw6","RA4006",2)
+END
+
+IF
+	Global("TheBattle","RA4006",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,JumpToPoint([816.1226]))
+		ActionOverride(Player2,JumpToPoint([817.1226]))
+		ActionOverride(Player3,JumpToPoint([818.1226]))
+		ActionOverride(Player4,JumpToPoint([816.1227]))
+		ActionOverride(Player5,JumpToPoint([816.1228]))
+		ActionOverride(Player6,JumpToPoint([816.1229]))
+		Wait(2)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("TheBattle","RA4006",2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("TheBattle2","RA4006",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,JumpToPoint([1561.530]))
+		ActionOverride(Player2,JumpToPoint([1562.530]))
+		ActionOverride(Player3,JumpToPoint([1563.530]))
+		ActionOverride(Player4,JumpToPoint([1561.529]))
+		ActionOverride(Player5,JumpToPoint([1561.528]))
+		ActionOverride(Player6,JumpToPoint([1561.531]))
+		Wait(2)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("TheBattle2","RA4006",2)
+		SetGlobal("TheBattle","RA4006",2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("TheBattle","RA4006",2)
+	Dead("Gholim") // Gholim
+THEN
+	RESPONSE #100
+		ActionOverride("MyShdw08",Unlock("RA4006_Door1"))
+		ActionOverride("MyShdw08",OpenDoor("RA4006_Door1"))
+		ActionOverride("MyShdw09",Unlock("RA4006_Door2"))
+		ActionOverride("MyShdw09",OpenDoor("RA4006_Door2"))
+		SetGlobal("TheBattle","RA4006",3)
+END
+
+IF
+	Global("GholimBattle","RA4006",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		Wait(1)
+		MoveViewObject(Player1,INSTANT)
+		SmallWait(5)
+		CreateVisualEffectObject("SPSUMMON",Player1)
+		Wait(5)
+		CreateCreatureObject("GholSke1",Player1,0,0,0) // Gholim's Skeleton
+		SmallWait(5)
+		MoveViewObject(Player2,INSTANT)
+		SmallWait(5)
+		CreateVisualEffectObject("SPSUMMON",Player2)
+		Wait(5)
+		CreateCreatureObject("GholSke1",Player2,0,0,0) // Gholim's Skeleton
+		SmallWait(5)
+		MoveViewObject(Player3,INSTANT)
+		SmallWait(5)
+		CreateVisualEffectObject("SPSUMMON",Player3)
+		Wait(5)
+		CreateCreatureObject("GholSke1",Player3,0,0,0) // Gholim's Skeleton
+		SmallWait(5)
+		MoveViewObject(Player4,INSTANT)
+		SmallWait(5)
+		CreateVisualEffectObject("SPSUMMON",Player4)
+		Wait(5)
+		CreateCreatureObject("GholSke1",Player4,0,0,0) // Gholim's Skeleton
+		SmallWait(5)
+		MoveViewObject(Player5,INSTANT)
+		SmallWait(5)
+		CreateVisualEffectObject("SPSUMMON",Player5)
+		Wait(5)
+		CreateCreatureObject("GholSke1",Player5,0,0,0) // Gholim's Skeleton
+		SmallWait(5)
+		MoveViewObject(Player6,INSTANT)
+		SmallWait(5)
+		CreateVisualEffectObject("SPSUMMON",Player6)
+		Wait(5)
+		CreateCreatureObject("GholSke1",Player6,0,0,0) // Gholim's Skeleton
+		Wait(1)
+		SetGlobal("GholimBattle","RA4006",2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

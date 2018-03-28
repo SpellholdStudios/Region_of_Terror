@@ -1,0 +1,10 @@
+IF
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("EnemyScript","LOCALS",0)
+THEN
+	RESPONSE #100
+		Enemy()
+		SetGlobal("EnemyScript","LOCALS",1)
+END
+
+

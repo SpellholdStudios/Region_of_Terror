@@ -1,0 +1,16 @@
+IF
+	Global("Olmtlks","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("Olmtlks","GLOBAL",2)
+THEN
+	RESPONSE #100
+		MoveToObjectFollow(Player1)
+		SetGlobal("Olmtlks","GLOBAL",3)
+END
+
+

@@ -1,0 +1,27 @@
+IF
+        True()
+//	Global("DllsDed","LOCALS",0)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Olmar5",DestroySelf())
+		SmallWait(1)
+		LeaveAreaLUA("RR3454","",[2060.3178],6)
+		ActionOverride(Player2,LeaveAreaLUA("RR3454","",[2110.3181],6))
+		ActionOverride(Player3,LeaveAreaLUA("RR3454","",[2047.3205],6))
+		ActionOverride(Player4,LeaveAreaLUA("RR3454","",[2125.3191],6))
+		ActionOverride(Player5,LeaveAreaLUA("RR3454","",[2080.3230],6))
+		ActionOverride(Player6,LeaveAreaLUA("RR3454","",[2159.3233],6))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("Olmsidthebat","GLOBAL",15)
+		SetGlobal("DllsDed","LOCALS",1)
+		SetGlobal("Olmtlks","GLOBAL",1)
+END
+
+

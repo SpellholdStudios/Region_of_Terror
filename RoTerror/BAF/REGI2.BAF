@@ -1,0 +1,63 @@
+IF
+	HPLT(Myself,300)
+	Global("ReDrinPots","LOCALS",0)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		SmallWait(3)
+		UseItem("StoPot","Regi2") // Potion of Stoneskin
+		UseItem("POTN09","Regi2") // Potion of Heroism
+		SetGlobal("ReDrinPots","LOCALS",1)
+END
+
+IF
+	HPLT(Myself,120)
+	Global("RegDrinksPots","LOCALS",0)
+THEN
+	RESPONSE #100
+		SmallWait(3)
+		UseItem("POTN42","Regi2") // Potion of Regeneration 
+		SetGlobal("RegDrinksPots","LOCALS",1)
+END
+
+IF
+	HPLT(Myself,70)
+	Global("RegDrinksPots","LOCALS",1)
+THEN
+	RESPONSE #100
+		SmallWait(3)
+		UseItem("POTN52","Regi2") // Potion of Extra Healing
+		SetGlobal("RegDrinksPots","LOCALS",2)
+END
+
+IF
+	HPLT(Myself,30)
+	Global("RegDrinksPots","LOCALS",2)
+THEN
+	RESPONSE #100
+		SmallWait(3)
+		UseItem("POTN52","Regi2") // Potion of Extra Healing
+		SetGlobal("RegDrinksPots","LOCALS",3)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),4)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		SmallWait(1)
+		Attack(NearestEnemyOf(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),4)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		SmallWait(1)
+		Attack(NearestEnemyOf(Myself))
+END
+
+

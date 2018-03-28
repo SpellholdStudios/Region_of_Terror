@@ -1,0 +1,26 @@
+IF
+	Clicked([ANYONE])
+	Global("CQuestActive","GLOBAL",12)
+THEN
+	RESPONSE #100
+		ActionOverride("CadPri15",MoveBetweenAreas("RA3710",[1723.607],2))
+END
+
+IF
+	Range("Edwin",30)
+	Range("CadPri15",30)
+	!Dead("Edwin")
+	!Dead("CadPri15") // Brother Lucas
+	Global("Speaking1","RA3708",0)
+	Delay(5)
+THEN
+	RESPONSE #100
+		ActionOverride("Edwin",DisplayStringHead(Myself,@571180))
+		Wait(5)
+		ActionOverride("CadPri15",DisplayStringHead(Myself,@571181))
+		Wait(4)
+		ActionOverride("Edwin",DisplayStringHead(Myself,@571182))
+		SetGlobal("Speaking1","RA3708",1)
+END
+
+

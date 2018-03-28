@@ -1,0 +1,49 @@
+IF
+	Global("DlgWmar","GLOBAL",0)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+	See("Driz2")
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("DlgWmar","GLOBAL",2)
+	!Global("Movtss","GLOBAL",1)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		Wait(2)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("DlgWmar","GLOBAL",5)
+	!Global("Movtbl","GLOBAL",1)
+	!Global("Movtbl","GLOBAL",2)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		Wait(4)
+		StartDialogueNoSet(Player1)
+END
+
+

@@ -1,0 +1,25 @@
+IF
+	Global("ArenaRews","GLOBAL",24)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@567644)
+		Wait(2)
+		GiveItemCreate("FiChamp",Player1,0,0,0) // The Scroll of the Champion
+		GiveItemCreate("ArBrac",Player1,0,0,0) // Bracers of Defense AC 2
+		GiveItemCreate("KingAmul",Player1,0,0,0) // Amulet of the King
+		GiveItemCreate("Ringofup",Player1,0,0,0) // Ring of Ultimate Protection
+		GiveItemCreate("Katofpow",Player1,0,0,0) // Katana of Power
+		SetGlobal("ArenaRews","GLOBAL",25)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702)
+END
+
+

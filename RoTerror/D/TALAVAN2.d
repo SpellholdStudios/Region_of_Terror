@@ -1,0 +1,14 @@
+BEGIN ~TALAVAN2~
+
+IF ~Global("Tlwhat","RR3406",1)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 GOTO 1
+  IF ~~ THEN REPLY @3 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @4
+  IF ~~ THEN DO ~SetGlobal("Tlwhat","RR3406",2)
+Enemy()~ EXIT
+END

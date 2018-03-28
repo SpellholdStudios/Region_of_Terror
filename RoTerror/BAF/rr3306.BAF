@@ -1,0 +1,65 @@
+IF
+	!Global("Brue2Spawn","RR3304",1)
+	Global("Brue2JoinedOnce","GLOBAL",0)
+	XPLT(Player1,1250000)
+THEN
+	RESPONSE #100
+		ActionOverride("Brue2",DestroySelf())
+		CreateCreature("Brue2",[3267.582],2) // Bruenor
+		SetGlobal("Brue2Spawn","RR3304",1)
+END
+
+IF
+	!Global("Brue2Spawn","RR3304",2)
+	Global("Brue2JoinedOnce","GLOBAL",0)
+	XPGT(Player1,1249999)
+	XPLT(Player1,1750000)
+THEN
+	RESPONSE #100
+		ActionOverride("Brue2",DestroySelf())
+		CreateCreature("Brue21",[3267.582],2) // Bruenor
+		SetGlobal("Brue2Spawn","RR3304",2)
+END
+
+IF
+	!Global("Brue2Spawn","RR3304",3)
+	Global("Brue2JoinedOnce","GLOBAL",0)
+	XPGT(Player1,1749999)
+	XPLT(Player1,2250000)
+THEN
+	RESPONSE #100
+		ActionOverride("Brue2",DestroySelf())
+		CreateCreature("Brue22",[3267.582],2) // Bruenor
+		SetGlobal("Brue2Spawn","RR3304",3)
+END
+
+IF
+	!Global("Brue2Spawn","RR3304",4)
+	Global("Brue2JoinedOnce","GLOBAL",0)
+	XPGT(Player1,2249999)
+THEN
+	RESPONSE #100
+		ActionOverride("Brue2",DestroySelf())
+		CreateCreature("Brue23",[3267.582],2) // Bruenor
+		SetGlobal("Brue2Spawn","RR3304",4)
+END
+
+IF
+	Global("Getouta","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Getouta","GLOBAL",2)
+		ActionOverride("GraghaM4",EscapeAreaMove("RR3303",2140,620,12))
+		ActionOverride("GraghaM5",EscapeAreaMove("RR3303",2124,657,12))
+		ActionOverride("GraghaF3",EscapeAreaMove("RR3303",2100,697,12))
+END
+
+IF
+	Global("Fndlst","GLOBAL",1)
+THEN
+	RESPONSE #100
+		AddJournalEntry(75061,QUEST)
+		SetGlobal("Fndlst","GLOBAL",2)
+END
+
+

@@ -1,0 +1,133 @@
+BEGIN ~RYONN~
+
+IF ~Global("RyTlk1","GLOBAL",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 GOTO 1
+  IF ~~ THEN REPLY @3 GOTO 9
+  IF ~~ THEN REPLY @4 GOTO 10
+END
+
+IF ~~ THEN BEGIN 1 // from: 19.0 9.0 0.1 0.0
+  SAY @5
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0
+  SAY @6
+  IF ~~ THEN REPLY @7 GOTO 3
+  IF ~~ THEN REPLY @8 GOTO 17
+  IF ~~ THEN REPLY @9 GOTO 18
+END
+
+IF ~~ THEN BEGIN 3 // from: 20.0 17.0 2.0
+  SAY @10
+  IF ~~ THEN GOTO 4
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.0
+  SAY @11
+  IF ~~ THEN GOTO 5
+END
+
+IF ~~ THEN BEGIN 5 // from: 4.0
+  SAY @12
+  IF ~~ THEN GOTO 6
+END
+
+IF ~~ THEN BEGIN 6 // from: 5.0
+  SAY @13
+  IF ~~ THEN GOTO 7
+END
+
+IF ~~ THEN BEGIN 7 // from: 6.0
+  SAY @14
+  IF ~~ THEN GOTO 8
+END
+
+IF ~~ THEN BEGIN 8 // from: 7.0
+  SAY @15
+  IF ~~ THEN GOTO 11
+END
+
+IF ~~ THEN BEGIN 9 // from: 0.2
+  SAY @16
+  IF ~~ THEN REPLY @17 GOTO 1
+  IF ~~ THEN REPLY @18 GOTO 10
+END
+
+IF ~~ THEN BEGIN 10 // from: 9.1 0.3
+  SAY @19
+  IF ~~ THEN DO ~SetGlobal("RyTlk1","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 11 // from: 8.0
+  SAY @20
+  IF ~~ THEN REPLY @21 GOTO 12
+  IF ~~ THEN REPLY @22 GOTO 15
+  IF ~~ THEN REPLY @23 GOTO 16
+END
+
+IF ~~ THEN BEGIN 12 // from: 11.0
+  SAY @24
+  IF ~~ THEN REPLY @25 GOTO 14
+  IF ~~ THEN REPLY @26 GOTO 13
+  IF ~~ THEN REPLY @27 GOTO 16
+  IF ~~ THEN REPLY @28 GOTO 16
+END
+
+IF ~~ THEN BEGIN 13 // from: 12.1
+  SAY @29
+  IF ~~ THEN REPLY @25 GOTO 14
+  IF ~~ THEN REPLY @30 GOTO 16
+  IF ~~ THEN REPLY @28 GOTO 16
+END
+
+IF ~~ THEN BEGIN 14 // from: 15.0 13.0 12.0
+  SAY @31
+  IF ~~ THEN DO ~RevealAreaOnMap("RR3300")
+SetGlobal("RyTlk1","GLOBAL",3)
+SetGlobal("Alknepro","GLOBAL",1)
+EscapeAreaMove("RR3300",3700,1175,0)~ UNSOLVED_JOURNAL @565535 EXIT
+END
+
+IF ~~ THEN BEGIN 15 // from: 11.1
+  SAY @32
+  IF ~~ THEN REPLY @25 GOTO 14
+  IF ~~ THEN REPLY @30 GOTO 16
+  IF ~~ THEN REPLY @28 GOTO 16
+END
+
+IF ~~ THEN BEGIN 16 // from: 15.2 15.1 13.2 13.1 12.3 12.2 11.2
+  SAY @33
+  IF ~~ THEN DO ~SetGlobal("Iknabwc","GLOBAL",1)
+RevealAreaOnMap("RR3300")
+EscapeArea()~ UNSOLVED_JOURNAL @565529 EXIT
+END
+
+IF ~~ THEN BEGIN 17 // from: 2.1
+  SAY @34
+  IF ~~ THEN GOTO 3
+END
+
+IF ~~ THEN BEGIN 18 // from: 2.2
+  SAY @35
+  IF ~~ THEN DO ~SetGlobal("RyTlk1","GLOBAL",2)~ EXIT
+END
+
+IF ~Global("RyTlk1","GLOBAL",1)~ THEN BEGIN 19
+  SAY @36
+  IF ~~ THEN REPLY @37 GOTO 1
+  IF ~~ THEN REPLY @38 EXIT
+END
+
+IF ~Global("RyTlk1","GLOBAL",2)~ THEN BEGIN 20
+  SAY @39
+  IF ~~ THEN REPLY @40 GOTO 3
+  IF ~~ THEN REPLY @41 EXIT
+END
+
+IF ~Global("RyTlk1","GLOBAL",3)~ THEN BEGIN 21
+  SAY @42
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

@@ -1,0 +1,21 @@
+IF
+	GlobalGT("Eleanquest","GLOBAL",7)
+	!GlobalTimerExpired("EleMerch","GLOBAL")
+	Global("dfhdfsh","RR3115",0)
+THEN
+	RESPONSE #100
+		CreateCreature("Eleana2",[780.411],2) // Eleana
+		SetGlobal("dfhdfsh","RR3115",1)
+END
+
+IF
+	GlobalTimerExpired("EleMerch","GLOBAL")
+	!Global("djjkfdajkf","GLOBAL",1)
+	Global("lakdsljdk","RR3115",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Eleana2",DestroySelf())
+		SetGlobal("lakdsljdk","RR3115",1)
+END
+
+

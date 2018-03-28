@@ -1,0 +1,14 @@
+IF
+	Global("Trigger3","RA5416",0)
+	OR(2)
+		Entered([ANYONE])
+		Range([ANYONE],2)
+THEN
+	RESPONSE #100
+		CreateCreature("Hook5",[2134.1911],13)
+		CreateCreature("Hook5",[2144.1911],13)
+		CreateCreature("Hook5",[2134.1901],13)
+		SetGlobal("Trigger3","RA5416",1)
+END
+
+

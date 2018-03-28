@@ -1,0 +1,10 @@
+IF
+	AttackedBy([ANYONE],DEFAULT)
+	Global("Creation","RA5410",0)
+THEN
+	RESPONSE #100
+		DestroySelf()
+		SetGlobal("Creation","RA5410",1)
+END
+
+

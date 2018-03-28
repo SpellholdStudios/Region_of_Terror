@@ -1,0 +1,14 @@
+IF
+	Global("Trigger2","RA5416",0)
+	OR(2)
+		Entered([ANYONE])
+		Range([ANYONE],2)
+THEN
+	RESPONSE #100
+		CreateCreature("IceGl3",[2470.1925],9)
+		CreateCreature("IceGl3",[2475.1925],9)
+		CreateCreature("IceGl3",[2475.1930],9)
+		SetGlobal("Trigger2","RA5416",1)
+END
+
+

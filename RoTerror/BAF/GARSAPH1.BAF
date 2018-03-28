@@ -1,0 +1,18 @@
+IF
+	Range(NearestEnemyOf(Myself),15)
+	Delay(15)
+THEN
+	RESPONSE #20
+		ForceSpell(Myself,WIZARD_ICE_STORM)
+	RESPONSE #80
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_CONE_OF_COLD)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),5)
+END
+
+

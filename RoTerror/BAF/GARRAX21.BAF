@@ -1,0 +1,25 @@
+IF
+	HPLT(Myself,10)
+	Global("Polymorphs","RA5004",0)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		Wait(1)
+		MoveViewObject("Garrax2",INSTANT)
+		Wait(1)
+		DisplayStringHead(Myself,@570449)
+		Wait(4)
+		DestroyItem("MINHP1")
+		CreateVisualEffectObject("SPPLANAR",Myself)
+		Wait(2)
+		DestroyAllEquipment()
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("Polymorphs","RA5004",1)
+		Kill("Garrax2")
+		Continue()
+END
+
+

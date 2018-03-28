@@ -1,0 +1,9 @@
+IF
+	Clicked([ANYONE])
+	Global("Brothertimeriwd","GLOBAL",7)
+THEN
+	RESPONSE #100
+		ActionOverride("BreTor1",MoveBetweenAreas("RA5401",[3221.2771],8))
+END
+
+

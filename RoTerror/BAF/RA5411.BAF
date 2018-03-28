@@ -1,0 +1,9 @@
+IF
+	Global("Trigger","RA5411",1)
+	Delay(40)
+THEN
+	RESPONSE #100
+		SetGlobal("Trigger","RA5411",0)
+END
+
+

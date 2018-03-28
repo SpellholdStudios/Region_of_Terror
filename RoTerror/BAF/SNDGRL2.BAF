@@ -1,0 +1,109 @@
+IF
+	Global("Screenshakes","RR3410",1)
+	!Global("Battlesontalsid","GLOBAL",12)
+	!Global("Battlesontalsid","GLOBAL",13)
+	!Global("Battlesontalsid","GLOBAL",14)
+	Delay(2)
+THEN
+	RESPONSE #100
+		SetGlobal("Screenshakes","RR3410",2)
+	RESPONSE #100
+		SetGlobal("Screenshakes","RR3410",3)
+	RESPONSE #100
+		SetGlobal("Screenshakes","RR3410",4)
+	RESPONSE #100
+		SetGlobal("Screenshakes","RR3410",5)
+END
+
+IF
+	Global("Screenshakes","RR3410",2)
+	!Global("Battlesontalsid","GLOBAL",12)
+	!Global("Battlesontalsid","GLOBAL",13)
+	!Global("Battlesontalsid","GLOBAL",14)
+	Delay(10)
+THEN
+	RESPONSE #100
+		ScreenShake([1059.997],10)
+		ScreenShake([1651.687],10)
+		PlaySound("Blow2")
+		SetGlobal("Screenshakes","RR3410",1)
+		Continue()
+	RESPONSE #100
+		ScreenShake([1059.997],15)
+		ScreenShake([1651.687],15)
+		PlaySound("Blow3")
+		SetGlobal("Screenshakes","RR3410",1)
+		Continue()
+END
+
+IF
+	Global("Screenshakes","RR3410",3)
+	!Global("Battlesontalsid","GLOBAL",12)
+	!Global("Battlesontalsid","GLOBAL",13)
+	!Global("Battlesontalsid","GLOBAL",14)
+	Delay(20)
+THEN
+	RESPONSE #100
+		ScreenShake([1059.997],5)
+		ScreenShake([1651.687],5)
+		PlaySound("Blow1")
+		SetGlobal("Screenshakes","RR3410",1)
+		Continue()
+	RESPONSE #100
+		ScreenShake([1059.997],20)
+		ScreenShake([1651.687],20)
+		PlaySound("Blow4")
+		Wait(2)
+		PlaySound("Blow4")
+		SetGlobal("Screenshakes","RR3410",1)
+		Continue()
+END
+
+IF
+	Global("Screenshakes","RR3410",4)
+	!Global("Battlesontalsid","GLOBAL",12)
+	!Global("Battlesontalsid","GLOBAL",13)
+	!Global("Battlesontalsid","GLOBAL",14)
+	Delay(30)
+THEN
+	RESPONSE #100
+		ScreenShake([1059.997],15)
+		ScreenShake([1651.687],15)
+		PlaySound("Blow3")
+		SetGlobal("Screenshakes","RR3410",1)
+		Continue()
+	RESPONSE #100
+		ScreenShake([1059.997],25)
+		ScreenShake([1651.687],25)
+		PlaySound("Blow5")
+		Wait(1)
+		PlaySound("Blow5")
+		Wait(2)
+		PlaySound("Blow5")
+		SetGlobal("Screenshakes","RR3410",1)
+		Continue()
+END
+
+IF
+	Global("Screenshakes","RR3410",5)
+	!Global("Battlesontalsid","GLOBAL",12)
+	!Global("Battlesontalsid","GLOBAL",13)
+	!Global("Battlesontalsid","GLOBAL",14)
+	Delay(40)
+THEN
+	RESPONSE #100
+		ScreenShake([1059.997],10)
+		ScreenShake([1651.687],10)
+		PlaySound("Blow2")
+		SetGlobal("Screenshakes","RR3410",1)
+	RESPONSE #100
+		ScreenShake([1059.997],20)
+		ScreenShake([1651.687],20)
+		PlaySound("Blow4")
+		Wait(1)
+		PlaySound("Blow4")
+		SetGlobal("Screenshakes","RR3410",1)
+		Continue()
+END
+
+

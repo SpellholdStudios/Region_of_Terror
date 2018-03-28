@@ -1,0 +1,749 @@
+
+
+
+
+ADD_KIT ~Holy_Swordsman~
+~Holy_Swordsman          1           1           1           1           1           1           1           1~
+~Holy_Swordsman 5  4  2  2  2  2  2  2  4  4  4  2  5  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  5  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2 ~
+~Holy_Swordsman          12      0       9       0       13      17~
+~Holy_Swordsman          0       2       0       0       0       0~
+~Holy_Swordsman          17      0       0       0       0       17~
+~Holy_Swordsman          15      0       0       0       0       15~
+~Holy_Swordsman          1       0       0       0       0       0       0       0       0~
+~Holy_Swordsman          0       0       0       0       0       0~
+~RoTerror/kits/CLABPAHo.2DA~
+~ K_P_HO  K_P_HL  K_P_HE  K_P_E  K_P_G  K_P_D  K_P_H ~
+~0x00003000 6~
+~Pa0~
+~CHAN09 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 * SW2H02~
+
+SAY @1629
+SAY @1630
+SAY @1631
+
+
+COPY ~RoTerror/kits/SPCL355.SPL~  ~override~    //disable priest spellcasting and buttons
+
+
+/**************************************************************************/
+ADD_KIT ~Lancer~
+~Lancer                  1           1           1           1           1           1           1           1~
+~Lancer 4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  5  4  4  4  5  4  4  4  4  4  5  5  5  5  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4 ~
+~Lancer                  9       0       0       0       0       0~
+~Lancer                  0       0       0       0       0       0~
+~Lancer                  17      0       0       0       0       0~
+~Lancer                  15      0       0       0       0       0~
+~Lancer                  1       1       1       1       1       1       1       1       1~
+~Lancer                  0       1       1       1       1       0~
+~RoTerror/kits/CLABFILa.2DA~
+~ K_F_HO  K_F_HL  K_F_HE  K_F_E  K_F_G  K_F_D  K_F_H ~
+~0x00005000 2~
+~Fi0~
+~ CHAN09  *  HELM07  BAG21  *  *  *  *  *  *  *  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  SPER06 ~
+
+SAY @1632
+SAY @1633
+SAY @1634
+
+
+COPY ~RoTerror/kits/SPCL224.SPL~   ~override~    //creates LASPE1
+     ~RoTerror/kits/SPCL225.SPL~   ~override~    //creates LASPE2
+     ~RoTerror/kits/SPCL226.SPL~   ~override~    //creates LASPE3
+     ~RoTerror/kits/SPCL227.SPL~   ~override~    //creates LASPE4
+     ~RoTerror/kits/SPCL228.SPL~   ~override~    //creates LASPE5
+     ~RoTerror/kits/SPCL229.SPL~   ~override~    //creates LASPE6
+
+COPY ~RoTerror/kits/LASPE1.itm~    ~override~
+  SAY NAME2 @1635 
+  SAY DESC @1636
+
+COPY ~RoTerror/kits/LASPE2.itm~    ~override~
+  SAY NAME2 @1637
+  SAY DESC @1638
+
+COPY ~RoTerror/kits/LASPE3.itm~    ~override~
+  SAY NAME2 @1639
+  SAY DESC @1640
+
+COPY ~RoTerror/kits/LASPE4.itm~    ~override~
+  SAY NAME2 @1641
+  SAY DESC @1642
+
+COPY ~RoTerror/kits/LASPE5.itm~    ~override~
+  SAY NAME2 @1643
+  SAY DESC @1644
+
+COPY ~RoTerror/kits/LASPE6.itm~    ~override~
+  SAY NAME2 @1645
+  SAY DESC @1646
+
+
+/**************************************************************************/
+ADD_KIT ~Shadow_Walker~
+~Shadow_Walker           1           1           1           1           1           0           0           0~
+~Shadow_Walker 0  3  0  0  1  0  0  1  0  3  3  0  0  3  3  3  0  1  0  0  0  0  1  1  0  1  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~Shadow_Walker           0       9       0       0       0       0~
+~Shadow_Walker           0       0       0       0       0       0~
+~Shadow_Walker           0       17      0       0       0       0~
+~Shadow_Walker           0       15      0       0       0       0~
+~Shadow_Walker           1       1       1       1       1       1       1       1       1~
+~Shadow_Walker           1       1       1       0       1       1~
+~RoTerror/kits/CLABTHSh.2DA~
+~ K_T_HO  K_T_HL  K_T_HE  K_T_E  K_T_G  K_T_D  K_T_H ~
+~0x00006000 4~
+~Th0~
+~ LEAT14  *  *  BAG28  RING06  RING05,10  *  BOOT02  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  DAGG04 ~
+
+SAY @1647
+SAY @1648
+SAY @1649
+
+
+COPY ~RoTerror/kits/SPCL334.SPL~         ~override~       //+5 bonuses
+
+
+/**************************************************************************/
+ADD_KIT ~ElementWarrior~
+~ElementWarrior          1           1           1           1           1           1           1           1~
+~ElementWarrior 5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  2  2  2  3  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5 ~
+~ElementWarrior          9       0       0       0       0       0 ~
+~ElementWarrior         -2      -2      -2      -2      -2      -2 ~
+~ElementWarrior          14      0       0       0       0       0 ~
+~ElementWarrior          14      0       0       0       0       0 ~
+~ElementWarrior          1       1       1       1       1       1       1       1       1~
+~ElementWarrior          0       1       1       1       1       0~
+~RoTerror/kits/CLABFIEl.2DA~
+~ K_F_HO  K_F_HL  K_F_HE  K_F_E  K_F_G  K_F_D  K_F_H ~
+~0x00007000 2~
+~Fi0~
+~ CHAN09  *  HELM07  BAG21  *  *  *  *  *  *  *  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  *  SW1H27 ~
+
+SAY @1650
+SAY @1651
+SAY @1652
+
+
+COPY ~RoTerror/kits/SPCL333.SPL~         ~override~  //bonuses
+
+
+/**************************************************************************/
+ADD_KIT ~WoodProtect~
+~WoodProtect             1           1           1           1           1           1           1           1~
+~WoodProtect 2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  3  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2 ~
+~WoodProtect             13      13      14      0       14      0~
+~WoodProtect            -2      -4       0       0       0       2~
+~WoodProtect             14      12      0       0       17      0~
+~WoodProtect             12      10      0       0       15      0~
+~WoodProtect             1       0       0       1       0       0       1       0       0~
+~WoodProtect             0       1       0       0       0       0~
+~RoTerror/kits/CLABRAWo.2DA~
+~ K_R_HO  K_R_HL  K_R_HE  K_R_E  K_R_G  K_R_D  K_R_H ~
+~0x00009000 12~
+~Ra0~
+~ LEAT14  *  HELM07  BAG25  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  BOW18  XBOW09  STAF08 ~
+
+SAY @1653
+SAY @1654
+SAY @1655
+
+
+COPY ~RoTerror/kits/SPIN128.SPL~         ~override~   //summon animals
+     ~RoTerror/kits/SPIN129.SPL~         ~override~
+     ~RoTerror/kits/SPIN130.SPL~         ~override~
+     ~RoTerror/kits/SPIN131.SPL~         ~override~
+
+
+/**************************************************************************/
+ADD_KIT ~Singer~
+~Singer                  1           0           1           0           0           1           0           0~
+~Singer 0  1  0  0  1  0  0  0  0  0  1  0  0  1  1  1  0  1  0  0  1  1  0  0  0  0  0  0  2  2  2  2  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1 ~
+~Singer                  0       12      0       13      0       15~
+~Singer                  0       0       0       0       0       0~
+~Singer                  0       17      0       0       0       17~
+~Singer                  0       15      0       0       0       15~
+~Singer                  1       1       1       1       1       1       1       1       1~
+~Singer                  0       0       0       0       0       0~
+~RoTerror/kits/CLABBASi.2DA~
+~ K_B_HO  K_B_HL  K_B_HE  K_B_E  K_B_G  K_B_D  K_B_H ~
+~0x00000030 5~
+~Ba0~
+~ LEATH14  *  *  BAG30  RING06  RING34  CLCK02  BOOT01  AMUL19  BRAC16  BELT10  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  STAF08 ~
+
+SAY @1656
+SAY @1657
+SAY @1658
+
+COPY ~RoTerror/kits/SPCL544.SPL~         ~override~
+     ~RoTerror/kits/SPCL545.SPL~         ~override~
+     ~RoTerror/kits/SPCL546.SPL~         ~override~
+     ~RoTerror/kits/SPCL547.SPL~         ~override~
+     ~RoTerror/kits/SPCL548.SPL~         ~override~
+     ~RoTerror/kits/SPCL549.SPL~         ~override~
+     ~RoTerror/kits/SPCL550.SPL~         ~override~
+     ~RoTerror/kits/SPCL551.SPL~         ~override~
+     ~RoTerror/kits/SPCL552.SPL~         ~override~
+     ~RoTerror/kits/SPCL553.SPL~         ~override~
+     ~RoTerror/kits/SPCL554.SPL~         ~override~
+     ~RoTerror/kits/SPCL543.SPL~         ~override~
+     ~RoTerror/kits/SPCL543A.SPL~        ~override~
+     ~RoTerror/kits/SPCL543B.SPL~        ~override~
+     ~RoTerror/kits/SPCL543C.SPL~        ~override~
+     ~RoTerror/kits/SPCL543D.SPL~        ~override~
+     ~RoTerror/kits/SPCL543E.SPL~        ~override~
+     ~RoTerror/kits/SPCL543F.SPL~        ~override~
+     ~RoTerror/kits/SPCL543G.SPL~        ~override~
+     ~RoTerror/kits/SPCL543H.SPL~        ~override~
+     ~RoTerror/kits/SPCL543I.SPL~        ~override~
+     ~RoTerror/kits/SPCL543J.SPL~        ~override~
+
+/**************************************************************************/
+ADD_KIT ~Auril~
+~Auril                   0           0           1           1           0           1           0           0~
+~Auril 0  0  0  0  1  1  0  1  0  0  0  0  0  0  0  0  1  1  0  0  1  1  1  0  0  0  0  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~Auril                   0       0       13      0       12      0~
+~Auril                   0       0       0       0       0       0~
+~Auril                   0       0       13      0       12      0~
+~Auril                   0       0       11      0       10      0~
+~Auril                   1       0       0       1       0       0       1       0       0~
+~Auril                   1       0       1       1       0       1~
+~RoTerror/kits/CLABCLAu.2DA~
+~ K_C_HO  K_C_HL  K_C_HE  K_C_E  K_C_G  K_C_D  K_C_H ~
+~0x00000050 3~
+~Cl0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+
+SAY @1659
+SAY @1660
+SAY @1661
+
+COPY ~RoTerror/kits/SPCL352.SPL~         ~override~  //bonuses
+
+COPY ~RoTerror/kits/SPCL353.SPL~         ~override~
+  SAY NAME1 @1662
+
+COPY ~RoTerror/kits/SPCL354.SPL~         ~override~
+  SAY NAME1 @1663
+
+
+/**************************************************************************/
+ADD_KIT ~Deneir~
+~Deneir                  0           0           1           1           0           1           0           0~
+~Deneir 0  0  0  0  1  1  0  1  0  0  0  0  0  0  0  0  1  1  0  0  1  1  1  0  0  0  0  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~Deneir                  0       0       0       15      15      0~
+~Deneir                  0       0       0       0       0       0~
+~Deneir                  0       0       0       15      15      0~
+~Deneir                  0       0       0       13      13      0~
+~Deneir                  0       1       0       0       1       0       0       1       0~
+~Deneir                  1       0       1       1       0       1~
+~RoTerror/kits/CLABCLDe.2DA~
+~ K_C_HO  K_C_HL  K_C_HE  K_C_E  K_C_G  K_C_D  K_C_H ~
+~0x00000060 3~
+~Cl0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+
+SAY @1664
+SAY @1665
+SAY @1666
+
+COPY ~RoTerror/kits/SPCL335.SPL~         ~override~     //bonuses
+
+COPY ~RoTerror/kits/SPCL336.SPL~         ~override~
+  SAY NAME1 @1667 
+
+COPY ~RoTerror/kits/SPCL337.SPL~         ~override~
+  SAY NAME1 @1668 
+
+COPY ~RoTerror/kits/SPCL338.SPL~         ~override~
+  SAY NAME1 @1669 
+
+
+/**************************************************************************/
+ADD_KIT ~Loviatar~
+~Loviatar                0           0           1           1           0           1           0           0~
+~Loviatar 0  0  0  0  1  1  0  1  0  0  0  0  0  0  0  0  1  1  0  0  1  1  1  0  0  0  0  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~Loviatar                0       0       15      0       15      0~
+~Loviatar                0       0       0       0       0       0~
+~Loviatar                0       0       15      0       15      0~
+~Loviatar                0       0       13      0       13      0~
+~Loviatar                0       0       1       0       0       1       0       0       1~
+~Loviatar                1       0       1       1       0       1~
+~RoTerror/kits/CLABCLLo.2DA~
+~ K_C_HO  K_C_HL  K_C_HE  K_C_E  K_C_G  K_C_D  K_C_H ~
+~0x00000070 3~
+~Cl0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+
+SAY @1670
+SAY @1671
+SAY @1672
+
+COPY ~RoTerror/kits/SPCL339.SPL~         ~override~
+  SAY NAME1 @1673 
+
+
+/**************************************************************************/
+ADD_KIT ~Doombringer~
+~Doombringer             1           1           1           1           1           1           1           1~
+~Doombringer 5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5 ~
+~Doombringer             9       0       0       0       0       0~
+~Doombringer             0       0       0       0       0       0~
+~Doombringer             17      0       0       0       0       0~
+~Doombringer             13      0       0       0       0       0~
+~Doombringer             1       1       1       1       1       1       1       1       1~
+~Doombringer             0       1       1       1       1       0~
+~RoTerror/kits/CLABFIDo.2DA~
+~ K_F_HO  K_F_HL  K_F_HE  K_F_E  K_F_G  K_F_D  K_F_H ~
+~0x00000090 2~
+~Fi0~
+~ CHAN09  *  HELM07  BAG21  *  *  *  *  *  *  *  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  *  SW1H27 ~
+
+SAY @1674
+SAY @1675
+SAY @1676
+
+
+COPY ~RoTerror/kits/SPCL155.SPL~         ~override~
+     ~RoTerror/kits/SPCL160.SPL~         ~override~
+     ~RoTerror/kits/SPCL161.SPL~         ~override~
+     ~RoTerror/kits/SPCL162.SPL~         ~override~
+
+COPY ~RoTerror/kits/SPCL156.SPL~         ~override~
+     ~RoTerror/kits/SPCL157.SPL~         ~override~
+     ~RoTerror/kits/SPCL158.SPL~         ~override~
+     ~RoTerror/kits/SPCL159.SPL~         ~override~
+  SAY NAME1 @1677
+
+
+/**************************************************************************/
+ADD_KIT ~Samurai~
+~Samurai                 1           1           1           1           1           1           1           1~
+~Samurai 4  4  2  2  2  2  2  2  4  4  4  2  4  5  5  2  2  2  2  2  2  2  2  2  2  2  2  2  4  4  5  5  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2 ~
+~Samurai                 13      13      14      0       14      0~
+~Samurai                 0       0       0       0       0       0~
+~Samurai                 17      17      0       0       17      0~
+~Samurai                 15      15      0       0       15      0~
+~Samurai                 1       0       0       1       0       0       1       0       0~
+~Samurai                 0       1       0       0       0       0~
+~RoTerror/kits/CLABRASa.2DA~
+~ K_R_HO  K_R_HL  K_R_HE  K_R_E  K_R_G  K_R_D  K_R_H ~
+~0x00000300 12~
+~Ra0~
+~ LEAT14  *  HELM07  BAG25  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  BOW18  XBOW09  STAF08 ~
+
+SAY @1678
+SAY @1679
+SAY @1680
+
+/**************************************************************************/
+ADD_KIT ~Trail_Tracker~
+~Trail_Tracker           1           1           1           1           1           1           1           1~
+~Trail_Tracker 2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  3  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2 ~
+~Trail_Tracker           13      13      14      0       14      0~
+~Trail_Tracker           0       0       0       0       0       0~
+~Trail_Tracker           17      17      0       0       17      0~
+~Trail_Tracker           15      15      0       0       15      0~
+~Trail_Tracker           1       1       1       1       1       1       1       1       1~
+~Trail_Tracker           0       1       0       0       0       0~
+~RoTerror/kits/CLABRATr.2DA~
+~ K_R_HO  K_R_HL  K_R_HE  K_R_E  K_R_G  K_R_D  K_R_H ~
+~0x00000500 12~
+~Ra0~
+~ LEAT14  *  HELM07  BAG25  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  BOW18  XBOW09  STAF08 ~
+
+SAY @1681
+SAY @1682
+SAY @1683
+
+
+COPY ~RoTerror/kits/SPCL356.SPL~         ~override~
+     ~RoTerror/kits/SPCL357.SPL~         ~override~
+
+COPY ~RoTerror/kits/SPCL359.SPL~         ~override~
+  SAY NAME1 @1684
+
+
+/**************************************************************************/
+ADD_KIT ~Silent_Hunter~
+~Silent_Hunter           1           1           1           1           1           0           0           0~
+~Silent_Hunter 0  1  0  0  1  0  0  1  0  1  1  0  0  1  1  5  0  1  0  0  0  0  1  1  0  1  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~Silent_Hunter           0       7       0       0       0       0~
+~Silent_Hunter          -2       0      -2       0       0       0~
+~Silent_Hunter           0       15      0       0       0       0~
+~Silent_Hunter           0       13      0       0       0       0~
+~Silent_Hunter           0       1       1       1       1       1       1       1       1~
+~Silent_Hunter           1       1       1       0       1       1~
+~RoTerror/kits/CLABTHSi.2DA~
+~ K_T_HO  K_T_HL  K_T_HE  K_T_E  K_T_G  K_T_D  K_T_H ~
+~0x00000600 4~
+~Th0~
+~ LEAT14  *  *  BAG28  RING06  RING05,10  *  BOOT02  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  DAGG04 ~
+
+SAY @1685
+SAY @1686
+SAY @1687
+
+
+COPY ~RoTerror/kits/SPCL360.SPL~         ~override~
+     ~RoTerror/kits/SPCL361.SPL~         ~override~
+
+
+/**************************************************************************/
+ADD_KIT ~Snare_Master~
+~Snare_Master            1           1           1           1           1           0           0           0~
+~Snare_Master 0  1  0  0  1  0  0  1  0  1  1  0  0  1  1  1  0  1  0  0  0  0  1  0  0  0  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~Snare_Master            0       9       0       0       0       0~
+~Snare_Master            0       0       0       0       0       0~
+~Snare_Master            0       17      0       0       0       0~
+~Snare_Master            0       15      0       0       0       0~
+~Snare_Master            1       1       1       1       1       1       1       1       1~
+~Snare_Master            1       1       1       0       1       1~
+~RoTerror/kits/CLABTHSn.2DA~
+~ K_T_HO  K_T_HL  K_T_HE  K_T_E  K_T_G  K_T_D  K_T_H ~
+~0x00000700 4~
+~Th0~
+~ LEAT14  *  *  BAG28  RING06  RING05,10  *  BOOT02  AMUL19  BRAC16  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  DAGG04 ~
+
+SAY @1688
+SAY @1689
+SAY @1690
+
+
+COPY ~RoTerror/kits/SPCL362.SPL~         ~override~
+  SAY NAME1 @1691
+
+COPY ~RoTerror/kits/SPCL364.SPL~         ~override~
+  SAY NAME1 @1692
+
+COPY ~RoTerror/kits/SPCL366.SPL~         ~override~
+  SAY NAME1 @1693
+
+COPY ~RoTerror/kits/SPCL368.SPL~         ~override~
+     ~RoTerror/kits/SPCL363.SPL~         ~override~
+     ~RoTerror/kits/SPCL365.SPL~         ~override~
+     ~RoTerror/kits/SPCL367.SPL~         ~override~
+
+
+/**************************************************************************/
+ADD_KIT ~Harpist~
+~Harpist                 1           1           1           1           1           1           1           1~
+~Harpist 1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1 ~
+~Harpist                 0       10      0       11      0       13~
+~Harpist                -2      -2      -2      -2      -2      -2~
+~Harpist                 0       15      0       0       0       15~
+~Harpist                 0       13      0       0       0       13~
+~Harpist                 0       1       0       1       1       1       0       1       0~
+~Harpist                 0       0       0       0       0       0~
+~RoTerror/kits/CLABBAHa.2DA~
+~ K_B_HO  K_B_HL  K_B_HE  K_B_E  K_B_G  K_B_D  K_B_H ~
+~0x00000900 5~
+~Ba0~
+~ LEATH14  *  *  BAG30  RING06  RING34  CLCK02  BOOT01  AMUL19  BRAC16  BELT10  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  STAF08 ~
+
+SAY @1694
+SAY @1695
+SAY @1696
+
+
+COPY ~RoTerror/kits/SPCL369.SPL~         ~override~
+     ~RoTerror/kits/SPCL370.SPL~         ~override~
+     ~RoTerror/kits/SPCL371.SPL~         ~override~
+     ~RoTerror/kits/SPCL372.SPL~         ~override~
+     ~RoTerror/kits/SPCL373.SPL~         ~override~
+
+COPY ~RoTerror/kits/HARP1.itm~     ~override~
+  SAY NAME2 @1697 
+  SAY DESC @1698
+
+COPY ~RoTerror/kits/HARP2.itm~     ~override~
+  SAY NAME2 @1699
+  SAY DESC @1700
+
+COPY ~RoTerror/kits/HARP3.itm~     ~override~
+  SAY NAME2 @1701 
+  SAY DESC @1702
+
+COPY ~RoTerror/kits/HARP4.itm~     ~override~
+  SAY NAME2 @1703 
+  SAY DESC @1704
+
+COPY ~RoTerror/kits/HARP5.itm~     ~override~
+  SAY NAME2 @1705 
+  SAY DESC @1706
+
+
+/**************************************************************************/
+ADD_KIT ~Drifter~
+~Drifter                 1           1           1           1           1           1           1           1~
+~Drifter 2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2 ~
+~Drifter                 0       12      0       13      0       15~
+~Drifter                 0       2       2       0       0       0~
+~Drifter                 0       17      0       0       0       17~
+~Drifter                 0       15      0       0       0       15~
+~Drifter                 0       1       0       1       1       1       0       1       0~
+~Drifter                 0       0       0       0       0       0~
+~RoTerror/kits/CLABBADr.2DA~
+~ K_B_HO  K_B_HL  K_B_HE  K_B_E  K_B_G  K_B_D  K_B_H ~
+~0x00030000 5~
+~Ba0~
+~ LEATH14  *  *  BAG30  RING06  RING34  CLCK02  BOOT01  AMUL19  BRAC16  BELT10  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  DAGG12  SW1H28  STAF08 ~
+
+SAY @1707
+SAY @1708
+SAY @1709
+
+
+COPY ~RoTerror/kits/SPCL374.SPL~         ~override~
+     ~RoTerror/kits/SPCL375.SPL~         ~override~
+
+
+/**************************************************************************/
+ADD_KIT ~Knight~
+~Knight                  1           1           1           1           1           1           1           1~
+~Knight 2  2  0  2  2  2  2  0  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  0  0  0  0  0  2  2  2  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~Knight                  12      0       9       0       13      17~
+~Knight                  0       0       0       0       0       0~
+~Knight                  17      0       0       0       0       17~
+~Knight                  15      0       0       0       0       15~
+~Knight                  1       0       0       1       0       0       1       0       0~
+~Knight                  0       0       0       0       0       0~
+~RoTerror/kits/CLABPAKn.2DA~
+~ K_P_HO  K_P_HL  K_P_HE  K_P_E  K_P_G  K_P_D  K_P_H ~
+~0x00050000 6~
+~Pa0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+
+SAY @1710
+SAY @1711
+SAY @1712
+
+
+COPY ~RoTerror/kits/SPCL376.SPL~         ~override~
+
+/**************************************************************************/
+ADD_KIT ~Dark_Paladin~
+~Dark_Paladin            1           1           1           1           1           1           1           1~
+~Dark_Paladin 2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2 ~
+~Dark_Paladin            12      0       9       0       13      17~
+~Dark_Paladin            0       0       0       0       0       0~
+~Dark_Paladin            17      0       0       0       0       17~
+~Dark_Paladin            15      0       0       0       0       15~
+~Dark_Paladin            0       0       1       0       0       1       0       0       1~
+~Dark_Paladin            0       0       0       0       0       0~
+~RoTerror/kits/CLABPADa.2DA~
+~ K_P_HO  K_P_HL  K_P_HE  K_P_E  K_P_G  K_P_D  K_P_H ~
+~0x00500000 6~
+~Pa0~
+~ CHAN09  *  HELM07  BAG26  RING06  RING31  *  BOOT01  AMUL20  BRAC10  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+
+SAY @1713
+SAY @1714
+SAY @1715
+
+
+COPY ~RoTerror/kits/SPCL377.SPL~         ~override~
+
+COPY ~RoTerror/kits/SPCL378.SPL~         ~override~
+  SAY NAME1 @1716
+
+COPY ~RoTerror/kits/SPCL378.EFF~         ~override~
+
+/**************************************************************************/
+ADD_KIT ~Planar_Druid~
+~Planar_Druid            1           0           1           1           0           0           0           1~
+~Planar_Druid 0  0  0  0  1  1  0  1  0  0  0  0  0  0  1  1  0  1  1  0  0  0  1  0  0  0  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~Planar_Druid            0       0       0       0       12      15~
+~Planar_Druid            0      -4       0      -4       0       0~
+~Planar_Druid            0       0       0       0       17      17~
+~Planar_Druid            0       0       0       0       15      15~
+~Planar_Druid            0       0       0       0       1       0       0       0       0~
+~Planar_Druid            1       0       0       0       0       0~
+~RoTerror/kits/CLABDRPl.2DA~
+~ K_D_HO  K_D_HL  K_D_HE  K_D_E  K_D_G  K_D_D  K_D_H ~
+~0x00600000 11~
+~Dr0~
+~ LEAT20  *  HELM19  BAG27  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC14  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+
+SAY @1717
+SAY @1718
+SAY @1719
+
+
+COPY ~RoTerror/kits/SPCL379.SPL~         ~override~
+
+COPY ~RoTerror/kits/SPCL380.SPL~         ~override~
+  SAY NAME1 @1720
+
+
+/**************************************************************************/
+ADD_KIT ~Wisher~
+~Wisher                  1           0           1           1           0           0           0           1~
+~Wisher 0  0  0  0  1  1  0  1  0  0  0  0  0  0  1  1  0  1  1  0  0  0  1  0  0  0  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~Wisher                  0       0       0       0       12      15~
+~Wisher                  0       0       0       2       0       0~
+~Wisher                  0       0       0       0       17      17~
+~Wisher                  0       0       0       0       15      15~
+~Wisher                  0       0       0       0       1       0       0       0       0~
+~Wisher                  1       0       0       0       0       0~
+~RoTerror/kits/CLABDRWi.2DA~
+~ K_D_HO  K_D_HL  K_D_HE  K_D_E  K_D_G  K_D_D  K_D_H ~
+~0x00700000 11~
+~Dr0~
+~ LEAT20  *  HELM19  BAG27  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC14  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+
+SAY @1721
+SAY @1722
+SAY @1723
+
+COPY ~RoTerror/kits/SPCL381.SPL~         ~override~
+
+COPY ~RoTerror/kits/SPCL382.SPL~         ~override~
+  SAY NAME1 @1724
+
+/**************************************************************************/
+ADD_KIT ~Aerial_Druid~
+~Aerial_Druid            1           0           1           1           0           0           0           1~
+~Aerial_Druid 0  0  0  0  1  1  0  1  0  0  0  0  0  0  1  1  0  1  1  0  0  0  1  0  0  0  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~Aerial_Druid            0       0       0       0       12      15~
+~Aerial_Druid            0       0       0       0       0       0~
+~Aerial_Druid            0       0       0       0       17      17~
+~Aerial_Druid            0       0       0       0       15      15~
+~Aerial_Druid            0       0       0       0       1       0       0       0       0~
+~Aerial_Druid            1       0       0       0       0       0~
+~RoTerror/kits/CLABDRAe.2DA~
+~ K_D_HO  K_D_HL  K_D_HE  K_D_E  K_D_G  K_D_D  K_D_H ~
+~0x00300000 11~
+~Dr0~
+~ LEAT20  *  HELM19  BAG27  RING06  RING31  CLCK02  BOOT01  AMUL19  BRAC14  BELT06  AROW11,40  BULL03,40  BOLT06,40  POTN52,5  POTN04,2  POTN14,5  HAMM07  SW1H27  STAF08 ~
+
+SAY @1725
+SAY @1726
+SAY @1727
+
+
+COPY ~RoTerror/kits/SPCL383.SPL~         ~override~
+  SAY NAME1 @1728
+
+COPY ~RoTerror/kits/SPCL384.SPL~         ~override~
+  SAY NAME1 @1729
+
+COPY ~RoTerror/kits/SPCL385.SPL~         ~override~
+  SAY NAME1 @1730
+
+/**************************************************************************/
+
+
+COPY ~RoTerror/kits/ALISEXT.cre~   ~override~     //with extra kit spells
+     ~RoTerror/kits/ALISSA8.cre~   ~override~
+     ~RoTerror/kits/ALISSA10.cre~  ~override~
+     ~RoTerror/kits/ALISSA12.cre~  ~override~
+     ~RoTerror/kits/ALISSA14.cre~  ~override~
+   SET bm_idx=0xffffffff
+   INNER_ACTION BEGIN
+      COPY_EXISTING - ~KITLIST.2DA~  ~override~
+        COUNT_2DA_ROWS 9 "rows_cnt"
+        FOR( cnt=0; cnt<"%rows_cnt%"; cnt=cnt+1 ) BEGIN
+          READ_2DA_ENTRY cnt 1 9 "kit_name"
+          PATCH_IF( ("%kit_name%" STRING_COMPARE_CASE "Deneir")=0 ) BEGIN
+            SET bm_idx = cnt
+          END
+        END
+   END
+   PATCH_IF( bm_idx>=0 ) BEGIN
+     WRITE_LONG 0x244 ((0x4000 | bm_idx) * 0x10000)
+   END
+  SAY NAME1 @118
+  SAY NAME2 @118
+  SAY 0xa8 @119  
+  SAY 0xac @120 
+  SAY 0xb0 @121 
+  SAY 0xb4 @122  
+  SAY 0xb8 @123  
+  SAY 0xbc @124  
+  SAY 0xc0 @125  
+  SAY 0xc4 @126 
+  SAY 0xc8 @127  
+  SAY 0xcc @128  
+  SAY 0xd0 @129  
+  SAY 0xec @130 
+  SAY 0xf0 @131  
+  SAY 0xf4 @132  
+  SAY 0xf8 @133  
+  SAY 0xfc @134  
+  SAY 0x100 @135  
+  SAY 0x104 @136 
+  SAY 0x108 @137  
+  SAY 0x10c @138 
+  SAY 0x110 @139  
+  SAY 0x114 @140  
+  SAY 0x118 @141  
+  SAY 0x11c @142  
+  SAY 0x120 @143 
+  SAY 0x124 @144  
+  SAY 0x128 @145  
+  SAY 0x12c @146  
+  SAY 0x130 @147  
+  SAY 0x134 @148 
+  SAY 0x138 @149  
+  SAY 0x13c @150  
+  SAY 0x1a8 @151  
+  SAY 0x1ac @152  
+  SAY 0x1b0 @153  
+  SAY 0x1b4 @154 
+  SAY 0x1c0 @155  
+  SAY 0x1cc @156
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY ~RoTerror/kits/MORDRG1.cre~   ~override~     //with extra kit spells
+     ~RoTerror/kits/MORDRG2.cre~   ~override~
+     ~RoTerror/kits/MORDRG3.cre~   ~override~
+     ~RoTerror/kits/MORDRG4.cre~   ~override~
+   SET bm_idx=0xffffffff
+   INNER_ACTION BEGIN
+      COPY_EXISTING - ~KITLIST.2DA~  ~override~
+        COUNT_2DA_ROWS 9 "rows_cnt"
+        FOR( cnt=0; cnt<"%rows_cnt%"; cnt=cnt+1 ) BEGIN
+          READ_2DA_ENTRY cnt 1 9 "kit_name"
+          PATCH_IF( ("%kit_name%" STRING_COMPARE_CASE "Dark_Paladin")=0 ) BEGIN
+            SET bm_idx = cnt
+          END
+        END
+   END
+   PATCH_IF( bm_idx>=0 ) BEGIN
+     WRITE_LONG 0x244 ((0x4000 | bm_idx) * 0x10000)
+   END
+  SAY NAME1 @642 
+  SAY NAME2 @642 
+  SAY 0xac @643 
+  SAY 0xb0 @644 
+  SAY 0xb4 @645  
+  SAY 0xb8 @646 
+  SAY 0xbc @647  
+  SAY 0xc8 @648  
+  SAY 0xcc @649  
+  SAY 0xd0 @650 
+  SAY 0xec @651
+  SAY 0xf0 @652
+  SAY 0xf4 @653
+  SAY 0xfc @654  
+  SAY 0x100 @655 
+  SAY 0x10c @656  
+  SAY 0x110 @657  
+  SAY 0x114 @658 
+  SAY 0x118 @659
+  SAY 0x11c @660
+  SAY 0x120 @661
+  SAY 0x124 @662
+  SAY 0x128 @663
+  SAY 0x12c @664
+  SAY 0x130 @665
+  SAY 0x134 @666
+  SAY 0x138 @667
+  SAY 0x13c @668
+  SAY 0x1a8 @669
+  SAY 0x1ac @670
+  SAY 0x1b0 @671
+  SAY 0x1b4 @672  
+  SAY 0x1c0 @673  
+  SAY 0x1cc @674 
+BUT_ONLY_IF_IT_CHANGES

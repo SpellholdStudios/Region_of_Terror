@@ -1,0 +1,47 @@
+IF
+	!Global("RandallSpawn","RR3104",1)
+	Global("RandallJoinedOnce","GLOBAL",0)
+	XPLT(Player1,135000)
+THEN
+	RESPONSE #100
+		ActionOverride("Randall",DestroySelf())
+		CreateCreature("Randall1",[558.375],9) // Randall
+		SetGlobal("RandallSpawn","RR3104",1)
+END
+
+IF
+	!Global("RandallSpawn","RR3104",2)
+	Global("RandallJoinedOnce","GLOBAL",0)
+	XPGT(Player1,134999)
+	XPLT(Player1,250000)
+THEN
+	RESPONSE #100
+		ActionOverride("Randall",DestroySelf())
+		CreateCreature("Randall2",[558.375],9) // Randall
+		SetGlobal("RandallSpawn","RR3104",2)
+END
+
+IF
+	!Global("RandallSpawn","RR3104",3)
+	Global("RandallJoinedOnce","GLOBAL",0)
+	XPGT(Player1,249999)
+	XPLT(Player1,750000)
+THEN
+	RESPONSE #100
+		ActionOverride("Randall",DestroySelf())
+		CreateCreature("Randall3",[558.375],9) // Randall
+		SetGlobal("RandallSpawn","RR3104",3)
+END
+
+IF
+	!Global("RandallSpawn","RR3104",4)
+	Global("RandallJoinedOnce","GLOBAL",0)
+	XPGT(Player1,749999)
+THEN
+	RESPONSE #100
+		ActionOverride("Randall",DestroySelf())
+		CreateCreature("Randall4",[558.375],9) // Randall
+		SetGlobal("RandallSpawn","RR3104",4)
+END
+
+

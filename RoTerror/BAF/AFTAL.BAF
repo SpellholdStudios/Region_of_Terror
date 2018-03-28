@@ -1,0 +1,26 @@
+IF
+	True()
+//	Global("Aftali","LOCALS",0)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(1)
+		LeaveAreaLUA("RR3401","",[1021.848],5)
+		ActionOverride(Player2,LeaveAreaLUA("RR3401","",[1070.917],5))
+		ActionOverride(Player3,LeaveAreaLUA("RR3401","",[1097.886],5))
+		ActionOverride(Player4,LeaveAreaLUA("RR3401","",[1135.876],5))
+		ActionOverride(Player5,LeaveAreaLUA("RR3401","",[1083.838],5))
+		ActionOverride(Player6,LeaveAreaLUA("RR3401","",[1008.880],5))
+		Wait(1)
+		ActionOverride("Olmar",DestroySelf())
+		ActionOverride("Ilhan",DestroySelf())
+		CreateCreature("Talavan3",[963.851],13) // Warlord Talavan
+		CreateCreature("Eranda2",[963.688],13) // Eranda
+		Wait(1)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("Aftali","LOCALS",1)
+END
+
+

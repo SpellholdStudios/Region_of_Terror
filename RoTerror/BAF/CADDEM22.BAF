@@ -1,0 +1,40 @@
+IF
+	See("Reg2")
+	!Dead("Reg2") // Regis
+	Global("Speaking2","RA3703",0)
+	Delay(3)
+THEN
+	RESPONSE #100
+		ActionOverride("Reg2",DisplayStringHead(Myself,@571188))
+		SetGlobal("Speaking2","RA3703",1)
+END
+
+IF
+	See("Catt2")
+	!Dead("Catt2") // Catti-Brie
+	Global("Speaking3","RA3703",0)
+	Delay(5)
+THEN
+	RESPONSE #100
+		ActionOverride("Reg2",DisplayStringHead(Myself,@571186))
+		SetGlobal("Speaking3","RA3703",1)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Dennotstrike6","GLOBAL",0)
+	OR(7)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+		See("CadPri15")
+THEN
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",4)
+		SetGlobal("Dennotstrike6","GLOBAL",1)
+END
+
+

@@ -1,0 +1,14 @@
+IF
+	HPLT(Myself,50)
+	Global("Master","LOCALS",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@573261)
+		SmallWait(5)
+		ForceSpell(NearestEnemyOf(Myself),SURE_STONED)
+		SetGlobal("Master","LOCALS",1)
+		SmallWait(5)
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+

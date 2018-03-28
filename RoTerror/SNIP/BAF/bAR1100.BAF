@@ -1,0 +1,19 @@
+IF
+	Global("ResReg","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreature("Alror",[1856.1356],13) // Alora
+		SetGlobal("ResReg","GLOBAL",2)
+END
+
+IF
+	Global("AlorLea","AR1100",1)
+THEN
+	RESPONSE #100
+		ActionOverride("Alror",ForceSpell(Myself,DRYAD_TELEPORT))
+		Wait(2)
+		ActionOverride("Alror",DestroySelf())
+		SetGlobal("AlorLea","AR1100",2)
+END
+
+

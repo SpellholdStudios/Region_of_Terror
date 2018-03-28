@@ -1,0 +1,152 @@
+IF
+	See(Player1)
+	Global("TalktoCa2","GLOBAL",0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+		SetGlobal("TalktoCa2","GLOBAL",1)
+END
+
+IF
+	Global("CadSpe","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_DEFENSIVE_HARMONY)
+		ApplySpell(Myself,CLERIC_RIGHTEOUS_MAGIC)
+		ForceSpell(Myself,CLERIC_STRENGTH_OF_ONE)
+		ForceSpell(Myself,CLERIC_SANCTUARY)
+		ForceSpell(Player1,CLERIC_PROTECTION_FROM_FIRE)
+		Wait(1)
+		MoveToPointNoInterrupt([1540.1230])
+		SetGlobal("CadSpe","GLOBAL",2)
+END
+
+IF
+	Global("CadSpe","GLOBAL",2)
+THEN
+	RESPONSE #100
+		Wait(10)
+		SetGlobal("CadSpe","GLOBAL",3)
+END
+
+IF
+	Global("CadSpe","GLOBAL",3)
+	HPLT(Player1,40)
+THEN
+	RESPONSE #100
+		ForceSpell(Player1,CLERIC_CURE_CRITICAL_WOUNDS)
+END
+
+IF
+	Global("CadSpe","GLOBAL",3)
+	HPLT(Player1,10)
+THEN
+	RESPONSE #100
+		ForceSpell(Player1,CLERIC_HEAL)
+END
+
+IF
+	Global("CadSpe","GLOBAL",3)
+	HPLT(Player2,40)
+THEN
+	RESPONSE #100
+		ForceSpell(Player2,CLERIC_CURE_CRITICAL_WOUNDS)
+END
+
+IF
+	Global("CadSpe","GLOBAL",3)
+	HPLT(Player3,40)
+THEN
+	RESPONSE #100
+		ForceSpell(Player3,CLERIC_CURE_CRITICAL_WOUNDS)
+END
+
+IF
+	Global("CadSpe","GLOBAL",3)
+	HPLT(Player4,40)
+THEN
+	RESPONSE #100
+		ForceSpell(Player4,CLERIC_CURE_CRITICAL_WOUNDS)
+END
+
+IF
+	Global("CadSpe","GLOBAL",3)
+	HPLT(Player5,40)
+THEN
+	RESPONSE #100
+		ForceSpell(Player5,CLERIC_CURE_CRITICAL_WOUNDS)
+END
+
+IF
+	Global("CadSpe","GLOBAL",3)
+	HPLT(Player6,40)
+THEN
+	RESPONSE #100
+		ForceSpell(Player6,CLERIC_CURE_CRITICAL_WOUNDS)
+END
+
+IF
+	HPLT("HepHas",15)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ActionOverride("HepHas",EquipMostDamagingMelee())
+		SmallWait(5)
+		SetGlobal("CadSpe","GLOBAL",4)
+		MoveViewPoint([1540.1230],INSTANT)
+		DisplayStringHead(Myself,@565244)
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("HepHas",DestroySelf())
+		SmallWait(1)
+		ActionOverride(Player1,DestroyItem("DragCap")) // Fangor's Holder
+		ActionOverride(Player2,DestroyItem("DragCap"))
+		ActionOverride(Player3,DestroyItem("DragCap"))
+		ActionOverride(Player4,DestroyItem("DragCap"))
+		ActionOverride(Player5,DestroyItem("DragCap"))
+		ActionOverride(Player6,DestroyItem("DragCap"))
+		SmallWait(1)
+		GiveItemCreate("DragCap2",[PC],0,0,0) // Fangor's Holder
+		Wait(1)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		SmallWait(1)
+		SetGlobal("CaptiHep","RR3801",1)
+END
+
+IF
+	Global("CaptiHep","RR3801",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CaptiHep","RR3801",2)
+		Wait(2)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("CaptiHep","RR3801",4)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SmallWait(1)
+		SetGlobal("Trigoflt","GLOBAL",1)
+		SmallWait(1)
+		SetGlobal("CaptiHep","RR3801",5)
+		ActionOverride(Player1,LeaveAreaLUA("RR3702","",[1379.893],10))
+		ActionOverride(Player2,LeaveAreaLUA("RR3702","",[1301.758],12))
+		ActionOverride(Player3,LeaveAreaLUA("RR3702","",[1578.836],4))
+		ActionOverride(Player4,LeaveAreaLUA("RR3702","",[1412.846],10))
+		ActionOverride(Player5,LeaveAreaLUA("RR3702","",[1386.756],13))
+		ActionOverride(Player6,LeaveAreaLUA("RR3702","",[1521.790],3))
+END
+
+

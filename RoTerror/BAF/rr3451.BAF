@@ -1,0 +1,161 @@
+IF
+	Global("Cutatcas","RR3451",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		SmallWait(1)
+		ActionOverride(Player1,MoveToPoint([1582.635]))
+		ActionOverride(Player2,MoveToPoint([1313.736]))
+		ActionOverride(Player3,MoveToPoint([1313.736]))
+		ActionOverride(Player4,MoveToPoint([1313.736]))
+		ActionOverride(Player5,MoveToPoint([1313.736]))
+		ActionOverride(Player6,MoveToPoint([1313.736]))
+		ActionOverride("Melan",MoveToPoint([1533.598]))
+		Wait(2)
+		FadeToColor([20.0],0)
+		Wait(2)
+		MoveViewPoint([1528.635],INSTANT)
+		ActionOverride(Player1,LeaveAreaLUA("RR3451","",[1582.635],8))
+		ActionOverride(Player2,LeaveAreaLUA("RR3451","",[1313.736],10))
+		ActionOverride(Player3,LeaveAreaLUA("RR3451","",[1313.736],10))
+		ActionOverride(Player4,LeaveAreaLUA("RR3451","",[1313.736],10))
+		ActionOverride(Player5,LeaveAreaLUA("RR3451","",[1313.736],10))
+		ActionOverride(Player6,LeaveAreaLUA("RR3451","",[1313.736],10))
+		ActionOverride("Melan",LeaveAreaLUA("RR3451","",[1533.598],10))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		ActionOverride("Melan",FaceObject("Alenna"))
+		ActionOverride(Player1,FaceObject("Alenna"))
+		Wait(1)
+		SetGlobal("Afcudlg","RR3451",1)
+		SmallWait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("Cutatcas","RR3451",2)
+		SmallWait(1)
+		ActionOverride("Alenna",StartDialog("Alenna",[PC]))
+END
+
+IF
+	Global("Thecudlg","RR3451",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		CreateVisualEffect("SPDIMNDR",[1663.587])
+		Wait(3)
+		SetGlobal("Thecudlg","RR3451",2)
+		ActionOverride("Melan",MoveToPoint([1647.614]))
+		Wait(2)
+		ActionOverride("Melan",FaceObject(Player1))
+		SetGlobal("AcutMel","RR3451",1)
+		SmallWait(2)
+		ActionOverride("Melan",StartDialog("Melan",[PC]))
+		Wait(1)
+		ActionOverride("Melan",MoveToPoint([750.1200]))
+		Wait(8)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("LiedOlm1","RR3451",1)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		EndCutSceneMode()
+		RestParty()
+		SmallWait(1)
+		SetGlobal("LiedOlm1","RR3451",2)
+		StartCutSceneMode()
+		StartCutScene("TalSid")
+//		Continue()
+END
+
+IF
+	Global("TruthOlm","RR3451",1)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		EndCutSceneMode()
+		RestParty()
+		SmallWait(1)
+		SetGlobal("TruthOlm","RR3451",2)
+		SetGlobal("OlmReg","GLOBAL",1)
+		StartCutSceneMode()
+		StartCutScene("OlmSid")
+//		Continue()
+END
+
+IF
+	Global("IlhSQuest","GLOBAL",4)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		EndCutSceneMode()
+		RestParty()
+		SmallWait(1)
+		StartCutSceneMode()
+		Wait(1)
+		MoveViewObject(Player1,INSTANT)
+		ActionOverride("Ilhan3",JumpToPoint([790.997]))
+		SmallWait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		ActionOverride("Ilhan3",MoveToPointNoInterrupt([594.587]))
+		Wait(7)
+		SmallWait(3)
+		SetGlobal("IlhSQuest","GLOBAL",5)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Ilhan3",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("IlhSQuest","GLOBAL",6)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		SetGlobal("IlhSQuest","GLOBAL",7)
+		FadeToColor([20.0],0)
+		Wait(1)
+		EndCutSceneMode()
+		FadeFromColor([20.0],0)
+		ActionOverride(Player1,LeaveAreaLUA("ra5200","",[997.765],5))
+		ActionOverride(Player2,LeaveAreaLUA("ra5200","",[977.795],5))
+		ActionOverride(Player3,LeaveAreaLUA("ra5200","",[947.831],5))
+		ActionOverride(Player4,LeaveAreaLUA("ra5200","",[903.859],5))
+		ActionOverride(Player5,LeaveAreaLUA("ra5200","",[1025.727],5))
+		ActionOverride(Player6,LeaveAreaLUA("ra5200","",[1045.687],5))
+END
+
+IF
+	Global("DeadPeple2","GLOBAL",1)
+	Global("Killsmese","RR3451",0)
+THEN
+	RESPONSE #100
+		ActionOverride("TalMage1",DestroySelf())
+		ActionOverride("Melan",DestroySelf())
+		ActionOverride("Maralda",DestroySelf())
+		ActionOverride("Alenna",DestroySelf())
+		SetGlobal("Killsmese","RR3451",1)
+END
+
+

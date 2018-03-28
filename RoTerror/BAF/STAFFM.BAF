@@ -1,0 +1,11 @@
+IF
+	See([GOODCUTOFF.0.0.0.0.SUMMONED])
+	GlobalLT("summon","LOCALS",75)
+THEN
+	RESPONSE #100
+		FaceObject(LastSeenBy(Myself))
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_DISINTEGRATE_IGNORE_RESISTANCE)
+		IncrementGlobal("summon","LOCALS",1)
+END
+
+

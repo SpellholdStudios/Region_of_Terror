@@ -1,0 +1,31 @@
+IF
+	Global("Scrlsounds","LOCALS",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@568618) 
+		SmallWait(1)
+		SetGlobal("Scrlsounds","LOCALS",0)
+	RESPONSE #100
+		DisplayStringHead(Myself,@568619)
+		SmallWait(1)
+		SetGlobal("Scrlsounds","LOCALS",0)
+END
+
+IF
+	Global("Scrlsounds","LOCALS",0)
+THEN
+	RESPONSE #100
+		Wait(25)
+		SetGlobal("Scrlsounds","LOCALS",1)
+	RESPONSE #100
+		Wait(20)
+		SetGlobal("Scrlsounds","LOCALS",1)
+	RESPONSE #100
+		Wait(35)
+		SetGlobal("Scrlsounds","LOCALS",1)
+	RESPONSE #100
+		Wait(30)
+		SetGlobal("Scrlsounds","LOCALS",1)
+END
+
+

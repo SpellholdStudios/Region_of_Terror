@@ -1,0 +1,71 @@
+IF
+	Global("Portl301","RA3014",3)
+THEN
+	RESPONSE #100
+		MoveViewPoint([591.897],INSTANT)
+		FadeFromColor([20.0],0)
+		SetGlobal("Portl301","RA3014",2)
+END
+
+IF
+	Global("UltmM","RA3014",0)
+THEN
+	RESPONSE #100
+		CreateCreature("UltimM",[527.229],0) // Emanath
+		SetGlobal("UltmM","RA3014",1)
+END
+
+IF
+	Global("UltLeft","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(5)
+		ScreenShake([542.303],60)
+		Wait(1)
+		HideGUI()
+		StartCutSceneMode()
+		SmallWait(2)
+		FadeToColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		FadeFromColor([20.0],0)
+		SetGlobal("UltLeft","GLOBAL",2)
+		SetGlobal("Alknepro","GLOBAL",5)
+		SetGlobal("Didnknwc","GLOBAL",5)
+		ActionOverride(Player1,LeaveAreaLUA("RR3306","",[377.433],13))
+		ActionOverride(Player2,LeaveAreaLUA("RR3306","",[311.460],13))
+		ActionOverride(Player3,LeaveAreaLUA("RR3306","",[282.404],13))
+		ActionOverride(Player4,LeaveAreaLUA("RR3306","",[362.380],13))
+		ActionOverride(Player5,LeaveAreaLUA("RR3306","",[266.375],13))
+		ActionOverride(Player6,LeaveAreaLUA("RR3306","",[332.347],13))
+END
+
+IF
+	Global("UltFight","GLOBAL",1)
+	Dead("UltimM") // Emanath
+	Delay(30)
+THEN
+	RESPONSE #100
+		ScreenShake([542.303],60)
+		Wait(1)
+		HideGUI()
+		StartCutSceneMode()
+		SmallWait(2)
+		FadeToColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		FadeFromColor([20.0],0)
+		SetGlobal("UltFight","GLOBAL",2)
+		SetGlobal("Alknepro","GLOBAL",5)
+		SetGlobal("Didnknwc","GLOBAL",5)
+		ActionOverride(Player1,LeaveAreaLUA("RR3306","",[377.433],13))
+		ActionOverride(Player2,LeaveAreaLUA("RR3306","",[311.460],13))
+		ActionOverride(Player3,LeaveAreaLUA("RR3306","",[282.404],13))
+		ActionOverride(Player4,LeaveAreaLUA("RR3306","",[362.380],13))
+		ActionOverride(Player5,LeaveAreaLUA("RR3306","",[266.375],13))
+		ActionOverride(Player6,LeaveAreaLUA("RR3306","",[332.347],13))
+END
+
+

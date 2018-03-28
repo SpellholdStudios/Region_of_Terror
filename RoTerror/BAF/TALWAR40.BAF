@@ -1,0 +1,9 @@
+IF
+	Global("Moving","LOCALS",0)
+THEN
+	RESPONSE #100
+		MoveToObject(Player1)
+		SetGlobal("Moving","LOCALS",1)
+END
+
+

@@ -1,0 +1,511 @@
+@0    = ~...Ich dachte es wäre vorbei...~
+
+@1    = ~Was ist vorbei? Wer ist Artemis Entreri?~
+
+@2    = ~Was? Ich verstehe nicht. Erklärt mir das ganze.~
+
+@3    = ~Was? Erklärt Euch!~
+
+@4    = ~Also...Artemis Entreri ist ein Mensch, ein Mörder, der mich über alles hasst.~
+
+@5    = ~Er und ich, wir sind vielleicht die beiden besten Kämpfer in den Reichen, und deshalb hasst er mich. Er alleine will der Beste sein.~
+
+@6    = ~Wir kämpften schon unzälige Male gegeneinander, haben aber stets beide überlebt. Beim letzten Kampf überwältigte ich ihn, aber ein Magier unterbrach den Kampf und ich fiel. Entreri erstach mich daraufhin und dachte, ich wäre tot.~
+
+@7    = ~Wie ich sehe, war dem nicht so. Was passierte?~
+
+@8    = ~Wie könnt Ihr immer noch am Leben sein? Ich denke, ein guter Mörder kann seine Arbeit auch beenden. Ihr solltet tot sein. Wer rettete Euch?~
+
+@9    = ~Ihr hab ihn denken lassen, Ihr wäret gestorben? Ein Meuchelmörder sollte eigentlich wissen, wann jemand tot ist, schon aus beruflichen Gründen.~
+
+@10   = ~Ich wurde von Jarlaxle gerettet, den Führer der Bregan D'aerthe, einer Geheimorganisation der Drow. Eigentlich ist er mein Feind, aber aus mir unbekannten Gründen rettete er mich und ließ Enteri glauben, ich wäre tot.~
+
+@11   = ~Das beendete Entreris Besessenheit und ich war ihn endlich los.~
+
+@12   = ~Und jetzt hat dieser Jarlaxle ihm erzählt, dass Ihr noch lebt.~
+
+@13   = ~Das bedeutet also, Jarlaxle hat Entreri die Warheit erzählt.~
+
+@14   = ~Ja, das ist die einzige Erklärung. Sehr unangenehm...~
+
+@15   = ~Es ist klar, dass Entreri gegen mich kämpfen will, wieder einmal.~
+
+@16   = ~Also, werdet Ihr gegen ihn kämpfen?~
+
+@17   = ~Was werdet Ihr also tun?~
+
+@18   = ~Ich glaube schon, dass Ihr gegen Ihn vorgehen werdet.~
+
+@19   = ~Aber natürlich. Er hat meine Freunde. Ich habe gar keine andere Wahl.~
+
+@20   = ~Wir haben einen Vertrag. Wenn dieser Entreri uns dabei im Wege steht, ist er ein toter Mann.~
+
+@21   = ~Ich habe Euch ein Versprechen gegeben. Dieser Entreri ändert nichts daran.~
+
+@22   = ~Gut zu wissen, mein Freund. Ich vertraue auf Euch.~
+
+@23   = ~Doch jetzt lasst uns nach Arlax weiterziehen. Die Lage der Stadt ist hier, wenn Ihr das nicht schon wisst.~
+
+@24   = ~Es war Jarlaxle. Er ist der Führer einer der größten Geheimzirkel der Drow, den Bregan D'aerthe. Er betrog Entreri und ließ ihn denken, ich wäre tot.~
+
+@25   = ~So, dieser Jarlaxle hat Euch also nun auch betrogen.~
+
+@26   = ~Hat dieser Jarlaxle also Entreri verraten, dass Ihr noch am Leben seid?~
+
+@27   = ~Ja, scheint wenigstens so...~
+
+@28   = ~Ich muß ihn bekämpfen. Er hat meine Freunde. Es gibt keine Wahl.~
+
+@29   = ~In diesem Fall folge ich Euch.~
+
+@30   = ~Ich werde Euch bis in den Schlund der Hölle folgen, wenn ich muss. Dieser Entreri wird daran auch nichts ändern.~
+
+@31   = ~Ich kannte einmal einen Meuchelmörder namens Artemis Entreri. Wir, also er und ich, waren die möglicherweise besten Kämpfer der Reiche. Er wollte immer der Beste sein und hasste mich dafür.~
+
+@32   = ~Wir kämpften schon unzählige Male gegeneinander, haben aber stets beide überlebt. Beim letzten Kampf überwältigte ich ihn, aber ein Magier unterbrach den Kampf und ich fiel. Entreri erstach mich daraufhin und dachte, ich wäre tot.~
+
+@33   = ~Ich wurde vonJarlaxle gerettet, dem Führer der Bregan D'aerthe, einer Geheimorganisation der Drow. Eigentlich ist er mein Feind, aber aus mir unbekannten Gründen rettete er mich und ließ Enteri glauben, ich wäre tot.~
+
+@34   = ~Es ist klar, dass Entreri gegen mich kämpfen will, wieder einmal.~
+
+@35   = ~Was werdet Ihr jetzt machen? Zu ihm gehen?~
+
+@36   = ~Ich wette, Ihr werdet wieder gegen ihn kämpfen.~
+
+@37   = ~Werdet Ihr gegen ihn kämpfen?~
+
+@38   = ~Aber natürlich. Er hat meine Freunde. Ich habe gar keine andere Wahl.~
+
+@39   = ~Ich werde Euch bis in den Schlund der Hölle folgen, wenn ich muss. Dieser Entreri wird daran auch nichts ändern.~
+
+@40   = ~Wir haben einen Vertrag. Ich muß Euch folgen, auch wenn mir bei diesem Entreri ein bisschen Angst und Bange ist.~
+
+@41   = ~Müsst Ihr nicht. Wenn die Zeit kommt, kümmere ich mich um ihn.~
+
+@42   = ~Schön, schön. Also ist Arlax unser nächstes Ziel. Kennt Ihr den Ort?~
+
+@43   = ~In Ordnung. Nächste Station: Arlax.~
+
+@44   = ~Ja. Lasst mich die Lage der Stadt auf Eurer Karte markieren... Dort. Lasst uns schnell dorthin gehen.~
+
+@45   = ~Wir haben einen Vertrag. Ich muß Euch folgen, auch wenn mir bei diesem Entreri ein bisschen Angst und Bange ist.~
+
+@46   = ~Gut, ich folge Euch. Wir haben ein Abkommen, und das werde ich nicht brechen.~
+
+@47   = ~Jarlaxle. Er ist der Führer der Bregan D'aerthe, einer Geheimorganisation der Drow. Eigentlich ist er mein Feind, aber aus mir unbekannten Gründen rettete er mich und ließ Enteri glauben, ich wäre tot.~
+
+@48   = ~Ich weiß. Jetzt haben wir etwas.~
+
+@49   = ~Wo liegt dieses Arlax?~
+
+@50   = ~Habt Ihr eine Ahnung, wo dieses "Arlax" ist?~
+
+@51   = ~Ich kenne die Stadt. Hier, lasst sie mich auf Eurer Karte markieren.~
+
+@52   = ~Gut, wir gehen so schnell wie möglich dort hin.~
+
+@53   = ~Es wird unser nächstes Ziel sein.~
+
+@54   = ~Warum nur, warum nur tut Entreri so etwas?~
+
+@55   = ~Wer ist in der Höhle? Bruenor? Regis?~
+
+@56   = ~Sagt mir, wo diese Höhle ist, jetzt!~
+
+@57   = ~<CHARNAME>. Lasst uns schneller machen. Und Ihr, sagt Entreri, wenn er gegen mich kämpfen will, ich bin bereit. Diese dummen Spiele zu spielen wird nichts ändern. Dieser Irrsinn muß enden.~
+
+@58   = ~Sprich! Wo sind sie?~
+
+@59   = ~...Warum nur, warum nur tut Entreri so etwas?~
+
+@60   = ~Folter! Was!? Was treibt Entreri nur dazu, was hat er davon!?~
+
+@61   = ~Entreri, Entreri! Warum tut er nur all dies? Wenn er wieder gegen mich kämpfen will, warum tritt er mir dann nicht einfach gegenüber? Warum entführt und foltert er statt dessen meine Freunde?~
+
+@62   = ~Viele Fragen, keine Antworten. Ich schwöre, wir werden Entreri finden und für seine Verbrechen bezahlen lassen!~
+
+@63   = ~Ich möchte nicht in Entreris Haut stecken, wenn Ihr auf ihn trefft...~
+
+@64   = ~Dieser Entreri ist vielleicht gar kein so übler Bursche. Seine Gefangenen foltern... Ich würde das selbe machen.~
+
+@65   = ~Das stimmt, aber zunächst müssen wir meine Freunde finden. Ich bitte Euch, lasst uns zu dieser Höhle gehen.~
+
+@66   = ~Wir werden so schnell wie möglich dorthin gehen.~
+
+@67   = ~Ich muss zunächst noch etwas anderes erledigen, aber wir werden schon bald dorthin aufbrechen.~
+
+@68   = ~Gut zu wissen, mein Freund.~ ~Gut zu wissen, meine Freundin.~
+
+@69   = ~Also gut, aber kümmert Euch bitte so schnell wie möglich um diese anderen Dinge. Meine Freunde werden vielleicht schon gefoltert, während wir hier sprechen...~
+
+@70   = ~Wenn *wir* ihn finden, mein Freund.~ ~Wenn *wir* ihn finden, meine Freundin.~
+
+@71   = ~Das ist richtig. Wenn *wir* ihn finden.~
+
+@72   = ~Ich habe nichts mit diesem Entreri zu schaffen. Er ist nur Euer Problem.~
+
+@73   = ~Ja, aber wir sollten uns nun beeilen, um meine Freunde zu retten.~
+
+@74   = ~Das ist richtig. Wir sollten schnell losziehen.~
+
+@75   = ~Wir werden so schnell wie möglich losgehen.~
+
+@76   = ~...Gut genug, aber nun sollten wir uns bitte beeilen, um meine Freunde noch zu retten.~
+
+@77   = ~Ihr habt recht. Wir sollten schnell weiterziehen.~
+
+@78   = ~Wie könnt Ihr so etwas nur sagen! Ich habe allem Anschein nach eine falsche Entscheidung getroffen. Ihr seid meine Gesellschaft nicht wert.~
+
+@79   = ~Entschuldigt bitte, ich habe gesprochen, ohne nachzudenken. Ich nehme alles zurück.~
+
+@80   = ~Entschuldigt bitte, ich sprach, ohne nachzudenken.~
+
+@81   = ~Dann geht doch, Drow!~
+
+@82   = ~Das ist genau das, was ich tun werde, wenn Ihr Eure Meinung nicht ändert.~
+
+@83   = ~Gut. Es ist gut, dass ich Euch trauen kann. Lasst uns gehen.~
+
+@84   = ~In Ordnung. Aber schiebt es nicht zu lange auf.~
+
+@85   = ~Gut. Dann lasst uns gehen.~
+
+@86   = ~Dann geht lieber Nummer sicher, dass so etwas nicht wieder passiert...~
+
+@87   = ~Was auch immer.~
+
+@88   = ~Gut, aber jetzt sollten wir schnell zu der Höhle ziehen, in der mein Freund festgehalten wird. Wenn er wirklich gefoltert wird, will ich ihn so schnell wie möglich befreien.~
+
+@89   = ~Wir werden sofort zur Höhle aufbrechen.~
+
+@90   = ~Ich stimme dem zu. Aber ich muß erst noch etwas erledigenm bevor wir aufbrechen, danach werden wir so schnell wie möglich losziehen.~
+
+@91   = ~Gut. Lasst uns gehenm Freunde.~
+
+@92   = ~In Ordnung, aber zögert es nicht zu lange hinausm sonst werde ich alleine dorthin gehen.~
+
+@93   = ~Errtu!? Ich habe Euch zweimal in den Abyss zurückgeschickt! Es sollte einhundert Jahre dauernm bis Ihr wieder an die Oberfläche zurückkehren könnt. Wie habt Ihr das geschafft?~
+
+@94   = ~Von allen Dämonen in den Ebenen hat er Euch gewählt... Wulfgar, seid Ihr in Ordnung?~
+
+@95   = ~Von allen Dämonen in den Ebenen hat er Euch gewählt...~
+
+@96   = ~Ich habe Euch zweimal geschlagen. Ihr macht mir keine Angst.~
+
+@97   = ~Das ist richtig, Dämon! STERBT!~
+
+@98   = ~Ja, aber bevor Ihr sterbt, werdet Ihr uns einige Fragen beantworten!~
+
+@99   = ~<CHARNAME>! Lasst uns den Gefangenen befreien!~ [drizzt4]
+
+@100  = ~Regis! Wir kamen sofort, als wir hörten, dass Ihr hier gefangen gehalten werdet! Es ist wieder mal Entreri.~
+
+@101  = ~Ihr scheint unverletzt zu sein. Haben sie Euch geheilt?~
+
+@102  = ~Regis, ich weiß, Ihr habt eine Menge durchgemacht und wollt so schnell wie möglich hier raus, aber zunächst, weisst Ihr, wie Ihr gefangen genommen wurdet? Jeder Hinweis könnte wichtig sein.~
+
+@103  = ~Hmm... interessant. Ich glaube, ich ahne langsam, was er will...~
+
+@104  = ~So, <CHARNAME>, wir haben ein neues Ziel. Wir müssen Artemis Enrteri die Kontrolle über den gesprungenen Kristall entreißen und ihn zerstören. Aber wir können später darüber sprechen. Lasst uns jetzt zu den Umarhügeln gehen... wird Regis uns begleiten?~
+
+@105  = ~Wulfgar wurde übrigens nicht gefangen genommen. Er ist sicher, wenngleich er auch nicht mit uns reist... Aber jetzt könnt Ihr mir erzählen, wie Ihr gefangen wurdet? Alles könnte richtig sein.~
+
+@106  = ~Ich tippe mal, Ihr seid von Artemis Entreri hergeschickt worden.~
+
+@107  = ~Jarlaxle? Er benutzt den gesprungenen Kristall ebenfalls?~
+
+@108  = ~...Hmm... Also, raus damit, wie lautet die Nachricht?~
+
+@109  = ~...Ich sage das nur ungerne, aber sie hat recht. Entreri kann nicht geschlagen werden, so lange er die Kräfte des gesprungenen Kristalls nutzt.~
+
+@110  = ~...Könnte es einen Weg geben, ihn zu zerstören?~
+
+@111  = ~...Dann müssen wir den Kristall zerstören. Habt Ihr eine Ahnung, wie wir das anstellen können?~
+
+@112  = ~Also gut, lasst uns wieder darüber sprechen, wenn wir Bruenor befreit haben.~
+
+@113  = ~...Ich habe keine Ahnung. Aber ich kenne jemanden, der uns helfen kann. Bruder Cadderly. Wir sollten ihm einen Besuch abstatten, nachdem Bruenor frei ist.~
+
+@114  = ~Dann werden wir das tun. Lasst uns nun weiterziehen.~
+
+@115  = ~Hmm... Klingt gut... Lasst uns jetzt gehen.~
+
+@116  = ~Ich stimme dem zu... aber Ihr solltet wissen, dass es einen Weg geben könnte, den gesprungenen Kristall zu zerstören... Ich kenne einen Priester, der mehr darüber weiß. Wir sollten ihm später einen Besuch abstatten...~
+
+@117  = ~Wir haben Regis zuerst befreit, alter Freund.~ ~Wir haben Regis zuerst befreit, alte Freundin.~
+
+@118  = ~Natürlich nicht. Ihr wisst, dass ihr in meinen Augen alle gleich seid.~
+
+@119  = ~Hmm... Das ist nun aber seltsam... Sie kontrollieren ihn beide?... Der gesprungene Kristall kennt nur einen Meister, und dieser Meister ist der Kristall selbst.~
+
+@120  = ~Ja, das könnte es sein...~
+
+@121  = ~Wie dem auch sei, wir haben schon von Regis gehört, was passiert ist, aber kkönnt Ihr mir sagen, wie Ihr an diesen Ort gekommen seid?~
+
+@122  = ~Es könnte wichtig sein, weil es dadurch vielleicht noch einen zweiten Zugang zu dieser Ebene gibt. Es könnte für einige der hiesigen Bewohner von großem Wert sein.~
+
+@123  = ~Also, das ist in Ordnung. Zu guter letzt können wir uns hier auch selbst befreien. (Drizzt berichtet übe die Gragha)~
+
+@124  = ~Warte... erlaubt Ihr Bruenor, uns zu begleiten, <CHARNAME>?~
+
+@125  = ~Wartet eine Sekunde... Ich versprach Euch. von jemandem zu berichten. der den gesprungenen Kristall zerstören kann, Bruder Cadderly.~
+
+@126  = ~Wir sollten ihn besuchen gehen. Er lebt im Kloster Schwebende Seele. Es ist weit von hier, aber wir können von Brynnlaw, das liegt recht nahe vor der Küste Athkatlas, dorthin gelangen.~
+
+@127  = ~Ein Kleriker namens Martin lebt in Brynnlaw und besitzt ein magisches Portal. mit dem man ohne Zeitverlust zur Schwebenden Seele gelangen kann. Wir sollten möglichst bald dorthin reisen.~
+
+@128  = ~Gut, klingt gut. Wir werden nach Brynnlaw reisen.~
+
+@129  = ~Wir haben wohl keine andere Wahl. Lasst uns nach Brynnlaw reisen.~
+
+@130  = ~Dann werden wir dorthin reisen, aber zunächst habe ich einige Fragen zu diesem Cadderly.~
+
+@131  = ~Gut, was möchtet Ihr wissen?~
+
+@132  = ~Woher kennt Ihr ihn?~
+
+@133  = ~Kann man ihm trauen?~
+
+@134  = ~Nichts weiter. Lasst uns gehen.~
+
+@135  = ~Wir versuchten schon einmal, den gesprungenen Kristall zu zerstören und haben dabei von ihm gehört.~
+
+@136  = ~Wir scheiterten bei unserem Versuch, den Kristall zu ihm zu bringen, als er Jarlaxle in die Hände fiel. Danach habe ich den Kristall nicht wieder gesehen.~
+
+@137  = ~Kann man ihm trauen?~
+
+@138  = ~Absolut! Ich würde ihm mein Leben anvertrauen.~
+
+@139  = ~Gut, nichts weiter. Lasst uns gehen.~
+
+@140  = ~Also gut, woher kennt Ihr ihn?~
+
+@141  = ~Sehr gut, danke sehr. Gut Euch zu sehen, Martin.~
+
+@142  = ~Ich bin auf einer wichtigen Mission. Unglücklicherweise treffen wir uns aufgrund der selben widrigen Umstände wie beim letzten Mal.~
+
+@143  = ~Artemis Entreri und Jarlaxle haben den gesprungenen Kristall in ihre Gewalt gebracht. Sie entführten meine Freunde, und ich befinde mich seitdem auf der Suche nach ihnen.~
+
+@144  = ~Alle sind wieder in Freiheit, mit Außnahme von Catti-Brie. Sie muss auch befreit werden, aber so lange Entreri und Jarlaxle den Kristall kontrollieren, gibt es keinen Weg, an sie heranzukommen.~
+
+@145  = ~Ihr seid der einzige, der ihn zerstören kann. Wir brauchen Eure Hilfe.~
+
+@146  = ~Das kann nicht möglich sein. Bruenor und Regis waren für kurze Zeit im Kristallturm eingekerkert und haben den Gesprungenen Kristall mit eigenen Augen gesehen.~
+
+@147  = ~Und warum sollten die beiden den Kristall zerstören wollen?~
+
+@148  = ~Das wäre möglich, erklärt aber nicht wie Entreri und Jarlaxle meine Freunde finden konnten. (Drizzt berichtet von der Gefangennahme)~
+
+@149  = ~Dann wird es so sein...Wir haben keine Ahnung, was sich hinter diesem neuen Kristall verbirgt. Wie sollen wir ihn dann zerstören können?~
+@150  = ~Gibt es denn keinen anderen Weg?~
+@151  = ~Das werden wir tun. Es war schön, Euch wieder zu sehen, Cadderly.~
+
+@152  = ~So, jetzt bleiben uns nur noch zwei Dinge zu tun. Catti-Brie befreien und den Gesprungenen Kristall zerstören.~
+@153  = ~Ich würde Euch gerne in Erinnerung rufen, dass wir keine Ahnung haben, wohin wir uns als nächstes wenden sollen.~
+@154  = ~Und was jetzt? Wir wissen nicht, wo Catti-Brie festgehalten wird.~
+@155  = ~Wir werden schon noch einen Hinweis finden.~
+@156  = ~Ich denke, wir werden es schon bald herausfinden...~
+@157  = ~Der Pfad liegt jetzt klar vor uns. Sobald wir von diesem Ort wegkommen, müssen wir nach Maribur weiterreisen.~
+@158  = ~Das werden wir tun. Ich verspreche es.~
+@159  = ~Nun ja, vielleicht noch nicht sofort, aber bald. Versprochen!~
+
+@160  = ~Angegriffen!? Wer greift an?~
+
+@161  = ~Das ist nicht nötig, Bruenor. Ich denke, wir wissen, wer die Horde anführt...~
+
+@162  = ~Ihr, geht und erzählt im Eiswindtal, dass es bald wieder frei sein wird. Die Führer der Feinde werden schon tot sein, wenn Ihr dort ankommt.~
+
+@163  = ~Sollten die Angriffe weitergehen... sendet um Hilfe bei den Zwergen und tut, was Ihr könnt. Wir können Euch nicht mehr helfen...~
+
+@164  = ~Ich denke, ich weiß, wer die Horde anführt...~
+
+@165  = ~Geht und erzählt im Eiswindtal, das es bald wieder frei sein wird. Die Führer der Feinde werden schon tot sein, wenn Ihr dort ankommt.~
+
+@166  = ~Das erklärt, warum Jarlaxle mich tot sehen will. Er will das Eiswindtal erobern.~
+
+@167  = ~Lebendig wäre ich wohl eine zu große Gefahr...~
+
+@168  = ~...Sie haben einen Plan für den Kampf. Ein Plan, der sie dermaßen in Sicherheit wiegt, dass sie uns nahe an sich heran lassen.~
+
+@169  = ~Wir müssen besonders vorsichtig sein, wenn wir hinein gehen. Wir wissen nicht, was wir im Inneren finden.~
+
+@170  = ~Artemis Entreri.~ [drizzt6]
+
+@171  = ~Ich habe das schon kommen sehen. Bringt mich zum Platz, den Ihr Euch vorgestellt habt.~ [drizzt7]
+
+@172  = ~Wo ist Catti-Brie!?~ [drizzt8]
+
+@173  = ~Keine Angst, ich werde mit Euch kämpfen. Ihr habt meinen Zorn stetig geschürt. Noch niemals wünschte ich den Kampf gegen Euch stärker als jetzt.~ [drizzt9]
+
+@174  = ~AAAAAAAH!~ [drizzt10]
+
+@175  = ~Wo seid Ihr, Entreri?~ [drizzt2]
+
+@176  = ~Ja, das tun wir. Enteri und Jarlaxle sind tot, der gesplitterte Kristall wurde zerstört. Danke für all Eure Hilfe, <CHARNAME>.~
+
+@177  = ~Nun, wir müssen immer noch Irenicus töten.~
+
+@178  = ~Ihr müsst mir nicht danken, wir haben einen Vertrag, und den werde ich nicht brechen.~
+
+@179  = ~Ja, ich werde Euch wie versprochen helfen. Wird Catti-Brie mit uns kommen?~
+
+@180  = ~Aber natürlich, ich freue mich auf ihre Gesellschaft.~
+
+@181  = ~Leider nicht, wir haben im Moment keinen Raum für sie. Ihr müsst Euch später mit ihr treffen.~
+
+@182  = ~Großartig! Komm schon, Catti-Brie, lasst uns gehen.~
+
+@183  = ~...Also gut. Catti-Brie, ich komme zu Euch, sobald dieser Irenicus in seinem Blut liegt.~
+
+@184  = ~Ich werde die Absprache nicht brechen. Lasst uns jetzt gehen und den Magier Irenicus loswerden. Wird Catti-brie uns begleiten?~
+
+@185  = ~Ich reise nur umher und tue, was ich kann... Ünnötig. mich als Euren Helden zu behalten.~ ~Ich reise nur umher und tue, was ich kann... Ünnötig. mich als Eure Heldin zu behalten.~
+
+@186  = ~Im Moment würde ich es nicht gerne...~
+
+@187  = ~...I-Ich muss jetzt gehen. Ich hoffe, wir treffen uns irgendwann noch einmal.~
+
+@188  = ~Beruhigt Euch, guter Mann! Ihr seid in wahrlich schlechter Verfassung! Was genau ist passiert?~
+@189  = ~Sagt nichts mehr! Wir sind schon unterwegs.~
+
+@190  = ~(Zustimmen und nicken)~
+
+@191  = ~Jawohl. Lasst uns schneller machen.~
+
+@192  = ~Heh Leute! Wartet bitte eine Minute! Ich habe grade etwas wichtiges zu tun. Kann das nicht warten?~
+
+@193  = ~Wartet eine Minute! Was denkt Ihr, was wir gegen eine Horde Dämonen unternehmen können?~
+
+@194  = ~Es ist Cadderly, <CHARNAME>! Er ist ein alter Freund von mir. Ich werde ihn nicht im Stich lassen.~
+
+@195  = ~Oh, gut, schon gut. Lasst uns gehen.~
+
+@196  = ~Gebt mir nur ein paar Tage. Wir gehen als bald wie möglich.~
+
+@197  = ~Dann könnt Ihr alleine gehen. Ich komme nicht mit.~
+
+@198  = ~Wie viel Zeit denkt Ihr, haben wir, Bruder?~
+
+@199  = ~Wenn ich jetzt gehe, seht Ihr mich nie wieder...~
+
+@200  = ~Ich mache nur Spaß. Wir reisen sofort ab.~
+
+@201  = ~(Verdammt!) Also gut, gebt mir ein paar Tage, damit ich meine Geschäfte noch erledigen kann. Wir brechen dann schnellstmöglich auf.~
+
+@202  = ~Ich bin mir dessen bewusst.~
+
+@203  = ~Dann ist dies die Zeit des Anschieds... ich kann nicht glauben, dass Ihr nicht kommt... nun gut, sei es, wie es sei, ich werde nun gehen. Geht Eurer Wege, Bruder!~
+
+@204  = ~Wir werden weitersehen, wenn wir mit Cadderly gesprochen haben. Lasst uns jetzt gehen!~
+
+@205  = ~Nein, nein, nein. Ich habe noch wichtigeres zu erledigen! Kann das nicht erstmal warten?~
+
+@206  = ~Das finde ich akzeptabel. Wir kümmern uns um Euer Problem, <CHARNAME>, und reisen zur Schwebenden Seele innerhalb der nächsten fünf Tage.~
+
+@207  = ~Ich bin froh darüber, Euch in der Sache helfen zu können, mein Freund. Könnt Ihr mir erzählen, was genau passiert ist? Bruder Chaunticleer gab uns leider nicht grade viele Informationen.~
+
+@208  = ~Könnt Ihr das Portal nicht schließen?~
+
+@209  = ~Natürlich helfen wir! Ich kann Euch doch nicht einfach hier stehen lassen! Vieles ist in Bewegung geraten und betrifft nicht nur unser eigenes Leben, sondern auch die Leben anderer.~
+
+@210  = ~Ja, sie sind tot.~
+
+@211  = ~Bruder Lucas, ich wollte Euch noch sagen, dass Ihr einer der tapfersten Menschen seid, die mir je begegnet sind. Nicht viele sind bereit, für das Wohl anderer ihr Leben zu lassen.~
+
+@212  = ~Jederzeit, mein alter Freund, jederzeit.~
+
+@213  = ~Bremen? Das wäre eine gute Möglichkeit, unsere Waffen zurückzubekommen, Wulfgar. Wir werden sie brauchen, wenn wir Entreri und Jarlaxle gegenübertreten wollen.~
+
+@214  = ~...Ich weiß, und es schmerzt mich jeden Tag aufs neue... aber ich weiß, dass Entreri niemals Hand an sie legen würde. Er ist ein Mann von Ehre, wie böse sein Herz auch immer sein mag. *Seufz* Wir benötigen wirklich unsere Waffen.~
+
+@215  = ~Aber wisset, dass ich meinem Leben ein Ende setzen würde, wenn ihr etwas geschieht, während ich nach ihr suche.~
+
+@216  = ~Bremen? ...<CHARNAME>, ich denke wir sollten diesen Auftrag annehmen. Wisst Ihr, meine Waffen lagern in Bremen, und Wulfgars Aegis Fang ebenfalls.~
+
+@217  = ~Wenn wir Enteri und Jarlaxle gegenübertreten wollen, könnte ich meine Krummsäbel gut gebrauchen.~
+
+@218  = ~Hmm...in Ordnung. Wir sollten schnell losreisen.~
+
+@219  = ~Warum, in Mielikkis Namen, sind Eure Waffen in Bremen!?~
+
+@220  = ~Was ist mit Catti-Brie?~
+
+@221  = ~Gut. Aber ich muss zunächst noch etwas anderes erledigen. Wir werden aber schnellstmöglich zu diesem Mann zurückkehren, um ihn ins Eiswindtal zu begleiten.~
+
+@222  = ~Also, das ist eine lange Geschichte... wir halfen den Dorfbewohnern dabei, eine Horde von Monstern zurückzuschlagen und haben dann aufgrund wiedriger Umstände... na ja, wir haben sie dort vergessen...~
+
+@223  = ~...Ah... ja... es schmerzt mich jeden Tag... aber ich weiss, das er niemals Hand an sie legen würde. Er ist ein Mann von Ehre, wie böse sein Herz auch immer sein mag. *Seufz* Ich benötige wirklich meine Waffen.~
+
+@224  = ~Aber wisset, dass ich meinem Leben ein Ende setzen würde, wenn ihr aufgrund dieser Entscheidung etwas geschieht.~
+
+@225  = ~Es ist auch schön, Euch zu sehen, Bürgermeister! Wie ist es der Stadt seit dem Angriff ergangen?~
+
+@226  = ~Das tut mir leid. Gibt es etwas, was ich für Euch tun kann?~
+
+@227  = ~Ein Versuch ist keine Schande. Meine Geschäfte hier sind schnell erledigt, deshalb werde ich einige Zeit haben, mit ihm zu sprechen.~
+
+@228  = ~Es gibt nichts, was Ihr tun könntet, Dobrine. Ich halte mich an Herrn Tremp. Aber ich bin trotzdem froh, dass Ihr helfen wolltet, während Ihr selbst in Schwierigkeiten steckt.~
+
+@229  = ~...Ich kann zwischen Euren Zeilen lesen, Fenedon... was ist es? Habt Ihr die Kopien nicht vollendet?~
+
+@230  = ~Was!? Ihr habt Aegis Fang und meine Krummsäbel verloren!? Wie ist das möglich? Niemand wusste, dass Ihr sie verwahrt.~
+
+@231  = ~Also gut, wo, denkt Ihr, sind sie im Moment?~
+
+@232  = ~Entschuldigung akzeptiert. Ich werde mich mit diesem Eisbart auseinandersetzen. Ein Kampf wird sicherlich vermeidbar sein.~
+
+@233  = ~Na gut, dann lasst uns Eure Waffen zurückholen!~
+
+@234  = ~Bevor wir gehen, habe ich noch eine Frage. Warum habt Ihr diesem Kerl Eure Waffen überlassen?~
+
+@235  = ~Na ja, nachdem wir den Bewohnern in Ihrem Kampf geholfen hatten, entschieden wir uns zur Mithrilhalle weiterzureisen.~
+
+@236  = ~Fenedon sprach Wulfgar und mich an und fragte, ob er unsere Waffen zwecks Anfertigung je einer Kopie verwahren dürfe.~
+
+@237  = ~Na ja, und wir dachten, was wäre schon weiter dabei und gaben ihm die Waffen.~
+
+@238  = ~Wir hatten natürlich vor, sie uns kurze Zeit später wieder zu holen, aber... Ihr wisst schon. Dieser ganze Entreri-Mist passierte und wir, und wir... na los, lasst uns schon losziehen.~
+
+@239  = ~Wisst Ihr, <CHARNAME>, ich denke, wir sollten nachschauen gehen, was der Bürgermeister so treibt...~
+
+@240  = ~Wir sollten zunächst mit Fenedon Tremp sprechen. Es sollte im Inneren dieses Zeltes sein.~
+
+@241  = ~Das haben wir schon getan. Leider mussten wir kämpfen, um sie zu bekommen.~
+
+@242  = ~Wisst Ihr, <CHARNAME>, Bruenor ist mein Freund. Warum habt Ihr ihn fortgeschickt?~
+
+@243  = ~Ich hatte keine Wahl, entschuldigt bitte.~
+
+@244  = ~Es war leider kein Platz mehr für ihn. Vielleicht können wir ihn später aufnehmen.~
+
+@245  = ~...also, in Ordnung. Diese Entscheidung soll unsere Absprache nicht beeinträchtigen. Aber wisset, dass, wenn es nach mir ginge, Bruenor uns sofort wieder begleiten würde.~
+
+@246  = ~...<CHARNAME>? Catti-Brie ist meine liebste Begleiterin. Wieso hab Ihr sie fortgeschickt?~
+
+@247  = ~Es tut mir wirklich leid, aber ich hatte keine andere Wahl.~
+
+@248  = ~Es gab leider keine Möglichkeit, sie in unsere Gruppe zu integrieren. Es tut mir leid.~
+
+@249  = ~...also, in Ordnung. Aber sobald unsere Aufgabe erfüllt ist, werde ich sie wieder begleiten.~
+
+@250  = ~...wieso habt Ihr ihn fortgeschickt?~
+
+@251  = ~Es tut mir wirklich leid, aber ich hatte keine andere Wahl.~
+
+@252  = ~Es gab leider keine Möglichkeit, ihn in unsere Gruppe zu integrieren.~
+
+@253  = ~...in Ordnung... aber sobald wir mit unserer Aufgabe fertig sind, werde ich mich ihm wieder anschließen.~
+
+@254  = ~Warum habt Ihr Wulfgar zurückgelassen? Er ist mein Freund und ein mächtiger Verbündeter.~
+
+@255  = ~Es gab leider keine andere Möglichkeit, tut mir leid.~
+
+@256  = ~Ich konnte ihn leider nicht mehr in der Gruppe unterbringen.~
+
+@257  = ~...also gut... ich kann das akzeptieren... aber wisset das ich nicht glücklich mit dieser Entscheidung bin...~
+
+@258  = ~...Wulfgar... ich weiß nicht, was geschehen ist, aber... ich fühle mich, als hätte alle Kampfkraft und Erfahrung meinen Körper verlassen...~
+
+@259  = ~Ja... das muss es sein. Sehr merkwürdig...~
+
+@260  = ~...Nein. Aber ich kenne vielleicht jemanden, der es weiß. Bruder Cadderly... wir sollten ihn aufsuchen, nachdem wir Bruenor befreit haben.~

@@ -1,0 +1,13 @@
+IF
+	Global("EnteredArea","RA4700",0)
+THEN
+	RESPONSE #100
+		SetGlobal("EnteredArea","RA4700",1)
+		ClearAllActions()
+		HideGUI()
+		StartCutSceneMode()
+		StartCutScene("MQCut1")
+//		Continue()
+END
+
+

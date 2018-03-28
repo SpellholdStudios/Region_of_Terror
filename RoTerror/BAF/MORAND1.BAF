@@ -1,0 +1,10 @@
+IF
+        OR(2)
+	  Dead("Morandin") // Morandin
+	  Global("Morand3","LOCALS",2)
+THEN
+	RESPONSE #100
+		EraseJournalEntry(@563001)
+END
+
+

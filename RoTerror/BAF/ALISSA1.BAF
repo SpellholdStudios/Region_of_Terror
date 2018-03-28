@@ -1,0 +1,24 @@
+IF
+	Global("DlCadd","GLOBAL",3)
+	Global("asdfdf","LOCALS",0)
+	OR(6)
+		Range(Player1,10)
+		Range(Player2,10)
+		Range(Player3,10)
+		Range(Player4,10)
+		Range(Player5,10)
+		Range(Player6,10)
+THEN
+	RESPONSE #100
+		SetGlobal("asdfdf","LOCALS",1)
+		StartDialog("Alissa1J",Player1)
+END
+
+IF
+	Global("Justalittle","RA3707",2)
+THEN
+	RESPONSE #100
+		StartDialog("Alissa1J",Player1)
+END
+
+

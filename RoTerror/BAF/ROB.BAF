@@ -1,0 +1,16 @@
+IF
+	Global("DlgRr","GLOBAL",0)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+		SetGlobal("DlgRr","GLOBAL",1)
+END
+
+

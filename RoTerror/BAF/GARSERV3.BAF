@@ -1,0 +1,85 @@
+IF
+	Global("Trinkalittle","LOCALS",0)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		SmallWait(2)
+		UseItem("POTN10",Myself) // Potion of Invisibility
+		SetGlobal("Trinkalittle","LOCALS",1)
+END
+
+IF
+	Delay(20)
+	Global("Trinkalittle","LOCALS",1)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		SmallWait(2)
+		UseItem("POTN10",Myself) // Potion of Invisibility
+		SetGlobal("Trinkalittle","LOCALS",2)
+END
+
+IF
+	Delay(20)
+	Global("Trinkalittle","LOCALS",2)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		SmallWait(2)
+		UseItem("POTN10",Myself) // Potion of Invisibility
+		SetGlobal("Trinkalittle","LOCALS",3)
+END
+
+IF
+	Delay(20)
+	Global("Trinkalittle","LOCALS",3)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		SmallWait(2)
+		UseItem("POTN10",Myself) // Potion of Invisibility
+		SetGlobal("Trinkalittle","LOCALS",4)
+END
+
+IF
+	Delay(20)
+	Global("Trinkalittle","LOCALS",4)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		SmallWait(2)
+		UseItem("POTN10",Myself) // Potion of Invisibility
+		SetGlobal("Trinkalittle","LOCALS",5)
+END
+
+

@@ -1,0 +1,5 @@
+@0    = ~There are only a few VVC (use VVC Utility) files in the game and you won't probably have to use them. They are only needed if you want to create a visual effect by a script.~
+@1    = ~In VVC Utility you just add the name of the BAM - file (animation) and possible sounds and save it to the override - folder. Then make a script to use it with the command line CreateVisualEffect (talk with the script helper about this).~
+@2    = ~The projectiles are more commonly used. For example they are used to create a special arrow animation or dragon breath animation or something like that. You can do some cool things with projectiles so check out the Infinity Projectile Utility.~
+@3    = ~After you have a ready projectile (would be good to look for already made projectiles for example), first add it to the projectl.ids - file (Add Entry), and then save the file. Remember that the projectl.ids must be in the override - folder.~
+@4    = ~Then you can use the tool (Inf.Proj.Ut.) to add your new projectile into a new item or spell.~

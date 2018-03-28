@@ -1,0 +1,29 @@
+IF
+	Global("Sencav","GLOBAL",1)
+	Global("dalfa","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("dalfa","GLOBAL",1)
+		CreateCreature("Jolnar",[3360.2000],5) // Jolnar
+		SetGlobal("Sencav","GLOBAL",2)
+END
+
+IF
+	Global("Kinquest","GLOBAL",2)
+	TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		SetGlobal("Kinquest","GLOBAL",3)
+END
+
+IF
+	Global("Kinquest","GLOBAL",3)
+	TimeOfDay(DAY)
+	TimeOfDay(DUSK)
+	TimeOfDay(MORNING)
+THEN
+	RESPONSE #100
+		SetGlobal("Kinquest","GLOBAL",2)
+END
+
+

@@ -1,0 +1,153 @@
+IF
+	Global("Turndabasevil","RR3409",0)
+THEN
+	RESPONSE #100
+		Wait(2)
+		SetGlobal("Turndabasevil","RR3409",1)
+		ActionOverride("Ilhan2",Enemy())
+		ActionOverride("OenGua1",Enemy())
+		ActionOverride("OenGua2",Enemy())
+END
+
+IF
+	Global("Battlesontalsid","GLOBAL",0)
+	Dead("Olmar2") // Chieftain Olmar
+	Dead("Ilhan2") // Ilhan
+	Dead("OenGua1") // Guardian
+	Dead("OenGua2") // Guardian
+	Delay(10)
+THEN
+	RESPONSE #100
+		CreateCreature("Talavan5",[346.916],10) // Talavan's Spy
+		SetGlobal("Battlesontalsid","GLOBAL",1)
+END
+
+IF
+	Global("Battlesontalsid","GLOBAL",2)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("Battlesontalsid","GLOBAL",3)
+		ActionOverride("Talavan5",EscapeArea())
+END
+
+IF
+	Global("Battlesontalsid","GLOBAL",3)
+	Delay(10)
+THEN
+	RESPONSE #100
+		CreateCreature("SndGrl1",[1000.870],10) // Sound Gurlie
+		PlaySound("Horn3")
+		Wait(1)
+		PlaySound("Horn2")
+		Wait(2)
+		PlaySound("Horn1")
+		SetGlobal("Battlesontalsid","GLOBAL",4)
+		SetGlobal("Screenshakes","RR3409",1)
+		SetGlobal("Battlesounds","RR3409",1)
+		Continue()
+END
+
+IF
+	Global("Battlesontalsid","GLOBAL",4)
+THEN
+	RESPONSE #100
+		Wait(10)
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		CreateCreature("OlmWar45",[346.916],10) // Olmar's Warrior
+		CreateCreature("OlmWar41",[346.916],10) // Olmar's Warrior
+		CreateCreature("OlmWar41",[346.916],8) // Olmar's Warrior
+		CreateCreature("OlmWar40",[346.916],11) // Olmar's Warrior
+		CreateCreature("OlmWar40",[346.916],9) // Olmar's Warrior
+		CreateCreature("OlmWar41",[346.916],10) // Olmar's Warrior
+		SmallWait(1)
+		MoveViewObject("OlmWar45",VERY_FAST)
+		Wait(1)
+		PlaySound("Horn1")
+		ActionOverride("OlmWar45",DisplayStringHead(Myself,@575063))
+		ActionOverride("OlmWar45",FaceObject("Olmar2"))
+		Wait(3)
+		SetGlobal("Battlesontalsid","GLOBAL",5)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("OlmWar45",EscapeArea())
+		Continue()
+END
+
+IF
+	Global("Battlesontalsid","GLOBAL",5)
+THEN
+	RESPONSE #100
+		Wait(100)
+		CreateCreature("OlmWar45",[346.916],10) // Olmar's Warrior
+		CreateCreature("OlmWar41",[346.916],10) // Olmar's Warrior
+		CreateCreature("OlmWar41",[346.916],10) // Olmar's Warrior
+		CreateCreature("OlmWar40",[346.916],11) // Olmar's Warrior
+		CreateCreature("OlmWar40",[346.916],10) // Olmar's Warrior
+		CreateCreature("OlmWar41",[346.921],11) // Olmar's Warrior
+		CreateCreature("OlmWar41",[346.920],10) // Olmar's Warrior
+		CreateCreature("OlmWar41",[346.919],9) // Olmar's Warrior
+		CreateCreature("OlmWar40",[346.918],10) // Olmar's Warrior
+		CreateCreature("OlmWar40",[346.917],9) // Olmar's Warrior
+		Wait(1)
+		SetGlobal("Battlesontalsid","GLOBAL",6)
+		ActionOverride("OlmWar45",DisplayStringHead(Myself,@570812))
+		SmallWait(1)
+		ChangeEnemyAlly("OlmWar45",ENEMY)
+		Continue()
+END
+
+IF
+	Global("Battlesontalsid","GLOBAL",6)
+	Global("Swords1","RR3409",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		Wait(50)
+		PlaySound("Swords2")
+		SetGlobal("Swords1","RR3409",1)
+		Continue()
+END
+
+IF
+	Global("Swords1","RR3409",1)
+	Global("Battlesontalsid","GLOBAL",6)
+THEN
+	RESPONSE #100
+		Wait(150)
+		SetGlobal("Battlesontalsid","GLOBAL",7)
+		SmallWait(1)
+		CreateCreature("OlmWar44",[346.916],10) // Elite Captain
+		CreateCreature("OlmWar42",[346.916],11) // Elite Warrior
+		CreateCreature("OlmWar47",[346.916],10) // Elite Warrior
+		CreateCreature("OlmWar43",[346.916],11) // Elite Warrior
+		CreateCreature("OlmWar46",[346.916],10) // Elite Warrior
+END
+
+IF
+	Global("Battlesontalsid","GLOBAL",7)
+	Dead("OlmWar44") // Elite Captain
+	Dead("OlmWar42") // Elite Warrior
+	Dead("OlmWar43") // Elite Warrior
+	Dead("OlmWar46") // Elite Warrior
+	Dead("OlmWar47") // Elite Warrior
+THEN
+	RESPONSE #100
+		Wait(30)
+		SetGlobal("Battlesontalsid","GLOBAL",8)
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(2)
+		EndCutSceneMode()
+		RestParty()
+		SmallWait(1)
+		StartCutSceneMode()
+		SmallWait(1)
+		SoundActivate("Battl1",FALSE)
+		StartCutScene("Aftal")
+END
+
+

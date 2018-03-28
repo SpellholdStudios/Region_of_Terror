@@ -1,0 +1,90 @@
+IF
+	Global("Creathifs","RR3114",0)
+THEN
+	RESPONSE #100
+		CreateCreatureImpassable("Thjail1",[469.115],2) // Thief
+		CreateCreatureImpassable("Thjail2",[679.263],3) // Thief
+		SetGlobal("Creathifs","RR3114",1)
+END
+
+IF
+	Global("Creathifs","RR3114",1)
+THEN
+	RESPONSE #100
+		Wait(5)
+		SetGlobal("Creathifs","RR3114",2)
+		ActionOverride("Thjail1",RandomWalk())
+		ActionOverride("Thjail2",RandomWalk())
+		Wait(20)
+		SetGlobal("Creathifs","RR3114",1)
+	RESPONSE #100
+		Wait(7)
+		SetGlobal("Creathifs","RR3114",2)
+		ActionOverride("Thjail1",RandomWalk())
+		ActionOverride("Thjail2",RandomWalk())
+		Wait(20)
+		SetGlobal("Creathifs","RR3114",1)
+	RESPONSE #100
+		Wait(6)
+		SetGlobal("Creathifs","RR3114",2)
+		ActionOverride("Thjail1",FaceObject("ArlaxG4"))
+		SmallWait(1)
+		ActionOverride("Thjail1",DisplayStringHead(Myself,@568890))
+		Wait(3)
+		ActionOverride("ArlaxG4",FaceObject("Thjail1"))
+		Wait(3)
+		ActionOverride("ArlaxG4",DisplayStringHead(Myself,@568891))
+		Wait(3)
+		ActionOverride("Thjail1",FaceObject("Thjail2"))
+		SmallWait(1)
+		ActionOverride("Thjail1",DisplayStringHead(Myself,@568892))
+		Wait(3)
+		ActionOverride("Thjail2",FaceObject("Thjail1"))
+		Wait(2)
+		ActionOverride("Thjail2",DisplayStringHead(Myself,@568893))
+		Wait(3)
+		ActionOverride("ArlaxG5",DisplayStringHead(Myself,@575054))
+		Wait(10)
+		SetGlobal("Creathifs","RR3114",1)
+	RESPONSE #100
+		Wait(8)
+		SetGlobal("Creathifs","RR3114",2)
+		ActionOverride("Thjail2",FaceObject("ArlaxG5"))
+		SmallWait(1)
+		ActionOverride("Thjail2",DisplayStringHead(Myself,@568895))
+		Wait(6)
+		ActionOverride("Thjail1",FaceObject("ArlaxG5"))
+		Wait(1)
+		ActionOverride("Thjail1",DisplayStringHead(Myself,@568896))
+		Wait(4)
+		ActionOverride("ArlaxG5",DisplayStringHead(Myself,@575055))
+		Wait(10)
+		SetGlobal("Creathifs","RR3114",1)
+	RESPONSE #100
+		Wait(8)
+		SetGlobal("Creathifs","RR3114",2)
+		ActionOverride("Thjail1",RandomWalk())
+		ActionOverride("Thjail2",RandomWalk())
+		Wait(20)
+		SetGlobal("Creathifs","RR3114",1)
+END
+
+IF
+	Global("GuardCquest","GLOBAL",5)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(4)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("GuardCquest","GLOBAL",6)
+		SmallWait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("ArlaxGC",StartDialogueNoSet(Player1))
+END
+
+

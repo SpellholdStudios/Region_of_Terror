@@ -1,0 +1,30 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,8)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("FadeFromGlobal","GLOBAL",1)
+		SetGlobal("Travelculta","GLOBAL",5)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player2,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player3,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player4,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player5,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player6,LeaveAreaLUA("RA5500","",[2877.563],2))
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,8)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702)
+END
+
+

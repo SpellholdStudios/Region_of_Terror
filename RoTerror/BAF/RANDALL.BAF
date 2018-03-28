@@ -1,0 +1,46 @@
+IF
+	Global("Razorbattle","GLOBAL",2)
+	Global("Fuckfuck","RA5701",0)
+	CombatCounter(0)
+	Dead("Rannec7") // Necromancer
+	Dead("Rannec8") // Necromancer
+	IsValidForPartyDialog(Myself)
+THEN
+	RESPONSE #100
+		SetGlobal("Fuckfuck","RA5701",1)
+		SetGlobal("Razorbattle","GLOBAL",4)
+		StartDialog("RandallJ",Player1)
+END
+
+IF
+	Global("adslkjdfkjl","RA5701",1)
+	IsValidForPartyDialog(Myself)
+	Delay(6)
+THEN
+	RESPONSE #100
+		StartDialog("RandallJ",Player1)
+END
+
+IF
+	GlobalLT("Razorbattle","GLOBAL",6)
+	IsValidForPartyDialog(Myself)
+	Global("Scheisse","ar1515",0)
+	See("RanMarc")
+THEN
+	RESPONSE #100
+		SetGlobal("Scheisse","ar1515",1)
+		StartDialog("RandallJ",Player1)
+END
+
+IF
+	Global("Razorbattle","GLOBAL",6)
+	Global("Scheisse2","ar1515",0)
+	IsValidForPartyDialog(Myself)
+	See("RanMarc")
+THEN
+	RESPONSE #100
+		SetGlobal("Scheisse2","ar1515",1)
+		StartDialog("RandallJ",Player1)
+END
+
+

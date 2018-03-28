@@ -1,0 +1,41 @@
+MTAN /Merilith/
+***
+						SOUND
+ATTACK          		IWTAN01 IWTAN02 IWTAN03A
+ATTACK          		2 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		IWTAN07 IWTAN08
+DAMAGE          		0 0
+DIE             		IWTAN09A IWTAN09B
+DIE             		0 0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		IWTAN03A IWTAN03B IWTAN05B
+ATTACK_SLASH    		2 2 0
+ATTACK_BACKSLASH		IWTAN04A IWTAN04B nosound
+ATTACK_BACKSLASH		2 2 0
+ATTACK_JAB      		IWTAN05A IWTAN11A IWTAN11B
+ATTACK_JAB      		0 0 0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry			IWTAN01 IWTAN02
+Battle_Cry			0 0
+Selection                       IWTAN01
+Selection                       0

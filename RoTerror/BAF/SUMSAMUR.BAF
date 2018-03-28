@@ -1,0 +1,15 @@
+IF
+	OR(4)
+		See("Garrax2")
+		See("Garrax3")
+		See("Garrax4")
+		See("Garrax5")
+THEN
+	RESPONSE #100
+		AttackReevaluate("Garrax2",10)
+		AttackReevaluate("Garrax3",10)
+		AttackReevaluate("Garrax4",10)
+		AttackReevaluate("Garrax5",10)
+END
+
+

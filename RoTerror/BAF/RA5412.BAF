@@ -1,0 +1,41 @@
+IF
+	Global("Journal","RA5412",0)
+THEN
+	RESPONSE #100
+		EraseJournalEntry(@573330)
+		AddJournalEntry(@573332,QUEST_DONE)
+		SetGlobal("Journal","RA5412",1)
+END
+
+IF
+	Global("MyDragonTalks","RA5412",1)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly("IwdDrg1",ENEMY)
+		ChangeEnemyAlly("IwdDrg2",ENEMY)
+		ChangeEnemyAlly("IwdDrg3",ENEMY)
+		SetGlobal("MyDragonTalks","RA5412",2)
+END
+
+IF
+	Dead("IwdDrg5") // The Great One
+	OR(3)
+		Global("MyDragonTalks","RA5412",0)
+		Global("MyDragonTalks","RA5412",1)
+		Global("MyDragonTalks","RA5412",2)
+THEN
+	RESPONSE #100
+		SetGlobal("MyDragonTalks","RA5412",3)
+END
+
+IF
+	Global("MyDragonTalks","RA5412",4)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly("IwdDrg1",ENEMY)
+		ChangeEnemyAlly("IwdDrg2",ENEMY)
+		ChangeEnemyAlly("IwdDrg3",ENEMY)
+		SetGlobal("MyDragonTalks","RA5412",5)
+END
+
+

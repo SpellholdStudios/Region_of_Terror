@@ -1,0 +1,21 @@
+IF
+	Global("Brothertimeriwd","GLOBAL",1)
+	GlobalTimerExpired("Brotheriwd","GLOBAL")
+	!GlobalTimerExpired("Brotiwd22","GLOBAL")
+	OR(6)
+		Range(Player1,50)
+		Range(Player2,50)
+		Range(Player3,50)
+		Range(Player4,50)
+		Range(Player5,50)
+		Range(Player6,50)
+THEN
+	RESPONSE #100
+		CreateCreature("BreTor1",[1283.585],12) // Torvald
+		CreateCreature("BreFr1",[1383.583],5) // Frost Giant
+		CreateCreature("BreFr2",[1385.637],4) // Frost Giant
+		SmallWait(1)
+		SetGlobal("Brothertimeriwd","GLOBAL",5)
+END
+
+

@@ -1,0 +1,47 @@
+IF
+	Global("CreatinHamm4","GLOBAL",1)
+	GlobalTimerExpired("HammCrea5","GLOBAL")
+THEN
+	RESPONSE #100
+		PlaySong(34)
+		CreateCreature("Hammr4",[533.397],2) // Haman
+		CreateCreature("HamAra3",[477.441],9) // Aragon
+		CreateCreature("HamJen3",[533.447],8) // Jenave
+		CreateCreature("HamRob3",[641.403],4) // Rob
+		CreateCreature("HamMan3",[427.403],12) // Manev
+		CreateCreature("HamOlg3",[363.411],12) // Olga
+		SetGlobal("Hammermeetings","GLOBAL",8)
+		SetGlobal("CreatinHamm4","GLOBAL",2)
+END
+
+IF
+	Global("CreatinHamm4","GLOBAL",2)
+	Delay(8)
+THEN
+	RESPONSE #100
+		ActionOverride("HamAra3",DisplayStringHead(Myself,@571421))
+		ActionOverride("HamAra3",FaceObject("Hammr4"))
+		ActionOverride("HamMan3",DisplayStringHead(Myself,@571421))
+		ActionOverride("HamMan3",FaceObject("Hammr4"))
+		ActionOverride("HamRob3",DisplayStringHead(Myself,@571421))
+		ActionOverride("HamRob3",FaceObject("Hammr4"))
+		ActionOverride("HamOlg3",DisplayStringHead(Myself,@571421))
+		ActionOverride("HamOlg3",FaceObject("Hammr4"))
+		ActionOverride("HamJen3",DisplayStringHead(Myself,@571421))
+		ActionOverride("HamJen3",FaceObject("Hammr4"))
+END
+
+IF
+	Global("dsaskjfldfg","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ActionOverride("Hammr4",DestroySelf())
+		ActionOverride("HamAra3",DestroySelf())
+		ActionOverride("HamMan3",DestroySelf())
+		ActionOverride("HamRob3",DestroySelf())
+		ActionOverride("HamOlg3",DestroySelf())
+		ActionOverride("HamJen3",DestroySelf())
+		SetGlobal("dsaskjfldfg","GLOBAL",3)
+END
+
+

@@ -1,0 +1,6 @@
+BEGIN ~RODGER2~
+
+IF ~Global("Clobsson","GLOBAL",8)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXIT
+END

@@ -1,0 +1,11 @@
+IF
+	PartyHasItem("ArDiam") // Rare Diamond
+	Global("Gotdiamnd","RR3105",0)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("Gotdiamnd","RR3105",1)
+		StartDialog("ArlTrav",[PC])
+END
+
+

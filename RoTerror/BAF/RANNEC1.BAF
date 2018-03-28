@@ -1,0 +1,11 @@
+IF
+	Global("Speak","LOCALS",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@573991)
+		Wait(1)
+		Enemy()
+		SetGlobal("Speak","LOCALS",1)
+END
+
+

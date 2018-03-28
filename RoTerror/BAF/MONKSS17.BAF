@@ -1,0 +1,37 @@
+IF
+	Global("Firsttoshout","LOCALS",0)
+	Global("Attackfrom2","RA5602",0)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@573068)
+		FaceObject(LastSeenBy(Myself))
+		Wait(1)
+		MoveToPoint([599.1581])
+		SetGlobal("Firsttoshout","LOCALS",1)
+END
+
+IF
+	Global("Firsttoshout","LOCALS",1)
+	Global("Attackfrom2","RA5602",0)
+	Delay(12)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@573070)
+		FaceObject(LastSeenBy(Myself))
+END
+
+

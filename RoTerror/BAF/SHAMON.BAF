@@ -1,0 +1,9 @@
+IF
+	Global("Sfquestbd","GLOBAL",28)
+	Range(Player1,25)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+

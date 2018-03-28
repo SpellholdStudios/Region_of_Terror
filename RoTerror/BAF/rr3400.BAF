@@ -1,0 +1,66 @@
+IF
+	Global("EraQuest","GLOBAL",3)
+	Global("Idealertms","RR3400",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CasTre1",[727.3283],10) // Perrim Haybath
+		CreateCreature("CasTre2",[649.3269],11) // Perrim's Son
+		CreateCreature("CasTre3",[721.3349],9) // Perrim's Son
+		CreateCreature("CasTre4",[814.3204],13) // Mercenary
+		CreateCreature("CasTre5",[884.3243],5) // Mercenary
+		CreateCreature("CasTre6",[570.3355],10) // Mercenary
+		ActionOverride("Cyclead",DestroySelf())
+		ActionOverride("Cyclop2",Kill(Myself))
+		ActionOverride("Cyclop3",Kill(Myself))
+		ActionOverride("Cyclop4",Kill(Myself))
+		SetGlobal("Idealertms","RR3400",1)
+END
+
+IF
+	Global("Idealertms","RR3400",2)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly("CasTre1",ENEMY)
+		ChangeEnemyAlly("CasTre2",ENEMY)
+		ChangeEnemyAlly("CasTre3",ENEMY)
+		ChangeEnemyAlly("CasTre4",ENEMY)
+		ChangeEnemyAlly("CasTre5",ENEMY)
+		ChangeEnemyAlly("CasTre6",ENEMY)
+		SetGlobal("Idealertms","RR3400",5)
+END
+
+IF
+	Dead("CasTre1") // Perrim Haybath
+	Dead("CasTre2") // Perrim's Son
+	Dead("CasTre3") // Perrim's Son
+	Dead("CasTre4") // Mercenary
+	Dead("CasTre5") // Mercenary
+	Dead("CasTre6") // Mercenary
+	Global("Theyalldied","RR3400",0)
+THEN
+	RESPONSE #100
+		SetGlobal("EraQuest","GLOBAL",6)
+		SetGlobal("Theyalldied","RR3400",1)
+END
+
+IF
+	Global("Idealertms","RR3400",4)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		SmallWait(5)
+		ActionOverride("CasTre1",EscapeArea())
+		ActionOverride("CasTre2",EscapeArea())
+		ActionOverride("CasTre3",EscapeArea())
+		ActionOverride("CasTre4",EscapeArea())
+		ActionOverride("CasTre5",EscapeArea())
+		ActionOverride("CasTre6",EscapeArea())
+		Wait(2)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("EraQuest","GLOBAL",6)
+		SetGlobal("Idealertms","RR3400",5)
+END
+
+

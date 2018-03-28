@@ -1,0 +1,251 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat4","RA5002",0)
+	!Global("Blockact4","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[2754.2261])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld1",[2754.2261],10) // Elder Orb
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2816.2295])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld2",[2816.2295],9) // Elder Orb
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2902.2313])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld3",[2902.2313],8) // Elder Orb
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2986.2317])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld4",[2986.2317],7) // Elder Orb
+		Wait(1)
+		SetGlobal("StartBat4","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat4","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[2754.2261])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld1",[2754.2261],10) // Elder Orb
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodEld1",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[2816.2295])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld2",[2816.2295],9) // Elder Orb
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2902.2313])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld3",[2902.2313],8) // Elder Orb
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2986.2317])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld4",[2986.2317],7) // Elder Orb
+		Wait(1)
+		SetGlobal("StartBat4","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat4","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[2754.2261])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld1",[2754.2261],10) // Elder Orb
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodEld1",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[2816.2295])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld2",[2816.2295],9) // Elder Orb
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2902.2313])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld3",[2902.2313],8) // Elder Orb
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2986.2317])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld4",[2986.2317],7) // Elder Orb
+		Wait(1)
+		SetGlobal("StartBat4","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat4","RA5002",0)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[2754.2261])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld1",[2754.2261],10) // Elder Orb
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodEld1",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[2816.2295])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld2",[2816.2295],9) // Elder Orb
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2902.2313])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld3",[2902.2313],8) // Elder Orb
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2986.2317])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld4",[2986.2317],7) // Elder Orb
+		Wait(1)
+		SetGlobal("StartBat4","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat4","RA5002",0)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[2754.2261])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld1",[2754.2261],10) // Elder Orb
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodEld1",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[2816.2295])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld2",[2816.2295],9) // Elder Orb
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2902.2313])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld3",[2902.2313],8) // Elder Orb
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2986.2317])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld4",[2986.2317],7) // Elder Orb
+		Wait(1)
+		SetGlobal("StartBat4","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat4","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[2754.2261])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld1",[2754.2261],10) // Elder Orb
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodEld1",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[2816.2295])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld2",[2816.2295],9) // Elder Orb
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2902.2313])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld3",[2902.2313],8) // Elder Orb
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[2986.2317])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodEld4",[2986.2317],7) // Elder Orb
+		Wait(1)
+		SetGlobal("StartBat4","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+	Global("StartBat4","RA5002",0)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702) // You are too far away to use that.
+END
+
+

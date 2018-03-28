@@ -1,0 +1,101 @@
+BEGIN ~ERANDA~
+
+IF ~NumTimesTalkedTo(0)
+Global("Cantto","RR3451",1)
+!Dead("Olmar2")~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 2
+  IF ~~ THEN REPLY @2 GOTO 5
+  IF ~~ THEN REPLY @3 GOTO 9
+  IF ~~ THEN REPLY @4 GOTO 12
+  IF ~~ THEN REPLY @5 EXIT
+END
+
+IF ~NumTimesTalkedToGT(0)
+Global("Cantto","RR3451",1)
+!Dead("Olmar2")~ THEN BEGIN 1
+  SAY @6
+  IF ~~ THEN REPLY @7 GOTO 2
+  IF ~~ THEN REPLY @8 GOTO 5
+  IF ~~ THEN REPLY @9 GOTO 9
+  IF ~~ THEN REPLY @10 GOTO 12
+  IF ~~ THEN REPLY @11 EXIT
+END
+
+IF ~~ THEN BEGIN 2 // from: 13.0 1.0 0.0
+  SAY @12
+  IF ~~ THEN GOTO 3
+END
+
+IF ~~ THEN BEGIN 3 // from: 2.0
+  SAY @13
+  IF ~~ THEN GOTO 4
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.0
+  SAY @14
+  IF ~~ THEN REPLY @15 GOTO 13
+  IF ~~ THEN REPLY @16 EXIT
+END
+
+IF ~~ THEN BEGIN 5 // from: 13.1 1.1 0.1
+  SAY @17
+  IF ~~ THEN GOTO 6
+END
+
+IF ~~ THEN BEGIN 6 // from: 5.0
+  SAY @18
+  IF ~~ THEN GOTO 7
+END
+
+IF ~~ THEN BEGIN 7 // from: 6.0
+  SAY @19
+  IF ~~ THEN GOTO 8
+END
+
+IF ~~ THEN BEGIN 8 // from: 7.0
+  SAY @20
+  IF ~~ THEN REPLY @21 GOTO 13
+  IF ~~ THEN REPLY @22 EXIT
+END
+
+IF ~~ THEN BEGIN 9 // from: 13.2 1.2 0.2
+  SAY @23
+  IF ~~ THEN GOTO 10
+END
+
+IF ~~ THEN BEGIN 10 // from: 9.0
+  SAY @24
+  IF ~~ THEN GOTO 11
+END
+
+IF ~~ THEN BEGIN 11 // from: 10.0
+  SAY @25
+  IF ~~ THEN REPLY @21 GOTO 13
+  IF ~~ THEN REPLY @26 EXIT
+END
+
+IF ~~ THEN BEGIN 12 // from: 13.3 1.3 0.3
+  SAY @27
+  IF ~~ THEN REPLY @21 GOTO 13
+  IF ~~ THEN REPLY @28 EXIT
+END
+
+IF ~~ THEN BEGIN 13 // from: 12.0 11.0 8.0 4.0
+  SAY @29
+  IF ~~ THEN REPLY @30 GOTO 2
+  IF ~~ THEN REPLY @31 GOTO 5
+  IF ~~ THEN REPLY @32 GOTO 9
+  IF ~~ THEN REPLY @10 GOTO 12
+  IF ~~ THEN REPLY @33 EXIT
+END
+
+IF ~Global("RuleCas","Global",1)~ THEN BEGIN 14
+  SAY @34
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("RuleEra","RR3401",1)~ THEN BEGIN 15
+  SAY @35
+  IF ~~ THEN EXIT
+END

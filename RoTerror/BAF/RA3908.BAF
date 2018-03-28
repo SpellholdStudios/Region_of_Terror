@@ -1,0 +1,68 @@
+IF
+	Global("Twodrunkm","RA3908",0)
+	InActiveArea("MVill3")
+	InActiveArea("MVill4")
+THEN
+	RESPONSE #100
+		Wait(2)
+		ActionOverride("MVill3",DisplayStringHead(Myself,@566874))
+		Wait(5)
+		ActionOverride("MVill4",DisplayStringHead(Myself,@566875))
+		Wait(5)
+		ActionOverride("MVill3",DisplayStringHead(Myself,@566876))
+		Wait(5)
+		ActionOverride("MVill4",DisplayStringHead(Myself,@566877))
+		Wait(5)
+		ActionOverride("MVill3",DisplayStringHead(Myself,@566878))
+		Wait(5)
+		SetGlobalTimer("Thetwoman","RA3908",ONE_DAY)
+		SmallWait(1)
+		SetGlobal("Twodrunkm","RA3908",1)
+	RESPONSE #100
+		Wait(2)
+		ActionOverride("MVill3",DisplayStringHead(Myself,@566879))
+		Wait(5)
+		ActionOverride("MVill4",DisplayStringHead(Myself,@566880))
+		Wait(5)
+		ActionOverride("MVill3",DisplayStringHead(Myself,@566881))
+		Wait(5)
+		ActionOverride("MVill4",DisplayStringHead(Myself,@566882))
+		Wait(5)
+		SetGlobalTimer("Thetwoman","RA3908",ONE_DAY)
+		SmallWait(1)
+		SetGlobal("Twodrunkm","RA3908",1)
+	RESPONSE #100
+		Wait(2)
+		ActionOverride("MVill3",DisplayStringHead(Myself,@566883))
+		Wait(5)
+		ActionOverride("MVill4",DisplayStringHead(Myself,@566884))
+		Wait(5)
+		ActionOverride("MVill3",DisplayStringHead(Myself,@566885))
+		Wait(5)
+		ActionOverride("MVill4",DisplayStringHead(Myself,@566886))
+		Wait(5)
+		SetGlobalTimer("Thetwoman","RA3908",ONE_DAY)
+		SmallWait(1)
+		SetGlobal("Twodrunkm","RA3908",1)
+	RESPONSE #100
+		Wait(2)
+		ActionOverride("MVill3",DisplayStringHead(Myself,@566898))
+		Wait(5)
+		ActionOverride("MVill4",DisplayStringHead(Myself,@566888))
+		Wait(5)
+		ActionOverride("MVill3",DisplayStringHead(Myself,@566889))
+		Wait(5)
+		SetGlobalTimer("Thetwoman","RA3908",ONE_DAY)
+		SmallWait(1)
+		SetGlobal("Twodrunkm","RA3908",1)
+END
+
+IF
+	GlobalTimerExpired("Thetwoman","RA3908")
+	Global("Twodrunkm","RA3908",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Twodrunkm","RA3908",0)
+END
+
+

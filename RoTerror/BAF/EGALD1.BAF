@@ -1,0 +1,19 @@
+IF
+	Global("Drizztiwdornot","GLOBAL",2)
+THEN
+	RESPONSE #100
+		MoveToObjectNoInterrupt(Player1)
+		SmallWait(1)
+		SetGlobal("Drizztiwdornot","GLOBAL",3)
+END
+
+IF
+	Range(Player1,10)
+	Global("Drizztiwdornot","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("Drizztiwdornot","GLOBAL",4)
+		StartDialogueNoSet(Player1)
+END
+
+

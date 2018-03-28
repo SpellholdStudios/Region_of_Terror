@@ -1,0 +1,32 @@
+IF
+	True()
+//	Global("AfOlmi","LOCALS",0)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(2)
+		ActionOverride("Olmar3",DestroySelf())
+		SmallWait(1)
+		LeaveAreaLUA("RR3451","",[673.614],6)
+		ActionOverride(Player2,LeaveAreaLUA("RR3451","",[645.633],6))
+		ActionOverride(Player3,LeaveAreaLUA("RR3451","",[693.593],6))
+		ActionOverride(Player4,LeaveAreaLUA("RR3451","",[671.646],6))
+		ActionOverride(Player5,LeaveAreaLUA("RR3451","",[695.634],6))
+		ActionOverride(Player6,LeaveAreaLUA("RR3451","",[716.609],6))
+		Wait(1)
+		ActionOverride("Talavan",DestroySelf())
+		ActionOverride("Eranda",DestroySelf())
+		ActionOverride("Lando",DestroySelf())
+		CreateCreature("Olmar4",[620.562],13) // Chieftain Olmar
+		CreateCreature("Ilhan3",[594.587],13) // Ilhan
+		Wait(1)
+		SetGlobal("AfOlmi","LOCALS",1)
+		SetGlobal("DesIlhan","GLOBAL",1)
+		FadeFromColor([20.0],0)
+		EndCutSceneMode()
+		UnhideGUI()
+		RestParty()
+END
+
+

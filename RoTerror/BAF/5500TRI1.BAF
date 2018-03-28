@@ -1,0 +1,129 @@
+IF
+	GlobalLT("JoinTheCult","GLOBAL",5)
+	Clicked([ANYONE])
+	!Dead("CultBe1") // Matthew Wyndon
+	!Dead("CultBe2") // Cult Priest
+	CombatCounter(0)
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		ActionOverride("CultBe2",DisplayStringHead(Myself,@573412))
+END
+
+IF
+	GlobalLT("JoinTheCult","GLOBAL",5)
+	Clicked([ANYONE])
+	Dead("CultBe1") // Matthew Wyndon
+	!Dead("CultBe2") // Cult Priest
+	CombatCounter(0)
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		ActionOverride("CultBe2",DisplayStringHead(Myself,@573412))
+END
+
+IF
+	GlobalLT("JoinTheCult","GLOBAL",5)
+	Clicked([ANYONE])
+	!Dead("CultBe1") // Matthew Wyndon
+	Dead("CultBe2") // Cult Priest
+	CombatCounter(0)
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		ActionOverride("CultBe1",DisplayStringHead(Myself,@573412))
+END
+
+IF
+	GlobalLT("JoinTheCult","GLOBAL",5)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	!CombatCounter(0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+END
+
+IF
+	GlobalLT("JoinTheCult","GLOBAL",5)
+	Clicked([ANYONE])
+	Dead("CultBe1") // Matthew Wyndon
+	Dead("CultBe2") // Cult Priest
+	CombatCounter(0)
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUA("RA5106","",[247.302],0))
+		ActionOverride(Player2,LeaveAreaLUA("RA5106","",[248.302],0))
+		ActionOverride(Player3,LeaveAreaLUA("RA5106","",[249.302],0))
+		ActionOverride(Player4,LeaveAreaLUA("RA5106","",[247.303],0))
+		ActionOverride(Player5,LeaveAreaLUA("RA5106","",[247.304],0))
+		ActionOverride(Player6,LeaveAreaLUA("RA5106","",[247.305],0))
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",5)
+	!Global("MtoCult2","GLOBAL",1)
+	!Global("MtCult2","GLOBAL",1)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUA("RA5100","",[2232.1435],4))
+		ActionOverride(Player2,LeaveAreaLUA("RA5100","",[2233.1435],4))
+		ActionOverride(Player3,LeaveAreaLUA("RA5100","",[2234.1435],4))
+		ActionOverride(Player4,LeaveAreaLUA("RA5100","",[2235.1438],4))
+		ActionOverride(Player5,LeaveAreaLUA("RA5100","",[2235.1437],4))
+		ActionOverride(Player6,LeaveAreaLUA("RA5100","",[2235.1436],4))
+END
+
+IF
+	Global("JoinTheCult","GLOBAL",6)
+	!Global("MtoCult2","GLOBAL",1)
+	!Global("MtCult2","GLOBAL",1)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUA("RA5100","",[2232.1435],4))
+		ActionOverride(Player2,LeaveAreaLUA("RA5100","",[2233.1435],4))
+		ActionOverride(Player3,LeaveAreaLUA("RA5100","",[2234.1435],4))
+		ActionOverride(Player4,LeaveAreaLUA("RA5100","",[2235.1438],4))
+		ActionOverride(Player5,LeaveAreaLUA("RA5100","",[2235.1437],4))
+		ActionOverride(Player6,LeaveAreaLUA("RA5100","",[2235.1436],4))
+END
+
+IF
+	GlobalGT("JoinTheCult","GLOBAL",4)
+	Global("MtoCult2","GLOBAL",1)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		SetGlobal("Thecoming","RA5500",0)
+		RestorePartyLocations()
+END
+
+IF
+	GlobalGT("JoinTheCult","GLOBAL",4)
+	Global("MtCult2","GLOBAL",1)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		SetGlobal("Thecoming","RA5500",0)
+		RestorePartyLocations()
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702)
+END
+
+

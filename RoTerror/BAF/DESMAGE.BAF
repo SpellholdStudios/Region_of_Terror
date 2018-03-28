@@ -1,0 +1,16 @@
+IF
+	Global("Shouttroll","LOCALS",0)
+	OR(6)
+		Range(Player1,25)
+		Range(Player2,25)
+		Range(Player3,25)
+		Range(Player4,25)
+		Range(Player5,25)
+		Range(Player6,25)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@568763)
+		SetGlobal("Shouttroll","LOCALS",1)
+END
+
+

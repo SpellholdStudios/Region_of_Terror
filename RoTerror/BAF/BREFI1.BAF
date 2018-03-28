@@ -1,0 +1,18 @@
+IF
+	OR(3)
+		!Global("Youcanleavenow","GLOBAL",0)
+		!Global("Youcanleavenow2","GLOBAL",0)
+		!Global("Youcanleavenow3","GLOBAL",0)
+	Global("Openthegate","RA5100",0)
+	CombatCounter(0)
+	OR(6)
+		Range(Player1,5)
+		Range(Player2,5)
+		Range(Player3,5)
+		Range(Player4,5)
+		Range(Player5,5)
+		Range(Player6,5)
+THEN
+	RESPONSE #100
+	StartDialogueNoSet(Player1)
+END

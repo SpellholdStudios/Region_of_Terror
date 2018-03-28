@@ -1,0 +1,19 @@
+IF
+	Global("DrizztKickedOut","GLOBAL",1)
+	Global("DrizztRegisOut","LOCALS",0)
+	Delay(3)
+THEN
+	RESPONSE #100
+		StartDialog("Reg2J",[PC])
+END
+
+IF
+	Global("DrizztKickedOut","GLOBAL",1)
+	Global("DrizztRegisOut","LOCALS",0)
+	Delay(3)
+THEN
+	RESPONSE #100
+		StartDialog("Reg2J",[PC])
+END
+
+

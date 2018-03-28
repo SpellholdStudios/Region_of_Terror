@@ -1,0 +1,18 @@
+IF
+	Global("Theendisnear","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Theendisnear","GLOBAL",3)
+		StartDialog("Catt2",[PC])
+END
+
+IF
+	Global("DrizztKickedOut","GLOBAL",1)
+	Global("DrizztCattiBrieOut","LOCALS",0)
+	Delay(2)
+THEN
+	RESPONSE #100
+		StartDialog("Catt2J",[PC])
+END
+
+

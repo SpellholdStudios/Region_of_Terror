@@ -1,0 +1,11 @@
+IF
+	Global("Deadminers","RA4600",0)
+THEN
+	RESPONSE #100
+		ActionOverride("DeadMin1",Kill(Myself))
+		ActionOverride("DeadMin2",Kill(Myself))
+		SmallWait(1)
+		SetGlobal("Deadminers","RA4600",1)
+END
+
+

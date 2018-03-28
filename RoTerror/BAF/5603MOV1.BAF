@@ -1,0 +1,14 @@
+IF
+	Clicked([ANYONE])
+	InParty("Wulfg2")
+THEN
+	RESPONSE #100
+		ActionOverride("Ulgarth",MoveBetweenAreas("RA5602",[2691.670],2))
+		ActionOverride("Beogorn",MoveBetweenAreas("RA5602",[2692.670],2))
+		ActionOverride("BarBar1",MoveBetweenAreas("RA5602",[2693.671],2))
+		ActionOverride("BarBar2",MoveBetweenAreas("RA5602",[2690.672],2))
+		ActionOverride("BarBar3",MoveBetweenAreas("RA5602",[2690.673],2))
+		ActionOverride("BarBar4",MoveBetweenAreas("RA5602",[2690.674],2))
+END
+
+

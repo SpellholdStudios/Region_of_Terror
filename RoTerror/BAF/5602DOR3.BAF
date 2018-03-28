@@ -1,0 +1,17 @@
+IF
+	Opened([ANYONE])
+	Global("Attackfrom2","RA5602",0)
+THEN
+	RESPONSE #100
+		ActionOverride("MonksS17",DisplayStringHead(Myself,@573069))
+		SmallWait(2)
+		CreateVisualEffectObject("SPFIREPI","MonksS17")
+		PlaySound("EFF_M13")
+		ActionOverride("MonksS17",Kill(Myself))
+		Wait(1)
+		SetGlobal("Attackfrom2","RA5602",1)
+		CreateCreature("Chxzar",[599.1581],13) // Chxzar
+		OpenDoor("DOOR10")
+END
+
+

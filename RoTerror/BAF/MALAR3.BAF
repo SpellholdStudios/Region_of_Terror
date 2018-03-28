@@ -1,0 +1,186 @@
+IF
+	Global("CreateGolems","RA5601",0)
+	OR(6)
+		Range(Player1,27)
+		Range(Player2,27)
+		Range(Player3,27)
+		Range(Player4,27)
+		Range(Player5,27)
+		Range(Player6,27)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFIRSDI",[2454.951])
+		CreateVisualEffect("SPFIRSDI",[2562.1007])
+		SmallWait(5)
+		CreateCreature("GolSaph1",[2454.951],2) // Sapphire Golem
+		CreateCreature("GolSaph2",[2572.1010],2) // Sapphire Golem
+		SetGlobal("CreateGolems","RA5601",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,WIZARD_STONE_SKIN)
+		ApplySpell(Myself,WIZARD_GLOBE_OF_INVULNERABILITY)
+		ApplySpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+		ApplySpell(Myself,WIZARD_PROTECTION_FROM_NORMAL_MISSILES)
+		SetGlobal("Prep","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	StateCheck(Myself,STATE_SILENCED)
+	HaveSpell(WIZARD_VOCALIZE)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_VOCALIZE)
+END
+
+IF
+	Detect([PC])
+	!See(LastSeenBy(Myself))
+	HaveSpell(WIZARD_TRUE_SIGHT)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_TRUE_SIGHT)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HasBounceEffects(Myself)
+	!HasImmunityEffects(Myself)
+	HaveSpell(WIZARD_SPELL_TURNING)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_SPELL_TURNING)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_STONE_SKIN)
+	CheckStatLT(Myself,1,STONESKINS)
+	HPGT(Myself,0)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_STONE_SKIN)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_NPC_SYMBOL_DEATH)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_NPC_SYMBOL_DEATH)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_METEOR_SWARM)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_METEOR_SWARM)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SPELL_TRAP)
+	Global("Prep","LOCALS",1)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_SPELL_TRAP)
+		SetGlobal("Prep","LOCALS",2)
+END
+
+IF
+	OR(2)
+		HasImmunityEffects(LastSeenBy(Myself))
+		HasBounceEffects(LastSeenBy(Myself))
+	HaveSpell(WIZARD_RUBY_RAY_OF_REVERSAL)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_RUBY_RAY_OF_REVERSAL)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_POWER_WORD_STUN)
+	HPLT(LastSeenBy(Myself),90)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_POWER_WORD_STUN)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_FINGER_OF_DEATH)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_FINGER_OF_DEATH)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_TRUE_SIGHT)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_TRUE_SIGHT)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_DISINTEGRATE)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_DISINTEGRATE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_INVISIBLE_STALKER)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_INVISIBLE_STALKER)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_ICE_STORM)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_ICE_STORM)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_ABI_DALZIMS_HORRID_WILTING)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_ABI_DALZIMS_HORRID_WILTING)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_INCENDIARY_CLOUD)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_INCENDIARY_CLOUD)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_ABSOLUTE_IMMUNITY)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_ABSOLUTE_IMMUNITY)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+

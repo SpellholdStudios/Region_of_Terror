@@ -1,0 +1,17 @@
+IF
+	Global("Razorbattle","GLOBAL",4)
+	Delay(1)
+THEN
+	RESPONSE #100
+		ActionOverride("Razor",DestroyItem("MINHP1")) // No such index
+		Wait(1)
+		ActionOverride("Razor",GiveItem("MINHP1","Randall")) // No such index
+		SmallWait(5)
+		ActionOverride("Randall",DestroyItem("MINHP1")) // No such index
+		SmallWait(5)
+		ActionOverride("Randall",Kill("Razor"))
+		SetGlobal("adslkjdfkjl","RA5701",1)
+		SetGlobal("Razorbattle","GLOBAL",5)
+END
+
+

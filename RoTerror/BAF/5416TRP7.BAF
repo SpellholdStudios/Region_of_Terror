@@ -1,0 +1,12 @@
+IF
+	Global("Trigger7","RA5416",0)
+	OR(2)
+		Entered([ANYONE])
+		Range([ANYONE],2)
+THEN
+	RESPONSE #100
+		CreateCreature("GolRuby1",[1199.1715],5) // Lesser Ruby Golem
+		SetGlobal("Trigger7","RA5416",1)
+END
+
+

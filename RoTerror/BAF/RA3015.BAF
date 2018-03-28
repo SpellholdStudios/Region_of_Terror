@@ -1,0 +1,9 @@
+IF
+	Global("DragGre","RA3015",0)
+THEN
+	RESPONSE #100
+		CreateCreature("GreenDrg",[1492.1430],7) // Andaxll'layah
+		SetGlobal("DragGre","RA3015",1)
+END
+
+

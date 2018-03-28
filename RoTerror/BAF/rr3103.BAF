@@ -1,0 +1,64 @@
+IF
+	Global("Eleanquest","GLOBAL",7)
+	Global("afgfag","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("EleMerch","GLOBAL",TEN_DAYS)
+		SetGlobal("afgfag","GLOBAL",1)
+END
+
+IF
+	GlobalTimerExpired("EleMerch","GLOBAL")
+	!Global("djjkfdajkf","GLOBAL",1)
+	Global("dfhdfsh","RR3103",0)
+THEN
+	RESPONSE #100
+		CreateCreature("Eleana2",[411.530],5) // Eleana
+		SetGlobal("dfhdfsh","RR3103",1)
+END
+
+IF
+	GlobalTimerExpired("Spawneleann","GLOBAL")
+	Global("Eleanquest","GLOBAL",15)
+THEN
+	RESPONSE #100
+		CreateCreature("Eleana3",[411.530],5) // Eleana
+		SetGlobal("Eleanquest","GLOBAL",16)
+END
+
+IF
+	Global("ZemirQuests","GLOBAL",13)
+THEN
+	RESPONSE #100
+		SetGlobal("ZemirQuests","GLOBAL",14)
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		StartCutScene("HighMage")
+//		Continue()
+END
+
+IF
+	Global("ZemirQuests","GLOBAL",16)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(2)
+		EndCutSceneMode()
+		RestParty()
+		SmallWait(1)
+		StartCutSceneMode()
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("ZemirQuests","GLOBAL",17)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("AHighMa3",StartDialogueNoSet(Player1))
+END
+
+

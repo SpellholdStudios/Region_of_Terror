@@ -1,0 +1,33 @@
+IF
+	Global("CreMar2","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CreMar2","GLOBAL",2)
+		CreateCreature("Marttin2",[707.775],13) // Brother Martin
+END
+
+IF
+	Global("Movtss","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SmallWait(2)
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("Movtss","GLOBAL",2)
+		ActionOverride(Player1,LeaveAreaLUA("RR3700","",[137.2134],9))
+		ActionOverride(Player2,LeaveAreaLUA("RR3700","",[169.2166],9))
+		ActionOverride(Player3,LeaveAreaLUA("RR3700","",[91.2168],9))
+		ActionOverride(Player4,LeaveAreaLUA("RR3700","",[127.2206],9))
+		ActionOverride(Player5,LeaveAreaLUA("RR3700","",[43.2202],9))
+		ActionOverride(Player6,LeaveAreaLUA("RR3700","",[75.2244],9))
+END
+
+IF
+	Global("Movtbl","GLOBAL",2)
+THEN
+	RESPONSE #100
+		FadeFromColor([20.0],0)
+		SetGlobal("Movtbl","GLOBAL",3)
+END
+
+

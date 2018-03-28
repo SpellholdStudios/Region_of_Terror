@@ -1,0 +1,41 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,5)
+	Global("MovUlm","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@565498))
+		Wait(5)
+		FadeToColor([20.0],0)
+		HideGUI()
+		Wait(1)
+		SetGlobal("Theendofallfights","GLOBAL",1)
+		SetGlobal("MovUlm","GLOBAL",1)
+		ActionOverride(Player1,LeaveAreaLUA("RA3010","",[476.1528],10))
+		ActionOverride(Player2,LeaveAreaLUA("RA3010","",[520.1500],10))
+		ActionOverride(Player3,LeaveAreaLUA("RA3010","",[460.1518],10))
+		ActionOverride(Player4,LeaveAreaLUA("RA3010","",[512.1492],10))
+		ActionOverride(Player5,LeaveAreaLUA("RA3010","",[526.1507],10))
+		ActionOverride(Player6,LeaveAreaLUA("RA3010","",[539.1480],10))
+		UnhideGUI()
+		FadeFromColor([20.0],0)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,5)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702)
+END
+
+IF
+	Global("MovUlm","GLOBAL",1)
+	Clicked([ANYONE])
+	Range(LastTrigger,5)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@565499))
+END
+
+

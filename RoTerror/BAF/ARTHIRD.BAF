@@ -1,0 +1,10 @@
+IF
+	Global("DrinksPot","LOCALS",0)
+	HPLT(Myself,40)
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		SetGlobal("DrinksPot","LOCALS",1)
+END
+
+

@@ -1,0 +1,67 @@
+IF
+	!Global("HermitQuests","GLOBAL",5)
+	Exists("BreHerm1")
+	Exists("BreHerm2")
+	TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		Deactivate("BreHerm1")
+		Activate("BreHerm2")
+END
+
+IF
+	!Global("HermitQuests","GLOBAL",5)
+	Exists("BreHerm1")
+	Exists("BreHerm2")
+	OR(3)
+		TimeOfDay(DAY)
+		TimeOfDay(DUSK)
+		TimeOfDay(MORNING)
+THEN
+	RESPONSE #100
+		Activate("BreHerm1")
+		Deactivate("BreHerm2")
+END
+
+IF
+	Dead("BreHerm1") // Hermit
+THEN
+	RESPONSE #100
+		ActionOverride("BreHerm2",DestroySelf())
+END
+
+IF
+	Dead("BreHerm2") // Hermit
+THEN
+	RESPONSE #100
+		ActionOverride("BreHerm1",DestroySelf())
+END
+
+IF
+	Global("HermitQuests","GLOBAL",5)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		ActionOverride("BreHerm1",MoveToPoint([441.189]))
+		FadeToColor([20.0],0)
+		Wait(2)
+		EndCutSceneMode()
+		RestParty()
+		SmallWait(1)
+		StartCutSceneMode()
+		SmallWait(1)
+		ActionOverride("BreHerm1",DestroySelf())
+		ActionOverride("BreHerm2",DestroySelf())
+		CreateCreatureImpassable("BreHerm3",[499.199],0) // Hermit
+		Wait(2)
+		ActionOverride(Player1,Unlock("5620Box"))
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("HermitQuests","GLOBAL",6)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

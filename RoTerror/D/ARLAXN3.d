@@ -1,0 +1,6 @@
+BEGIN ~ARLAXN3~
+
+IF ~Global("adsaf","LOCALS",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXIT
+END

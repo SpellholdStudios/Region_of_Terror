@@ -1,0 +1,18 @@
+BEGIN ~CADDER5~
+
+IF ~Global("CQuestActive","GLOBAL",17)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN DO ~EraseJournalEntry(@571233)
+EraseJournalEntry(@571235)
+EraseJournalEntry(@571236)~ SOLVED_JOURNAL @571237 EXTERN ~DRIZ2J~ 149
+END
+
+IF ~Global("CQuestActive","GLOBAL",18)~ THEN BEGIN 2
+  SAY @2
+  IF ~~ THEN EXIT
+END

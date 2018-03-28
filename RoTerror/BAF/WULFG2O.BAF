@@ -1,0 +1,56 @@
+IF
+	InParty(Myself)
+	ReputationGT(Player1,14)
+	Global("Wulfg2GoodRep","LOCALS",0)
+	CombatCounter(0)
+	See(Player1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	ReputationGT(Player1,16)
+	Global("Wulfg2GoodRep2","LOCALS",0)
+	CombatCounter(0)
+	See(Player1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	ReputationGT(Player1,20)
+	Global("Wulfg2GoodRep3","LOCALS",0)
+	CombatCounter(0)
+	See(Player1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	ReputationLT(Player1,6)
+	Global("Wulfg2BadRep","LOCALS",0)
+	CombatCounter(0)
+	See(Player1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty(Myself)
+	ReputationLT(Player1,3)
+	Global("Wulfg2BadRep2","LOCALS",0)
+	CombatCounter(0)
+	See(Player1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+

@@ -1,0 +1,70 @@
+BEGIN ~IWDDRG1~
+
+IF ~Global("MyDragonTalks","RA5412",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXTERN ~IWDDRG2~ 0
+END
+
+IF ~~ THEN BEGIN 1 // from:
+  SAY @0
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0
+  SAY @1
+  IF ~~ THEN EXTERN ~IWDDRG3~ 1
+END
+
+IF ~~ THEN BEGIN 3 // from:
+  SAY @2
+  IF ~~ THEN EXTERN ~IWDDRG3~ 3
+END
+
+IF ~~ THEN BEGIN 4 // from:
+  SAY @3
+  IF ~~ THEN REPLY @4 GOTO 5
+  IF ~~ THEN REPLY @5 GOTO 6
+  IF ~~ THEN REPLY @6 GOTO 7
+  IF ~~ THEN REPLY @7 EXTERN ~IWDDRG3~ 4
+  IF ~~ THEN REPLY @8 GOTO 8
+END
+
+IF ~~ THEN BEGIN 5 // from: 4.0
+  SAY @9
+  IF ~~ THEN EXTERN ~IWDDRG3~ 6
+END
+
+IF ~~ THEN BEGIN 6 // from: 4.1
+  SAY @10
+  IF ~~ THEN EXTERN ~IWDDRG3~ 8
+END
+
+IF ~~ THEN BEGIN 7 // from: 4.2
+  SAY @11
+  IF ~~ THEN EXTERN ~IWDDRG3~ 6
+END
+
+IF ~~ THEN BEGIN 8 // from: 4.4
+  SAY @12
+  IF ~~ THEN DO ~SetGlobal("MyDragonTalks","RA5412",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 9 // from:
+  SAY @13
+  IF ~~ THEN GOTO 10
+END
+
+IF ~~ THEN BEGIN 10 // from: 9.0
+  SAY @14
+  IF ~~ THEN DO ~SetGlobal("MyDragonTalks","RA5412",2)~ EXIT
+END
+
+IF ~~ THEN BEGIN 11 // from:
+  SAY @15
+  IF ~~ THEN EXTERN ~IWDDRG3~ 7
+END
+
+IF ~Global("MyDragonTalks","RA5412",3)~ THEN BEGIN 12
+  SAY @16
+  IF ~~ THEN DO ~SetGlobal("MyDragonTalks","RA5412",4)~ EXIT
+END

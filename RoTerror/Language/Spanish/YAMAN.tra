@@ -1,0 +1,3 @@
+@0    = ~Usando el Effect Maker puedes crear nuevos efectos en el juego. Los afectos son después añadidos a objetos o hechizos con el comando Use EFF. File (en la herramienta IEEP).~
+@1    = ~Por ejemplo, los efectos son usados si queréis que un tipo de criatura reciba más daño que las demás por el golpe de vuestra arma. Solo hay unas pocas cajas para llenar para hacer este tipo de cosas así que no deberíais tener muchos problemas.~
+@2    = ~Y oh, una probabilidad del 0 % - 100 % significa que vuestro efecto funcionará en cada golpe o hechizo. 0 % - 100 % significa siempre una posibilidad del 100 % exitosa.~

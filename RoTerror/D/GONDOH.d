@@ -1,0 +1,125 @@
+BEGIN ~GONDOH~
+
+IF ~NumTimesTalkedTo(0)
+Global("Monthroom","RA5104",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 GOTO 5
+  IF ~~ THEN REPLY @3 GOTO 7
+  IF ~~ THEN REPLY @4 GOTO 9
+END
+
+IF ~~ THEN BEGIN 1 // from: 19.0 8.0 6.0 0.0
+  SAY @5
+  IF ~~ THEN REPLY @6 GOTO 2
+  IF ~PartyGoldGT(99)~ THEN REPLY @7 DO ~TakePartyGold(100)~ GOTO 3
+  IF ~~ THEN REPLY @8 GOTO 9
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0
+  SAY @9
+  IF ~~ THEN DO ~StartStore("Bremen2",LastTalkedToBy())~ EXIT
+END
+
+IF ~~ THEN BEGIN 3 // from: 1.1
+  SAY @10
+  IF ~~ THEN REPLY @11 DO ~SetGlobal("Monthroom","RA5104",1)~ GOTO 4
+  IF ~~ THEN REPLY @12 DO ~SetGlobal("Monthroom","RA5104",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.0
+  SAY @13
+  IF ~~ THEN DO ~RestParty()~ EXIT
+END
+
+IF ~~ THEN BEGIN 5 // from: 19.1 8.1 0.1
+  SAY @14
+  IF ~~ THEN GOTO 6
+END
+
+IF ~~ THEN BEGIN 6 // from: 5.0
+  SAY @15
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @3 GOTO 7
+  IF ~~ THEN REPLY @16 GOTO 9
+END
+
+IF ~~ THEN BEGIN 7 // from: 19.2 6.1 0.2
+  SAY @17
+  IF ~~ THEN GOTO 8
+END
+
+IF ~~ THEN BEGIN 8 // from: 7.0
+  SAY @18
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 GOTO 5
+  IF ~~ THEN REPLY @16 GOTO 9
+END
+
+IF ~~ THEN BEGIN 9 // from: 19.3 8.2 6.2 1.2 0.3
+  SAY @19
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("Monthroom","RA5104",1)~ THEN BEGIN 10
+  SAY @20
+  IF ~~ THEN REPLY @21 GOTO 11
+  IF ~~ THEN REPLY @2 GOTO 15
+  IF ~~ THEN REPLY @3 GOTO 17
+  IF ~~ THEN REPLY @4 EXIT
+END
+
+IF ~~ THEN BEGIN 11 // from: 18.0 16.0 10.0
+  SAY @22
+  IF ~~ THEN REPLY @23 DO ~RestParty()~ EXIT
+  IF ~~ THEN REPLY @24 GOTO 12
+  IF ~PartyGoldGT(1)~ THEN REPLY @25 GOTO 13
+END
+
+IF ~~ THEN BEGIN 12 // from: 11.1
+  SAY @26
+  IF ~~ THEN DO ~RestParty()~ EXIT
+END
+
+IF ~~ THEN BEGIN 13 // from: 11.2
+  SAY @27
+  IF ~~ THEN DO ~TakePartyGold(2)~ GOTO 14
+END
+
+IF ~~ THEN BEGIN 14 // from: 13.0
+  SAY @28
+  IF ~~ THEN DO ~RestParty()~ EXIT
+END
+
+IF ~~ THEN BEGIN 15 // from: 18.1 10.1
+  SAY @29
+  IF ~~ THEN GOTO 16
+END
+
+IF ~~ THEN BEGIN 16 // from: 15.0
+  SAY @15
+  IF ~~ THEN REPLY @21 GOTO 11
+  IF ~~ THEN REPLY @3 GOTO 17
+  IF ~~ THEN REPLY @16 EXIT
+END
+
+IF ~~ THEN BEGIN 17 // from: 16.1 10.2
+  SAY @17
+  IF ~~ THEN GOTO 18
+END
+
+IF ~~ THEN BEGIN 18 // from: 17.0
+  SAY @18
+  IF ~~ THEN REPLY @21 GOTO 11
+  IF ~~ THEN REPLY @2 GOTO 15
+  IF ~~ THEN REPLY @16 EXIT
+END
+
+IF ~NumTimesTalkedToGT(0)
+Global("Monthroom","RA5104",0)~ THEN BEGIN 19
+  SAY @30
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 GOTO 5
+  IF ~~ THEN REPLY @3 GOTO 7
+  IF ~~ THEN REPLY @4 GOTO 9
+END

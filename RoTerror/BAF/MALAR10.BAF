@@ -1,0 +1,19 @@
+IF
+	Delay(20)
+	Global("Changeanim","LOCALS",0)
+THEN
+	RESPONSE #10
+		Polymorph(FIRE_RING)
+		SetGlobal("Changeanim","LOCALS",1)
+END
+
+IF
+	Delay(20)
+	Global("Changeanim","LOCALS",1)
+THEN
+	RESPONSE #10
+		Polymorph(FIRE_RING)
+		SetGlobal("Changeanim","LOCALS",0)
+END
+
+

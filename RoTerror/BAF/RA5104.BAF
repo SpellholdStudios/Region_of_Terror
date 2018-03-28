@@ -1,0 +1,35 @@
+IF
+	GlobalGT("PeoplesMorale","GLOBAL",9)
+	Exists("BreDru1")
+	Global("DeactivateDrunk","RA5104",0)
+THEN
+	RESPONSE #100
+		SetGlobal("DeactivateMerchants","RA5104",1)
+		Deactivate("BreDru1")
+END
+
+IF
+	GlobalLT("PeoplesMorale","GLOBAL",10)
+	Exists("BreDru1")
+	Global("DeactivateDrunk","RA5104",1)
+THEN
+	RESPONSE #100
+		SetGlobal("DeactivateDrunk","RA5104",0)
+		Activate("BreDru1")
+END
+
+IF
+	Global("BreVil7","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("BreVil7","GLOBAL",4)
+		ActionOverride("BreDru1",DestroySelf())
+END
+
+
+IF
+	Global("Knowabouttl","GLOBAL",999)
+THEN
+	RESPONSE #100
+		SetGlobal("Knowabouttl","GLOBAL",2)
+END

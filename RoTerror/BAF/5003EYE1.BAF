@@ -1,0 +1,18 @@
+IF
+	Global("CreaUnk","RA5003",0)
+	OR(6)
+		Range(Player1,80)
+		Range(Player2,80)
+		Range(Player3,80)
+		Range(Player4,80)
+		Range(Player5,80)
+		Range(Player6,80)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("ENCHAH",[754.1968])
+		Wait(1)
+		CreateCreature("GodUnk1",[754.1968],11) // Unknown
+		SetGlobal("CreaUnk","RA5003",1)
+END
+
+

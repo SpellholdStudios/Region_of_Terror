@@ -1,0 +1,31 @@
+BEGIN ~IWDDRG2~
+
+IF ~~ THEN BEGIN 0 // from:
+  SAY @0
+  IF ~~ THEN EXTERN ~IWDDRG3~ 0
+END
+
+IF ~~ THEN BEGIN 1 // from:
+  SAY @1
+  IF ~~ THEN EXTERN ~IWDDRG3~ 2
+END
+
+IF ~~ THEN BEGIN 2 // from:
+  SAY @2
+  IF ~~ THEN EXTERN ~IWDDRG3~ 5
+END
+
+IF ~~ THEN BEGIN 3 // from:
+  SAY @3
+  IF ~~ THEN EXTERN ~IWDDRG1~ 9
+END
+
+IF ~~ THEN BEGIN 4 // from:
+  SAY @4
+  IF ~~ THEN EXTERN ~IWDDRG1~ 11
+END
+
+IF ~~ THEN BEGIN 5 // from:
+  SAY @5
+  IF ~~ THEN EXTERN ~IWDDRG1~ 11
+END

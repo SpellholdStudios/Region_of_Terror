@@ -1,0 +1,17 @@
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Global("TempleShout3100","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("TempleShout3100","GLOBAL",1)
+END
+
+IF
+	Global("TempleShout3100","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+

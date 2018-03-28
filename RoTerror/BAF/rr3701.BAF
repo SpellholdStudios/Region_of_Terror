@@ -1,0 +1,71 @@
+IF
+	Global("DlCadd","GLOBAL",1)
+	InParty("Alissa1")
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		SetGlobalTimer("WritofCa","RR3701",ONE_DAY)
+		SmallWait(5)
+		ActionOverride("Alissa1",LeaveParty())
+		SmallWait(3)
+		ActionOverride("Cadderly",EscapeArea())
+		ActionOverride("Alissa1",EscapeArea())
+		Wait(3)
+		SetGlobal("FuckIhatethis","RR3701",1)
+		SetGlobal("DlCadd","GLOBAL",2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("DlCadd","GLOBAL",2)
+	GlobalTimerExpired("WritofCa","RR3701")
+	Global("FuckIhatethis","RR3701",1)
+THEN
+	RESPONSE #100
+		CreateCreature("Cadderly",[714.1289],10) // Cadderly
+		MoveGlobalObject("Alissa1",Player1)  //was Alissa1
+		SetGlobal("DlCadd","GLOBAL",3)
+END
+
+IF
+	Global("DlCadd","GLOBAL",1)
+	!InParty("Alissa1")
+THEN
+	RESPONSE #100
+		SetGlobalTimer("WritofCa","RR3701",ONE_DAY)
+		ActionOverride("Cadderly",EscapeArea())
+		SetGlobal("DlCadd","GLOBAL",2)
+END
+
+IF
+	Global("DlCadd","GLOBAL",2)
+	GlobalTimerExpired("WritofCa","RR3701")
+	!InParty("Alissa1")
+THEN
+	RESPONSE #100
+		CreateCreature("Cadderly",[714.1289],10) // Cadderly
+		SetGlobal("DlCadd","GLOBAL",3)
+END
+
+IF
+	Global("DlCadd","GLOBAL",5)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("DlCadd","GLOBAL",7)
+		ActionOverride(Player1,LeaveAreaLUA("RR3702","",[1379.893],10))
+		ActionOverride(Player2,LeaveAreaLUA("RR3702","",[1301.758],12))
+		ActionOverride(Player3,LeaveAreaLUA("RR3702","",[1578.836],4))
+		ActionOverride(Player4,LeaveAreaLUA("RR3702","",[1412.846],10))
+		ActionOverride(Player5,LeaveAreaLUA("RR3702","",[1386.756],13))
+		ActionOverride(Player6,LeaveAreaLUA("RR3702","",[1521.790],3))
+END
+
+

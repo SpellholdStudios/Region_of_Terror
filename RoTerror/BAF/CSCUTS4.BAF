@@ -1,0 +1,47 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		StorePartyLocations()
+		Wait(1)
+		LeaveAreaLUA("RR9000","",[0.0],2)
+		Wait(2)
+		CreateCreature("Enteri3C",[422.344],14) // Artemis Entreri
+		CreateCreature("Jarlax3C",[467.330],15) // Jarlaxle
+		Wait(1)
+		ActionOverride("Enteri3C",FaceObject("Jarlax3C"))
+		ActionOverride("Jarlax3C",FaceObject("Enteri3C"))
+		FadeFromColor([20.0],0)
+		Wait(1)
+		ActionOverride("Jarlax3C",DisplayStringHead(Myself,@574784))
+		Wait(5)
+		ActionOverride("Enteri3C",DisplayStringHead(Myself,@574785))
+		Wait(7)
+		ActionOverride("Jarlax3C",DisplayStringHead(Myself,@574789))
+		Wait(7)
+		ActionOverride("Jarlax3C",DisplayStringHead(Myself,@574790))
+		Wait(7)
+		ActionOverride("Enteri3C",DisplayStringHead(Myself,@574791))
+		Wait(7)
+		ActionOverride("Jarlax3C",DisplayStringHead(Myself,@574792))
+		Wait(6)
+		ActionOverride("Enteri3C",DisplayStringHead(Myself,@574793))
+		Wait(4)
+		FadeToColor([20.0],0)
+		Wait(2)
+		ActionOverride("Enteri3C",DestroySelf())
+		ActionOverride("Jarlax3C",DestroySelf())
+		Wait(1)
+		RestorePartyLocations()
+		SmallWait(5)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("CSCutS4","GLOBAL",2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

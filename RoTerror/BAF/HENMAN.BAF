@@ -1,0 +1,25 @@
+IF
+	Global("MettHenm","LOCALS",0)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		SetGlobal("MettHenm","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("MattHalm","LOCALS",0)
+THEN
+	RESPONSE #100
+		MoveToPoint([1350.330])
+		SmallWait(1)
+		SetGlobal("MattHalm","LOCALS",1)
+END
+
+

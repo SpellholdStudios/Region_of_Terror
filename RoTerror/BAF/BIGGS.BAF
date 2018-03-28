@@ -1,0 +1,10 @@
+IF
+	Global("Piggs","LOCALS",0)
+	See(Player1)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+		SetGlobal("Piggs","LOCALS",1)
+END
+
+

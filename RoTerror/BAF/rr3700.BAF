@@ -1,0 +1,25 @@
+IF
+	Global("Movtss","GLOBAL",2)
+THEN
+	RESPONSE #100
+		FadeFromColor([20.0],0)
+		SetGlobal("Movtss","GLOBAL",3)
+END
+
+IF
+	Global("Movtbl","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SmallWait(2)
+		FadeToColor([20.0],0)
+		Wait(3)
+		SetGlobal("Movtbl","GLOBAL",2)
+		ActionOverride(Player1,LeaveAreaLUA("ar1600","",[820.771],2))
+		ActionOverride(Player2,LeaveAreaLUA("ar1600","",[880.762],2))
+		ActionOverride(Player3,LeaveAreaLUA("ar1600","",[900.762],2))
+		ActionOverride(Player4,LeaveAreaLUA("ar1600","",[880.782],2))
+		ActionOverride(Player5,LeaveAreaLUA("ar1600","",[900.782],2))
+		ActionOverride(Player6,LeaveAreaLUA("ar1600","",[890.792],2))
+END
+
+

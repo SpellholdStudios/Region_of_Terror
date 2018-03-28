@@ -1,0 +1,22 @@
+IF
+	Global("ArenaRews","GLOBAL",14)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@567643)
+		Wait(2)
+		GiveItemCreate("Shldoth",Player1,0,0,0) // Shield of Thor +4
+		GiveItemCreate("HamofMor",Player1,0,0,0) // Hammer of Moradin +4
+		SetGlobal("ArenaRews","GLOBAL",15)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702) // You are too far away to use that.
+END
+
+

@@ -1,0 +1,11 @@
+IF
+	Global("Frmrkill","GLOBAL",2)
+	Global("killallhere","RA4503",0)
+THEN
+	RESPONSE #100
+		ActionOverride("ArfrmrW2",Kill(Myself))
+		ActionOverride("ArfrmrB1",Kill(Myself))
+		SetGlobal("killallhere","RA4503",1)
+END
+
+

@@ -1,0 +1,9 @@
+IF
+	Clicked([ANYONE])
+	Global("CQuestActive","GLOBAL",12)
+THEN
+	RESPONSE #100
+		ActionOverride("CadPri15",MoveBetweenAreas("RA3709",[1091.1570],1))
+END
+
+

@@ -1,0 +1,6 @@
+BEGIN ~ESATH3~
+
+IF ~Global("Esathquest","GLOBAL",6)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXIT
+END

@@ -1,0 +1,10 @@
+IF
+	Global("GrtRid","RR3303",1)
+	PartyHasItem("RidSt2") // Riddle Stone
+THEN
+	RESPONSE #100
+		SetGlobal("GrtRid","RR3303",2)
+		CreateItem("RidSt3",0,0,0) // Riddle Stone
+END
+
+

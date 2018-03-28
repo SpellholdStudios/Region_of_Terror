@@ -1,0 +1,110 @@
+IF
+	Global("Clobsson","GLOBAL",2)
+	Global("Creacre","AR0500",0)
+THEN
+	RESPONSE #100
+		CreateCreature("Robemer",[4060.264],12) // Merchant
+		SetGlobal("Creacre","AR0500",1)
+END
+
+IF
+	Global("Crecrie","AR0500",0)
+THEN
+	RESPONSE #100
+		CreateCreature("TellAre3",[333.3203],2) // Town Crier
+		SetGlobal("Crecrie","AR0500",1)
+END
+
+IF
+	Global("CreatinHamm2","GLOBAL",2)
+	GlobalTimerExpired("HammCrea3","GLOBAL")
+THEN
+	RESPONSE #100
+		CreateCreature("Hammr2",[1688.2719],9) // Haman
+		CreateCreature("HamAra1",[1652.2813],12) // Aragon
+		CreateCreature("HamJen1",[1614.2779],2) // Jenave
+		CreateCreature("HamRob1",[1616.2741],3) // Rob
+		CreateCreature("HamMan1",[1668.2783],7) // Manev
+		CreateCreature("HamOlg1",[1644.2759],13) // Olga
+		SetGlobal("CreatinHamm2","GLOBAL",3)
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		MoveViewObject("HamMan1",INSTANT)
+		ActionOverride("Hammr2",FaceObject("HamMan1"))
+		Wait(1)
+		ActionOverride("HamMan1",UseItem("POTN10",Myself)) // Potion of Invisibility
+		Wait(1)
+		MoveViewObject("HamOlg1",VERY_FAST)
+		Wait(4)
+		ActionOverride("HamOlg1",DestroyItem("SW2H02")) // Two Handed Sword +1
+		SmallWait(5)
+		ActionOverride("HamOlg1",DisplayStringHead(Myself,@571351)) // What!? Where did me sword go?
+		Wait(3)
+		ActionOverride("HamMan1",DisplayStringHead(Myself,@571352)) // Here it is, Olga.
+		SmallWait(1)
+		ActionOverride("HamOlg1",FaceObject("HamMan1"))
+		Wait(3)
+		ActionOverride("HamOlg1",EquipMostDamagingMelee())
+		ActionOverride("HamOlg1",DisplayStringHead(Myself,@571353)) // Dirty thief!
+		Wait(3)
+		SetGlobal("Hammermeetings","GLOBAL",3)
+		SmallWait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Hammr2",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("Hammermeetings","GLOBAL",4)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		MoveViewObject("HamRob1",INSTANT)
+		Wait(2)
+		CreateVisualEffectObject("SPPOLYMP","HamRob1")
+		Wait(2)
+		ActionOverride("HamRob1",Polymorph(RABBIT))
+		Wait(1)
+		ActionOverride("HamRob1",DisplayStringHead(Myself,@571356)) // Oops!
+		Wait(1)
+		ActionOverride("HamOlg1",FaceObject("HamRob1"))
+		Wait(1)
+		ActionOverride("HamOlg1",DisplayStringHead(Myself,@571357)) // Food!
+		ActionOverride("Hammr2",FaceObject("HamOlg1"))
+		SmallWait(5)
+		ActionOverride("HamOlg1",Swing())
+		Wait(2)
+		ActionOverride("HamOlg1",Kill("HamRob1"))
+		Wait(5)
+		ActionOverride("HamOlg1",DisplayStringHead(Myself,@571361)) // Mmm...Tasty!
+		Wait(3)
+		ActionOverride("Hammr2",DisplayStringHead(Myself,@571359)) // (Not again!) Jenave, Raise Dead...
+		Wait(3)
+		ActionOverride("HamJen1",FaceObject("HamRob1"))
+		ActionOverride("HamJen1",ForceSpell("HamRob1",CLERIC_RAISE_DEAD))
+		Wait(8)
+		ActionOverride("HamOlg1",DisplayStringHead(Myself,@571365)) // WHAA!? Me food came back alive!
+		Wait(5)
+		ActionOverride("Hammr2",DisplayStringHead(Myself,@571362)) // I think it´s best if we leave now...
+		Wait(5)
+		ActionOverride("Hammr2",EscapeArea())
+		ActionOverride("HamOlg1",EscapeArea())
+		ActionOverride("HamRob1",EscapeArea())
+		ActionOverride("HamAra1",EscapeArea())
+		ActionOverride("HamJen1",EscapeArea())
+		ActionOverride("HamMan1",EscapeArea())
+		SetGlobal("Hammermeetings","GLOBAL",5)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

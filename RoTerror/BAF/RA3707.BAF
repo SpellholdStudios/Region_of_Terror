@@ -1,0 +1,265 @@
+IF
+	Global("EnteredArea","RA3707",0)
+	Delay(20)
+THEN
+	RESPONSE #20
+		ActionOverride("CadPri10",Recoil())
+	RESPONSE #20
+		ActionOverride("CadPri11",Recoil())
+	RESPONSE #20
+		ActionOverride("CadPri12",Recoil())
+	RESPONSE #20
+		ActionOverride("CadPri13",Recoil())
+	RESPONSE #20
+		ActionOverride("CadPri14",Recoil())
+END
+
+IF
+	Global("EnteredArea","RA3707",0)
+	Delay(4)
+THEN
+	RESPONSE #20
+		ActionOverride("CadPri9",ForceSpell(Myself,0))
+	RESPONSE #20
+		ActionOverride("CadPri10",ForceSpell(Myself,0))
+	RESPONSE #20
+		ActionOverride("CadPri12",ForceSpell(Myself,0))
+	RESPONSE #20
+		ActionOverride("CadPri13",ForceSpell(Myself,0))
+	RESPONSE #20
+		ActionOverride("CadPri14",ForceSpell(Myself,0))
+END
+
+IF
+	Global("EnteredArea","RA3707",0)
+	Delay(10)
+THEN
+	RESPONSE #50
+		ActionOverride("CadPri11",ForceSpell(Myself,0))
+	RESPONSE #50
+		ActionOverride("CadPri11",ForceSpell(Myself,0))
+END
+
+IF
+	Global("EnteredArea","RA3707",0)
+	Delay(5)
+THEN
+	RESPONSE #100
+		ActionOverride("CadPri9",Face(11))
+		ActionOverride("CadPri10",Face(10))
+		ActionOverride("CadPri11",Face(9))
+		ActionOverride("CadPri12",Face(10))
+		ActionOverride("CadPri13",Face(9))
+		ActionOverride("CadPri14",Face(8))
+END
+
+IF
+	Global("CQuestActive","GLOBAL",7)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Cadder3",JumpToPoint([925.1474]))
+		ActionOverride(Player1,JumpToPoint([911.1568]))
+		ActionOverride(Player2,JumpToPoint([957.1606]))
+		ActionOverride(Player3,JumpToPoint([865.1618]))
+		ActionOverride(Player4,JumpToPoint([909.1648]))
+		ActionOverride(Player5,JumpToPoint([809.1662]))
+		ActionOverride(Player6,JumpToPoint([857.1700]))
+		MoveViewObject("CadPri15",INSTANT)
+		SmallWait(1)
+		ActionOverride("Cadder3",FaceObject("CadPri15"))
+		ActionOverride(Player1,FaceObject("CadPri15"))
+		ActionOverride(Player2,FaceObject("CadPri15"))
+		ActionOverride(Player3,FaceObject("CadPri15"))
+		ActionOverride(Player4,FaceObject("CadPri15"))
+		ActionOverride(Player5,FaceObject("CadPri15"))
+		ActionOverride(Player6,FaceObject("CadPri15"))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("CQuestActive","GLOBAL",8)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Cadder3",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("CQuestActive","GLOBAL",10)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		SetGlobal("EnteredArea","RA3707",1)
+		Wait(1)
+		Weather(RAIN)
+		FadeToColor([20.0],0)
+		Wait(1)
+		DayNight(2)
+		SmallWait(3)
+		ActionOverride("CadPri11",JumpToPoint([1224.1210]))
+		ActionOverride("CadPri12",JumpToPoint([1322.1274]))
+		SmallWait(1)
+		ActionOverride("Cadder3",JumpToPoint([1160.1074]))
+		ActionOverride("CadPri15",JumpToPoint([1312.1208]))
+		ActionOverride(Player1,JumpToPoint([1308.1178]))
+		ActionOverride(Player2,JumpToPoint([1344.1200]))
+		ActionOverride(Player3,JumpToPoint([1272.1210]))
+		ActionOverride(Player4,JumpToPoint([1310.1236]))
+		ActionOverride(Player5,JumpToPoint([1282.1254]))
+		ActionOverride(Player6,JumpToPoint([1246.1230]))
+		SmallWait(1)
+		MoveViewObject(Player1,INSTANT)
+		CreateCreature("CadPri1",[1405.1155],12) // Priest
+		CreateCreature("CadPri2",[1050.1147],12) // Priest
+		CreateCreature("CadPri3",[1084.1177],12) // Priest
+		CreateCreature("CadPri4",[1122.1209],12) // Cleric
+		CreateCreature("CadPri5",[1301.1331],12) // Cleric
+		CreateCreature("CadPri6",[1331.1369],12) // Cleric
+		CreateCreature("CadPri7",[1363.1397],12) // Brother Talvanus
+		CreateCreature("CadPri8",[1407.1425],12) // Brother Harold
+		Wait(1)
+		ActionOverride(Player1,FaceObject("CadPri1"))
+		ActionOverride(Player2,FaceObject("CadPri1"))
+		ActionOverride(Player3,FaceObject("CadPri1"))
+		ActionOverride(Player4,FaceObject("CadPri1"))
+		ActionOverride(Player5,FaceObject("CadPri1"))
+		ActionOverride(Player6,FaceObject("CadPri1"))
+		ActionOverride("CadPri2",FaceObject("CadPri1"))
+		ActionOverride("CadPri3",FaceObject("CadPri1"))
+		ActionOverride("CadPri4",FaceObject("CadPri1"))
+		ActionOverride("CadPri5",FaceObject("CadPri1"))
+		ActionOverride("CadPri6",FaceObject("CadPri1"))
+		ActionOverride("CadPri7",FaceObject("CadPri1"))
+		ActionOverride("CadPri8",FaceObject("CadPri1"))
+		ActionOverride("CadPri9",FaceObject("CadPri1"))
+		ActionOverride("CadPri10",FaceObject("CadPri1"))
+		ActionOverride("CadPri11",FaceObject("CadPri1"))
+		ActionOverride("CadPri12",FaceObject("CadPri1"))
+		ActionOverride("CadPri13",FaceObject("CadPri1"))
+		ActionOverride("CadPri14",FaceObject("CadPri1"))
+		ActionOverride("CadPri15",FaceObject("CadPri1"))
+		ActionOverride("Cadder3",FaceObject("CadPri2"))
+		SmallWait(1)
+		ActionOverride("CadPri1",DestroySelf())
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(2)
+		ActionOverride("Cadder3",DisplayStringHead(Myself,@571152))
+		ActionOverride("Cadder3",FaceObject("CadPri3"))
+		Wait(4)
+		ActionOverride("CadPri14",ForceSpell(Myself,0))
+		Wait(4)
+		ActionOverride("CadPri11",ForceSpell(Myself,0))
+		ActionOverride("Cadder3",FaceObject("CadPri10"))
+		Wait(2)
+		ActionOverride("Cadder3",DisplayStringHead(Myself,@571147))
+		Wait(7)
+		ActionOverride("Cadder3",DisplayStringHead(Myself,@571148)) 
+		Wait(2)
+		ActionOverride("CadPri9",DisplayStringHead(Myself,@571150)) 
+		SmallWait(5)
+		ActionOverride("CadPri10",DisplayStringHead(Myself,@571150))
+		SmallWait(5)
+		ActionOverride("CadPri11",DisplayStringHead(Myself,@571150))
+		SmallWait(5)
+		ActionOverride("CadPri12",DisplayStringHead(Myself,@571150))
+		SmallWait(5)
+		ActionOverride("CadPri13",DisplayStringHead(Myself,@571150))
+		SmallWait(5)
+		ActionOverride("CadPri14",DisplayStringHead(Myself,@571150))
+		Wait(3)
+		ActionOverride("Cadder3",DisplayStringHead(Myself,@571149))
+		Wait(1)
+		StorePartyLocations()
+		ActionOverride("CadPri9",ForceSpell(Myself,0))
+		ActionOverride("CadPri10",ForceSpell(Myself,0))
+		ActionOverride("CadPri11",ForceSpell(Myself,0))
+		ActionOverride("CadPri12",ForceSpell(Myself,0))
+		ActionOverride("CadPri13",ForceSpell(Myself,0))
+		ActionOverride("CadPri14",ForceSpell(Myself,0))
+		Wait(1)
+		DayNight(MIDNIGHT)
+		ActionOverride("CadPri11",JumpToPoint([1224.1210]))
+		ActionOverride("CadPri12",JumpToPoint([1322.1274]))
+		ActionOverride("Cadder3",JumpToPoint([1160.1074]))
+		ActionOverride("CadPri15",JumpToPoint([1312.1208]))
+		RestorePartyLocations()
+		Wait(1)
+		CreateCreature("CadDem1",[1405.1155],2) // Tanar'ri
+		SmallWait(1)
+		ActionOverride("CadPri9",ReallyForceSpell("CadDem1",CLERIC_BOLT_OF_GLORY))
+		ActionOverride("CadPri10",ReallyForceSpell("CadDem1",WIZARD_DEATH_SPELL))
+		ActionOverride("CadPri11",ReallyForceSpell("CadDem1",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
+		Wait(2)
+		CreateCreature("CadDem2",[1405.1155],2) // Glabrezu
+		ActionOverride("Cadder3",ReallyForceSpell("CadDem2",WIZARD_FLESH_TO_STONE_IGNORE_RESISTANCE))
+		SmallWait(8)
+		ActionOverride("CadPri12",ReallyForceSpell("CadDem2",WIZARD_MELF_ACID_ARROW))
+		Wait(1)
+		CreateCreature("CadDem3",[1405.1155],2) // Pit Fiend
+		ActionOverride("CadPri13",ReallyForceSpell("CadDem3",CLERIC_CAUSE_SERIOUS_WOUNDS))
+		ActionOverride("CadPri14",ReallyForceSpell("CadDem3",CLERIC_UNHOLY_WORD))
+		CreateVisualEffectObject("CALLLIGH","CadDem3")
+		SmallWait(5)
+		ActionOverride("CadPri9",ApplyDamage("CadDem3",200,CRUSHING))
+		Wait(2)
+		CreateCreature("CadDem4",[1405.1155],2) // Balor
+		CreateCreature("CadDem5",[1405.1156],2) // Nabassu
+		SmallWait(1)
+		ActionOverride("CadDem4",ReallyForceSpell("CadPri14",WIZARD_DISINTEGRATE_IGNORE_RESISTANCE))
+		ActionOverride("CadPri9",ReallyForceSpell("CadDem4",CLERIC_BOLT_OF_GLORY))
+		ActionOverride("CadPri10",ReallyForceSpell("CadDem4",WIZARD_DEATH_SPELL))
+		CreateVisualEffectObject("CALLLIGH","CadDem5")
+		SmallWait(5)
+		ActionOverride("CadDem5",ApplyDamage("CadPri12",200,CRUSHING))
+		ActionOverride("CadPri13",ReallyForceSpell("CadDem3",CLERIC_SUNRAY))
+		ActionOverride("CadPri11",ReallyForceSpell("CadDem3",CLERIC_SUNRAY))
+		SmallWait(3)
+		ActionOverride("CadPri9",ApplyDamage("CadDem4",200,CRUSHING))
+		ActionOverride("CadPri9",ApplyDamage("CadDem5",200,CRUSHING))
+		Wait(3)
+		ActionOverride("Cadder3",DisplayStringHead(Myself,@571151))
+		Wait(1)
+		ClearAllActions()
+		Wait(1)
+		ActionOverride("CadPri15",MoveToPoint([1405.1155]))
+		ActionOverride(Player1,MoveToPoint([1405.1156]))
+		ActionOverride(Player2,MoveToPoint([1405.1157]))
+		ActionOverride(Player3,MoveToPoint([1405.1158]))
+		ActionOverride(Player4,MoveToPoint([1404.1155]))
+		ActionOverride(Player5,MoveToPoint([1403.1155]))
+		ActionOverride(Player6,MoveToPoint([1402.1155]))
+		FadeToColor([20.0],0)
+		SetGlobal("CQuestActive","GLOBAL",11)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("CadPri15",EscapeAreaMove("RA3710",420,1588,9))
+		ActionOverride(Player1,LeaveAreaLUA("RA3710","",[448.1568],9))
+		ActionOverride(Player2,LeaveAreaLUA("RA3710","",[449.1568],9))
+		ActionOverride(Player3,LeaveAreaLUA("RA3710","",[447.1568],9))
+		ActionOverride(Player4,LeaveAreaLUA("RA3710","",[446.1568],9))
+		ActionOverride(Player5,LeaveAreaLUA("RA3710","",[448.1569],9))
+		ActionOverride(Player6,LeaveAreaLUA("RA3710","",[448.1567],9))
+END
+
+IF
+	Global("Justalittle","RA3707",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(3)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("Justalittle","RA3707",2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

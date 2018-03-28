@@ -1,0 +1,41 @@
+MGO4 /Abishai/
+***
+						SOUND
+ATTACK          		ABISH01A nosound
+ATTACK          		2 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		ABISH07A ABISH08A
+DAMAGE          		0 0
+DIE             		ABISH09A
+DIE             		0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		ABISH03A ABISH04A nosound
+ATTACK_SLASH    		2 2 0
+ATTACK_BACKSLASH		ABISH07A nosound
+ATTACK_BACKSLASH		2 0
+ATTACK_JAB      		ABISH10A nosound
+ATTACK_JAB      		0 0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry			ABISH02A
+Battle_Cry			0
+Selection                       ABISH01A
+Selection                       0

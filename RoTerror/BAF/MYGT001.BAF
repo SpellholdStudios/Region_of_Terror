@@ -1,0 +1,8 @@
+IF
+	Opened([ANYONE])
+THEN
+	RESPONSE #100
+		ApplyDamage(LastTrigger(Myself),70,FIRE)
+END
+
+

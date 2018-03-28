@@ -1,0 +1,6 @@
+BEGIN ~ULGARTH~
+
+IF ~~ THEN BEGIN 0 // from:
+  SAY @0
+  IF ~~ THEN DO ~SetGlobal("Wulfgarsquest","GLOBAL",1)~ UNSOLVED_JOURNAL @573242 EXIT
+END

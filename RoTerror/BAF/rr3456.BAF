@@ -1,0 +1,19 @@
+IF
+	Global("Thisfeckingthing","RR3456",0)
+	Dead("Eranda3") // Eranda
+	Dead("ErMag1") // Castle Mage
+	Dead("ErMag2") // Castle Mage
+	Dead("ErMag3") // Castle Mage
+	Dead("ErMag4") // Castle Mage
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("Thisfeckingthing","RR3456",1)
+		ActionOverride("Olmar3",DisplayStringHead(Myself,@570762))
+		Wait(15)
+		HideGUI()
+		StartCutSceneMode()
+		StartCutScene("AfOlm")
+END
+
+

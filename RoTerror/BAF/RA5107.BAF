@@ -1,0 +1,28 @@
+IF
+	Global("Caravanquest","GLOBAL",4)
+	Global("Timer","RA5107",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Changebacktoiwd","GLOBAL",ONE_DAY)
+		SetGlobal("Timer","RA5107",1)
+END
+
+IF
+	Global("Caravanquest","GLOBAL",4)
+	GlobalTimerExpired("Changebacktoiwd","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("Caravanquest","GLOBAL",5)
+END
+
+IF
+	Global("Helpthebrother","GLOBAL",3)
+	Global("Brothertimeriwd","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Brotheriwd","GLOBAL",TWO_DAYS)
+		SetGlobalTimer("Brotiwd22","GLOBAL",FIVE_DAYS)
+		SetGlobal("Brothertimeriwd","GLOBAL",1)
+END
+
+

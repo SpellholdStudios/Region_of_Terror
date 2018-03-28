@@ -1,0 +1,11 @@
+IF
+	CombatCounter(0)
+	Delay(20)
+THEN
+	RESPONSE #100
+		RandomWalk()
+	RESPONSE #100
+		NoAction()
+END
+
+

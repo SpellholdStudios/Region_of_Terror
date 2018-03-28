@@ -1,0 +1,13 @@
+@0    = ~I'm here to teach you the basics of editing 2DA and IDE files. What do you want to know?~
+@1    = ~What are 2DA files?~
+@2    = ~What are IDE files?~
+@3    = ~What can I achieve by editing 2DA files?~
+@4    = ~What can I achieve by editing IDE files?~
+@5    = ~How can I edit 2DA and IDE files?~
+@6    = ~Nothing.~
+@7    = ~They contain the rules of the game. For example they define when the reputation is low enough for the good characters to get mad and leave the party.~
+@8    = ~I have no more questions.~
+@9    = ~They are used for scripting. They contain the lines and other information you need for scripting. You won't have to edit these unless you have made a new spell (or projectile...etc.) and want a script to cast it.~
+@10   = ~You can change the rules of the game. For example you can make the shops give you 50% discount while your reputation is 2.~
+@11   = ~You can use new spells (with scripts) and projectiles (projectiles are used to add special animations on items and spells) only after you have added them into IDE files. These IDE files are called as SPELL and PROJECTL. Animations are also placed into IDE files.~
+@12   = ~You'll just need Notepad or any other text editor. The files are in text form. I'd recommend tools like NI or DLTCEP.~

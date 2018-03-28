@@ -1,0 +1,9 @@
+IF
+	Global("CreeDji3","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("CreeDji3","GLOBAL",2)
+		CreateCreature("EntDjin3",[711.3372],3) // Djinni
+END
+
+

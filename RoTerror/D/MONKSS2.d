@@ -1,0 +1,173 @@
+BEGIN ~MONKSS2~
+
+IF ~Global("MonkOpenDoor","RA5601",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 GOTO 2
+  IF ~~ THEN REPLY @3 GOTO 14
+END
+
+IF ~~ THEN BEGIN 1 // from: 15.0 0.0
+  SAY @4
+  IF ~~ THEN REPLY @2 GOTO 2
+  IF ~~ THEN REPLY @5 EXIT
+  IF ~~ THEN REPLY @6 GOTO 14
+END
+
+IF ~~ THEN BEGIN 2 // from: 15.1 1.0 0.1
+  SAY @7
+  IF ~~ THEN GOTO 3
+END
+
+IF ~~ THEN BEGIN 3 // from: 2.0
+  SAY @8
+  IF ~~ THEN GOTO 4
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.0
+  SAY @9
+  IF ~~ THEN GOTO 5
+END
+
+IF ~~ THEN BEGIN 5 // from: 4.0
+  SAY @10
+  IF ~~ THEN GOTO 6
+END
+
+IF ~~ THEN BEGIN 6 // from: 5.0
+  SAY @11
+  IF ~~ THEN REPLY @12 GOTO 7
+  IF ~~ THEN REPLY @13 GOTO 13
+  IF ~~ THEN REPLY @6 GOTO 14
+END
+
+IF ~~ THEN BEGIN 7 // from: 13.0 6.0
+  SAY @14
+  IF ~~ THEN GOTO 8
+END
+
+IF ~~ THEN BEGIN 8 // from: 7.0
+  SAY @15
+  IF ~~ THEN REPLY @16 GOTO 9
+  IF ~~ THEN REPLY @17 GOTO 10
+  IF ~~ THEN REPLY @18 GOTO 11
+  IF ~~ THEN REPLY @19 GOTO 14
+END
+
+IF ~~ THEN BEGIN 9 // from: 8.0
+  SAY @20
+  IF ~~ THEN DO ~SetGlobal("MonkOpenDoor","RA5601",2)~ EXIT
+END
+
+IF ~~ THEN BEGIN 10 // from: 8.1
+  SAY @21
+  IF ~~ THEN DO ~SetGlobal("MonkOpenDoor","RA5601",2)~ EXIT
+END
+
+IF ~~ THEN BEGIN 11 // from: 8.2
+  SAY @22
+  IF ~~ THEN REPLY @23 GOTO 12
+  IF ~~ THEN REPLY @19 GOTO 14
+END
+
+IF ~~ THEN BEGIN 12 // from: 11.0
+  SAY @24
+  IF ~~ THEN DO ~SetGlobal("MonkOpenDoor","RA5601",2)~ EXIT
+END
+
+IF ~~ THEN BEGIN 13 // from: 6.1
+  SAY @25
+  IF ~~ THEN REPLY @12 GOTO 7
+  IF ~~ THEN REPLY @6 GOTO 14
+END
+
+IF ~~ THEN BEGIN 14 // from: 15.2 13.1 11.1 8.3 6.2 1.2 0.2
+  SAY @26
+  IF ~~ THEN DO ~SetGlobal("MonkOpenDoor","RA5601",3)~ EXIT
+END
+
+IF ~Global("MonkOpenDoor","RA5601",3)~ THEN BEGIN 15
+  SAY @27
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 GOTO 2
+  IF ~~ THEN REPLY @28 GOTO 14
+END
+
+IF ~Global("MonkOpenDoor","RA5601",2)~ THEN BEGIN 16
+  SAY @29
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 17 // from:
+  SAY @30
+  IF ~~ THEN GOTO 18
+END
+
+IF ~~ THEN BEGIN 18 // from: 17.0
+  SAY @31
+  IF ~~ THEN GOTO 19
+END
+
+IF ~~ THEN BEGIN 19 // from: 18.0
+  SAY @32
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("MonkOpenDoor","RA5601",1)~ THEN BEGIN 20
+  SAY @33
+  IF ~~ THEN REPLY @13 GOTO 21
+  IF ~~ THEN REPLY @1 GOTO 23
+  IF ~~ THEN REPLY @2 GOTO 24
+  IF ~~ THEN REPLY @34 EXIT
+END
+
+IF ~~ THEN BEGIN 21 // from: 20.0
+  SAY @35
+  IF ~~ THEN REPLY @36 GOTO 22
+  IF ~~ THEN REPLY @1 GOTO 23
+  IF ~~ THEN REPLY @2 GOTO 24
+  IF ~~ THEN REPLY @37 EXIT
+END
+
+IF ~~ THEN BEGIN 22 // from: 28.0 21.0
+  SAY @38
+  IF ~~ THEN DO ~SetGlobal("MonkOpenDoor","RA5601",4)~ EXIT
+END
+
+IF ~~ THEN BEGIN 23 // from: 28.1 21.1 20.1
+  SAY @4
+  IF ~~ THEN REPLY @2 GOTO 24
+  IF ~~ THEN REPLY @37 EXIT
+END
+
+IF ~~ THEN BEGIN 24 // from: 23.0 21.2 20.2
+  SAY @7
+  IF ~~ THEN GOTO 25
+END
+
+IF ~~ THEN BEGIN 25 // from: 24.0
+  SAY @8
+  IF ~~ THEN GOTO 26
+END
+
+IF ~~ THEN BEGIN 26 // from: 25.0
+  SAY @9
+  IF ~~ THEN GOTO 27
+END
+
+IF ~~ THEN BEGIN 27 // from: 26.0
+  SAY @10
+  IF ~~ THEN GOTO 28
+END
+
+IF ~~ THEN BEGIN 28 // from: 27.0
+  SAY @11
+  IF ~~ THEN REPLY @39 GOTO 22
+  IF ~~ THEN REPLY @1 GOTO 23
+  IF ~~ THEN REPLY @37 EXIT
+END
+
+IF ~Global("MonkOpenDoor","RA5601",5)~ THEN BEGIN 29
+  SAY @40
+  IF ~~ THEN EXIT
+END

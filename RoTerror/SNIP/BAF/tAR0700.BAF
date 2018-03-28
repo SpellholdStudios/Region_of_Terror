@@ -1,0 +1,18 @@
+IF
+	Global("Crecrie","AR0700",0)
+THEN
+	RESPONSE #100
+		CreateCreature("TellAre4",[713.3411],3) // Town Crier
+		CreateCreature("Laron1",[2045.1825],13) // Laron
+		SetGlobal("Crecrie","AR0700",1)
+		Continue()
+END
+
+IF
+	Global("ZemirQuests","GLOBAL",10)
+	Dead("Laron1") // Laron
+THEN
+	RESPONSE #100
+		SetGlobal("ZemirQuests","GLOBAL",11)
+		ReputationInc(-1)
+END

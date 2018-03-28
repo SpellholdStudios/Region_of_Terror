@@ -1,0 +1,14 @@
+BEGIN ~TALMESS~
+
+IF ~Global("EraQuest","GLOBAL",1)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 DO ~SetGlobal("EraQuest","GLOBAL",2)
+EscapeArea()~ UNSOLVED_JOURNAL @570606 EXIT
+END
+
+IF ~~ THEN BEGIN 1 // from: 0.0
+  SAY @3
+  IF ~~ THEN DO ~SetGlobal("EraQuest","GLOBAL",2)
+EscapeArea()~ UNSOLVED_JOURNAL @570606 EXIT
+END

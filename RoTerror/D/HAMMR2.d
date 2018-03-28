@@ -1,0 +1,51 @@
+BEGIN ~HAMMR2~
+
+IF ~Global("Hammermeetings","GLOBAL",1)~ THEN BEGIN 0
+  SAY @0 
+  IF ~~ THEN GOTO 1
+END
+
+IF ~~ THEN BEGIN 1 // from: 0.0
+  SAY @1
+  IF ~~ THEN EXTERN ~HAMARA1~ 0
+END
+
+IF ~~ THEN BEGIN 2 // from:
+  SAY @2
+  IF ~~ THEN EXTERN ~HAMROB1~ 0
+END
+
+IF ~~ THEN BEGIN 3 // from:
+  SAY @3
+  IF ~~ THEN EXTERN ~HAMJEN1~ 0
+END
+
+IF ~~ THEN BEGIN 4 // from:
+  SAY @4
+  IF ~~ THEN EXTERN ~HAMMAN1~ 0
+END
+
+IF ~~ THEN BEGIN 5 // from:
+  SAY @5
+  IF ~~ THEN EXTERN ~HAMOLG1~ 0
+END
+
+IF ~~ THEN BEGIN 6 // from:
+  SAY @6
+  IF ~~ THEN EXTERN ~HAMMAN1~ 1
+END
+
+IF ~Global("Hammermeetings","GLOBAL",3)~ THEN BEGIN 7
+  SAY @7
+  IF ~~ THEN EXTERN ~HAMROB1~ 1
+END
+
+IF ~~ THEN BEGIN 8 // from:
+  SAY @8
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 9 // from:
+  SAY @9
+  IF ~~ THEN EXIT
+END

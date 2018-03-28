@@ -1,0 +1,10 @@
+IF
+	Clicked([ANYONE])
+	!Dead("DaDragon") // Fanguarrax
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		ActionOverride(Player1,DisplayStringHead(Myself,@573247))
+END
+
+

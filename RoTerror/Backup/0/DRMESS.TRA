@@ -1,0 +1,65 @@
+@0    = ~Ich nehme an, Ihr seid <CHARNAME>.~
+
+@1    = ~Ja, das ist richtig. Wer seid Ihr?~
+
+@2    = ~Ja. Und Ihr seid?~
+
+@3    = ~Woher kennt Ihr Drow-Abschaum meinen Namen?~
+
+@4    = ~Das geht Euch nichts an... Wo ist Drizzt Do'Urden?~
+
+@5    = ~Er ist nicht bei mir.~
+
+@6    = ~Dann haben wir nichts miteinander zu besprechen. Geht.~
+
+@7    = ~Das braucht Euch nicht zu interessieren. Wo ist Drizzt Do'Urden?~
+
+@8    = ~Ich sehe Drizzt Do'Urden nicht. Dann haben wir nichts miteinander zu besprechen.~
+
+@9    = ~Hallo da! Ich nehme an, Ihr seid <CHARNAME>.~
+
+@10   = ~Hallo! Woher kennt Ihr meinen Namen?~
+
+@11   = ~Das ist richtig. Wer seid Ihr?~
+
+@12   = ~Woher kennt Ihr meinen Namen, Drow-Abschaum?~
+
+@13   = ~Jawohl, seid Ihr die Kontaktperson?~
+
+@14   = ~Ich bin die Kontaktperson.~
+
+@15   = ~(Ihr lasst Drizzt das Gespräch führen.)~
+
+@16   = ~Und was für eine Art Nachricht hat Entreri denn gesandt?~
+
+@17   = ~Oh, Ihr seid es. Nun, was habt Ihr für Informationen? Sprecht!~
+
+@18   = ~Drow-Abschaum? Das ist aber gar nicht nett... Egal, ich bin die Kontaktperson.~
+
+@19   = ~Ja, das bin ich.~
+
+@20   = ~Wie lautet Eure Botschaft?~
+
+@21   = ~Dann werdet Ihr uns also gewisse Informationen geben?~
+
+@22   = ~Drizzt Do'Urden, einer Eurer Freunde ist in einem Gefängnis, das sich in einer grossen Höhle nahe dieser Stadt befindet.~
+
+@23   = ~Der Ort wird Monzumas Höhle genannt.~
+
+@24   = ~Er wurde die letzten Tage dort gefoltert und erst, wenn Ihr ihn befreit, werden die Folterungen aufhören.~
+
+@25   = ~Drizzt, einer Eurer Freunde ist in einem Gefängnis, das sich in einer grossen Höhle nahe dieser Stadt befindet.~
+
+@26   = ~Er wurde die letzten Tage dort gefoltert und erst, wenn Ihr ihn befreit, werden die Folterungen aufhören.~
+
+
+@27   = ~Ja. Drizzt, einer Eurer Freunde ist in einem Gefängnis, das sich in einer grossen Höhle nahe dieser Stadt befindet.~
+@28   = ~Ich habe keine Ahnung, was er vorhat. Ich bin nur ein einfacher Bote.~
+
+@29   = ~Geht und seht selbst nach.~
+
+@30   = ~Sicher! Zeigt mir Eure Karte... Hier ist sie.~
+
+@31   = ~Betrachtet Eure Botschaft als überbracht.~
+
+@32   = ~Nun, ich kann Euch nicht jeden einzelnen Standort nennen, aber einer davon ist eine Höhle in der Nähe der Stadt. Monzumas Höhle ist der Name des Ortes.~

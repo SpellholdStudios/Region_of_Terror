@@ -1,0 +1,46 @@
+IF
+	Global("Fuwithma","LOCALS",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		Wait(3)
+		MoveViewPoint([410.968],INSTANT)
+		ActionOverride(Player1,LeaveAreaLUA("RR3451","",[467.967],13))
+		ActionOverride(Player2,LeaveAreaLUA("RR3451","",[1450.1150],10))
+		ActionOverride(Player3,LeaveAreaLUA("RR3451","",[1450.1150],10))
+		ActionOverride(Player4,LeaveAreaLUA("RR3451","",[1450.1150],10))
+		ActionOverride(Player5,LeaveAreaLUA("RR3451","",[1450.1150],10))
+		ActionOverride(Player6,LeaveAreaLUA("RR3451","",[1450.1150],10))
+		LeaveAreaLUA("RR3451","",[410.968],4)
+		FadeFromColor([20.0],0)
+		FaceObject(Player1)
+		ActionOverride(Player1,FaceObject("Maralda"))
+		SetGlobal("Fuwithma","LOCALS",2)
+		UnhideGUI()
+		EndCutSceneMode()
+		Wait(1)
+		StartDialog("Maralda",[PC])
+END
+
+IF
+	Global("Fuinhaste","RR3451",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		CutSceneId("Maralda")
+		Wait(1)
+		ForceSpell(Player1,WIZARD_HASTE)
+		Wait(10)
+		ForceSpell(Myself,WIZARD_HASTE)
+		Wait(5)
+		RestParty()
+		SetGlobal("Fuinhaste","RR3451",2)
+		SetGlobal("MoreWMara","RR3451",5)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

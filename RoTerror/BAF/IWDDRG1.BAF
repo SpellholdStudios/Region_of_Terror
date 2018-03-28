@@ -1,0 +1,37 @@
+IF
+	Dead("IwdDrg6") // Mandegora
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Global("MyDragonTalks","RA5412",0)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("MyDragonTalks","RA5412",3)
+	Allegiance(Myself,NEUTRAL)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+

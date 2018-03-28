@@ -1,0 +1,446 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat6","RA5002",0)
+	!Global("Blockact6","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1725.2445])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodSorr",[1725.2445],12) // Sorrow
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1675.2483])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodPain",[1675.2483],11) // Pain
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1597.2511])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodFear",[1597.2511],11) // Fear
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1713.2553])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodHate",[1713.2553],11) // Hate
+		Wait(1)
+		SetGlobal("StartBat6","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat6","RA5002",0)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1725.2445])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodSorr",[1725.2445],12) // Sorrow
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodSorr",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[1675.2483])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodPain",[1675.2483],11) // Pain
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1597.2511])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodFear",[1597.2511],11) // Fear
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1713.2553])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodHate",[1713.2553],11) // Hate
+		Wait(1)
+		SetGlobal("StartBat6","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat6","RA5002",0)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1725.2445])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodSorr",[1725.2445],12) // Sorrow
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodSorr",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[1675.2483])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodPain",[1675.2483],11) // Pain
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1597.2511])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodFear",[1597.2511],11) // Fear
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1713.2553])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodHate",[1713.2553],11) // Hate
+		Wait(1)
+		SetGlobal("StartBat6","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat6","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1725.2445])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodSorr",[1725.2445],12) // Sorrow
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodSorr",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[1675.2483])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodPain",[1675.2483],11) // Pain
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1597.2511])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodFear",[1597.2511],11) // Fear
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1713.2553])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodHate",[1713.2553],11) // Hate
+		Wait(1)
+		SetGlobal("StartBat6","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat6","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1725.2445])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodSorr",[1725.2445],12) // Sorrow
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodSorr",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[1675.2483])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodPain",[1675.2483],11) // Pain
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1597.2511])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodFear",[1597.2511],11) // Fear
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1713.2553])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodHate",[1713.2553],11) // Hate
+		Wait(1)
+		SetGlobal("StartBat6","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat6","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1725.2445])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodSorr",[1725.2445],12) // Sorrow
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodSorr",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[1675.2483])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodPain",[1675.2483],11) // Pain
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1597.2511])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodFear",[1597.2511],11) // Fear
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1713.2553])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodHate",[1713.2553],11) // Hate
+		Wait(1)
+		SetGlobal("StartBat6","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat6","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1725.2445])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodSorr",[1725.2445],12) // Sorrow
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodSorr",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[1675.2483])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodPain",[1675.2483],11) // Pain
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1597.2511])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodFear",[1597.2511],11) // Fear
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1713.2553])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodHate",[1713.2553],11) // Hate
+		Wait(1)
+		SetGlobal("StartBat6","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat6","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1725.2445])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodSorr",[1725.2445],12) // Sorrow
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodSorr",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[1675.2483])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodPain",[1675.2483],11) // Pain
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1597.2511])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodFear",[1597.2511],11) // Fear
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1713.2553])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodHate",[1713.2553],11) // Hate
+		Wait(1)
+		SetGlobal("StartBat6","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat6","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1725.2445])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodSorr",[1725.2445],12) // Sorrow
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodSorr",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[1675.2483])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodPain",[1675.2483],11) // Pain
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1597.2511])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodFear",[1597.2511],11) // Fear
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1713.2553])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodHate",[1713.2553],11) // Hate
+		Wait(1)
+		SetGlobal("StartBat6","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat6","RA5002",0)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1725.2445])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodSorr",[1725.2445],12) // Sorrow
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodSorr",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[1675.2483])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodPain",[1675.2483],11) // Pain
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1597.2511])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodFear",[1597.2511],11) // Fear
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1713.2553])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodHate",[1713.2553],11) // Hate
+		Wait(1)
+		SetGlobal("StartBat6","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat6","RA5002",0)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1725.2445])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodSorr",[1725.2445],12) // Sorrow
+		Wait(2)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodSorr",0,0,0)) // Symbol of the Eye
+		CreateVisualEffect("SPFIREPI",[1675.2483])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodPain",[1675.2483],11) // Pain
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1597.2511])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodFear",[1597.2511],11) // Fear
+		Wait(2)
+		CreateVisualEffect("SPFIREPI",[1713.2553])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodHate",[1713.2553],11) // Hate
+		Wait(1)
+		SetGlobal("StartBat6","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+	Global("StartBat6","RA5002",0)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702) // You are too far away to use that.
+END
+
+

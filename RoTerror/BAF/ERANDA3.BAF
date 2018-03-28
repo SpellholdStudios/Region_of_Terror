@@ -1,0 +1,17 @@
+IF
+	Global("Erwhat","RR3456",0)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		SetGlobal("Erwhat","RR3456",1)
+		SmallWait(1)
+		StartDialogueNoSet(Player1)
+END
+
+

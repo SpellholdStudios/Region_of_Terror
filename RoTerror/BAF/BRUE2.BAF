@@ -1,0 +1,31 @@
+IF
+	Global("FTlkBr","LOCALS",0)
+	InParty("Driz2")
+	Dead("Shadar") // Shadar
+	Dead("MalVamp2") // Vampire
+	Dead("MalVamp3") // Vampire
+	Dead("FemVamp2") // Vampire
+	Dead("FemVamp3") // Vampire
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		Wait(1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("DrizztKickedOut","GLOBAL",1)
+	Global("DrizztBruenorOut","LOCALS",0)
+	Delay(1)
+THEN
+	RESPONSE #100
+		StartDialog("Brue2J",[PC])
+END
+
+

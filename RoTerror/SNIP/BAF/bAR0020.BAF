@@ -1,0 +1,159 @@
+IF
+	Global("Eleanquest","GLOBAL",7)
+	!GlobalTimerExpired("EleMerch","GLOBAL")
+	Global("creationofmer","AR0020",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ScrlMer",[596.383],0) // Scroll Merchant
+		SetGlobal("creationofmer","AR0020",1)
+END
+
+IF
+	Exists("ScrlMer")
+	!GlobalTimerExpired("EleMerch","GLOBAL")
+	TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		Deactivate("ScrlMer")
+END
+
+IF
+	Exists("ScrlMer")
+	!GlobalTimerExpired("EleMerch","GLOBAL")
+	OR(3)
+		TimeOfDay(DAY)
+		TimeOfDay(DUSK)
+		TimeOfDay(MORNING)
+THEN
+	RESPONSE #100
+		Activate("ScrlMer")
+END
+
+IF
+	Global("afgfag","GLOBAL",1)
+	GlobalTimerExpired("EleMerch","GLOBAL")
+THEN
+	RESPONSE #100
+		ActionOverride("ScrlMer",DestroySelf())
+		SetGlobal("afgfag","GLOBAL",2)
+END
+
+IF
+	Global("Arlaxteller","AR0020",0)
+	Global("Readyfermything","AR0020",1)
+	!InParty("Driz2")
+	!Global("Ttcmal","GLOBAL",1)
+	!Global("Ttcmal","GLOBAL",2)
+THEN
+	RESPONSE #100
+		CreateCreature("ArlTell",[888.399],2) // Mage
+		SetGlobal("Arlaxteller","AR0020",1)
+END
+
+IF
+	Global("Desselff","AR0020",0)
+	OR(2)
+		Global("Ttcmal","GLOBAL",1)
+		Global("Ttcmal","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ActionOverride("ArlTell",DestroySelf())
+		SetGlobal("Desselff","AR0020",1)
+END
+
+IF
+	Global("Drizztiwdornot","GLOBAL",1)
+	!InParty("Driz2")
+	CombatCounter(0)
+	XPGT(Player1,2299999)
+	Delay(10)
+THEN
+	RESPONSE #100
+		CreateCreature("EGald1",[890.399],2) // Edomis Galdenburg
+		SetGlobal("Drizztiwdornot","GLOBAL",2)
+END
+
+IF
+	Global("Drizztiwdornot","GLOBAL",1)
+	Global("Timetolfiwd","GLOBAL",1)
+	GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
+	InParty("Driz2")
+	CombatCounter(0)
+	Delay(10)
+THEN
+	RESPONSE #100
+		CreateCreature("EGald1",[890.399],2) // Edomis Galdenburg
+		SetGlobal("Timetolfiwd","GLOBAL",2)
+		SetGlobal("Drizztiwdornot","GLOBAL",2)
+END
+
+IF
+	Global("Drizztiwdornot","GLOBAL",1)
+	Global("Timetolfiwd","GLOBAL",1)
+	GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%)
+	XPGT(Player1,2299999)
+	InParty("Driz2")
+	CombatCounter(0)
+	Delay(10)
+THEN
+	RESPONSE #100
+		CreateCreature("EGald1",[890.399],2) // Edomis Galdenburg
+		SetGlobal("Timetolfiwd","GLOBAL",2)
+		SetGlobal("Drizztiwdornot","GLOBAL",2)
+END
+
+IF
+	Global("Drizztiwdornot","GLOBAL",8)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("EGald1",DestroySelf())
+		Wait(1)
+		IncrementGlobal("BardPlot1","GLOBAL",80)
+		IncrementGlobal("NotifyThiefHead","GLOBAL",80)
+		IncrementGlobal("JosterReturn","GLOBAL",80)
+		IncrementGlobal("KeepPlot","GLOBAL",80)
+		IncrementGlobal("KPRunnerSpawn","GLOBAL",80)
+		IncrementGlobal("NatulaSpawn","GLOBAL",80)
+		IncrementGlobal("DruidADSpawn","GLOBAL",80)
+		IncrementGlobal("DruidStronghold","GLOBAL",80)
+		SetGlobal("Drizztiwdornot","GLOBAL",9)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RA5100","",[130.1929],8))
+		ActionOverride(Player2,LeaveAreaLUA("RA5100","",[176.1931],8))
+		ActionOverride(Player3,LeaveAreaLUA("RA5100","",[128.1981],8))
+		ActionOverride(Player4,LeaveAreaLUA("RA5100","",[172.1983],8))
+		ActionOverride(Player5,LeaveAreaLUA("RA5100","",[120.2039],8))
+		ActionOverride(Player6,LeaveAreaLUA("RA5100","",[178.2041],8))
+END
+
+IF
+	Global("Drizztiwdornot","GLOBAL",12)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		MultiPlayerSync()
+		EndCutSceneMode()
+		TextScreen("SCRTXT10")
+		SmallWait(1)
+		StartCutSceneMode()
+		Wait(1)
+		FadeFromColor([20.0],0)
+		CreateCreature("EGald3",[724.513],3) // Edomis Galdenburg
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("Drizztiwdornot","GLOBAL",13)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("EGald3",StartDialogueNoSet(Player1))
+END
+
+

@@ -1,0 +1,58 @@
+IF
+	Global("Eleanquest","GLOBAL",9)
+	Global("Gaibat","RA4703",0)
+	!Global("Outescrt","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly("Gaidan",ENEMY)
+		ChangeEnemyAlly("Leander",ENEMY)
+		ChangeEnemyAlly("Matrim",ENEMY)
+		ChangeEnemyAlly("Mythif3",ENEMY)
+		ChangeEnemyAlly("Mythif4",ENEMY)
+		SetGlobal("Gaibat","RA4703",1)
+END
+
+IF
+	Global("Eleanquest","GLOBAL",9)
+	Global("Outescrt","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(1)
+		HideGUI()
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		Wait(2)
+		UnhideGUI()
+		EndCutSceneMode()
+		FadeFromColor([20.0],0)
+		SetGlobal("Outescrt","GLOBAL",2)
+		ActionOverride(Player1,LeaveAreaLUA("RA4700","",[3330.76],8))
+		ActionOverride(Player2,LeaveAreaLUA("RA4700","",[3340.86],7))
+		ActionOverride(Player3,LeaveAreaLUA("RA4700","",[3350.66],8))
+		ActionOverride(Player4,LeaveAreaLUA("RA4700","",[3340.56],7))
+		ActionOverride(Player5,LeaveAreaLUA("RA4700","",[3330.46],8))
+		ActionOverride(Player6,LeaveAreaLUA("RA4700","",[3360.76],7))
+END
+
+IF
+	Global("Eleanquest","GLOBAL",10)
+THEN
+	RESPONSE #100
+		Wait(1)
+		HideGUI()
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		Wait(2)
+		UnhideGUI()
+		EndCutSceneMode()
+		FadeFromColor([20.0],0)
+		SetGlobal("Eleanquest","GLOBAL",11)
+		ActionOverride(Player1,LeaveAreaLUA("RA4800","",[730.200],10))
+		ActionOverride(Player2,LeaveAreaLUA("RA4800","",[750.200],10))
+		ActionOverride(Player3,LeaveAreaLUA("RA4800","",[740.210],10))
+		ActionOverride(Player4,LeaveAreaLUA("RA4800","",[730.220],10))
+		ActionOverride(Player5,LeaveAreaLUA("RA4800","",[750.220],10))
+		ActionOverride(Player6,LeaveAreaLUA("RA4800","",[710.200],10))
+END
+
+

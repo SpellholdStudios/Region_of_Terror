@@ -1,0 +1,19 @@
+IF
+	Global("PocketPicking","LOCALS",0)
+	Range([ANYONE],3)
+THEN
+	RESPONSE #100
+		PickPockets(Nearest(Myself))
+		SetGlobal("PocketPicking","LOCALS",1)
+END
+
+IF
+	Global("PocketPicking","LOCALS",1)
+	Delay(10)
+	Range([ANYONE],3)
+THEN
+	RESPONSE #100
+		PickPockets(Nearest(Myself))
+END
+
+

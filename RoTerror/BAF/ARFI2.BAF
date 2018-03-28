@@ -1,0 +1,186 @@
+IF
+	Global("DrinksPot","LOCALS",0)
+	HPLT(Myself,60)
+	Delay(5)
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		SetGlobal("DrinksPot","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("DrinksPot1","LOCALS",0)
+	OR(18)
+		HasItemEquipedReal("AX1H12",LastHitter(Myself)) // Battle Axe +3, Stonefire
+		HasItemEquipedReal("BLUN14",LastHitter(Myself)) // Flail of Ages +3
+		HasItemEquipedReal("BLUN14D",LastHitter(Myself)) // Flail of Ages
+		HasItemEquipedReal("BLUN14F",LastHitter(Myself)) // Flail of Ages
+		HasItemEquipedReal("BLUN14H",LastHitter(Myself)) // Flail of Ages
+		HasItemEquipedReal("BRUENAX",LastHitter(Myself)) // Battle Axe +4, Dragon Blood
+		HasItemEquipedReal("CULTWEP4",LastHitter(Myself)) // Cult Mace +2
+		HasItemEquipedReal("DAGG12",LastHitter(Myself)) // Fire Tooth +3
+		HasItemEquipedReal("FIRESWRD",LastHitter(Myself)) // Long Sword of Fire +4
+		HasItemEquipedReal("FIRKAT",LastHitter(Myself)) // Katana of Fire + 2
+		HasItemEquipedReal("HALB05",LastHitter(Myself)) // Dragon's Breath +4
+		HasItemEquipedReal("JARLAXSC",LastHitter(Myself)) // Arandil +4
+		HasItemEquipedReal("KATOFPOW",LastHitter(Myself)) // Katana of Power
+		HasItemEquipedReal("LASPE6",LastHitter(Myself)) // Lancer's Spear +6
+		HasItemEquipedReal("NEWHOTR",LastHitter(Myself)) // Holy Triangle +4
+		HasItemEquipedReal("NEWSSFI",LastHitter(Myself)) // Short Sword +3: Fire
+		HasItemEquipedReal("SW1H39",LastHitter(Myself)) // Blade of Searing +3
+		HasItemEquipedReal("SW1H53",LastHitter(Myself)) // Sword of Flame +1
+	Delay(5)
+THEN
+	RESPONSE #100
+		UseItem("POTN02",Myself) // Potion of Fire Resistance
+		SetGlobal("DrinksPot1","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("DrinksPot1","LOCALS",1)
+	OR(18)
+		HasItemEquipedReal("AX1H12",LastHitter(Myself)) // Battle Axe +3, Stonefire
+		HasItemEquipedReal("BLUN14",LastHitter(Myself)) // Flail of Ages +3
+		HasItemEquipedReal("BLUN14D",LastHitter(Myself)) // Flail of Ages
+		HasItemEquipedReal("BLUN14F",LastHitter(Myself)) // Flail of Ages
+		HasItemEquipedReal("BLUN14H",LastHitter(Myself)) // Flail of Ages
+		HasItemEquipedReal("BRUENAX",LastHitter(Myself)) // Battle Axe +4, Dragon Blood
+		HasItemEquipedReal("CULTWEP4",LastHitter(Myself)) // Cult Mace +2
+		HasItemEquipedReal("DAGG12",LastHitter(Myself)) // Fire Tooth +3
+		HasItemEquipedReal("FIRESWRD",LastHitter(Myself)) // Long Sword of Fire +4
+		HasItemEquipedReal("FIRKAT",LastHitter(Myself)) // Katana of Fire + 2
+		HasItemEquipedReal("HALB05",LastHitter(Myself)) // Dragon's Breath +4
+		HasItemEquipedReal("JARLAXSC",LastHitter(Myself)) // Arandil +4
+		HasItemEquipedReal("KATOFPOW",LastHitter(Myself)) // Katana of Power
+		HasItemEquipedReal("LASPE6",LastHitter(Myself)) // Lancer's Spear +6
+		HasItemEquipedReal("NEWHOTR",LastHitter(Myself)) // Holy Triangle +4
+		HasItemEquipedReal("NEWSSFI",LastHitter(Myself)) // Short Sword +3: Fire
+		HasItemEquipedReal("SW1H39",LastHitter(Myself)) // Blade of Searing +3
+		HasItemEquipedReal("SW1H53",LastHitter(Myself)) // Sword of Flame +1
+	Delay(5)
+THEN
+	RESPONSE #100
+		UseItem("POTN02",Myself) // Potion of Fire Resistance
+		SetGlobal("DrinksPot1","LOCALS",2)
+		Continue()
+END
+
+IF
+	Global("DrinksPot2","LOCALS",0)
+	OR(23)
+		HasItemEquipedReal("AX1H13",LastHitter(Myself)) // Battle Axe +3, Frostreaver
+		HasItemEquipedReal("ICEKAT",LastHitter(Myself)) // Katana of Ice + 2
+		HasItemEquipedReal("LASPE6",LastHitter(Myself)) // Lancer's Spear +6
+		HasItemEquipedReal("NEWHOTR",LastHitter(Myself)) // Holy Triangle +4
+		HasItemEquipedReal("NEWSSIC",LastHitter(Myself)) // Short Sword +3: Ice
+		HasItemEquipedReal("BLUN14",LastHitter(Myself)) // Flail of Ages +3
+		HasItemEquipedReal("BLUN14D",LastHitter(Myself)) // Flail of Ages
+		HasItemEquipedReal("BLUN14E",LastHitter(Myself)) // Flail of Ages
+		HasItemEquipedReal("BLUN14G",LastHitter(Myself)) // Flail of Ages
+		HasItemEquipedReal("COFLAIL",LastHitter(Myself)) // Flail of Coldness +2
+		HasItemEquipedReal("FROZKAT",LastHitter(Myself)) // Frozen Katana +3
+		HasItemEquipedReal("HALB05",LastHitter(Myself)) // Dragon's Breath +4
+		HasItemEquipedReal("HALB08",LastHitter(Myself)) // Halberd +2, Duskblade
+		HasItemEquipedReal("JARLAXSC",LastHitter(Myself)) // Arandil +4
+		HasItemEquipedReal("KATOFPOW",LastHitter(Myself)) // Katana of Power
+		HasItemEquipedReal("KILLSW01",LastHitter(Myself))
+		HasItemEquipedReal("MAGSSWRD",LastHitter(Myself)) // Magical Blade of Nomal
+		HasItemEquipedReal("NewAx02",LastHitter(Myself)) // The Sight
+		HasItemEquipedReal("NewDa01",LastHitter(Myself)) // Dagger of Icestorm
+		HasItemEquipedReal("NewSpr02",LastHitter(Myself)) // Shiva's Spear +3
+		HasItemEquipedReal("SW1H06",LastHitter(Myself)) // Long Sword +2
+		HasItemEquipedReal("WAS2H",LastHitter(Myself)) // Joril's Dagger +3
+		HasItemEquipedReal("CULTWEP1",LastHitter(Myself)) // Cult Sword
+	Delay(5)
+THEN
+	RESPONSE #100
+		UseItem("POTN22",Myself) // Potion of Cold Resistance
+		SetGlobal("DrinksPot2","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("DrinksPot2","LOCALS",1)
+	OR(23)
+		HasItemEquipedReal("AX1H13",LastHitter(Myself)) // Battle Axe +3, Frostreaver
+		HasItemEquipedReal("ICEKAT",LastHitter(Myself)) // Katana of Ice + 2
+		HasItemEquipedReal("LASPE6",LastHitter(Myself)) // Lancer's Spear +6
+		HasItemEquipedReal("NEWHOTR",LastHitter(Myself)) // Holy Triangle +4
+		HasItemEquipedReal("NEWSSIC",LastHitter(Myself)) // Short Sword +3: Ice
+		HasItemEquipedReal("BLUN14",LastHitter(Myself)) // Flail of Ages +3
+		HasItemEquipedReal("BLUN14D",LastHitter(Myself)) // Flail of Ages
+		HasItemEquipedReal("BLUN14E",LastHitter(Myself)) // Flail of Ages
+		HasItemEquipedReal("BLUN14G",LastHitter(Myself)) // Flail of Ages
+		HasItemEquipedReal("COFLAIL",LastHitter(Myself)) // Flail of Coldness +2
+		HasItemEquipedReal("FROZKAT",LastHitter(Myself)) // Frozen Katana +3
+		HasItemEquipedReal("HALB05",LastHitter(Myself)) // Dragon's Breath +4
+		HasItemEquipedReal("HALB08",LastHitter(Myself)) // Halberd +2, Duskblade
+		HasItemEquipedReal("JARLAXSC",LastHitter(Myself)) // Arandil +4
+		HasItemEquipedReal("KATOFPOW",LastHitter(Myself)) // Katana of Power
+		HasItemEquipedReal("KILLSW01",LastHitter(Myself))
+		HasItemEquipedReal("MAGSSWRD",LastHitter(Myself)) // Magical Blade of Nomal
+		HasItemEquipedReal("NewAx02",LastHitter(Myself)) // The Sight
+		HasItemEquipedReal("NewDa01",LastHitter(Myself)) // Dagger of Icestorm
+		HasItemEquipedReal("NewSpr02",LastHitter(Myself)) // Shiva's Spear +3
+		HasItemEquipedReal("SW1H06",LastHitter(Myself)) // Long Sword +2
+		HasItemEquipedReal("WAS2H",LastHitter(Myself)) // Joril's Dagger +3
+		HasItemEquipedReal("CULTWEP1",LastHitter(Myself)) // Cult Sword
+	Delay(5)
+THEN
+	RESPONSE #100
+		UseItem("POTN22",Myself) // Potion of Cold Resistance
+		SetGlobal("DrinksPot2","LOCALS",2)
+		Continue()
+END
+
+IF
+	Global("DrinksPot3","LOCALS",0)
+	OR(13)
+		HasItemEquipedReal("LASPE6",LastHitter(Myself)) // Lancer's Spear +6
+		HasItemEquipedReal("NEWHOTR",LastHitter(Myself)) // Holy Triangle +4
+		HasItemEquipedReal("NEWSSLI",LastHitter(Myself)) // Short Sword +3: Lightning
+		HasItemEquipedReal("BLUN14",LastHitter(Myself)) // Flail of Ages +3
+		HasItemEquipedReal("HAMM05",LastHitter(Myself)) // War Hammer +2
+		HasItemEquipedReal("SPER09",LastHitter(Myself)) // Spear +1, Halcyon
+		HasItemEquipedReal("CULTWEP2",LastHitter(Myself)) // Cult Halberd +2
+		HasItemEquipedReal("HALB05",LastHitter(Myself)) // Dragon's Breath +4
+		HasItemEquipedReal("KATOFPOW",LastHitter(Myself)) // Katana of Power
+		HasItemEquipedReal("JUDBLAD",LastHitter(Myself)) // Judgement Blade +3
+		HasItemEquipedReal("NewSwS03",LastHitter(Myself)) // Storm Caller +3
+		HasItemEquipedReal("HAMM03",LastHitter(Myself)) // War Hammer +2
+		HasItemEquipedReal("StarMace",LastHitter(Myself)) // Mace of the Star +3
+	Delay(5)
+THEN
+	RESPONSE #100
+		UseItem("POTN31",Myself) // Potion of Insulation
+		SetGlobal("DrinksPot3","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("DrinksPot3","LOCALS",1)
+	OR(13)
+		HasItemEquipedReal("LASPE6",LastHitter(Myself)) // Lancer's Spear +6
+		HasItemEquipedReal("NEWHOTR",LastHitter(Myself)) // Holy Triangle +4
+		HasItemEquipedReal("NEWSSLI",LastHitter(Myself)) // Short Sword +3: Lightning
+		HasItemEquipedReal("BLUN14",LastHitter(Myself)) // Flail of Ages +3
+		HasItemEquipedReal("HAMM05",LastHitter(Myself)) // War Hammer +2
+		HasItemEquipedReal("SPER09",LastHitter(Myself)) // Spear +1, Halcyon
+		HasItemEquipedReal("CULTWEP2",LastHitter(Myself)) // Cult Halberd +2
+		HasItemEquipedReal("HALB05",LastHitter(Myself)) // Dragon's Breath +4
+		HasItemEquipedReal("KATOFPOW",LastHitter(Myself)) // Katana of Power
+		HasItemEquipedReal("JUDBLAD",LastHitter(Myself)) // Judgement Blade +3
+		HasItemEquipedReal("NewSwS03",LastHitter(Myself)) // Storm Caller +3
+		HasItemEquipedReal("HAMM03",LastHitter(Myself)) // War Hammer +2
+		HasItemEquipedReal("StarMace",LastHitter(Myself)) // Mace of the Star +3
+	Delay(5)
+THEN
+	RESPONSE #100
+		UseItem("POTN31",Myself) // Potion of Insulation
+		SetGlobal("DrinksPot3","LOCALS",2)
+		Continue()
+END
+
+

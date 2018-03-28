@@ -1,0 +1,36 @@
+IF
+	Clicked([ANYONE])
+	Global("CQuestActive","GLOBAL",12)
+THEN
+	RESPONSE #100
+		ActionOverride("CadPri15",MoveBetweenAreas("RA3708",[2041.908],3))
+END
+
+IF
+	Global("CQuestActive","GLOBAL",14)
+	OR(6)
+		Range(Player1,20)
+		Range(Player2,20)
+		Range(Player3,20)
+		Range(Player4,20)
+		Range(Player5,20)
+		Range(Player6,20)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		SetGlobal("CQuestActive","GLOBAL",15)
+		FadeToColor([20.0],0)
+		Wait(2)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RA3710","",[448.1568],3))
+		ActionOverride(Player2,LeaveAreaLUA("RA3710","",[449.1568],2))
+		ActionOverride(Player3,LeaveAreaLUA("RA3710","",[447.1568],3))
+		ActionOverride(Player4,LeaveAreaLUA("RA3710","",[446.1568],2))
+		ActionOverride(Player5,LeaveAreaLUA("RA3710","",[448.1569],3))
+		ActionOverride(Player6,LeaveAreaLUA("RA3710","",[448.1567],2))
+END
+
+

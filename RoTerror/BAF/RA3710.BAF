@@ -1,0 +1,46 @@
+IF
+	Global("CQuestActive","GLOBAL",11)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeFromColor([20.0],0)
+		ClearAllActions()
+		Wait(2)
+		ActionOverride("CadDem8",DisplayStringHead(Myself,@571155))
+		Wait(2)
+		SetGlobal("CQuestActive","GLOBAL",12)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("CQuestActive","GLOBAL",15)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeFromColor([20.0],0)
+		Wait(2)
+		ActionOverride(Player1,DisplayStringHead(Myself,@571211))
+		Wait(5)
+		FadeToColor([20.0],0)
+		ActionOverride(Player1,MoveToPoint([386.1611]))
+		ActionOverride(Player2,MoveToPoint([386.1612]))
+		ActionOverride(Player3,MoveToPoint([386.1613]))
+		ActionOverride(Player4,MoveToPoint([387.1611]))
+		ActionOverride(Player5,MoveToPoint([388.1611]))
+		ActionOverride(Player6,MoveToPoint([385.1611]))
+		SetGlobal("CQuestActive","GLOBAL",16)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RA3711","",[1205.1333],3))
+		ActionOverride(Player2,LeaveAreaLUA("RA3711","",[1173.1311],3))
+		ActionOverride(Player3,LeaveAreaLUA("RA3711","",[1193.1283],3))
+		ActionOverride(Player4,LeaveAreaLUA("RA3711","",[1233.1311],3))
+		ActionOverride(Player5,LeaveAreaLUA("RA3711","",[1257.1287],3))
+		ActionOverride(Player6,LeaveAreaLUA("RA3711","",[1217.1257],3))
+END
+
+

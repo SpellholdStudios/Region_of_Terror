@@ -1,0 +1,33 @@
+IF
+        True()
+THEN
+	RESPONSE #100
+		CutSceneId("Brundor2")
+		Wait(1)
+		JumpToPoint([401.348])
+		Face(6)
+		Wait(2)
+		CreateVisualEffect("sppolymp",[401.348])
+		CreateVisualEffect("spcrtwpn",[401.348])
+		Wait(1)
+		Swing()
+		Wait(1)
+		CreateVisualEffect("spfracti",[401.348])
+		CreateVisualEffect("spcrtwpn",[401.348])
+		Wait(1)
+		Swing()
+		Wait(2)
+		FadeToColor([30.0],0)
+		Wait(1)
+		JumpToPoint([505.353])
+		Face(13)
+		Wait(1)
+		FadeFromColor([30.0],0)
+		Wait(1)
+		SetGlobal("StartForging","RR3101",0)
+		UnhideGUI()
+		EndCutSceneMode()
+		StartDialogueNoSet(Player1)
+END
+
+

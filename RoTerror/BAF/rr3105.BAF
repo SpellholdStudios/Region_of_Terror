@@ -1,0 +1,10 @@
+IF
+	Global("dflkjad","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SmallWait(3)
+		ActionOverride("ArlTrav",DestroySelf())
+		SetGlobal("dflkjad","GLOBAL",3)
+END
+
+

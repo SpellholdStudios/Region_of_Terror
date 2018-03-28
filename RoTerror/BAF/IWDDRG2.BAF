@@ -1,0 +1,8 @@
+IF
+	Dead("IwdDrg7") // Hequistus
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+

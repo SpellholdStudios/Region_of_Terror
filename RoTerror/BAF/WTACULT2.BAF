@@ -1,0 +1,457 @@
+IF
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo1",Myself) // Glabrezu
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo1",Myself) // Glabrezu
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo2",Myself) // Cornugon
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo2",Myself) // Cornugon
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo3",Myself) // Rabid Black Bear
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo3",Myself) // Rabid Black Bear
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo4",Myself) // Rabid Bear
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo4",Myself) // Rabid Bear
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo5",Myself) // Warrior of Horror
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo5",Myself) // Warrior of Horror
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo6",Myself) // Hell Hound
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo6",Myself) // Hell Hound
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo7",Myself) // Strong Skeleton
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo7",Myself) // Strong Skeleton
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo8",Myself) // Wandering Horror
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo8",Myself) // Wandering Horror
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo9",Myself) // Fire Giant
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo9",Myself) // Fire Giant
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo10",Myself) // Ettin
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo10",Myself) // Ettin
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo11",Myself) // Beholder
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo11",Myself) // Beholder
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo12",Myself) // Strong Slime
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo12",Myself) // Strong Slime
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Summon","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",1)
+	HasItem("CultMo1",Myself) // Glabrezu
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo1",Myself) // Glabrezu
+		SetGlobalTimer("Summon2","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",0)
+END
+
+IF
+	GlobalTimerExpired("Summon","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",1)
+	HasItem("CultMo2",Myself) // Cornugon
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo2",Myself) // Cornugon
+		SetGlobalTimer("Summon2","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",0)
+END
+
+IF
+	GlobalTimerExpired("Summon","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",1)
+	HasItem("CultMo3",Myself) // Rabid Black Bear
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo3",Myself) // Rabid Black Bear
+		SetGlobalTimer("Summon2","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",0)
+END
+
+IF
+	GlobalTimerExpired("Summon","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",1)
+	HasItem("CultMo4",Myself) // Rabid Bear
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo4",Myself) // Rabid Bear
+		SetGlobalTimer("Summon2","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",0)
+END
+
+IF
+	GlobalTimerExpired("Summon","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",1)
+	HasItem("CultMo5",Myself) // Warrior of Horror
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo5",Myself) // Warrior of Horror
+		SetGlobalTimer("Summon2","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",0)
+END
+
+IF
+	GlobalTimerExpired("Summon","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",1)
+	HasItem("CultMo6",Myself) // Hell Hound
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo6",Myself) // Hell Hound
+		SetGlobalTimer("Summon2","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",0)
+END
+
+IF
+	GlobalTimerExpired("Summon","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",1)
+	HasItem("CultMo7",Myself) // Strong Skeleton
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo7",Myself) // Strong Skeleton
+		SetGlobalTimer("Summon2","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",0)
+END
+
+IF
+	GlobalTimerExpired("Summon","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",1)
+	HasItem("CultMo8",Myself) // Wandering Horror
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo8",Myself) // Wandering Horror
+		SetGlobalTimer("Summon2","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",0)
+END
+
+IF
+	GlobalTimerExpired("Summon","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",1)
+	HasItem("CultMo9",Myself) // Fire Giant
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo9",Myself) // Fire Giant
+		SetGlobalTimer("Summon2","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",0)
+END
+
+IF
+	GlobalTimerExpired("Summon","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",1)
+	HasItem("CultMo10",Myself) // Ettin
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo10",Myself) // Ettin
+		SetGlobalTimer("Summon2","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",0)
+END
+
+IF
+	GlobalTimerExpired("Summon","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",1)
+	HasItem("CultMo11",Myself) // Beholder
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo11",Myself) // Beholder
+		SetGlobalTimer("Summon2","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",0)
+END
+
+IF
+	GlobalTimerExpired("Summon","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",1)
+	HasItem("CultMo12",Myself) // Strong Slime
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo12",Myself) // Strong Slime
+		SetGlobalTimer("Summon2","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",0)
+END
+
+IF
+	GlobalTimerExpired("Summon2","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo1",Myself) // Glabrezu
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo1",Myself) // Glabrezu
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Summon2","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo2",Myself) // Cornugon
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo2",Myself) // Cornugon
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Summon2","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo3",Myself) // Rabid Black Bear
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo3",Myself) // Rabid Black Bear
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Summon2","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo4",Myself) // Rabid Bear
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo4",Myself) // Rabid Bear
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Summon2","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo5",Myself) // Warrior of Horror
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo5",Myself) // Warrior of Horror
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Summon2","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo6",Myself) // Hell Hound
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo6",Myself) // Hell Hound
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Summon2","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo7",Myself) // Strong Skeleton
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo7",Myself) // Strong Skeleton
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Summon2","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo8",Myself) // Wandering Horror
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo8",Myself) // Wandering Horror
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Summon2","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo9",Myself) // Fire Giant
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo9",Myself) // Fire Giant
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Summon2","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo10",Myself) // Ettin
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo10",Myself) // Ettin
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Summon2","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo11",Myself) // Beholder
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo11",Myself) // Beholder
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+IF
+	GlobalTimerExpired("Summon2","LOCALS")
+	Global("HostileBeastCult","GLOBAL",1)
+	Global("TheSummons","LOCALS",0)
+	HasItem("CultMo12",Myself) // Strong Slime
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		UseItem("CultMo12",Myself) // Strong Slime
+		SetGlobalTimer("Summon","LOCALS",ONE_DAY)
+		SetGlobal("TheSummons","LOCALS",1)
+END
+
+

@@ -1,0 +1,38 @@
+BEGIN ~CHAUNTI~
+
+IF ~Global("CQuestActive","GLOBAL",2)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXTERN ~DRIZ2J~ 136
+END
+
+IF ~~ THEN BEGIN 1 // from:
+  SAY @1
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0
+  SAY @2
+  IF ~~ THEN GOTO 6
+END
+
+IF ~~ THEN BEGIN 3 // from: 5.0
+  SAY @3
+  IF ~~ THEN DO ~SetGlobal("CQuestActive","GLOBAL",5)
+EscapeArea()~ UNSOLVED_JOURNAL @571233 EXIT
+END
+
+IF ~~ THEN BEGIN 4 // from:
+  SAY @4
+  IF ~~ THEN EXTERN ~DRIZ2J~ 143
+END
+
+IF ~Global("CQuestActive","GLOBAL",4)~ THEN BEGIN 5
+  SAY @5
+  IF ~~ THEN REPLY @6 GOTO 3
+  IF ~~ THEN REPLY @7 EXIT
+END
+
+IF ~~ THEN BEGIN 6 // from: 2.0
+  SAY @8
+  IF ~~ THEN EXTERN ~DRIZ2J~ 137
+END

@@ -1,0 +1,45 @@
+IF
+	Global("FinalBattleofitemp","GLOBAL",7)
+	CombatCounter(0)
+	OR(2)
+		Range("Wulfg2",10)
+		Entered("Wulfg2")
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPRESURI",[1053.811])
+		SmallWait(2)
+		ActionOverride("Wulfg2",DestroyItem("Delly1")) // Delly's Body
+		Wait(2)
+		CreateCreature("WulDel2",[1053.811],1) // Delly
+		Wait(1)
+		StartCutSceneMode()
+		HideGUI()
+		MoveViewObject("Wulfg2",INSTANT)
+		ActionOverride("Wulfg2",DisplayStringHead(Myself,@573212))
+		Wait(3)
+		ActionOverride("WulDel2",DisplayStringHead(Myself,@573213))
+		Wait(3)
+		ActionOverride("Wulfg2",DisplayStringHead(Myself,@573215))
+		Wait(4)
+		AddXPObject(Player1,30000)
+		AddXPObject(Player2,30000)
+		AddXPObject(Player3,30000)
+		AddXPObject(Player4,30000)
+		AddXPObject(Player5,30000)
+		AddXPObject(Player6,30000)
+		Wait(1)
+		ActionOverride("Wulfg2",LeaveParty())
+		ActionOverride("Wulfg2",EscapeAreaMove("RA5100",1539,726,8))
+		SmallWait(5)
+		EraseJournalEntry(@573242)
+		EraseJournalEntry(@573243)
+		EraseJournalEntry(@573244)
+		AddJournalEntry(@573245,QUEST_DONE)
+		SetGlobal("FinalBattleofitemp","GLOBAL",8)
+		SetGlobal("Wulfgargone","GLOBAL",1)
+		ActionOverride("WulDel2",EscapeAreaMove("RA5103",410,128,0))
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

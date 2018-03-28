@@ -1,0 +1,58 @@
+IF
+	!InParty("Wulfg2")
+	Global("FinalBattleofitemp","GLOBAL",0)
+	OR(6)
+		Range(Player1,25)
+		Range(Player2,25)
+		Range(Player3,25)
+		Range(Player4,25)
+		Range(Player5,25)
+		Range(Player6,25)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		CreateCreature("MonksS26",[1070.2364],2) // Monk's Spirit
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,JumpToPoint([1294.2123]))
+		ActionOverride(Player2,JumpToPoint([1266.2107]))
+		ActionOverride(Player3,JumpToPoint([1320.2099]))
+		ActionOverride(Player4,JumpToPoint([1285.2083]))
+		ActionOverride(Player5,JumpToPoint([1328.2083]))
+		ActionOverride(Player6,JumpToPoint([1294.2047]))
+		MoveViewPoint([1294.2123],INSTANT)
+		SmallWait(1)
+		FaceObject(Player1)
+		ActionOverride(Player1,FaceObject("Malar19"))
+		ActionOverride(Player2,FaceObject("Malar19"))
+		ActionOverride(Player3,FaceObject("Malar19"))
+		ActionOverride(Player4,FaceObject("Malar19"))
+		ActionOverride(Player5,FaceObject("Malar19"))
+		ActionOverride(Player6,FaceObject("Malar19"))
+		SmallWait(1)
+		SetGlobal("FinalBattleofitemp","GLOBAL",1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	InParty("Wulfg2")
+	Global("FinalBattleofitemp","GLOBAL",0)
+	Global("FinalBattleof","RA5603",0)
+	OR(6)
+		Range(Player1,25)
+		Range(Player2,25)
+		Range(Player3,25)
+		Range(Player4,25)
+		Range(Player5,25)
+		Range(Player6,25)
+THEN
+	RESPONSE #100
+		SetGlobal("FinalBattleof","RA5603",1)
+END
+
+

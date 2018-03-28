@@ -1,0 +1,41 @@
+IF
+	Global("DrinksP","LOCALS",0)
+THEN
+	RESPONSE #100
+		UseItem("POTN07",Myself) // Potion of Storm Giant Strength
+		SetGlobal("DrinksP","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("DrinksPot","LOCALS",0)
+	HPLT(Myself,110)
+THEN
+	RESPONSE #100
+		UseItem("NewPo01",Myself) // Elixir of Life
+		SetGlobal("DrinksPot","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("DrinksPot","LOCALS",1)
+	HPLT(Myself,100)
+THEN
+	RESPONSE #100
+		UseItem("NewPo01",Myself) // Elixir of Life
+		SetGlobal("DrinksPot","LOCALS",2)
+		Continue()
+END
+
+IF
+	Global("DrinksPot","LOCALS",2)
+	HPLT(Myself,50)
+THEN
+	RESPONSE #100
+		UseItem("NewPo02",Myself) // Potion of Ascendance
+		UseItem("NewPo01",Myself) // Elixir of Life
+		SetGlobal("DrinksPot","LOCALS",3)
+		Continue()
+END
+
+

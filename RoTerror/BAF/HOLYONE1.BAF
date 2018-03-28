@@ -1,0 +1,75 @@
+IF
+	Global("StartStr","RR3302",1)
+THEN
+	RESPONSE #100
+		Wait(1)
+		ForceSpellPoint([1083.1011],CUTSCENE_DAMAGE_1B)
+		PlaySound("EFF_P19")
+		Wait(1)
+		CreateCreature("HolyUmb",[1083.1011],7) // Umber Hulk
+		SetGlobal("StartStr","RR3302",2)
+END
+
+IF
+	Global("StartStr","RR3302",2)
+	Dead("HolyUmb") // Umber Hulk
+THEN
+	RESPONSE #100
+		Wait(4)
+		ForceSpellPoint([1083.1011],CUTSCENE_DAMAGE_1B)
+		PlaySound("EFF_P19")
+		Wait(1)
+		CreateCreature("HolyVam",[1083.1011],7) // Vampire
+		SetGlobal("StartStr","RR3302",3)
+END
+
+IF
+	Global("StartStr","RR3302",3)
+	Dead("HolyVam") // Vampire
+THEN
+	RESPONSE #100
+		Wait(4)
+		ForceSpellPoint([1083.1011],CUTSCENE_DAMAGE_1B)
+		PlaySound("EFF_P19")
+		Wait(1)
+		CreateCreature("HolyMind",[1083.1011],7) // Mind Flayer
+		SetGlobal("StartStr","RR3302",4)
+END
+
+IF
+	Global("StartStr","RR3302",4)
+	Dead("HolyMind") // Mind Flayer
+THEN
+	RESPONSE #100
+		Wait(4)
+		ForceSpellPoint([1083.1011],CUTSCENE_DAMAGE_1B)
+		PlaySound("EFF_P19")
+		Wait(1)
+		CreateCreature("HolyTana",[1083.1011],7) // Tanar'ri
+		SetGlobal("StartStr","RR3302",5)
+END
+
+IF
+	Global("StartStr","RR3302",5)
+	Dead("HolyTana") // Tanar'ri
+THEN
+	RESPONSE #100
+		Wait(4)
+		ForceSpellPoint([1083.1011],CUTSCENE_DAMAGE_1B)
+		PlaySound("EFF_P19")
+		Wait(1)
+		CreateCreature("HolyBeh",[1083.1011],7) // Beholder
+		SetGlobal("StartStr","RR3302",6)
+END
+
+IF
+	Global("StartStr","RR3302",6)
+	Dead("HolyBeh") // Beholder
+THEN
+	RESPONSE #100
+		SetGlobal("StartStr","RR3302",7)
+		Wait(1)
+		StartDialog("HolyOne1",[PC])
+END
+
+

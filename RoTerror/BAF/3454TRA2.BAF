@@ -1,0 +1,8 @@
+IF
+	Clicked([ANYONE])
+THEN
+	RESPONSE #100
+		ActionOverride("Olmar3",MoveBetweenAreas("RR3455",[200.821],10))
+END
+
+

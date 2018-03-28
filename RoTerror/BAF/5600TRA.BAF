@@ -1,0 +1,11 @@
+IF
+	Clicked([ANYONE])
+	InParty("Wulfg2")
+	!Global("FinalBattleofitemp","GLOBAL",8)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		ActionOverride("Wulfg2",DisplayStringHead(Myself,@573048))
+END
+
+

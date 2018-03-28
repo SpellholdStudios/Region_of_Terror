@@ -1,0 +1,55 @@
+IF
+	Dead("OlmLead1")
+	Dead("OlmLead2")
+	Global("TlKeyG","RR3406",0)
+	Global("TalReg","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(1)
+		DisplayStringHead(Myself,@570855)
+		GiveItemCreate("OlmKey",[PC],0,0,0) // Olmar's Key
+		SetGlobal("TlKeyG","RR3406",1)
+END
+
+IF
+	Dead("OlmLead1")
+	Dead("OlmLead2")
+	Global("TlKeyG","RR3406",0)
+	Global("OlmReg","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(1)
+		StartCutSceneMode()
+		HideGUI()
+		DisplayStringHead(Myself,@570855)
+		Wait(4)
+		ActionOverride(Player1,DisplayStringHead(Myself,@570856))
+		Wait(4)
+		FadeToColor([20.0],0)
+		Wait(1)
+		LeaveAreaLUA("RR3406","",[1161.2902],13)
+		ActionOverride(Player1,LeaveAreaLUA("RR3406","",[1190.2955],5))
+		ActionOverride(Player2,LeaveAreaLUA("RR3406","",[1228.2931],5))
+		ActionOverride(Player3,LeaveAreaLUA("RR3406","",[1274.2906],4))
+		ActionOverride(Player4,LeaveAreaLUA("RR3406","",[1152.2955],5))
+		ActionOverride(Player5,LeaveAreaLUA("RR3406","",[1128.2967],7))
+		ActionOverride(Player6,LeaveAreaLUA("RR3406","",[1115.2959],7))
+		MoveViewPoint([1190.2955],INSTANT)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("TlKeyG","RR3406",1)
+		SetGlobal("Tlwhat","RR3406",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("Tlwhat","RR3406",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+

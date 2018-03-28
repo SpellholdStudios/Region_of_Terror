@@ -1,0 +1,281 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat5","RA5002",0)
+	!Global("Blockact5","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1667.1883])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodDemi1",[1667.1883],0) // Demi-Lich
+		Wait(1)
+		SetGlobal("StartBat5","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat5","RA5002",0)
+	Global("StartBat6","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1667.1883])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodDemi1",[1667.1883],0) // Demi-Lich
+		Wait(1)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodDemi1",0,0,0)) // Symbol of the Eye
+		SetGlobal("StartBat5","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat5","RA5002",0)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1667.1883])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodDemi1",[1667.1883],0) // Demi-Lich
+		Wait(1)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodDemi1",0,0,0)) // Symbol of the Eye
+		SetGlobal("StartBat5","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat5","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1667.1883])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodDemi1",[1667.1883],0) // Demi-Lich
+		Wait(1)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodDemi1",0,0,0)) // Symbol of the Eye
+		SetGlobal("StartBat5","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat5","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1667.1883])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodDemi1",[1667.1883],0) // Demi-Lich
+		Wait(1)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodDemi1",0,0,0)) // Symbol of the Eye
+		SetGlobal("StartBat5","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat5","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1667.1883])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodDemi1",[1667.1883],0) // Demi-Lich
+		Wait(1)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodDemi1",0,0,0)) // Symbol of the Eye
+		SetGlobal("StartBat5","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat5","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1667.1883])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodDemi1",[1667.1883],0) // Demi-Lich
+		Wait(1)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodDemi1",0,0,0)) // Symbol of the Eye
+		SetGlobal("StartBat5","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat5","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1667.1883])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodDemi1",[1667.1883],0) // Demi-Lich
+		Wait(1)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodDemi1",0,0,0)) // Symbol of the Eye
+		SetGlobal("StartBat5","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat5","RA5002",0)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1667.1883])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodDemi1",[1667.1883],0) // Demi-Lich
+		Wait(1)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodDemi1",0,0,0)) // Symbol of the Eye
+		SetGlobal("StartBat5","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat5","RA5002",0)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1667.1883])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodDemi1",[1667.1883],0) // Demi-Lich
+		Wait(1)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodDemi1",0,0,0)) // Symbol of the Eye
+		SetGlobal("StartBat5","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	Global("StartBat5","RA5002",0)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	!Global("Ihaveit","RA5002",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		ClearAllActions()
+		Wait(3)
+		CreateVisualEffect("SPFIREPI",[1667.1883])
+		PlaySound("EFF_M13")
+		Wait(2)
+		CreateCreature("GodDemi1",[1667.1883],0) // Demi-Lich
+		Wait(1)
+		ActionOverride(Player1,GiveItemCreate("SymbEye","GodDemi1",0,0,0)) // Symbol of the Eye
+		SetGlobal("StartBat5","RA5002",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+	Global("StartBat5","RA5002",0)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702) // You are too far away to use that.
+END
+
+

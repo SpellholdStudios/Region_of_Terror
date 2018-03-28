@@ -1,0 +1,16 @@
+IF
+	Global("Brothertimeriwd","GLOBAL",7)
+	OR(6)
+		Range(Player1,30)
+		Range(Player2,30)
+		Range(Player3,30)
+		Range(Player4,30)
+		Range(Player5,30)
+		Range(Player6,30)
+THEN
+	RESPONSE #100
+		SetGlobal("Brothertimeriwd","GLOBAL",10)
+		ActionOverride("BreTor1",StartDialogueNoSet(Player1))
+END
+
+

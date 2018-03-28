@@ -1,0 +1,36 @@
+BEGIN ~BEOGORN~
+
+IF ~Global("Wulfgarsquest","GLOBAL",0)~ THEN BEGIN 1
+  SAY @0
+  IF ~~ THEN EXTERN ~WULFG2J~ 52
+END
+
+IF ~~ THEN BEGIN 2 // from:
+  SAY @1
+  IF ~~ THEN GOTO 3
+END
+
+IF ~~ THEN BEGIN 3 // from: 2.0
+  SAY @2
+  IF ~~ THEN EXTERN ~WULFG2J~ 53
+END
+
+IF ~~ THEN BEGIN 4 // from:
+  SAY @3
+  IF ~~ THEN GOTO 5
+END
+
+IF ~~ THEN BEGIN 5 // from: 4.0
+  SAY @4
+  IF ~~ THEN EXTERN ~WULFG2J~ 54
+END
+
+IF ~~ THEN BEGIN 6 // from:
+  SAY @5
+  IF ~~ THEN GOTO 7
+END
+
+IF ~~ THEN BEGIN 7 // from: 6.0
+  SAY @6
+  IF ~~ THEN EXTERN ~WULFG2J~ 58
+END

@@ -1,0 +1,179 @@
+IF
+	Global("Sfquestbd","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("Sfquestbd","GLOBAL",5)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("Sfquestbd","GLOBAL",6)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		MoveToPoint([1879.1329])
+		ActionOverride(Player1,MoveToPoint([1905.1355]))
+		MoveViewPoint([1905.1355],INSTANT)
+		Wait(3)
+		UnhideGUI()
+		EndCutSceneMode()
+		SmallWait(1)
+		SetGlobal("Sfquestbd","GLOBAL",7)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("Sfquestbd","GLOBAL",8)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		MoveToPoint([1479.1512])
+		ActionOverride(Player1,MoveToPoint([1507.1538]))
+		MoveViewPoint([1507.1538],INSTANT)
+		Wait(5)
+		UnhideGUI()
+		EndCutSceneMode()
+		SmallWait(1)
+		SetGlobal("Sfquestbd","GLOBAL",9)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("Sfquestbd","GLOBAL",10)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		MoveToPoint([1637.1114])
+		ActionOverride(Player1,MoveToPoint([1662.1138]))
+		MoveViewPoint([1662.1138],INSTANT)
+		Wait(5)
+		UnhideGUI()
+		EndCutSceneMode()
+		SmallWait(1)
+		SetGlobal("Sfquestbd","GLOBAL",11)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("Sfquestbd","GLOBAL",12)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		MoveToPoint([1237.1315])
+		ActionOverride(Player1,MoveToPoint([1264.1337]))
+		MoveViewPoint([1264.1337],INSTANT)
+		Wait(5)
+		UnhideGUI()
+		EndCutSceneMode()
+		SmallWait(1)
+		SetGlobal("Sfquestbd","GLOBAL",13)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("Sfquestbd","GLOBAL",14)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		MoveToPoint([1401.921])
+		ActionOverride(Player1,MoveToPoint([1425.947]))
+		MoveViewPoint([1425.947],INSTANT)
+		Wait(5)
+		UnhideGUI()
+		EndCutSceneMode()
+		SmallWait(1)
+		SetGlobal("Sfquestbd","GLOBAL",15)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("Sfquestbd","GLOBAL",16)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		MoveToPoint([999.1132])
+		ActionOverride(Player1,MoveToPoint([1023.1152]))
+		MoveViewPoint([1023.1152],INSTANT)
+		Wait(5)
+		UnhideGUI()
+		EndCutSceneMode()
+		SmallWait(1)
+		SetGlobal("Sfquestbd","GLOBAL",17)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("Sfquestbd","GLOBAL",18)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		MoveToPoint([1155.725])
+		ActionOverride(Player1,MoveToPoint([1186.749]))
+		MoveViewPoint([1186.749],INSTANT)
+		Wait(5)
+		UnhideGUI()
+		EndCutSceneMode()
+		SmallWait(1)
+		SetGlobal("Sfquestbd","GLOBAL",19)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("Sfquestbd","GLOBAL",20)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		MoveToPoint([757.934])
+		ActionOverride(Player1,MoveToPoint([783.960]))
+		MoveViewPoint([783.960],INSTANT)
+		Wait(5)
+		UnhideGUI()
+		EndCutSceneMode()
+		SmallWait(1)
+		SetGlobal("Sfquestbd","GLOBAL",21)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("Sfquestbd","GLOBAL",22)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		MoveToPoint([910.532])
+		ActionOverride(Player1,MoveToPoint([945.560]))
+		MoveViewPoint([945.560],INSTANT)
+		Wait(5)
+		UnhideGUI()
+		EndCutSceneMode()
+		SmallWait(1)
+		SetGlobal("Sfquestbd","GLOBAL",23)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("Sfquestbd","GLOBAL",24)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		MoveToPoint([514.721])
+		ActionOverride(Player1,MoveToPoint([544.743]))
+		MoveViewPoint([544.743],INSTANT)
+		Wait(5)
+		UnhideGUI()
+		EndCutSceneMode()
+		SmallWait(1)
+		SetGlobal("Sfquestbd","GLOBAL",25)
+		StartDialogueNoSet(Player1)
+END
+
+

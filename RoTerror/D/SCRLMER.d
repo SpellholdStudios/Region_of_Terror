@@ -1,0 +1,208 @@
+BEGIN ~SCRLMER~
+
+IF ~Global("Eleanquest","GLOBAL",7)~ THEN BEGIN 2
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 3
+  IF ~~ THEN REPLY @2 GOTO 21
+  IF ~~ THEN REPLY @3 GOTO 22
+END
+
+IF ~~ THEN BEGIN 3 // from: 2.0
+  SAY @4
+  IF ~~ THEN GOTO 4
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.0
+  SAY @5
+  IF ~~ THEN GOTO 5
+END
+
+IF ~~ THEN BEGIN 5 // from: 4.0
+  SAY @6
+  IF ~~ THEN GOTO 6
+END
+
+IF ~~ THEN BEGIN 6 // from: 5.0
+  SAY @7
+  IF ~~ THEN REPLY @8 GOTO 7
+  IF ~~ THEN REPLY @9 GOTO 18
+  IF ~~ THEN REPLY @10 GOTO 20
+END
+
+IF ~~ THEN BEGIN 7 // from: 20.0 6.0
+  SAY @11
+  IF ~~ THEN GOTO 8
+END
+
+IF ~~ THEN BEGIN 8 // from: 7.0
+  SAY @12
+  IF ~~ THEN GOTO 9
+END
+
+IF ~~ THEN BEGIN 9 // from: 8.0
+  SAY @13
+  IF ~~ THEN GOTO 10
+END
+
+IF ~~ THEN BEGIN 10 // from: 9.0
+  SAY @14
+  IF ~~ THEN GOTO 11
+END
+
+IF ~~ THEN BEGIN 11 // from: 10.0
+  SAY @15
+  IF ~~ THEN GOTO 12
+END
+
+IF ~~ THEN BEGIN 12 // from: 11.0
+  SAY @16
+  IF ~~ THEN GOTO 13
+END
+
+IF ~~ THEN BEGIN 13 // from: 12.0
+  SAY @17
+  IF ~~ THEN GOTO 14
+END
+
+IF ~~ THEN BEGIN 14 // from: 13.0
+  SAY @18
+  IF ~~ THEN GOTO 15
+END
+
+IF ~~ THEN BEGIN 15 // from: 14.0
+  SAY @19
+  IF ~~ THEN REPLY @20 GOTO 16
+  IF ~~ THEN REPLY @21 GOTO 17
+END
+
+IF ~~ THEN BEGIN 16 // from: 15.0
+  SAY @22
+  IF ~~ THEN DO ~SetGlobal("Eleanquest","GLOBAL",8)
+RevealAreaOnMap("Ra4700")~ UNSOLVED_JOURNAL @568691 EXIT
+END
+
+IF ~~ THEN BEGIN 17 // from: 15.1
+  SAY @23
+  IF ~~ THEN DO ~SetGlobal("Eleanquest","GLOBAL",8)
+RevealAreaOnMap("Ra4700")~ UNSOLVED_JOURNAL @568691 EXIT
+END
+
+IF ~~ THEN BEGIN 18 // from: 20.1 6.1
+  SAY @24
+  IF ~~ THEN GOTO 19
+END
+
+IF ~~ THEN BEGIN 19 // from: 18.0
+  SAY @25
+  IF ~~ THEN DO ~SetGlobal("Eleanquest","GLOBAL",8)
+RevealAreaOnMap("Ra4700")~ UNSOLVED_JOURNAL @568691 EXIT
+END
+
+IF ~~ THEN BEGIN 20 // from: 6.2
+  SAY @26
+  IF ~~ THEN REPLY @27 GOTO 7
+  IF ~~ THEN REPLY @28 GOTO 18
+END
+
+IF ~~ THEN BEGIN 21 // from: 38.0 23.0 2.1
+  SAY @29
+  IF ~~ THEN DO ~StartStore("ScrlMer",LastTalkedToBy())~ EXIT
+END
+
+IF ~~ THEN BEGIN 22 // from: 23.2 2.2
+  SAY @30
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("Eleanquest","GLOBAL",8)~ THEN BEGIN 23
+  SAY @31
+  IF ~~ THEN REPLY @32 GOTO 21
+  IF ~!Global("Eleanquest","GLOBAL",16)~ THEN REPLY @33 GOTO 24
+  IF ~~ THEN REPLY @34 GOTO 22
+END
+
+IF ~~ THEN BEGIN 24 // from: 23.1
+  SAY @35
+  IF ~~ THEN REPLY @36 GOTO 25
+  IF ~~ THEN REPLY @37 GOTO 27
+  IF ~~ THEN REPLY @38 GOTO 38
+END
+
+IF ~~ THEN BEGIN 25 // from: 37.0 36.0 35.0 24.0
+  SAY @39
+  IF ~~ THEN GOTO 26
+END
+
+IF ~~ THEN BEGIN 26 // from: 25.0
+  SAY @40
+  IF ~~ THEN REPLY @37 GOTO 27
+  IF ~~ THEN REPLY @41 GOTO 38
+END
+
+IF ~~ THEN BEGIN 27 // from: 26.0 24.1
+  SAY @42
+  IF ~~ THEN GOTO 28
+END
+
+IF ~~ THEN BEGIN 28 // from: 27.0
+  SAY @12
+  IF ~~ THEN GOTO 29
+END
+
+IF ~~ THEN BEGIN 29 // from: 28.0
+  SAY @13
+  IF ~~ THEN GOTO 30
+END
+
+IF ~~ THEN BEGIN 30 // from: 29.0
+  SAY @14
+  IF ~~ THEN GOTO 31
+END
+
+IF ~~ THEN BEGIN 31 // from: 30.0
+  SAY @15
+  IF ~~ THEN GOTO 32
+END
+
+IF ~~ THEN BEGIN 32 // from: 31.0
+  SAY @16
+  IF ~~ THEN GOTO 33
+END
+
+IF ~~ THEN BEGIN 33 // from: 32.0
+  SAY @17
+  IF ~~ THEN GOTO 34
+END
+
+IF ~~ THEN BEGIN 34 // from: 33.0
+  SAY @18
+  IF ~~ THEN GOTO 35
+END
+
+IF ~~ THEN BEGIN 35 // from: 34.0
+  SAY @19
+  IF ~~ THEN REPLY @43 GOTO 25
+  IF ~~ THEN REPLY @44 GOTO 36
+  IF ~~ THEN REPLY @45 GOTO 37
+  IF ~~ THEN REPLY @41 GOTO 38
+END
+
+IF ~~ THEN BEGIN 36 // from: 37.1 35.1
+  SAY @46
+  IF ~~ THEN REPLY @43 GOTO 25
+  IF ~~ THEN REPLY @45 GOTO 37
+  IF ~~ THEN REPLY @41 GOTO 38
+END
+
+IF ~~ THEN BEGIN 37 // from: 36.1 35.2
+  SAY @47
+  IF ~~ THEN REPLY @43 GOTO 25
+  IF ~~ THEN REPLY @44 GOTO 36
+  IF ~~ THEN REPLY @41 GOTO 38
+END
+
+IF ~~ THEN BEGIN 38 // from: 37.2 36.2 35.3 26.1 24.2
+  SAY @48
+  IF ~~ THEN REPLY @49 GOTO 21
+  IF ~~ THEN REPLY @34 EXIT
+END

@@ -1,0 +1,19 @@
+IF
+	See("Driz2")
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("MesDriz","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("AfterMes","RR3150",1)
+		SmallWait(1)
+		ActionOverride("Malnar",ForceSpell(Myself,DRYAD_TELEPORT))
+		SetGlobal("MesDriz","LOCALS",2)
+END
+
+

@@ -1,0 +1,29 @@
+IF
+	Global("Caravanquest","GLOBAL",3)
+	Global("Createmonstersiwd","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CloseDoor("5400D1")
+		CreateCreature("IwdGob2",[2076.1395],2) // Goblin Captain
+		CreateCreature("IwdGob1",[2116.1276],14) // Goblin
+		CreateCreature("IwdGob1",[2116.1277],3) // Goblin
+		CreateCreature("IwdGob1",[2118.1275],6) // Goblin
+		CreateCreature("IwdGob1",[2119.1275],0) // Goblin
+		CreateCreature("IwdGob1",[2116.1274],12) // Goblin
+		CreateCreature("IwdGob1",[2115.1275],7) // Goblin
+		CreateCreature("IwdOrc1",[2258.1402],3) // Orc
+		CreateCreature("IwdOrc1",[2260.1403],12) // Orc
+		CreateCreature("IwdOrc1",[2259.1403],0) // Orc
+		CreateCreature("IwdOrc1",[2257.1404],2) // Orc
+		CreateCreature("IwdOrc1",[2256.1404],4) // Orc
+		CreateCreature("IwdOrc1",[2255.1404],7) // Orc
+		CreateCreature("IwdOrc1",[2258.1404],6) // Orc
+		CreateCreature("IwdOrc1",[2258.1405],6) // Orc
+		CreateCreature("IwdOrc1",[2258.1406],12) // Orc
+		CreateCreature("BreFi12",[2051.1349],6) // Fighter
+		CreateCreature("BreFi12",[2348.1295],0) // Fighter
+		SmallWait(1)
+		SetGlobal("Createmonstersiwd","GLOBAL",1)
+END
+
+

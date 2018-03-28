@@ -1,0 +1,81 @@
+IF
+	See([PC])
+	Global("Paralyze","LOCALS",0)
+	Global("BattErr","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpell([PC],TANARI_PARALYZE)
+		SetGlobal("Paralyze","LOCALS",1)
+END
+
+IF
+	See([PC.0.0.CLERIC_MAGE])
+	Global("Silence","LOCALS",0)
+	Global("BattErr","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpell([PC.0.0.CLERIC_MAGE],TANARI_SILENCE)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	See([PC.0.0.MAGE])
+	Global("Silence","LOCALS",0)
+	Global("BattErr","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpell([PC.0.0.MAGE],TANARI_SILENCE)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	See([PC.0.0.MAGE_THIEF])
+	Global("Silence","LOCALS",0)
+	Global("BattErr","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpell([PC.0.0.MAGE_THIEF],TANARI_SILENCE)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	See([PC.0.0.CLERIC])
+	Global("Silence","LOCALS",0)
+	Global("BattErr","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpell([PC.0.0.CLERIC],TANARI_SILENCE)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	See([PC.0.0.BARD])
+	Global("Silence","LOCALS",0)
+	Global("BattErr","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpell([PC.0.0.BARD],TANARI_SILENCE)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	See([PC.0.0.DRUID])
+	Global("Silence","LOCALS",0)
+	Global("BattErr","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpell([PC.0.0.DRUID],TANARI_SILENCE)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	See([PC])
+	Global("Silence","LOCALS",0)
+	Global("BattErr","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpell([PC],TANARI_SILENCE)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+

@@ -1,0 +1,142 @@
+BEGIN ~DRMESS~
+
+IF ~!InParty("Driz2")~ THEN BEGIN 0
+  SAY @0
+  IF ~!InParty("Driz2")~ THEN REPLY @1 GOTO 1
+  IF ~!InParty("Driz2")~ THEN REPLY @2 GOTO 1
+  IF ~!InParty("Driz2")~ THEN REPLY @3 GOTO 3
+END
+
+IF ~~ THEN BEGIN 1 // from: 0.1 0.0
+  SAY @4
+  IF ~~ THEN REPLY @5 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2 // from: 3.0 1.0
+  SAY @6
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 3 // from: 0.2
+  SAY @7
+  IF ~~ THEN REPLY @5 GOTO 2
+END
+
+IF ~~ THEN BEGIN 4 // from:
+  SAY @8
+  IF ~~ THEN EXIT
+END
+
+IF ~InParty("Driz2")~ THEN BEGIN 5
+  SAY @9
+  IF ~~ THEN REPLY @10 GOTO 6
+  IF ~~ THEN REPLY @11 GOTO 6
+  IF ~~ THEN REPLY @12 GOTO 7
+  IF ~~ THEN REPLY @13 GOTO 8
+END
+
+IF ~~ THEN BEGIN 6 // from: 5.1 5.0
+  SAY @14
+  IF ~~ THEN REPLY @15 EXTERN ~DRIZ2J~ 33
+  IF ~~ THEN REPLY @16 GOTO 9
+  IF ~~ THEN REPLY @17 GOTO 9
+END
+
+IF ~~ THEN BEGIN 7 // from: 5.2
+  SAY @18
+  IF ~~ THEN REPLY @15 EXTERN ~DRIZ2J~ 33
+  IF ~~ THEN REPLY @16 GOTO 12
+  IF ~~ THEN REPLY @17 GOTO 12
+END
+
+IF ~~ THEN BEGIN 8 // from: 5.3
+  SAY @19
+  IF ~~ THEN REPLY @20 GOTO 9
+  IF ~~ THEN REPLY @21 GOTO 15
+  IF ~~ THEN REPLY @15 EXTERN ~DRIZ2J~ 33
+END
+
+IF ~~ THEN BEGIN 9 // from: 8.0 6.2 6.1
+  SAY @22
+  IF ~~ THEN GOTO 10
+END
+
+IF ~~ THEN BEGIN 10 // from: 9.0
+  SAY @23
+  IF ~~ THEN GOTO 11
+END
+
+IF ~~ THEN BEGIN 11 // from: 10.0
+  SAY @24
+  IF ~~ THEN EXTERN ~DRIZ2J~ 35
+END
+
+IF ~~ THEN BEGIN 12 // from: 7.2 7.1
+  SAY @25
+  IF ~~ THEN GOTO 13
+END
+
+IF ~~ THEN BEGIN 13 // from: 15.0 12.0
+  SAY @23
+  IF ~~ THEN GOTO 14
+END
+
+IF ~~ THEN BEGIN 14 // from: 13.0
+  SAY @26
+  IF ~~ THEN EXTERN ~DRIZ2J~ 35
+END
+
+IF ~~ THEN BEGIN 15 // from: 8.1
+  SAY @27
+  IF ~~ THEN GOTO 13
+END
+
+IF ~~ THEN BEGIN 16 // from: DRIZ2J
+  SAY @28
+  IF ~~ THEN EXTERN ~DRIZ2J~ 30
+END
+
+IF ~~ THEN BEGIN 17 // from: DRIZ2J
+  SAY @29
+  IF ~~ THEN EXTERN ~DRIZ2J~ 31
+END
+
+IF ~~ THEN BEGIN 18 // from: DRIZ2J
+  SAY @30
+  IF ~~ THEN DO ~RevealAreaOnMap("RR3200")~ EXTERN ~DRIZ2J~ 32
+END
+
+IF ~~ THEN BEGIN 19 // from: DRIZ2J
+  SAY @31
+  IF ~~ THEN DO ~SetGlobal("MesDriz","LOCALS",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 20 // from: DRIZ2J
+  SAY @32
+  IF ~~ THEN GOTO 21
+END
+
+IF ~~ THEN BEGIN 21 // from: 20.0
+  SAY @24
+  IF ~~ THEN EXTERN ~DRIZ2J~ 34
+END
+
+IF ~~ THEN BEGIN 22 // from:  DRIZ2J
+  SAY @28
+  IF ~~ THEN EXTERN ~DRIZ2J~ 36
+END
+
+IF ~~ THEN BEGIN 23 // from: DRIZ2J
+  SAY @29
+  IF ~~ THEN EXTERN ~DRIZ2J~ 37
+END
+
+IF ~~ THEN BEGIN 24 // from: DRIZ2J
+  SAY @30
+  IF ~~ THEN DO ~RevealAreaOnMap("RR3200")~ EXTERN ~DRIZ2J~ 38
+END
+
+IF ~~ THEN BEGIN 25 // from: DRIZ2J
+  SAY @31
+  IF ~~ THEN DO ~SetGlobal("MesDriz","LOCALS",1)~ EXIT
+END

@@ -1,0 +1,33 @@
+/*
+IF
+	OnCreation()
+	Global("DrizztEncounter","AR2601",0)
+THEN
+	RESPONSE #100
+		SetGlobal("DrizztEncounter","AR2601",1)
+		Continue()
+END
+*/
+
+IF
+	OnCreation()
+	OR(4)
+		InParty("Driz2")
+		InParty("Wulfgi2")
+		InParty("Reg2")
+		InParty("Brue2")
+	Global("DrizztEncounter","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Explore()
+		SetEncounterProbability("AR2500","AR0020",0)
+		SetEncounterProbability("AR2500","AR1300",0)
+		SetEncounterProbability("AR2500","AR1304",0)
+		SetEncounterProbability("AR2500","AR1700",0)
+		SetGlobal("DrizztEncounter","GLOBAL",1)
+		CreateCreature("TROLL01",[692.332],2) // Troll
+		CreateCreature("TROLL01",[673.256],2) // Troll
+		CreateCreature("TROLL01",[752.294],2) // Troll
+		CreateCreature("TROLL01",[790.337],2) // Troll
+		CreateCreature("TROLL01",[741.225],2) // Troll
+END

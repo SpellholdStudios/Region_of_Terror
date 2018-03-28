@@ -1,0 +1,21 @@
+IF
+	See(Player1)
+	Global("TlgEDji3","GLOBAL",0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+		SetGlobal("TlgEDji3","GLOBAL",1)
+END
+
+IF
+	Global("Ficuswej","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,DRYAD_TELEPORT)
+		Wait(1)
+		DestroySelf()
+		SetGlobal("Affihdr","GLOBAL",1)
+		SetGlobal("Ficuswej","GLOBAL",3)
+END
+
+

@@ -1,0 +1,39 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		StorePartyLocations()
+		Wait(1)
+		LeaveAreaLUA("ra4703","",[223.319],11)
+		SmallWait(1)
+		CreateCreature("MyMugg2",[580.440],5) // Trained Mugger
+		SmallWait(1)
+		ActionOverride("Gaidan",FaceObject("MyMugg2"))
+		ActionOverride("Matrim",FaceObject("MyMugg2"))
+		ActionOverride("Leander",FaceObject("MyMugg2"))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		ActionOverride("MyMugg2",MoveToPoint([340.285]))
+		Wait(4)
+		ActionOverride("MyMugg2",FaceObject("Gaidan"))
+		ActionOverride("MyMugg2",DisplayStringHead(Myself,@568718))
+		Wait(10)
+		ActionOverride("Gaidan",DisplayStringHead(Myself,@568719))
+		Wait(4)
+		SmallWait(2)
+		ActionOverride("MyMugg2",DisplayStringHead(Myself,@568720))
+		Wait(6)
+		ActionOverride("MyMugg2",MoveToPoint([580.440]))
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("MyMugg2",DestroySelf())
+		Wait(1)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		RestorePartyLocations()
+END
+
+

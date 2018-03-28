@@ -1,0 +1,506 @@
+IF
+	Global("Ihaveit","RA5002",0)
+	PartyHasItem("SymbEye") // Symbol of the Eye
+THEN
+	RESPONSE #100
+		SetGlobal("Ihaveit","RA5002",1)
+END
+
+IF
+	Global("StartBat2","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("Blockactie","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact","RA5002",1)
+		SetGlobal("Blockactie","RA5002",1)
+END
+
+IF
+	Global("Ihaveit","RA5002",1)
+	Global("Blockatti","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact","RA5002",0)
+		SetGlobal("Blockatti","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("Blockactie2","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact2","RA5002",1)
+		SetGlobal("Blockactie2","RA5002",1)
+END
+
+IF
+	Global("Ihaveit","RA5002",1)
+	Global("Blockatti2","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact2","RA5002",0)
+		SetGlobal("Blockatti2","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("Blockactie3","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact3","RA5002",1)
+		SetGlobal("Blockactie3","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("Blockactie3","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact3","RA5002",1)
+		SetGlobal("Blockactie3","RA5002",1)
+END
+
+IF
+	Global("StartBat2","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("Blockactie3","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact3","RA5002",1)
+		SetGlobal("Blockactie3","RA5002",1)
+END
+
+IF
+	Global("StartBat2","RA5002",1)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("Blockactie3","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact3","RA5002",1)
+		SetGlobal("Blockactie3","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("Blockactie3","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact3","RA5002",1)
+		SetGlobal("Blockactie3","RA5002",1)
+END
+
+IF
+	Global("Ihaveit","RA5002",1)
+	Global("Blockatti3","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact3","RA5002",0)
+		SetGlobal("Blockatti3","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("Blockactie4","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact4","RA5002",1)
+		SetGlobal("Blockactie4","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("Blockactie4","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact4","RA5002",1)
+		SetGlobal("Blockactie4","RA5002",1)
+END
+
+IF
+	Global("StartBat2","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("Blockactie4","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact4","RA5002",1)
+		SetGlobal("Blockactie4","RA5002",1)
+END
+
+IF
+	Global("StartBat2","RA5002",1)
+	Global("StartBat1","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("Blockactie4","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact4","RA5002",1)
+		SetGlobal("Blockactie4","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("Blockactie4","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact4","RA5002",1)
+		SetGlobal("Blockactie4","RA5002",1)
+END
+
+IF
+	Global("Ihaveit","RA5002",1)
+	Global("Blockatti4","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact4","RA5002",0)
+		SetGlobal("Blockatti4","RA5002",1)
+END
+
+IF
+	Global("StartBat6","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("Blockactie5","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact5","RA5002",1)
+		SetGlobal("Blockactie5","RA5002",1)
+END
+
+IF
+	Global("StartBat2","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("Blockactie5","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact5","RA5002",1)
+		SetGlobal("Blockactie5","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("Blockactie5","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact5","RA5002",1)
+		SetGlobal("Blockactie5","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("Blockactie5","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact5","RA5002",1)
+		SetGlobal("Blockactie5","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("Blockactie5","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact5","RA5002",1)
+		SetGlobal("Blockactie5","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("Blockactie5","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact5","RA5002",1)
+		SetGlobal("Blockactie5","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("Blockactie5","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact5","RA5002",1)
+		SetGlobal("Blockactie5","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("Blockactie5","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact5","RA5002",1)
+		SetGlobal("Blockactie5","RA5002",1)
+END
+
+IF
+	Global("StartBat2","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("Blockactie5","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact5","RA5002",1)
+		SetGlobal("Blockactie5","RA5002",1)
+END
+
+IF
+	Global("StartBat2","RA5002",1)
+	Global("StartBat6","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("Blockactie5","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact5","RA5002",1)
+		SetGlobal("Blockactie5","RA5002",1)
+END
+
+IF
+	Global("Ihaveit","RA5002",1)
+	Global("Blockatti5","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact5","RA5002",0)
+		SetGlobal("Blockatti5","RA5002",1)
+END
+
+IF
+	Global("StartBat5","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("Blockactie6","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact6","RA5002",1)
+		SetGlobal("Blockactie6","RA5002",1)
+END
+
+IF
+	Global("StartBat2","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("Blockactie6","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact6","RA5002",1)
+		SetGlobal("Blockactie6","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("Blockactie6","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact6","RA5002",1)
+		SetGlobal("Blockactie6","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("Blockactie6","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact6","RA5002",1)
+		SetGlobal("Blockactie6","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("Blockactie6","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact6","RA5002",1)
+		SetGlobal("Blockactie6","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat2","RA5002",1)
+	Global("Blockactie6","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact6","RA5002",1)
+		SetGlobal("Blockactie6","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("Blockactie6","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact6","RA5002",1)
+		SetGlobal("Blockactie6","RA5002",1)
+END
+
+IF
+	Global("StartBat1","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("Blockactie6","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact6","RA5002",1)
+		SetGlobal("Blockactie6","RA5002",1)
+END
+
+IF
+	Global("StartBat2","RA5002",1)
+	Global("StartBat4","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("Blockactie6","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact6","RA5002",1)
+		SetGlobal("Blockactie6","RA5002",1)
+END
+
+IF
+	Global("StartBat2","RA5002",1)
+	Global("StartBat5","RA5002",1)
+	Global("StartBat3","RA5002",1)
+	Global("Blockactie6","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact6","RA5002",1)
+		SetGlobal("Blockactie6","RA5002",1)
+END
+
+IF
+	Global("Ihaveit","RA5002",1)
+	Global("Blockatti6","RA5002",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Blockact6","RA5002",0)
+		SetGlobal("Blockatti6","RA5002",1)
+END
+
+IF
+	Global("Thirdquest","RA5002",2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(2)
+		ActionOverride("GuarEye1",ReallyForceSpell(Myself,VAMPIRE_BAT_FORM_CHANGE))
+		Wait(2)
+		ClearAllActions()
+		ActionOverride("VampBat",DisplayStringHead(Myself,@570197))
+		Wait(3)
+		CreateVisualEffect("SPBASERD",[594.1200])
+		Wait(3)
+		ActionOverride("VampBat",DestroySelf())
+		Wait(2)
+		SetGlobal("Thirdquest","RA5002",3)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("Thirdquest","RA5002",4)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(5)
+		MoveViewPoint([2414.557],VERY_FAST)
+		CreateVisualEffect("SPFIREPI",[2414.557])
+		PlaySound("EFF_M13")
+		CreateVisualEffect("SPFIREPI",[2679.770])
+		CreateVisualEffect("SPFIREPI",[2700.693])
+		CreateVisualEffect("SPFIREPI",[2589.453])
+		CreateVisualEffect("SPFIREPI",[2657.531])
+		CreateVisualEffect("SPFIREPI",[2385.425])
+		CreateVisualEffect("SPFIREPI",[2313.415])
+		CreateVisualEffect("SPFIREPI",[2339.463])
+		Wait(2)
+		CreateCreature("GuarEye2",[2414.557],1) // Guardian of the Eye
+		CreateCreature("GodServ1",[2679.770],4) // Servant of the Eye
+		CreateCreature("GodServ2",[2700.693],4) // Servant of the Eye
+		CreateCreature("GodGol4",[2589.453],2) // Diamond Golem
+		CreateCreature("GodGol5",[2657.531],3) // Diamond Golem
+		CreateCreature("GodXva1",[2385.425],14) // Xvart
+		CreateCreature("GodXva2",[2313.415],14) // Xvart
+		CreateCreature("GodXva3",[2339.463],14) // Xvart
+		Wait(2)
+		ActionOverride("GuarEye2",FaceObject(NearestEnemyOf(Myself)))
+		SmallWait(5)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("GuarEye2",StartDialogueNoSet(NearestEnemyOf(Myself)))
+END
+
+IF
+	Global("Thirdquest","RA5002",5)
+	Dead("GuarEye2") // Guardian of the Eye
+	Dead("GodServ1") // Servant of the Eye
+	Dead("GodServ2") // Servant of the Eye
+	Dead("GodGol4") // Diamond Golem
+	Dead("GodGol5") // Diamond Golem
+	Dead("GodXva1") // Xvart
+	Dead("GodXva2") // Xvart
+	Dead("GodXva3") // Xvart
+THEN
+	RESPONSE #100
+		Wait(3)
+		ScreenShake([2828.597],25)
+		Wait(3)
+		Unlock("AR6101_Statue")
+		OpenDoor("AR6101_Statue")
+		Wait(1)
+		ActionOverride(Player1,DisplayStringHead(Myself,@570253))
+		SetGlobal("Thirdquest","RA5002",6)
+END
+
+

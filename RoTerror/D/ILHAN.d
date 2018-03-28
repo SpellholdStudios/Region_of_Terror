@@ -1,0 +1,141 @@
+BEGIN ~ILHAN~
+
+IF ~Global("Ilhan1","LOCALS",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 GOTO 11
+  IF ~~ THEN REPLY @3 GOTO 12
+  IF ~~ THEN REPLY @4 GOTO 14
+END
+
+IF ~~ THEN BEGIN 1 // from: 15.0 12.1 10.0 9.0 8.0 7.0 6.0 0.0
+  SAY @5
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 2 // from: 11.0 1.0
+  SAY @6
+  IF ~~ THEN GOTO 3
+END
+
+IF ~~ THEN BEGIN 3 // from: 2.0
+  SAY @7
+  IF ~~ THEN GOTO 4
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.0
+  SAY @8
+  IF ~~ THEN REPLY @9 GOTO 5
+  IF ~~ THEN REPLY @10 GOTO 23
+  IF ~~ THEN REPLY @11 GOTO 28
+END
+
+IF ~~ THEN BEGIN 5 // from: 4.0
+  SAY @12
+  IF ~~ THEN DO ~SetGlobal("Ilhan1","LOCALS",4)~ UNSOLVED_JOURNAL @563941 EXIT
+END
+
+IF ~~ THEN BEGIN 11 // from: 0.1
+  SAY @13
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 12 // from: 0.2
+  SAY @14
+  IF ~~ THEN REPLY @15 GOTO 13
+  IF ~~ THEN REPLY @16 GOTO 1
+END
+
+IF ~~ THEN BEGIN 13 // from: 12.0
+  SAY @17
+  IF ~~ THEN DO ~SetGlobal("Ilhan1","LOCALS",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 14 // from: 0.3
+  SAY @18
+  IF ~~ THEN DO ~SetGlobal("Ilhan1","LOCALS",0)~ EXIT
+END
+
+IF ~Global("Ilhan1","LOCALS",1)~ THEN BEGIN 15
+  SAY @19
+  IF ~~ THEN REPLY @20 GOTO 1
+  IF ~~ THEN REPLY @21 DO ~SetGlobal("Ilhan1","LOCALS",1)~ EXIT
+END
+
+IF ~Global("Ilhan1","LOCALS",2)~ THEN BEGIN 16
+  SAY @22
+  IF ~~ THEN REPLY @23 GOTO 24
+  IF ~~ THEN REPLY @24 EXIT
+END
+
+IF ~Global("Ilhan1","LOCALS",3)~ THEN BEGIN 17
+  SAY @25
+  IF ~~ THEN REPLY @26 GOTO 24
+  IF ~~ THEN REPLY @27 EXIT
+END
+
+IF ~Global("Ilhan1","LOCALS",4)~ THEN BEGIN 18
+  SAY @28
+  IF ~Dead("CycLead")~ THEN REPLY @29 GOTO 19
+  IF ~!Dead("CycLead")~ THEN REPLY @30 EXIT
+END
+
+IF ~~ THEN BEGIN 19 // from: 18.0
+  SAY @31
+  IF ~~ THEN DO ~EraseJournalEntry(@563941)
+SetGlobal("Ilhan1","LOCALS",6)
+GiveGoldForce(500)
+AddexperienceParty(25000)~ SOLVED_JOURNAL @563943 EXIT
+END
+
+IF ~Global("Ilhan1","LOCALS",5)~ THEN BEGIN 20
+  SAY @28
+  IF ~Dead("CycLead")~ THEN REPLY @29 GOTO 21
+  IF ~!Dead("CycLead")~ THEN REPLY @30 EXIT
+END
+
+IF ~~ THEN BEGIN 21 // from: 20.0
+  SAY @32
+  IF ~~ THEN DO ~EraseJournalEntry(@563941)
+SetGlobal("Ilhan1","LOCALS",6)
+GiveGoldForce(1000)
+AddexperienceParty(25000)~ SOLVED_JOURNAL @563943 EXIT
+END
+
+IF ~Global("Ilhan1","LOCALS",6)~ THEN BEGIN 22
+  SAY @33
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 23 // from: 4.1
+  SAY @34
+  IF ~~ THEN REPLY @35 GOTO 24
+  IF ~~ THEN REPLY @36 GOTO 24
+  IF ~CheckStatGT(LastTalkedToBy,15,CHR)~ THEN REPLY @37 GOTO 25
+  IF ~~ THEN REPLY @38 GOTO 27
+END
+
+IF ~~ THEN BEGIN 24 // from: 23.1 23.0 17.0 16.0
+  SAY @39
+  IF ~~ THEN DO ~SetGlobal("Ilhan1","LOCALS",4)~ UNSOLVED_JOURNAL @563941 EXIT
+END
+
+IF ~~ THEN BEGIN 25 // from: 23.2
+  SAY @40
+  IF ~~ THEN GOTO 26
+END
+
+IF ~~ THEN BEGIN 26 // from: 25.0
+  SAY @41
+  IF ~~ THEN DO ~SetGlobal("Ilhan1","LOCALS",5)~ UNSOLVED_JOURNAL @563941 EXIT
+END
+
+IF ~~ THEN BEGIN 27 // from: 23.3
+  SAY @42
+  IF ~~ THEN DO ~SetGlobal("Ilhan1","LOCALS",3)~ EXIT
+END
+
+IF ~~ THEN BEGIN 28 // from: 4.2
+  SAY @43
+  IF ~~ THEN DO ~SetGlobal("Ilhan1","LOCALS",2)~ EXIT
+END

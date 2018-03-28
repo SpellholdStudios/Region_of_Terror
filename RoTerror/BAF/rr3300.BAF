@@ -1,0 +1,116 @@
+IF
+	Global("SoulArmorQuest","GLOBAL",3)
+	Global("sadjklkjdf","RR3300",0)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("Shdw1",Player1,1,0,0) // Shadow
+		Wait(1)
+		ActionOverride("Shdw1",StartDialogueNoSet(Player1))
+		SetGlobal("sadjklkjdf","RR3300",1)
+END
+
+IF
+	!Dead("UltimM") // Emanath
+	!Global("Theendofallfights","GLOBAL",1)
+	TimeOfDay(DAY)
+	Global("FightsDay","RR3300",0)
+THEN
+	RESPONSE #100
+		CreateCreature("UlOrc",[1733.2061],14) // Enchanted Orc Priest
+		CreateCreature("UlOrc",[1733.2062],0) // Enchanted Orc Priest
+		SetGlobal("FightsMorning","RR3300",0)
+		SetGlobal("FightsDay","RR3300",1)
+END
+
+IF
+	!Dead("UltimM") // Emanath
+	!Global("Theendofallfights","GLOBAL",1)
+	TimeOfDay(DUSK)
+	Global("FightsDusk","RR3300",0)
+THEN
+	RESPONSE #100
+		CreateCreature("UlOrc3",[2908.1309],14) // Enchanted Orog
+		CreateCreature("UlOrc3",[2908.1310],0) // Enchanted Orog
+		SetGlobal("FightsDay","RR3300",0)
+		SetGlobal("FightsDusk","RR3300",1)
+END
+
+IF
+	!Dead("UltimM") // Emanath
+	!Global("Theendofallfights","GLOBAL",1)
+	TimeOfDay(NIGHT)
+	Global("FightsNight","RR3300",0)
+THEN
+	RESPONSE #100
+		CreateCreature("UlOgre1",[2192.727],14) // Enchanted Ogre
+		CreateCreature("UlOgre1",[2192.726],0) // Enchanted Ogre
+		SetGlobal("FightsDusk","RR3300",0)
+		SetGlobal("FightsNight","RR3300",1)
+END
+
+IF
+	!Dead("UltimM") // Emanath
+	!Global("Theendofallfights","GLOBAL",1)
+	TimeOfDay(MORNING)
+	Global("FightsMorning","RR3300",0)
+THEN
+	RESPONSE #100
+		CreateCreature("UlOgre1",[1003.1737],14) // Enchanted Ogre
+		CreateCreature("UlOgre2",[1004.1737],0) // Enchanted Ogre Mage
+		SetGlobal("FightsNight","RR3300",0)
+		SetGlobal("FightsMorning","RR3300",1)
+END
+
+IF
+	!GlobalGT("UltLeft","GLOBAL",0)
+	!Global("Theendofallfights","GLOBAL",1)
+	TimeOfDay(DAY)
+	Global("FightsDay","RR3300",0)
+THEN
+	RESPONSE #100
+		CreateCreature("UlOrc2",[1733.2063],10) // Enchanted Orc Mage
+		CreateCreature("UlOrc2",[1733.2064],5) // Enchanted Orc Mage
+		SetGlobal("FightsMorning","RR3300",0)
+		SetGlobal("FightsDay","RR3300",1)
+END
+
+IF
+	!GlobalGT("UltLeft","GLOBAL",0)
+	!Global("Theendofallfights","GLOBAL",1)
+	TimeOfDay(DUSK)
+	Global("FightsDusk","RR3300",0)
+THEN
+	RESPONSE #100
+		CreateCreature("UlOrc4",[2907.1309],10) // Enchanted Orc
+		CreateCreature("UlOrc4",[2909.1309],5) // Enchanted Orc
+		SetGlobal("FightsDay","RR3300",0)
+		SetGlobal("FightsDusk","RR3300",1)
+END
+
+IF
+	!GlobalGT("UltLeft","GLOBAL",0)
+	!Global("Theendofallfights","GLOBAL",1)
+	TimeOfDay(NIGHT)
+	Global("FightsNight","RR3300",0)
+THEN
+	RESPONSE #100
+		CreateCreature("UlOgre2",[2192.728],10) // Enchanted Ogre Mage
+		CreateCreature("UlOgre2",[2192.729],5) // Enchanted Ogre Mage
+		SetGlobal("FightsDusk","RR3300",0)
+		SetGlobal("FightsNight","RR3300",1)
+END
+
+IF
+	!GlobalGT("UltLeft","GLOBAL",0)
+	!Global("Theendofallfights","GLOBAL",1)
+	TimeOfDay(MORNING)
+	Global("FightsMorning","RR3300",0)
+THEN
+	RESPONSE #100
+		CreateCreature("UlOrc5",[1005.1737],10) // Enchanted Orc Archer
+		CreateCreature("UlOrc5",[1006.1737],5) // Enchanted Orc Archer
+		SetGlobal("FightsNight","RR3300",0)
+		SetGlobal("FightsMorning","RR3300",1)
+END
+
+

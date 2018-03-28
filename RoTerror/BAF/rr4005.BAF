@@ -1,0 +1,80 @@
+IF
+	Global("slfdaa","RR4005",0)
+THEN
+	RESPONSE #100
+		DayNight(2)
+		Weather(RAIN)
+		SetGlobal("slfdaa","RR4005",1)
+END
+
+IF
+	Global("Fibattythig","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		HideGUI()
+		StartCutSceneMode()
+		ActionOverride(Player1,MakeUnselectable(1))
+		ActionOverride(Player2,MakeUnselectable(1))
+		ActionOverride(Player3,MakeUnselectable(1))
+		ActionOverride(Player4,MakeUnselectable(1))
+		ActionOverride(Player5,MakeUnselectable(1))
+		ActionOverride(Player6,MakeUnselectable(1))
+		Wait(2)
+		SetGlobal("Fibattythig","GLOBAL",2)
+		RestorePartyLocations()
+		EndCutSceneMode()
+END
+
+IF
+	Global("Bedrinofri","GLOBAL",6)
+THEN
+	RESPONSE #100
+		SmallWait(1)
+		ClearAllActions()
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		ActionOverride(Player1,MakeUnselectable(1))
+		ActionOverride(Player2,MakeUnselectable(1))
+		ActionOverride(Player3,MakeUnselectable(1))
+		ActionOverride(Player4,MakeUnselectable(1))
+		ActionOverride(Player5,MakeUnselectable(1))
+		ActionOverride(Player6,MakeUnselectable(1))
+		Wait(2)
+		SetGlobal("Bedrinofri","GLOBAL",7)
+		RestorePartyLocations()
+		EndCutSceneMode()
+END
+
+IF
+	Global("Bedrinofri","GLOBAL",11)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		StartCutScene("Theener")
+END
+
+IF
+	Dead("Driz2") // Drizzt Do'Urden
+	!Global("Drizcanbkn","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride("Enteri",Kill(Player1))
+		SmallWait(1)
+END
+
+IF
+	Global("Theendisnear","GLOBAL",1)
+	Global("asdfadfa","GLOBAL",2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		SetGlobal("asdfadfa","GLOBAL",3)
+		StartCutScene("EndsNe")
+//		Continue()
+END
+
+

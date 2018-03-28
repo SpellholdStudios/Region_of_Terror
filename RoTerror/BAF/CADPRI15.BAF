@@ -1,0 +1,20 @@
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Followme","LOCALS",0)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,GOODBUTBLUE)
+		MoveToObject(Player1)
+		SetGlobal("Followme","LOCALS",1)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Followme","LOCALS",1)
+	Delay(3)
+THEN
+	RESPONSE #100
+		MoveToObject(Player1)
+END
+
+

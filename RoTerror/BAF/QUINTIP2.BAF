@@ -1,0 +1,28 @@
+IF
+	Global("Caravanquest","GLOBAL",2)
+	OR(6)
+		Range(Player1,10)
+		Range(Player2,10)
+		Range(Player3,10)
+		Range(Player4,10)
+		Range(Player5,10)
+		Range(Player6,10)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		MoveViewPoint([1616.387],INSTANT)
+		Wait(1)
+		DisplayStringHead(Myself,@572828)
+		Wait(5)
+		ActionOverride("BreFi11",DisplayStringHead(Myself,@572829))
+		Wait(5)
+		DisplayStringHead(Myself,@572830)
+		Wait(3)
+		SetGlobal("Caravanquest","GLOBAL",3)
+		UnhideGUI()
+		EndCutSceneMode()
+		EscapeArea()
+END
+
+

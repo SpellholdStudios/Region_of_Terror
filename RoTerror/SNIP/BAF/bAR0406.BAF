@@ -1,0 +1,45 @@
+IF
+	Global("GuardCquest","GLOBAL",2)
+	Global("dkjfdfklj","AR0406",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ArlaxT2",[744.449],13) // Thief
+		CreateCreature("ArlaxT3",[696.443],13) // Thief
+		CreateCreature("Tresham1",[732.473],13) // Tresham
+		SetGlobal("dkjfdfklj","AR0406",1)
+END
+
+IF
+	Global("dkjfdfklj","AR0406",2)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		SmallWait(3)
+		ActionOverride("Tresham1",DisplayStringHead(Myself,@569140)) // Escape! Drink the potions!
+		Wait(2)
+		ActionOverride("Tresham1",UseItem("POTN10",Myself)) // Potion of Invisibility
+		ActionOverride("ArlaxT2",UseItem("POTN10",Myself)) // Potion of Invisibility
+		Wait(1)
+		ActionOverride("ArlaxT3",DisplayStringHead(Myself,@569141)) // I don´t have one!
+		Wait(1)
+		ActionOverride("Tresham1",DestroySelf())
+		ActionOverride("ArlaxT2",DestroySelf())
+		Wait(5)
+		SetGlobal("dkjfdfklj","AR0406",3)
+		SmallWait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("ArlaxT3",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("GuardCquest","GLOBAL",2)
+	Global("dkjfdfklj","AR0406",4)
+THEN
+	RESPONSE #100
+		SetGlobalTimer("Thefinmewt","GLOBAL",ONE_DAY)
+		SetGlobal("dkjfdfklj","AR0406",5)
+END
+
+

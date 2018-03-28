@@ -1,0 +1,10 @@
+IF
+	Global("RobDie","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreature("Rob2",[2662.1501],0) // Rob
+		ActionOverride("Rob2",Kill(Myself))
+		SetGlobal("RobDie","GLOBAL",2)
+END
+
+

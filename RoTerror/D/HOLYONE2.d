@@ -1,0 +1,99 @@
+BEGIN ~HOLYONE2~
+
+IF ~Global("Noshol2","GLOBAL",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("Noshol2","GLOBAL",1)~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0
+  SAY @2
+  IF ~~ THEN REPLY @3 GOTO 3
+  IF ~~ THEN REPLY @4 GOTO 3
+  IF ~~ THEN REPLY @5 GOTO 4
+  IF ~~ THEN REPLY @6 GOTO 3
+  IF ~~ THEN REPLY @7 GOTO 3
+END
+
+IF ~~ THEN BEGIN 3 // from: 11.3 11.2 11.1 11.0 9.4 9.2 9.1 9.0 7.4 7.3 7.2 7.0 5.4 5.3 5.2 5.0 2.4 2.3 2.1 2.0
+  SAY @8
+  IF ~~ THEN DO ~SetGlobal("Noshol","GLOBAL",2)
+SetGlobal("HolWron","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 4 // from: 2.2
+  SAY @9
+  IF ~~ THEN GOTO 5
+END
+
+IF ~~ THEN BEGIN 5 // from: 4.0
+  SAY @10
+  IF ~~ THEN REPLY @11 GOTO 3
+  IF ~~ THEN REPLY @12 GOTO 6
+  IF ~~ THEN REPLY @13 GOTO 3
+  IF ~~ THEN REPLY @14 GOTO 3
+  IF ~~ THEN REPLY @15 GOTO 3
+END
+
+IF ~~ THEN BEGIN 6 // from: 5.1
+  SAY @16
+  IF ~~ THEN GOTO 7
+END
+
+IF ~~ THEN BEGIN 7 // from: 6.0
+  SAY @17
+  IF ~~ THEN REPLY @18 GOTO 3
+  IF ~~ THEN REPLY @19 GOTO 8
+  IF ~~ THEN REPLY @20 GOTO 3
+  IF ~~ THEN REPLY @21 GOTO 3
+  IF ~~ THEN REPLY @22 GOTO 3
+END
+
+IF ~~ THEN BEGIN 8 // from: 7.1
+  SAY @23
+  IF ~~ THEN GOTO 9
+END
+
+IF ~~ THEN BEGIN 9 // from: 8.0
+  SAY @24
+  IF ~~ THEN REPLY @25 GOTO 3
+  IF ~~ THEN REPLY @26 GOTO 3
+  IF ~~ THEN REPLY @27 GOTO 3
+  IF ~~ THEN REPLY @28 GOTO 10
+  IF ~~ THEN REPLY @29 GOTO 3
+END
+
+IF ~~ THEN BEGIN 10 // from: 9.3
+  SAY @30
+  IF ~~ THEN GOTO 11
+END
+
+IF ~~ THEN BEGIN 11 // from: 10.0
+  SAY @31
+  IF ~~ THEN REPLY @32 GOTO 3
+  IF ~~ THEN REPLY @33 GOTO 3
+  IF ~~ THEN REPLY @34 GOTO 3
+  IF ~~ THEN REPLY @35 GOTO 3
+  IF ~~ THEN REPLY @36 GOTO 12
+END
+
+IF ~~ THEN BEGIN 12 // from: 11.4
+  SAY @37
+  IF ~~ THEN GOTO 13
+END
+
+IF ~~ THEN BEGIN 13 // from: 12.0
+  SAY @38
+  IF ~~ THEN DO ~SetGlobal("Noshol2","GLOBAL",2)
+SetGlobal("PassInt","GLOBAL",1)
+GiveItemCreate("AnciSb",LastTalkedToBy,0,0,0)~ EXIT
+END
+
+IF ~Global("PassInt","GLOBAL",1)~ THEN BEGIN 14
+  SAY @39
+  IF ~~ THEN EXIT
+END

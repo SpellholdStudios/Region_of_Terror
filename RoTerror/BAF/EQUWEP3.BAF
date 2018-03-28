@@ -1,0 +1,10 @@
+IF
+	Global("Jashitit","LOCALS",0)
+	!CombatCounter(0)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		SetGlobal("Jashitit","LOCALS",1)
+END
+
+

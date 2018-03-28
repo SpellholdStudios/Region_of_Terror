@@ -1,0 +1,48 @@
+IF
+        True()
+//	Global("Bedrinofri","GLOBAL",3)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		StorePartyLocations()
+		SmallWait(1)
+		ActionOverride("Driz2",DestroyItem("GuStat")) // Panther Statue
+		ActionOverride("Driz2",DestroyItem("DrizztDe")) // Scimitar +6, Twinkle
+		ActionOverride("Driz2",DestroyItem("DrizztFr")) // Scimitar +3, Icingdeath
+		ActionOverride("Driz2",DestroyItem("DrizztBo")) // Drizzt's Boots
+		FadeToColor([20.0],0)
+		Wait(1)
+		LeaveAreaLUAPanic("RR4005","",[0.0],0)
+		LeaveAreaLUA("RR4005","",[0.0],0)
+		MultiPlayerSync()
+		MoveViewPoint([600.419],INSTANT)
+		SmallWait(1)
+		ActionOverride("Driz2",DropInventory())
+		SmallWait(1)
+		ActionOverride("Enteri",DestroySelf())
+		ActionOverride("Driz2",DestroySelf())
+		SmallWait(1)
+		CreateCreature("Enter2",[409.362],12) // Artemis Entreri
+		CreateCreature("Drizi2",[600.419],5) // Drizzt Do'Urden
+		SmallWait(1)
+		ActionOverride("Drizi2",FaceObject("Enter2"))
+		ActionOverride("Enter2",FaceObject("Drizi2"))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		ActionOverride("Enter2",JoinParty())
+		Wait(3)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Enter2",StartDialog("Enter2","Drizi2"))
+		SmallWait(1)
+		/*
+		MakeUnselectable(999999)
+		ActionOverride(Player2,MakeUnselectable(999999))
+		ActionOverride(Player3,MakeUnselectable(999999))
+		ActionOverride(Player4,MakeUnselectable(999999))
+		ActionOverride(Player5,MakeUnselectable(999999))
+		ActionOverride(Player6,MakeUnselectable(999999))
+		*/
+END
+
+

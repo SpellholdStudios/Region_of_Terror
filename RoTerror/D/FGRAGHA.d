@@ -1,0 +1,16 @@
+BEGIN ~FGRAGHA~
+
+IF ~Global("FGragh","GLOBAL",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN DO ~SetGlobal("FiGrgh","GLOBAL",2)~ EXIT
+END
+
+IF ~Global("FGragh","GLOBAL",1)~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN EXTERN ~GRAGHAK~ 0
+END
+
+IF ~Global("FGragh","GLOBAL",2)~ THEN BEGIN 2
+  SAY @2
+  IF ~~ THEN EXIT
+END

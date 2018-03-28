@@ -1,0 +1,269 @@
+IF
+	Global("Startmd","GLOBAL",1)
+	Global("FigEdw","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SmallWait(1)
+		ClearAllActions()
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		FadeToColor([20.0],0)
+		ActionOverride(Player1,MakeUnselectable(999999))
+		ActionOverride(Player2,MakeUnselectable(999999))
+		ActionOverride(Player3,MakeUnselectable(999999))
+		ActionOverride(Player4,MakeUnselectable(999999))
+		ActionOverride(Player5,MakeUnselectable(999999))
+		ActionOverride(Player6,MakeUnselectable(999999))
+		Wait(1)
+		SetGlobal("FigEdw","GLOBAL",2)
+		SmallWait(1)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Edwin",LeaveAreaLUA("ra4302","",[1028.2046],8))
+END
+
+IF
+	Global("DeadEd","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUA("RA4302","",[1028.2046],0))
+		SetGlobal("DeadEd","GLOBAL",2)
+END
+
+IF
+	Global("Startmd","GLOBAL",1)
+	Global("FigAer","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SmallWait(1)
+		ClearAllActions()
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		FadeToColor([20.0],0)
+		ActionOverride(Player1,MakeUnselectable(999999))
+		ActionOverride(Player2,MakeUnselectable(999999))
+		ActionOverride(Player3,MakeUnselectable(999999))
+		ActionOverride(Player4,MakeUnselectable(999999))
+		ActionOverride(Player5,MakeUnselectable(999999))
+		ActionOverride(Player6,MakeUnselectable(999999))
+		Wait(1)
+		SetGlobal("FigAer","GLOBAL",2)
+		SmallWait(1)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Aerie",LeaveAreaLUA("ra4302","",[1028.2046],8))
+END
+
+IF
+	Global("DeadAer","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUA("RA4302","",[1028.2046],0))
+		SetGlobal("DeadAer","GLOBAL",2)
+END
+
+IF
+	Global("Startmd","GLOBAL",1)
+	Global("FigPla","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SmallWait(1)
+		ClearAllActions()
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		FadeToColor([20.0],0)
+//		ActionOverride(Player1,MakeUnselectable(999999))
+		ActionOverride(Player2,MakeUnselectable(999999))
+		ActionOverride(Player3,MakeUnselectable(999999))
+		ActionOverride(Player4,MakeUnselectable(999999))
+		ActionOverride(Player5,MakeUnselectable(999999))
+		ActionOverride(Player6,MakeUnselectable(999999))
+		Wait(1)
+		SetGlobal("FigPla","GLOBAL",2)
+		SmallWait(1)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("ra4302","",[1028.2046],8))
+END
+
+IF
+	Global("Startmd","GLOBAL",1)
+	Global("FigRan","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SmallWait(1)
+		ClearAllActions()
+		HideGUI()
+		StartCutSceneMode()
+		Wait(1)
+		FadeToColor([20.0],0)
+		ActionOverride(Player1,MakeUnselectable(999999))
+		ActionOverride(Player2,MakeUnselectable(999999))
+		ActionOverride(Player3,MakeUnselectable(999999))
+		ActionOverride(Player4,MakeUnselectable(999999))
+		ActionOverride(Player5,MakeUnselectable(999999))
+		ActionOverride(Player6,MakeUnselectable(999999))
+		Wait(1)
+		SetGlobal("FigRan","GLOBAL",2)
+		SmallWait(1)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Randall",LeaveAreaLUA("ra4302","",[1028.2046],8))
+END
+
+IF
+	Global("DeadRan","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUA("RA4302","",[1028.2046],0))
+		SetGlobal("DeadRan","GLOBAL",2)
+END
+
+IF
+	Global("ArenaRews","GLOBAL",2)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("ArenaRews","GLOBAL",3)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("ra4303","",[322.846],10))
+		ActionOverride(Player2,LeaveAreaLUA("ra4303","",[386.876],10))
+		ActionOverride(Player3,LeaveAreaLUA("ra4303","",[310.872],10))
+		ActionOverride(Player4,LeaveAreaLUA("ra4303","",[376.906],10))
+		ActionOverride(Player5,LeaveAreaLUA("ra4303","",[298.910],10))
+		ActionOverride(Player6,LeaveAreaLUA("ra4303","",[348.940],10))
+END
+
+IF
+	Global("ArenaRews","GLOBAL",7)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("ArenaRews","GLOBAL",8)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("ra4303","",[322.846],10))
+		ActionOverride(Player2,LeaveAreaLUA("ra4303","",[386.876],10))
+		ActionOverride(Player3,LeaveAreaLUA("ra4303","",[310.872],10))
+		ActionOverride(Player4,LeaveAreaLUA("ra4303","",[376.906],10))
+		ActionOverride(Player5,LeaveAreaLUA("ra4303","",[298.910],10))
+		ActionOverride(Player6,LeaveAreaLUA("ra4303","",[348.940],10))
+END
+
+IF
+	Global("ArenaRews","GLOBAL",12)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("ArenaRews","GLOBAL",13)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("ra4303","",[322.846],10))
+		ActionOverride(Player2,LeaveAreaLUA("ra4303","",[386.876],10))
+		ActionOverride(Player3,LeaveAreaLUA("ra4303","",[310.872],10))
+		ActionOverride(Player4,LeaveAreaLUA("ra4303","",[376.906],10))
+		ActionOverride(Player5,LeaveAreaLUA("ra4303","",[298.910],10))
+		ActionOverride(Player6,LeaveAreaLUA("ra4303","",[348.940],10))
+END
+
+IF
+	Global("ArenaRews","GLOBAL",17)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("ArenaRews","GLOBAL",18)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("ra4303","",[322.846],10))
+		ActionOverride(Player2,LeaveAreaLUA("ra4303","",[386.876],10))
+		ActionOverride(Player3,LeaveAreaLUA("ra4303","",[310.872],10))
+		ActionOverride(Player4,LeaveAreaLUA("ra4303","",[376.906],10))
+		ActionOverride(Player5,LeaveAreaLUA("ra4303","",[298.910],10))
+		ActionOverride(Player6,LeaveAreaLUA("ra4303","",[348.940],10))
+END
+
+IF
+	Global("ArenaRews","GLOBAL",22)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("ArenaRews","GLOBAL",23)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("ra4303","",[322.846],10))
+		ActionOverride(Player2,LeaveAreaLUA("ra4303","",[386.876],10))
+		ActionOverride(Player3,LeaveAreaLUA("ra4303","",[310.872],10))
+		ActionOverride(Player4,LeaveAreaLUA("ra4303","",[376.906],10))
+		ActionOverride(Player5,LeaveAreaLUA("ra4303","",[298.910],10))
+		ActionOverride(Player6,LeaveAreaLUA("ra4303","",[348.940],10))
+END
+
+IF
+	Global("Historyroom","GLOBAL",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("Historyroom","GLOBAL",2)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("ra4304","",[602.872],10))
+		ActionOverride(Player2,LeaveAreaLUA("ra4304","",[650.912],10))
+		ActionOverride(Player3,LeaveAreaLUA("ra4304","",[558.900],10))
+		ActionOverride(Player4,LeaveAreaLUA("ra4304","",[626.958],10))
+		ActionOverride(Player5,LeaveAreaLUA("ra4304","",[534.930],10))
+		ActionOverride(Player6,LeaveAreaLUA("ra4304","",[582.982],10))
+END
+
+IF
+	Global("Regisroom","GLOBAL",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		Wait(2)
+		SetGlobal("Regisroom","GLOBAL",2)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("ra4305","",[971.777],5))
+		ActionOverride(Player2,LeaveAreaLUA("ra4305","",[789.853],5))
+		ActionOverride(Player3,LeaveAreaLUA("ra4305","",[1003.827],5))
+		ActionOverride(Player4,LeaveAreaLUA("ra4305","",[851.909],5))
+		ActionOverride(Player5,LeaveAreaLUA("ra4305","",[965.893],5))
+		ActionOverride(Player6,LeaveAreaLUA("ra4305","",[919.917],5))
+END
+
+

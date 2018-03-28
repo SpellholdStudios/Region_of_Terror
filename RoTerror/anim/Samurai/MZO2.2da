@@ -1,0 +1,41 @@
+MZO2 /Samurai/
+***
+						SOUND
+ATTACK          		SHADW01A SHADW01B SHADW01C
+ATTACK          		2 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		SHADW01D
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		SHADW07 nosound
+DAMAGE          		0 0
+DIE             		SHADW09 nosound
+DIE             		0 0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		SHADW03A SHADW03B nosound
+ATTACK_SLASH    		2 2 0
+ATTACK_BACKSLASH		SHADW04A SHADW04B nosound
+ATTACK_BACKSLASH		2 2 0
+ATTACK_JAB      		SHADW08 nosound nosound
+ATTACK_JAB      		0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry			SHADW10A SHADW10B
+Battle_Cry			0 0
+Selection                       SHADW01A
+Selection                       0

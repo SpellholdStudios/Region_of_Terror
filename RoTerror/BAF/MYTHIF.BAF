@@ -1,0 +1,23 @@
+IF
+	HPLT(Myself,60)
+	Global("Trinkalittle","LOCALS",0)
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		SetGlobal("Trinkalittle","LOCALS",1)
+	RESPONSE #100
+		SetGlobal("Trinkalittle","LOCALS",1)
+END
+
+IF
+	HPLT(Myself,30)
+	Global("Trinkalittle","LOCALS",1)
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		SetGlobal("Trinkalittle","LOCALS",2)
+	RESPONSE #100
+		SetGlobal("Trinkalittle","LOCALS",2)
+END
+
+

@@ -1,0 +1,2878 @@
+ACTION_IF (NOT FILE_EXISTS ~data/TDD-RULE.BIF~) AND (NOT FILE_EXISTS_IN_GAME ~BPBAG04.ITM~) THEN BEGIN
+
+PRINT @19
+
+COPY_EXISTING ~BACKSTAB.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   INNER_ACTION BEGIN
+     APPEND_COL ~BACKSTAB.2da~ ~9999 9999 %cnt% 5555~
+     COPY_EXISTING + ~BACKSTAB.2da~ ~override~
+      EVALUATE_BUFFER
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING + ~BACKSTAB.2da~ ~override~
+ REPLACE_TEXTUALLY ~9999~    ~~
+ REPLACE_TEXTUALLY ~5555~    ~ 5~
+
+
+COPY_EXISTING ~CLABBA02.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 OR cnt=45 OR cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABBA02.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL521gggg GA_SPCL522gggg 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABBA02.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABBA02.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABBA02.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABDR02.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 OR cnt=46 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABDR02.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL621gggg 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABDR02.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABDR02.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABDR02.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABFI02.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 OR cnt=45 OR cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABFI02.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 GA_SPCL321gggg 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABFI02.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABFI02.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABFI02.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABFI03.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABFI03.2DA~ ~9999 9999 kkkk 9999 9999 9999 kkkk kkkk kkkk~
+       COPY_EXISTING + ~CLABFI03.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   PATCH_IF( cnt=41 OR cnt=43 OR cnt=47 OR cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABFI03.2DA~ ~9999 9999 gggg%cnt%mmmm AP_SPCL131gggg 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABFI03.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+    PATCH_IF( cnt=45 ) THEN BEGIN
+      INNER_ACTION BEGIN
+        APPEND_COL ~CLABFI03.2DA~ ~9999 9999 gggg%cnt%mmmm AP_SPCL131gggg AP_SPCL131gggg 7777 7777 7777 7777~
+        COPY_EXISTING + ~CLABFI03.2DA~ ~override~
+         EVALUATE_BUFFER
+      END
+    END
+    ELSE BEGIN
+      INNER_ACTION BEGIN
+        APPEND_COL ~CLABFI03.2DA~ ~9999 9999 gggg%cnt%mmmm AP_SPCL131gggg AP_SPCL131gggg AP_SPCL819gggg 7777 7777 7777~
+        COPY_EXISTING + ~CLABFI03.2DA~ ~override~
+         EVALUATE_BUFFER
+      END
+    END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABFI04.2DA~ ~override~
+ COUNT_2DA_ROWS 41 "value"      //special patch - restoring missing 40th column entry in the 1st row of the original 2DA
+ PATCH_IF( value=5 ) THEN BEGIN
+   SET_2DA_ENTRY 1 39 40 "****        ****"
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~CLABFI04.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABFI04.2DA~ ~9999 9999 gggg%cnt%mmmm AP_SPCL141gggg GA_SPCL144gggg AP_SPCL143gggg 7777 7777 7777~
+       COPY_EXISTING + ~CLABFI04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=44 OR cnt=47 OR cnt=50 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABFI04.2DA~ ~9999 9999 gggg%cnt%mmmm AP_SPCL141gggg 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABFI04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=45 OR cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABFI04.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 GA_SPCL144gggg AP_SPCL143gggg 7777 7777 7777~
+       COPY_EXISTING + ~CLABFI04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABFI04.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABFI04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABFI05.2DA~ ~override~
+ COUNT_2DA_ROWS 41 "value41"      //special patch - deleting extra column entries in the 1st row of the original 2DA
+ COUNT_2DA_ROWS 50 "value50"
+ PATCH_IF( value41=6 AND value50=1 ) THEN BEGIN
+   SET_2DA_ENTRY 0 40 50 "kkk"
+   SET_2DA_ENTRY 0 41 50 "mmm"
+   SET_2DA_ENTRY 0 42 50 "mmm"
+   SET_2DA_ENTRY 0 43 50 "mmm"
+   SET_2DA_ENTRY 0 44 50 "mmm"
+   SET_2DA_ENTRY 0 45 50 "mmm"
+   SET_2DA_ENTRY 0 46 50 "mmm"
+   SET_2DA_ENTRY 0 47 50 "mmm"
+   SET_2DA_ENTRY 0 48 50 "mmm"
+   SET_2DA_ENTRY 0 49 50 "mmm"
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING + ~CLABFI05.2DA~ ~override~
+ REPLACE_TEXTUALLY ~kkk        ~    ~****~
+ REPLACE_TEXTUALLY ~mmm        ~    ~~
+ REPLACE_TEXTUALLY ~mmm~    ~~
+
+COPY_EXISTING ~CLABFI05.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 OR cnt=45 OR cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABFI05.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL152gggg 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABFI05.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABFI05.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABFI05.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABMO01.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABMO01.2DA~ ~9999 9999 kkkk kkkk 9999 kkkk kkkk kkkk kkkk kkkk kkkk kkkk kkkk kkkk kkkk kkkk kkkk~
+       COPY_EXISTING + ~CLABMO01.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   PATCH_IF( cnt=41 OR cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABMO01.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL811gggg 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABMO01.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=45 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABMO01.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL811gggg AP_SPCL813gggg 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABMO01.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=50 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABMO01.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 AP_SPCL813gggg 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABMO01.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABMO01.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABMO01.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABPA01.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABPA01.2DA~ ~9999 9999 kkkk 9999 9999 kkkk kkkk kkkk kkkk~
+       COPY_EXISTING + ~CLABPA01.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   INNER_ACTION BEGIN
+     APPEND_COL ~CLABPA01.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL212gggg GA_SPCL213gggg 7777 7777 7777 7777~
+     COPY_EXISTING + ~CLABPA01.2DA~ ~override~
+      EVALUATE_BUFFER
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABPA02.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABPA02.2DA~ ~9999 9999 kkkk 9999 9999 9999 kkkk kkkk kkkk kkkk kkkk~
+       COPY_EXISTING + ~CLABPA02.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   INNER_ACTION BEGIN
+     APPEND_COL ~CLABPA02.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL212gggg GA_SPCL213gggg GA_SPCL222gggg 7777 7777 7777 7777 7777~
+     COPY_EXISTING + ~CLABPA02.2DA~ ~override~
+      EVALUATE_BUFFER
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABPA03.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABPA03.2DA~ ~9999 9999 kkkk 9999 9999 kkkk kkkk kkkk kkkk kkkk kkkk kkkk kkkk~
+       COPY_EXISTING + ~CLABPA03.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   INNER_ACTION BEGIN
+     APPEND_COL ~CLABPA03.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL212gggg GA_SPCL213gggg 7777 7777 7777 7777 7777 7777 7777 7777~
+     COPY_EXISTING + ~CLABPA03.2DA~ ~override~
+      EVALUATE_BUFFER
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABPA04.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABPA04.2DA~ ~9999 9999 kkkk 9999 9999 kkkk kkkk kkkk kkkk kkkk~
+       COPY_EXISTING + ~CLABPA04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   INNER_ACTION BEGIN
+     APPEND_COL ~CLABPA04.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL212gggg GA_SPCL213gggg 7777 7777 7777 7777 7777~
+     COPY_EXISTING + ~CLABPA04.2DA~ ~override~
+      EVALUATE_BUFFER
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABPR02.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABPR02.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL721gggg GA_SPCL722gggg 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABPR02.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=46 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABPR02.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL722gggg 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABPR02.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABPR02.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABPR02.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABPR03.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABPR03.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL731gggg GA_SPCL732gggg 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABPR03.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=46 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABPR03.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL732gggg 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABPR03.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABPR03.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABPR03.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABPR04.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABPR04.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL741gggg GA_SPCL742gggg 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABPR04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=46 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABPR04.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL742gggg 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABPR04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABPR04.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABPR04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABRN01.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 OR cnt=43 OR cnt=45 OR cnt=47 OR cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABRN01.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL311gggg 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABRN01.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABRN01.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABRN01.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABRN03.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 OR cnt=43 OR cnt=45 OR cnt=47 OR cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABRN03.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL311gggg 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABRN03.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABRN03.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABRN03.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABRN04.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 OR cnt=43 OR cnt=45 OR cnt=47 OR cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABRN04.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL311gggg 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABRN04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABRN04.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABRN04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABTH01.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 OR cnt=46 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABTH01.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL412gggg 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABTH01.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABTH01.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABTH01.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABTH02.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 OR cnt=45 OR cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABTH02.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL423gggg 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABTH02.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=42 OR cnt=48 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABTH02.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 GA_SPCL412gggg 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABTH02.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABTH02.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABTH02.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABTH03.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=41 OR cnt=46 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABTH03.2DA~ ~9999 9999 gggg%cnt%mmmm GA_SPCL412gggg GA_SPCL414gggg 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABTH03.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABTH03.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABTH03.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~CLABTH04.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABTH04.2DA~ ~9999 9999 kkkk 9999 9999 kkkk kkkk kkkk kkkk~
+       COPY_EXISTING + ~CLABTH04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   PATCH_IF( cnt=41 OR cnt=46 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABTH04.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 GA_SPCL412gggg 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABTH04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=45 OR cnt=50 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABTH04.2DA~ ~9999 9999 gggg%cnt%mmmm AP_SPCL141gggg AP_SPCL441gggg 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABTH04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~CLABTH04.2DA~ ~9999 9999 gggg%cnt%mmmm 7777 7777 7777 7777 7777 7777~
+       COPY_EXISTING + ~CLABTH04.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING + ~CLABBA02.2DA~ ~override~
+                ~CLABDR02.2DA~ ~override~
+                ~CLABFI02.2DA~ ~override~
+                ~CLABFI03.2DA~ ~override~
+                ~CLABFI04.2DA~ ~override~
+                ~CLABFI05.2DA~ ~override~
+                ~CLABMO01.2DA~ ~override~
+                ~CLABPA01.2DA~ ~override~
+                ~CLABPA02.2DA~ ~override~
+                ~CLABPA03.2DA~ ~override~
+                ~CLABPA04.2DA~ ~override~
+                ~CLABPR02.2DA~ ~override~
+                ~CLABPR03.2DA~ ~override~
+                ~CLABPR04.2DA~ ~override~
+                ~CLABRN01.2DA~ ~override~
+                ~CLABRN03.2DA~ ~override~
+                ~CLABRN04.2DA~ ~override~
+                ~CLABTH01.2DA~ ~override~
+                ~CLABTH02.2DA~ ~override~
+                ~CLABTH03.2DA~ ~override~
+                ~CLABTH04.2DA~ ~override~
+ REPLACE_TEXTUALLY ~9999~    ~~
+ REPLACE_TEXTUALLY ~gggg~    ~  ~
+ REPLACE_TEXTUALLY ~kkkk~    ~      ~
+ REPLACE_TEXTUALLY ~mmmm~    ~        ~
+ REPLACE_TEXTUALLY ~7777~    ~****        ~
+
+
+COPY_EXISTING ~HPMONK.2DA~ ~override~
+ COUNT_2DA_ROWS 4 "rows"
+ FOR(cnt="%rows%"+1; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+     INNER_ACTION BEGIN
+       APPEND ~HPMONK.2DA~ ~%cnt%  8       0       2~
+       COPY_EXISTING + ~HPMONK.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~HPPRS.2DA~ ~override~
+ COUNT_2DA_ROWS 4 "rows"
+ FOR(cnt="%rows%"+1; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+     INNER_ACTION BEGIN
+       APPEND ~HPPRS.2DA~ ~%cnt%  8       0       2~
+       COPY_EXISTING + ~HPPRS.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~HPROG.2DA~ ~override~
+ COUNT_2DA_ROWS 4 "rows"
+ FOR(cnt="%rows%"+1; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+     INNER_ACTION BEGIN
+       APPEND ~HPROG.2DA~ ~%cnt%  6       0       2~
+       COPY_EXISTING + ~HPROG.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~HPWAR.2DA~ ~override~
+ COUNT_2DA_ROWS 4 "rows"
+ FOR(cnt="%rows%"+1; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+     INNER_ACTION BEGIN
+       APPEND ~HPWAR.2DA~ ~%cnt%  10      0       3~
+       COPY_EXISTING + ~HPWAR.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~HPWIZ.2DA~ ~override~
+ COUNT_2DA_ROWS 4 "rows"
+ FOR(cnt="%rows%"+1; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+     INNER_ACTION BEGIN
+       APPEND ~HPWIZ.2DA~ ~%cnt%  4       0       1~
+       COPY_EXISTING + ~HPWIZ.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~LAYHANDS.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">=1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+     SET cnt2 = cnt*2
+     INNER_ACTION BEGIN
+       APPEND_COL ~LAYHANDS.2DA~ ~9999 9999 %cnt% %cnt2%~
+       COPY_EXISTING + ~LAYHANDS.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+ END
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING + ~LAYHANDS.2DA~ ~override~
+ REPLACE_TEXTUALLY ~9999~    ~~
+
+
+COPY_EXISTING ~LVLMODWM.2DA~ ~override~
+ COUNT_2DA_ROWS 21 "rows"
+ FOR(cnt="%rows%"+1; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+     INNER_ACTION BEGIN
+       APPEND ~LVLMODWM.2DA~ ~%cnt%      -5  -4  -4  -3  -3  -2  -2  -1  -1  0   0   1   1   2   2   3   3   4   4   5~
+       COPY_EXISTING + ~LVLMODWM.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~MXSPLDRU.2DA~ ~override~
+ COUNT_2DA_ROWS 8 "rows"
+ FOR(cnt=14; cnt<="%rows%"; cnt=cnt+1) BEGIN  //15-40 levels
+   PATCH_IF( cnt=14 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 5 8 4
+     SET_2DA_ENTRY cnt 6 8 2
+     SET_2DA_ENTRY cnt 7 8 1
+   END
+   PATCH_IF( cnt=15 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 2 8 6
+     SET_2DA_ENTRY cnt 3 8 6
+     SET_2DA_ENTRY cnt 5 8 4
+     SET_2DA_ENTRY cnt 6 8 3
+     SET_2DA_ENTRY cnt 7 8 1
+   END
+   PATCH_IF( cnt=16 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 7
+     SET_2DA_ENTRY cnt 2 8 7
+     SET_2DA_ENTRY cnt 3 8 7
+     SET_2DA_ENTRY cnt 4 8 6
+     SET_2DA_ENTRY cnt 5 8 5
+     SET_2DA_ENTRY cnt 6 8 3
+     SET_2DA_ENTRY cnt 7 8 2
+   END
+   PATCH_IF( cnt=17 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 7
+     SET_2DA_ENTRY cnt 2 8 7
+     SET_2DA_ENTRY cnt 3 8 7
+     SET_2DA_ENTRY cnt 4 8 6
+     SET_2DA_ENTRY cnt 5 8 6
+     SET_2DA_ENTRY cnt 6 8 4
+     SET_2DA_ENTRY cnt 7 8 2
+   END
+   PATCH_IF( cnt=18 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 8
+     SET_2DA_ENTRY cnt 2 8 7
+     SET_2DA_ENTRY cnt 3 8 7
+     SET_2DA_ENTRY cnt 4 8 7
+     SET_2DA_ENTRY cnt 5 8 6
+     SET_2DA_ENTRY cnt 6 8 4
+     SET_2DA_ENTRY cnt 7 8 2
+   END
+   PATCH_IF( cnt=19 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 8
+     SET_2DA_ENTRY cnt 2 8 7
+     SET_2DA_ENTRY cnt 3 8 7
+     SET_2DA_ENTRY cnt 4 8 7
+     SET_2DA_ENTRY cnt 5 8 6
+     SET_2DA_ENTRY cnt 6 8 5
+     SET_2DA_ENTRY cnt 7 8 2
+   END
+   PATCH_IF( cnt=20 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 8
+     SET_2DA_ENTRY cnt 2 8 8
+     SET_2DA_ENTRY cnt 3 8 7
+     SET_2DA_ENTRY cnt 4 8 7
+     SET_2DA_ENTRY cnt 5 8 7
+     SET_2DA_ENTRY cnt 6 8 6
+     SET_2DA_ENTRY cnt 7 8 2
+   END
+   PATCH_IF( cnt=21 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 8
+     SET_2DA_ENTRY cnt 2 8 8
+     SET_2DA_ENTRY cnt 3 8 7
+     SET_2DA_ENTRY cnt 4 8 7
+     SET_2DA_ENTRY cnt 5 8 7
+     SET_2DA_ENTRY cnt 6 8 6
+     SET_2DA_ENTRY cnt 7 8 3
+   END
+   PATCH_IF( cnt=22 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 8
+     SET_2DA_ENTRY cnt 2 8 8
+     SET_2DA_ENTRY cnt 3 8 8
+     SET_2DA_ENTRY cnt 4 8 7
+     SET_2DA_ENTRY cnt 5 8 7
+     SET_2DA_ENTRY cnt 6 8 6
+     SET_2DA_ENTRY cnt 7 8 3
+   END
+   PATCH_IF( cnt=23 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 8
+     SET_2DA_ENTRY cnt 3 8 8
+     SET_2DA_ENTRY cnt 4 8 8
+     SET_2DA_ENTRY cnt 5 8 7
+     SET_2DA_ENTRY cnt 6 8 7
+     SET_2DA_ENTRY cnt 7 8 3
+   END
+   PATCH_IF( cnt=24 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 8
+     SET_2DA_ENTRY cnt 4 8 8
+     SET_2DA_ENTRY cnt 5 8 8
+     SET_2DA_ENTRY cnt 6 8 7
+     SET_2DA_ENTRY cnt 7 8 4
+   END
+   PATCH_IF( cnt=25 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 8
+     SET_2DA_ENTRY cnt 4 8 8
+     SET_2DA_ENTRY cnt 5 8 8
+     SET_2DA_ENTRY cnt 6 8 8
+     SET_2DA_ENTRY cnt 7 8 4
+   END
+   PATCH_IF( cnt=26 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 8
+     SET_2DA_ENTRY cnt 5 8 8
+     SET_2DA_ENTRY cnt 6 8 8
+     SET_2DA_ENTRY cnt 7 8 4
+   END
+   PATCH_IF( cnt=27 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 8
+     SET_2DA_ENTRY cnt 5 8 8
+     SET_2DA_ENTRY cnt 6 8 8
+     SET_2DA_ENTRY cnt 7 8 5
+   END
+   PATCH_IF( cnt=28 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 8
+     SET_2DA_ENTRY cnt 6 8 8
+     SET_2DA_ENTRY cnt 7 8 5
+   END
+   PATCH_IF( cnt=29 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 8
+     SET_2DA_ENTRY cnt 7 8 5
+   END
+   PATCH_IF( cnt=30 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 8
+     SET_2DA_ENTRY cnt 7 8 6
+   END
+   PATCH_IF( cnt=31 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 6
+   END
+   PATCH_IF( cnt=32 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 6
+   END
+   PATCH_IF( cnt=33 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 7
+   END
+   PATCH_IF( cnt=34 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 7
+   END
+   PATCH_IF( cnt=35 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 7
+   END
+   PATCH_IF( cnt=36 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 10
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 7
+   END
+   PATCH_IF( cnt=37 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 10
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 7
+   END
+   PATCH_IF( cnt=38 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 10
+     SET_2DA_ENTRY cnt 4 8 10
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 8
+   END
+   PATCH_IF( cnt=39 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 10
+     SET_2DA_ENTRY cnt 4 8 10
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 8
+   END
+   PATCH_IF( cnt=40 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 10
+     SET_2DA_ENTRY cnt 4 8 10
+     SET_2DA_ENTRY cnt 5 8 10
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 8
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~MXSPLDRU.2DA~ ~override~
+ COUNT_2DA_ROWS 8 "rows"
+ FOR(cnt="%rows%"+1; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   SPRINT str ~~
+   PATCH_IF( cnt=41 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      10  10  10  10  10  9   8~
+   END
+   PATCH_IF( cnt=42 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  10  10  10  10  9   9~
+   END
+   PATCH_IF( cnt=43 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  10  10  10  10  10  9~
+   END
+   PATCH_IF( cnt=44 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  10  10  10  10  9~
+   END
+   PATCH_IF( cnt=45 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  10  10  10  10  9~
+   END
+   PATCH_IF( cnt=46 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  11  10  10  10  9~
+   END
+   PATCH_IF( cnt=47 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  11  10  10  10  10~
+   END
+   PATCH_IF( cnt=48 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  11  11  10  10  10~
+   END
+   PATCH_IF( cnt=49 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  11  11  10  10  10~
+   END
+   PATCH_IF( cnt=50 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  11  11  11  10  10~
+   END
+
+   INNER_ACTION BEGIN
+    APPEND ~MXSPLDRU.2DA~ "%str%"
+   END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~MXSPLPAL.2DA~ ~override~
+ COUNT_2DA_ROWS 5 "rows"
+ FOR(cnt=13; cnt<="%rows%"; cnt=cnt+1) BEGIN  //15-40 levels
+   PATCH_IF( cnt=13 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 4
+   END
+   PATCH_IF( cnt=14 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 4
+   END
+   PATCH_IF( cnt=15 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 4
+     SET_2DA_ENTRY cnt 2 5 4
+   END
+   PATCH_IF( cnt=16 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 4
+     SET_2DA_ENTRY cnt 2 5 4
+   END
+   PATCH_IF( cnt=17 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 4
+     SET_2DA_ENTRY cnt 2 5 4
+     SET_2DA_ENTRY cnt 3 5 4
+   END
+   PATCH_IF( cnt=18 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 4
+     SET_2DA_ENTRY cnt 2 5 4
+     SET_2DA_ENTRY cnt 3 5 4
+   END
+   PATCH_IF( cnt=19 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 4
+     SET_2DA_ENTRY cnt 2 5 4
+     SET_2DA_ENTRY cnt 3 5 4
+     SET_2DA_ENTRY cnt 4 5 4
+   END
+   PATCH_IF( cnt=20 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 4
+     SET_2DA_ENTRY cnt 2 5 4
+     SET_2DA_ENTRY cnt 3 5 4
+     SET_2DA_ENTRY cnt 4 5 4
+   END
+   PATCH_IF( cnt=21 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 5
+     SET_2DA_ENTRY cnt 2 5 4
+     SET_2DA_ENTRY cnt 3 5 4
+     SET_2DA_ENTRY cnt 4 5 4
+   END
+   PATCH_IF( cnt=22 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 5
+     SET_2DA_ENTRY cnt 2 5 4
+     SET_2DA_ENTRY cnt 3 5 4
+     SET_2DA_ENTRY cnt 4 5 4
+   END
+   PATCH_IF( cnt=23 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 5
+     SET_2DA_ENTRY cnt 2 5 5
+     SET_2DA_ENTRY cnt 3 5 4
+     SET_2DA_ENTRY cnt 4 5 4
+   END
+   PATCH_IF( cnt=24 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 5
+     SET_2DA_ENTRY cnt 2 5 5
+     SET_2DA_ENTRY cnt 3 5 4
+     SET_2DA_ENTRY cnt 4 5 4
+   END
+   PATCH_IF( cnt=25 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 5
+     SET_2DA_ENTRY cnt 2 5 5
+     SET_2DA_ENTRY cnt 3 5 5
+     SET_2DA_ENTRY cnt 4 5 4
+   END
+   PATCH_IF( cnt=26 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 5
+     SET_2DA_ENTRY cnt 2 5 5
+     SET_2DA_ENTRY cnt 3 5 5
+     SET_2DA_ENTRY cnt 4 5 4
+   END
+   PATCH_IF( cnt=27 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 5
+     SET_2DA_ENTRY cnt 2 5 5
+     SET_2DA_ENTRY cnt 3 5 5
+     SET_2DA_ENTRY cnt 4 5 5
+   END
+   PATCH_IF( cnt=28 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 5
+     SET_2DA_ENTRY cnt 2 5 5
+     SET_2DA_ENTRY cnt 3 5 5
+     SET_2DA_ENTRY cnt 4 5 5
+   END
+   PATCH_IF( cnt=29 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 6
+     SET_2DA_ENTRY cnt 2 5 5
+     SET_2DA_ENTRY cnt 3 5 5
+     SET_2DA_ENTRY cnt 4 5 5
+   END
+   PATCH_IF( cnt=30 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 6
+     SET_2DA_ENTRY cnt 2 5 5
+     SET_2DA_ENTRY cnt 3 5 5
+     SET_2DA_ENTRY cnt 4 5 5
+   END
+   PATCH_IF( cnt=31 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 5 6
+     SET_2DA_ENTRY cnt 2 5 6
+     SET_2DA_ENTRY cnt 3 5 5
+     SET_2DA_ENTRY cnt 4 5 5
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~MXSPLPAL.2DA~ ~override~
+ COUNT_2DA_ROWS 5 "rows"
+ FOR(cnt="%rows%"+1; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   SPRINT str ~~
+   PATCH_IF( cnt=41 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      6   6   5   5~
+   END
+   PATCH_IF( cnt=42 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      6   6   6   5~
+   END
+   PATCH_IF( cnt=43 OR cnt=44 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      7   6   6   5~
+   END
+   PATCH_IF( cnt=45 OR cnt=46 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      7   7   6   5~
+   END
+   PATCH_IF( cnt=47 OR cnt=48 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      7   7   6   6~
+   END
+   PATCH_IF( cnt=49 OR cnt=50 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      8   7   6   6~
+   END
+   INNER_ACTION BEGIN
+    APPEND ~MXSPLPAL.2DA~ "%str%"
+   END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+APPEND_COL ~MXSPLPAL.2DA~ ~9999 9999 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4~
+APPEND_COL ~MXSPLPAL.2DA~ ~9999 9999 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 2 2 2 2 2~
+COPY_EXISTING + ~MXSPLPAL.2DA~ ~override~
+ REPLACE_TEXTUALLY ~9999~    ~~
+
+
+COPY_EXISTING ~MXSPLPRS.2DA~ ~override~
+ COUNT_2DA_ROWS 8 "rows"
+ FOR(cnt=15; cnt<="%rows%"; cnt=cnt+1) BEGIN  //15-40 levels
+   PATCH_IF( cnt=15 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 2 8 6
+     SET_2DA_ENTRY cnt 3 8 6
+   END
+   PATCH_IF( cnt=16 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 4 8 6
+   END
+   PATCH_IF( cnt=17 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 7
+     SET_2DA_ENTRY cnt 2 8 7
+     SET_2DA_ENTRY cnt 3 8 7
+     SET_2DA_ENTRY cnt 4 8 6
+     SET_2DA_ENTRY cnt 5 8 6
+     SET_2DA_ENTRY cnt 6 8 4
+     SET_2DA_ENTRY cnt 7 8 2
+   END
+   PATCH_IF( cnt=18 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 8
+     SET_2DA_ENTRY cnt 2 8 7
+     SET_2DA_ENTRY cnt 3 8 7
+     SET_2DA_ENTRY cnt 4 8 7
+     SET_2DA_ENTRY cnt 5 8 6
+     SET_2DA_ENTRY cnt 6 8 4
+     SET_2DA_ENTRY cnt 7 8 2
+   END
+   PATCH_IF( cnt=19 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 8
+     SET_2DA_ENTRY cnt 2 8 7
+     SET_2DA_ENTRY cnt 3 8 7
+     SET_2DA_ENTRY cnt 4 8 7
+     SET_2DA_ENTRY cnt 5 8 6
+     SET_2DA_ENTRY cnt 6 8 5
+     SET_2DA_ENTRY cnt 7 8 2
+   END
+   PATCH_IF( cnt=20 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 8
+     SET_2DA_ENTRY cnt 2 8 8
+     SET_2DA_ENTRY cnt 3 8 7
+     SET_2DA_ENTRY cnt 4 8 7
+     SET_2DA_ENTRY cnt 5 8 7
+     SET_2DA_ENTRY cnt 6 8 6
+     SET_2DA_ENTRY cnt 7 8 2
+   END
+   PATCH_IF( cnt=21 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 8
+     SET_2DA_ENTRY cnt 2 8 8
+     SET_2DA_ENTRY cnt 3 8 7
+     SET_2DA_ENTRY cnt 4 8 7
+     SET_2DA_ENTRY cnt 5 8 7
+     SET_2DA_ENTRY cnt 6 8 6
+     SET_2DA_ENTRY cnt 7 8 3
+   END
+   PATCH_IF( cnt=22 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 8
+     SET_2DA_ENTRY cnt 2 8 8
+     SET_2DA_ENTRY cnt 3 8 8
+     SET_2DA_ENTRY cnt 4 8 7
+     SET_2DA_ENTRY cnt 5 8 7
+     SET_2DA_ENTRY cnt 6 8 6
+     SET_2DA_ENTRY cnt 7 8 3
+   END
+   PATCH_IF( cnt=23 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 8
+     SET_2DA_ENTRY cnt 3 8 8
+     SET_2DA_ENTRY cnt 4 8 8
+     SET_2DA_ENTRY cnt 5 8 7
+     SET_2DA_ENTRY cnt 6 8 7
+     SET_2DA_ENTRY cnt 7 8 3
+   END
+   PATCH_IF( cnt=24 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 8
+     SET_2DA_ENTRY cnt 4 8 8
+     SET_2DA_ENTRY cnt 5 8 8
+     SET_2DA_ENTRY cnt 6 8 7
+     SET_2DA_ENTRY cnt 7 8 4
+   END
+   PATCH_IF( cnt=25 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 8
+     SET_2DA_ENTRY cnt 4 8 8
+     SET_2DA_ENTRY cnt 5 8 8
+     SET_2DA_ENTRY cnt 6 8 8
+     SET_2DA_ENTRY cnt 7 8 4
+   END
+   PATCH_IF( cnt=26 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 8
+     SET_2DA_ENTRY cnt 5 8 8
+     SET_2DA_ENTRY cnt 6 8 8
+     SET_2DA_ENTRY cnt 7 8 4
+   END
+   PATCH_IF( cnt=27 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 8
+     SET_2DA_ENTRY cnt 5 8 8
+     SET_2DA_ENTRY cnt 6 8 8
+     SET_2DA_ENTRY cnt 7 8 5
+   END
+   PATCH_IF( cnt=28 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 8
+     SET_2DA_ENTRY cnt 6 8 8
+     SET_2DA_ENTRY cnt 7 8 5
+   END
+   PATCH_IF( cnt=29 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 8
+     SET_2DA_ENTRY cnt 7 8 5
+   END
+   PATCH_IF( cnt=30 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 8
+     SET_2DA_ENTRY cnt 7 8 6
+   END
+   PATCH_IF( cnt=31 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 9
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 6
+   END
+   PATCH_IF( cnt=32 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 6
+   END
+   PATCH_IF( cnt=33 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 9
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 7
+   END
+   PATCH_IF( cnt=34 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 7
+   END
+   PATCH_IF( cnt=35 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 9
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 7
+   END
+   PATCH_IF( cnt=36 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 10
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 7
+   END
+   PATCH_IF( cnt=37 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 10
+     SET_2DA_ENTRY cnt 4 8 9
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 7
+   END
+   PATCH_IF( cnt=38 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 10
+     SET_2DA_ENTRY cnt 4 8 10
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 8
+   END
+   PATCH_IF( cnt=39 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 10
+     SET_2DA_ENTRY cnt 4 8 10
+     SET_2DA_ENTRY cnt 5 8 9
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 8
+   END
+   PATCH_IF( cnt=40 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 0 8 "%cnt%"+1
+     SET_2DA_ENTRY cnt 1 8 10
+     SET_2DA_ENTRY cnt 2 8 10
+     SET_2DA_ENTRY cnt 3 8 10
+     SET_2DA_ENTRY cnt 4 8 10
+     SET_2DA_ENTRY cnt 5 8 10
+     SET_2DA_ENTRY cnt 6 8 9
+     SET_2DA_ENTRY cnt 7 8 8
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~MXSPLPRS.2DA~ ~override~
+ COUNT_2DA_ROWS 8 "rows"
+ FOR(cnt="%rows%"+1; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   SPRINT str ~~
+   PATCH_IF( cnt=41 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      10  10  10  10  10  9   8~
+   END
+   PATCH_IF( cnt=42 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  10  10  10  10  9   9~
+   END
+   PATCH_IF( cnt=43 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  10  10  10  10  10  9~
+   END
+   PATCH_IF( cnt=44 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  10  10  10  10  9~
+   END
+   PATCH_IF( cnt=45 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  10  10  10  10  9~
+   END
+   PATCH_IF( cnt=46 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  11  10  10  10  9~
+   END
+   PATCH_IF( cnt=47 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  11  10  10  10  10~
+   END
+   PATCH_IF( cnt=48 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  11  11  10  10  10~
+   END
+   PATCH_IF( cnt=49 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  11  11  10  10  10~
+   END
+   PATCH_IF( cnt=50 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  11  11  11  10  10~
+   END
+   INNER_ACTION BEGIN
+    APPEND ~MXSPLPRS.2DA~ "%str%"
+   END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~MXSPLRAN.2DA~ ~override~
+ COUNT_2DA_ROWS 4 "rows"
+ FOR(cnt=9; cnt<="%rows%"; cnt=cnt+1) BEGIN  //15-40 levels
+   PATCH_IF( cnt=9 OR cnt=10 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 4 4
+   END
+   PATCH_IF( cnt=11 OR cnt=12 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 4 4
+     SET_2DA_ENTRY cnt 2 4 4
+   END
+   PATCH_IF( cnt=12 OR cnt=13 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 4 4
+     SET_2DA_ENTRY cnt 2 4 4
+     SET_2DA_ENTRY cnt 3 4 4
+   END
+   PATCH_IF( cnt=14 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 4 5
+     SET_2DA_ENTRY cnt 2 4 4
+     SET_2DA_ENTRY cnt 3 4 4
+   END
+   PATCH_IF( cnt=15 OR cnt=16 OR cnt=17 OR cnt=18 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 4 5
+     SET_2DA_ENTRY cnt 2 4 5
+     SET_2DA_ENTRY cnt 3 4 4
+   END
+   PATCH_IF( cnt=19 OR cnt=20 OR cnt=21 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 4 6
+     SET_2DA_ENTRY cnt 2 4 5
+     SET_2DA_ENTRY cnt 3 4 4
+   END
+   PATCH_IF( cnt=22 OR cnt=23 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 4 6
+     SET_2DA_ENTRY cnt 2 4 5
+     SET_2DA_ENTRY cnt 3 4 5
+   END
+   PATCH_IF( cnt=24 OR cnt=25 OR cnt=26 OR cnt=27 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 4 6
+     SET_2DA_ENTRY cnt 2 4 6
+     SET_2DA_ENTRY cnt 3 4 5
+   END
+   PATCH_IF( cnt=28 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 4 6
+     SET_2DA_ENTRY cnt 2 4 6
+     SET_2DA_ENTRY cnt 3 4 6
+   END
+   PATCH_IF( cnt=29 OR cnt=30 OR cnt=31 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 4 7
+     SET_2DA_ENTRY cnt 2 4 6
+     SET_2DA_ENTRY cnt 3 4 6
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~MXSPLRAN.2DA~ ~override~
+ COUNT_2DA_ROWS 5 "rows"
+ FOR(cnt="%rows%"+1; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   SPRINT str ~~
+   PATCH_IF( cnt=41 OR cnt=42 OR cnt=43 OR cnt=44 OR cnt=45 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      7   7   6~
+   END
+   PATCH_IF( cnt=46 OR cnt=47 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      8   7   6~
+   END
+   PATCH_IF( cnt=48 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      8   8   6~
+   END
+   PATCH_IF( cnt=49 OR cnt=50 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      8   8   7~
+   END
+   INNER_ACTION BEGIN
+    APPEND ~MXSPLRAN.2DA~ "%str%"
+   END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+APPEND_COL ~MXSPLRAN.2DA~ ~9999 9999 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 4 4 4 4 5 5 5 5 5 6 6 6 6 6 6~
+APPEND_COL ~MXSPLRAN.2DA~ ~9999 9999 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 2 2 2 2 2 3 3 3 4~
+COPY_EXISTING + ~MXSPLPAL.2DA~ ~override~
+ REPLACE_TEXTUALLY ~9999~    ~~
+
+
+COPY_EXISTING ~MXSPLSRC.2DA~ ~override~
+ COUNT_2DA_ROWS 10 "rows"
+ FOR(cnt=0; cnt<="%rows%"; cnt=cnt+1) BEGIN
+   PATCH_IF( cnt=0 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 2
+   END
+   PATCH_IF( cnt=1 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 3
+   END
+   PATCH_IF( cnt=2 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 4
+   END
+   PATCH_IF( cnt=3 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 4
+     SET_2DA_ENTRY cnt 2 10 2
+   END
+   PATCH_IF( cnt=4 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 4
+     SET_2DA_ENTRY cnt 2 10 3
+   END
+   PATCH_IF( cnt=5 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 4
+     SET_2DA_ENTRY cnt 2 10 3
+     SET_2DA_ENTRY cnt 3 10 2
+   END
+   PATCH_IF( cnt=6 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 5
+     SET_2DA_ENTRY cnt 2 10 3
+     SET_2DA_ENTRY cnt 3 10 2
+   END
+   PATCH_IF( cnt=7 OR cnt=8 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 5
+     SET_2DA_ENTRY cnt 2 10 4
+     SET_2DA_ENTRY cnt 3 10 3
+     SET_2DA_ENTRY cnt 4 10 2
+   END
+   PATCH_IF( cnt=9 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 5
+     SET_2DA_ENTRY cnt 2 10 4
+     SET_2DA_ENTRY cnt 3 10 3
+     SET_2DA_ENTRY cnt 4 10 3
+     SET_2DA_ENTRY cnt 5 10 2
+   END
+   PATCH_IF( cnt=10 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 5
+     SET_2DA_ENTRY cnt 2 10 4
+     SET_2DA_ENTRY cnt 3 10 4
+     SET_2DA_ENTRY cnt 4 10 3
+     SET_2DA_ENTRY cnt 5 10 2
+   END
+   PATCH_IF( cnt=11 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 2 10 5
+     SET_2DA_ENTRY cnt 3 10 4
+     SET_2DA_ENTRY cnt 4 10 3
+     SET_2DA_ENTRY cnt 5 10 3
+     SET_2DA_ENTRY cnt 6 10 2
+   END
+   PATCH_IF( cnt=12 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 2 10 5
+     SET_2DA_ENTRY cnt 3 10 4
+     SET_2DA_ENTRY cnt 4 10 4
+     SET_2DA_ENTRY cnt 5 10 3
+     SET_2DA_ENTRY cnt 6 10 2
+   END
+   PATCH_IF( cnt=13 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 2 10 5
+     SET_2DA_ENTRY cnt 3 10 4
+     SET_2DA_ENTRY cnt 4 10 4
+     SET_2DA_ENTRY cnt 5 10 3
+     SET_2DA_ENTRY cnt 6 10 3
+     SET_2DA_ENTRY cnt 7 10 2
+   END
+   PATCH_IF( cnt=14 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 2 10 5
+     SET_2DA_ENTRY cnt 3 10 5
+     SET_2DA_ENTRY cnt 4 10 4
+     SET_2DA_ENTRY cnt 5 10 4
+     SET_2DA_ENTRY cnt 6 10 3
+     SET_2DA_ENTRY cnt 7 10 2
+   END
+   PATCH_IF( cnt=15 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 2 10 5
+     SET_2DA_ENTRY cnt 3 10 5
+     SET_2DA_ENTRY cnt 4 10 4
+     SET_2DA_ENTRY cnt 5 10 4
+     SET_2DA_ENTRY cnt 6 10 3
+     SET_2DA_ENTRY cnt 7 10 3
+     SET_2DA_ENTRY cnt 8 10 2
+   END
+   PATCH_IF( cnt=16 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 2 10 6
+     SET_2DA_ENTRY cnt 3 10 5
+     SET_2DA_ENTRY cnt 4 10 5
+     SET_2DA_ENTRY cnt 5 10 4
+     SET_2DA_ENTRY cnt 6 10 4
+     SET_2DA_ENTRY cnt 7 10 3
+     SET_2DA_ENTRY cnt 8 10 2
+   END
+   PATCH_IF( cnt=17 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 6
+     SET_2DA_ENTRY cnt 3 10 5
+     SET_2DA_ENTRY cnt 4 10 5
+     SET_2DA_ENTRY cnt 5 10 4
+     SET_2DA_ENTRY cnt 6 10 4
+     SET_2DA_ENTRY cnt 7 10 3
+     SET_2DA_ENTRY cnt 8 10 3
+     SET_2DA_ENTRY cnt 9 10 2
+   END
+   PATCH_IF( cnt=18 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 6
+     SET_2DA_ENTRY cnt 3 10 5
+     SET_2DA_ENTRY cnt 4 10 5
+     SET_2DA_ENTRY cnt 5 10 5
+     SET_2DA_ENTRY cnt 6 10 4
+     SET_2DA_ENTRY cnt 7 10 5
+     SET_2DA_ENTRY cnt 8 10 3
+     SET_2DA_ENTRY cnt 9 10 2
+   END
+   PATCH_IF( cnt=19 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 6
+     SET_2DA_ENTRY cnt 3 10 6
+     SET_2DA_ENTRY cnt 4 10 5
+     SET_2DA_ENTRY cnt 5 10 5
+     SET_2DA_ENTRY cnt 6 10 4
+     SET_2DA_ENTRY cnt 7 10 4
+     SET_2DA_ENTRY cnt 8 10 3
+     SET_2DA_ENTRY cnt 9 10 2
+   END
+   PATCH_IF( cnt=20 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 6
+     SET_2DA_ENTRY cnt 3 10 6
+     SET_2DA_ENTRY cnt 4 10 5
+     SET_2DA_ENTRY cnt 5 10 5
+     SET_2DA_ENTRY cnt 6 10 5
+     SET_2DA_ENTRY cnt 7 10 4
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 2
+   END
+   PATCH_IF( cnt=21 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 6
+     SET_2DA_ENTRY cnt 3 10 6
+     SET_2DA_ENTRY cnt 4 10 6
+     SET_2DA_ENTRY cnt 5 10 5
+     SET_2DA_ENTRY cnt 6 10 5
+     SET_2DA_ENTRY cnt 7 10 4
+     SET_2DA_ENTRY cnt 8 10 4
+     SET_2DA_ENTRY cnt 9 10 3
+   END
+   PATCH_IF( cnt=22 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 6
+     SET_2DA_ENTRY cnt 4 10 6
+     SET_2DA_ENTRY cnt 5 10 5
+     SET_2DA_ENTRY cnt 6 10 5
+     SET_2DA_ENTRY cnt 7 10 5
+     SET_2DA_ENTRY cnt 8 10 4
+     SET_2DA_ENTRY cnt 9 10 3
+   END
+   PATCH_IF( cnt=23 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 6
+     SET_2DA_ENTRY cnt 4 10 6
+     SET_2DA_ENTRY cnt 5 10 6
+     SET_2DA_ENTRY cnt 6 10 5
+     SET_2DA_ENTRY cnt 7 10 5
+     SET_2DA_ENTRY cnt 8 10 4
+     SET_2DA_ENTRY cnt 9 10 3
+   END
+   PATCH_IF( cnt=24 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 6
+     SET_2DA_ENTRY cnt 4 10 6
+     SET_2DA_ENTRY cnt 5 10 6
+     SET_2DA_ENTRY cnt 6 10 5
+     SET_2DA_ENTRY cnt 7 10 5
+     SET_2DA_ENTRY cnt 8 10 4
+     SET_2DA_ENTRY cnt 9 10 3
+   END
+   PATCH_IF( cnt=25 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 6
+     SET_2DA_ENTRY cnt 5 10 6
+     SET_2DA_ENTRY cnt 6 10 5
+     SET_2DA_ENTRY cnt 7 10 5
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 3
+   END
+   PATCH_IF( cnt=26 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 6
+     SET_2DA_ENTRY cnt 5 10 6
+     SET_2DA_ENTRY cnt 6 10 6
+     SET_2DA_ENTRY cnt 7 10 5
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 3
+   END
+   PATCH_IF( cnt=27 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 6
+     SET_2DA_ENTRY cnt 6 10 6
+     SET_2DA_ENTRY cnt 7 10 5
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=28 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 6
+     SET_2DA_ENTRY cnt 6 10 6
+     SET_2DA_ENTRY cnt 7 10 6
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=29 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 6
+     SET_2DA_ENTRY cnt 6 10 6
+     SET_2DA_ENTRY cnt 7 10 6
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=30 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 6
+     SET_2DA_ENTRY cnt 7 10 6
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=31 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 6
+     SET_2DA_ENTRY cnt 7 10 6
+     SET_2DA_ENTRY cnt 8 10 6
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=32 OR cnt=33 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 6
+     SET_2DA_ENTRY cnt 7 10 6
+     SET_2DA_ENTRY cnt 8 10 6
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=34 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 6
+     SET_2DA_ENTRY cnt 8 10 6
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=35 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 8
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 6
+     SET_2DA_ENTRY cnt 8 10 6
+     SET_2DA_ENTRY cnt 9 10 5
+   END
+   PATCH_IF( cnt=36 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 8
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 6
+     SET_2DA_ENTRY cnt 9 10 5
+   END
+   PATCH_IF( cnt=37 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 9
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 8
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 6
+     SET_2DA_ENTRY cnt 9 10 5
+   END
+   PATCH_IF( cnt=38 OR cnt=39 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 9
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 8
+     SET_2DA_ENTRY cnt 5 10 8
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 6
+     SET_2DA_ENTRY cnt 9 10 5
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~MXSPLSRC.2DA~ ~override~
+ COUNT_2DA_ROWS 5 "rows"
+ FOR(cnt="%rows%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   SPRINT str ~~
+   PATCH_IF( cnt=41 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      9   9   8   8   8   7   7   7   5~
+   END
+   PATCH_IF( cnt=42 OR cnt=43 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      10  9   9   8   8   7   7   7   5~
+   END
+   PATCH_IF( cnt=44 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      10  9   9   8   8   8   7   7   5~
+   END
+   PATCH_IF( cnt=45 OR cnt=46 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      10  10  9   9   8   8   7   7   5~
+   END
+   PATCH_IF( cnt=47 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  10  10  9   8   8   8   7   6~
+   END
+   PATCH_IF( cnt=48 OR cnt=49 OR cnt=50 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  10  10  9   9   8   8   7   6~
+   END
+   INNER_ACTION BEGIN
+    APPEND ~MXSPLSRC.2DA~ "%str%"
+   END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~MXSPLWIZ.2DA~ ~override~
+ COUNT_2DA_ROWS 10 "rows"
+ FOR(cnt=12; cnt<="%rows%"; cnt=cnt+1) BEGIN
+   PATCH_IF( cnt=12 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 3 10 4
+   END
+   PATCH_IF( cnt=14 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 5 10 4
+   END
+   PATCH_IF( cnt=15 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 5 10 4
+   END
+   PATCH_IF( cnt=16 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 5 10 4
+     SET_2DA_ENTRY cnt 7 10 2
+   END
+   PATCH_IF( cnt=19 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+   END
+   PATCH_IF( cnt=20 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 7 10 4
+   END
+   PATCH_IF( cnt=21 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 6 10 5
+     SET_2DA_ENTRY cnt 7 10 4
+     SET_2DA_ENTRY cnt 8 10 4
+   END
+   PATCH_IF( cnt=22 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 2 10 6
+     SET_2DA_ENTRY cnt 7 10 4
+     SET_2DA_ENTRY cnt 8 10 4
+   END
+   PATCH_IF( cnt=23 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 2 10 6
+     SET_2DA_ENTRY cnt 8 10 4
+   END
+   PATCH_IF( cnt=24 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 2 10 6
+     SET_2DA_ENTRY cnt 3 10 6
+     SET_2DA_ENTRY cnt 7 10 5
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=25 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 6
+     SET_2DA_ENTRY cnt 3 10 6
+     SET_2DA_ENTRY cnt 4 10 6
+     SET_2DA_ENTRY cnt 5 10 6
+     SET_2DA_ENTRY cnt 7 10 5
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=26 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 6
+     SET_2DA_ENTRY cnt 4 10 6
+     SET_2DA_ENTRY cnt 5 10 6
+     SET_2DA_ENTRY cnt 6 10 5
+     SET_2DA_ENTRY cnt 7 10 5
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=27 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 6
+     SET_2DA_ENTRY cnt 5 10 6
+     SET_2DA_ENTRY cnt 6 10 6
+     SET_2DA_ENTRY cnt 7 10 5
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=28 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 6
+     SET_2DA_ENTRY cnt 6 10 6
+     SET_2DA_ENTRY cnt 7 10 6
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 5
+   END
+   PATCH_IF( cnt=29 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 6
+     SET_2DA_ENTRY cnt 7 10 6
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 5
+   END
+   PATCH_IF( cnt=30 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 6
+     SET_2DA_ENTRY cnt 7 10 6
+     SET_2DA_ENTRY cnt 8 10 6
+     SET_2DA_ENTRY cnt 9 10 5
+   END
+   PATCH_IF( cnt=31 OR cnt=32 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 6
+     SET_2DA_ENTRY cnt 8 10 6
+     SET_2DA_ENTRY cnt 9 10 5
+   END
+   PATCH_IF( cnt=33 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 6
+     SET_2DA_ENTRY cnt 9 10 6
+   END
+   PATCH_IF( cnt=34 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 6
+     SET_2DA_ENTRY cnt 9 10 6
+   END
+   PATCH_IF( cnt=35 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 7
+     SET_2DA_ENTRY cnt 9 10 6
+   END
+   PATCH_IF( cnt=36 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 8
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 7
+     SET_2DA_ENTRY cnt 9 10 6
+   END
+   PATCH_IF( cnt=37 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 8
+     SET_2DA_ENTRY cnt 5 10 8
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 7
+     SET_2DA_ENTRY cnt 9 10 6
+   END
+   PATCH_IF( cnt=38 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 8
+     SET_2DA_ENTRY cnt 5 10 8
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 7
+     SET_2DA_ENTRY cnt 9 10 6
+   END
+   PATCH_IF( cnt=39 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 9
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 8
+     SET_2DA_ENTRY cnt 5 10 8
+     SET_2DA_ENTRY cnt 6 10 8
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 7
+     SET_2DA_ENTRY cnt 9 10 7
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~MXSPLWIZ.2DA~ ~override~
+ COUNT_2DA_ROWS 5 "rows"
+ FOR(cnt="%rows%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   SPRINT str ~~
+   PATCH_IF( cnt=41 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      9   9   8   8   8   8   8   7   7~
+   END
+   PATCH_IF( cnt=42 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      9   9   9   8   8   8   8   7   7~
+   END
+   PATCH_IF( cnt=43 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      10  9   9   9   8   8   8   8   7~
+   END
+   PATCH_IF( cnt=44 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      10  9   9   9   9   8   8   8   7~
+   END
+   PATCH_IF( cnt=45 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      10  10  9   9   9   9   8   8   7~
+   END
+   PATCH_IF( cnt=46 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      10  10  10  9   9   9   9   8   7~
+   END
+   PATCH_IF( cnt=47 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  10  10  10  9   9   9   8   8~
+   END
+   PATCH_IF( cnt=48 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  10  10  10  9   9   9   8~
+   END
+   PATCH_IF( cnt=49 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      11  11  11  10  10  10  9   9   8~
+   END
+   PATCH_IF( cnt=50 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      12  11  11  10  10  10  9   9   8~
+   END
+   INNER_ACTION BEGIN
+    APPEND ~MXSPLWIZ.2DA~ "%str%"
+   END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~RAISDEAD.2DA~ ~override~
+ COUNT_2DA_ROWS 2 "rows"
+ FOR(cnt="%rows%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   SPRINT str ~~
+   PATCH_IF( cnt=41 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      17500~
+   END
+   PATCH_IF( cnt=42 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      18000~
+   END
+   PATCH_IF( cnt=43 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      18500~
+   END
+   PATCH_IF( cnt=44 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      19000~
+   END
+   PATCH_IF( cnt=45 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      19500~
+   END
+   PATCH_IF( cnt=46 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      20000~
+   END
+   PATCH_IF( cnt=47 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      20500~
+   END
+   PATCH_IF( cnt=48 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      21000~
+   END
+   PATCH_IF( cnt=49 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      21500~
+   END
+   PATCH_IF( cnt=50 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      22000~
+   END
+   INNER_ACTION BEGIN
+    APPEND ~RAISDEAD.2DA~ "%str%"
+   END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~SAVEMONK.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEMONK.2DA~ ~9999 9999 9999 kkkk kkkk kkkk kkkk kkkk~
+       COPY_EXISTING + ~SAVEMONK.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   PATCH_IF( cnt>=41 AND cnt<=48 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEMONK.2DA~ ~9999 9999 %cnt%kkkk 1pppp 3pppp 2pppp 5pppp 2pppp~
+       COPY_EXISTING + ~SAVEMONK.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEMONK.2DA~ ~9999 9999 %cnt%kkkk 1pppp 1pppp 1pppp 3pppp 1pppp~
+       COPY_EXISTING + ~SAVEMONK.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEMONK.2DA~ ~9999 9999 %cnt%kkkk 1pppp 1pppp 1pppp 2pppp 1pppp~
+       COPY_EXISTING + ~SAVEMONK.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~SAVEPRS.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEPRS.2DA~ ~9999 9999 9999 kkkk kkkk kkkk kkkk kkkk~
+       COPY_EXISTING + ~SAVEPRS.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   PATCH_IF( cnt=41 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEPRS.2DA~ ~9999 9999 %cnt%kkkk 2pppp 6pppp 5pppp 8pppp 7pppp~
+       COPY_EXISTING + ~SAVEPRS.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt>=42 AND cnt<=48 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEPRS.2DA~ ~9999 9999 %cnt%kkkk 1pppp 4pppp 3pppp 6pppp 5pppp~
+       COPY_EXISTING + ~SAVEPRS.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEPRS.2DA~ ~9999 9999 %cnt%kkkk 1pppp 2pppp 1pppp 4pppp 3pppp~
+       COPY_EXISTING + ~SAVEPRS.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEPRS.2DA~ ~9999 9999 %cnt%kkkk 1pppp 1pppp 1pppp 3pppp 2pppp~
+       COPY_EXISTING + ~SAVEPRS.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~SAVEROG.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEROG.2DA~ ~9999 9999 9999 kkkk kkkk kkkk 9999 kkkk~
+       COPY_EXISTING + ~SAVEROG.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   PATCH_IF( cnt>=41 AND cnt<=48 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEROG.2DA~ ~9999 9999 %cnt%kkkk 7pppp 4pppp 6pppp 10kkkk 5pppp~
+       COPY_EXISTING + ~SAVEROG.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEROG.2DA~ ~9999 9999 %cnt%kkkk 5pppp 2pppp 4pppp 8pppp 3pppp~
+       COPY_EXISTING + ~SAVEROG.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEROG.2DA~ ~9999 9999 %cnt%kkkk 4pppp 1pppp 3pppp 7pppp 2pppp~
+       COPY_EXISTING + ~SAVEROG.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~SAVEWAR.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEWAR.2DA~ ~9999 9999 9999 kkkk kkkk kkkk kkkk kkkk~
+       COPY_EXISTING + ~SAVEWAR.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   PATCH_IF( cnt>=41 AND cnt<=48 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEWAR.2DA~ ~9999 9999 %cnt%kkkk 1pppp 3pppp 2pppp 2pppp 4pppp~
+       COPY_EXISTING + ~SAVEWAR.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEWAR.2DA~ ~9999 9999 %cnt%kkkk 1pppp 1pppp 1pppp 1pppp 1pppp~
+       COPY_EXISTING + ~SAVEWAR.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEWAR.2DA~ ~9999 9999 %cnt%kkkk 1pppp 1pppp 1pppp 1pppp 1pppp~
+       COPY_EXISTING + ~SAVEWAR.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~SAVEWIZ.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEWIZ.2DA~ ~9999 9999 9999 9999 kkkk kkkk kkkk kkkk~
+       COPY_EXISTING + ~SAVEWIZ.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   PATCH_IF( cnt>=41 AND cnt<=48 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEWIZ.2DA~ ~9999 9999 %cnt%kkkk 8pppp 3pppp 5pppp 7pppp 4pppp~
+       COPY_EXISTING + ~SAVEWIZ.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+   PATCH_IF( cnt=49 ) THEN BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEWIZ.2DA~ ~9999 9999 %cnt%kkkk 6pppp 1pppp 3pppp 5pppp 2pppp~
+       COPY_EXISTING + ~SAVEWIZ.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   ELSE BEGIN
+     INNER_ACTION BEGIN
+       APPEND_COL ~SAVEWIZ.2DA~ ~9999 9999 %cnt%kkkk 5pppp 1pppp 2pppp 4pppp 1pppp~
+       COPY_EXISTING + ~SAVEWIZ.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING + ~SAVEMONK.2DA~ ~override~
+                ~SAVEPRS.2DA~ ~override~
+                ~SAVEROG.2DA~ ~override~
+                ~SAVEWAR.2DA~ ~override~
+                ~SAVEWIZ.2DA~ ~override~
+ REPLACE_TEXTUALLY ~9999~    ~~
+ REPLACE_TEXTUALLY ~kkkk~    ~ ~
+ REPLACE_TEXTUALLY ~pppp~    ~  ~
+
+
+COPY_EXISTING ~SKILLBRD.2DA~ ~override~
+ COUNT_2DA_ROWS 2 "rows"
+ FOR(cnt="%rows%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   SPRINT str ~~
+   PATCH_IF( cnt=41 OR cnt=42 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      100~
+   END
+   PATCH_IF( cnt=43 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      105~
+   END
+   PATCH_IF( cnt=44 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      110~
+   END
+   PATCH_IF( cnt=45 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      115~
+   END
+   PATCH_IF( cnt=46 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      120~
+   END
+   PATCH_IF( cnt=47 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      125~
+   END
+   PATCH_IF( cnt=48 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      130~
+   END
+   PATCH_IF( cnt=49 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      135~
+   END
+   PATCH_IF( cnt=50 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      140~
+   END
+   INNER_ACTION BEGIN
+    APPEND ~SKILLBRD.2DA~ "%str%"
+   END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~SKILLRNG.2DA~ ~override~
+ COUNT_2DA_ROWS 2 "rows"
+ FOR(cnt="%rows%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt>=41 AND cnt<=50 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      99~
+   END
+   INNER_ACTION BEGIN
+    APPEND ~SKILLRNG.2DA~ "%str%"
+   END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~SPLSRCKN.2DA~ ~override~
+ COUNT_2DA_ROWS 10 "rows"
+ FOR(cnt=20; cnt<="%rows%"; cnt=cnt+1) BEGIN
+   PATCH_IF( cnt=20 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 6 10 3
+   END
+   PATCH_IF( cnt=21 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 3 10 4
+     SET_2DA_ENTRY cnt 6 10 3
+     SET_2DA_ENTRY cnt 7 10 3
+   END
+   PATCH_IF( cnt=22 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 6
+     SET_2DA_ENTRY cnt 3 10 4
+     SET_2DA_ENTRY cnt 4 10 4
+     SET_2DA_ENTRY cnt 6 10 3
+     SET_2DA_ENTRY cnt 7 10 3
+     SET_2DA_ENTRY cnt 8 10 3
+   END
+   PATCH_IF( cnt=23 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 6
+     SET_2DA_ENTRY cnt 4 10 4
+     SET_2DA_ENTRY cnt 6 10 3
+     SET_2DA_ENTRY cnt 7 10 3
+     SET_2DA_ENTRY cnt 8 10 3
+   END
+   PATCH_IF( cnt=24 OR cnt=25 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 7
+     SET_2DA_ENTRY cnt 2 10 6
+     SET_2DA_ENTRY cnt 3 10 5
+     SET_2DA_ENTRY cnt 4 10 4
+     SET_2DA_ENTRY cnt 5 10 4
+     SET_2DA_ENTRY cnt 6 10 3
+     SET_2DA_ENTRY cnt 7 10 3
+     SET_2DA_ENTRY cnt 8 10 3
+     SET_2DA_ENTRY cnt 9 10 3
+   END
+   PATCH_IF( cnt=26 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 6
+     SET_2DA_ENTRY cnt 4 10 5
+     SET_2DA_ENTRY cnt 5 10 4
+     SET_2DA_ENTRY cnt 6 10 3
+     SET_2DA_ENTRY cnt 7 10 3
+     SET_2DA_ENTRY cnt 8 10 3
+     SET_2DA_ENTRY cnt 9 10 3
+   END
+   PATCH_IF( cnt=27 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 6
+     SET_2DA_ENTRY cnt 4 10 5
+     SET_2DA_ENTRY cnt 5 10 4
+     SET_2DA_ENTRY cnt 6 10 4
+     SET_2DA_ENTRY cnt 7 10 3
+     SET_2DA_ENTRY cnt 8 10 3
+     SET_2DA_ENTRY cnt 9 10 3
+   END
+   PATCH_IF( cnt=28 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 7
+     SET_2DA_ENTRY cnt 3 10 6
+     SET_2DA_ENTRY cnt 4 10 5
+     SET_2DA_ENTRY cnt 5 10 4
+     SET_2DA_ENTRY cnt 6 10 4
+     SET_2DA_ENTRY cnt 7 10 4
+     SET_2DA_ENTRY cnt 8 10 3
+     SET_2DA_ENTRY cnt 9 10 3
+   END
+   PATCH_IF( cnt=29 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 8
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 5
+     SET_2DA_ENTRY cnt 5 10 5
+     SET_2DA_ENTRY cnt 6 10 5
+     SET_2DA_ENTRY cnt 7 10 4
+     SET_2DA_ENTRY cnt 8 10 4
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=30 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 8
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 6
+     SET_2DA_ENTRY cnt 5 10 5
+     SET_2DA_ENTRY cnt 6 10 5
+     SET_2DA_ENTRY cnt 7 10 5
+     SET_2DA_ENTRY cnt 8 10 4
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=31 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 9
+     SET_2DA_ENTRY cnt 3 10 7
+     SET_2DA_ENTRY cnt 4 10 6
+     SET_2DA_ENTRY cnt 5 10 6
+     SET_2DA_ENTRY cnt 6 10 6
+     SET_2DA_ENTRY cnt 7 10 5
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 4
+   END
+   PATCH_IF( cnt=32 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 9
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 6
+     SET_2DA_ENTRY cnt 6 10 6
+     SET_2DA_ENTRY cnt 7 10 6
+     SET_2DA_ENTRY cnt 8 10 5
+     SET_2DA_ENTRY cnt 9 10 5
+   END
+   PATCH_IF( cnt=33 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 9
+     SET_2DA_ENTRY cnt 3 10 8
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 6
+     SET_2DA_ENTRY cnt 8 10 6
+     SET_2DA_ENTRY cnt 9 10 5
+   END
+   PATCH_IF( cnt=34 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 9
+     SET_2DA_ENTRY cnt 3 10 9
+     SET_2DA_ENTRY cnt 4 10 7
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 6
+     SET_2DA_ENTRY cnt 9 10 6
+   END
+   PATCH_IF( cnt=35 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 9
+     SET_2DA_ENTRY cnt 3 10 9
+     SET_2DA_ENTRY cnt 4 10 8
+     SET_2DA_ENTRY cnt 5 10 7
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 7
+     SET_2DA_ENTRY cnt 9 10 6
+   END
+   PATCH_IF( cnt=36 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 9
+     SET_2DA_ENTRY cnt 3 10 9
+     SET_2DA_ENTRY cnt 4 10 8
+     SET_2DA_ENTRY cnt 5 10 8
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 7
+     SET_2DA_ENTRY cnt 9 10 7
+   END
+   PATCH_IF( cnt=37 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 9
+     SET_2DA_ENTRY cnt 3 10 9
+     SET_2DA_ENTRY cnt 4 10 9
+     SET_2DA_ENTRY cnt 5 10 9
+     SET_2DA_ENTRY cnt 6 10 7
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 7
+     SET_2DA_ENTRY cnt 9 10 7
+   END
+   PATCH_IF( cnt=38 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 9
+     SET_2DA_ENTRY cnt 3 10 9
+     SET_2DA_ENTRY cnt 4 10 9
+     SET_2DA_ENTRY cnt 5 10 9
+     SET_2DA_ENTRY cnt 6 10 8
+     SET_2DA_ENTRY cnt 7 10 7
+     SET_2DA_ENTRY cnt 8 10 7
+     SET_2DA_ENTRY cnt 9 10 7
+   END
+   PATCH_IF( cnt=39 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 10 9
+     SET_2DA_ENTRY cnt 2 10 9
+     SET_2DA_ENTRY cnt 3 10 9
+     SET_2DA_ENTRY cnt 4 10 9
+     SET_2DA_ENTRY cnt 5 10 9
+     SET_2DA_ENTRY cnt 6 10 9
+     SET_2DA_ENTRY cnt 7 10 8
+     SET_2DA_ENTRY cnt 8 10 7
+     SET_2DA_ENTRY cnt 9 10 7
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~SPLSRCKN.2DA~ ~override~
+ COUNT_2DA_ROWS 5 "rows"
+ FOR(cnt="%rows%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   SPRINT str ~~
+   PATCH_IF( cnt=41 ) THEN BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      9   9   9   9   9   9   9   8   8~
+   END
+   ELSE BEGIN
+     SPRINT EVALUATE_BUFFER str ~%cnt%      9   9   9   9   9   9   9   9   9~
+   END
+   INNER_ACTION BEGIN
+    APPEND ~SPLSRCKN.2DA~ "%str%"
+   END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~THAC0.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~THAC0.2DA~ ~9999 9999 9999 9999 kkkk kkkk 9999 9999 kkkk kkkk kkkk kkkk kkkk kkkk kkkk 9999 kkkk kkkk kkkk kkkk kkkk kkkk 9999~
+       COPY_EXISTING + ~THAC0.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   INNER_ACTION BEGIN
+       APPEND_COL ~THAC0.2DA~ ~9999 9999 %cnt%kkkk 13kkkk 0pppp 6pppp 10kkkk 10kkkk 0pppp 6pppp 0pppp 0pppp 0pppp 0pppp 0pppp 10kkkk 6pppp 6pppp 0pppp 0pppp 0pppp 0pppp 13kkkk~
+       COPY_EXISTING + ~THAC0.2DA~ ~override~
+        EVALUATE_BUFFER
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~WSPATCK.2DA~ ~override~
+ SET rows=2
+ SET col_cnt=0
+ WHILE "%rows%">1 BEGIN
+   col_cnt = col_cnt + 1
+   COUNT_2DA_ROWS col_cnt rows
+ END
+ SET col_cnt = col_cnt - 1
+ FOR(cnt="%col_cnt%"; cnt<=50; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt="%col_cnt%" ) THEN BEGIN       //this is a formatting column
+     INNER_ACTION BEGIN
+       APPEND_COL ~WSPATCK.2DA~ ~9999 9999 9999 kkkk kkkk 9999 9999 9999 9999~
+       COPY_EXISTING + ~WSPATCK.2DA~ ~override~
+        EVALUATE_BUFFER
+     END
+   END
+   INNER_ACTION BEGIN
+       APPEND_COL ~WSPATCK.2DA~ ~9999 9999 %cnt%kkkk 1pppp 1pppp -2kkkk -3kkkk -3kkkk -3kkkk~
+       COPY_EXISTING + ~WSPATCK.2DA~ ~override~
+        EVALUATE_BUFFER
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING + ~THAC0.2DA~ ~override~
+                ~WSPATCK.2DA~ ~override~
+ REPLACE_TEXTUALLY ~9999~    ~~
+ REPLACE_TEXTUALLY ~kkkk~    ~ ~
+ REPLACE_TEXTUALLY ~pppp~    ~  ~
+
+
+COPY_EXISTING ~WSPECIAL.2DA~ ~override~
+ COUNT_2DA_ROWS 4 "rows"
+ FOR(cnt=0; cnt<"%rows%"; cnt=cnt+1) BEGIN  //up to 50th level
+   PATCH_IF( cnt=5 ) THEN BEGIN
+     SET_2DA_ENTRY cnt 1 4 3
+     SET_2DA_ENTRY cnt 2 4 3
+   END
+ END
+BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~XPCAP.2DA~ ~override~
+ REPLACE_TEXTUALLY ~8000000~ ~20000000~
+BUT_ONLY_IF_IT_CHANGES
+
+END                   //Level-50 Ruleset ********************************************
+//***********************************************************************************

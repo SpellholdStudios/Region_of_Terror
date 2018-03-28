@@ -1,0 +1,132 @@
+IF
+	Global("Ttcmal","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreature("Malnar",[241.2474],8) // Malnar
+		SetGlobal("Ttcmal","GLOBAL",2)
+END
+
+IF
+	Global("ZemirQuests","GLOBAL",2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		CreateCreature("ZemThif2",[2068.1495],4) // Thief
+		SmallWait(5)
+		ActionOverride("ZemThif2",MoveToObjectNoInterrupt("Zemir"))
+		Wait(5)
+		ActionOverride("ZemThif2",DisplayStringHead(Myself,@571539))
+		Wait(3)
+		ActionOverride("ZemThif2",MoveToPoint([2068.1495]))
+		Wait(4)
+		ActionOverride("ZemThif2",DestroySelf())
+		SetGlobal("ZemirQuests","GLOBAL",3)
+		SmallWait(5)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Zemir",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("ZemirQuests","GLOBAL",5)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(2)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("Zemir",JumpToPoint([1529.2532]))
+		ActionOverride("ZemThif1",JumpToPoint([1481.2508]))
+		ActionOverride("ZemThif3",JumpToPoint([1463.2558]))
+		ActionOverride(Player1,JumpToPoint([1664.2418]))
+		ActionOverride(Player2,JumpToPoint([1552.2418]))
+		ActionOverride(Player3,JumpToPoint([1664.2374]))
+		ActionOverride(Player4,JumpToPoint([1552.2374]))
+		ActionOverride(Player5,JumpToPoint([1664.2330]))
+		ActionOverride(Player6,JumpToPoint([1552.2330]))
+		SmallWait(1)
+		MoveViewObject(Player1,INSTANT)
+		CreateCreature("ZemThif4",[1748.2515],4) // Thief
+		CreateCreature("ZemThif6",[1752.2559],4) // Thief
+		CreateCreature("ZemThif7",[1806.2541],4) // Thief
+		CreateCreature("ZemThif8",[1798.2503],4) // Thief
+		CreateCreature("ZemThif5",[1696.2541],4) // Delane
+		SmallWait(5)
+		ActionOverride("Zemir",FaceObject("ZemThif5"))
+		ActionOverride("ZemThif1",FaceObject("ZemThif5"))
+		ActionOverride("ZemThif3",FaceObject("ZemThif5"))
+		ActionOverride("ZemThif4",FaceObject("Zemir"))
+		ActionOverride("ZemThif5",FaceObject("Zemir"))
+		ActionOverride("ZemThif6",FaceObject("Zemir"))
+		ActionOverride("ZemThif7",FaceObject("Zemir"))
+		ActionOverride("ZemThif8",FaceObject("Zemir"))
+		ActionOverride(Player1,FaceObject("ZemThif5"))
+		ActionOverride(Player2,FaceObject("ZemThif5"))
+		ActionOverride(Player3,FaceObject("ZemThif5"))
+		ActionOverride(Player4,FaceObject("ZemThif5"))
+		ActionOverride(Player5,FaceObject("ZemThif5"))
+		ActionOverride(Player6,FaceObject("ZemThif5"))
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(2)
+		MultiPlayerSync()
+		ActionOverride("ZemThif5",DisplayStringHead(Myself,@571560)) // Let's trade.
+		Wait(3)
+		ActionOverride("Zemir",DisplayStringHead(Myself,@571561))
+		SetGlobal("ZemirQuests","GLOBAL",6)
+		ChangeEnemyAlly("Zemir",GOODBUTBLUE)
+		ChangeEnemyAlly("ZemThif1",GOODBUTBLUE)
+		ChangeEnemyAlly("ZemThif3",GOODBUTBLUE)
+		Wait(2)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("ZemirQuests","GLOBAL",6)
+	Dead("ZemThif4") // Thief
+	Dead("ZemThif5") // Delane
+	Dead("ZemThif6") // Thief
+	Dead("ZemThif7") // Thief
+	Dead("ZemThif8") // Thief
+	Delay(2)
+THEN
+	RESPONSE #100
+		ActionOverride("Zemir",DisplayStringHead(Myself,@571562))
+		Wait(6)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ChangeEnemyAlly("Zemir",NEUTRAL)
+		ChangeEnemyAlly("ZemThif1",NEUTRAL)
+		ChangeEnemyAlly("ZemThif3",NEUTRAL)
+		SmallWait(1)
+		ActionOverride("Zemir",JumpToPoint([1606.1593]))
+		ActionOverride("ZemThif1",JumpToPoint([1554.1563]))
+		ActionOverride("ZemThif3",JumpToPoint([1652.1563]))
+		SmallWait(1)
+		FadeFromColor([20.0],0)
+		SetGlobal("ZemirQuests","GLOBAL",7)
+END
+
+IF
+	Global("ZemirQuests","GLOBAL",20)
+	Global("ZemDestr","RR3150",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Zemir",DestroySelf())
+		ActionOverride("ZemThif1",DestroySelf())
+		ActionOverride("ZemThif2",DestroySelf())
+		ActionOverride("ZemThif3",DestroySelf())
+		ActionOverride("ZemThif4",DestroySelf())
+		ActionOverride("ZemThif5",DestroySelf())
+		ActionOverride("ZemThif6",DestroySelf())
+		ActionOverride("ZemThif7",DestroySelf())
+		ActionOverride("ZemThif8",DestroySelf())
+		ActionOverride("Ghendia",DestroySelf())
+		SetGlobal("ZemDestr","RR3150",1)
+END
+
+

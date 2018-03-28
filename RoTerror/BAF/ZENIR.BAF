@@ -1,0 +1,23 @@
+IF
+	HPLT(Myself,100)
+	Global("Trinkalittle","LOCALS",0)
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		Wait(1)
+		SetGlobal("Trinkalittle","LOCALS",1)
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	HPLT(Myself,40)
+	Global("Trinkalittle","LOCALS",1)
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		Wait(1)
+		SetGlobal("Trinkalittle","LOCALS",2)
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+

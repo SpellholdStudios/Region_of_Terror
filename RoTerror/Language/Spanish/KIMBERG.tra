@@ -1,0 +1,5 @@
+@0    = ~Solo hay unos pocos ficheros VVC (usar VVC Utility) en el juego y probablemente no tengáis que usarlos. Solo son necesarios si queréis crear un efecto visual por script.~
+@1    = ~En la VVC Utility solo añadid el nombre del fichero - BAM (animación) y los sonidos y guardadlo en la carpeta - override. Entonces haced un script para usarlo con la línea de comandos CreateVisualEffect (hablar con el ayudante de scripts de esto).~
+@2    = ~Los proyectiles son los más comunes de usar. Por ejemplo se usan para crear una animación de flecha especial o una animación de aliento de dragón o algo parecido. Podéis hacer cosas geniales con proyectiles así que miraos la Infinity Projectile Utility.~
+@3    = ~Después que tengáis preparado un proyectil (sería bueno buscar un proyectil ya hecho, por ejemplo), primero añadidlo al fichero - projectl.ids (Add Entry), y entonces guardar el fichero. Recordad que el projectl.ids debe estar en la carpeta - override.~
+@4    = ~Entonces podéis usar la herramienta (Inf.Proj.Ut.) para añadir vuestro nuevo proyectil en un nuevo objeto o hechizo.~

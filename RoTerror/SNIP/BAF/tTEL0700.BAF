@@ -1,0 +1,15 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,25)
+	Global("EntJC3","AR0603",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		MultiPlayerSync()
+		SetGlobal("EntJC3","AR0603",1)
+		StartCutSceneMode()
+		StartCutScene("EntJC3")
+		Continue()
+END
+
+

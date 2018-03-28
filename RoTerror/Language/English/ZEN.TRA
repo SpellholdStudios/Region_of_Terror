@@ -1,0 +1,5 @@
+@0    = ~I will teach you some things about kit creating. There are three tools for this: Kit Creator, Kit Checker and Kit Editor. You should only use the Creator.~
+@1    = ~The checker does what it says it does. It checks that there are no problems with the Kits. I have never used this tool.~
+@2    = ~The Editor is very uncertain, but otherwise a good tool. It can be used to, surprise, surprise, edit the kits!~
+@3    = ~The Creator will be a easy one to use. It is explained in it how to use it so I won't give you more info about it.~
+@4    = ~And one thing you should know. Your new kit will be saved as 2DA files into your override - folder. They can be edited with NotePad or WordPad, or any other text tool.~

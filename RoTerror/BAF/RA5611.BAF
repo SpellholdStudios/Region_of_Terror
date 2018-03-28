@@ -1,0 +1,66 @@
+IF
+	InParty("Wulfg2")
+	Global("TakeAegisFang","RA5611",0)
+	Delay(2)
+THEN
+	RESPONSE #100
+		ActionOverride("Wulfg2",DisplayStringHead(Myself,@572910))
+		Wait(1)
+		ActionOverride("Icebeard",GiveItemCreate("AegisFa","Wulfg2",0,0,0)) // Aegis Fang +4
+		SmallWait(1)
+		ActionOverride("Icebeard",DestroyItem("AegisFa")) // Aegis Fang +4
+		SetGlobal("TakeAegisFang","RA5611",1)
+END
+
+IF
+	Global("Dweaponquest","GLOBAL",1)
+	Global("Speakwithice","RA5611",1)
+THEN
+	RESPONSE #100
+		ActionOverride("Driz2",DisplayStringHead(Myself,@572911))
+		Wait(4)
+		ActionOverride("Icebeard",DisplayStringHead(Myself,@572912))
+		SmallWait(1)
+		ActionOverride("Icebeard",AttackReevaluate("Driz2",3))
+		SetGlobal("Speakwithice","RA5611",2)
+END
+
+IF
+	!InParty("Driz2")
+	!InParty("Wulfg2")
+	Global("Dweaponquest","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Icebeard",DestroyItem("AegisFa"))
+		ActionOverride("Icebeard",DestroyItem("DrizztDe"))
+		ActionOverride("Icebeard",DestroyItem("DrizztFr"))
+END
+
+IF
+	InParty("Driz2")
+	Global("Dweaponquest","GLOBAL",1)
+	PartyHasItem("DrizztDe") // Scimitar +6, Twinkle
+	PartyHasItem("DrizztFr") // Scimitar +3, Icingdeath
+	PartyHasItem("AegisFa") // Aegis Fang +4
+	Global("Journalentry","RA5611",0)
+THEN
+	RESPONSE #100
+		EraseJournalEntry(@572915)
+		AddJournalEntry(@572917,QUEST_DONE)
+		SetGlobal("Journalentry","RA5611",1)
+END
+
+IF	
+	InParty("Driz2")
+	Global("Dweaponquest","GLOBAL",0)
+	PartyHasItem("DrizztDe") // Scimitar +6, Twinkle
+	PartyHasItem("DrizztFr") // Scimitar +3, Icingdeath
+	PartyHasItem("AegisFa") // Aegis Fang +4
+	Global("Journalentry","RA5611",0)
+THEN
+	RESPONSE #100
+		AddJournalEntry(@572917,QUEST_DONE)
+		SetGlobal("Journalentry","RA5611",1)
+		SetGlobal("Dweaponquest","GLOBAL",2)
+END
+

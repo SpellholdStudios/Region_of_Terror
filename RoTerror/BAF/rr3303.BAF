@@ -1,0 +1,85 @@
+IF
+	Global("ResqGr","GLOBAL",1)
+THEN
+	RESPONSE #100
+		AddJournalEntry(@575059,QUEST)
+		SetGlobal("ResqGr","GLOBAL",2)
+END
+
+IF
+	Global("GrtRid","RR3303",4)
+	PartyHasItem("RidSt5") // Riddle Stone
+THEN
+	RESPONSE #100
+		CreateCreature("ArInvs",[3374.2520],3) // Mystical Door
+		SetGlobal("GrtRid","RR3303",5)
+END
+
+IF
+	Global("GrtRid","RR3303",6)
+THEN
+	RESPONSE #100
+		ActionOverride("ArInvs",DestroySelf())
+		SetGlobal("GrtRid","RR3303",7)
+END
+
+IF
+	Global("Fndlst","GLOBAL",3)
+THEN
+	RESPONSE #100
+		EraseJournalEntry(@575059)
+		EraseJournalEntry(@575061)
+		AddJournalEntry(@575062,QUEST_DONE)
+		SetGlobal("Fndlst","GLOBAL",4)
+END
+
+IF
+	Global("LevGra","GLOBAL",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		SmallWait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		MoveViewPoint([2303.688],INSTANT)
+		ActionOverride(Player1,LeaveAreaLUA("RR3303","",[2303.688],8))
+		ActionOverride(Player2,LeaveAreaLUA("RR3303","",[2273.679],8))
+		ActionOverride(Player3,LeaveAreaLUA("RR3303","",[2363.694],8))
+		ActionOverride(Player4,LeaveAreaLUA("RR3303","",[2345.676],8))
+		ActionOverride(Player5,LeaveAreaLUA("RR3303","",[2385.703],8))
+		ActionOverride(Player6,LeaveAreaLUA("RR3303","",[2294.714],8))
+		ActionOverride("GraghaQ",LeaveAreaLUA("RR3303","",[2340.633],1))
+		CreateCreature("GraghaF4",[2490.699],2) // Female Gragha
+		CreateCreature("GraghaF5",[2145.614],14) // Female Gragha
+		CreateCreature("GraghaF6",[2273.747],8) // Female Gragha
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(3)
+		MultiPlayerSync()
+		ActionOverride("GraghaQ",ForceSpell(Player1,QUICK_TELEPORT))
+		ActionOverride("GraghaF4",ForceSpell(Player2,QUICK_TELEPORT))
+		ActionOverride("GraghaF5",ForceSpell(Player3,QUICK_TELEPORT))
+		ActionOverride("GraghaF6",ForceSpell(Player4,QUICK_TELEPORT))
+		SmallWait(1)
+		ActionOverride("GraghaQ",ForceSpell(Player1,WIZARD_TELEPORT_FIELD))
+		ActionOverride("GraghaF4",ForceSpell(Player2,WIZARD_TELEPORT_FIELD))
+		ActionOverride("GraghaF5",ForceSpell(Player3,WIZARD_TELEPORT_FIELD))
+		ActionOverride("GraghaF6",ForceSpell(Player4,WIZARD_TELEPORT_FIELD))
+		Wait(4)
+		MultiPlayerSync()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("RR3300","",[2860.2470],2))
+		ActionOverride(Player2,LeaveAreaLUA("RR3300","",[2861.2471],2))
+		ActionOverride(Player3,LeaveAreaLUA("RR3300","",[2862.2472],2))
+		ActionOverride(Player4,LeaveAreaLUA("RR3300","",[2863.2473],2))
+		ActionOverride(Player5,LeaveAreaLUA("RR3300","",[2864.2474],2))
+		ActionOverride(Player6,LeaveAreaLUA("RR3300","",[2865.2475],2))
+		UnhideGUI()
+		EndCutSceneMode()
+		FadeFromColor([20.0],0)
+		SetGlobal("LevGra","GLOBAL",2)
+END
+
+

@@ -1,0 +1,63 @@
+BEGIN ~HAMMHAND~
+
+IF ~Global("Nonameyet","LOCALS",0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~Global("Nonameyet","LOCALS",0)~ THEN REPLY @2 GOTO 2
+  IF ~~ THEN REPLY @3 GOTO 4
+  IF ~~ THEN REPLY @4 GOTO 5
+END
+
+IF ~~ THEN BEGIN 1 // from: 8.0 7.0 6.0 4.0 3.0 2.0 0.0
+  SAY @5
+  IF ~~ THEN DO ~StartStore("HammInn",LastTalkedToBy())~ EXIT
+END
+
+IF ~~ THEN BEGIN 2 // from: 4.1 0.1
+  SAY @6
+  IF ~~ THEN REPLY @7 DO ~SetGlobal("Nonameyet","LOCALS",1)~ GOTO 1
+  IF ~~ THEN REPLY @8 DO ~SetGlobal("Nonameyet","LOCALS",1)~ GOTO 3
+  IF ~~ THEN REPLY @3 DO ~SetGlobal("Nonameyet","LOCALS",1)~ GOTO 4
+  IF ~~ THEN REPLY @9 DO ~SetGlobal("Nonameyet","LOCALS",1)~ GOTO 5
+END
+
+IF ~~ THEN BEGIN 3 // from: 2.1
+  SAY @10
+  IF ~~ THEN REPLY @11 GOTO 1
+  IF ~~ THEN REPLY @3 GOTO 4
+  IF ~~ THEN REPLY @12 GOTO 5
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.1 2.2 0.2
+  SAY @13
+  IF ~~ THEN REPLY @11 GOTO 1
+  IF ~Global("Nonameyet","LOCALS",0)~ THEN REPLY @2 GOTO 2
+  IF ~~ THEN REPLY @12 GOTO 5
+END
+
+IF ~~ THEN BEGIN 5 // from: 8.2 7.2 6.3 4.2 3.2 2.3 0.3
+  SAY @14
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("Nonameyet","LOCALS",1)~ THEN BEGIN 6
+  SAY @15
+  IF ~~ THEN REPLY @16 GOTO 1
+  IF ~~ THEN REPLY @17 GOTO 7
+  IF ~~ THEN REPLY @3 GOTO 8
+  IF ~~ THEN REPLY @18 GOTO 5
+END
+
+IF ~~ THEN BEGIN 7 // from: 8.1 6.1
+  SAY @19
+  IF ~~ THEN REPLY @20 GOTO 1
+  IF ~~ THEN REPLY @21 GOTO 8
+  IF ~~ THEN REPLY @22 GOTO 5
+END
+
+IF ~~ THEN BEGIN 8 // from: 7.1 6.2
+  SAY @13
+  IF ~~ THEN REPLY @23 GOTO 1
+  IF ~~ THEN REPLY @17 GOTO 7
+  IF ~~ THEN REPLY @24 GOTO 5
+END

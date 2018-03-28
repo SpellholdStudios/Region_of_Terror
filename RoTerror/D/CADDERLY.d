@@ -1,0 +1,253 @@
+BEGIN ~CADDERLY~
+
+IF ~Global("DlCadd","GLOBAL",0)
+IsValidForPartyDialog("Driz2")~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN GOTO 1
+END
+
+IF ~~ THEN BEGIN 1 // from: 0.0
+  SAY @1
+  IF ~~ THEN EXTERN ~DRIZ2J~ 95
+END
+
+IF ~~ THEN BEGIN 2 //from:  DRIZ2J
+  SAY @2
+  IF ~~ THEN EXTERN ~DRIZ2J~ 96
+END
+
+IF ~~ THEN BEGIN 3 //from:  DRIZ2J
+  SAY @3
+  IF ~~ THEN GOTO 4
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.0
+  SAY @4
+  IF ~~ THEN EXTERN ~DRIZ2J~ 99
+END
+
+IF ~~ THEN BEGIN 5 // from: DRIZ2J
+  SAY @5
+  IF ~~ THEN GOTO 6
+END
+
+IF ~~ THEN BEGIN 6 // from: 5.0
+  SAY @6
+  IF ~~ THEN GOTO 7
+END
+
+IF ~~ THEN BEGIN 7 // from: 6.0
+  SAY @7
+  IF ~~ THEN EXTERN ~DRIZ2J~ 101
+END
+
+IF ~~ THEN BEGIN 8 // from: DRIZ2J
+  SAY @8
+  IF ~~ THEN GOTO 9
+END
+
+IF ~~ THEN BEGIN 9 // from: 8.0
+  SAY @9
+  IF ~~ THEN EXTERN ~DRIZ2J~ 102
+END
+
+IF ~~ THEN BEGIN 10 // from: DRIZ2J
+  SAY @10
+  IF ~~ THEN GOTO 11
+END
+
+IF ~~ THEN BEGIN 11 // from: 10.0
+  SAY @11
+  IF ~~ THEN GOTO 12
+END
+
+IF ~~ THEN BEGIN 12 // from: 11.0
+  SAY @12
+  IF ~~ THEN EXTERN ~DRIZ2J~ 103
+END
+
+IF ~~ THEN BEGIN 13 // from: DRIZ2J
+  SAY @13
+  IF ~~ THEN EXTERN ~DRIZ2J~ 104
+END
+
+IF ~Global("DlCadd","GLOBAL",2)
+InParty("Driz2")~ THEN BEGIN 14
+  SAY @14
+  IF ~~ THEN UNSOLVED_JOURNAL @566097 EXIT
+END
+
+IF ~Global("DlCadd","GLOBAL",0)
+!InParty("Driz2")~ THEN BEGIN 15
+  SAY @15
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("DlCadd","GLOBAL",1)
+!IsValidForPartyDialog("Driz2")~ THEN BEGIN 16
+  SAY @16
+  IF ~~ THEN EXIT
+END
+
+IF ~Global("DlCadd","GLOBAL",3)
+IsValidForPartyDialog("Driz2")~ THEN BEGIN 17
+  SAY @17
+  IF ~~ THEN GOTO 18
+END
+
+IF ~~ THEN BEGIN 18 // from: 17.0
+  SAY @18
+  IF ~~ THEN GOTO 19
+END
+
+IF ~~ THEN BEGIN 19 // from: 18.0
+  SAY @19
+  IF ~~ THEN GOTO 20
+END
+
+IF ~~ THEN BEGIN 20 // from: 19.0
+  SAY @20
+  IF ~~ THEN GOTO 21
+END
+
+IF ~~ THEN BEGIN 21 // from: 20.0
+  SAY @21
+  IF ~~ THEN GOTO 22
+END
+
+IF ~~ THEN BEGIN 22 // from: 21.0
+  SAY @22
+  IF ~~ THEN GOTO 23
+END
+
+IF ~~ THEN BEGIN 23 // from: 22.0
+  SAY @23
+  IF ~~ THEN GOTO 24
+END
+
+IF ~~ THEN BEGIN 24 // from: 23.0
+  SAY @24
+  IF ~~ THEN REPLY @25 GOTO 25
+  IF ~~ THEN REPLY @26 GOTO 27
+  IF ~~ THEN REPLY @27 GOTO 28
+END
+
+IF ~~ THEN BEGIN 25 // from: 24.0
+  SAY @28
+  IF ~~ THEN GOTO 26
+END
+
+IF ~~ THEN BEGIN 26 // from: 25.0
+  SAY @29
+  IF ~~ THEN REPLY @30 GOTO 29
+  IF ~~ THEN REPLY @31 GOTO 30
+END
+
+IF ~~ THEN BEGIN 27 // from: 24.1
+  SAY @32
+  IF ~~ THEN GOTO 31
+END
+
+IF ~~ THEN BEGIN 28 // from: 24.2
+  SAY @33
+  IF ~~ THEN GOTO 31
+END
+
+IF ~~ THEN BEGIN 29 // from: 32.0 31.0 26.0
+  SAY @34
+  IF ~~ THEN DO ~SetGlobal("DlCadd","GLOBAL",5)
+SetGlobal("TlgAgCa","GLOBAL",1)
+SetGlobal("FiTlkCad","GLOBAL",1)
+EscapeAreaMove("RR3702",1493,702,1)~ UNSOLVED_JOURNAL @566098 EXIT
+END
+
+IF ~~ THEN BEGIN 30 // from: 31.1 26.1
+  SAY @35
+  IF ~~ THEN DO ~SetGlobal("DlCadd","GLOBAL",4)~ EXIT
+END
+
+IF ~~ THEN BEGIN 31 // from: 28.0 27.0
+  SAY @36
+  IF ~~ THEN REPLY @30 GOTO 29
+  IF ~~ THEN REPLY @31 GOTO 30
+END
+
+IF ~Global("DlCadd","GLOBAL",4)
+IsValidForPartyDialog("Driz2")~ THEN BEGIN 32
+  SAY @37
+  IF ~~ THEN REPLY @38 GOTO 29
+  IF ~~ THEN REPLY @39 EXIT
+END
+
+IF ~Global("FiTlkCad","GLOBAL",1)~ THEN BEGIN 33
+  SAY @40
+  IF ~~ THEN DO ~SetGlobal("DlgWmar","GLOBAL",4)
+SetGlobal("FiTlkCad","GLOBAL",2)
+SetGlobal("Trigoflt","GLOBAL",3)
+SetGlobal("TrigCQuest","GLOBAL",1)~ UNSOLVED_JOURNAL @566099 EXIT
+END
+
+IF ~Global("FiTlkCad","GLOBAL",2)~ THEN BEGIN 34
+  SAY @40
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 35 // from: ALISSA1J
+  SAY @41
+  IF ~~ THEN EXTERN ~ALISSA1J~ 1
+END
+
+IF ~~ THEN BEGIN 36 // from: ALISSA1J
+  SAY @42
+  IF ~~ THEN DO ~SetGlobal("DlCadd","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 37 // from:
+  SAY @43
+  IF ~~ THEN GOTO 38
+END
+
+IF ~~ THEN BEGIN 38 // from: 37.0
+  SAY @44
+  IF ~~ THEN GOTO 39
+END
+
+IF ~~ THEN BEGIN 39 // from: 38.0
+  SAY @45
+  IF ~~ THEN REPLY @46 GOTO 40
+END
+
+IF ~~ THEN BEGIN 40 // from: 39.0
+  SAY @44
+  IF ~~ THEN REPLY @47 GOTO 41
+END
+
+IF ~~ THEN BEGIN 41 // from: 40.0
+  SAY @48
+  IF ~~ THEN GOTO 42
+END
+
+IF ~~ THEN BEGIN 42 // from: 41.0
+  SAY @49
+  IF ~~ THEN GOTO 43
+END
+
+IF ~~ THEN BEGIN 43 // from: 42.0
+  SAY @50
+  IF ~~ THEN GOTO 44
+END
+
+IF ~~ THEN BEGIN 44 // from: 43.0
+  SAY @51
+  IF ~~ THEN GOTO 45
+END
+
+IF ~~ THEN BEGIN 45 // from: 44.0
+  SAY @52
+  IF ~~ THEN REPLY @53 EXIT
+END
+
+IF ~~ THEN BEGIN 46 // from:
+  SAY @54
+  IF ~~ THEN EXIT
+END

@@ -1,0 +1,247 @@
+IF
+	Global("PlayGame","RA5003",9)
+THEN
+	RESPONSE #100
+		ActionOverride("GodMad1",Kill(Myself))
+		SetGlobal("PlayGame","RA5003",10)
+END
+
+IF
+	Global("BeforetheEye","RA5003",0)
+	PartyHasItem("BlueHear") // Blue Dragon's Heart
+	PartyHasItem("AquaHear") // Aqua Dragon's Heart
+THEN
+	RESPONSE #100
+		SetGlobal("BeforetheEye","RA5003",1)
+END
+
+IF
+	Global("BeforetheEye","RA5003",2)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(2)
+		ActionOverride("GodUnk1",TakePartyItem("BlueHear")) // Blue Dragon's Heart
+		ActionOverride("GodUnk1",TakePartyItem("AquaHear")) // Aqua Dragon's Heart
+		SmallWait(5)
+		ActionOverride("GodUnk1",MoveToPoint([642.2005]))
+		Wait(1)
+		ActionOverride("GodUnk1",DropItem("BlueHear",[642.2005])) // Blue Dragon's Heart
+		Wait(1)
+		ActionOverride("GodUnk1",MoveToPoint([630.1961]))
+		Wait(1)
+		ActionOverride("GodUnk1",DropItem("AquaHear",[630.1961])) // Aqua Dragon's Heart
+		Wait(1)
+		ActionOverride("GodUnk1",MoveToPoint([522.2001]))
+		Wait(3)
+		CreateCreature("GodUnk2",[642.2005],5) // Unknown
+		CreateCreature("GodUnk3",[630.1961],5) // Unknown
+		SmallWait(1)
+		ActionOverride("GodUnk2",PickUpItem("BlueHear")) // Blue Dragon's Heart
+		ActionOverride("GodUnk3",PickUpItem("AquaHear")) // Aqua Dragon's Heart
+		SmallWait(1)
+		ActionOverride("GodUnk1",DestroySelf())
+		ActionOverride("GodUnk2",DestroySelf())
+		ActionOverride("GodUnk3",DestroySelf())
+		Wait(2)
+		CreateVisualEffect("Enchat",[746.2048])
+		Wait(1)
+		CreateCreature("GuarEye3",[746.2048],5) // Guardian of the Eye
+		Wait(2)
+		CreateVisualEffect("Enchat",[690.1930])
+		Wait(1)
+		CreateCreature("GuarEye4",[690.1900],2) // Guardian of the Eye
+		Wait(2)
+		CreateVisualEffect("Enchat",[495.1941])
+		Wait(1)
+		CreateCreature("GuarEye5",[495.1931],12) // Guardian of the Eye
+		Wait(2)
+		CreateVisualEffect("Enchat",[543.2097])
+		Wait(1)
+		CreateCreature("GuarEye6",[543.2097],10) // Guardian of the Eye
+		Wait(2)
+		SetGlobal("BeforetheEye","RA5003",3)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("GuarEye3",StartDialogueNoSet(NearestEnemyOf(Myself)))
+END
+
+IF
+	Global("BeforetheEye","RA5003",4)
+THEN
+	RESPONSE #100
+		CreateCreature("MysSwrd1",[396.1770],0) // Mystical Sword
+		CreateCreature("MysSwrd2",[1210.1962],4) // Mystical Sword
+		SetGlobal("BeforetheEye","RA5003",5)
+END
+
+IF
+	Global("BeforetheEye","RA5003",5)
+	Dead("MysSwrd1") // Mystical Sword
+	Dead("MysSwrd2") // Mystical Sword
+THEN
+	RESPONSE #100
+		CreateCreature("MysSwrd3",[396.1770],0) // Mystical Sword
+		CreateCreature("MysSwrd4",[1210.1962],4) // Mystical Sword
+		SetGlobal("BeforetheEye","RA5003",6)
+END
+
+IF
+	Global("BeforetheEye","RA5003",6)
+	Dead("MysSwrd3") // Mystical Sword
+	Dead("MysSwrd4") // Mystical Sword
+THEN
+	RESPONSE #100
+		CreateCreature("MysSwrd5",[396.1770],0) // Mystical Sword
+		CreateCreature("MysSwrd6",[1210.1962],4) // Mystical Sword
+		SetGlobal("BeforetheEye","RA5003",7)
+END
+
+IF
+	Global("BeforetheEye","RA5003",7)
+	Dead("MysSwrd5") // Mystical Sword
+	Dead("MysSwrd6") // Mystical Sword
+THEN
+	RESPONSE #100
+		CreateCreature("MysSwrd7",[396.1770],0) // Mystical Sword
+		CreateCreature("MysSwrd8",[1210.1962],4) // Mystical Sword
+		SetGlobal("BeforetheEye","RA5003",8)
+END
+
+IF
+	Global("BeforetheEye","RA5003",8)
+	Dead("MysSwrd7") // Mystical Sword
+	Dead("MysSwrd8") // Mystical Sword
+THEN
+	RESPONSE #100
+		CreateCreature("MysSwrd9",[396.1770],0) // Mystical Sword
+		CreateCreature("MysSwr10",[1210.1962],4) // Mystical Sword
+		SetGlobal("BeforetheEye","RA5003",9)
+END
+
+IF
+	Global("Ikilledem","RA5003",0)
+	Dead("GuarEye3") // Guardian of the Eye
+	Dead("GuarEye4") // Guardian of the Eye
+	Dead("GuarEye5") // Guardian of the Eye
+	Dead("GuarEye6") // Guardian of the Eye
+THEN
+	RESPONSE #100
+		Wait(5)
+		StartCutSceneMode()
+		HideGUI()
+		ClearAllActions()
+		SetGlobal("BeforetheEye","RA5003",10)
+		Wait(1)
+		ActionOverride("MysSwrd1",DestroySelf())
+		ActionOverride("MysSwrd2",DestroySelf())
+		ActionOverride("MysSwrd3",DestroySelf())
+		ActionOverride("MysSwrd4",DestroySelf())
+		ActionOverride("MysSwrd5",DestroySelf())
+		ActionOverride("MysSwrd6",DestroySelf())
+		ActionOverride("MysSwrd7",DestroySelf())
+		ActionOverride("MysSwrd8",DestroySelf())
+		ActionOverride("MysSwrd9",DestroySelf())
+		ActionOverride("MysSwr10",DestroySelf())
+		SetGlobal("Ikilledem","RA5003",1)
+		SmallWait(5)
+		ScreenShake([542.303],20)
+		Wait(2)
+		CreateVisualEffect("CloudBh",[746.2048])
+		CreateVisualEffect("CloudBh",[690.1930])
+		CreateVisualEffect("CloudBh",[495.1941])
+		CreateVisualEffect("CloudBh",[543.2097])
+		Wait(2)
+		CreateVisualEffect("Conjuh",[522.2001])
+		Wait(1)
+		CreateCreature("GodUnk4",[522.2001],12) // Unknown
+		Wait(1)
+		SetGlobal("Ikilledem","RA5003",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Dead("GuarEye3") // Guardian of the Eye
+	Global("Dieguar1","RA5003",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPDEATH3","GuarEye3")
+		SetGlobal("Dieguar1","RA5003",1)
+END
+
+IF
+	Dead("GuarEye4") // Guardian of the Eye
+	Global("Dieguar2","RA5003",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPDEATH3","GuarEye4")
+		SetGlobal("Dieguar2","RA5003",1)
+END
+
+IF
+	Dead("GuarEye5") // Guardian of the Eye
+	Global("Dieguar3","RA5003",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPDEATH3","GuarEye5")
+		SetGlobal("Dieguar3","RA5003",1)
+END
+
+IF
+	Dead("GuarEye6") // Guardian of the Eye
+	Global("Dieguar4","RA5003",0)
+THEN
+	RESPONSE #100
+		CreateVisualEffectObject("SPDEATH3","GuarEye6")
+		SetGlobal("Dieguar4","RA5003",1)
+END
+
+IF
+	Global("BeforetheEye","RA5003",11)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		ActionOverride("GodUnk4",MoveToPointNoInterrupt([1093.1993]))
+		Wait(2)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("GodUnk4",JumpToPoint([1093.1993]))
+		ActionOverride(Player1,JumpToPoint([1215.1965]))
+		ActionOverride(Player2,JumpToPoint([1263.1919]))
+		ActionOverride(Player3,JumpToPoint([1177.1917]))
+		ActionOverride(Player4,JumpToPoint([1140.1953]))
+		ActionOverride(Player5,JumpToPoint([1181.2017]))
+		ActionOverride(Player6,JumpToPoint([1287.1985]))
+		MoveViewPoint([1215.1965],INSTANT)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(3)
+		CreateVisualEffect("CLOUDBa",[1215.1965])
+		Wait(3)
+		SetGlobal("BeforetheEye","RA5003",12)
+		ActionOverride("GodUnk4",DestroySelf())
+		CreateVisualEffectObject("Conjuh",Player1)
+		CreateVisualEffectObject("Conjuh",Player2)
+		CreateVisualEffectObject("Conjuh",Player3)
+		CreateVisualEffectObject("Conjuh",Player4)
+		CreateVisualEffectObject("Conjuh",Player5)
+		CreateVisualEffectObject("Conjuh",Player6)
+		SmallWait(5)
+		FadeToColor([20.0],0)
+		Wait(2)
+		FadeFromColor([20.0],0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RA5004","",[639.923],12))
+		ActionOverride(Player2,LeaveAreaLUA("RA5004","",[673.867],12))
+		ActionOverride(Player3,LeaveAreaLUA("RA5004","",[613.899],12))
+		ActionOverride(Player4,LeaveAreaLUA("RA5004","",[651.859],12))
+		ActionOverride(Player5,LeaveAreaLUA("RA5004","",[583.879],12))
+		ActionOverride(Player6,LeaveAreaLUA("RA5004","",[599.847],12))
+END
+
+

@@ -1,0 +1,29 @@
+IF
+	See("Brue2")
+	!Dead("Brue2") // Bruenor
+	Global("Speaking2","RA3709",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Brue2",DisplayStringHead(Myself,@571184))
+		ActionOverride("Brue2",Attack("CadDem17"))
+		SetGlobal("Speaking2","RA3709",1)
+END
+
+IF
+	Global("CQuestActive","GLOBAL",12)
+	Global("Dennotstrike2","GLOBAL",0)
+	OR(7)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+		See("CadPri15")
+THEN
+	RESPONSE #100
+		SetGlobal("DeneirHelps","GLOBAL",4)
+		SetGlobal("Dennotstrike2","GLOBAL",1)
+END
+
+

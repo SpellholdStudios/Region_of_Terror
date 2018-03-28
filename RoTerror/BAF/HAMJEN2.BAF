@@ -1,0 +1,17 @@
+IF
+	OR(4)
+		SpellCastOnMe([ANYONE],WIZARD_STONE_TO_FLESH)
+		SpellCastOnMe([ANYONE],WIZARD_FLESH_TO_STONE_IGNORE_RESISTANCE)
+		SpellCastOnMe([ANYONE],BEHOLDER_FLESH_TO_STONE)
+		SpellCastOnMe([ANYONE],CUTSCENE_FLESH_TO_STONE)
+	OR(2)
+		Global("CreatinHamm3","GLOBAL",2)
+		Global("CreatinHamm3","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("CreatinHamm3","GLOBAL",4)
+		Wait(1)
+		ActionOverride("Hammr3",StartDialogueNoSet(Player1))
+END
+
+

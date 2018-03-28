@@ -1,0 +1,9 @@
+IF
+	Global("CQuestActive","GLOBAL",13)
+THEN
+	RESPONSE #100
+		FadeFromColor([20.0],0)
+		SetGlobal("CQuestActive","GLOBAL",14)
+END
+
+

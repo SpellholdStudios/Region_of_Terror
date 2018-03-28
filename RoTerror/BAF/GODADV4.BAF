@@ -1,0 +1,47 @@
+IF
+	Global("DrinkPots","LOCALS",0)
+	OR(6)
+		Range(Player1,30)
+		Range(Player2,30)
+		Range(Player3,30)
+		Range(Player4,30)
+		Range(Player5,30)
+		Range(Player6,30)
+THEN
+	RESPONSE #100
+		SmallWait(3)
+		UseItem("POTN10",Myself) // Potion of Invisibility
+		SetGlobal("DrinkPots","LOCALS",1)
+END
+
+IF
+	HPLT(Myself,120)
+	Global("DrinkPots","LOCALS",1)
+THEN
+	RESPONSE #100
+		SmallWait(3)
+		UseItem("POTN10",Myself) // Potion of Invisibility
+		SetGlobal("DrinkPots","LOCALS",2)
+END
+
+IF
+	HPLT(Myself,100)
+	Global("DrinkPots","LOCALS",2)
+THEN
+	RESPONSE #100
+		SmallWait(1)
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		SetGlobal("DrinkPots","LOCALS",3)
+END
+
+IF
+	HPLT(Myself,60)
+	Global("DrinkPots","LOCALS",3)
+THEN
+	RESPONSE #100
+		SmallWait(1)
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		SetGlobal("DrinkPots","LOCALS",4)
+END
+
+

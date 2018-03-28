@@ -1,0 +1,12 @@
+IF
+	Global("Trigger9","RA5416",0)
+	OR(2)
+		Entered([ANYONE])
+		Range([ANYONE],2)
+THEN
+	RESPONSE #100
+		CreateCreature("FrostHam",[1720.1900],5) // Garth Frosthammer
+		SetGlobal("Trigger9","RA5416",1)
+END
+
+

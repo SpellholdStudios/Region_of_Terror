@@ -1,0 +1,41 @@
+MTIC / Virgin
+***
+						SOUND
+ATTACK          		CBHARPY1 CBHARPY2 nosound
+ATTACK          		2 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		CBHARPY7 CBHARPY8
+DAMAGE          		0 0
+DIE             		CBHARPY9 CBHARPY0
+DIE             		0 0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		CBHARPY5 CBHARPY6
+ATTACK_SLASH    		2 0
+ATTACK_BACKSLASH		CBHARPY4 CBHARPY3 nosound
+ATTACK_BACKSLASH		2 0 0
+ATTACK_JAB      		CBHARPY4 CBHARPY5
+ATTACK_JAB      		0 0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry			CBHARPY1 CBHARPY2
+Battle_Cry			0 0
+Selection                       CBHARPY1
+Selection                       0

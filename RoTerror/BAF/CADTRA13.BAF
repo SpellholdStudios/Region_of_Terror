@@ -1,0 +1,42 @@
+IF
+	Clicked([ANYONE])
+	CombatCounter(0)
+	Global("CQuestActive","GLOBAL",12)
+THEN
+	RESPONSE #100
+		ActionOverride("CadPri15",MoveBetweenAreas("RA3704",[944.435],2))
+END
+
+IF
+	Clicked([ANYONE])
+	!CombatCounter(0)
+	Global("CQuestActive","GLOBAL",12)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		ActionOverride(Player1,DisplayStringHead(Myself,@571179))
+END
+
+IF
+	Range("Keldorn",30)
+	Range("CadPri15",30)
+	!Dead("Keldorn") // Fire Shield (Blue)
+	!Dead("CadPri15") // Brother Lucas
+	Global("Speaking1","RA3703",0)
+	Delay(5)
+THEN
+	RESPONSE #100
+		ActionOverride("Keldorn",DisplayStringHead(Myself,@571185))
+		SetGlobal("Speaking1","RA3703",1)
+END
+
+IF
+	Clicked([ANYONE])
+	Global("CQuestActive","GLOBAL",14)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		ActionOverride(Player1,DisplayStringHead(Myself,@571209))
+END
+
+

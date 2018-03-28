@@ -1,0 +1,147 @@
+@F_7777 = "Bruenor's###Cabin"
+@F_9898 = "Mountain###of###the###Dead"
+@F_0111 = "Bear###Tribe###Village"
+@F_0222 = "Storm###March###Mountains"
+@ARS002 = "Bluebell###Wood"
+@ARS005 = "Dystra's###Watch###Tower"
+//BG Areas
+@BG0400 = "Upper###Chionthar"
+@BG0500 = "Durlag's###Tower" //@781042
+@BG0900 = "Wyrm's###Crossing" //@781023
+@BG1000 = "Ulgoth's###Beard" //@781043
+@BG1008 = "Ice###Island" //@781044
+@BG1400 = "Lower###Chionthar"
+@BG1600 = "Cloakwood###Grove"
+@BG1700 = "Cloakwood###Crossings"
+@BG1800 = "Cloakwood###Mines"
+@BG1900 = "Bandit###Camp" //@781028
+@BG2000 = "Balduran's###Isle"
+@BG2100 = "Cloakwood###Falls"
+@BG2200 = "Cloakwood"
+@BG2300 = "Friendly###Arm###Inn" //@781018
+@BG2400 = "Peldvale" //@781030
+@BG2600 = "Candlekeep" //@781001
+@BG2626 = "Candlekeep" //@781001
+@BG2700 = "Lion's###Way" //@781016
+@BG2800 = "Coast###Way"
+@BG2900 = "Larswood" //@781031
+@BG3000 = "Spider###Wood" //@781032
+@BG3100 = "Rocky###Coast"
+@BG3200 = "High###Hedge" //@781021
+@BG3300 = "Beregost" //@781017
+@BG3400 = "Temple###of###Lathander" //@781034
+@BG3500 = "Sharp###Teeth###Plain"
+@BG3600 = "The###Lighthouse" //@781036
+@BG3700 = "Red###Canyons" //@781037
+@BG3800 = "Trade###Way###North"
+@BG3900 = "Ulcaster###School" //@781518
+@BG4000 = "Gullykin" //@781040
+@BG4100 = "Ancient###Ruins"
+@BG4200 = "Wilderness###Lake"
+@BG4300 = "Trade###Way###South"
+@BG4400 = "Lonely###Peaks"
+@BG4500 = "Firewine###Bridge" //@781005
+@BG4600 = "Bear###River"
+@BG4700 = "Xvart###Village" //@781006
+@BG4800 = "Nashkel" //@781008
+@BG4900 = "Carnival" //@781009
+@BG5000 = "Valley###of###the###Tombs" //@781010
+@BG5100 = "Gnoll###Stronghold" //@781011
+@BG5200 = "Dryad###Falls" //@781012
+@BG5300 = "Fire###Leaf###Forest"
+@BG5400 = "Nashkel###Mines" //@781014
+@BG5500 = "Gibberling###Mountains" //@781015
+
+//BGEE Areas
+@OH2000 = "Adoy's###Enclave" //@810001
+@OH3000 = "Cloud###Peaks" //@810002
+
+//TOB Areas
+@AR4000 = "Sacred###Grove" //name used in ToB intro
+@AR6400 = "Forest###Valley"
+
+//SoD Areas
+@BD4000 = "Dragonspear###Castle"
+@BD1000 = "Coast###Way###Crossing"
+@BD2000 = "Boareskyr###Bridge"
+@BD3000 = "Coalition###Camp"
+@BD5000 = "Underground###River"
+@BD0010 = "Baldur's###Gate"
+@BD7000 = "Coast###Way###Forest"
+@BD7100 = "Troll###Claw###Woods"
+@BD7200 = "Forest###of###Wyrms"
+@BD7300 = "Dead###Man's###Pass"
+@BD7400 = "Bloodbark###Grove"
+// Drizzt Saga WM tra strings
+// This file uses UTF8 encoding. Any edits of this file must preserve this encoding for BGEE compatibility
+// Strings in this file are identical to those in the non-BGEE version, no additional translation needed.
+@DSW_786001 = "Bruenor's###Cabin"
+@DSW_786002 = "Mountain###of###the###Dead"
+@DSW_786003 = "Bear###Tribe###Village"
+@DSW_786004 = "Storm###March###Mountains"
+@DSW_786005 = "Dragon###Caves"
+@DSW_786006 = "Frost###Giant###Hills"
+@DSW_786007 = "Winter###Wolf###Ritual"
+@DSW_786008 = "Drow###Caves"
+
+@SOA_782001 = "Bluebell###Wood"
+@SOA_782002 = "Dystra's###Watch###Tower"
+@TDD_779001   = "Schlangenwald"
+@TDD_779002   = "Trollberge"
+@TDD_779003   = "Eshpurta"
+@TDD_779004   = "Halle###des###Wissens###-###Eingang"
+@TDD_779005   = "Riatavin"
+@TDD_779006   = "Dunkler###Mirwald"
+@TDD_779007   = "Verfluchter###Wald"
+@TDD_779008   = "Trollfurth"
+@TDD_779009   = "Orgoths###Turm"
+@TDD_779010   = "Purskal"
+@TDD_779011   = "Verrostete###Degenscheide###-###Eingang"
+@TDD_779101   = "Schlangenwald###(TDD)"
+@TDD_779102   = "Trollberge###(TDD)"
+@TDD_779103   = "Eshpurta###(TDD)"
+@TDD_779104   = "Halle###des###Wissens###-###Eingang###(TDD)"
+@TDD_779105   = "Riatavin###(TDD)"
+@TDD_779106   = "Dunkler###Mirwald###(TDD)"
+@TDD_779107   = "Verfluchter###Wald###(TDD)"
+@TDD_779108   = "Trollfurth###(TDD)"
+@TDD_779109   = "Orgoths###Turm###(TDD)"
+@TDD_779110   = "Purskal###(TDD)"
+@TDD_779111   = "Verrostete###Degenscheide###-###Eingang###(TDD)"
+@TDD_779012   = "Easthaven"
+
+
+@ARES01 = "Eilistraee's###Clearing"
+
+@ys0360 = "Cerendor###Hold"
+@ys0370 = "Cloudpeak###Mountains"
+@ys0410 = "Imradim"
+@ys0390 = "Govt.###West"
+@ys1000 = "Portpentyrch"
+@ys1001 = "Portpentyrch"
+
+
+@L#FOU0 = "Hidden###Sanctuary"
+
+@ARISH1 = "Innershade"
+
+@L#ND01 = "Southern###Edge"
+
+@ARLDV1 = "Deep###Gardens"
+
+@WQ0001 = "Silent###Swamps"
+
+@DS_782001 = "Wood###of###Sharp###Teeth"
+@DS_782002 = "Wood###of###Sharp###Teeth"
+@DS_782003 = "Forest###of###Forgotten###Souls"
+@DS_782004 = "Forgotten###Mountain###Pass"
+
+@NT_783001  = "Nördliche###Küste"
+@NT_783002  = "Felder###der###Toten"
+@NT_783003  = "Nördlicher###Wald"
+@NT_783004  = "Wald###der###Toten"
+@NT_783005  = "Nördliche###Zitadelle"
+@NT_783006  = "Tempel###der###Schwarzen###Hand"
+
+#BGEE: 22853
+@NT_783010  = "Ulgoths###Bart"

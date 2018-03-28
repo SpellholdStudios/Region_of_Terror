@@ -1,0 +1,63 @@
+IF
+	Dead("IwdDrg1") // Mandegora
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Global("WakeUp","LOCALS",0)
+	OR(3)
+		Global("MyDragonTalks","RA5412",3)
+		Global("MyDragonTalks","RA5412",4)
+		Global("MyDragonTalks","RA5412",5)
+	OR(6)
+		Range([PC],10)
+		Range([FAMILIAR],10)
+		Range([ALLY],10)
+		Range([CONTROLLED],10)
+		Range([CHARMED],10)
+		AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		DestroyItem("DRAGSIL4") // No such index
+		SmallWait(1)
+		EquipMostDamagingMelee()
+		SmallWait(5)
+		ChangeEnemyAlly(Myself,ENEMY)
+		SetGlobal("WakeUp","LOCALS",1)
+END
+
+IF
+	Global("WakeUp","LOCALS",0)
+	AttackedBy([ANYONE],DEFAULT)
+	!Global("MyDragonTalks","RA5412",3)
+	!Global("MyDragonTalks","RA5412",4)
+	!Global("MyDragonTalks","RA5412",5)
+THEN
+	RESPONSE #100
+		DestroyItem("DRAGSIL4") // No such index
+		SmallWait(1)
+		EquipMostDamagingMelee()
+		SmallWait(5)
+		ChangeEnemyAlly(Myself,ENEMY)
+		SetGlobal("Battle1","RA5412",1)
+		SetGlobal("WakeUp","LOCALS",1)
+END
+
+IF
+	Global("WakeUp","LOCALS",0)
+	OR(2)
+		Global("Battle2","RA5412",1)
+		Global("Battle3","RA5412",1)
+THEN
+	RESPONSE #100
+		DestroyItem("DRAGSIL4") // No such index
+		SmallWait(1)
+		EquipMostDamagingMelee()
+		SmallWait(5)
+		ChangeEnemyAlly(Myself,ENEMY)
+		SetGlobal("WakeUp","LOCALS",1)
+END
+
+

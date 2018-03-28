@@ -1,0 +1,29 @@
+IF
+        True()
+//	Global("Bedrinofri","GLOBAL",8)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		SmallWait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		SetGlobal("Bedrinofri","GLOBAL",9)
+		SmallWait(1)
+		LeaveAreaLUA("RR4005","",[534.350],10)
+		ActionOverride(Player2,LeaveAreaLUA("RR4005","",[563.362],10))
+		ActionOverride(Player3,LeaveAreaLUA("RR4005","",[530.367],10))
+		ActionOverride(Player4,LeaveAreaLUA("RR4005","",[478.364],10))
+		ActionOverride(Player5,LeaveAreaLUA("RR4005","",[469.404],10))
+		ActionOverride(Player6,LeaveAreaLUA("RR4005","",[434.376],10))
+		SmallWait(1)
+		ActionOverride("Enter2",DestroySelf())
+		SmallWait(1)
+		CreateCreature("Enter2",[632.237],1) // Artemis Entreri
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("Bedrinofri","GLOBAL",10)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

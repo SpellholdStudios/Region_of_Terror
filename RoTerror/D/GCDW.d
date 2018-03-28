@@ -1,0 +1,11 @@
+BEGIN ~GCDW~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXIT
+END
+
+IF ~NumTimesTalkedToGT(0)~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN EXIT
+END

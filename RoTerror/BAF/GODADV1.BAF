@@ -1,0 +1,31 @@
+IF
+	HPLT(Myself,140)
+	Global("DrinkPots","LOCALS",0)
+THEN
+	RESPONSE #100
+		SmallWait(3)
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		SetGlobal("DrinkPots","LOCALS",1)
+END
+
+IF
+	HPLT(Myself,100)
+	Global("DrinkPots","LOCALS",1)
+THEN
+	RESPONSE #100
+		SmallWait(3)
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		SetGlobal("DrinkPots","LOCALS",2)
+END
+
+IF
+	HPLT(Myself,60)
+	Global("DrinkPots","LOCALS",2)
+THEN
+	RESPONSE #100
+		SmallWait(3)
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		SetGlobal("DrinkPots","LOCALS",3)
+END
+
+

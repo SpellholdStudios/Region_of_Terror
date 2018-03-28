@@ -1,0 +1,71 @@
+IF
+	Global("Entered","RA5416",0)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,DisplayStringHead(Myself,@573257))
+		SetGlobal("Entered","RA5416",1)
+END
+
+IF
+	Dead("Zacare1") // Zacare
+	Global("Zacadeath1","RA5416",0)
+	Delay(1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,Unlock("5416Dor1"))
+		ActionOverride(Player1,OpenDoor("5416Dor1"))
+		CreateCreature("Zacare2",[2345.1349],10) // Zacare
+		Wait(2)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("Zacadeath1","RA5416",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Dead("Zacare2") // Zacare
+	Global("Zacadeath2","RA5416",0)
+	Delay(1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,Unlock("5416Dor2"))
+		ActionOverride(Player1,OpenDoor("5416Dor2"))
+		CreateCreature("Zacare3",[2739.1439],2) // Zacare
+		Wait(2)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("Zacadeath2","RA5416",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Dead("Zacare3") // Zacare
+	Global("Zacadeath3","RA5416",0)
+	Delay(1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,Unlock("5416Dor3"))
+		ActionOverride(Player1,OpenDoor("5416Dor3"))
+		Wait(2)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("Zacadeath3","RA5416",1)
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+

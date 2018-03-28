@@ -1,0 +1,41 @@
+IF
+	Global("Crecrie","AR0300",0)
+THEN
+	RESPONSE #100
+		CreateCreature("TellAre2",[2748.2460],2) // Town Crier
+		SetGlobal("Crecrie","AR0300",1)
+END
+
+IF
+	Global("ZemirQuests","GLOBAL",8)
+	Global("creationofthief","AR0300",0)
+THEN
+	RESPONSE #100
+		CreateCreature("Galan1",[2124.3368],14) // Galan
+		SetGlobal("creationofthief","AR0300",1)
+END
+
+IF
+	Exists("Galan1")
+	!IsActive("Galan1")
+	!Global("ZemirQuests","GLOBAL",9)
+	TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+		Activate("Galan1")
+END
+
+IF
+	Exists("Galan1")
+	IsActive("Galan1")
+	!Global("ZemirQuests","GLOBAL",9)
+	OR(3)
+		TimeOfDay(DAY)
+		TimeOfDay(DUSK)
+		TimeOfDay(MORNING)
+THEN
+	RESPONSE #100
+		Deactivate("Galan1")
+END
+
+

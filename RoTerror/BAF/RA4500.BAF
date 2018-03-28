@@ -1,0 +1,35 @@
+IF
+	Global("Esathquest","GLOBAL",3)
+	Global("Frmrkill","GLOBAL",1)
+	GlobalTimerExpired("Killfrmrs","GLOBAL")
+THEN
+	RESPONSE #100
+		ActionOverride("Esath2",Kill(Myself))
+		ActionOverride("Arfrmr1",Kill(Myself))
+		ActionOverride("Arfrmr2",Kill(Myself))
+		ActionOverride("DOG01",Kill(Myself))
+		ActionOverride("DOG02",Kill(Myself))
+		ActionOverride("DOG03",Kill(Myself))
+		ActionOverride("HORSE01",Kill(Myself))
+		ActionOverride("HORSE02",Kill(Myself))
+		ActionOverride("COW01",Kill(Myself))
+		ActionOverride("COW02",Kill(Myself))
+		ActionOverride("CAT01",Kill(Myself))
+		CreateCreature("Minodar1",[3500.2270],0) // Minion of Darkness
+		CreateCreature("Minodar1",[3480.2300],0) // Minion of Darkness
+		CreateCreature("Minodar1",[3480.2250],0) // Minion of Darkness
+		CreateCreature("Minodar1",[3520.2290],0) // Minion of Darkness
+		CreateCreature("Minodar1",[690.2640],13) // Minion of Darkness
+		CreateCreature("Minodar1",[680.2600],13) // Minion of Darkness
+		CreateCreature("Minodar1",[700.2620],13) // Minion of Darkness
+		CreateCreature("Minodar1",[750.2600],13) // Minion of Darkness
+		CreateCreature("OutOrc4",[4222.1572],0) // Elite Orc
+		CreateCreature("OutOrc4",[4200.1570],0) // Elite Orc
+		CreateCreature("OutOrc4",[4200.1600],0) // Elite Orc
+		CreateCreature("OutOrc4",[4240.1600],0) // Elite Orc
+		Wait(1)
+		ActionOverride(Player1,DisplayStringHead(Myself,@568548))
+		SetGlobal("Frmrkill","GLOBAL",2)
+END
+
+

@@ -1,0 +1,15 @@
+IF
+	Global("Itstfacti","AR0400",1)
+	OR(6)
+		Range(Player1,30)
+		Range(Player2,30)
+		Range(Player3,30)
+		Range(Player4,30)
+		Range(Player5,30)
+		Range(Player6,30)
+THEN
+	RESPONSE #100
+		SetGlobal("Itstfacti","AR0400",2)
+END
+
+

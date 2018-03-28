@@ -1,0 +1,33 @@
+IF
+	Global("FigEdw","GLOBAL",15)
+THEN
+	RESPONSE #100
+		SetGlobal("FigEdw","GLOBAL",16)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("FigAer","GLOBAL",15)
+THEN
+	RESPONSE #100
+		SetGlobal("FigAer","GLOBAL",16)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("FigPla","GLOBAL",15)
+THEN
+	RESPONSE #100
+		SetGlobal("FigPla","GLOBAL",16)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("FigRan","GLOBAL",15)
+THEN
+	RESPONSE #100
+		SetGlobal("FigRan","GLOBAL",16)
+		StartDialogueNoSet(Player1)
+END
+
+

@@ -1,0 +1,10 @@
+IF
+	Global("Mora2","RR3110",1)
+THEN
+	RESPONSE #100
+		Wait(30)
+		CreateCreature("Morand2",[442.225],0) // Morandin
+		SetGlobal("Mora2","RR3110",2)
+END
+
+

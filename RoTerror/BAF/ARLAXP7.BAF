@@ -1,0 +1,35 @@
+IF
+	Global("Notyetbeat","RR3117",1)
+	Range("Innwen",5)
+THEN
+	RESPONSE #100
+		Wait(1)
+		FaceObject("Innwen")
+		Wait(1)
+		PlaySound("Flap")
+		Wait(1)
+		ActionOverride("InnWen",DisplayStringHead(Myself,@569446))
+		Wait(3)
+		ActionOverride("InnWen",MoveToPoint([627.451]))
+		SetGlobal("Notyetbeat","RR3117",2)
+END
+
+IF
+	Global("Notyetbeat","RR3117",3)
+	Range("Innwen",5)
+THEN
+	RESPONSE #100
+		Wait(1)
+		FaceObject("Innwen")
+		Wait(1)
+		PlaySound("Flap")
+		Wait(1)
+		ActionOverride("InnWen",DisplayStringHead(Myself,@569447))
+		Wait(1)
+		ActionOverride("InnWen",AttackReevaluate("ArlaxP7",10))
+		Wait(10)
+		ActionOverride("InnWen",MoveToPoint([627.451]))
+		SetGlobal("Notyetbeat","RR3117",4)
+END
+
+

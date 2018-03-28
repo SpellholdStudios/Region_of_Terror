@@ -1,0 +1,41 @@
+@0    = ~Was möchtet Ihr über das Modden im Allgemeinen hören?~
+
+@1    = ~Wie viel Zeit braucht es?~
+
+@2    = ~Ist es schwierig zu lernen?~
+
+@3    = ~Wie ist es aufgebaut?~
+
+@4    = ~Was benötige ich, um ein Modder zu sein?~
+
+@5    = ~Wie kann ich mit dem Modden beginnen?~
+
+@6    = ~Nichts.~
+
+@7    = ~Das kommt darauf an, wie groß Euer Modul werden soll. Wenn Ihr alleine an einem großen Mod arbeitet, und das zwei Stunden jeden Tag, werdet Ihr etwa zwei Jahre dafür brauchen.~
+
+@8    = ~Ich habe keine weiteren Fragen.~
+
+@9    = ~Nein, eigentlich nicht. TeamBG bietet mehrere Tutorials an und schon nach einigen Wochen Training werdet Ihr ein begabter Modder sein.~
+
+@10   = ~Nun, zuerst füllt Ihr eigentlich nur Kästchen mit Nummern und etwas Text. Es ist keinerlei codierung oder ähnliches vonnöten. Ihr setzt ETW0-Variablen für Charactere, Schadens-Variablen für Waffen und so weiter.~
+
+@11   = ~Und dann kommt natürlich noch etwas Kunstfertigkeit hinzu. Gebietskarten werden benötigt. Portraits ebenfalls. Ihr könnt im Internet auf die Suche nach Künstlern gehen, die bereit wären, Portraits oder Karten für Euch anzufertigen, wenn Ihr selbst Euch nicht dazu in der Lage seht.~
+
+@12   = ~Danach müsst Ihr das scripten lernen. Geht eigentlich ganz einfach. Schreibt zunächst einen Trigger/Auslöser und dann die Aktion, die ausgelöst werden soll, schon habt Ihr ein fertiges Script.~
+
+@13   = ~Zunächst fühlt sich das Modden wie ein Hobby an, was es ja schließlich auch ist. An manchen Stellen fühlt es sich aber auch wie Arbeit an, doch wenn Ihr diese Stellen erstmal hinter Euch gelassen habt, wird Euer Mod schnell fertig werden.~
+
+@14   = ~Ihr benötigt erstmal alle Tools von der Seite "www.teambg.com". Lest sie ganau, um sie auch richtig ans laufen zu bekommen und anwenden zu können.~
+
+@15   = ~Dann benötigst Du noch Geduld, Beharrlichkeit und Vorstellungskraft. Das Modden benötigt Zeit, und mehr als einmal willst du alles hinschmeißen, glaub mir.~
+
+@16   = ~Das war es schon. Dann müsst Ihr natürlich noch weiter mit den Tools üben, müsst eine Idee für Euren Mod entwerfen, und ich kann Euch nur raten, andere Modder zu finden, die Euch helfen und mit Rat und Tat zur Seite stehen. Alleine modden ist hart.~
+
+@17   = ~Wenn Ihr denn dann alle Tools habt und sie anwenden könnt, solltet Ihr mit einem Mini-Mod anfangen.~
+
+@18   = ~Entwerft ein einzelnes Gebiet und setzt einige Kreaturen hinein. Schreibt ein Paar Dialoge für sie und langsam entwickelt sich ein Quest für Euren Charakter.~
+
+@19   = ~Die Quest(s) könnten so zu ein oder zwei Stunden weiterem Spielspaß führen. Ich empfehle Euch, Euren Mod mit anderen Mods kompatibel zu machen (nutzt dafür WeiDu).~
+
+@20   = ~Wenn Ihr für einen größeren Mod einen weiteren Quest-Mini-Mod schreiben wollt, könnt Ihr dafür zum Beispiel weitere Quests zu den enthaltenen Festungen schreiben. Die sind schließlich genau für solch einen Zweck geschaffen worden.~

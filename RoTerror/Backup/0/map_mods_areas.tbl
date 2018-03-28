@@ -1,0 +1,169 @@
+SHORT_NAME CONTENT    LONG_NAME  FLAGS      BAM_ANIM   X_POS      Y_POS      NAME       TOOLTIP    LOAD_IM
+// BG:EE old areas
+BG0100     BG0100     BG0100     3          29         934        2000       N          N          N        //Baldur's Gate North West
+BG0200     BG0200     BG0200     3          30         1019       1987       N          N          N        //Baldur's Gate North
+BG0300     BG0300     BG0300     3          31         1111       1997       N          N          N        //Baldur's Gate North East
+BG0400     BG0400     BG0400     2          57         1600       2006       @BG0400    @BG0400    N        //Upper Chionthar (Farms over Chionthar)
+BG0500     BG0500     BG0500     2          79         2100       2665       @BG0500    @BG0500    N        //Durlag's Tower
+BG0600     BG0600     BG0600     3          32         927        2047       N          N          N        //Baldur's Gate West
+BG0700     BG0700     BG0700     3          33         1033       2048       N          N          N        //Baldur's Gate Center
+BG0800     BG0800     BG0800     3          34         1125       2062       N          N          N        //Baldur's Gate East
+BG0900     BG0900     BG0900     3          43         1542       2080       @BG0900    @BG0900    N        //Wyrm's Crossing
+BG1000     BG1000     BG1000     3          80         1375       1940       @BG1000    @BG1000    N        //Ulgoth's Beard
+BG1008     BG1008     BG1008     2          51         145        445        @BG1008    @BG1008    N        //Ice Island
+BG1100     BG1100     BG1100     3          35         929        2111       N          N          N        //Baldur's Gate South West
+BG1200     BG1200     BG1200     3          36         1026       2109       N          N          N        //Baldur's Gate South
+BG1300     BG1300     BG1300     3          37         1092       2116       N          N          N        //Baldur's Gate South East
+BG1400     BG1400     BG1400     2          42         1680       2190       @BG1400    @BG1400    N        //Lower Chionthar (Ankheg Farms/South of Wyrm's Crossing)
+BG1500     BG1500     BG1500     2          51         715        1885       N          N          N        //North Balduran's Isle (Balduran's Shipwreck)
+BG1600     BG1600     BG1600     2          38         1322       2324       @BG1600    @BG1600    N        //Cloakwood Grove (Cloakwood Druids/Cloakwood 3)
+BG1700     BG1700     BG1700     2          40         1358       2218       @BG1700    @BG1700    N        //Cloakwood Crossings (Cloakwood Wyverns/Cloakwood 4)
+BG1800     BG1800     BG1800     2          44         1506       2202       @BG1800    @BG1800    N        //Cloakwood Mines
+BG1900     BG1900     BG1900     0          41         2020       2174       @BG1900    @BG1900    N        //Bandit Camp
+BG2000     BG2000     BG2000     2          42         700        1965       @BG2000    @BG2000    N        //Balduran's Isle (Werewolf Isle)
+BG2100     BG2100     BG2100     2          39         1412       2378       @BG2100    @BG2100    N        //Cloakwood Falls (Cloakwood Nest/Cloakwood 2)
+BG2200     BG2200     BG2200     0          45         1562       2336       @BG2200    @BG2200    N        //Cloakwood Lodge (Cloakwood 1)
+BG2300     BG2300     BG2300     3          46         1800       2270       @BG2300    @BG2300    N        //Friendly Arm Inn
+BG2400     BG2400     BG2400     2          49         1990       2282       @BG2400    @BG2400    N        //Peldvale
+BG2600     BG2600     BG2600     0          50         1366       2464       N          N          N        //Candlekeep [prologue]
+BG2626     BG2626     BG2626     15         50         1366       2464       @BG2600    @BG2600    N        //Candlekeep [ch.6]
+BG2700     BG2700     BG2700     2          52         1500       2450       @BG2700    @BG2700    N        //Lion's Way (Gorion's Rest)
+BG2800     BG2800     BG2800     2          47         1795       2392       @BG2800    @BG2800    N        //Coast Way (Crossroads)
+BG2900     BG2900     BG2900     2          48         2000       2372       @BG2900    @BG2900    N        //Larswood
+BG3000     BG3000     BG3000     2          54         2100       2355       @BG3000    @BG3000    N        //Spider Wood (The East Wood)
+BG3100     BG3100     BG3100     2          51         1380       2535       @BG3100    @BG3100    N        //Shipwreck's Coast (North Sword Coast)
+BG3200     BG3200     BG3200     2          58         1700       2500       @BG3200    @BG3200    N        //High Hedge
+BG3300     BG3300     BG3300     3          53         1820       2475       @BG3300    @BG3300    N        //Beregost
+BG3400     BG3400     BG3400     2          84         1910       2475       @BG3400    @BG3400    N        //Temple of Lathander (Beregost Temple)
+BG3500     BG3500     BG3500     2          83         2150       2450       @BG3500    @BG3500    N        //Sharp Teeth Plain (Mutamin's Garden/Basilisk Monument)
+BG3600     BG3600     BG3600     2          62         1400       2600       @BG3600    @BG3600    N        //The Lighthouse (Sword Coast)
+BG3700     BG3700     BG3700     2          56         1550       2555       @BG3700    @BG3700    N        //Red Canyons (Zombie Retreat)
+BG3800     BG3800     BG3800     2          59         1810       2555       @BG3800    @BG3800    N        //Trade Way North (Badlands/South Beregost Road/Beregost Wilderness)
+BG3900     BG3900     BG3900     2          66         1990       2550       @BG3900    @BG3900    N        //Ulcaster (Ulcaster School)
+BG4000     BG4000     BG4000     2          61         2260       2580       @BG4000    @BG4000    N        //Gullykin
+BG4100     BG4100     BG4100     2          68         1445       2675       @BG4100    @BG4100    N        //Ancient Ruins (Archaeological Site/South Sword Coast)
+BG4200     BG4200     BG4200     2          63         1635       2640       @BG4200    @BG4200    N        //Fisherman's Lake (Wilderness Lake)
+BG4300     BG4300     BG4300     2          64         1860       2615       @BG4300    @BG4300    N        //Trade Way South (Nashkel Pass/North Nashkel Road)
+BG4400     BG4400     BG4400     2          65         2025       2630       @BG4400    @BG4400    N        //Lonely Peaks (Firewine Plains)
+BG4500     BG4500     BG4500     2          67         2215       2630       @BG4500    @BG4500    N        //Firewine Bridge
+BG4600     BG4600     BG4600     2          74         1440       2735       @BG4600    @BG4600    N        //Bear River (Ogre's Reach)
+BG4700     BG4700     BG4700     2          69         1545       2700       @BG4700    @BG4700    N        //Xvart Village
+BG4800     BG4800     BG4800     3          71         1856       2690       @BG4800    @BG4800    N        //Nashkel
+BG4900     BG4900     BG4900     3          72         1950       2690       @BG4900    @BG4900    N        //Carnival
+BG5000     BG5000     BG5000     2          73         2130       2770       @BG5000    @BG5000    N        //Valley of the Tombs (Southern Wastelands)
+BG5100     BG5100     BG5100     2          75         1438       2800       @BG5100    @BG5100    N        //Gnoll Stronghold
+BG5200     BG5200     BG5200     2          70         1640       2781       @BG5200    @BG5200    N        //Dryad Falls (Western Cloudpeaks)
+BG5300     BG5300     BG5300     2          76         1755       2795       @BG5300    @BG5300    N        //Fire Leaf Forest (The Cloudpeaks)
+BG5400     BG5400     BG5400     3          77         1880       2775       @BG5400    @BG5400    N        //Nashkel Mines
+BG5500     BG5500     BG5500     2          78         2000       2850       @BG5500    @BG5500    N        //Gibberling Mountains (Dragon's Run/Cloud Peaks)
+
+// BG:EE new areas
+OH2000     OH2000     OH2000     0          112        2100       2845       @OH2000    @OH2000    N        //Adoy's Enclave
+OH3000     OH3000     OH3000     0          113        1760       2660       @OH3000    @OH3000    N        //Cloud Peaks
+oh1000     oh1000     oh1000     0          105        1915       2733       N          N          N        //[battle area without further access]
+TU0015     TU0015     TU0015     0          105        1019       1987       N          N          N        //[tutorial area in Baldur's Gate N]
+
+// SoD
+BD0010     BD0010     BD0010     0          30         1019       1987       N          N          N        //[Ducal Palace City Exterior]
+BD0104     BD0104     BD0104     0          134        1019       1987       N          N          N        //[Flaming Fist HQ]
+BD1000     BD1000     BD1000     0          124        1775       2091       @BD1000    @BD1000    N        //Coast Way Crossing
+BD2000     BD2000     BD2000     0          125        2014       1908       @BD2000    @BD2000    N        //Boareskyr Bridge
+BD3000     BD3000     BD3000     3          126        1596       1893       @BD3000    @BD3000    N        //Coalition Camp
+BD4000     BD4000     BD4000     3          128        1419       1834       @BD4000    @BD4000    N        //Dragonspear Castle
+BD4100     BD4100     BD4100     0          134        1419       1834       N          N          N        //[Dragonspear Castle Keep, First Floor]
+BD4300     BD4300     BD4300     0          134        1419       1834       N          N          N        //[Dragonspear Castle Basement]
+BD4400     BD4400     BD4400     0          134        1419       1834       N          N          N        //[Avernus]
+BD4500     BD4500     BD4500     0          134        1419       1834       N          N          N        //[Avernus Bridge]
+BD5000     BD5000     BD5000     0          127        1616       1801       @BD5000    @BD5000    N        //Underground River
+BD5100     BD5100     BD5100     0          134        1518       1851       N          N          N        //[Underground River]
+BD5200     BD5200     BD5200     0          134        1419       1834       N          N          N        //[The Warrens]
+BD6000     BD6000     BD6000     0          134        1019       1987       N          N          N        //[Abandoned Sewers & Caverns]
+BD6100     BD6100     BD6100     0          134        1612       2063       N          N          N        //[The Ambush]
+BD6200     BD6200     BD6200     0          134        1533       2020       N          N          N        //[Sewers Exit]
+BD7000     BD7000     BD7000     2          130        1671       2088       @BD7000    @BD7000    N        //Coast Way Forest
+BD7100     BD7100     BD7100     0          131        1985       2000       @BD7100    @BD7100    N        //Troll Claw Woods
+BD7200     BD7200     BD7200     2          132        2132       1898       @BD7200    @BD7200    N        //Forest of Wyrms
+BD7300     BD7300     BD7300     0          123        1481       1903       @BD7300    @BD7300    N        //Dead Man's Pass
+BD7400     BD7400     BD7400     0          133        1733       1784       @BD7400    @BD7400    N        //Bloodbark Grove
+
+//Drizzt Saga New Areas Table
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS  Y_POS  NAME         TOOLTIP      LOAD_IM
+
+F_7777      F_7777   F_7777     4      65        215    290    @DSW_786001  @DSW_786001  N        //Bruenor's Cabin
+F_9898      F_9898   F_9898     4      73        320    50     @DSW_786002  @DSW_786002  N        //Mountain of the Dead
+F_0111      F_0111   F_0111     4      54        65     207    @DSW_786003  @DSW_786003  N        //Bear Tribe Village
+F_0222      F_0222   F_0222     4      68        225    180    @DSW_786004  @DSW_786004  N        //Storm March Mountains
+
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS  Y_POS  NAME         TOOLTIP      LOAD_IM
+
+ARS002      ARS002   ARS002     4      41       1695    2830   @SOA_782001   @SOA_782001   N        //Bluebell wood
+ARS005      ARS005   ARS005     4      39       2250    2503   @SOA_782002   @SOA_782002   N        //Dystra old watch tower
+
+
+//TDD New Areas Table
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS  Y_POS  NAME         TOOLTIP      LOAD_IM
+
+DD1900      DD1900   DD1900     4      10       1740    1440   @TDD_779010  @TDD_779110  N        //Purskal
+DD1800      DD1800   DD1800     4      17       2180    1212   @TDD_779001  @TDD_779101  N        //Snake Woods
+DD2500      DD2500   DD2500     4      10       2558    1120   N            @TDD_779102  N        //Troll Mountains
+DD5000      DD5000   DD5000     4      11       2397    1359   @TDD_779004  @TDD_779104  N        //Hall of Knowledge Entrance
+DD2300      DD2300   DD2300     4      12       2520    1410   N            @TDD_779103  N        //Eshpurta
+DD9000      DD9000   DD9000     4      10       2550    1300   @TDD_779008  @TDD_779108  N        //Trollford
+DD3300      DD3300   DD3300     4      53       2575    1640   N            @TDD_779105  N        //Riatavin
+DD7000      DD7000   DD7000     4      6        2852    2150   @TDD_779009  @TDD_779109  N        //Orgoth's Tower
+DD8000      DD8000   DD8000     4      17       2400    2580   @TDD_779006  @TDD_779106  N        //Deep Mir Forest
+DD8001      DD8001   DD8001     4      16       2590    2820   @TDD_779007  @TDD_779107  N        //Haunted Forest
+ARPO05      ARPO05   ARPO05     4      10       2180    1950   @TDD_779011  @TDD_779111  N        //Rusted Scabbard Entrance
+
+
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS   Y_POS  NAME         TOOLTIP  LOAD_IM
+
+ARES01      ARES01   ARES01     0      9         1700    3500   @ARES01      N        N
+
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS  Y_POS  NAME         TOOLTIP      LOAD_IM
+
+YS0360      YS0360   YS0360     0      13        1817   2758   @ys0360      @ys0360      N        //Cerendor Hold
+YS0370      YS0370   YS0370     0      17        1625   2715   @ys0370      @ys0370      N        //Cloudpeak Mountains
+YS0390      YS0390   YS0390     0      21        1160   2850   @ys0390      @ys0390      N        //Government District Westside
+YS1000      YS1000   YS1000     0      13        1503   3148   @ys1000      @ys1000      N        //Portpentyrch
+YS1001      YS1001   YS1001     0      13        1503   3148   @ys1001      @ys1001      N        //Portpentyrch
+
+
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS   Y_POS  NAME         TOOLTIP  LOAD_IM
+
+L#FOU0      L#FOU0   L#FOU0     0      10        1931    2910   @L#FOU0      N        N
+
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS   Y_POS  NAME         TOOLTIP  LOAD_IM
+
+ARISH1      ARISH1   ARISH1     0      9         1885    3450   @ARISH1      N        N
+
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS   Y_POS  NAME         TOOLTIP  LOAD_IM
+
+L#ND01      L#ND01   L#ND01     3      10        1227    3073   @L#ND01      N        N
+
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS   Y_POS  NAME         TOOLTIP  LOAD_IM
+
+ARLDV1      ARLDV1   ARLDV1     0      9         1420    3000   @ARLDV1      N        N
+
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS   Y_POS  NAME         TOOLTIP  LOAD_IM
+
+WQ0001      WQ0001   WQ0001     0      9         2645    2960   @WQ0001      N        N
+
+//DSotSC New Areas Table
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS  Y_POS  NAME         TOOLTIP      LOAD_IM
+
+DSC001      DSC001   DSC001     4      76       2200    672    @DS_782001   @DS_782001   N        //Wood of Sharp Teeth
+DSC002      DSC002   DSC002     2      63       2300    660    N            N            N
+DSC004      DSC004   DSC004     2      83       2219    595    @DS_782002   @DS_782002   N        //Forest of Forgotten Souls
+DSC010      DSC010   DSC010     4      79       2300    1094   @DS_782003   @DS_782003   N        //Castle Daerthmac
+
+
+//NTotSC New Areas Table
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS  Y_POS  NAME         TOOLTIP      LOAD_IM
+
+AR20PB      AR20PB   AR20PB     2      62       1320    36     @NT_783001   @NT_783001   N        //Northern Coast
+AR10PB      AR10PB   AR10PB     4      73       1500    100    @NT_783002   @NT_783002   N        //Field of the Dead
+AR40PB      AR40PB   AR40PB     2      74       1860    28     @NT_783003   @NT_783003   N        //Northern Wood
+AR01PB      AR01PB   AR01PB     2      40       1860    158    @NT_783004   @NT_783004   N        //Wood of the Dead
+AR30PB      AR30PB   AR30PB     4      46       1850    302    @NT_783005   @NT_783005   N        //Northern Citadel
+AR60PB      AR60PB   AR60PB     4      49       2330    560    @NT_783006   @NT_783006   N        //Temple of the Black Hand

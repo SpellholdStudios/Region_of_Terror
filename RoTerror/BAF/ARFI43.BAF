@@ -1,0 +1,40 @@
+IF
+	Global("DrinksP","LOCALS",0)
+THEN
+	RESPONSE #100
+		UseItem("POTN42",Myself) // Potion of Regeneration 
+		SetGlobal("DrinksP","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("DrinksP","LOCALS",1)
+	Delay(5)
+THEN
+	RESPONSE #100
+		UseItem("POTN05",Myself) // Potion of Fire Giant Strength
+		SetGlobal("DrinksP","LOCALS",2)
+		Continue()
+END
+
+IF
+	Global("DrinksPot","LOCALS",0)
+	HPLT(Myself,100)
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		SetGlobal("DrinksPot","LOCALS",1)
+		Continue()
+END
+
+IF
+	Global("DrinksPot","LOCALS",1)
+	HPLT(Myself,50)
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+		SetGlobal("DrinksPot","LOCALS",2)
+		Continue()
+END
+
+

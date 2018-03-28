@@ -1,0 +1,5 @@
+@0    = ~BAM editing is very simple so I'll just tell you the basics here.~
+@1    = ~First you'll need the tool BamWorkshop(2). Then just open some bam. - file from the game and you'll realize it all.~
+@2    = ~There are two types of bam. - files. Inanimated (item pictures, spell pictures...) and animated (creature animations, spell animations...).~
+@3    = ~This means you can create pictures and animations using BamWorkshop. It's very easy to use. Just like Paint, if we don't count the possibility to make animations.~
+@4    = ~You can load the file SKYBOLT if you need an example of an animation file and the file SPWI901A if you need an example of a picture file.~

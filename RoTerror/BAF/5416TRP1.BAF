@@ -1,0 +1,16 @@
+IF
+	Global("Trigger","RA5416",0)
+	OR(2)
+		Entered([ANYONE])
+		Range([ANYONE],2)
+THEN
+	RESPONSE #100
+		CreateCreature("FireSal2",[2950.1640],9)
+		CreateCreature("FireSal1",[2951.1640],9)
+		CreateCreature("FireSal1",[2952.1640],9)
+		CreateCreature("FireSal1",[2950.1642],9)
+		CreateCreature("FireSal1",[2950.1641],9)
+		SetGlobal("Trigger","RA5416",1)
+END
+
+

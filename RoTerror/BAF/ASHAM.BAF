@@ -1,0 +1,14 @@
+IF
+	See(NearestEnemyOf(Myself))
+	Global("prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,WIZARD_STONE_SKIN)
+		ApplySpell(Myself,CLERIC_PHYSICAL_MIRROR)
+		ApplySpell(Myself,CLERIC_SHIELD_OF_THE_ARCHONS)
+		ApplySpell(Myself,CLERIC_REGENERATE)
+		ForceSpell(Myself,NPC_BLADE_BARRIER)
+		SetGlobal("prep","LOCALS",1)
+END
+
+

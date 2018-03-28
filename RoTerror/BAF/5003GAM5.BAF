@@ -1,0 +1,228 @@
+IF
+	!Global("PlayGame1","RA5003",1)
+	!Global("PlayGame2","RA5003",1)
+	!Global("PlayGame3","RA5003",1)
+	!Global("PlayGame4","RA5003",1)
+	!Global("PlayGame5","RA5003",1)
+	!Global("PlayGame6","RA5003",1)
+	!Global("PlayGame7","RA5003",1)
+	!Global("PlayGame8","RA5003",1)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+	OR(10)
+		Global("PlayGame","RA5003",0)
+		Global("PlayGame","RA5003",1)
+		Global("PlayGame","RA5003",2)
+		Global("PlayGame","RA5003",3)
+		Global("PlayGame","RA5003",4)
+		Global("PlayGame","RA5003",5)
+		Global("PlayGame","RA5003",6)
+		Global("PlayGame","RA5003",7)
+		Global("PlayGame","RA5003",8)
+		Global("PlayGame","RA5003",9)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@570389)
+END
+
+IF
+	Global("PlayGame2","RA5003",1)
+	Global("PlayGame","RA5003",2)
+	Global("shelfeight","RA5003",0)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@570398)
+		SetGlobal("shelfeight","RA5003",1)
+END
+
+IF
+	Global("PlayGame1","RA5003",1)
+	Global("PlayGame","RA5003",1)
+	Global("shelfeight","RA5003",0)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@570398)
+		SetGlobal("shelfeight","RA5003",1)
+END
+
+IF
+	Global("PlayGame3","RA5003",1)
+	Global("PlayGame","RA5003",3)
+	Global("shelfeight","RA5003",0)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@570398)
+		SetGlobal("shelfeight","RA5003",1)
+END
+
+IF
+	Global("PlayGame4","RA5003",1)
+	Global("PlayGame","RA5003",4)
+	Global("shelfeight","RA5003",0)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@570398)
+		SetGlobal("shelfeight","RA5003",1)
+END
+
+IF
+	Global("PlayGame5","RA5003",1)
+	Global("PlayGame","RA5003",5)
+	Global("shelfeight","RA5003",0)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@570398)
+		SetGlobal("shelfeight","RA5003",1)
+END
+
+IF
+	Global("PlayGame6","RA5003",1)
+	Global("PlayGame","RA5003",6)
+	Global("shelfeight","RA5003",0)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@570398)
+		SetGlobal("shelfeight","RA5003",1)
+END
+
+IF
+	Global("PlayGame7","RA5003",1)
+	Global("PlayGame","RA5003",7)
+	Global("shelfeight","RA5003",0)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@570398)
+		SetGlobal("shelfeight","RA5003",1)
+END
+
+IF
+	Global("PlayGame8","RA5003",1)
+	Global("PlayGame","RA5003",8)
+	Global("shelfeight","RA5003",0)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@570398)
+		SetGlobal("shelfeight","RA5003",1)
+END
+
+IF
+	Global("PlayGame8","RA5003",1)
+	Global("PlayGame","RA5003",8)
+	Global("shelfeight","RA5003",1)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(LastTrigger(Myself),@570401)
+		SetGlobal("PlayGame3","RA5003",0)
+		SetGlobal("shelfeight","RA5003",2)
+END
+
+IF
+	!Global("PlayGame8","RA5003",1)
+	Global("shelfeight","RA5003",1)
+	Clicked([ANYONE])
+	Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(LastTrigger(Myself),@570399)
+		SetGlobal("PlayGame1","RA5003",0)
+		SetGlobal("PlayGame2","RA5003",0)
+		SetGlobal("PlayGame3","RA5003",0)
+		SetGlobal("PlayGame4","RA5003",0)
+		SetGlobal("PlayGame5","RA5003",0)
+		SetGlobal("PlayGame6","RA5003",0)
+		SetGlobal("PlayGame7","RA5003",0)
+		SetGlobal("PlayGame8","RA5003",0)
+		SetGlobal("shelfeight","RA5003",3)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,10)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702)
+END
+
+IF
+	Global("shelfeight","RA5003",3)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		Wait(4)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("shelfeight","RA5003",0)
+		SetGlobal("Wrongansw","RA5003",1)
+		ForceSpell(LastTrigger(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+		ForceSpell(LastTrigger(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		Wait(4)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("shelfeight","RA5003",0)
+		SetGlobal("Wrongansw","RA5003",1)
+		ApplyDamage(LastTrigger(Myself),70,SLASHING)
+		Wait(1)
+		ApplyDamage(LastTrigger(Myself),70,SLASHING)
+		Wait(1)
+		ApplyDamage(LastTrigger(Myself),70,SLASHING)
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		Wait(4)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("shelfeight","RA5003",0)
+		SetGlobal("Wrongansw","RA5003",1)
+		ApplyDamage(LastTrigger(Myself),70,MAGIC)
+		Wait(1)
+		ApplyDamage(LastTrigger(Myself),70,MAGIC)
+		Wait(1)
+		ApplyDamage(LastTrigger(Myself),70,MAGIC)
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		Wait(4)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("shelfeight","RA5003",0)
+		SetGlobal("Wrongansw","RA5003",1)
+		ApplyDamage(LastTrigger(Myself),70,CRUSHING)
+		Wait(1)
+		ApplyDamage(LastTrigger(Myself),70,CRUSHING)
+		Wait(1)
+		ApplyDamage(LastTrigger(Myself),70,CRUSHING)
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		Wait(4)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("shelfeight","RA5003",0)
+		SetGlobal("Wrongansw","RA5003",1)
+		ForceSpell(LastTrigger(Myself),WIZARD_METEOR_SWARM)
+		ForceSpell(LastTrigger(Myself),WIZARD_METEOR_SWARM)
+END
+
+

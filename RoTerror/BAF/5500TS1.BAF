@@ -1,0 +1,41 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,5)
+	Global("Thisstone1","RA5500",0)
+THEN
+	RESPONSE #100
+		PlaySound("EFF_M07")
+		DisplayString(LastTrigger(Myself),@573428)
+		IncrementGlobal("Travelculta","GLOBAL",1)
+		SetGlobal("Thisstone1","RA5500",1)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,5)
+	!Global("Youcandoitwithone","GLOBAL",1)
+	Global("Thisstone1","RA5500",1)
+THEN
+	RESPONSE #100
+		DisplayString(LastTrigger(Myself),@573429)
+END
+
+IF
+	Clicked([ANYONE])
+	Global("Youcandoitwithone","GLOBAL",1)
+	Range(LastTrigger,5)
+THEN
+	RESPONSE #100
+		PlaySound("EFF_M07")
+		IncrementGlobal("Travelculta","GLOBAL",1)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,5)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702)
+END
+
+

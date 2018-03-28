@@ -1,0 +1,50 @@
+IF
+	!Global("MordrgSpawn","AR2000",1)
+	Global("MordrgJoinedOnce","GLOBAL",0)
+	XPLT(Player1,300000)
+THEN
+	RESPONSE #100
+		ActionOverride("Mordrg",DestroySelf())
+		CreateCreature("Mordrg1",[1844.2044],12) // Mordragon
+		SetGlobal("MordrgSpawn","AR2000",1)
+		Continue()
+END
+
+IF
+	!Global("MordrgSpawn","AR2000",2)
+	Global("MordrgJoinedOnce","GLOBAL",0)
+	XPGT(Player1,299999)
+	XPLT(Player1,900000)
+THEN
+	RESPONSE #100
+		ActionOverride("Mordrg",DestroySelf())
+		CreateCreature("Mordrg2",[1844.2044],12) // Mordragon
+		SetGlobal("MordrgSpawn","AR2000",2)
+		Continue()
+END
+
+IF
+	!Global("MordrgSpawn","AR2000",3)
+	Global("MordrgJoinedOnce","GLOBAL",0)
+	XPGT(Player1,899999)
+	XPLT(Player1,1200000)
+THEN
+	RESPONSE #100
+		ActionOverride("Mordrg",DestroySelf())
+		CreateCreature("Mordrg3",[1844.2044],12) // Mordragon
+		SetGlobal("MordrgSpawn","AR2000",3)
+		Continue()
+END
+
+IF
+	!Global("MordrgSpawn","AR2000",4)
+	Global("MordrgJoinedOnce","GLOBAL",0)
+	XPGT(Player1,1199999)
+THEN
+	RESPONSE #100
+		ActionOverride("Mordrg",DestroySelf())
+		CreateCreature("Mordrg4",[1844.2044],12) // Mordragon
+		SetGlobal("MordrgSpawn","AR2000",4)
+		Continue()
+END
+

@@ -1,0 +1,155 @@
+IF
+	Dead("CultBe1") // Matthew Wyndon
+	Global("Death","RA5106",0)
+THEN
+	RESPONSE #100
+		ActionOverride("BreFi9",DestroySelf())
+		SetGlobal("Death","RA5106",1)
+END
+
+IF
+	Global("Thestrangeman3","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ActionOverride("Option",DestroySelf())
+		Wait(1)
+		SetGlobal("Thestrangeman","GLOBAL",999)
+		SetGlobal("Thestrangeman3","GLOBAL",2)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("Notthisagain","RA5106",0)
+		ActionOverride(Player1,LeaveAreaLUA("RA5100","",[2232.1435],4))
+		ActionOverride(Player2,LeaveAreaLUA("RA5100","",[2233.1435],4))
+		ActionOverride(Player3,LeaveAreaLUA("RA5100","",[2234.1435],4))
+		ActionOverride(Player4,LeaveAreaLUA("RA5100","",[2235.1438],4))
+		ActionOverride(Player5,LeaveAreaLUA("RA5100","",[2235.1437],4))
+		ActionOverride(Player6,LeaveAreaLUA("RA5100","",[2235.1436],4))
+END
+
+IF
+	Global("Thestrangeman","GLOBAL",4)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ActionOverride("Option",DestroySelf())
+		Wait(1)
+		SetGlobal("Thestrangeman","GLOBAL",5)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("Notthisagain","RA5106",0)
+		ActionOverride(Player1,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player2,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player3,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player4,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player5,LeaveAreaLUA("RA5500","",[2877.563],2))
+		ActionOverride(Player6,LeaveAreaLUA("RA5500","",[2877.563],2))
+END
+
+IF
+	Global("Thestrangeman4","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		ActionOverride("Option",DestroySelf())
+		Wait(1)
+		SetGlobal("Thestrangeman3","GLOBAL",0)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("Notthisagain","RA5106",0)
+		ActionOverride(Player1,LeaveAreaLUA("RA5100","",[2232.1435],4))
+		ActionOverride(Player2,LeaveAreaLUA("RA5100","",[2233.1435],4))
+		ActionOverride(Player3,LeaveAreaLUA("RA5100","",[2234.1435],4))
+		ActionOverride(Player4,LeaveAreaLUA("RA5100","",[2235.1438],4))
+		ActionOverride(Player5,LeaveAreaLUA("RA5100","",[2235.1437],4))
+		ActionOverride(Player6,LeaveAreaLUA("RA5100","",[2235.1436],4))
+END
+
+IF
+	Global("jkasdflk","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		ActionOverride(Player1,DisplayString(Myself,@573348))
+		Wait(2)
+		SetGlobal("Thestrangeman2","GLOBAL",1)
+		SetGlobal("jkasdflk","GLOBAL",0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RA5100","",[2232.1435],4))
+		ActionOverride(Player2,LeaveAreaLUA("RA5100","",[2233.1435],4))
+		ActionOverride(Player3,LeaveAreaLUA("RA5100","",[2234.1435],4))
+		ActionOverride(Player4,LeaveAreaLUA("RA5100","",[2235.1438],4))
+		ActionOverride(Player5,LeaveAreaLUA("RA5100","",[2235.1437],4))
+		ActionOverride(Player6,LeaveAreaLUA("RA5100","",[2235.1436],4))
+END
+
+IF
+	Global("rgggdaf","GLOBAL",1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		ActionOverride(Player1,DisplayString(Myself,@573348))
+		Wait(2)
+		SetGlobal("rgggdaf","GLOBAL",0)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RA5100","",[2232.1435],4))
+		ActionOverride(Player2,LeaveAreaLUA("RA5100","",[2233.1435],4))
+		ActionOverride(Player3,LeaveAreaLUA("RA5100","",[2234.1435],4))
+		ActionOverride(Player4,LeaveAreaLUA("RA5100","",[2235.1438],4))
+		ActionOverride(Player5,LeaveAreaLUA("RA5100","",[2235.1437],4))
+		ActionOverride(Player6,LeaveAreaLUA("RA5100","",[2235.1436],4))
+END
+
+
+IF
+	!Global("Thestrangeman","GLOBAL",2)
+	!Global("Thestrangeman","GLOBAL",3)
+	!Global("Thestrangeman","GLOBAL",4)
+	!Global("Thestrangeman","GLOBAL",5)
+	Global("jkasdflk","GLOBAL",0)
+	//AreaCheck("RA5106")
+	!See("BreFi9")
+THEN
+	RESPONSE #100
+		SetGlobal("jkasdflk","GLOBAL",1)
+END
+
+IF
+        OR(2)
+	     Global("Thestrangeman","GLOBAL",2)
+	     Global("Thestrangeman","GLOBAL",3)
+	!Global("Notthisagain","RA5106",1)
+	//AreaCheck("RA5106")
+	!See("BreFi9")
+	OR(2)
+		Time(24)
+		Time(1)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		CreateCreatureObject("Option",Player1,0,0,0) // Option
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Option",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("Thestrangeman","GLOBAL",6)
+	Global("rgggdaf","GLOBAL",0)
+	//AreaCheck("RA5106")
+	!See("BreFi9")
+THEN
+	RESPONSE #100
+		SetGlobal("rgggdaf","GLOBAL",1)
+END

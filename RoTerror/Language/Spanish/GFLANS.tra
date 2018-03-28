@@ -1,0 +1,5 @@
+@0    = ~Editar los BAM es muy sencillo así que os hablaré aquí de lo básico.~
+@1    = ~Primero necesitáis la herramienta BamWorkshop(2). Entonces solamente abrid algún fichero - bam. del juego y os daréis cuenta de como va.~
+@2    = ~Hay dos clases de ficheros - bam. Los inanimados (dibujos de objetos, dibujos de hechizos...) y los animados (animaciones de criaturas, animaciones de hechizos...).~
+@3    = ~Esto significa que podéis crear dibujos y animaciones usando el BamWorkshop. Es muy fácil de usar. Parecido al Paint, si no contamos la posibilidad de hacer animaciones.~
+@4    = ~Podéis cargar el fichero SKYBOLT si necesitáis un ejemplo de fichero de animación y el fichero SPWI901A si necesitáis un ejemplo de fichero de dibujos.~

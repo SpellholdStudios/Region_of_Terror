@@ -1,0 +1,17 @@
+IF
+	Global("Lookfermonn","GLOBAL",1)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		Wait(5)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		SetGlobal("Lookfermonn","GLOBAL",2)
+		UnhideGUI()
+		EndCutSceneMode()
+		StartDialogueNoSet(Player1)
+END
+
+

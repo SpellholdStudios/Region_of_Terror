@@ -1,0 +1,14 @@
+IF
+	Dead("Althur") // Al'thur
+	Dead("EttinG") // Greater Ettin
+	Dead("EttinG2") // Greater Ettin
+	Global("Handsmis","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(1)
+		ActionOverride(Player1,DisplayStringHead(Myself,@566638))
+		Wait(1)
+		SetGlobal("Handsmis","GLOBAL",4)
+END
+
+

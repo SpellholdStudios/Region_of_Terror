@@ -1,0 +1,29 @@
+IF
+	See("Randall")
+	Global("Razorbattle","GLOBAL",0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet("Randall")
+END
+
+IF
+	Global("Razorbattle","GLOBAL",1)
+	Global("Medasuxorenemy","LOCALS",0)
+THEN
+	RESPONSE #100
+		Enemy()
+		SetGlobal("Medasuxorenemy","LOCALS",1)
+END
+
+IF
+	HPLT(Myself,2)
+	Global("safkllsfkj","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Razorbattle","GLOBAL",2)
+		PlayDeadInterruptable(2147483647)
+		Wait(1)
+		SetGlobal("safkllsfkj","LOCALS",1)
+END
+
+

@@ -1,0 +1,12 @@
+IF
+	Global("MovBr","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Wait(1)
+		UnhideGUI()
+		ActionOverride(Player1,DisplayStringHead(Myself,@575058))
+		SmallWait(1)
+		SetGlobal("MovBr","GLOBAL",1)
+END
+
+

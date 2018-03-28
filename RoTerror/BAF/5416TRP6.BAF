@@ -1,0 +1,15 @@
+IF
+	Global("Trigger6","RA5416",0)
+	OR(2)
+		Entered([ANYONE])
+		Range([ANYONE],2)
+THEN
+	RESPONSE #100
+		CreateCreature("IwdMist4",[1090.1250],12) // Poison Mist
+		CreateCreature("IwdMist4",[1090.1251],12) // Poison Mist
+		CreateCreature("IwdMist7",[1070.1250],12) // Ice Mist
+		CreateCreature("IwdMist6",[1070.1251],12) // Fire Mist
+		SetGlobal("Trigger6","RA5416",1)
+END
+
+

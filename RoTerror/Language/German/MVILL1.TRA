@@ -1,0 +1,11 @@
+@0    = ~Guten Tag, <SIRMAAM>. Kann ich etwas für Euch tun?~
+
+@1    = ~Ja, es gibt eine Höhle in der Nähe des Dorfes. Könnt Ihr mir den Weg dorthin weisen?~
+
+@2    = ~Ja, Ihr könnt damit anfangen, mich in Ruhe zu lassen.~
+
+@3    = ~Nein, jetzt nicht.~
+
+@4    = ~Verzeiht mir, aber ich kenne keine Höhle, <SIRMAAM>. Es gibt keine Höhle in der Nähe des Dorfes.~
+
+@5    = ~Verzeiht, ich bin gerade beschäftigt...~

@@ -1,0 +1,28 @@
+IF
+	Contains("IwdGem8","Cont1") // Gem
+	Contains("IwdGem6","Cont2") // Gem
+	Contains("IwdGem3","Cont3") // Gem
+	Contains("IwdGem2","Cont4") // Gem
+	Contains("IwdGem9","Cont5") // Gem
+	Contains("IwdGem7","Cont6") // Gem
+	Contains("IwdGem1","Cont7") // Gem
+	Contains("IwdGem10","Cont8") // Gem
+	Contains("IwdGem5","Cont9") // Gem
+	Contains("IwdGem4","Cont10") // Gem
+	Global("PlantedItems","RA5602",0)
+THEN
+	RESPONSE #100
+		SetGlobal("PlantedItems","RA5602",1)
+END
+
+IF
+	Global("KeyQuest","RA5602",2)
+THEN
+	RESPONSE #100
+		ActionOverride("MonksS19",Unlock("5602DFl"))
+		ActionOverride("MonksS19",OpenDoor("5602DFl"))
+		ActionOverride("MonksS19",DestroySelf())
+		SetGlobal("KeyQuest","RA5602",3)
+END
+
+

@@ -1,0 +1,191 @@
+BEGIN ~CADDER3~
+
+IF ~Global("CQuestActive","GLOBAL",6)
+IsValidForPartyDialog("Driz2")~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN GOTO 14
+END
+
+IF ~~ THEN BEGIN 1 // from: DRIZ2J
+  SAY @1
+  IF ~~ THEN GOTO 2
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0
+  SAY @2
+  IF ~~ THEN GOTO 3
+END
+
+IF ~~ THEN BEGIN 3 // from: 2.0
+  SAY @3
+  IF ~~ THEN GOTO 4
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.0
+  SAY @4
+  IF ~~ THEN GOTO 5
+END
+
+IF ~~ THEN BEGIN 5 // from: 4.0
+  SAY @5
+  IF ~~ THEN GOTO 6
+END
+
+IF ~~ THEN BEGIN 6 // from: 5.0
+  SAY @6
+  IF ~~ THEN EXTERN ~DRIZ2J~ 145
+END
+
+IF ~~ THEN BEGIN 7 // from: DRIZ2J
+  SAY @7
+  IF ~~ THEN GOTO 8
+END
+
+IF ~~ THEN BEGIN 8 // from: 7.0
+  SAY @8
+  IF ~~ THEN GOTO 9
+END
+
+IF ~~ THEN BEGIN 9 // from: 8.0
+  SAY @9
+  IF ~~ THEN EXTERN ~DRIZ2J~ 146
+END
+
+IF ~~ THEN BEGIN 10 // from: DRIZ2J
+  SAY @10
+  IF ~~ THEN GOTO 11
+END
+
+IF ~~ THEN BEGIN 11 // from: 10.0
+  SAY @11
+  IF ~~ THEN DO ~SetGlobal("CQuestActive","GLOBAL",7)~ EXIT
+END
+
+IF ~~ THEN BEGIN 12 // from: DRIZ2J
+  SAY @12
+  IF ~~ THEN EXTERN ~DRIZ2J~ 147
+END
+
+IF ~~ THEN BEGIN 13 // from: DRIZ2J
+  SAY @13
+  IF ~~ THEN DO ~SetGlobal("CQuestActive","GLOBAL",7)~ EXIT
+END
+
+IF ~~ THEN BEGIN 14 // from: 0.0
+  SAY @14
+  IF ~~ THEN GOTO 15
+END
+
+IF ~~ THEN BEGIN 15 // from: 14.0
+  SAY @15
+  IF ~~ THEN EXTERN ~DRIZ2J~ 144
+END
+
+IF ~Global("CQuestActive","GLOBAL",8)~ THEN BEGIN 16
+  SAY @16
+  IF ~~ THEN EXTERN ~DRIZ2J~ 148
+END
+
+IF ~~ THEN BEGIN 17 // from: CADPRI15
+  SAY @17
+  IF ~!IsValidForPartyDialog("Alissa1")~ THEN DO ~SetGlobal("CQuestActive","GLOBAL",9)
+SaveGame(0)~ UNSOLVED_JOURNAL @571235 EXIT
+  IF ~IsValidForPartyDialog("Alissa1")
+Global("AlissaQuest","GLOBAL",5)~ THEN DO ~SetGlobal("CQuestActive","GLOBAL",9)
+SaveGame(0)~ UNSOLVED_JOURNAL @571235 EXIT
+  IF ~IsValidForPartyDialog("Alissa1")
+Global("AlissaQuest","GLOBAL",4)~ THEN UNSOLVED_JOURNAL @571235 EXTERN ~ALISSA1J~ 5
+IF ~IsValidForPartyDialog("Alissa1")
+Global("AlissaQuest","GLOBAL",1)~ THEN UNSOLVED_JOURNAL @571235 EXTERN ~ALISSA1J~ 5
+END
+
+IF ~Global("CQuestActive","GLOBAL",9)~ THEN BEGIN 18
+  SAY @18
+  IF ~~ THEN REPLY @19 GOTO 19
+  IF ~~ THEN REPLY @20 GOTO 19
+  IF ~~ THEN REPLY @21 GOTO 21
+  IF ~~ THEN REPLY @22 DO ~RestParty()~ EXIT
+  IF ~~ THEN REPLY @23 EXIT
+END
+
+IF ~~ THEN BEGIN 19 // from: 25.1 25.0 18.1 18.0
+  SAY @24
+  IF ~~ THEN GOTO 20
+END
+
+IF ~~ THEN BEGIN 20 // from: 19.0
+  SAY @25
+  IF ~~ THEN DO ~SetGlobal("CQuestActive","GLOBAL",10)~ UNSOLVED_JOURNAL @571236 EXIT
+END
+
+IF ~~ THEN BEGIN 21 // from: 18.2
+  SAY @26
+  IF ~~ THEN REPLY @27 GOTO 22
+  IF ~~ THEN REPLY @28 GOTO 23
+  IF ~~ THEN REPLY @29 GOTO 24
+  IF ~~ THEN REPLY @30 GOTO 25
+END
+
+IF ~~ THEN BEGIN 22 // from: 24.0 23.0 21.0
+  SAY @31
+  IF ~~ THEN REPLY @28 GOTO 23
+  IF ~~ THEN REPLY @29 GOTO 24
+  IF ~~ THEN REPLY @32 GOTO 25
+END
+
+IF ~~ THEN BEGIN 23 // from: 24.1 22.0 21.1
+  SAY @33
+  IF ~~ THEN REPLY @27 GOTO 22
+  IF ~~ THEN REPLY @29 GOTO 24
+  IF ~~ THEN REPLY @32 GOTO 25
+END
+
+IF ~~ THEN BEGIN 24 // from: 23.1 22.1 21.2
+  SAY @34
+  IF ~~ THEN REPLY @27 GOTO 22
+  IF ~~ THEN REPLY @28 GOTO 23
+  IF ~~ THEN REPLY @32 GOTO 25
+END
+
+IF ~~ THEN BEGIN 25 // from: 24.2 23.2 22.2 21.3
+  SAY @35
+  IF ~~ THEN REPLY @36 GOTO 19
+  IF ~~ THEN REPLY @20 GOTO 19
+  IF ~~ THEN REPLY @22 DO ~RestParty()~ EXIT
+  IF ~~ THEN REPLY @23 EXIT
+END
+
+IF ~~ THEN BEGIN 26 // from:
+  SAY @37
+  IF ~~ THEN GOTO 27
+END
+
+IF ~~ THEN BEGIN 27 // from: 26.0
+  SAY @38
+  IF ~~ THEN GOTO 28
+END
+
+IF ~~ THEN BEGIN 28 // from: 27.0
+  SAY @18
+  IF ~~ THEN GOTO 29
+END
+
+IF ~~ THEN BEGIN 29 // from: 28.0
+  SAY @39
+  IF ~~ THEN GOTO 30
+END
+
+IF ~~ THEN BEGIN 30 // from: 29.0
+  SAY @40
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 31 // from:
+  SAY @41
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 32 // from: ALISSA1J
+  SAY @42
+  IF ~~ THEN DO ~SetGlobal("Justalittle","RA3707",1)~ EXIT
+END

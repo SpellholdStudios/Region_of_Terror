@@ -1,0 +1,11 @@
+IF
+	Global("SkeletonAttack","RA5001",1)
+	Global("Mymove","LOCALS",0)
+THEN
+	RESPONSE #100
+		SmallWait(1)
+		SetGlobal("Mymove","LOCALS",1)
+		MoveToObject(Player1)
+END
+
+

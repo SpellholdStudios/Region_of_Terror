@@ -1,0 +1,35 @@
+IF
+	Global("Tellofthear","LOCALS",1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@569195)
+		SmallWait(1)
+		SetGlobal("Tellofthear","LOCALS",0)
+	RESPONSE #100
+		DisplayStringHead(Myself,@569196)
+		SmallWait(1)
+		SetGlobal("Tellofthear","LOCALS",0)
+	RESPONSE #100
+		DisplayStringHead(Myself,@569197)
+		SmallWait(1)
+		SetGlobal("Tellofthear","LOCALS",0)
+END
+
+IF
+	Global("Tellofthear","LOCALS",0)
+THEN
+	RESPONSE #100
+		Wait(12)
+		SetGlobal("Tellofthear","LOCALS",1)
+	RESPONSE #100
+		Wait(16)
+		SetGlobal("Tellofthear","LOCALS",1)
+	RESPONSE #100
+		Wait(18)
+		SetGlobal("Tellofthear","LOCALS",1)
+	RESPONSE #100
+		Wait(14)
+		SetGlobal("Tellofthear","LOCALS",1)
+END
+
+

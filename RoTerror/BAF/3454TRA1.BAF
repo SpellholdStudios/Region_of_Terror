@@ -1,0 +1,9 @@
+IF
+	Clicked([ANYONE])
+	Global("Olmtlks","GLOBAL",3)
+THEN
+	RESPONSE #100
+		ActionOverride("Olmar3",MoveBetweenAreas("RR3455",[1182.1560],11))
+END
+
+

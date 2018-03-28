@@ -1,0 +1,26 @@
+IF
+	Range(Player1,20)
+	!Global("Frmrkill","GLOBAL",2)
+	Global("Orcsdiscuss","RA4600",0)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		Wait(1)
+		ActionOverride("OutOrc2",DisplayStringHead(Myself,@568502))
+		Wait(3)
+		DisplayStringHead(Myself,@568503)
+		Wait(3)
+		ActionOverride("OutOrc3",DisplayStringHead(Myself,@568504))
+		Wait(3)
+		FaceObject(Player1)
+		Wait(1)
+		DisplayStringHead(Myself,@568505)
+		Wait(2)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("Orcsdiscuss","RA4600",1)
+END
+
+

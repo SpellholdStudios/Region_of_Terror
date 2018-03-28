@@ -1,0 +1,37 @@
+IF
+	!Range("Malar1",10)
+	!Range("Malar2",10)
+	!Range("Malar3",10)
+	!Range("Malar4",10)
+	!Range("Malar5",10)
+	!Range("Malar6",10)
+	!Range("Malar7",10)
+	!Range("Malar8",10)
+	!Range("Malar9",10)
+	!Range("Malar10",10)
+	!Range("Malar11",10)
+	!Range("Malar12",10)
+	!Range("Malar13",10)
+	!Range("Malar14",10)
+	!Range("Malar15",10)
+	!Range("Malar16",10)
+	!Range("Malar17",10)
+	!Range("Malar18",10)
+	!Range("Malar19",10)
+	!Range("Malar20",10)
+	Range([ENEMY],3)
+THEN
+	RESPONSE #100
+		ActionOverride(NearestEnemyOf(Myself),RunAwayFromNoInterrupt("IwdIn1",3))
+END
+
+IF
+	Dead("GregDemi") // Gregorraxx
+	Global("Suicides","LOCALS",0)
+THEN
+	RESPONSE #100
+		DestroySelf()
+		SetGlobal("Suicides","LOCALS",1)
+END
+
+

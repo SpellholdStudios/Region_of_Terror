@@ -1,0 +1,10 @@
+IF
+	HPLT(Myself,50)
+	Global("Dying","RA5004",0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@570450)
+		SetGlobal("Dying","RA5004",1)
+END
+
+

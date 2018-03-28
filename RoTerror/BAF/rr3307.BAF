@@ -1,0 +1,49 @@
+IF
+	Global("SoulArmorQuest","GLOBAL",6)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		SetGlobal("SoulArmorQuest","GLOBAL",7)
+		FadeToColor([20.0],0)
+		ActionOverride("HedWau1",EscapeAreaMove("RR3308",184,255,8))
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("RR3308","",[156.303],8))
+		ActionOverride(Player2,LeaveAreaLUA("RR3308","",[208.317],7))
+		ActionOverride(Player3,LeaveAreaLUA("RR3308","",[133.320],9))
+		ActionOverride(Player4,LeaveAreaLUA("RR3308","",[304.225],4))
+		ActionOverride(Player5,LeaveAreaLUA("RR3308","",[330.271],5))
+		ActionOverride(Player6,LeaveAreaLUA("RR3308","",[284.307],5))
+END
+
+IF
+	Global("SoulArmorQuest","GLOBAL",5)
+	Dead("HedWau1") // Priest of Waukeen
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("SoulArmorQuest","GLOBAL",11)
+		CreateCreatureObject("Shdw1",Player1,1,0,0) // Shadow
+		Wait(1)
+		ActionOverride("Shdw1",StartDialogueNoSet(Player1))
+END
+
+IF
+	Global("SoulArmorQuest","GLOBAL",12)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		Wait(2)
+		CreateVisualEffectObject("ENCHAT","Shdw1")
+		Wait(2)
+		CreateVisualEffectObject("CONJUH","Shdw1")
+		Wait(5)
+		UnhideGUI()
+		EndCutSceneMode()
+		ActionOverride("Shdw1",StartDialogueNoSet(Player1))
+END
+
+

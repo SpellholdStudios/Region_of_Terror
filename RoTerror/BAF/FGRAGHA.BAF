@@ -1,0 +1,55 @@
+IF
+	Global("FiGrgh","GLOBAL",0)
+	OR(6)
+		See(Player1)
+		See(Player2)
+		See(Player3)
+		See(Player4)
+		See(Player5)
+		See(Player6)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1)
+		SetGlobal("FiGrgh","GLOBAL",1)
+END
+
+IF
+	Global("FiGrgh","GLOBAL",2)
+THEN
+	RESPONSE #100
+		HideGUI()
+		StartCutSceneMode()
+		CutSceneId("FGragha")
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("RR3303","",[3186.894],10))
+		ActionOverride(Player2,LeaveAreaLUA("RR3303","",[3161.911],10))
+		ActionOverride(Player3,LeaveAreaLUA("RR3303","",[3272.928],8))
+		ActionOverride(Player4,LeaveAreaLUA("RR3303","",[3294.956],8))
+		ActionOverride(Player5,LeaveAreaLUA("RR3303","",[3195.959],10))
+		ActionOverride(Player6,LeaveAreaLUA("RR3303","",[3319.915],4))
+		LeaveAreaLUA("RR3303","",[3215.908],10)
+		MoveViewPoint([3186.894],INSTANT)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		UnhideGUI()
+		EndCutSceneMode()
+		SetGlobal("FGragh","GLOBAL",1)
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("FiGrgh","GLOBAL",3)
+THEN
+	RESPONSE #100
+		FadeToColor([20.0],0)
+		Wait(1)
+		LeaveAreaLUA("RR3303","",[302.1973],10)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		SetGlobal("FiGrgh","GLOBAL",4)
+END
+
+

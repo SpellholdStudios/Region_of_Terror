@@ -1,0 +1,97 @@
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,WIZARD_STONE_SKIN)
+		ApplySpell(Myself,WIZARD_SPELL_TRAP)
+		ApplySpell(Myself,WIZARD_MIRROR_IMAGE)
+		ApplySpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+		SetGlobal("Prep","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	StateCheck(Myself,STATE_SILENCED)
+	HaveSpell(WIZARD_VOCALIZE)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_VOCALIZE)
+END
+
+IF
+	Detect([PC])
+	!See(LastSeenBy(Myself))
+	HaveSpell(WIZARD_TRUE_SIGHT)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_TRUE_SIGHT)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	Detect([PC])
+	!See(LastSeenBy(Myself))
+	!HaveSpell(WIZARD_TRUE_SIGHT)
+	Delay(10)
+THEN
+	RESPONSE #100
+		ReallyForceSpell(Myself,WIZARD_TRUE_SIGHT)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("SpellTrigger","LOCALS",0)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,39968) // Spell Trigger - Fired
+		DisplayString(Myself,40249) // Spell Trigger - Dispel Magic
+		ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_ABI_DALZIMS_HORRID_WILTING)
+		DisplayString(Myself,45727) // Spell Trigger - Death Spell
+		ReallyForceSpellRES("GOLDENCL", NearestEnemyOf(Myself)) //WIZARD_GOLDEN_CLOUD
+		DisplayString(Myself,45728) // Spell Trigger - Flesh to Stone Spell
+		ReallyForceSpell(SecondNearestEnemyOf(Myself),WIZARD_FLESH_TO_STONE)
+		SetGlobal("SpellTrigger","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_TIME_STOP)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_TIME_STOP)
+END
+
+IF
+	See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+	HaveSpell(WIZARD_SPELL_STRIKE)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_SPELL_STRIKE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_METEOR_SWARM)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_PROTECTION_FROM_FIRE)
+		Spell(NearestEnemyOf(Myself),WIZARD_METEOR_SWARM)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_WAIL_OF_THE_BANSHEE)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_WAIL_OF_THE_BANSHEE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+

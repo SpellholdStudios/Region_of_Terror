@@ -1,0 +1,36 @@
+IF
+	Global("Killemall","RA5000",0)
+	OR(6)
+		Range(Player1,20)
+		Range(Player2,20)
+		Range(Player3,20)
+		Range(Player4,20)
+		Range(Player5,20)
+		Range(Player6,20)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		HideGUI()
+		MoveViewObject(Player1,INSTANT)
+		Wait(1)
+		ForceSpell(Player6,WIZARD_IMPRISONMENT)
+		ForceSpell(Player5,WIZARD_IMPRISONMENT)
+		ForceSpell(Player4,WIZARD_IMPRISONMENT)
+		ForceSpell(Player3,WIZARD_IMPRISONMENT)
+		ForceSpell(Player2,WIZARD_IMPRISONMENT)
+		ForceSpell(Player1,WIZARD_IMPRISONMENT)
+		SetGlobal("Killemall","RA5000",1)
+		Continue()
+END
+
+IF
+	Global("Killemall","RA5000",1)
+	!StateCheck(Player1,STATE_REALLY_DEAD)
+THEN
+	RESPONSE #100
+		Wait(1)
+		ApplyDamage(Player1,1000,CRUSHING)
+		SetGlobal("Killemall","RA5000",2)
+END
+
+

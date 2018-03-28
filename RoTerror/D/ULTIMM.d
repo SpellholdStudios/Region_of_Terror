@@ -1,0 +1,227 @@
+BEGIN ~ULTIMM~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 DO ~SetGlobal("Theendofallfights","GLOBAL",1)~ GOTO 1
+  IF ~~ THEN REPLY @2 DO ~SetGlobal("Theendofallfights","GLOBAL",1)~ GOTO 1
+  IF ~~ THEN REPLY @3 DO ~SetGlobal("Theendofallfights","GLOBAL",1)~ GOTO 9
+END
+
+IF ~~ THEN BEGIN 1 // from: 0.1 0.0
+  SAY @4
+  IF ~~ THEN REPLY @5 GOTO 2
+  IF ~~ THEN REPLY @6 GOTO 9
+  IF ~~ THEN REPLY @7 GOTO 3
+END
+
+IF ~~ THEN BEGIN 2 // from: 1.0
+  SAY @8
+  IF ~~ THEN DO ~SetGlobal("UltFight","GLOBAL",1)
+Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN 3 // from: 1.2
+  SAY @9
+  IF ~~ THEN REPLY @10 GOTO 4
+  IF ~~ THEN REPLY @11 GOTO 7
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 4 // from: 3.0
+  SAY @13
+  IF ~~ THEN REPLY @14 GOTO 5
+  IF ~~ THEN REPLY @15 GOTO 6
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 5 // from: 8.0 4.0
+  SAY @16
+  IF ~~ THEN REPLY @17 GOTO 11
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 6 // from: 4.1
+  SAY @18
+  IF ~~ THEN REPLY @19 GOTO 11
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 7 // from: 3.1
+  SAY @18
+  IF ~~ THEN REPLY @10 GOTO 8
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 8 // from: 7.0
+  SAY @13
+  IF ~~ THEN REPLY @14 GOTO 5
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 9 // from: 1.1 0.2
+  SAY @13
+  IF ~~ THEN REPLY @14 GOTO 10
+  IF ~~ THEN REPLY @20 GOTO 23
+  IF ~~ THEN REPLY @21 GOTO 26
+END
+
+IF ~~ THEN BEGIN 10 // from: 9.0
+  SAY @16
+  IF ~~ THEN REPLY @17 GOTO 11
+  IF ~~ THEN REPLY @20 GOTO 18
+  IF ~~ THEN REPLY @21 GOTO 21
+END
+
+IF ~~ THEN BEGIN 11 // from: 29.0 27.0 25.0 24.0 22.0 21.0 19.0 18.0 10.0 6.0 5.0
+  SAY @22
+  IF ~CheckStatGT(LastTalkedToBy,16,CHR)~ THEN REPLY @23 GOTO 12
+  IF ~~ THEN REPLY @24 GOTO 12
+  IF ~~ THEN REPLY @25 GOTO 32
+  IF ~~ THEN REPLY @26 DO ~Enemy()
+SetGlobal("UltFight","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 12 // from: 11.1 11.0
+  SAY @27
+  IF ~CheckStatGT(LastTalkedToBy,17,CHR)~ THEN REPLY @25 GOTO 13
+  IF ~~ THEN REPLY @28 GOTO 31
+  IF ~~ THEN REPLY @29 GOTO 13
+  IF ~~ THEN REPLY @26 DO ~Enemy()
+SetGlobal("UltFight","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 13 // from: 12.2 12.0
+  SAY @30
+  IF ~CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY @31 GOTO 14
+  IF ~~ THEN REPLY @32 GOTO 30
+  IF ~~ THEN REPLY @33 GOTO 14
+  IF ~~ THEN REPLY @26 DO ~Enemy()
+SetGlobal("UltFight","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 14 // from: 13.2 13.0
+  SAY @34
+  IF ~CheckStatGT(LastTalkedToBy,19,CHR)~ THEN REPLY @35 GOTO 15
+  IF ~~ THEN REPLY @36 GOTO 15
+  IF ~~ THEN REPLY @37 GOTO 30
+  IF ~~ THEN REPLY @26 /* #65601 */ DO ~Enemy()
+SetGlobal("UltFight","GLOBAL",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 15 // from: 14.1 14.0
+  SAY @38
+  IF ~~ THEN GOTO 16
+END
+
+IF ~~ THEN BEGIN 16 // from: 15.0
+  SAY @39
+  IF ~~ THEN GOTO 17
+END
+
+IF ~~ THEN BEGIN 17 // from: 16.0
+  SAY @40
+  IF ~~ THEN DO ~AddXPObject(Player1,15000)
+AddXPObject(Player2,15000)
+AddXPObject(Player3,15000)
+AddXPObject(Player4,15000)
+AddXPObject(Player5,15000)
+AddXPObject(Player6,15000)
+SetGlobal("UltLeft","GLOBAL",1)
+EscapeArea()~ UNSOLVED_JOURNAL @565641 EXIT
+END
+
+IF ~~ THEN BEGIN 18 // from: 10.1
+  SAY @9
+  IF ~~ THEN REPLY @41 GOTO 11
+  IF ~~ THEN REPLY @21 GOTO 19
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 19 // from: 23.1 18.1
+  SAY @18
+  IF ~~ THEN REPLY @42 GOTO 11
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 20 // from: 29.1 28.1 27.2 26.2 25.1 24.2 23.2 22.1 21.2 19.1 18.2 8.1 7.1 6.1 5.1 4.2 3.2
+  SAY @43
+  IF ~~ THEN DO ~SetGlobal("UltFight","GLOBAL",1)
+Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN 21 // from: 10.2
+  SAY @18
+  IF ~~ THEN REPLY @42 GOTO 11
+  IF ~~ THEN REPLY @20 GOTO 22
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 22 // from: 27.1 21.1
+  SAY @9
+  IF ~~ THEN REPLY @41 GOTO 11
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 23 // from: 9.1
+  SAY @9
+  IF ~~ THEN REPLY @44 GOTO 24
+  IF ~~ THEN REPLY @21 GOTO 19
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 24 // from: 23.0
+  SAY @16
+  IF ~~ THEN REPLY @17 GOTO 11
+  IF ~~ THEN REPLY @45 GOTO 25
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 25 // from: 24.1
+  SAY @18
+  IF ~~ THEN REPLY @42 GOTO 11
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 26 // from: 9.2
+  SAY @18
+  IF ~~ THEN REPLY @44 GOTO 27
+  IF ~~ THEN REPLY @46 GOTO 28
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 27 // from: 26.0
+  SAY @16
+  IF ~~ THEN REPLY @17 GOTO 11
+  IF ~~ THEN REPLY @46 GOTO 22
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 28 // from: 26.1
+  SAY @9
+  IF ~~ THEN REPLY @47 GOTO 29
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 29 // from: 28.0
+  SAY @16
+  IF ~~ THEN REPLY @17 GOTO 11
+  IF ~~ THEN REPLY @12 GOTO 20
+END
+
+IF ~~ THEN BEGIN 30 // from: 14.2 13.1
+  SAY @48
+  IF ~~ THEN DO ~SetGlobal("UltFight","GLOBAL",1)
+Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN 31 // from: 12.1
+  SAY @49
+  IF ~~ THEN DO ~SetGlobal("UltFight","GLOBAL",1)
+Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN 32 // from: 11.2
+  SAY @50
+  IF ~~ THEN DO ~SetGlobal("UltFight","GLOBAL",1)
+Enemy()~ EXIT
+END

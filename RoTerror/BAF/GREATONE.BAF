@@ -1,0 +1,203 @@
+IF
+	See(NearestEnemyOf(Myself))
+	Global("RemoveMagic","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,DRAGON_STONE_SKIN)
+		ForceSpell(LastSeenBy(Myself),WIZARD_DISPEL_MAGIC)
+		SetGlobal("RemoveMagic","LOCALS",1)
+END
+
+IF
+	HPLT(Myself,50)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("RemoveMagic","LOCALS",0)
+		SetGlobal("WingBuffet","LOCALS",0)
+		SetGlobal("Haste","LOCALS",0)
+		SetGlobal("DRAGONFEAR","LOCALS",0)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("DRAGONFEAR","LOCALS",0)
+THEN
+	RESPONSE #100
+		ReallyForceSpell(NearestEnemyOf(Myself),DRAGON_FEAR)
+		SetGlobal("DRAGONFEAR","LOCALS",1)
+		SetGlobalTimer("SILVERDRAGONBREATH","GLOBAL",1)
+		SetGlobalTimer("SILVERDRAGONBREATH2","GLOBAL",1)
+		ForceSpell(LastSeenBy(Myself),DRAGON_WING_BUFFET)
+END
+
+IF
+	OR(2)
+		GlobalTimerExpired("SILVERDRAGONBREATH2","GLOBAL")
+		GlobalTimerExpired("SILVERDRAGONBREATH","GLOBAL")
+	See(NearestEnemyOf(Myself))
+	Range(LastSeenBy(Myself),11)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),DRAGON_WING_BUFFET)
+	RESPONSE #60
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(LastSeenBy(Myself),8)
+	GlobalTimerExpired("SILVERDRAGONBREATH2","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("WingBuffet","LOCALS",0)
+		ForceSpellRES("ROT3169",LastSeenBy(Myself))      //BROWN_HIT
+		SetGlobalTimer("SILVERDRAGONBREATH2","GLOBAL",12)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),5)
+	GlobalTimerExpired("SILVERDRAGONBREATH","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("WingBuffet","LOCALS",0)
+		ForceSpellRES("ROT3171",LastSeenBy(Myself))      //GOLD_BREATHE
+		SetGlobalTimer("SILVERDRAGONBREATH","GLOBAL",24)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(LastSeenBy(Myself),5)
+	GlobalTimerExpired("SILVERDRAGONBREATH","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("WingBuffet","LOCALS",0)
+		ForceSpellRES("ROT3169",LastSeenBy(Myself))      //BROWN_HIT
+		SetGlobalTimer("SILVERDRAGONBREATH","GLOBAL",24)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("SpellTurn","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_DEATH_WARD)
+		SetGlobal("SpellTurn","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("DeathWard","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpellRES("ROT3170",SecondNearestEnemyOf(Myself))       //BROWN_DOOMSDAY
+		SetGlobal("DeathWard","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("IceStorm","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_TIME_STOP)
+		SetGlobal("IceStorm","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("SomeSpell","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpellRES("GOLDENCL", LastSeenBy(Myself)) //WIZARD_GOLDEN_CLOUD
+		SetGlobal("SomeSpell","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("StoneSkin","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,DRAGON_STONE_SKIN)
+		SetGlobal("StoneSkin","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Offense1","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),WIZARD_GREATER_MALISON)
+		SetGlobal("Offense1","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Haste","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_HASTE)
+		SetGlobal("Haste","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Invisible","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_ABSOLUTE_IMMUNITY)
+		SetGlobal("Invisible","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("HoldPerson","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),WIZARD_METEOR_SWARM)
+		SetGlobal("HoldPerson","LOCALS",1)
+END
+
+IF
+	Global("Silence","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell(LastSeenBy(Myself),DRAGON_SILENCE)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	HPLT(Myself,100)
+	GlobalLT("MediumWounds","LOCALS",2)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_CURE_SERIOUS_WOUNDS)
+		IncrementGlobal("MediumWounds","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),35)
+	RESPONSE #10
+		ForceSpell(LastSeenBy(Myself),WIZARD_CHROMATIC_ORB)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf(Myself))
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+

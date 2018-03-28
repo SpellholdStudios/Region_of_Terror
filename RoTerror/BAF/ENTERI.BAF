@@ -1,0 +1,100 @@
+IF
+	HPLT(Myself,200)
+	Global("EntDristo","RR4005",0)
+THEN
+	RESPONSE #100
+		UseItem("StoPot","Enteri") // Potion of Stoneskin
+		Wait(1)
+		DisplayStringHead(Myself,@566015)
+		SetGlobal("EntDristo","RR4005",1)
+END
+
+IF
+	HPLT(Myself,100)
+	Global("EntDrinksPots","RR4005",0)
+THEN
+	RESPONSE #100
+		SmallWait(3)
+		UseItem("POTN52","Enteri") // Potion of Extra Healing
+		SetGlobal("EntDrinksPots","RR4005",1)
+END
+
+IF
+	HPLT(Myself,20)
+	Global("Fibattythig","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Wait(1)
+		ClearAllActions()
+		HideGUI()
+		StartCutSceneMode()
+		SmallWait(3)
+		UseItem("POTN10","Enteri") // Potion of Invisibility
+		SmallWait(1)
+		ActionOverride(Player1,ReallyForceSpell("Driz2",CLERIC_PROTECTION_FROM_LIGHTNING))
+		MoveToPoint([657.248])
+		MoveViewPoint([657.248],INSTANT)
+		Wait(1)
+		ActionOverride("Driz2",DisplayStringHead(Myself,@565991))
+		Wait(4)
+		ActionOverride("Driz2",MoveToPoint([513.362]))
+		Wait(2)
+		FaceObject("Driz2")
+		DisplayStringHead(Myself,@565984)
+		SmallWait(5)
+		ActionOverride("Driz2",FaceObject("Enteri"))
+		Wait(4)
+		MoveToObject("Driz2")
+		Wait(2)
+		ActionOverride(Player1,ReallyForceSpell("Enteri",CLERIC_TRUE_SIGHT))
+		CreateVisualEffect("RedSkull",[513.362])
+		Swing()
+		CreateVisualEffect("EXPLODE",[513.362])
+		SmallWait(1)
+		CreateVisualEffect("FlameS",[513.362])
+		PlaySound("EFF_P19")
+		SmallWait(1)
+		ActionOverride("Driz2",DisplayStringHead(Myself,@565985))
+		Wait(2)
+		ActionOverride("Driz2",PlayDeadInterruptable(1600))
+		SmallWait(1)
+		FaceObject("Driz2")
+		Wait(1)
+		DisplayStringHead(Myself,@565986)
+		Wait(5)
+		CreateCreature("Catt2",[627.177],2) // Catti-Brie
+		SmallWait(1)
+		FaceObject("Catt2")
+		ActionOverride("Catt2",FaceObject("Enteri"))
+		Wait(2)
+		DisplayStringHead(Myself,@565989)
+		Wait(4)
+		MoveToPoint([633.310])
+		ActionOverride("Catt2",DisplayStringHead(Myself,@566025))
+		Wait(3)
+		FaceObject("Catt2")
+		Wait(1)
+		ActionOverride("Catt2",FaceObject("Driz2"))
+		SmallWait(1)
+		ActionOverride(Player1,ForceSpellRES("ROT_SLOW","Driz2")) //SLOW_AREA
+		ActionOverride("Catt2",AttackOneRound("Driz2"))
+		Wait(3)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride(Player1,ForceSpell("Driz2",CLERIC_RESURRECTION))
+		ActionOverride(Player1,ForceSpell("Driz2",CLERIC_RESTORATION))
+		SmallWait(1)
+		ActionOverride("Catt2",DestroyItem("CaBow2")) // Taulmaril the Heartseeker +5
+		SmallWait(1)
+		ActionOverride("Catt2",EquipRanged())
+		SmallWait(1)
+		SetGlobal("Drizcanbkn","GLOBAL",1)
+		Kill("Driz2")
+		Wait(1)
+		ActionOverride("Driz2",LeaveParty())
+		SmallWait(1)
+		SetGlobal("Fibattythig","GLOBAL",1)
+		EndCutSceneMode()
+END
+
+

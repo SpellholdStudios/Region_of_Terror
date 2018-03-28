@@ -1,0 +1,100 @@
+IF
+	Global("FigEdw","GLOBAL",2)
+THEN
+	RESPONSE #100
+		Wait(2)
+		SetGlobal("FigEdw","GLOBAL",3)
+		StartDialog("StaffM11","Edwin")
+END
+
+IF
+	Global("DedEdw","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("DedEdw","GLOBAL",2)
+		StartDialog("StaffM11","Edwin")
+END
+
+IF
+	Global("FigEdw","GLOBAL",12)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("FigEdw","GLOBAL",13)
+		StartDialog("StaffM11","Edwin")
+END
+
+IF
+	Global("FigAer","GLOBAL",2)
+THEN
+	RESPONSE #100
+		Wait(2)
+		SetGlobal("FigAer","GLOBAL",3)
+		StartDialog("StaffM11","Aerie")
+END
+
+IF
+	Global("DedAr","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("DedAr","GLOBAL",2)
+		StartDialog("StaffM11","Aerie")
+END
+
+IF
+	Global("FigAer","GLOBAL",12)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("FigAer","GLOBAL",13)
+		StartDialog("StaffM11","Aerie")
+END
+
+IF
+	Global("FigPla","GLOBAL",2)
+THEN
+	RESPONSE #100
+		Wait(2)
+		SetGlobal("FigPla","GLOBAL",3)
+		StartDialog("StaffM11",Player1)
+END
+
+IF
+	Global("FigPla","GLOBAL",12)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("FigPla","GLOBAL",13)
+		StartDialog("StaffM11",Player1)
+END
+
+IF
+	Global("FigRan","GLOBAL",2)
+THEN
+	RESPONSE #100
+		Wait(2)
+		SetGlobal("FigRan","GLOBAL",3)
+		StartDialog("StaffM11","Randall")
+END
+
+IF
+	Global("DedRan","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("DedRan","GLOBAL",2)
+		StartDialog("StaffM11","Randall")
+END
+
+IF
+	Global("FigRan","GLOBAL",12)
+THEN
+	RESPONSE #100
+		Wait(1)
+		SetGlobal("FigRan","GLOBAL",13)
+		StartDialog("StaffM11","Randall")
+END
+
+
