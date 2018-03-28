@@ -1,9 +1,0 @@
-@0    = ~Ich werde Euch etwas über die Erschaffung neuer Klassen beibringen. Es gibt drei Werkzeuge dafür: Kit Creator, Kit Checker und Kit Editor. Man sollte aber nur ein Werkzeug benutzen.~
-
-@1    = ~Der checker tut wie der Name schon sagt. Er checkt ob es Probleme mit den Klassen gibt. Dieses Werkzeug habe ich nie benutzt.~
-
-@2    = ~Der Editor ist sehr unsicher, aber denoch ein gutes Werkzeug.~
-
-@3    = ~Der Creator ist sehr einfach zu benutzen. Er erklärt sich fast von selbst, daher hier keine näheren Informationen.~
-
-@4    = ~Eines solltet Ihr noch wissen. Eure neue Klasse wird als 2DA Datei in den override - Ordner kopiert. Sie kann mit NotePad oder WordPad editiert werden.~
