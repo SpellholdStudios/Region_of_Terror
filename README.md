@@ -1,6 +1,24 @@
 # RoTerror-EE
 # CtB-EE
- 
+********************************************
+*** v 3.1 EE - 2018, March
+********************************************
+- compatibility with EE/EET and SOA/TOB/BGT
+
+********************************************
+*** v 3.0 EE - 2017, July
+********************************************
+- baseline RoT 2.1
+- compatibility with EE/EET
+- files patched with BWFixpack corrections (except tp2, see point below)
+- files patched and amended by Ikki's patch
+- tp2 from Ikki's patch
+- gui folder removed (not used anymore)
+- added folder PVRZ for new Tis files for EE games
+- amended tp2 to use Handle Tileset for old game but copy new PVRZ folder contents for EE
+- moved TP2 into folder
+- cleaned package from some unused files
+- cleaned tp2 from unused (commented out) code for better readability
 
                        REGION OF TERROR README
                                 V1.0A
