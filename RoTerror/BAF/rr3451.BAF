@@ -65,17 +65,10 @@ THEN
 	RESPONSE #100
 		ClearAllActions()
 		HideGUI()
-		StartCutSceneMode()
-		Wait(1)
-		FadeToColor([20.0],0)
-		Wait(1)
-		EndCutSceneMode()
-		RestParty()
 		SmallWait(1)
 		SetGlobal("LiedOlm1","RR3451",2)
 		StartCutSceneMode()
 		StartCutScene("TalSid")
-//		Continue()
 END
 
 IF
@@ -84,18 +77,11 @@ THEN
 	RESPONSE #100
 		ClearAllActions()
 		HideGUI()
-		StartCutSceneMode()
-		Wait(1)
-		FadeToColor([20.0],0)
-		Wait(1)
-		EndCutSceneMode()
-		RestParty()
 		SmallWait(1)
 		SetGlobal("TruthOlm","RR3451",2)
 		SetGlobal("OlmReg","GLOBAL",1)
 		StartCutSceneMode()
 		StartCutScene("OlmSid")
-//		Continue()
 END
 
 IF
