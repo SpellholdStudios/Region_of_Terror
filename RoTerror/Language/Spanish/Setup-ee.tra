@@ -1,0 +1,2428 @@
+@957  = ~El mayal es un robusto mango de madera enganchado a una barra de hierro, una vara de madera con pinchos o una bola de hierro con pinchos. Las dos partes están unidas por un gozne o una cadena. El arma fue originalmente usada para machacar el grano. Este mayal ha sido encantado con una gema mágica.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ 50% de resistencia al ácido
+
+Daño:  1d6+4, +3 de daño ácido
+THAC0: Bonificador +3
+Tipo de daño: Contundente
+Peso: 15
+Factor de velocidad: 5
+Talento marcial: Mayal/Lucero del alba
+Tipo:  1 mano
+Requiere: 13 Fuerza~
+@962  = ~Colmillo Egido +4
+
+Esta arma fue forjada por Bruenor Martillodeguerra como regalo para Wulfgar y el más fuerte de sus encantamientos solo funciona mientras está en manos del joven guerrero. Bruenor lleva con gran orgullo esta arma. Es su mejor trabajo.
+
+ESTADISTICAS:
+
+Daño:  2d4+4
+THAC0: Bonificador +4
+Peso: 3
+Factor de velocidad: 5
+Talento marcial: Martillo de guerra
+Tipo:   1 mano
+Requiere: 18 Fuerza~
+@975  = ~Los orígenes de este amuleto son desconocidos, así que en realidad nadie sabe quién lo hizo y donde. Es probable que se encontrara en una bolsa planar de algún tipo porque los amuletos de este tipo son muy raros en el mundo de Faerun.
+
+ESTADISTICAS:
+
+Otorga un hechizo extra de niveles 1-4~
+@988  = ~Esta espada fue usada para salvar la Puerta de Baldur de una horda de monstruos. Era llevada por el gran héroe, Tapio Perkiomaki.
+
+ESTADISTICAS:
+
+Daño:  1d10+4
+THAC0: Bonificador +4
+Tipo de daño: Cuchillada
+Peso: 10
+Factor de velocidad:  6
+Talento marcial:  Espada grande
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@997  = ~Los Ladrones de las Sombras hicieron esta daga para ayudar a sus asesinos a completar sus trabajos. Esta daga se puede lanzar y regresa a las manos de su lanzador, haciéndola increíblemente útil para los asesinatos. También vuelve invisible al portador.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Destreza +2
+ Invisibilidad
+
+Daño:  1d4+3
+THAC0: Bonificador +3 
+Tipo de daño: Perforante
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Daga
+Tipo:  1 mano
+Requiere: 3 Fuerza~
+@999  = ~También conocida como la llave de la mano y media, la espada bastarda recibe este nombre del hecho de que está a medio camino entre la espada de dos manos y la espada larga. Se trata de una espada bastarda mágica.
+
+ESTADISTICAS:
+
+Daño: 2d4+2
+THAC0: Bonificador +4
+Tipo de daño: Cuchillada
+Peso:  9
+Factor de velocidad: 6
+Talento marcial: Espada bastarda
+Tipo:  1 mano
+Requiere: 11 Fuerza~
+@1001 = ~También conocida como la llave de la mano y media, la espada bastarda recibe este nombre del hecho de que está a medio camino entre la espada de dos manos y la espada larga. Se trata de una espada bastarda mágica.
+
+ESTADISTICAS:
+
+Daño:  2d4+4
+THAC0: Bonificador +2
+Tipo de daño: Cuchillada
+Peso:  9
+Factor de velocidad: 6
+Talento marcial: Espada bastarda
+Tipo:  1 mano
+Requiere: 11 Fuerza~
+@1003 = ~La Espada de la Desesperación normalmente se ve en manos de siervos de la diosa malvada Shar. Es un símbolo profano que se entrega a los siervos que han entregado fielmente sus vidas a la deidad oscura.
+
+ESTADISTICAS:
+
+Daño: 1d10+3
+THAC0: Bonificador +3
+Tipo de daño: Cuchillada
+Peso: 10
+Factor de velocidad: 7
+Talento marcial: Espada a dos manos
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@1007 = ~Los caballeros a caballo no pueden manejar eficazmente las armas de palo largo, y como consecuencia de ello muchas de las armas disponen de un mango más corto para poder empuñarlas con una sola mano. Las mazas y los mayales son ejemplos anteriores (así como el martillo de guerra). El martillo de guerra del jinete es el descendiente del martillo de Lucerna. Se elabora por entero en acero, con arandelas que protegen y refuerzan la empuñadura. Las arandelas son pequeños discos de metal, que se diseñan a menudo con formas decorativas. El mango mide unos 46 centímetros. Este martillo de guerra ha sido encantado con una gema mágica.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ El objetivo recibe algo de daño por aturdimiento en cada golpe exitoso
+
+Daño: 1d4+3
+THAC0: Bonificador +3
+Tipo de daño:  Contundente
+Peso: 6
+Factor de velocidad: 3
+Talento marcial: Martillo de guerra
+Tipo:  1 mano
+Requiere: 9 Fuerza~
+@1011 = ~La armadura de placas es una combinación de armadura de cota con placas metálicas que cubren las áreas vitales como el pecho, el abdomen y la entrepierna. Semejante en su construcción a la armadura de placas de bronce, la armadura de placas verdadera está compuesta de cota y cuero. Esta armadura de placas ha sido encantada con una gema mágica.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Hechizos de bajo nivel (por abajo del 6) son reflejados al lanzador
+
+Clase de armadura: 1
+Peso: 50
+Requiere: 12 Fuerza~
+@1013 = ~Esta espada es el arma personal del "Miedo". Inflige miedo a los enemigos, pero no se sabe nada más de ella.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ Inflige miedo a los enemigos
+
+Daño: 1d10
+Tipo de daño:  Cuchillada
+Peso: 10
+Factor de velocidad: 7
+Talento marcial: Espada a dos manos
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@1015 = ~Esta espada es el arma personal del "Odio". Inflige daño contundente en los enemigos, pero no se sabe nada más de ella.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ Inflige 2d6 de daño contundente en los enemigos
+
+Daño: 1d10
+Tipo de daño:  Cuchillada
+Peso: 10
+Factor de velocidad: 7
+Talento marcial: Espada a dos manos
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@1017 = ~Esta espada es el arma personal del "Dolor". Inflige daño por veneno en los enemigos, pero no se sabe nada más de ella.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ Inflige 2d6 de daño por veneno en los enemigos
+
+Daño:  1D10
+Tipo de daño:  Cuchillada
+Peso: 10
+Factor de velocidad: 7
+Talento marcial: Espada a dos manos
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@1019 = ~Esta espada es el arma personal de la "Pena". Causa enfermedad en los enemigos, pero no se sabe nada más de ella.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ Inflige enfermedad en los enemigos
+
+Daño: 1d10
+Tipo de daño:  Cuchillada
+Peso: 10
+Factor de velocidad: 7
+Talento marcial: Espada a dos manos
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@1023 = ~Esta espada está dividida entre las fuerzas del bien y el mal. Estas dos fuerzas luchan un combate eterno en la espada que brilla con el color de la oscuridad y el color de la luz. La espada no puede ser llevada por criaturas neutrales. Tiene que ser usada o por el bien o por el mal. Hoy en día, raramente se encuentran espadas con los dos poderes. 
+
+ESTADISTICAS:
+
+Habilidades en combate:
+  Si la criatura objetivo falla su salvación contra conjuros durante los siguientes 30 segundos todos sus hechizos son afectados por magia salvaje
+
+Daño: 1d12+4
+THAC0: Bonificador +4
+Tipo de daño:  Cuchillada
+Peso: 10
+Factor de velocidad: 7
+Talento marcial: Espada a dos manos
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@1057 = ~Estos brazaletes son uno de los premios que se dan al ganador de la competición de duelos de magos en la Arena. Han sido creados solo para este propósito y son completamente únicos.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ El mago puede aprender un hechizo extra de niveles 5-8
+
+Clase de armadura: 4
+Peso: 2~
+@1059 = ~Esta hacha fue encontrada por Bruenor Martillodeguerra durante sus aventuras alrededor del mundo. Ha sido la perdición para muchos trasgos y gigantes desafortunados.
+
+ESTADISTICAS:
+
+Daño: 1d8+4, +3 de daño por fuego
+THAC0: Bonificador +4
+Tipo de daño: Cuchillada
+Peso: 7
+Factor de velocidad: 4
+Talento marcial: Hacha
+Requiere: 14 Fuerza~
+@1061 = ~Este es el yelmo personal de Bruenor Martillodeguerra. El otro cuerno del yelmo fue cortado en una batalla. Bruenor le tiene mucho cariño al yelmo y lo lleva incluso cuando duerme.
+
+ESTADISTICAS:
+
+Clase de armadura: Bonificador +1
+Especial:  Protege contra golpes críticos
+Peso: 2~
+@1063 = ~El escudo del Clan de los Martillodeguerra. Hoy en día está en uso por uno de los miembros más jóvenes del clan, Bruenor Martillodeguerra. El escudo originariamente fue forjado por el abuelo de Bruenor y ha estado en la familia desde entonces.
+
+ESTADISTICAS:
+
+Habilidades: Inmunidad a encantamiento, confusión, dominación e inmovilizar persona
+Bonificador a la CA: 3
+Peso: 2
+Requiere: 4 Fuerza~
+@1067 = ~Esta daga es pesada en vuestra mano y es caliente al tacto. Solamente por tenerla en vuestra persona hace sentiros inseguro por alguna razón. La gema montada en la empuñadura parece tener una luz interior de algún tipo, aunque como puede tener tal iluminación y todavía ser tan mortalmente negra en su corazón, no lo sabéis.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ +2 al multiplicador de apuñalamiento por la espalda
+
+Daño: 1d4+4
+THAC0: Bonificador +4
+Tipo de daño:  Perforante
+Peso: 1
+Factor de velocidad: 0 
+Talento marcial: Daga
+Tipo:  1 mano
+Requiere: 3 Fuerza~
+@1069 = ~Este poderoso arco fue encontrado en el Salón de Mithril por Catti-Brie. Se dice que cualquier flecha disparada con él golpea en el objetivo cada vez. También es capaz de fabricar flechas.
+
+ESTADISTICAS:
+
+Habilidades especiales:
+ No necesita munición
+
+Daño:  1d6+5
+THAC0: +5
+Tipo de daño:  Perforante
+Peso: 10
+Talento marcial: Arco largo
+Tipo:   2 manos~
+@1071 = ~Callandor es el símbolo sagrado de los elfos. Uno de sus dioses lo forjó para su sirviente, un líder de una ciudad élfica, cuando toda esperanza había sido condenada, a traer la victoria contra unas bestias atacando la ciudad. Con ayuda de la espada las bestias fueron derrotadas y volvió la paz. Callandor se volvió el símbolo de la victoria contra la oscuridad. Fue fuertemente protegida pero sin embargo alguien se las arregló para robarla. Desde entonces ha pasado de mano en mano, pero no sin derramamientos de sangre.
+
+ESTADISTICAS
+
+Habilidades al equipar: 
+ Bonificador a la CA +2
+ +20% a la resistencia mágica
+
+Habilidades en combate:
+ 20% de posibilidades de enfermar al enemigo
+
+Daño: 1d12+4
+THAC0: Bonificador +4
+Tipo de daño:  Cuchillada
+Peso:  7
+Factor de velocidad: 5
+Talento marcial: Espada a dos manos 
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@1072 = ~Sangre de Dragón
+
+Esta hacha fue encontrada por Bruenor Martillodeguerra durante sus aventuras alrededor del mundo. Había sido la perdición para muchos trasgos y gigantes desafortunados.
+
+ESTADISTICAS:
+
+Daño: 1d8+4, +3 de daño por fuego
+THAC0: Bonificador +4
+Tipo de daño: Cuchillada
+Peso: 15
+Factor de velocidad: 4
+Talento marcial: Hacha
+Requiere: 14 Fuerza~
+@1080 = ~El mayal es un robusto mango de madera enganchado a una barra de hierro, una vara de madera con pinchos o una bola de hierro con pinchos. Las dos partes están unidas por un gozne o una cadena. Este mayal ha sido encantado con magia de frío.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ 10% de posibilidad de lanzar Cono de frío cuando golpea al objetivo
+
+Daño: 1d6+3, +4 de daño por frío
+THAC0: Bonificador +2
+Tipo de daño:  Contundente
+Peso: 12
+Factor de velocidad: 5
+Talento marcial: Mayal/Lucero del alba
+Tipo:  1 mano
+Requiere: 13 Fuerza~
+@1089 = ~La espada corta fue el primer tipo de espada utilizada y se podría describir como una especie de daga de hoja tan larga que ya deja de ser una daga. En la clasificación de espadas no se incluye el término espada corta. Sin embargo, la utilización de este vocablo se ha generalizado para describir una hoja de doble filo de aproximadamente 60 cm. de longitud. La punta de la espada suele ser afilada, perfecta para apuñalar. Esta espada corta ha sido encantada con la magia contaminada de la Bestia.
+
+ESTADISTICAS:
+
+Daño: 1d6+2, +5 de daño eléctrico
+THAC0: Bonificador +2
+Tipo de daño:  Perforante
+Peso: 2
+Factor de velocidad: 1
+Talento marcial: Espada corta
+Tipo:   1 mano
+Requiere: 5 Fuerza~
+@1091 = ~La alabarda es una de las más antiguas y utilizadas armas de asta. Consiste en una hoja con forma de hacha montada en un asta de 1.80 metros. Es una especie de cruce entre una lanza y un hacha. Esta alabarda ha sido encantada con la magia contaminada de la Bestia.
+
+ESTADISTICAS:
+
+Daño: 1d10+2, +5 de daño eléctrico
+THAC0: Bonificador +2
+Tipo de daño:  Perforante
+Peso: 15
+Factor de velocidad: 7
+Talento marcial: Alabarda
+Tipo:  2 manos
+Requiere: 13 Fuerza~
+@1093 = ~Es la más sencilla y humilde de las armas de palo. La barra es una madera de 180 a 275 centímetros de largo. Una buena barra está hecha de madera de roble y va rematada con metal en ambos extremos. La barra se debe empuñar con ambas manos. Este bastón ha sido encantado con la magia contaminada de la Bestia.
+
+ESTADISTICAS:
+
+Daño: 1d6+2, +5 de daño ácido
+THAC0: Bonificador +2
+Tipo de daño:  Contundente
+Peso: 4
+Factor de velocidad: 4
+Talento marcial: Bastón
+Tipo:  2 manos
+Requiere: 5 Fuerza~
+@1095 = ~La maza deriva directamente del garrote común y se compone simplemente de un asta de madera con una punta de piedra o hierro montada en el extremo. El diseño de la punta varía: unas tienen púas, otras rebordes y otras tienen piezas piramidales. Esta maza ha sido encantada con la magia contaminada de la Bestia.
+
+ESTADISTICAS:
+
+Daño: 1d6+3, +5 de daño por fuego mágico
+THAC0: Bonificador +2
+Tipo de daño:  Contundente
+Peso: 10
+Factor de velocidad: 5
+Talento marcial: Maza
+Tipo:  1 mano
+Requiere: 10 Fuerza~
+@1097 = ~Se trata de una espada maldita que se desenvuelve a la perfección en todas las pruebas excepto en el calor de la batalla. Su portador entrará en la batalla e inmediatamente se volverá loco, matando a todo lo que esté a su alcance hasta que calmarse o caerse inconsciente. Es una espada muy poderosa, pero hay que decidir si merece la pena correr el riesgo. Sólo se puede eliminar con un exorcismo a través de un conjuro de quitar maldición.
+
+ESTADISTICAS:
+
+Daño: 1d10+3
+THAC0: Bonificador +3
+Tipo de daño:  Cuchillada
+Especial:
+    Causa al portador ponerse furioso
+    Solo puede eliminarse con el hechizo 'Quitar maldición'
+Peso: 5
+Factor de velocidad: 2
+Talento marcial: Katana
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1099 = ~Este lucero del alba fue el arma de un gran bárbaro que vivió en Icewind Dale. El arma es muy efectiva contra gigantes y fue temida por los monstruos del valle. Pero finalmente el bárbaro murió en batalla y el arma pasó a los gigantes de la escarcha.
+
+ESTADISTICAS:
+
+Daño: 2d4+3, +3 contra gigantes
+THAC0: Bonificador +3, +3 contra gigantes
+Tipo de daño: Contundente
+Peso: 9
+Factor de velocidad: 5
+Talento marcial: Mayal/Lucero del alba
+Tipo: 1 mano
+Requiere: 11 Fuerza~
+@1101 = ~Esta daga ha sido usada para matar a un demonio llamado Nizz'rim. Nadie sabe quién fue el asesino o qué le sucedió pero la daga fue encontrada en un cuerpo de un orco años después.
+
+ESTADISTICAS:
+
+Daño: 1d4+4
+THAC0: Bonificador +4
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Daga
+Tipo:   1 mano~
+@1113 = ~Se trata de una cimitarra mágica +5, Defensora. Se trata de una de las armas personales de Drizzt Do'Urden. Debido a su naturaleza mágica, sólo los de corazón puro podrán utilizarla.
+
+ESTADISTICAS:
+
+Daño: 1d8+5
+THAC0: Bonificador +5
+Especial: 
+   Bonificador a la CA +2
+Tipo de daño:  Cuchillada
+Peso:  4
+Talento marcial:  Cimitarra/Wakizashi/Ninja-To
+Factor de velocidad:  2
+Tipo:  1 mano
+Requiere: 8 Fuerza~
+@1115 = ~Esta es la cimitarra mágica que Drizzt Do'Urden encontró en una guarida de un dragón. Se sabe que protege al portador del fuego. Ha salvado las vidas tanto de Drizzt como de Bruenor.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  Protección contra el fuego
+
+Daño: 1d8+3
+THAC0: Bonificador +3
+Tipo de daño: Cuchillada
+Peso:  4
+Talento marcial:  Cimitarra/Wakizashi/Ninja-To
+Factor de velocidad:  2
+Tipo:   1 mano
+Requiere: 8 Fuerza~
+@1121 = ~Esta armadura de cuero la lleva el famoso asesino Artemis Entreri. Aumenta mucho al portador los tiros de salvación.
+
+ESTADISTICAS:
+
+Clase de armadura: 3
+Tiros de salvación: Bonificador +3
+Bonificador al sigilo:  20%
+Peso: 5
+Requiere: 8 Fuerza~
+@1123 = ~Estos brazales dan al portador casi una completa protección a la magia. Son el horror de los magos y están en posesión del asesino Artemis Enteri quién se los robó a Kohrim Soulez.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ +80% de resistencia a la magia~
+@1125 = ~Esta es la daga del luchador asesino Artemis Entreri. Es uno de los mejores luchadores en el mundo y su daga es justamente eso. Tiene la habilidad de absorber la fuerza vital de su objetivo y Entreri usa esta habilidad cuando acaba con sus enemigos.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  Celeridad
+
+Habilidades en combate:
+  Veneno (2 puntos de daño por segundo durante 10 segundos)
+
+Daño: 1d4+6
+THAC0: Bonificador +6
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Daga
+Tipo:   1 mano~
+@1131 = ~Un escudo mediano se lleva de la misma manera que uno pequeño, pero, a diferencia de éste, su peso evita que el personaje utilice la mano que lo sujeta para cualquier otra cosa que no sea precisamente esa. Los escudos medianos suelen estar fabricados de metal, tienen entre 90 y 140 centímetros de diámetro y puede ser de cualquier tamaño, desde cuadrado hasta con ala de dragón extendida. El medieval típico se asemeja a un triángulo con uno de sus vértices hacia abajo. Este escudo ha sido encantado con una gema mágica.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  75% de resistencia contra el fuego
+
+Bonificador a la CA: 4
+Peso: 7
+Requiere: 12 Fuerza~
+@1133 = ~Estas espadas generalmente reciben el nombre de espadas de doble filo, de guerra o militares. En muchos casos, la espada larga tiene una hoja de un solo filo. No existe una única versión de la espada larga, ya que su diseño y longitud varían de una cultura a otra, e incluso puede cambiar dentro de una misma cultura dependiendo del período histórico. Una de las características más comunes en todas las espadas largas es su longitud, que oscila entre 90 y 120 centímetros. En el último caso, sólo la hoja llega a medir hasta 1 metro de la longitud total de la espada. La mayoría de las espadas largas son de doble filo y punta afilada. A pesar de tener punta, se diseñan para rasgar, no para apuñalar. Esta espada ha sido encantada con una gema mágica.
+
+ESTADISTICAS:
+
+Daño: 1d8+4, +2 de daño por fuego
+THAC0: Bonificador +4
+Tipo de daño:  Cuchillada
+Peso: 4
+Factor de velocidad: 4
+Talento marcial: Espada larga
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1135 = ~Esta Katana de fuego normalmente está a la par con otras katanas de fuego, aunque recientemente como la Katana de hielo ha empezado a ganar algo de popularidad. Hay varios niveles de poder para la Katana de fuego. Este parece de nivel medio.
+
+ESTADISTICAS:
+
+Daño: 1d10+2, +5 de daño por fuego
+THAC0: Bonificador +2
+Tipo de daño:  Cuchillada
+Peso:  6
+Factor de velocidad: 3
+Talento marcial: Katana
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1137 = ~Este arnés completo ha sido forjado en el norte, en Icewind Dale. Ha sido llenado con protecciones contra el frío y fue originariamente diseñado para luchar contra los gigantes de los alrededores del valle.
+
+ESTADISTICAS:
+
+Habilidades al equipar: 
+  +75% a la resistencia al frío
+
+Clase de armadura:  -2
+Peso: 45
+Requiere: 15 Fuerza~
+@1139 = ~La katana es una espada curvada con un único filo y acabada en punta. Quizá sea una de las mejores espadas que se han fabricado nunca. Los pasos de su creación, un proceso largo y secreto, son más una forma de arte que cualquier otra cosa. Su hoja es una de las facetas más importantes de la cultura de Kara-Tur. Tocar o coger la katana de un samurai es un insulto que atraerá su ira. Que un gaijin o extranjero posea una de estas espadas es algo raro. O el gaijin ha sido honrado por un importante ministro o ha asesinado a un samurai. Esta katana ha sido encantada con una gema mágica.
+
+ESTADISTICAS:
+
+Daño: 1d10+3, +3 de daño por frío
+THAC0: Bonificador +3
+Tipo de daño:  Cuchillada
+Peso:  6
+Factor de velocidad: 4
+Talento marcial: Katana
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1145 = ~La armadura blindada completa es la mejor armadura que puede comprar un guerrero, tanto en aspecto como en protección. Las chapas entrecruzadas, ajustadas perfectamente, están especialmente orientadas para desviar flechas y golpes y todo el traje está cuidadosamente adornado con ricos detalles grabados y repujados. Este arnés completo ha sido encantado con una gema mágica.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  50% de resistencia al frío
+  Da la habilidad de usar Escudo de fuego azul una vez al día
+
+Clase de armadura: -1
+Peso: 70
+Requiere: 15 Fuerza~
+@1147 = ~El escudo corporal, también conocido como escudo de torre o cometa, es un escudo inmenso de metal o de madera que va de la barbilla a los pies. Debe asegurarse firmemente al antebrazo y la mano del escudo debe empuñarlo fuertemente en todo momento. Naturalmente, esto impide que la mano del escudo pueda hacer nada más que mantener el escudo corporal en su sitio. Este escudo ha sido encantado con una gema mágica.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  El portador regenera 1 punto de golpe cada 6 segundos
+
+Habilidades especiales:
+  El portador puede lanzar Protección contra el frío 3 veces al día
+
+Bonificador a la CA: 3
+Especial:  +1 contra armas de proyectil
+Peso: 15
+Requiere: 15 Fuerza~
+@1153 = ~La cota de malla está formada por anillos de metal entrelazados. Siempre está sobre una capa de tela acolchada o de cuero suave para evitar los roces y disminuir el impacto de los golpes. Esta cota de malla ha sido encantada con una gema mágica.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  50% de resistencia contra la magia y el daño mágico
+
+Clase de armadura: 1
+Peso: 40
+Requiere: 8 Fuerza~
+@1155 = ~La alabarda es una de las más antiguas y utilizadas armas de asta. Consiste en una hoja con forma de hacha montada en un asta de 1.80 metros. Es una especie de cruce entre una lanza y un hacha. Esta alabarda ha sido encantada con una gema mágica.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  30% de resistencia contra la magia
+
+Daño: 1d10+4, +7 de daño mágico
+THAC0: Bonificador +4
+Tipo de daño:  Perforante
+Peso: 15
+Factor de velocidad: 6
+Talento marcial: Alabarda
+Tipo:  2 manos
+Requiere: 13 Fuerza~
+@1166 = ~El Martillo de Moradin es uno de los premios que se dan al ganador de la Arena. Cuando miráis a él más atentamente, observáis que es verdaderamente el Martillo legendario de Moradin del cual siempre hablan los enanos...
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  Protección contra las armas normales
+
+Daño: 2d4+4
+THAC0: Bonificador +4
+Tipo de daño:  Contundente
+Peso: 4
+Factor de velocidad: 1
+Talento marcial: Martillo de guerra
+Tipo:  1 mano
+Requiere: 9 Fuerza~
+@1170 = ~Esta armadura de placas lleva las marcas de una familia rica de comerciantes. Ha sido encantada ligeramente y eso incrementa su valor.
+
+ESTADISTICAS:
+
+Clase de armadura: 2
+Peso: 20
+Requiere: 12 Fuerza~
+@1180 = ~Esta espada se recuperó de un lugar de excavación en algún lugar de las Montañas de la Niebla. Su origen es desconocido pero sus habilidades nos. En combate la espada es muy poderosa, pero si se mata alguien usándola, la criatura muerta será resucitada. Después de eso, todas las criaturas resucitadas sentirán su dolor.
+
+ESTADISTICAS:
+
+Daño: 1d10+4
+THAC0: Bonificador +5
+Tipo de daño:  Cuchillada
+Peso: 12
+Factor de velocidad: 5
+Talento marcial: Espada a dos manos
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@1187 = ~La armadura blindada completa es la mejor armadura que puede comprar un guerrero, tanto en aspecto como en protección. Las chapas entrecruzadas, ajustadas perfectamente, están especialmente orientadas para desviar flechas y golpes y todo el traje está cuidadosamente adornado con ricos detalles grabados y repujados. Gracias al trabajo artesanal de Pip Piésgrises, esta armadura de placas completa ha recibido el encantamiento más poderoso de todos, el Ojo de Dios.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ +50% de resistencia contra ácido, veneno, frío, fuego, relámpago y magia
+ Protección contra los muertos vivientes
+
+Habilidades en combate:
+ El portador puede lanzar Golpe de fuego 4 veces por día
+
+Clase de armadura: -4
+Peso: 50
+Requiere: 15 Fuerza~
+@1189 = ~El escudo corporal, también conocido como escudo de torre o cometa, es un escudo inmenso de metal o de madera que va de la barbilla a los pies. Debe asegurarse firmemente al antebrazo y la mano del escudo debe empuñarlo fuertemente en todo momento. Naturalmente, esto impide que la mano del escudo pueda hacer nada más que mantener el escudo corporal en su sitio. Gracias al trabajo artesanal de Pip Piésgrises, este escudo grande ha recibido el encantamiento más poderoso de todos, el Ojo de Dios.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ El portador regenera 1 punto de golpe cada 3 segundos
+ Invisibilidad
+ +3 a todas las tiradas de salvación
+ Bonificador +1 a todas las características
+
+Habilidades en combate:
+ El portador puede lanzar Golpe de fuego 4 veces por día
+
+Bonificador a la CA: 5
+Especial:  +1 contra armas de proyectil
+Peso: 15
+Requiere: 15 Fuerza~
+@1191 = ~Esta Katana de hielo normalmente está a la par con otras katanas de hielo, aunque recientemente como la Katana de fuego ha empezado a ganar algo de popularidad. Hay varios niveles de poder para la Katana de hielo. Este parece de nivel medio.
+
+ESTADISTICAS:
+
+Daño: 1d10+2, +5 de daño por frío
+THAC0: Bonificador +2
+Tipo de daño:  Cuchillada
+Peso:  6
+Factor de velocidad: 3
+Talento marcial: Katana
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1209 = ~Esta es una copia perfecta del Arandil.
+
+ESTADISTICAS:
+
+Daño: 1d8+3
+THAC0: Bonificador +3
+Tipo de daño: Cuchillada
+Peso: 3
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Factor de velocidad: 2
+Tipo:   1 mano
+Requiere: 8 Fuerza~
+@1211 = ~Esta es una de las espadas usadas por Jarlaxle, el antiguo líder de los Bregan Da'erthe.
+
+ESTADISTICAS:
+
+Habilidades al equipar: 
+  Celeridad
+
+Daño: 1d6+4
+THAC0: Bonificador +4s
+Tipo de daño: Perforante
+Peso: 3
+Factor de velocidad: 2
+Talento marcial: Espada corta
+Tipo:   1 mano
+Requiere: 5 Fuerza~
+@1213 = ~Esta es una copia perfecta de la Perdición de Meralchan.
+
+ESTADISTICAS:
+
+Daño: 1d6+3
+THAC0: Bonificador +3
+Tipo de daño: Perforante
+Peso: 3
+Factor de velocidad: 2
+Talento marcial: Espada corta
+Tipo:   1 mano
+Requiere: 5 Fuerza~
+@1215 = ~Esta poderosa cimitarra fue creada en la Infraoscuridad por drows y actualmente está en manos de Jarlaxle.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Regenera 1 punto de golpe cada 5 segundos
+
+Daño: 1d8+4, +5 por frío, +5 por fuego
+THAC0: Bonificador +4
+Tipo de daño: Cuchillada
+Peso: 3
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Factor de velocidad: 2
+Tipo:   1 mano
+Requiere: 8 Fuerza~
+@1217 = ~Este es el premio al ganar el primer día de competiciones de la Arena. La espada parece estar cargada de magia eléctrica.
+
+ESTADISTICAS:
+
+Daño: 1d8+3, +5 de daño por relámpago
+THAC0: Bonificador +3
+Tipo de daño:  Cuchillada
+Peso: 4
+Factor de velocidad: 4
+Talento marcial: Espada larga
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1219 = ~Katana +3
+Uno se puede considerar muy afortunado si encuentra una katana con un encantamiento de +3. Mejorar una katana no es un proceso simple y las katanas de este calibre son muy raras. Normalmente se encuentran en manos de los luchadores más habilidosos de Faerun.
+
+ESTADISTICAS:
+
+Daño: 1d10+3
+THAC0: Bonificador +3
+Tipo de daño:  Cuchillada
+Peso:  5
+Factor de velocidad: 2
+Talento marcial: Katana
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1221 = ~Uno de los premios de la Arena. El arma también es conocida como "El Tormento del Mundo". Un objeto tan poderoso como este puede causar guerras en manos equivocadas.
+
+ESTADISTICAS
+
+Daño: 1D10+4, +2 por fuego, +2 por frío y +2 por relámpago
+THAC0: Bonificador +4
+Tipo de daño:  Cuchillada
+Peso:  4
+Factor de velocidad: 2
+Talento marcial: Katana
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1227 = ~La espada que va a conjunto con los Brazales de Kohrim. Se sabe que esta combinación es capaz de resistir a la magia, absorberla, y usarla contra el atacante. Al menos en las manos adecuadas.
+
+ESTADISTICAS:
+
+Daño: 1d8+4
+THAC0: Bonificador +4
+Tipo de daño:  Cuchillada
+Peso: 8
+Factor de velocidad: 2
+Talento marcial: Espada larga
+Tipo:  1 mano
+Requiere: 8 Fuerza, 14 Inteligencia~
+@1229 = ~Esta espada tiene una especie de inteligencia y puede ser muy peligrosa de llevar. Catti-Brie ganó la lucha mental contra ella y ahora la puede llevar facilmente sin peligro.
+
+ESTADISTICAS:
+
+Daño: 1d8+4
+THAC0: Bonificador +3
+Tipo de daño:  Cuchillada
+Peso: 8
+Factor de velocidad: 2
+Talento marcial: Espada larga
+Tipo:  1 mano
+Requiere: 8 Fuerza, 10 Inteligencia~
+@1231 = ~Uno de los premios de la Arena. Un amuleto increíblemente poderoso con la habilidad de aumentar todas las características en 1 punto.
+
+ESTADISTICAS:
+
+Habilidades especiales:
+ +1 a fuerza, destreza, constitución, inteligencia, sabiduría y carisma
+
+Peso:  2~
+@1235 = ~El Corazón de León es uno de los premios ganados en la Arena. También se le conoce por el nombre de "Sinmiedo".
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  Inmunidad a Hechizo
+  Inmunidad a Dominación
+  Inmunidad a Confusión/Pensamiento estricto/Miedo
+
+Daño: 1d10+6
+THAC0: Bonificador +6
+Tipo de daño:  Cuchillada
+Peso: 10
+Factor de velocidad: 5
+Talento marcial: Espada a dos manos
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@1237 = ~Este amuleto parece tener un diente de un liche en lugar de una gema. El diente brilla con algún tipo de energía mágica. No es prudente tocar el diente directamente con la piel y por eso el amuleto debe colgarse por encima de la ropa.
+
+ESTADISTICAS:
+
+Habilidades especiales:
+  Bonificador a la CA +2
+  Infravisión
+  Protección a la petrificación
+  Inmunidad a armas normales~
+@1239 = ~La espada de Nomal fue forjada hace dos centurias para matar a un demonio que se las había arreglado para escapar hasta la superficie. Había acuchillado a sangre fría a todo el mundo de una pequeña aldea cerca de la ciudad de Arlax. Cuando las noticias sobre el demonio llegaron a la ciudad, un mago llamado Nomal creó esta espada mágica para matar al demonio de un solo golpe. Un valiente guerrero fue enviado para la tarea de matar al demonio. Tuvo éxito pero murió por las heridas que sufrió en la batalla. Cuando un grupo de magos vino a Arlax para ver lo que había sucedido, encontraron los cuerpos del guerrero y del demonio, pero la espada había desaparecido.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+  15% de posibilidades de matar a un demonio con un solo golpe
+
+Daño: 1d6+2 (+2 de daño por frío)
+THAC0: Bonificador +2
+Tipo de daño:  Perforante
+Peso: 2
+Factor de velocidad: 1
+Talento marcial: Espada corta
+Tipo:  1 mano
+Requiere: 5 Fuerza~
+@1244 = ~Este arco místico fue creado por el capitán arquero del rey Hadir. El arco puede crear imágenes espejadas del portador haciendo más difícil a los enemigos que golpeen el objetivo.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Puede crear 4 imágenes espejadas 3 veces por día
+
+Daño: +3
+THAC0: Bonificador +3
+Peso: 7
+Factor de velocidad: 4
+Talento marcial: Arco largo
+Tipo:  2 manos
+Requiere: 18 Fuerza~
+@1246 = ~Uno de los mejores trabajos hechos por los enanos. Como cota de malla, ofrece una protección increíble a su portador.
+
+ESTADISTICAS:
+
+Habilidades especiales: 
+  Inmunidad contra apuñalamiento por la espalda y consunción de niveles
+
+Clase de armadura: -1
+Peso: 8
+Requiere: 8 Fuerza~
+@1252 = ~Hace tiempo un hombre flaco se acercó a una maga y le pidió que le hiciera un amuleto de poder. El amuleto se suponía que mejoraba su agilidad, fuerza y resistencia. El precio se fijó en 3000 piezas de oro y la maga creó el amuleto. Pero fue entonces cuando el hombre traicionó a la maga. La golpeó dejándola inconsciente y escapó. Aunque la maga no era estúpida. Había incluido una pequeña sorpresa en el amuleto. Hacía lo que el hombre había pedido pero eso no era todo. También hace fea la cara del portador y disminuye enormemente las habilidades mentales.
+
+ESTADISTICAS:
+
+Habilidades al equipar: 
+  +3 a constitución, destreza y fuerza
+  Sabiduría, inteligencia y carisma a 3
+
+Especial: 
+  Solo puede eliminarse con el hechizo 'Quitar maldición'~
+@1254 = ~El amuleto del relámpago fue creado para proteger al portador de la electricidad pero por otra parte también también se puede contraatacar con él. Los que usan la electricidad a menudo no están protegidos de ella. Eso hace que el amuleto sea valioso.
+
+ESTADISTICAS:
+
+Habilidades en combate: 
+  Puede lanzar Rayo relampagueante 3 veces por día
+
+Habilidades al equipar:
+  100% de resistencia contra la electricidad~
+@1256 = ~El amuleto Aplastacráneos es conocido por aumentar el daño causado al objetivo. Esto es por que cuando se lleva este amuleto, uno se vuelve más habilidoso al golpear en los lugares adecuados.
+
+ESTADISTICAS:
+
+Habilidades al equipar: 
+  +4 al daño con armas cuerpo a cuerpo~
+@1262 = ~Se sabe que esta hacha reduce las habilidades de los luchadores contrincantes. El tiempo durante el cual las habilidades se reducen es breve, pero muy valioso. Cuando el oponente está inutilizado para atacar adecuadamente, se le puede atacar más libremente haciendo mucho daño. El último propietario del hacha fue Ybrick del Salón de Mithril pero la perdió en la batalla.
+
+ESTADISTICAS:
+
+Habilidades en combate: 
+  Si el enemigo falla la tirada de salvación, su THAC0 aumenta 5 puntos durante una ronda
+
+Daño: 1d8+2
+THAC0: Bonificador +2
+Tipo de daño:  Cuchillada
+Peso: 5
+Factor de velocidad: 3
+Talento marcial: Hacha
+Tipo:  1 mano
+Requiere: 8 Fuerza~
+@1264 = ~La Avistadora está mágicamente encantada y mejora los ojos del portador. Como resultado se puede lanzar el hacha desde lo lejos y sorprender a sus enemigos.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+  Hace 2d6 de daño por frío
+
+Daño: 1d6+3
+THAC0: Bonificador +3
+Tipo de daño (cuerpo a cuerpo):  Cuchillada
+Tipo de daño (lanzada):  proyectil (perforante)
+Especial:  Regresa a las manos del usuario una vez lanzada
+Peso: 4
+Factor de velocidad: 2
+Talento marcial: Hacha
+Tipo:  1 mano
+Requiere: 5 Fuerza~
+@1266 = ~El hacha de la ligereza parece frágil y poderosa pero su apariencia puede decepcionar. La idea de esta hacha es confundir al enemigo. El hacha está fuertemente encantada y no se romperá en combate. Siempre vale la pena ver la cara de perplejidad de los oponentes cuando un arma tan "frágil" como esta hace tanto daño.
+
+ESTADISTICAS:
+
+Daño: 1d8+4
+THAC0: Bonificador +4
+Tipo de daño:  Cuchillada
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Hacha
+Tipo:  1 mano
+Requiere: 3 Fuerza~
+@1268 = ~Este es el fajín del robo, creado especialmente para ladrones. Cuando se lleva puesto, las habilidades del ladrón del portador son aumentadas y por eso es objeto muy valioso para un ladrón. Se sabe que este fajín cambia de propietario de forma más regular que un enano se cambia los calcetines, así que cuando uno lo lleva, debe ir con más cuidado.
+
+ESTADISTICAS:
+
+Bonificador de las habilidades de ladrón: 
+  +20 a todas
+
+Peso:  2~
+@1270 = ~Este fajín obtuvo su nombre de Esa "el Cobarde" Hannula. Esa nació como un cobarde y nada podía cambiar eso. Hizo que le crearan este fajín para que pudiera evitar cualquier hostilidad. A menudo lo llevaba, o lo habría llevado, en un combate cuando bebía en una taberna para que entonces siempre que hubieran problemas, se pusiera rápidamente el cinturón y desapareciera.
+
+ESTADISTICAS:
+
+Habilidades al equipar: 
+  Invisibilidad
+  Bonificador a la CA +2
+
+Peso:  2~
+@1272 = ~El nombre puede desorientar en este caso ya que el fajín protege de todos los encantamientos mágicos. Mientras uno lleva puesto el fajín, no se debe temer que ningún encantamiento pueda ser lanzado hacia él.
+
+ESTADISTICAS:
+
+Habilidades al equipar: 
+  Protección a la escuela de magia 'Encantamiento'
+
+Peso:  2~
+@1274 = ~Una parte del Yelmo de Bengar
+
+Esto parece ser el Yelmo de Bengar, aunque las alas han desaparecido. Originariamente el yelmo perteneció a Bengar, el legendario guerrero, quién desapareció misteriosamente. El yelmo fue encontrado pero sus alas se habían separado de él. Sin ellas el yelmo no tiene ningún poder.
+
+ESTADISTICAS:
+
+Bonificador a la CA:  Ninguno
+Especial:  Protege contra golpes críticos
+Peso: 2~
+@1280 = ~El Yelmo de Bengar fue forjado para un gran guerrero, Bengar. El poder del yelmo está en las alas. Las alas estaban perdidas cuando Bengar desapareció pero ahora se han vuelto ha encontrar de nuevo y están adornando este magnífico pertrecho de la cabeza.
+
+ESTADISTICAS:
+
+Bonificador a la CA: +2
+Especial:  
+  Protege contra golpes críticos
+  Inteligencia puesta en 18
+  Inmunidad a Confusión/Pensamiento estricto/Miedo y Hechizo
+Peso: 2~
+@1286 = ~Estos brazales son unos de los más raros: protegen de toda una raza. En este caso la raza son los Yuan-Ti. Los brazales han sido creados solo para magos. Originariamente solo fueron utilizados por diversión. Como uno es inmune a todos los ataques de Yuan-Ti mientras se llevan, los magos solían andar junto a los prisioneros Yuan-Ti y matarlos, lentamente.
+
+ESTADISTICAS:
+
+Especial:  Protección contra los Yuan-Ti~
+@1288 = ~La historia de estos guantes es una muy triste. Había una vez un hombre, un buen hombre, buscando un camino a la vida eterna. Se volvió su obsesión y lo forzó a perpetrar actos horribles. Mató a cientos de personas y almacenó su 'energía vital' dentro de estos guantes. Se suponía que cuando el portador de estos guantes muriera, conseguiría más vida de las vidas atrapadas dentro de los guantes. Se probó que eso fue una equivocación cuando el hombre murió. En vez de dar vida al portador, los guantes pueden ser usados para dar vida a otro. Se nota que hay algo malvado en ellos y hay que tener agallas para llevarlos. Se dice que si el portador utiliza todas las vidas atrapadas, quedará atrapado a sí mismo.
+
+ESTADISTICAS:
+
+Habilidades especiales: Resurrección una vez por día~
+@1290 = ~Mientras uno lleva estas botas observa un cambio en las habilidades de las manos. Se desconoce porqué fueron creadas unas botas de este tipo; normalmente este tipo de encantamientos están en los brazales.
+
+ESTADISTICAS:
+
+Habilidades al equipar: Destreza puesta en 19
+Peso:  3~
+@1294 = ~A estas botas se las conoce por dar al portador Santuario permanente. Aunque puede ser disipado. Sin embargo pueden ser muy útiles para los exploradores, paladines y clérigos.
+
+ESTADISTICAS:
+
+Habilidades al equipar: Santuario~
+@1300 = ~Este arco fue creado en su origen por un propósito, la caza de un hombre. Un hombre, cuyo nombre se ha perdido en la historia, solía entretenerse cazando esclavos. Usaba unas flechas especiales que "congelaban" el objetivo y entonces acababa con ellos con un disparo limpio en la cabeza.
+
+ESTADISTICAS:
+
+THAC0: Bonificador +3
+Daño: +3
+Talento marcial: Arco largo
+Peso: 8
+Requiere: 18 Fuerza
+Factor de velocidad: 4
+Tipo:  2 manos~
+@1302 = ~Este poderoso arco ha sido encantado con magias que pueden bloquear algunos hechizos que afecten al estado, incluyendo Silencio. Por eso alguna gente clama que mientras se lleva este arco, uno se vuelve más parlanchín de lo normal.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Protección a Silencio
+ Protección a Lentificar y Celeridad
+ Protección contra la Detección
+
+THAC0: Bonificador +2
+Daño: +2 (proyectil)
+Peso: 2
+Factor de velocidad: 4
+Talento marcial: Arco largo
+Tipo:  2 manos
+Requiere: 6 Fuerza~
+@1304 = ~Esta cota de malla fue recuperada de las ruinas de una antigua ciudad. Fue llevada por un soldado de alto rango. Todos los hombres que la encontraron contaban que el hombre con esta cota de malla se mantenía por su propio pié cuando lo encontraron. La razón de su muerte es un misterio.
+
+ESTADISTICAS:
+
+Clase de armadura: 1
+Peso: 9
+Requiere: 8 Fuerza~
+@1306 = ~Henrik el Magnífico es conocido en la historia como un gobernante con buen sentido del humor. Eso se puede observar a partir de esta armadura. El herrero que la forjó también tenía buen sentido del humor. Henrik era conocido por su personalidad habladora así que el herrero añadió un pequeño bonificador al armadura, Silencio. Fue decapitado.
+
+ESTADISTICAS:
+
+Especial:
+  El portador es Silenciado
+
+Bonificadores:
+  +10% de resistencia contra la magia
+  +1 a todas las tiradas de salvación
+
+Clase de armadura: 0
+Peso: 8
+Requiere: 8 Fuerza~
+@1308 = ~La capa de la desaparición da al portador cobertura y velocidad. Cuando se la pone uno instantáneamente, desaparece de los ojos y se ha observado que se mueve más rápido de lo normal. El escudo de la capa desaparece cuando se hace un ataque.
+
+ESTADISTICAS:
+
+Especial: 
+ Celeridad
+ Invisibilidad
+
+Peso:  3~
+@1310 = ~La capa sagrada solo puede ser usada por los que tienen un corazón puro. Mejora la memoria del portador y por eso puede memorizar más hechizos de lo habitual.
+
+ESTADISTICAS
+
+Habilidades al equipar:
+ +1 ranura para hechizos de sacerdote de niveles del 5-7~
+@1313 = ~El manto armado solo está hecho para magos. Regenera al portador la fuerza vital y otorga una 'Armadura espectral' como protección. Estos mantos son bastante comunes en Sembia hace un par de centurias. Hoy en día son bastante raros.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  Armadura espectral
+  Regenera 1 punto de golpe cada 4 segundos~
+@1315 = ~Cuando se golpea con este lucero del alba el objetivo está perdido ya que puede convertirse en piedra por la naturaleza al "desgaste". La leyenda dice que todos los que lo usen finalmente lo probarán a si mismos.
+
+ESTADISTICAS:
+
+Habilidades en combate: Petrificación
+
+Daño: 2d4+3
+THAC0: Bonificador +3
+Tipo de daño:  Contundente
+Peso: 10
+Factor de velocidad: 4
+Talento marcial: Mayal/Lucero del alba
+Tipo:  1 mano
+Requiere: 10 Fuerza~
+@1317 = ~El lucero del alba de Cervan se volvió famoso por su habilidad de poner furiosos a los enemigos. Cuando se golpea con esta arma, uno se vuelve ciego de rabia atacando a cualquiera que vea. Una herramienta perfecta para crear desorden entre los enemigos.
+
+ESTADISTICAS:
+
+Habilidades en combate: Poner furioso al objetivo
+
+Daño: 2d4+4
+THAC0: Bonificador +4
+Tipo de daño:  Contundente
+Peso: 9
+Factor de velocidad: 3
+Talento marcial: Mayal/Lucero del alba
+Tipo:  1 mano
+Requiere: 11 Fuerza~
+@1326 = ~La Llama del Portador de la Tormenta, el Infierno del Norte, la Espada Que Fue Rota: la Espada de Cristal. Forjada durante la Era de los Trastornos, rota en los campos de batalla de Havannock, y ahora forjada de nuevo como una para llevar la muerte a todos los enemigos.
+
+El proceso de creación de la Espada de Cristal es desconocido. Se dice que es de origen divino pero eso no ha sido demostrado. En cualquier caso fue llevada por uno de los más poderosos guerreros en la Era de los Trastornos; Travis Portador de la Tormenta. Se rompió en la batalla de Havannock cuando murió Travis. Las piezas estaban perdidas hasta que recientemente se encontraron y forjaron en una por el herrero Brundor.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ Bonificador: 90% de posibilidad de que la espada haga un daño de 1-10 de cualquier tipo al azar al enemigo.
+
+Daño: 1d10+6
+THAC0: Bonificador +6
+Tipo de daño:  Cuchillada
+Peso:  7
+Factor de velocidad: 3
+Talento marcial: Espada a dos manos
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@1328 = ~Esta poderosa daga ha sido encantada con magia de frío y con la habilidad de que retorne cuando se lanza. La forma más común de utilizarla es lanzándola.
+
+ESTADISTICAS:
+
+Especial: Regresa a la mano cuando se lanza
+
+Daño: 1d4+4, +2d4 de daño por frío
+THAC0: Bonificador +4
+Tipo de daño:  Perforante
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Daga
+Tipo:  1 mano
+Requiere: 3 Fuerza~
+@1330 = ~La daga típica tiene una hoja puntiaguda de doble filo, al contrario que el cuchillo, que sólo tiene un filo y es un poco más corto que la daga. Esta daga ha sido encantada con varios hechizos de protección.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Protección a Confusión/Pensamiento estricto/Miedo, Horror y Silencio
+ Libertad de movimientos
+ No-detección
+
+Daño: 1d4+2
+THAC0: Bonificador +2
+Tipo de daño:  Perforante
+Peso: 1
+Factor de velocidad: 1
+Talento marcial: Daga
+Tipo:  1 mano
+Requiere: 3 Fuerza~
+@1332 = ~Los dardos son proyectiles pequeños, fáciles de ocultar que se lanzan, más que dispararse, con un arco u otro artilugio. Este dardo parece crepitar con energía y cuando golpea el objetivo, una chispa eléctrica lo hiere.
+
+ESTADISTICAS:
+
+Daño: 1d3+1, +2d4 por daño eléctrico
+THAC0: Bonificador +1
+Tipo de daño:  proyectil (perforante)
+Peso: 0
+Factor de velocidad: 1
+Talento marcial: Dardo
+Tipo:  1 mano~
+@1334 = ~Los dardos son proyectiles pequeños, fáciles de ocultar que se lanzan, más que dispararse, con un arco u otro artilugio. Este dardo hace que el objetivo se convierta en piedra si perfora su piel. De forma inmediata, cuando el dardo toca la sangre de la víctima, la petrifica. Se debe ir con cuidado cuando se usan. Una pequeña herida del filo de uno de éstos puede ser mortal.
+
+ESTADISTICAS:
+
+Habilidad en combate:
+ Petrificación si el objetivo falla su tiro de salvación, la resistencia puede salvar
+
+Daño: 1d3+2
+THAC0: Bonificador +2
+Tipo de daño:  proyectil (perforante)
+Peso: 0
+Factor de velocidad: 1
+Talento marcial: Dardo
+Tipo:  1 mano~
+@1336 = ~La Leyenda Enana está encantada con las runas de Clangeddin y de Moradin. El significado para un enano es grande, como lo es su poder. Hay una posibilidad en cada golpe que la fuerza de Moradin y de Clangeddin despierte y haga un daño extra al objetivo. También hay una posibilidad de que el poder divino mate aun gigante de un solo golpe.
+
+ESTADISTICAS:
+
+Habilidades en combate: 
+  El hacha regresa a manos del portador de forma instantánea después de hacer un ataque
+  10% de posibilidades de que haga 4d10 de daño contundente al objetivo
+  25% de posibilidades de matar gigantes de fuego y de la escarcha de un solo golpe
+
+Daño: 1d6+4
+THAC0: Bonificador +4
+Tipo de daño (cuerpo a cuerpo):  Cuchillada
+Tipo de daño (lanzada):  proyectil (perforante)
+Especial:  Regresa a las manos del usuario una vez lanzada
+Peso: 3
+Factor de velocidad: 1
+Talento marcial: Hacha
+Tipo:  1 mano
+Requiere: 4 Fuerza~
+@1338 = ~Este mayal es famoso por proteger al portador de todo tipo de ataques de muerte instantánea. La posibilidad de morir todavía es muy real pero usando este mayal uno puede evitar sorpresas con hechizos de muerte inesperados. Seguro que queréis saber que os ha matado.
+
+ESTADISTICAS:
+
+Habilidades al equipar: Protección de la muerte instantánea
+
+Daño: 1d6+3
+THAC0: Bonificador +2
+Tipo de daño:  Contundente
+Peso: 10
+Factor de velocidad: 5
+Talento marcial: Mayal/Lucero del alba
+Tipo:  1 mano
+Requiere: 13 Fuerza~
+@1340 = ~Fue en la víspera de una batalla cuando Sermak el Grande escapó. Los orcos se acercaban a la ciudad de Albagar. Los hombres fueron dejados sin un líder. Las mujeres y niños se ponían a salvo en las montañas con una pequeña escolta. La ciudad fue atacada y la derrota estaba cerca. Fue entonces en los primeros rayos de sol del quinto día cuando Sermak el Grande regresó llevando una nueva arma. Solo se dirigió a la retaguardia del enemigo mientras sus hombres atacaron desde el frente. Desafortunadamente eran demasiados incluso para el Amanecer en la batalla de la ciudad y el mayal se perdieron totalmente.
+
+ESTADISTICAS:
+
+Habilidades en combate: 
+  Mata orcos con un solo golpe
+
+Habilidades al equipar: 
+  Protección +1 contra armas menores
+
+Daño: 1d6+5
+THAC0: Bonificador +5
+Tipo de daño:  Contundente
+Peso: 5
+Factor de velocidad: 1
+Talento marcial: Mayal/Lucero del alba
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1342 = ~Arnés completo maldito
+
+Angmar fue un herrero muy habilidoso. Es el que forjó esta poderosa armadura. Fue a ver a su rey que estaba muy agradecido y recompensó bien a Angmar. Desafortunadamente un competidor de Angmar había tenido la oportunidad de maldecir la armadura. Cuando se percataron de la maldición, Angmar fue forzado al exilio.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ -2 al THAC0
+ -5 al daño
+
+Especial: Solo se puede eliminar con el hechizo 'Quitar maldición'
+
+Clase de armadura: -4
+Peso: 35
+Requiere: 15 Fuerza~
+@1344 = ~Esta armadura está hecha de pura maldad y no se recuerda cual fue su origen. El odio por el bien puede sentirse claramente cuando se lleva la armadura y por eso aquellos con la oscuridad en su corazón la pueden llevar. La armadura ofrece bonificaciones al ataque contra criaturas del bien.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ +2 al daño contra criaturas buenas
+ -2 al THAC0 contra criaturas buenas
+
+Clase de armadura: -3
+Peso: 30
+Requiere: 15 Fuerza~
+@1346 = ~Esta armadura contiene la sangre de un troll que otorga al portador una habilidad similar como tienen los trolls, la regeneración. Cualquiera que lleve esta armadura observa inmediatamente que se siente mejor y odiaría quitársela.
+
+ESTADISTICAS:
+
+Habilidades al equipar: Regenera 1 punto de golpe cada 3 segundos
+
+Clase de armadura: -2
+Peso: 35
+Requiere: 15 Fuerza~
+@1348 = ~Este conjunto de armadura está formado de las escamas entrelazadas de un dragón de la sombra y por encima de ellas las escamas de un dragón dorado. Un trabajo elegante y prácticas consideraciones hacen que esta arma sea tanto hermosa como útil. Las escamas del dragón de la sombra otorgan al portador una protección extra al ácido y las escamas del dragón dorado otorgan una protección completa a la electricidad. Las escalas juntas forman una fuerte combinación haciendo esta armadura extremadamente difícil de penetrar.
+
+ESTADISTICAS:
+
+Bonificadores: 
+  +50% de resistencia al ácido
+  +100% de resistencia a la electricidad
+
+Clase de armadura: -3
+Peso: 15
+Requiere: 8 Fuerza~
+@1352 = ~Este yelmo aumenta la velocidad tanto del cuerpo como de la mente. Mientras se lleva uno observa que es capaz de pensar y moverse más rápido. Eso hace que golpear al objetivo sea más sencillo y evitar los golpes se vuelve más fácil. La 'Celeridad' que proporciona el yelmo puede disiparse pero sin embargo el yelmo da bonificadores al ataque y a la defensa.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Inteligencia puesta en 18
+ Celeridad mejorada
+
+THAC0: Bonificador +1
+Bonificador a la CA: +1
+Especial: Protege contra golpes críticos
+Peso: 2~
+@1354 = ~La leyenda nos cuenta que esta clase en particular de piedra ioun está creada artesanalmente con el alma encerrada de un gigante del fuego. Esta piedra ioun de brillo anaranjado otorga al portador la fuerza de un gigante.
+
+ESTADISTICAS:
+
+Habilidades: Fuerza puesta en 22
+Bonificador a la CA: Ninguno
+Peso: 2~
+@1356 = ~El yelmo de mente fuerte protege a su portador de todo tipo de intentos que afecten a su mente. Se dice que el yelmo también reduce las emociones del portador. Eso no ha sido demostrado pero no sería una sorpresa si fuera cierto.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  Protección a la Debilidad mental, Confusión, Pensamiento estricto, Miedo, Dominación, Furia y Hechizo
+
+Especial:  Protege contra golpes críticos
+Peso: 1~
+@1358 = ~Alabarda +5, El Viento
+
+El Viento contiene flujos de aire mágicos y hay una alta posibilidad de que cuando golpee a un objetivo, el aire se libere. El efecto de esto es parecido al Alazo de los dragones. El objetivo es lanzado lejos de su portador.
+
+ESTADISTICAS:
+
+Habilidades en combate: 
+ 50% de posibilidades para un Alazo cuando golpea al objetivo, baja oportunidad de tiro de salvación
+
+Daño: 1d10+5
+THAC0: Bonificador +5
+Tipo de daño:  Perforante
+Peso: 12
+Factor de velocidad: 4
+Talento marcial: Alabarda
+Tipo:  2 manos
+Requiere: 13 Fuerza~
+@1360 = ~Hombreguante fue un estratega cuando vivió. Creía que cualquier enemigo podía ser derrotado con una estrategia adecuada. Por eso tenía esta alabarda hecha por él. Tenía muchas habilidades de golpear las debilidades de los oponentes haciendo su aniquilación más fácil.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ 25% de posibilidades de Enfermar al objetivo durante 2 asaltos
+ 25% de posibilidades de Debilidad mental al objetivo durante 2 asaltos
+ 25% de posibilidades de Pánico al objetivo durante 2 asaltos
+ 25% de posibilidades de Inmovilizar el objetivo durante 2 asaltos
+
+Daño: 1d10+3
+THAC0: Bonificador +3
+Tipo de daño:  Perforante
+Peso: 12
+Factor de velocidad: 6
+Talento marcial: Alabarda
+Tipo:  2 manos
+Requiere: 13 Fuerza~
+@1362 = ~El martillo violeta fue hecho originariamente como una broma de Gol Picodemontaña a Jacob Chalim. Desafortunadamente fue irónico que tiempo después los hombres fueran a la guerra en diferentes bandos y Jacob matara a Gol con su martillo.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+  El siguiente hechizo del objetivo está afectado por magia salvaje si falla el tiro de salvación
+
+Daño: 1d4+3
+THAC0: Bonificador +2
+Tipo de daño:  Contundente
+Peso: 6
+Factor de velocidad: 2
+Talento marcial: Martillo de guerra
+Tipo:  1 mano
+Requiere: 9 Fuerza~
+@1364 = ~El Ponzoñoso está encantado con magias tanto venenosas como corrosivas de una forma tanto ofensiva como defensiva. Fue hecho por los enanos pero después de eso ha sido usado mayoritariamente por los humanos.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ +50% de resistencia contra el veneno
+ +50% de resistencia contra el ácido
+
+Daño: 1d4+4, +2 al ácido, +2 al veneno
+THAC0: Bonificador +3
+Tipo de daño:  Contundente
+Peso: 5
+Factor de velocidad: 1
+Talento marcial: Martillo de guerra
+Tipo:  1 mano
+Requiere: 9 Fuerza~
+@1366 = ~Este martillo de guerra en su origen fue encontrado por magos y eso hace que se entienda su nombre. El arma es el temor de todos los lanzadores de conjuros. Aquellos que no tienen suficiente poder para resistir el martillo, olvidan un hechizo en cada golpe. Eso puede causar pánico y una muerte cierta. Los magos que encontraron La Perdición intentaron ocultarlo pero de alguna forma fue robado y después de eso no han habido registros de donde estaría.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ Elimina el Santuario de todos los enemigos del área, sin salvación
+ El objetivo olvida un hechizo en cada golpe, la resistencia puede salvar
+
+Daño: 2d4+6
+THAC0: Bonificador +6
+Tipo de daño:  Contundente
+Peso: 4
+Factor de velocidad: 1
+Talento marcial: Martillo de guerra
+Tipo:  1 mano~
+@1368 = ~La Triada Sacra es una combinación de las espadas de hielo, fuego y relámpago. Fueron forjadas en una por el herrero Brundor y ahora forma la Triada Sacra. La espada es extremadamente poderosa y se dice que el que lleva el poder de las tres espadas, lleva el poder de los dioses.
+
+ESTADISTICAS:
+
+Habilidades en combate: 
+ Bola de fuego
+  5% de posibilidades por golpe que una bola de fuego de 10d6 explote, centrada en el objetivo
+ Cono de frío
+  5% de posibilidades por golpe que un cono de frío se precipite hacia el objetivo
+ Rayo relampagueante
+  5% de posibilidades por golpe que un rayo relampagueante penetre en el objetivo
+
+Daño: 1d6+4, +1 por fuego, hielo y relámpago
+THAC0: Bonificador +4
+Tipo de daño:  Perforante
+Peso: 2
+Factor de velocidad: 1
+Talento marcial: Espada corta
+Tipo:  1 mano
+Requiere: 5 Fuerza~
+@1370 = ~Esta espada ha sido forjada para mantener al mundo en desequilibrio. Puede ser llevada ya sea por criaturas de alineación buena o malvada. Se sabe que hace daño extra a criaturas de alineación neutra.
+
+ESTADISTICAS
+
+Daño: 1d10+2, +3 contra criaturas neutras
+THAC0: Bonificador +2, +3 contra criaturas neutras
+Tipo de daño:  Cuchillada
+Peso:  4
+Factor de velocidad: 2
+Talento marcial: Katana
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1372 = ~Esta katana fue usada por el maestro de armas del gremio de luchadores en la ciudad de Morgoth. Libera insectos duros como el hierro en cada golpe exitoso y cortan al enemigo provocándole daños. El objetivo también puede volverse débil de mente o borroso.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ Debilidad mental durante 4 asaltos (salvación contra conjuros)
+
+Daño: 1d10+4, +5 de daño por cuchillada
+THAC0: Bonificador +4
+Tipo de daño:  Cuchillada
+Peso:  3
+Factor de velocidad: 1
+Talento marcial: Katana
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1374 = ~El Fantasma es un arco temido en todos los lugares que se conoce. Dispara flechas fantasmales que puede ralentizar el objetivo, quemarlo y congelarlo. También se debe ir con cuidado porque se dice que El Fantasma está maldito. Si se usa el arco durante mucho tiempo, perderéis vuestra mente...
+
+ESTADISTICAS:
+
+Especial: 
+  Este poderoso arco no necesita munición
+  Puede ralentizar el objetivo
+
+Daño: 1d6+4, +2 de daño por fuego y frío mágicos
+THAC0: Bonificador +4
+Peso: 3
+Factor de velocidad: 4
+Talento marcial: Arco largo
+Tipo:  2 manos
+Requiere: 6 Fuerza~
+@1376 = ~La armadura de cuero tachonado tiene poco en común con la armadura de cuero normal. Mientras que la armadura de cuero es una coraza endurecida, la de cuero tachonado es suave y  flexible con cientos de remaches de metal incrustados. Estos remaches están tan próximos unos de otros que forman una armadura dura de metal que desvía los ataques de cuchilladas. El respaldo de cuero suave es simplemente un medio de sujetar los remaches en su lugar. Esta armadura de cuero tachonado ha sido fuertemente encantada.
+ 
+ESTADISTICAS:
+
+Clase de armadura: 3
+Peso: 8
+Requiere: 6 Fuerza~
+@1378 = ~Se sabe que esta armadura de cuero fuertemente encantada absorbe los hechizos de bajo nivel. Esto significa que libra tanto de los hechizos de apoyo como de los ofensivos y por eso el arma puede ser la salvación para unos y la perdición para otros.
+
+ESTADISTICAS:
+
+Habilidades:
+ Inmunidad a los hechizos de nivel 1-3
+
+Clase de armadura: 3
+Peso: 4
+Requiere: 3 Fuerza~
+@1380 = ~Esta armadura de cuero fue creada para un solo propósito: proteger a su portador de uno de los hechizos más temidos de Faerun, 'Cautiverio'. Se ha demostrado que es muy efectiva contra los Demi-liches.
+
+ESTADISTICAS:
+
+Habilidades:
+ Inmunidad a Cautiverio
+
+Clase de armadura: 2
+Peso: 8
+Requiere: 6 Fuerza~
+@1382 = ~La apropiadora de vida funciona de dos formas. Hace un daño extra imparable al objetivo mientras cura al portador con la misma cantidad. Así que, para ser correctos, la apropiadora de vida no roba exactamente la vida. Pero por otro lado, la coge de uno y se la da a otro.
+
+ESTADISTICAS:
+
+Habilidades en combate: 
+  Se "Apropia" de 2 puntos de golpe del oponente con cada golpe
+
+Daño: 1d6+4
+THAC0: Bonificador +3
+Tipo de daño:  Contundente
+Peso: 7
+Factor de velocidad: 4
+Talento marcial: Maza
+Tipo:  1 mano
+Requiere: 10 Fuerza~
+@1384 = ~El nombre de esta arma hace referencia a sus habilidades. Hay una posibilidad de enfermar o envenenar el objetivo durante un breve periodo de tiempo. El arma también protege al portador del veneno. También se dice que se usaron serpientes en la creación de esta arma.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ 50% de posibilidades de infligir al objetivo veneno o enfermedad si falla el tiro de salvación
+
+Habilidades al equipar:
+ 50% de resistencia contra el veneno
+
+Daño: 1d6+2
+THAC0: Bonificador +1
+Tipo de daño:  Contundente
+Peso: 6
+Factor de velocidad: 6
+Talento marcial: Maza
+Tipo:  1 mano
+Requiere: 10 Fuerza~
+@1386 = ~La espada ninja, ninja-to, es de peor calidad que otras espadas de Kara-Tur, como la katana. Ésta es corta y tiene una hoja recta que la hace ideal para el subterfugio de los ninja. También es más fácil de blandir en espacios cerrados, lo que en ocasiones proporciona ventaja al ninja sobre las espadas largas que utilizan los samurai. Este Ninja-To está fuertemente encantado.
+
+ESTADISTICAS:
+
+Daño: 1d8+2
+THAC0: Bonificador +2
+Tipo de daño:  Cuchillada
+Peso:  5
+Factor de velocidad: 2
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1388 = ~Ninja-To
+La espada ninja, ninja-to, es de peor calidad que otras espadas de Kara-Tur, como la katana. Ésta es corta y tiene una hoja recta que la hace ideal para el subterfugio de los ninja. También es más fácil de blandir en espacios cerrados, lo que en ocasiones proporciona ventaja al ninja sobre las espadas largas que utilizan los samurai. Este Ninja-To está fuertemente encantado.
+
+ESTADISTICAS:
+
+Daño: 1d8+3
+THAC0: Bonificador +3
+Tipo de daño:  Cuchillada
+Peso:  4
+Factor de velocidad: 1
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1393 = ~Esta arma fue forjada por el herrero Brundor con Ninja-To normal y las piedras del recuerdo de antiguo héroe, Xander. Pronto se supo que el portador podía dejar al espíritu salir de la espada y atacar por su cuenta durante un breve periodo de tiempo. El sueño de Xander de pasar sus habilidades a futuras generaciones se ha hecho realidad.
+
+ESTADISTICAS:
+
+Habilidades especiales: 
+  La espada puede atacar por su cuenta durante 5 asaltos
+
+Daño: 1d8+2
+THAC0: Bonificador +3
+Tipo de daño:  Cuchillada
+Peso:  4
+Factor de velocidad: 2
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1395 = ~La armadura de placas del sol fue creada por adoradores del sol hará un mileno. Se ha conservado bien hasta este día. Los encantamientos la han mantenido a salvo y todavía funciona. El portador de la armadura puede lanzar unos pocos hechizos de sacerdote.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ Puede lanzar 'Rayo solar' y 'Falso amanecer' 3 veces por día
+
+Clase de armadura: -1
+Peso: 50
+Requiere: 12 Fuerza~
+@1397 = ~Esta armadura de placas funciona parecido a un portal entre otros planos de existencia. Mientras se lleva esta armadura una parte del portador se desplaza a un plano más elevado de existencia. Esto le da mucha protección en este plano.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Protección a la petrificación
+ Protección al apuñalamiento por la espada
+ +10 a los puntos de golpe máximos
+
+Clase de armadura: -2
+Peso: 27
+Requiere: 12 Fuerza~
+@1399 = ~Malver fue un viejo hombre cuando forjó esta armadura de placas. Fue un regalo a su nieto. Justo después que la armadura de placas hubiera sido acabada de forjar, Malver murió y por eso no se le pudo dar la armadura a su nieto él mismo. Su ayudante se supone que lo tenía que hacer, pero algo sucedió. El ayudante cogió la armadura pero no para el nieto.
+
+ESTADISTICAS:
+
+Clase de armadura: 0
+Peso: 35
+Requiere: 12 Fuerza~
+@1418 = ~Desde la época de Netheril, los magos han aprendido a conferir una gran variedad de propiedades mágicas a los objetos cotidianos que les rodean. Uno de los elementos favoritos para tal encantamiento es la túnica común. Es ligera, económica y mantiene bien el encantamiento, por lo que resulta un equipo ideal para un mago. No obstante, debido a su patrimonio mágico, sólo los magos individuales, dobles y multiclase pueden llevar estas túnicas encantadas. Esta túnica ha sido encantada con magia protectora.
+
+ESTADISTICAS:
+
+Bonificador a la CA: +2
+Tiros de salvación: Bonificador +2
+Peso:  4~
+@1420 = ~La leyenda sostiene que una vez un regente, cuyo nombre se ha perdido en la historia, estaba muy enfermo y prometió recompensar a la persona que fuerza capaz de curarlo. Un mago llamado Albacar hizo esta túnica pero debido a las estúpidas reglas del juego el regente no la pudo llevar. No era un mago. El regente murió y la túnica se perdió.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Protección al ácido
+ Protección al veneno
+
+Peso:  4~
+@1422 = ~El portador de esta túnica puede controlar el tiempo. La energía mágica de la túnica es suficiente para poder lanzar 'Parar el tiempo' de forma instantánea 2 veces por día. Debido a la fuerte energía mágica de la túnica, también bloquea alguna energía resultante.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ Para el tiempo instantáneo 2 veces por día
+
+Habilidades al equipar:
+ +10% de resistencia contra la magia
+ +10% de resistencia contra el daño mágico
+
+Peso:  4~
+@1430 = ~Se dice que un Mago Rojo de baja posición, llamado Huhhus, descubrió la forma perfecta de destilar carne de troll y conseguir la misma habilidad regenerativa de éstos. Aun así, pocos querían beber el repugnante líquido y, décadas más tarde, un estudiante de Huhhus creó este arco, basándose en los conocimientos descubiertos por Huhhus.
+
+ESTADISTICAS:
+
+Habilidades al equipar: 
+  Regenera 1 punto de golpe cada 6 segundos
+
+Daño: +2 (proyectil)
+THAC0: Bonificador +2
+Peso: 2
+Factor de velocidad: 4
+Talento marcial: Arco corto
+Tipo:  2 manos
+Requiere: 3 Fuerza~
+@1432 = ~La leyenda cuenta que un chico llamado Hammon fue una vez desafiado a disparar a una manzana a lo alto de la cabeza de su padre. Para poder hacer esto, se le dio este arco, aunque entonces nadie conocía sus habilidades mágicas. En cualquier caso, el chico disparó y perforó el tórax de su padre. Décadas después un artesano de una aldea cercana encontró que cuando se dispara una flecha con este arco, intenta golpear al objetivo de la forma más mortal que sea posible.
+
+ESTADISTICAS:
+
+THAC0: Bonificador +8
+Peso: 2
+Factor de velocidad: 5
+Talento marcial: Arco corto
+Tipo:  2 manos
+Requiere: 6 Fuerza~
+@1434 = ~Al menos se hicieron alrededor de veinte cimitarras Cheetah de las que quince están desaparecidas. Fueron hechas por "Halcón", su verdadero nombre no se conoce, y las usaban sus soldados. La gente muere y las cimitarras pasan de aventureros a aventureros.
+
+ESTADISTICAS:
+
+Especial: 
+  +2 a los ataques por asalto
+
+Daño: 1d8+3
+THAC0: Bonificador +3s
+Tipo de daño:  Cuchillada
+Peso: 3
+Factor de velocidad: 1
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo:  1 mano
+Requiere: 10 Fuerza~
+@1435 = ~A estas armas también se las conoce por el nombre de "Atrapa-Ladrones". Han sido usadas por los soldados para cazar a los ladrones. Desafortunadamente el arma se perdió, por un ladrón, está claro, y desde entonces no ha habido ningún registro de su existencia.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Protección al apuñalamiento por la espalda
+
+Habilidades en combate:
+ Puede lanzar el hechizo 'Anular invisibilidad' 3 veces al día
+
+Daño: 1d8+4
+THAC0: Bonificador +4
+Tipo de daño:  Cuchillada
+Peso:  3
+Factor de velocidad: 1
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo:  1 mano
+Requiere: 10 Fuerza~
+@1437 = ~El creador de esta arma fue un loco, pero un extremadamente poderoso. Mató a sacerdotes de alto rango, magos y luchadores y capturó sus almas en esta arma. Entonces llevando el Merodeador de Almas fue a los infiernos y desafió al lord demonio Grazzt. Quién ganó, no se sabe, así como tampoco el destino de esta cimitarra.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+  Con un golpe exitoso se lanza instantáneamente uno de estos hechizos en el objetivo:
+    'Golpe de fuego'
+    'Dañar'
+    'Bola de fuego'
+    'Cono de frío'
+    'Dedo de la muerte'
+
+Daño: 1d8+6
+THAC0: Bonificador +6
+Tipo de daño:  Cuchillada
+Peso:  3
+Factor de velocidad: 1
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo:  1 mano
+Requiere: 10 Fuerza~
+@1439 = ~El Protector fue forjado y encantado para proteger a su portador de todas las armas de proyectil. El encantamiento está en sus ornamentos que se perdieron.
+
+ESTADISTICAS:
+
+Bonificador a la CA: 2
+Especial:  +2 contra armas de proyectil
+Peso: 15
+Requiere: 15 Fuerza~
+@1447 = ~El Protector fue forjado y encantado para proteger a su portador de todas las armas de proyectil. El encantamiento está en sus ornamentos. Evitan que los misiles de cualquier tipo golpeen al escudo, no al usuario.
+
+ESTADISTICAS:
+
+Bonificador a la CA: 3
+Especial: 
+  Protección contra todas las armas de proyectil
+Peso: 15
+Requiere: 15 Fuerza~
+@1449 = ~El tipo de escudo usado por la guardia del rey en las tierra de Pelandor. Los escudos como este se encuentran raramente. Los ladrones y mercaderes han extendido unos veinte por todo el mundo.
+
+ESTADISTICAS:
+
+Bonificador a la CA: 4
+Especial:  +1 contra armas de proyectil
+Peso: 4
+Requiere: 10 Fuerza~
+@1451 = ~Este escudo da una protección casi seguro contra todos los ataques de muerte instantánea. Pero la muerte todavía puede venir de otras formas.
+El trabajo artesano está complementado con un hechizo permanente de ligereza, el cual hace al escudo muy fácil de llevar.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ -6 a la salvación contra la muerte
+
+Bonificador a la CA: 4
+Especial: +1 contra armas de proyectil
+Peso: 10
+Requiere: 10 Fuerza~
+@1453 = ~Esta honda fue hecha en Icewind Dale pero el nombre del creador se desconoce. El o ella añadió encantamientos que congelan la bala cuando se pone en su lugar. Entonces cuando ésta golpea al objetivo, el frío que contiene se transfiere hiriendo.
+
+ESTADISTICAS:
+
+Daño: +3 (proyectil), +1d4 de daño por frío
+THAC0: Bonificador +3
+Peso: 0
+Factor de velocidad: 4
+Talento marcial: Honda
+Tipo:  1 mano
+Requiere: 3 Fuerza~
+@1455 = ~Una vez, un asesino que se hacia llamar Raven andaba por las calles de Calimport. Era el mejor asesino de su tiempo. Nunca lo vio nadie, al menos al verdadero, y ninguna vez falló en una misión. Entonces un día solamente desapareció. Alguna gente dice que fue asesinado, otros solo que se marchó. Algunos creen que todavía regresará.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+  Muerte (salvación contra muerte posible)
+
+Daño: +4 (proyectil)
+THAC0: Bonificador +4 (proyectil)
+Peso: 0
+Factor de velocidad: 2
+Talento marcial: Honda
+Tipo:  1 mano
+Requiere: 3 Fuerza~
+@1457 = ~Un escudo mediano se lleva igual que uno pequeño. Sin embargo, al contrario que este último, su peso impide que el personaje utilice ese brazo para otra cosa que portar el propio escudo. Estos objetos suelen estar hechos de metal, medir 1-1'20 metros de diámetro y tener cualquier forma, desde redonda a cuadrada, pasando por las alas extendidas de un dragón. El escudo medieval típico tiene forma de triángulo con uno de los vértices señalando hacia abajo. Este escudo esta fuertemente encantado.
+
+ESTADISTICAS:
+
+Bonificador a la CA: 4
+Peso: 7
+Requiere: 12 Fuerza~
+@1459 = ~Esta lanza contiene magia que tiene el mismo efecto que cuando a uno le penetran el ojo. Esa magia se libera en cada ataque exitoso y si el objetivo no la puede resistir tendrá ceguera permanente solamente disipable con magia poderosa.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+  Ceguera permanente si se falla el tiro de salvación
+
+Daño: 1d6+2
+THAC0: Bonificador +2
+Tipo de daño:  Perforante
+Peso: 5
+Factor de velocidad: 4
+Talento marcial: Lanza
+Tipo:  2 manos
+Requiere: 5 Fuerza~
+@1461 = ~La otra punta de esta lanza está encantada con magia de frío que causa un daño extra al objetivo. La lanza es muy vieja y el poder de la magia se ha desvanecido así que solo hay una pequeña posibilidad de liberar todo su poder. Muchas veces el poder liberado es menor.
+
+ESTADISTICAS
+
+Habilidades en combate:
+ 60% de posibilidades de hacer 1d4 de daño por frío
+ 30% de posibilidades de hacer 2d4 de daño por frío
+ 10% de posibilidades de hacer 3d4 de daño por frío
+
+Daño: 1d6+3
+THAC0: Bonificador +3
+Tipo de daño:  Perforante
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Lanza
+Tipo:  2 manos
+Requiere: 5 Fuerza~
+@1463 = ~Esta lanza ha sido forjada de un material que solo se encuentra en los mares. Los encantamientos la han hecho dura como una piedra y muy efectiva en combate. Se sabe que protege a su portador de algunos hechizos. Alguna gente dice que uno de esos hechizos es 'Revivir a los muertos', pero eso solo es una leyenda.
+
+ESTADISTICAS
+
+Habilidades al equipar:
+  Protección a Lentificar, Aturdir y Disipar magia
+
+Daño: 1d6+5
+THAC0: Bonificador +5
+Tipo de daño:  Perforante
+Peso: 3
+Factor de velocidad: 1
+Talento marcial: Lanza
+Tipo:  2 manos
+Requiere: 5 Fuerza~
+@1465 = ~El escudo pequeño suele ser redondo y se lleva en el antebrazo, empuñado con la mano del escudo. Su ligero peso en proporción con el escudo mediano permite llevar otros elementos con esa mano, aunque no se puede empuñar ni llevar ninguna otra arma. Este escudo esta fuertemente encantada.
+
+ESTADISTICAS:
+
+Bonificador a la CA: 4
+Peso: 2
+Requiere: 4 Fuerza~
+@1467 = ~Mendelev pasó toda su vida estudiando la posibilidad de reflejar hechizos con el equipamiento. Esto es todo lo que pudo conseguir antes de morir. Aunque su logro no es tan pequeño y han habido muchas batallas sobre este escudo. Más tarde cuando los objetos reflejantes se volvieron más comunes, el escudo ya no era tan valioso pero muchos aventureros todavía harían cualquier cosa por conseguirlo.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ +20% de resistencia a la magia
+ Refleja los hechizos de nivel 2-4
+
+Bonificador a la CA: 5
+Peso: 2
+Requiere: 4 Fuerza~
+@1469 = ~Este escudo mediano tiene el efecto de ocultar a su portador de la vista. Desafortunadamente la habilidad se ha desvanecido y ahora el portador se vuelve visible a veces.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Invisibilidad (se activa/desactiva)
+
+Bonificador a la CA: 5
+Peso: 7
+Requiere: 12 Fuerza~
+@1471 = ~La espada corta de fuego es una espada mágicamente encantada. Nunca han existido muchas como estas y por eso encontrar una es bastante raro. Junto con las otras dos espadas esta es espada forma la Triada Sacra. Se dice en las antiguas escrituras de Garem Thormbead que "el que lleve el poder de la Triada Sacra, llevará el poder de los dioses".
+
+ESTADISTICAS:
+
+Habilidades en combate: Bola de fuego
+ 5% de posibilidades por golpe de que una bola de fuego de 10d6 explote, centrada en el objetivo
+
+Daño: 1d6+3, +1 de fuego
+THAC0: Bonificador +3
+Tipo de daño:  Perforante
+Peso: 2
+Factor de velocidad: 1
+Talento marcial: Espada corta
+Tipo:   1 mano
+Requiere: 5 Fuerza~
+@1473 = ~La espada corta de hielo es una espada mágicamente encantada. Nunca han existido muchas como estas y por eso encontrar una es bastante raro. Junto con las otras dos espadas esta es espada forma la Triada Sacra. Se dice en las antiguas escrituras de Garem Thormbead que "el que lleve el poder de la Triada Sacra, llevará el poder de los dioses".
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ 5% de posibilidades por golpe de que un Cono de frío se precipite hacia el objetivo
+
+Daño: 1d6+3, +1 por frío
+THAC0: Bonificador +3
+Tipo de daño:  Perforante
+Peso: 2
+Factor de velocidad: 1
+Talento marcial: Espada corta
+Tipo:   1 mano
+Requiere: 5 Fuerza~
+@1475 = ~La espada corta de relámpago es una espada mágicamente encantada. Nunca han existido muchas como estas y por eso encontrar una es bastante raro. Junto con las otras dos espadas esta es espada forma la Triada Sacra. Se dice en las antiguas escrituras de Garem Thormbead que "el que lleve el poder de la Triada Sacra, llevará el poder de los dioses".
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ 5% de posibilidades de que un Rayo relampagueante penetre en el objetivo
+
+Daño: 1d6+3, +1 por relámpago
+THAC0: Bonificador +3
+Tipo de daño:  Perforante
+Peso: 2
+Factor de velocidad: 1
+Talento marcial: Espada corta
+Tipo:   1 mano
+Requiere: 5 Fuerza~
+@1477 = ~Es la más sencilla y humilde de las armas de palo. La barra es una madera 180 a 275 centímetros de largo. Una buena barra está hecha de madera de roble y va rematada con metal en ambos extremos. Este es especialmente en particular ya que ha sido imbuido con propiedades mágicas.
+
+ESTADISTICAS:
+
+Habilidades en combate: 
+  Alta posibilidad de atontar al objetivo durante 1 asalto
+
+Especial: 
+  El bastón está considerado como un arma +5 
+
+Daño: 1d6+3
+THAC0: Bonificador +3
+Tipo de daño:  Contundente
+Peso: 3
+Factor de velocidad: 1
+Talento marcial: Bastón
+Tipo:  2 manos
+Requiere: 5 Fuerza~
+@1478 = ~Este sencillo bastón irradia un poderoso encantamiento, aunque su sencillo diseño sugiere unos orígenes humildes. Puede usarse para romper las defensas mágicas y como la magia está en el propio bastón, los magos no son los únicos que lo pueden usar.
+
+ESTADISTICAS:
+
+Habilidades:
+  Puede lanzar Eliminar magia y Brecha 2 veces por día
+  Puede lanzar Perforar magia, Rayo rubí de inversión y Azote antiprotecciones de Khelben 1 vez por día
+
+Habilidades en combate:
+  Disipar magia
+
+Daño: 1d6+3
+THAC0: Bonificador +3
+Tipo de daño:  Contundente
+Peso: 3
+Factor de velocidad: 1
+Talento marcial: Bastón
+Tipo:  2 manos
+Requiere: 5 Fuerza~
+@1480 = ~Es la más sencilla y humilde de las armas de palo. La barra es una madera 180 a 275 centímetros de largo. Una buena barra está hecha de madera de roble y va rematada con metal en ambos extremos. Este es especialmente en particular ya que ha sido imbuido con propiedades mágicas, incluyendo el efecto de Celeridad.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Celeridad
+
+Daño: 1d6+1
+THAC0: Bonificador +1
+Tipo de daño:  Contundente
+Peso: 4
+Factor de velocidad: 3
+Talento marcial: Bastón
+Tipo:  2 manos
+Requiere: 5 Fuerza~
+@1482 = ~El Torbellino es el bastón más rápido jamás creado. No tiene factor de velocidad y otorga al portador Celeridad. El Torbellino fue construido de una espada, un bastón y dos diamantes. La espada ha sido fundida con el bastón y los diamantes endurecen las dos puntas ofreciendo daño extra. Debido a los encantamientos del Torbellino es extremadamente ligero.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  Celeridad
+  +1 ataque por asalto
+  Destreza puesta a 18
+
+Daño: 1d6+3
+THAC0: Bonificador +3
+Tipo de daño:  Contundente
+Peso: 1
+Factor de velocidad: 0
+Talento marcial: Bastón
+Tipo:  2 manos
+Requiere: 3 Fuerza~
+@1483 = ~Con esta espada el que la lleva tiene acceso a unos pocos de los hechizos más poderosos de Faerun. Tampoco puede nadie encarcelar a alguien en una prisión eterna o liberar a alguien de ahí. Las habilidades de esta espada deberían ser usadas con cuidado o uno puede encontrarse a si mismo en una prisión en vez del enemigo.
+
+ESTADISTICAS:
+
+Especial: 
+  Puede lanzar Cautiverio y Libertad 1 vez por día
+
+Daño: 2d4+3
+THAC0: Bonificador +3
+Tipo de daño:  Cuchillada
+Peso:  8
+Factor de velocidad: 5
+Talento marcial: Espada bastarda
+Tipo:  1 mano
+Requiere: 11 Fuerza~
+@1485 = ~Dhor fue un hombre de muchas habilidades. Era conocido por ser un buen artista y le gustaba a las damas. También fue un gran músico con el arpa y un cazador competente. Desafortunadamente murió en una guerra y esta espada fue perdida por sus enemigos. Después de eso se desconoce su historia.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+  1d4 de daño irresistible al veneno, ácido, cuchillada o penetración
+
+Daño: 2d4+4
+THAC0: Bonificador +4
+Tipo de daño:  Cuchillada
+Peso: 8
+Factor de velocidad: 7
+Talento marcial: Espada bastarda
+Tipo:  1 mano
+Requiere: 11 Fuerza~
+@1487 = ~Delvin fue un buen herrero y creía en el equilibrio de poderes. Este es su mejor trabajo y no por nada está orgulloso de ello. La parte negativa para un aventurero es que Delvin era de alineación neutral verdadera, la espada podría no hacer daño al objetivo. También hay una posibilidad de que otorgue al objetivo talentos de ayuda.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ 10% de posibilidades de
+   Hacerse invisible
+   Aturdir
+   100% de resistencia mágica
+   Inmovilizar
+   Bendecir
+   Disminuir los tiros de salvación (-2)
+   Ayuda
+   Hacer 25 puntos de golpe de daño mágico
+   Curar 25 puntos de golpe
+   Laberinto
+La duración de estos efectos puede ser de 3 asaltos.
+
+Daño: 1d8+4
+THAC0: Bonificador +4
+Tipo de daño:  Cuchillada
+Peso: 4
+Factor de velocidad: 4
+Talento marcial: Espada larga
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1489 = ~La sangre de un vampiro fluye por esta espada y hay una posibilidad con cada golpe exitoso que la espada consuma niveles del objetivo como lo hacen los vampiros. No hay nada capaz de resistir esta espada, e incluso la más poderosa de las criaturas de los reinos se inclina bajo su poder.
+
+ESTADISTICAS:
+
+Habilidades en combate: 
+  15% de posibilidades de consumir 2 niveles (salvación posible (-3 bonificador), la resistencia no tiene efecto)
+
+Daño: 1d8+5
+THAC0: Bonificador +5
+Tipo de daño:  Cuchillada
+Peso: 4
+Factor de velocidad: 1
+Talento marcial:  Espada larga
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1491 = ~A estas espadas también se les llama espadas de doble filo, espadas de guerra o espadas militares. La espada zumba ligeramente en la mano y provee de protección en el combate.
+
+ESTADISTICAS:
+
+Daño: 1d8+2
+THAC0: Bonificador +2
+Especial:
+  Bonificador a la CA +2
+  +2 a las tiradas de salvación
+Tipo de daño:  Cuchillada
+Peso: 2
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo:  1 mano
+Requiere: 6 Fuerza~
+@1493 = ~También conocida como la Espada del Enfado. Mirándola desde fuera la espada parece bastante hermosa pero cuando te golpea, te vuelves loco. El nombre del forjador de esta espada se desconoce pero los primeros registros de ella se pueden seguir hasta la ciudad de Calimport.
+
+ESTADISTICAS:
+
+Habilidades en combate: 
+  El objetivo se vuelve furioso si falla el tiro de salvación
+
+Daño: 1d6+2
+THAC0: Bonificador +2
+Tipo de daño:  Perforante
+Peso: 2
+Factor de velocidad: 2
+Talento marcial: Espada corta
+Tipo:  1 mano
+Requiere: 5 Fuerza~
+@1495 = ~Esta espada solo sabe como golpear al objetivo. Es impresionante que incluso alguien sin experiencia en combate pueda golpear la buena defensa de un luchador. La espada también ha ganado reputación entre los asesinos ya que en manos hábiles puede asestar la muerte rápida y suavemente.
+
+ESTADISTICAS:
+
+Daño: 1d6+4
+THAC0: Bonificador +8
+Tipo de daño:  Perforante
+Peso: 2
+Factor de velocidad: 1
+Talento marcial: Espada corta
+Tipo:  1 mano
+Requiere: 5 Fuerza~
+@1497 = ~La Aclama-Tormentas es una espada muy poderosa a pesar de lo que parece a simple vista. Tiene la extraña habilidad de controlar el clima. Cada vez que uno entra en combate en una zona exterior usando esta espada, empieza a llover. También hay una posibilidad que rayos relampagueantes empiecen a caer en los enemigos. Cuando se lucha en interiores las fuertes habilidades de esta arma son inefectivas.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ 10% de posibilidades de Clamar al relámpago cuando se lucha en exteriores
+ Cuando se entra en combate con esta arma, se pone a llover
+
+Daño: 1d6+3, +1d4 de daño eléctrico
+THAC0: Bonificador +3
+Tipo de daño:  Perforante
+Peso: 2
+Factor de velocidad: 1
+Talento marcial: Espada corta
+Tipo:  1 mano
+Requiere: 5 Fuerza~
+@1498 = ~Esta es el arma del luchador-mago Xar. La leyenda sostiene que un día llegó a las puertas de la ciudad de Malorchas. Exigió a la ciudad que le diera el Diamante de Thera, un tesoro de gran valor. Su exigencia, por supuesto, fue denegada pero el resultado no fue lo que la gente de la ciudad esperaba. A solas Xar masacró la ciudad y cogió el diamante. Aquellos que sobrevivieron cuentan historias de unos horribles demonios que hacían lo que ordenaba Xar. Grandes aventureros se prepararon para cogerlo y matarlo, pero nunca regresaron.
+
+ESTADISTICAS:
+
+Habilidades:
+ Puede lanzar Convocar monstruos III, Convocar animales III, Cacodemonio y Umbral 1 vez por día
+ Protección del Mal
+
+Especial: 
+  Se considera un arma +5
+
+Daño: 1d12+3
+THAC0: Bonificador +3
+Tipo de daño:  Cuchillada
+Peso:  10
+Factor de velocidad:  7
+Talento marcial:  Espada a dos manos
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@1500 = ~Manfried fue un caballero legendario de la Orden del Valiente Corazón. Fue un líder valiente y siempre cabalgaba hacia el frente de la batalla. Tal comportamiento, por supuesto, le llevaría a la muerte algún día y eso es lo que sucedió. Sin embargo su nombre todavía es honrado por aquellos que se unen a la Orden.
+
+ESTADISTICAS:
+
+Daño: 1d10+4
+THAC0: Bonificador +4
+Tipo de daño:  Cuchillada
+Peso: 10
+Factor de velocidad: 6
+Talento marcial: Espada a dos manos
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@1502 = ~El wakizashi, o "espada compañera", es muy importante para el samurai. Se lleva siempre, incluso en los lugares cerrados, y está cerca del samurai cuando duerme por las noches. Los maestros Wu Jen han ocultado gran poder dentro de este wakizashi, al menos cuando el portador está en el fragor de la batalla. No se sabe cómo o por qué llegó a Faerun, pero si el samurai al que le pertenece sigue vivo, seguro que lo está buscando.
+
+ESTADISTICAS:
+
+Daño: 1d8+1
+THAC0: Bonificador +1
+Tipo de daño:  Perforante
+Peso:  3
+Factor de velocidad: 1
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo:  1 mano
+Requiere: 5 Fuerza~
+@1504 = ~El wakizashi, o "espada compañera", es muy importante para el samurai. Se lleva siempre, incluso en los lugares cerrados, y está cerca del samurai cuando duerme por las noches. Los maestros Wu Jen han ocultado gran poder dentro de este wakizashi, al menos cuando el portador está en el fragor de la batalla. No se sabe cómo o por qué llegó a Faerun, pero si el samurai al que le pertenece sigue vivo, seguro que lo está buscando.
+
+ESTADISTICAS:
+
+Daño: 1d8+3
+THAC0: Bonificador +3
+Tipo de daño:  Perforante
+Peso:  2
+Factor de velocidad: 1
+Talento marcial: Cimitarra/Wakizashi/Ninja-To
+Tipo:  1 mano
+Requiere: 5 Fuerza~
+@1506 = ~La ballesta de Arbacan, o la ballesta de los elementos. Cuando se dispara un virote, los encantamientos en la ballesta añaden una pequeña sorpresa mágica. Cuando el virote golpea el objetivo, la sorpresa va en él.
+
+ESTADISTICAS:
+
+THAC0: Bonificador +3
+Daño: +3 (proyectil), +1 por frío, +1 por fuego, +1 por electricidad
+Peso: 5
+Factor de velocidad: 2
+Talento marcial: Ballesta
+Tipo:  2 manos
+Requiere: 8 Fuerza~
+@1508 = ~Esta ballesta fue recuperada de las ruinas de Haraban. Es muy rápida de usar y por eso fue llamada de la Muerte. Lleva al muerte tan rápido que uno puede disparar a diez trasgos antes de que empiecen a pensar en hacer algo.
+
+ESTADISTICAS:
+
+THAC0: Bonificador +4
+Daño: +4 (proyectil)
+Peso: 5
+Factor de velocidad: 1
+Talento marcial: Ballesta
+Tipo:  2 manos
+Requiere: 8 Fuerza~
+@1510 = ~El fajín del ogro es llevado comúnmente por los líderes de las tribus de ogros. Es un símbolo de su liderazgo y les da coraje, voluntad y fuerza en sus batallas.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ +2 a la fuerza
+ Inmune a Confusión/Pensamiento estricto/Miedo
+
+Peso: 2~
+@1514 = ~Este es el premio por ganar el segundo día de combates en la Arena. Una verdadera belleza por ser una armadura.
+
+ESTADISTICAS:
+
+Clase de armadura: -2
+Peso: 35
+Requiere: 15 Fuerza~
+@1516 = ~Si, bueno, hice esta arma para que el jugador la pudiera usar, pero su dibujo rompía y no iba a tirarla.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+  Puede aturdir al objetivo
+  Puede cegar al objetivo
+  Puede asustar al objetivo
+
+Daño: 1d6+5
+THAC0: Bonificador +4
+Tipo de daño: Contundente
+Peso: 8
+Factor de velocidad: 5
+Talento marcial: Maza
+Tipo: 1 mano
+Requiere: 10 Fuerza~
+@1518 = ~Una vez un joven hombre llamado Tapio Perkiomaki vivió en una pequeña aldea cerca de la Puerta de Baldur. Tenía muchos amigos en la aldea pero un día decidió marcharse del lugar y trasladarse a la Puerta de Baldur. No podía marcharse sin dar algo a sus amigos así que durante una semana trabajó en esta alabarda. Por la noche cuando la había acabado, la dejó en el centro de la aldea y escribió "Mi legado" en el suelo. Entonces se marchó y nadie lo volvió a ver. Cuando sus amigos se despertaron por la mañana encontraron la alabarda y supieron quién la había hecho. Desde entonces ha sido el orgullo de esa pequeña aldea, hasta que la robaron.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  100% de resistencia contra el frío
+
+Daño: 1d10+4
+THAC0: Bonificador +4
+Tipo de daño:  Perforante
+Peso: 12
+Factor de velocidad: 6
+Talento marcial: Alabarda
+Tipo:  2 manos
+Requiere: 13 Fuerza~
+@1538 = ~La túnica de señores está encantada con muchas protecciones y han habido muchas veces que ha sido robada violentamente. No tiene uso para un ladrón así que innumerables veces un mago malvado a alquilado un ladrón para que la robara. Por eso ha sido usada casi siempre solo por aquellos de alineación malvada.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ +25% de resistencia al fuego, frío, electricidad, veneno y ácido
+ Bonificador a la CA +1
+ +1 a todas las tiradas de salvación
+
+Peso:  4~
+@1542 = ~El escudo de Thor es uno de los premios de la Arena. Cuando lo miráis mejor, podéis ver que realmente es el "Protector divino", el escudo de Thor.
+
+ESTADISTICAS:
+
+Bonificador a la CA: 5
+Peso: 2
+Requiere: 4 Fuerza~
+@1544 = ~Esta es una de las pocas armaduras encontradas en la ciudad en ruinas de Esto. La antigua alma de su usuario fue atrapada dentro de ella durante mucho tiempo hasta que la liberó <CHARNAME>. La armadura y no parece que esté viva y ciertamente ya no habla. La presencia del mal en ella se ha ido y ahora también la pueden usar aquellos de alineación buena.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Inmunidad a armas normales
+
+Clase de armadura: -1
+Peso: 40
+Requiere: 15 Fuerza~
+@1546 = ~Esta es una de las pocas armaduras encontradas en la ciudad en ruinas de Esto. La alma de su antiguo usuario está atrapada dentro y sufre cada vez que alguien golpea la armadura. Pocos tienen agallas de llevar esta armadura por que temen que si la usan puedan morir, su alma también podría quedar atrapada dentro.
+También se rumorea que el alma en la armadura habla a su portador. Alguna gente ha dicho que el armadura les habló. Algo sobre el dolor y "ellos".
+Recientemente gracias a las acciones de <CHARNAME> otra alma fue atrapada. Un sacerdote de Waukin. La armadura recibió más encantamientos pero ya no puede usar por aquellos que tiene alineación neutral.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Inmunidad a armas y proyectiles normales
+
+Clase de armadura: -2
+Peso: 40
+Requiere: 15 Fuerza~
+@1547 = ~Esta es una de las pocas armaduras encontradas en la ciudad en ruinas de Esto. La alma de su antiguo usuario está atrapada dentro y sufre cada vez que alguien golpea la armadura. Pocos tienen agallas de llevar esta armadura por que temen que si la usan puedan morir, su alma también podría quedar atrapada dentro.
+También se rumorea que el alma en la armadura habla a su portador. Alguna gente ha dicho que el armadura les habló. Algo sobre el dolor y "ellos".
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ Inmunidad a proyectiles y armas normales
+
+Clase de armadura: -1
+Peso: 40
+Requiere: 15 Fuerza~
+@1551 = ~Esta clase de casco de rostro descubierto, hecho con cuero reforzado o con metal, cubre casi toda la cabeza, salvo la cara y el cuello. Estos cascos suelen incluir una protección para la nariz. Este yelmo ha sido encantado con una gema mágica.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  75% de resistencia contra el relámpago
+  Regenera 1 punto de golpe cada 6 segundos
+
+Bonificador a la CA:  +2
+Especial:  Protege contra golpes críticos
+Peso: 2~
+@1553 = ~La maza deriva directamente del garrote común y se compone simplemente de un asta de madera con una punta de piedra o hierro montada en el extremo. El diseño de la punta varía: unas tienen púas, otras rebordes y otras tienen piezas piramidales. Esta maza ha sido encantada con una gema mágica.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ Causa 2d6 de daño eléctrico por golpe exitoso
+
+Daño: 1d6+3
+THAC0: Bonificador +3
+Tipo de daño:  Contundente
+Peso: 8
+Factor de velocidad: 5
+Talento marcial: Maza
+Tipo:  1 mano
+Requiere: 10 Fuerza~
+@1555 = ~El escudo pequeño suele ser redondo y se lleva en el antebrazo, empuñado con la mano del escudo. Su ligero peso en proporción con el escudo mediano permite llevar otros elementos con esa mano, aunque no se puede empuñar ni llevar ninguna otra arma. Este escudo ha sido encantado con una gema mágica.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ 100% de resistencia contra relámpago
+
+Bonificador a la CA: 3
+Peso: 3
+Requiere: 4 Fuerza~
+@1569 = ~Este es el símbolo de la familia de Talavan. Ha estado en sus manos durante doscientos años. Originariamente se encontró en un castillo en ruinas. Nadie sabe su historia antes de eso.
+
+ESTADISTICAS:
+
+Bonificador a la CA: +1
+Especial:
+  Protege contra golpes críticos
+  +5% de resistencia a la magia
+Peso: 2~
+@1571 = ~Esta es la arma personal del Caudillo Olmar.
+
+ESTADISTICAS:
+
+Habilidades al equipar:  
+  Celeridad
+
+Daño: 1d6+4
+THAC0: Bonificador +4
+Tipo de daño:  Perforante
+Factor de velocidad: 1
+Peso: 2
+Talento marcial: Espada corta
+Tipo:  1 mano
+Requiere: 5 Fuerza~
+@1575 = ~Centurias atrás un poderoso mago atrapó un relámpago dentro de este bastón. Con el poder del relámpago el mago fue capaz de dar algunas habilidades mágicas al bastón, todas relacionadas con la electricidad de alguna forma.
+
+ESTADISTICAS:
+
+Habilidades en combate:
+ 20% de posibilidades de lanzar Relámpago zigzagueante en el objetivo
+
+Daño: 1d6+3, +5 de daño por electricidad
+THAC0: Bonificador +3
+Tipo de daño:  Contundente
+Peso: 4
+Factor de velocidad: 2
+Talento marcial: Bastón
+Tipo: 2 manos
+Requiere: 5 Fuerza~
+@1580 = ~Los Tuigans son una gente nómada dispersa por toda las regiones de las estepas de Faerun pero están atados por una línea de sangre común. Los arcos que hacen son especialmente confeccionados para sus guerreros exploradores, y el proceso usado es cuidadosamente guardado, pero el resultado es bien conocido: cualquier arco de origen Tuigan se puede disparar más rápido de lo que es posible hacerlo con uno de normal.
+
+ESTADISTICAS:
+
+Habilidades en combate: 3 disparos por asalto
+THAC0: Bonificador +4
+Daño: +4
+Peso: 2
+Factor de velocidad: 2
+Talento marcial: Arco corto
+Tipo:  2 manos
+Requiere: 6 Fuerza~
+@1582 = ~La espada de dos puños es una variación de la espada larga. Los armeros buscan siempre la forma de mejorar las armas que ya existen y para mejorar la espada larga, alargaron la hoja. Finalmente, hubo que extender la empuñadura, por lo que se hizo necesario utilizar ambas manos. La función principal de la espada de dos puños es partir en dos a los caballeros montados y dispersar las formaciones en pica. Esta en particular es buena en su trabajo ya que ha sido encantada con muchas propiedades mágicas.
+
+ESTADISTICAS:
+
+Daño: 1d10+3
+THAC0: Bonificador +3
+Tipo de daño:  Cuchillada
+Peso: 12
+Factor de velocidad: 6
+Talento marcial: Espada a dos manos
+Tipo:  2 manos
+Requiere: 14 Fuerza~
+@1586 = ~La túnica del Maestro Final. Se sabe que esta túnica ha sido hecha de la piel de oso y que ofrece protección elemental.
+
+ESTADISTICAS:
+
++50% de resistencia al fuego, frío, relámpago y ácido~
+@1588 = ~Este bastón ha sido hecho de magia pura. Brilla en verde en manos del elegido.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+  +2 a la inteligencia
+  Acción libre
+  Bonificador a la CA +2
+
+Habilidades en combate:
+  5% de posibilidades de lanzar Final cuando golpea al objetivo
+
+Daño: 1d6+4
+THAC0: Bonificador +4
+Tipo de daño:  Contundente
+Peso: 4
+Factor de velocidad: 2
+Talento marcial: Bastón
+Tipo: 2 manos
+Requiere: 5 Fuerza~
+
+//***********************************************************************************************
+// KITS
+//***********************************************************************************************
+
+@1636 = ~Los lanceros están especializados en lanzas y bastones. También las pueden fabricar. Esta lanza fue hecha por un lancero de bajo nivel.
+
+ESTADISTICAS:
+
+Daño: 1d6+1
+THAC0: Bonificador +1
+Tipo de daño:  Perforante
+Peso: 5
+Factor de velocidad: 5
+Talento marcial: Lanza
+Tipo:  2 manos
+Requiere: 5 Fuerza~
+@1638 = ~Los lanceros están especializados en lanzas y bastones. También las pueden fabricar. Esta lanza fue hecha por un lancero de bajo nivel.
+
+ESTADISTICAS:
+
+Daño: 1d6+2
+THAC0: Bonificador +2
+Tipo de daño:  Perforante
+Peso: 5
+Factor de velocidad: 5
+Talento marcial: Lanza
+Tipo:  2 manos
+Requiere: 5 Fuerza~
+@1640 = ~Los lanceros están especializados en lanzas y bastones. También las pueden fabricar. Esta lanza fue hecha por un lancero de nivel medio.
+
+ESTADISTICAS:
+
+Daño: 1d6+3
+THAC0: Bonificador +3
+Tipo de daño:  Perforante
+Peso: 5
+Factor de velocidad: 5
+Talento marcial: Lanza
+Tipo:  2 manos
+Requiere: 5 Fuerza~
+@1642 = ~Los lanceros están especializados en lanzas y bastones. También las pueden fabricar. Esta lanza fue hecha por un lancero de alto nivel.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ +20% de resistencia a la magia
+ Bonificador a la CA +2
+
+Daño: 1d6+4
+THAC0: Bonificador +4
+Tipo de daño:  Perforante
+Peso: 5
+Factor de velocidad: 5
+Talento marcial: Lanza
+Tipo:  2 manos
+Requiere: 5 Fuerza~
+@1644 = ~Los lanceros están especializados en lanzas y bastones. También las pueden fabricar. Esta lanza fue hecha por un lancero de nivel muy alto.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ +30% de resistencia a la magia
+ Bonificador a la CA +2
+ +2 a todas las tiradas de salvación
+
+Daño: 1d6+5
+THAC0: Bonificador +5
+Tipo de daño:  Perforante
+Peso: 5
+Factor de velocidad: 5
+Talento marcial: Lanza
+Tipo:  2 manos
+Requiere: 5 Fuerza~
+@1646 = ~Los lanceros están especializados en lanzas y bastones. También las pueden fabricar. Esta lanza fue hecha por un maestro lancero.
+
+ESTADISTICAS:
+
+Habilidades al equipar:
+ +40% de resistencia a la magia
+ Bonificador a la CA +2
+ +2 a todas las tiradas de salvación
+
+Daño: 1d6+6, +3 de daño por fuego, hielo y relámpago
+THAC0: Bonificador +6
+Tipo de daño:  Perforante
+Peso: 5
+Factor de velocidad: 5
+Talento marcial: Lanza
+Tipo:  2 manos
+Requiere: 5 Fuerza~
+@1698 = ~Cuando se toca, esta canción del arpa asusta a todas las criaturas cercanas hostiles. Este tipo de arpas son comúnmente hechas por arpistas.
+
+ESTADISTICAS:
+
+Habilidades especiales: Horror 3 veces al día, durante 30 segundos~
+@1700 = ~Cuando se toca, esta canción del arpa aumenta todas las habilidades en combate de los aliados. Este tipo de arpas son comúnmente hechas por arpistas.
+
+ESTADISTICAS:
+
+Habilidades especiales: +2 al THAC0 de todos los aliados y Daño 3 veces al día, durante 30 segundos~
+@1702 = ~Cuando se toca, esta canción del arpa aumenta todas las habilidades defensivas de los aliados. Este tipo de arpas son comúnmente hechas por arpistas.
+
+ESTADISTICAS:
+
+Habilidades especiales: +3 a la CA de todos los aliados y tiradas de salvación 3 veces al día, durante 30 segundos~
+@1704 = ~Cuando se toca, esta arpa hace un ataque físico no-elemental contra un objetivo. Este tipo de arpas son comúnmente hechas por arpistas.
+
+ESTADISTICAS:
+
+Habilidades especiales: Ataque contundente contra un objetivo 3 veces al día, no hay tiradas de salvación~
+@1706 = ~Cuando se toca, esta arpa causa que uno de los enemigos luche de parte del lanzador por un breve periodo de tiempo. Este tipo de arpas son comúnmente hechas por arpistas.
+
+ESTADISTICAS:
+
+Habilidades especiales: Domina un enemigo 3 veces al día, durante 30 segundos~

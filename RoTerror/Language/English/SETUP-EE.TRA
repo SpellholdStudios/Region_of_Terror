@@ -1,0 +1,2427 @@
+@957  = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link.  The weapon was originally used as a tool for threshing grain. This flail has been enchanted with a magical gem.
+
+STATISTICS:
+
+Equipping Abilities:
+ 50% Resistance Against Acid
+
+Damage:  1D6 + 4, +3 Acid Damage
+THAC0:   +3 bonus
+Damage type:  crushing
+Weight: 15
+Speed Factor: 5
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength~
+@962  = ~Aegis Fang +4
+
+This weapon was forged as a gift for Wulfgar by Bruenor Battlehammer and the strongest of its enchantments only function while in the hands of the young warrior. Bruenor takes great pride in this weapon. It is his finest work.
+
+STATISTICS:
+
+Damage:  2D4 + 4
+THAC0: +4 bonus
+Weight: 3
+Speed Factor: 5
+Profiency Type: War Hammer
+Type:   1-handed
+Requires: 18 Strength~
+@975  = ~The origins of this amulet are unknown so nobody really knows who made it and where. It is likely that it was found from a pocket plane of some sort because amulets of this type are very rare in the world of Faerun.
+
+STATISTICS:
+
+Gives one extra first, second, third and fourth level spell~
+@988  = ~This blade was used to save Baldur's Gate from a horde of monsters. It was wielded by the great hero, Tapio Perkiomaki.
+
+STATISTICS:
+
+Damage:  1D10 + 4
+THAC0:   +4 bonus
+Damage Type:  slashing
+Weight:  10
+Speed Factor:  6
+Proficiency Type:  Large Sword
+Type:  2-handed
+Requires: 14 Strength~
+@997  = ~Shadow Thieves made this dagger to help their assassins complete their jobs. This dagger can be thrown and it returns into the hand of the thrower, making it incredibly useful for assassinations. It also makes the wielder invisible.
+
+STATISTICS:
+
+Equipping Abilities:
+ Dexterity +2
+ Invisibility
+
+Damage: 1D4 + 3
+THAC0:  +3 bonus
+Damage type:  piercing
+Weight: 1
+Speed Factor: 1
+Profiency Type: Dagger
+Type:  1-handed
+Requires: 3 Strength~
+@999  = ~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. This is a magical bastard sword.
+
+STATISTICS:
+
+Damage: 2D4 + 2
+THAC0:  +4 bonus
+Damage type:  slashing
+Weight:  9
+Speed Factor: 6
+Proficiency Type: Bastard Sword
+Type:  1-handed
+Requires: 11 Strength~
+@1001 = ~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. This is a magical bastard sword.
+
+STATISTICS:
+
+Damage:  2D4 + 4
+THAC0:  +2 bonus
+Damage type:  slashing
+Weight:  9
+Speed Factor: 6
+Proficiency Type: Bastard Sword
+Type:  1-handed
+Requires: 11 Strength~
+@1003 = ~The Blade of Despair is usually only seen in the hands of the servants of the evil goddess Shar. It's an unholy symbol which is given to the servants who have devoted their lives permanently to their dark deity.
+
+STATISTICS:
+
+Damage: 1D10 + 3
+THAC0:  +3 bonus
+Damage type:  slashing
+Weight: 10
+Speed Factor: 7
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@1007 = ~Mounted knights cannot effectively use long pole weapons while on horseback, and as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand.  Maces and flails are two previous examples of this - the war hammer is another.  The horseman's war hammer is a descendant of the Lucerne hammer.  It is made entirely of steel, with rondels protecting and strengthening the grip.  Rondels are small disks of metal, often shaped into decorative designs.  The shaft is about 18 inches long.' This war hammer has been enchanted with a magical gem.
+
+STATISTICS:
+
+Combat Abilites:
+ Target receives some stunning damage on every successful blow
+
+Damage: 1D4 + 3
+THAC0:  +3 bonus
+Damage type:  crushing
+Weight: 6
+Speed Factor: 3
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength~
+@1011 = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin.  Similar in construction to bronze plate mail, true plate mail comprises of chain and leather. This plate mail has been enchanted with a magical gem.
+
+STATISTICS:
+
+Equipping Abilities:
+ Low level spells (below six) are reflected back to the caster
+
+Armor Class: 1
+Weight: 50
+Requires: 12 Strength~
+@1013 = ~This sword is the personal weapon of "Fear". It inflicts fear on enemies, but nothing more is known of it.
+
+STATISTICS:
+
+Combat Abilities:
+ Inflicts fear on enemies
+
+Damage:  1D10
+Damage type:  slashing
+Weight: 10
+Speed Factor: 7
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@1015 = ~This sword is the personal weapon of "Hate". It inflicts crushing damage on enemies, but nothing more is known of it.
+
+STATISTICS:
+
+Combat Abilities:
+ Inflicts 2D6 crushing damage on enemies
+
+Damage:  1D10
+Damage type:  slashing
+Weight: 10
+Speed Factor: 7
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@1017 = ~This sword is the personal weapon of "Pain". It inflicts poison damage on enemies, but nothing more is known of it.
+
+STATISTICS:
+
+Combat Abilities:
+ Inflicts 2D6 poison damage on enemies
+
+Damage:  1D10
+Damage type:  slashing
+Weight: 10
+Speed Factor: 7
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@1019 = ~This sword is the personal weapon of "Sorrow". It causes disease on enemies, but nothing more is known of it.
+
+STATISTICS:
+
+Combat Abilities:
+ Inflicts disease on enemies
+
+Damage:  1D10
+Damage type:  slashing
+Weight: 10
+Speed Factor: 7
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@1023 = ~This blade is divided between the forces of good and evil. These two forces fight an eternal battle in the sword glowing with the colour of darkness and the colour of light. The sword cannot be wielded by neutral creatures. It has to be used for either good or evil. Nowadays blades with the power of both sides are rarely found. 
+
+STATISTICS:
+
+Combat Abilities:
+  If the targetted creature fails it's save vs. spells during the following 30 seconds all of it's spells are affected by wild magic
+
+Damage: 1D12 + 4
+THAC0:  +4 bonus
+Damage type:  slashing
+Weight: 10
+Speed Factor: 7
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@1057 = ~These bracers are one of the rewards given to the winner of the mage duels competition at the Arena. They been created just for this purpose and are completely unique.
+
+STATISTICS:
+
+Equipping Abilities:
+ The wizard can learn one extra 5th, 6th, 7th and 8th level spell
+
+Armor Class: 4
+Weight: 2~
+@1059 = ~This axe was found by Bruenor Battlehammer during his adventures around the world. It has been the doom for many unlucky goblins and giants.
+
+STATISTICS:
+
+Damage: 1D8 +4, +3 Fire
+THAC0:  +4 bonus
+Damage type: slashing
+Weight: 7
+Speed Factor: 4
+Profiency Type:
+1-handed Axe
+Requires: 14 Strength~
+@1061 = ~This is the personal helmet of Bruenor Battlehammer. The other horn of the helm was cut off in a battle. Bruenor is very fond of the helmet and wears it even when he sleeps.
+
+STATISTICS:
+
+Armor Class: +1 bonus
+Special:  Protects Against Critical Hits
+Weight: 2~
+@1063 = ~Shield of the Battlehammers' Clan. It is nowadays in the use of the clan's youngest member, Bruenor Battlehammer. The shield was originally forged by Bruenor's grandfather and has been in the family since.
+
+STATISTICS:
+
+Abilities: Immunity to charm, confusion, domination, and hold person
+Armor Class Bonus: 3
+Weight: 2
+Requires: 4 Strength~
+@1067 = ~This dagger weights heavily in your hand and is warm to the touch. Merely having it on your person makes you feel uneasy for some reason. The gem mounted in the hilt seems to have an inner light of some sort, though how it can have such illuminations and still be so deathly black at its core, you do not know.
+
+STATISTICS:
+
+Equipping Abilities:
+ +2 to Backstab multiplier
+
+Damage: 1D4 + 4
+THAC0:  +4 bonus
+Damage type:  piercing
+Weight: 1
+Speed Factor: 0 
+Proficiency Type: Dagger
+Type:  1-handed
+Requires: 3 Strength~
+@1069 = ~This powerful bow was found from the Mithril Hall by Catti-Brie. It is said that any arrow fired by it hits the target every single time. It is also capable of producing arrows.
+
+STATISTICS:
+
+Special Abilities:
+ Needs no ammo
+
+Damage:  1d6 + 5
+THAC0:   +5
+Damage type:  piercing
+Weight: 10
+Profiency Type: Longbow
+Type:   2-handed~
+@1071 = ~Callandor is the holy symbol of elves. One of their gods forged it for his servant, a leader of an elven city, when all hope had fated, to bring the victory against beasts attacking the city. With the help of the sword the beasts were defeated and peace was returned. Callandor became a symbol of the victory against darkness. It was heavily guarded but still someone managed to steal it. Since then it has passed from owner to owner, but not without bloodshed.
+
+STATISTICS
+
+Equipping Abilities: 
+ +2 bonus to AC Class
+ +20% to Magic Resistance
+
+Combat Abilities:
+ 20% chance to Disease the enemy
+
+Damage: 1D12 + 4
+THAC0:  +4 bonus
+Damage type:  slashing
+Weight:  7
+Speed Factor: 5
+Proficiency Type: Two handed sword 
+Type:  2-handed
+Requires: 14 Strength~
+@1072 = ~Dragon Blood
+
+This axe was found by Bruenor Battlehammer during his adventures around the world. It has been the doom for many unlucky goblins and giants.
+
+STATISTICS:
+
+Damage: 1D8 + 4, +3 Fire
+THAC0:  +4 bonus
+Damage type: slashing
+Weight: 15
+Speed Factor: 4
+Profiency Type: 1-handed Axe
+Requires: 14 Strength~
+@1080 = ~The flail is a strudy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. This flail has been enchanted with cold magics.
+
+STATISTICS:
+
+Combat Abilities:
+ 10% Change to cast Cone of Cold when hits the target
+
+Damage: 1D6 + 3, +4 Cold Damage
+THAC0:  +2 bonus
+Damage type:  crushing
+Weight: 12
+Speed Factor: 5
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength~
+@1089 = ~The short sword is the first type of sword to come into existence. In the simplest of terms, a short sword can be considered a dagger with blade so long that it can no longer be called a dagger. The term short sword does not exist in sword classifications. However it has come to be used to describe a double-edged blade about two feet in length. The sword tip is usually pointed, ideal for thrusting. This short sword has been enchanted with the tainted magic of the Beast.
+
+STATISTICS:
+
+Damage: 1D6 + 2, +5 Electrical Damage
+THAC0:  +2 bonus
+Damage type:  piercing
+Weight: 2
+Speed Factor: 1
+Profiency Type: Short Sword
+Type:   1-handed
+Requires: 5 Strength~
+@1091 = ~By far the oldest and most often used pole-arm, the halberd consists of a cleaver-like axe blade mounted on a staff averaging six feet in length.  The axe blade is balanced at the rear with a fluke, and surmounted by a sharp spike, usually of quadrangular design.  The fluke is sometimes replaced by a hook used to dismount cavalry.  A halberd can be best described as a cross between a spear and an axe. This halberd has been enchanted with the tainted magic of the Beast.
+
+STATISTICS:
+
+Damage: 1D10 + 2, +5 Electrical Damage
+THAC0:  +2 bonus
+Damage type:  piercing
+Weight: 15
+Speed Factor: 7
+Proficiency Type: Halberd
+Type:  2-handed
+Requires: 13 Strength~
+@1093 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands. This quarterstaff has been enchanted with the tainted magic of the Beast.
+
+STATISTICS:
+
+Damage: 1D6 + 2, +5 Acid Damage
+THAC0:  +2 bonus
+Damage type:  crushing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Staff
+Type:  2-handed
+Requires: 5 Strength~
+@1095 = ~The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with a stone or iron head mounted on the end.  The head design varies; some being spiked, others flanged, and still others have pyramidal knobs. This mace has been enchanted with the tainted magic of the Beast.
+
+STATISTICS:
+
+Damage: 1D6 + 3, +5 Magical Fire Damage
+THAC0:  +2 bonus
+Damage type:  crushing
+Weight: 10
+Speed Factor: 5
+Proficiency Type: Mace
+Type:  1-handed
+Requires: 10 Strength~
+@1097 = ~This is a cursed sword which performs perfectly under every test, save the heat of battle.  Upon entering combat, the wielder will immediately go berserk, killing everything within reach until either calming down or falling unconscious.  A very powerful sword, but one must decide whether or not it is worth the risk.  Even after the battle-fury has ended, this sword can only be removed via an exorcism using a remove curse spell.
+
+STATISTICS:
+
+Damage: 1D10 + 3
+THAC0:  +3 bonus
+Damage type:  slashing
+Special:
+    Causes the wielder to go berserk
+    Can only be removed with a 'Remove Curse' spell
+Weight: 5
+Speed Factor: 2
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength~
+@1099 = ~This morning star was the weapon of a great barbarian who lived in the Icewind Dale. The weapon is very effective against giants and was feared amongst the monsters of the dale. But eventually the barbarian died in a battle and the weapon passed to frost giants.
+
+STATISTICS:
+
+Damage: 2D4 + 3, +3 vs. giants
+THAC0:  +3 bonus, +3 vs. giants
+Damage type: crushing
+Weight: 9
+Speed Factor: 5
+Profiency Type: Flail/Morningstar
+Type: 1-handed
+Requires: 11 Strength~
+@1101 = ~This dagger has been used to kill a demon called Nizz'rim. No-one knows who the killer was or what happened to her but the dagger was found from a corpse of an orc years later.
+
+STATISTICS:
+
+Damage: 1D4 + 4
+THAC0:  +4 bonus
+Weight: 1
+Speed Factor: 1
+Profiency Type: Dagger
+Type:   1-handed~
+@1113 = ~This is the magical scimitar +6, Twinkle. It is one of the personal weapons of Drizzt Do'Urden.  Due to its magical nature, only those pure of heart can use it.
+
+STATISTICS:
+
+Damage: 1D8 + 5
+THAC0:  +5 bonus
+Special: 
+   +2 Armor Class bonus
+Damage type:  Slashing
+Weight:  4
+Proficiency type:  Scimitar
+Speed Factor:  2
+Type:  1-handed
+Requires: 8 Strength~
+@1115 = ~This is the magical scimitar Drizzt Do'Urden found from a dragons lair. It's known that it protects the wielder from fire. It has saved the lives of Drizzt and Bruenor both.
+
+STATlSTICS:
+
+Equipping Abilities:
+  Protection from Fire
+
+Damage:  1D8 + 3
+THAC0:   +3 bonus
+Damage type: Slashing
+Weight:  4
+Profiency type:  Scimitar
+Speed Factor:  2
+Type:   1-handed
+Requires: 8 Strength~
+@1121 = ~This leather armor is worn by the famous assassin Artemis Entreri. It greatly increases the wearer's saving throws.
+
+STATISTICS:
+
+Armor Class: 3
+Saving Throws:  +3 bonus
+Stealth Bonus:  20%
+Weight: 5
+Requires: 8 Strength~
+@1123 = ~These bracers give the wearer almost a complete protection from magic. They are the horror of the mages and are in the posession of the assassin Artemis Enteri who stole them from Kohrim Soulez.
+
+STATISTICS:
+
+Equipping Abilities:
+ +80% to Magic Resistance~
+@1125 = ~This is the dagger of the fighter assassin Artemis Entreri. He is one of the best fighters in the world and this dagger is rightly his. It has ability to suck away the life power of it's target and Entreri uses this ability when he finishes off his enemies.
+
+STATISTICS:
+
+Equipping Abilities:
+  Haste
+
+Combat Abilities:
+  Poison (2 points of damage per second during 10 seconds)
+
+Damage: 1D4 + 6
+THAC0:  +6 bonus
+Weight: 1
+Speed Factor: 1
+Profiency Type: Dagger
+Type:   1-handed~
+@1131 = ~A medium shield is carried in the same manner as a small shield.  Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield.  Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings.  A typical medieval shield resembles a triangle with one point facing downward. This shield has been enchanted with a magical gem.
+
+STATISTICS:
+
+Equipping Abilities:
+  75% Resistance Against Fire
+
+Armor Class Bonus: 4
+Weight: 7
+Requires: 12 Strength~
+@1133 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era.  Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches.  In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip.  Despite the tip, the long sword is designed for slashing, not thrusting. This sword has been enchanted with a magical gem.
+
+STATISTICS:
+
+Damage: 1D8 + 4, +2 Fire Damage
+THAC0:  +4 bonus
+Damage type:  slashing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength~
+@1135 = ~Katana of Fire is usually paired with another Katana of Fire, but recently pairing it with the Katana of Ice has started to gain some popularity. There are several levels of power for the Katana of Fire. This seems to be somewhere in the middle.
+
+STATISTICS:
+
+Damage: 1D10 + 2, +5 Fire Damage
+THAC0:  +2 bonus
+Damage type:  slashing
+Weight:  6
+Speed Factor: 3
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength~
+@1137 = ~This full plate mail has been forged north in Icewind Dale. It has been filled with protections against cold and it was originally designed to fight against the giants surrounding the dale.
+
+STATISTICS:
+
+Equipping Abilities: 
+  +75% to Cold Resistance
+
+Armor Class:  -2
+Weight: 45
+Requires: 15 Strength~
+@1139 = ~The katana is a single-edged, slightly curved sword that ends with a chisel point. The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process, that is more art form than anything else.  This blade is an important facet of Kara-Tur culture.  To touch or wield a samurai's katana is to insult the samurai and to incite his wrath.  For a gaijin, or foreigner, to own such a blade is a rare occurrence. Either the gaijin is a greatly honored friend of an important minister, or  the gaijin has murdered a samurai. This katana has been enchanted with a magical gem.
+
+STATISTICS:
+
+Damage: 1D10 + 3, +3 Cold Damage
+THAC0:  +3 bonus
+Damage type:  slashing
+Weight:  6
+Speed Factor: 4
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength~
+@1145 = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection.  The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail. This plate mail has been enchanted with a magical gem.
+
+STATISTICS:
+
+Equipping Abilities:
+  50% Resistance Against Cold
+  Gives the ability to use Fire Shield (Blue) once per day
+
+Armor Class: -1
+Weight: 70
+Requires: 15 Strength~
+@1147 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user.  It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times.  Naturally, this precludes use of the shield hand for anything but holding the body shield in place. This shield has been enchanted with a magical gem.
+
+STATISTICS:
+
+Equipping Abilities:
+  Wielder regenerates 1 HP every 6th second
+
+Special Abilities:
+  Wielder can cast Protection from Cold three times per day
+
+Armor Class Bonus: 3
+Special:  +1 vs. Missile Weapons
+Weight: 15
+Requires: 15 Strength~
+@1153 = ~Chain mail is made of interlocking metal rings.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows. This chain mail has been enchanted with a powerful magical gem.
+
+STATISTICS:
+
+Equipping Abilities:
+  50% Resistance Against Magic and Magic Damage
+
+Armor Class: 1
+Weight: 40
+Requires: 8 Strength~
+@1155 = ~By far the oldest and most often used pole-arm, the halberd consists of a cleaver-like axe blade mounted on a staff averaging six feet in length.  The axe blade is balanced at the rear with a fluke, and surmounted by a sharp spike, usually of quadrangular design.  The fluke is sometimes replaced by a hook used to dismount cavalry.  A halberd can be best described as a cross between a spear and an axe. This halberd has been enchanted with a powerful magical gem.
+
+STATISTICS:
+
+Equipping Abilities:
+  30% Resistance Against Magic
+
+Damage: 1D10 + 4, +7 Magic Damage
+THAC0:  +4 bonus
+Damage type:  piercing
+Weight: 15
+Speed Factor: 6
+Proficiency Type: Halberd
+Type:  2-handed
+Requires: 13 Strength~
+@1166 = ~The Hammer of Moradin is one of the rewards given to the winner at the Arena. When you look at it more carefully, you notice that it truly is the legendary Hammer of Moradin of which the dwarves always talk about...
+
+STATISTICS:
+
+Equipping Abilities:
+  Protection from Normal Weapons
+
+Damage: 2D4 + 4
+THAC0:  +4 bonus
+Damage type:  crushing
+Weight: 4
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength~
+@1170 = ~This plate mail carries the marks of a wealthy trading family. It has been minorly enchanted and that increases it's value.
+
+STATISTICS:
+
+Armor Class: 2
+Weight: 20
+Requires: 12 Strength~
+@1180 = ~This sword was recovered from an abandoned mining site somewhere at the Misty Mountains. It's origin is unknown but it's abilities are not. In combat the sword is very powerful, but if you kill someone using it, the dead creature will be resurrected. After that, all that resurrected creature feels is pain.
+
+STATISTICS:
+
+Damage: 1D10 + 4
+THAC0:  +5 bonus
+Damage type:  slashing
+Weight: 12
+Speed Factor: 5
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@1187 = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection.  The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail. By the handwork of Pip Grayfoot, this full plate mail has received the most powerful enchantment of them all, the Eye of a God.
+
+STATISTICS:
+
+Equipping Abilities:
+ +50% Resistance Against Acid, Poison, Cold, Fire, Lightning and Magic
+ Protection from Undead
+
+Combat Abilities:
+ Wielder can cast Flame Strike four times per day
+
+Armor Class: -4
+Weight: 50
+Requires: 15 Strength~
+@1189 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user.  It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times.  Naturally, this precludes use of the shield hand for anything but holding the body shield in place. By the handwork of Pip Grayfoot, this large shield has received the most powerful enchantment of them all, the Eye of a God.
+
+STATISTICS:
+
+Equipping Abilities:
+ Wielder Regenerates 1 HP every 3rd second
+ Invisibility
+ All Saving Throws +3
+ +1 bonus to all stats
+
+Combat Abilities:
+ Wielder can cast Flame Strike four times per day
+
+Armor Class Bonus: 5
+Special:  +1 vs. Missile Weapons
+Weight: 15
+Requires: 15 Strength~
+@1191 = ~Katana of Ice is usually paired with another Katana of Ice but recently pairing it with the Katana of Fire has started to gain some popularity. There are several levels of power for the Katana of Ice. This seems to be somewhere in the middle.
+
+STATISTICS:
+
+Damage: 1D10 + 2, +5 Cold Damage
+THAC0:  +2 bonus
+Damage type:  slashing
+Weight:  6
+Speed Factor: 3
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength~
+@1209 = ~This is a perfect copy of the Arandil.
+
+STATISTICS:
+
+Damage: 1D8 + 3
+THAC0:  +3 bonus
+Damage Type: slashing
+Weight: 3
+Profiency Type: Scimitar
+Speed Factor: 2
+Type:   1-handed
+Requires: 8 Strength~
+@1211 = ~This is one of the swords used by Jarlaxle, the former leader of Bregan Da'erthe.
+
+STATISTICS:
+
+Equipping Abilities: 
+  Haste
+
+Damage:  1D6 + 4
+THAC0:  +4 bonus
+Damage type: piercing
+Weight: 3
+Speed Factor: 2
+Profiency Type: Short Sword
+Type:   1-handed
+Requires: 5 Strength~
+@1213 = ~This is a perfect copy of the Meralchan's Doom.
+
+STATISTICS:
+
+Damage: 1D6 + 3
+THAC0:  +3 bonus
+Damage type: piercing
+Weight: 3
+Speed Factor: 2
+Profiency Type: Short Sword
+Type:   1-handed
+Requires: 5 Strength~
+@1215 = ~This powerful scimitar was made in the Underdark by drows and is currently in the hands Jarlaxle.
+
+STATISTICS:
+
+Equipping Abilities:
+ Regenerates 1 HP every 5th second
+
+Damage: 1D8 + 4, +5 Cold, +5 Fire
+THAC0:  +4 bonus
+Damage Type: slashing
+Weight: 3
+Profiency Type: Scimitar
+Speed Factor: 2
+Type:   1-handed
+Requires: 8 Strength~
+@1217 = ~This is the reward of winning the first competition day at the Arena. The blade appears to be charged with electrical magic.
+
+STATISTICS:
+
+Damage: 1D8 + 3, +5 Lightning damage
+THAC0:  +3 bonus
+Damage type:  slashing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength~
+@1219 = ~Katana +3
+One can consider herself very lucky if one finds a katana with a +3 enchantment. Upgrading a katana isn't a simple process so katanas of this caliber are very rare. They are usually in the hands of the finest fighters of Faerun.
+
+STATISTICS:
+
+Damage: 1D10 + 3
+THAC0:  +3 bonus
+Damage type:  slashing
+Weight:  5
+Speed Factor: 2
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength~
+@1221 = ~One of the rewards at the Arena. The weapon is also known as "The Torment of the World". Item as powerful as this one can cause wars in the wrong hands.
+
+STATISTICS
+
+Damage: 1D10 + 4, +2 Fire, +2 Cold and +2 Lightning
+THAC0:  +4 bonus
+Damage type:  slashing
+Weight:  4
+Speed Factor: 2
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength~
+@1227 = ~The sword which is paired with Kohrim's Bracers. This combination is known to be able to resist magic, drain it, and use it against the attacker. At least in the right hands.
+
+STATISTICS:
+
+Damage: 1D8 + 4
+THAC0:  +4 bonus
+Damage Type:  slashing
+Weight: 8
+Speed Factor: 2
+Profiency Type: Long Sword
+Type:    1-handed
+Requires: 8 Strength, 14 Intelligence~
+@1229 = ~This sword has somekind of intelligence and it can be very dangerous to wield. Catti-Brie won the mental fight against it and now she can pretty easily use it without danger.
+
+STATISTICS:
+
+Damage:  1D8 + 4
+THAC0:   +3 bonus
+Damage Type:  slashing
+Weight: 8
+Speed Factor: 2
+Profiency Type: Long Sword
+Type:    1-handed
+Requires: 8 Strength, 10 Intelligence~
+@1231 = ~One of the rewards at the Arena. An incredibly powerful amulet with the ability to boost all stats up by one point.
+
+STATISTICS:
+
+Special Abilities:
+ +1 to Strength, Dexterity, Constitution, Intelligence, Wisdom and Charisma
+
+Weight:  2~
+@1235 = ~The Lionheart is one of the rewards won at the Arena. It also knows the name "Fearless".
+
+STATISTICS:
+
+Equipped Abilities:
+  Immunity to Charm
+  Immunity to Domination
+  Immunity to Confusion/Rigid Thinking/Fear
+
+Damage: 1D10 + 6
+THAC0:  +6 bonus
+Damage type:  slashing
+Weight: 10
+Speed Factor: 5
+Proficiency Type: Two Handed Sword
+Type:  2-handed
+Requires: 14 Strength~
+@1237 = ~This amulet seems to have a tooth of a lich in the place of a gemstone. The tooth glows with some sort of magical energy. It is not wise to touch the tooth with bare skin and thus the amulet should hang on the clothes.
+
+STATISTICS:
+
+Special Abilities:
+  +2 Armor Class bonus
+  Infravision
+  Protection From Petrification
+  Immunity to Normal Weapons~
+@1239 = ~The Blade of Nomal was forged about two centuries ago to kill a demon who had managed to escape onto the surface. It had cold bloodedly slayed everybody in a small town near the city of Arlax. When the word about the demon came to the city, a mage named Nomal created this magical sword to slay the demon with a one single strike. A brave warrior was sent on the task to kill the demon. He succeeded but died on the wounds he had got in the battle. When a group of mages came from Arlax to see what had happened, they found the warrior's and the demon's bodies, but the blade had disappeared.
+
+STATISTICS:
+
+Combat Abilities:
+  15% Chance to kill a demon with single strike
+
+Damage:  1D6 + 2 (+2 Cold Damage)
+THAC0:   +2 bonus
+Damage type:  piercing
+Weight: 2
+Speed Factor: 1
+Profiency Type: Short Sword
+Type:   1-handed
+Requires: 5 Strength~
+@1244 = ~This mystical bow was created for the bowman captain of king Hadir. The bow can create mirror images of the wielder making it harder for the enemies to hit their target.
+
+STATISTICS:
+
+Equipping Abilities:
+ Can create four mirror images three times per day
+
+Damage: +3
+THAC0:  +3
+Weight: 7
+Speed Factor: 4
+Proficiency Type: Longbow
+Type:  2-handed
+Requires: 18 Strength~
+@1246 = ~One of the finest work made by the dwarves. As a chain mail armor, it gives incredible protection to it's wearer.
+
+STATISTICS:
+
+Special Abilities: 
+  Immunity against Backstabbing and Level Drain
+
+Armor Class: -1
+Weight: 8
+Requires: 8 Strength~
+@1252 = ~Long ago a skinny man approached a mage and asked her to make an amulet of power to him. The amulet was supposed to improve his agility, strength and stamina. Price was set at three thousand and the mage created the amulet. But it was then that the man betrayed the mage. He punched her unconscious and escaped. The mage was not stupid though. She had included a little surprise with the amulet. It does what the man had asked but that's not all. It also makes the face of the wearer ugly and decreaces his mental abilities greatly.
+
+STATISTICS:
+
+Equipping Abilities: 
+  +3 to constitution, dexterity and strength
+  Wisdom, intelligence and charsima set to 3
+
+Special: 
+  Can only be removed with a 'Remove Curse' spell~
+@1254 = ~The Lightning Amulet was created to protect the wielder from electricity but on the other hand also counter-attack with it. Those who use electricity are not often protected from it. That makes the amulet valuable.
+
+STATISTICS:
+
+Combat Abilities: 
+  Can cast Lightning Bolt three times per day
+
+Equipping Abilities:
+  100% resistance against electricity~
+@1256 = ~The Scullcrusher Amulet is known to increase the damage caused to the target. This is because when wearing this amulet one becomes more skilled in hitting to the right places.
+
+STATISTICS:
+
+Equipping Abilities: 
+  +4 to Damage with melee ~
+@1262 = ~This axe is known to reduce the opponents fighting skills. The time the opponents skills are gone is short but very valuable. When the opponent is unable to attack properly, you can attack more freely dealing lot's of damage. The axe's last owner was Ybrick from Mithtil Hall but he lost it in a battle.
+
+STATISTICS:
+
+Combat Abilities: 
+  If the enemy fails it's saving throw, it's THAC0 goes up five points for one round
+
+Damage: 1D8 + 2
+THAC0:  +2 bonus
+Damage type:  slashing
+Weight: 5
+Speed Factor: 3
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 8 Strength~
+@1264 = ~The Sight is magically enchanted and improves the eyes of the wielder. As a result one can throw the axe from far and surprise her enemies.
+
+STATISTICS:
+
+Combat Abilities:
+  Makes 2D6 Cold Damage
+
+Damage: 1D6 + 3
+THAC0:  +3 bonus
+Damage type (melee):  slashing
+Damage type (thrown):  missile (piercing)
+Special:  Returns to user's hand once thrown
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 5 Strength~
+@1266 = ~Axe of Lightness looks fragile and powerless but appearance can deceive. The idea of this axe is to confuse the enemy. The axe is heavily enchanted and won't break in combat. It's always worth the trouble to see the puzzled look on the opponents face when a weapon as "fragile" as this hurts so much.
+
+STATISTICS:
+
+Damage: 1D8 + 4
+THAC0:  +4 bonus
+Damage type:  slashing
+Weight: 1
+Speed Factor: 1
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 3 Strength~
+@1268 = ~Girdle of Thievery, created especially for thieves. When it is worn, the thieving skills of the wearer are improved and thus it's a very valuable equipment for any thief. It is known that this girdle changes owner more regularly than a dwarf changes socks so when one carries it, one should be extra careful.
+
+STATISTICS:
+
+Thieving skill bonus: 
+  +20 to all
+
+Weight:  2~
+@1270 = ~This girdle got it's name from Esa "the Coward" Hannula. Esa was born as a coward and nothing could change that. He had this girdle made for him so that he could evade any hostility. He often got himself, or would have got, into a fight when drinking in a tavern so always when there was trouble coming, he fastened his belt and disappeared.
+
+STATISTICS:
+
+Equipping Abilities: 
+  Invisibility
+  +2 to AC
+
+Weight:  2~
+@1272 = ~The name can be misleading in this case as this girdle protects from all the enchantment magics. While one wears this girdle, there is no fear that any enchantment can be cast on her.
+
+STATISTICS:
+
+Equipping Abilities: 
+  Protection from the mage school 'Enchantments'
+
+Weight:  2~
+@1274 = ~A piece of the Bengar's Helm
+
+This appears to be the Bengar's Helm. The wings are missing though. Originally the helm belonged to a legendary warrior Bengar who disappeared mysteriously. The helm was found but the wings were seperated from it. Without them the helm is powerless.
+
+STATISTICS:
+
+Armor Class Bonus:  None
+Special:  Protects Against Critical Hits
+Weight: 2~
+@1280 = ~Bengar's Helm was forged for a great warrior, Bengar. The power of the helm is in the wings. The wings were lost when Bengar disappeared but now they have been found again and are ornating this magnificient head gear.
+
+STATISTICS:
+
+Armor Class Bonus: +2
+Special:  
+  Protects Against Critical Hits
+  Intelligence set to 18
+  Immunity to Confusion/Rigid Thinking/Fear and Charm
+Weight: 2~
+@1286 = ~These bracers are one of the most rare sort: they protect from an entire race. In this case that race is the Yuan-Ti. The bracers have been made for wizards only. Originally these were used just for fun. As one is immune to all Yuan-Ti attacks while wearing them, wizards used to just walk among  prisoner Yuan-Tis and slaughter them, slowly.
+
+STATISTICS:
+
+Special:  Protection from Yuan-Ti's~
+@1288 = ~The story of these gauntlets is a very sad one. Once there was a man, a good man, searching for a path to eternal life. It became his obsession and strove him to commit horrible acts. He killed hundreds of people and stored their 'life energy' inside of these gauntlets. It was supposed to be that when the wearer of these gauntlets died, she got more life from the trapped lives inside the gauntlets. That was proven wrong when the man died. Instead of giving life to the wearer, the gauntlets can be used to give life to someone else. There is a sense of evil in them and it takes a lot's of guts to wear them. It is said that if the wearer uses all the trapped lifes, she will become trapped herself.
+
+STATISTICS:
+
+Special Abilities: Resurrection once per day~
+@1290 = ~While one wears these boots one notices a change in the skills of the hands. It is unknown why boots of this sort were made; usually this sort of enchantments are placed on bracers.
+
+STATISTICS:
+
+Equipping Abilities: Dexterity set to 19
+Weight:  3~
+@1294 = ~These boots are known for giving the wearer a permanent sanctuary. It can be dispelled though. Nonetheless they can be very useful to rangers, paladins and clerics.
+
+STATISTICS:
+
+Equipped Abilities: Sanctuary~
+@1300 = ~This bow was originally created for one purpose, man hunt. A duke, whose name has been lost in the history, used to amuse himself by hunting slaves. He used special arrows which "froze" the target and then finished them off with a clean shot to the head.
+
+STATISTICS:
+
+THAC0:  +3
+Damage: +3
+Proficiency Type: Longbow
+Weight: 8
+Requires: 18 Strength
+Speed Factor: 4
+Type:  2-handed~
+@1302 = ~This powerful bow has been enchanted with magics that can block some status effecting spells, including Silence. Thus some people claim that while carrying this bow, one becomes more talkative than usual.
+
+STATISTICS:
+
+Equipping Abilities:
+ Protection from Silence
+ Protection from Slow and Haste
+ Protection from Detection
+
+THAC0:  +2
+Damage: +2 (missile)
+Weight: 2
+Speed Factor: 4
+Proficiency Type: Long Bow
+Type:  2-handed
+Requires: 6 Strength~
+@1304 = ~This chain mail was recovered from the ruins of an ancient city. It was worn by a high rank soldier. The men who found it all tell that the man with this mail was standing on his own when they found him. The reason for his death is a mystery.
+
+STATISTICS:
+
+Armor Class: 1
+Weight: 9
+Requires: 8 Strength~
+@1306 = ~Henrik the Magnificient is known in the history as a ruler who had a good sense of humor. That can be noticed for example from this armor. The smith who forged this had also a good sense of humor. Henrik was known of his talkative personality so the smith added a little bonus with the armor, silence. He was beheaded.
+
+STATISTICS:
+
+Special:
+  The wearer is silenced
+
+Bonuses:
+  +10% resistance against magic
+  +1 to all saving throws
+
+Armor Class: 0
+Weight: 8
+Requires: 8 Strength~
+@1308 = ~The Cloak of Disappearance gives the wearer cover and speed. Instantly when one outs it on, one disappears from the eyes and notices to be able to move faster than usual. The shield of the cloak disappears when an attack is made.
+
+STATISTICS:
+
+Special: 
+ Haste
+ Invisibility
+
+Weight:  3~
+@1310 = ~The Holy Cloak can be used only by those of pure heart. It improves the memory of the wearer and thus she can memorize more spells at a time than usual.
+
+STATISTICS
+
+Equipping Abilities:
+ +1 slot for 5th, 6th and 7th level priest spells~
+@1313 = ~The Armor Cloak is made for mages only. It regenerates the wearers life force and gives a 'Ghost Armor' for protection. These cloaks were quite common in Sembia a couple of hundred years ago. Nowadays they are pretty rare.
+
+STATISTICS:
+
+Equipping Abilities:
+  Ghost Armor
+  Regenerates 1 HP every 4 seconds~
+@1315 = ~When hit by this morning star the target may be doomed to be turned into stone for the nature to "wear out". The legend says that all who use this will eventually taste it themselves.
+
+STATISTICS:
+
+Combat Abilities: Petrification
+
+Damage: 2D4 + 3
+THAC0:  +3 bonus
+Damage type:  crushing
+Weight: 10
+Speed Factor: 4
+Proficiency Type: Spiked Weapons
+Type:  1-handed
+Requires: 10 Strength~
+@1317 = ~Cervan's morning star became known of it's ability to berserk the enemies. When hit by this weapon, one goes to blind rage attacking anyone in sight. A perfect tool for creating disorganisation between the enemies.
+
+STATISTICS:
+
+Combat Abilities: Berserks the target
+
+Damage: 2D4 + 4
+THAC0:  +4
+Damage type:  crushing
+Weight: 9
+Speed Factor: 3
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 11 Strength~
+@1326 = ~Stormbringer's Flame, Inferno of the North, The Blade That Was Broken: The Crystal Sword. Forged during the Time of Troubles, broken in the battlefields of Havannock, now forged back into one to deliver death for all foes.
+
+The creation process of the Crystal Sword is unknown. It is said that it is of divine origin but that has not been proved. Either way it was carried by one of the most powerful fighters of the Time of Troubles; Travis Stormbringer. It was broken in the battle of Havannock when Travis died. The pieces were lost until refound just recently and forged into one by smith Brundor.
+
+STATISTICS:
+
+Combat Abilities:
+ There is a 90% chance that the sword inflicts 1-10 bonus damage of random type to the enemy.
+
+Damage: 1D10 + 6
+THAC0:  +6 bonus
+Damage type:  slashing
+Weight:  7
+Speed Factor: 3
+Proficiency Type: Two handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@1328 = ~This powerful dagger has been enchanted with cold magics and with an ability to summon it back when thrown. The most common way to use it is to throw it.
+
+STATISTICS:
+
+Special: Returns to the hand when thrown
+
+Damage: 1D4 + 4, +2D4 Cold Damage
+THAC0:  +4 bonus
+Damage type:  piercing
+Weight: 1
+Speed Factor: 1
+Proficiency Type: Dagger
+Type:  1-handed
+Requires: 3 Strength~
+@1330 = ~The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edged and is a bit shorter than the dagger. This dagger has been enchanted with numerous protection spells.
+
+STATISTICS:
+
+Equipping Abilities:
+ Protections from Confusion/Rigid Thinking/Fear, Horror and Silence
+ Free Action
+ Non-Detection
+
+Damage: 1D4 + 2
+THAC0:  +2 bonus
+Damage type:  piercing
+Weight: 1
+Speed Factor: 1
+Proficiency Type: Dagger
+Type:  1-handed
+Requires: 3 Strength~
+@1332 = ~The dart is a small, easily concealable missile weapon that is thrown rather than fired from a bow or other launcher. This dart seems to crackle with energy and when it hits a target, an electric shock is delivered into the wound.
+
+STATISTICS:
+
+Damage: 1D3 + 1, +2D4 Electric Damage
+THAC0:  +1 bonus
+Damage type:  missile (piercing)
+Weight: 0
+Speed Factor: 1
+Proficiency Type: Dart
+Type:  1-handed~
+@1334 = ~The dart is a small, easily concealable missile weapon that is thrown rather than fired from a bow or other launcher. This dart causes the target to turn into stone if it pierces it's skin. Immediately when the dart touches with the blood of the victim, the petrification happens. One should be careful when using these. A little wound from the edge of one these can cause death.
+
+STATISTICS:
+
+Combat Ability:
+ Petrification if the target fails it's saving throw, resistance can save
+
+Damage: 1D3 + 2
+THAC0:  +2 bonus
+Damage type:  missile (piercing)
+Weight: 0
+Speed Factor: 1
+Proficiency Type: Dart
+Type:  1-handed~
+@1336 = ~The Dwarven Legend is enchanted with the runes of both Clangeddin and Moradin. It's significiance to a dwarf is huge, as is it's power. There is a chance with each hit that the force of Moradin and Clangeddin awakes and delivers extra damage to the target. There is also a chance that the divine power kills a giant with one blow.
+
+STATISTICS:
+
+Combat Abilities: 
+  Axe returns to the wielder's hand instantly after an attack is made
+  There is a 10% chance that the axe blows extra 4D10 crushing damage against the target
+  There is a 25% chance that the axe kills Fire and Frost Giants with a single blow
+
+Damage: 1D6 + 4
+THAC0:  +4 bonus
+Damage type (melee):  slashing
+Damage type (thrown):  missile (piercing)
+Special:  Returns to user's hand once thrown
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Axe
+Type:  1-handed
+Requires: 4 Strength~
+@1338 = ~This flail is known to protect the wielder from all sorts of instant death attacks. The chance to die is still very real but by using this flail one can avoid unwanted surprising death spells. Surely you want to know what killed you.
+
+STATISTICS:
+
+Equipping Abilities: Protection from Instant Death
+
+Damage: 1D6 + 3
+THAC0:  +2 bonus
+Damage type:  crushing
+Weight: 10
+Speed Factor: 5
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength~
+@1340 = ~It was in the eve of a battle when Sermak the Great escaped. Orcs were closing in on the city of Albagar. The men were left without a leader. Women and children were on their way to the safety of the mountains with a small escort. The city was attacked and the defeat was near. It was then on the first light of the fifth day that Sermak the Great returned carrying a new weapon. Alone he rode to the back of the enemy while his men attacked from the front. Unfortunately the numbers were too great for even the Sunrise and the battle, the city and the flail were all lost.
+
+STATISTICS:
+
+Combat Abilities: 
+  Kills orcs with single blow
+
+Equipping Abilities: 
+  Protection from +1 weapons and lesser
+
+Damage:  1D6 + 6
+THAC0:  +5 bonus
+Damage type:  crushing
+Weight: 5
+Speed Factor: 1
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 6 Strength~
+@1342 = ~Cursed Full Plate Mail
+
+Angmar was a very skilled smith. He is the one who forged this powerful armor. It went to his king who was grateful and rewarded Angmar well. Unfortunately a competitor of Angmar had had the opportunity to curse the armor. When the curse was noticed, Angmar was forced to exile.
+
+STATISTICS:
+
+Equipping Abilities:
+ -2 to THAC0
+ -5 to damage
+
+Special: Can only be removed with 'Remove Curse' spell
+
+Armor Class: -4
+Weight: 35
+Requires: 15 Strength~
+@1344 = ~This armor is made of pure evil and there is no record of it's origin. The hatred for good can be clearly felt when wearing the armor and thus only those with the darkness in their heart can wear it. The armor grants attacking bonuses against good creatures.
+
+STATISTICS:
+
+Combat Abilities:
+ +2 to Damage against Good creatures
+ -2 to THAC0 against Good creatures
+
+Armor Class: -3
+Weight: 30
+Requires: 15 Strength~
+@1346 = ~This armor contains the blood of a troll which grants the wearer a similar ability as the troll has, regeneration. Anyone wearing this armor immediately notices to feel better and would hate to take it off.
+
+STATISTICS:
+
+Equipping Abilities: Regenerates 1 HP every 3rd second
+
+Armor Class: -2
+Weight: 35
+Requires: 15 Strength~
+@1348 = ~This suit of armor is formed from interlocking shadow dragon scales and on top of them the scales of a golden dragon.  Elegant workmanship and practical considerations make this armor both beautiful and useful.  The shadow dragon scales grant the wearer extra protection from acid and the scales of the golden dragon grant full protection from electricity. Together the scales form a very hard combination making this armor extremely difficult to pierce.
+
+STATISTICS:
+
+Bonuses: 
+  +50% Resistance to Acid
+  +100% Resistance to Electricity
+
+Armor Class: -3
+Weight: 15
+Requires: 8 Strength~
+@1352 = ~This helm improves the speed of both mind and body. While wearing it one notices to be able to think faster and move faster. That makes hitting the target easier and at the same evading blows becomes easier. The 'Haste' given by the helm can be dispelled but nonetheless the helm gives bonuses to attack and defense.
+
+STATISTICS:
+
+Equipping Abilities:
+ Intelligence set to 18
+ Improved Haste
+
+THAC0: +1 bonus
+Armor Class Bonus: +1
+Special: Protects Against Critical Hits
+Weight: 2~
+@1354 = ~Legend tells us that this particular type of ioun stone is crafted with the enslaved soul of a fire giant.  This bright orange ioun stone will grant the wearer the strength of a giant.
+
+STATISTICS:
+
+Abilities: Strength set to 22
+Armor Class Bonus: None
+Weight: 2~
+@1356 = ~Helm of Iron Mind protects it's wearer from all sorts of attempts to affect her mind. It is said that the helm also reduces the emotions of the wearer. That has not been proved but it wouldn't be much of a surprise if it was true.
+
+STATISTICS:
+
+Equipping Abilities:
+  Protection from Feeblemindness, Confusion, Rigid Thinking, Fear, Domination, Berserk, Charm
+
+Special:  Protects Against Critical Hits
+Weight: 1~
+@1358 = ~Halberd +5, The Wind
+
+The Wind contains magical flows of air and there is a good chance that when it hits a target, the air is released. The effect of this is similar to the Wing Buffet of dragons. The target is blown away from the wielder.
+
+STATISTICS:
+
+Combat Abilities: 50% Chance for a Wing Buffet when hits the target, small chance for a Saving Throw
+
+Damage: 1D10 + 5
+THAC0:  +5 bonus
+Damage type:  piercing
+Weight: 12
+Speed Factor: 4
+Proficiency Type: Halberd
+Type:  2-handed
+Requires: 13 Strength~
+@1360 = ~Mangloves was a strategist when he lived. He believed that any foe can be beaten with the right strategy. Therefore he had this halberd made for him. It has many abilities to strike to the opponents' weaknesses making their annihilation easier.
+
+STATISTICS:
+
+Combat Abilities:
+ 25% chance to disease the target for 2 rounds
+ 25% chance to make the target feebleminded for 2 rounds
+ 25% chance to cause the target a panic for 2 rounds
+ 25% chance to hold the target for 2 rounds
+
+Damage: 1D10 + 3
+THAC0:  +3 bonus
+Damage type:  piercing
+Weight: 12
+Speed Factor: 6
+Proficiency Type: Halberd
+Type:  2-handed
+Requires: 13 Strength~
+@1362 = ~The Violet Hammer was originally made as a joke from Gol Mountainpeak to Jacob Chalim. It was unfortunately ironic that some time later the men went to war on different sides and Jacob killed Gol with this hammer.
+
+STATISTICS:
+
+Combat Abilities:
+  The next spell of the target is affected by wild magic if saving throw fails
+
+Damage: 1D4 + 3
+THAC0:  +2 bonus
+Damage type:  crushing
+Weight: 6
+Speed Factor: 2
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength~
+@1364 = ~The Venom is enchanted with both poisonous and corrodive magics in an offencive and a defensive way. It was made by the dwarves but after that it has been mostly used by humans.
+
+STATISTICS:
+
+Equipping Abilities:
+ +50% resistance against poison
+ +50% resistance against acid
+
+Damage: 1D4 + 4, +2 Acid, +2 Poison
+THAC0:  +3 bonus
+Damage type:  crushing
+Weight: 5
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength~
+@1366 = ~This war hammer was originally found by wizards and that makes the name understandable. The weapon is the fear of all spellcasters. Those with not enough power to resist the hammer, forget a spell by every hit. That can cause a panic and a certain death. The wizards who found the Doom tried to hide it but somehow it got stolen and after that there has been no record of it's whereabouts.
+
+STATISTICS:
+
+Combat Abilities:
+ Removes all enemy Sanctuaries in the area, no save
+ Target forgets a spell with every hit, resistance can save
+
+Damage:  2D4 + 6
+THAC0: +6 bonus
+Damage type:  crushing
+Weight: 4
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type:  1-handed~
+@1368 = ~The Holy Triangle is a combination of the swords Ice, Fire and Lightning. They were forged into one by smith Brundor and now form the Holy Triangle. The sword is extremely powerful and it is said that the one who wields the power of the three swords, wields the power of gods.
+
+STATISTICS:
+
+Combat Abilities: 
+ Fireball
+  There is a 5% chance per hit that a 10d6 fireball explodes, centered on the target
+ Cone of Cold
+  There is a 5% chance per hit that a cone of cold rushes towards the target
+ Bolt of Lightning
+  There is a 5% chance per hit that a bolt of lightning pierces the target
+
+Damage: 1D6 +4, +1 Fire, Ice and Lightning
+THAC0:  +4 bonus
+Damage type:  piercing
+Weight: 2
+Speed Factor: 1
+Profiency Type: Short Sword
+Type:   1-handed
+Requires: 5 Strength~
+@1370 = ~This blade has been forged to keep the world unbalanced. It can be wielded by those of either good or evil alignment. It is known to deal extra damage to neutral creatures.
+
+STATISTICS
+
+Damage: 1D10 + 2, +3 against Neutral creatures
+THAC0:  +2 bonus, +3 against Neutral creatures
+Damage type:  slashing
+Weight:  4
+Speed Factor: 2
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength~
+@1372 = ~This katana was used by the weapon master of the fighter's guild in the city of Morgoth. It releases iron tough insects with every succesful hit and they slash through the enemy dealing damage. The target might also become feebleminded or blurred.
+
+STATISTICS:
+
+Combat Abilities:
+ Feeblemindness for 4 rounds (Save vs. Spells)
+
+Damage: 1D10 + 4, +5 Slashing Damage
+THAC0:  +4 bonus
+Damage type:  slashing
+Weight:  3
+Speed Factor: 1
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength~
+@1374 = ~The Phantom is a feared bow everywhere it is known. It shoots phantom arrows which can slow the target and burn and freeze the wound. One should be careful though because it is said that the Phantom is cursed. If you use the bow too long, you will loose your mind...
+
+STATISTICS:
+
+Special: 
+  This powerful bow needs no ammunition
+  Can slow the target
+
+Damage: 1D6 + 4, +2 Magical Fire and Cold
+THAC0:  +4 bonus
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Long Bow
+Type:  2-handed
+Requires: 6 Strength~
+@1376 = ~Studded leather armor has little in common with normal leather armor.  Instead of a hardened shell, studded leather offers hundreds of metal rivets affixed to a supple backing.  The numerous studs form a flexible coat of metal that helps to turn aside slashing and cutting attacks, while the leather is little more than a means of securing the rivets in place. This leather armor is heavily enchanted.
+ 
+STATISTICS:
+
+Armor Class: 3
+Weight: 8
+Requires: 6 Strength~
+@1378 = ~This heavily enchanted leather armor is known to absorb lower level spells. This means both helpful and harmful spells so the armor might become one's saviour or one's doom.
+
+STATISTICS:
+
+Abilities:
+ Imunnity to spells of level 1, 2 and 3
+
+Armor Class: 3
+Weight: 4
+Requires: 3 Strength~
+@1380 = ~This leather armor was created for one single purpose: to protect it's wearer from one of the most feared spells of Faerun, 'Imprisonment'. It has proven to be very effective against Demi-Liches.
+
+STATISTICS:
+
+Abilities:
+ Immunity from Imprisonment
+
+Armor Class: 2
+Weight: 8
+Requires: 6 Strength~
+@1382 = ~The Life Stealer works two ways. It deals unresistable extra damage to the target while healing the wielder with the same amount. So, to be correct, the Life Stealer does not exactly steal life. But on the other hand, it takes it from other and gives to other.
+
+STATISTICS:
+
+Combat Abilities: 
+  "Steals" two points of the opponents HP with every hit
+
+Damage: 1D6 + 4
+THAC0:  +3 bonus
+Damage type:  crushing
+Weight: 7
+Speed Factor: 4
+Proficiency Type: Mace
+Type:  1-handed
+Requires: 10 Strength~
+@1384 = ~The name of this weapon refers to it's abilities. There is a chance of diseasing or poisoning the target for a short period of time. The weapon also protects the wielder from poison. It is also said that snakes were used in the creation of this weapon.
+
+STATISTICS:
+
+Combat Abilities:
+ 50% chance to inflict the target with poison or disease if saving throw is failed
+
+Equipping Abilities:
+ 50% resistance against poison
+
+Damage: 1D6 + 2
+THAC0:  +1 bonus
+Damage type:  crushing
+Weight: 6
+Speed Factor: 6
+Proficiency Type: Mace
+Type:  1-handed
+Requires: 10 Strength~
+@1386 = ~The sword of the ninja, the ninja-to, is of lower quality than other Kara-Tur blades such as the katana.  The ninja-to is short with a straight blade, making it ideal for the subterfuge of the ninja.  The ninja-to is also more suited to fighting in closed places, sometimes giving the ninja an advantage over the longer blades that the samurai used. This Ninja-To is heavily enchanted.
+
+STATISTICS:
+
+Damage: 1D8 + 2
+THAC0:  +2 bonus
+Damage type:  slashing
+Weight:  5
+Speed Factor: 2
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 6 Strength~
+@1388 = ~Ninja-To
+The sword of the ninja, the ninja-to, is of lower quality than other Kara-Tur blades such as the katana.  The ninja-to is short with a straight blade, making it ideal for the subterfuge of the ninja.  The ninja-to is also more suited to fighting in closed places, sometimes giving the ninja an advantage over the longer blades that the samurai used. This Ninja-To is heavily enchanted.
+
+STATISTICS:
+
+Damage: 1D8 + 3
+THAC0:  +3 bonus
+Damage type:  slashing
+Weight:  4
+Speed Factor: 1
+Proficiency Type: Scimitar/Wakishashi/Ninja-To
+Type:  1-handed
+Requires: 6 Strength~
+@1393 = ~This weapon was forged by smith Brundor from a normal Ninja-To and the memory stones of the ancient hero, Xander. It soon became known that the wielder can let the spirit take over and the sword can attack on it's own for a short period of time. Xander's dream of his abilities passing on to the future generations has become true.
+
+STATISTICS:
+
+Special Abilities: 
+  The sword can attack on it's own for 5 rounds
+
+Damage: 1D8 + 2
+THAC0:  +3 bonus
+Damage type:  slashing
+Weight:  4
+Speed Factor: 2
+Proficiency Type: Scimitar/Wakishashi/Ninja-To
+Type:  1-handed
+Requires: 6 Strength~
+@1395 = ~Plate Mail of the Sun was created by Sun worshippers about a millenium ago. It has preserved well to this day. The enchantments have kept it safe and work well still. The wearer of the armor can cast a few priest spells.
+
+STATISTICS:
+
+Combat Abilities:
+ Can cast 'Sunray' and 'False Dawn' three times per day
+
+Armor Class: -1
+Weight: 50
+Requires: 12 Strength~
+@1397 = ~This plate mail armor works as a somekind of a portal between other planes of existance. While wearing this armor a part of the wearer moves to a higher plane of existance. This gives a lot of protection in this plane.
+
+STATISTICS:
+
+Equipping Abilities:
+ Protection from Petrification
+ Protection from Backstabbing
+ +10 to maximum HP
+
+Armor Class: -2
+Weight: 27
+Requires: 12 Strength~
+@1399 = ~Malver was an old man when he forged this plate mail. It was a gift to his grandson. Soon after the plate mail had been finished Malver died and thus couldn't give the armor to the grandson himself. His assistant was supposed to do it if something happened. The assistant did take the armor but not to the grandson.
+
+STATISTICS:
+
+Armor Class: 0
+Weight: 35
+Requires: 12 Strength~
+@1418 = ~Since the age of Netheril, mages have learned to bestow a wide variety of magical properties upon the everyday objects that surround them. A favorite item of such enchantment is the common robe. It is lightweight, affordable, and holds its enchantment well, thereby making it ideal equipment for a mage. Due to their magical heritage, however, only single-, dual-, and multi-class mages may wear these enchanted robes. This robe has been enchanted with protection magics.
+
+STATISTICS:
+
+AC: +2 bonus
+Saving Throws: +2 bonus
+Weight:  4~
+@1420 = ~The legend has it that once a regent, whose name has been lost in the history, was very ill and promised to reward the person who was able to cure him. A mage called Albacar made this robe but due to stupid role playing game rules the regent couldn't wear the robe. He wasn't a mage. The regent died and the robe was lost.
+
+STATISTICS:
+
+Equipping Abilities:
+ Protection from Acid
+ Protection from Poison
+
+Weight:  4~
+@1422 = ~The wearer of this robe can control time. The magical energy of the robe is enough for the caster to be able to cast 'Time Stop' instantly two times per day. Due to the heavy magical energy of the robe, it also blocks some of the outcoming energy.
+
+STATISTICS:
+
+Combat Abilities:
+ Instant Time Stop two times per day
+
+Equipping Abilities:
+ +10% Resistance against Magic
+ +10% Resistance against Magic Damage
+
+Weight:  4~
+@1430 = ~A lowly ranked Red Mage named Huhhus is said to have discovered the perfect way to distill troll flesh to make a potion that provided the same regenerative ability as that of the troll.  Few were willing to drink the vile liquid however and decades later an unknown craftsman created this bow, building upon the foundations of knowledge laid by Huhhus.
+
+STATISTICS:
+
+Equipping Abilities: 
+  Regenerates 1 HP every 6 seconds
+
+Damage: +2 bonus (missile)
+THAC0:  +2 bonus
+Weight: 2
+Speed Factor: 4
+Proficiency Type: Short Bow
+Type:  2-handed
+Requires: 3 Strength~
+@1432 = ~The legend has it that a boy called Hammon was once challenged to shoot an apple from on top of his father's head. To be able to do this, he was given this bow, although no-one knew of it's magical abilities back then. Anyway, the boy shot and pierced his father's chest. Decades later the craftsman of a nearby village found out that when an arrow is shot with this bow, it strives to strike the target with the most deadly way as possible.
+
+STATISTICS:
+
+THAC0:  +8 bonus
+Weight: 2
+Speed Factor: 5
+Proficiency Type: Short Bow
+Type:  2-handed
+Requires: 6 Strength~
+@1434 = ~There has been about twenty Cheetah scimitars made of which around fifteen are missing. They were made by "Falcon", her real name is not known, and used by her soldiers. People die and the scimitars have passed from adventurers to adventurers.
+
+STATISTICS:
+
+Special: 
+  +2 to attacks per round
+
+Damage: 1D8 + 3
+THAC0:  +3 bonus
+Damage type:  slashing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 10 Strength~
+@1435 = ~This weapons also knowns the name "Thief Catcher". It has been used by soldiers to hunt down thieves. Unfortunately the weapon was lost, to a thief, of course, and since then there has been no record of it's existance.
+
+STATISTICS:
+
+Equipping Abilities:
+ Protection from Backstab
+
+Combat Abilities:
+ Can cast the spell 'Invisibility Purge' three times per day
+
+Damage: 1D8 + 4
+THAC0:  +4
+Damage type:  slashing
+Weight:  3
+Speed Factor: 1
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 10 Strength~
+@1437 = ~The creator of this weapon was a madman, but extremely powerful one. He killed high ranked priests, wizards and fighters and captured their souls into this weapon. Then wielding the Marauder of the Souls he went to hells and challenged the demon lord Grazzt. Who won, that is not known, and neither is the fate of this scimitar.
+
+STATISTICS:
+
+Combat Abilities:
+  With a succesful hit one of these spells is cast instantly to the target:
+    Flame Strike
+    Harm
+    Fireball
+    Cone of Cold
+    Finger of Death
+
+Damage: 1D8 + 6
+THAC0:  +6 bonus
+Damage type:  slashing
+Weight:  3
+Speed Factor: 1
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 10 Strength~
+@1439 = ~The Protector was forged and enchanted to protect it's wielder from all projectile weapons. The enchantment is in the ornamentations which are missing.
+
+STATISTICS:
+
+Armor Class Bonus: 2
+Special:  +2 vs. Missile Weapons
+Weight: 15
+Requires: 15 Strength~
+@1447 = ~The Protector was forged and enchanted to protect it's wielder from all projectile weapons. The enchantment is in the ornamentations. They draw all missiles to hit the shield, not it's user.
+
+STATISTICS:
+
+Armor Class Bonus: 3
+Special: 
+  Protection from all projectile weapons
+Weight: 15
+Requires: 15 Strength~
+@1449 = ~The type of shield used by the king's guard in the lands of Pelandor. Shields like this are rarely found from elsewhere. Thieves and merchants have spread about twenty of them around the world.
+
+STATISTICS:
+
+Armor Class Bonus: 4
+Special:  +1 vs. Missile Weapons
+Weight: 4
+Requires: 10 Strength~
+@1451 = ~This shield gives almost certain protection from all instant death attacks. But death can still come by other ways.
+Superior craftsmanship is supplemented by a permanent lightness spell, which makes the shield very easy to wield.
+
+STATISTICS:
+
+Equipping Abilities:
+ -6 to Save vs. Death
+
+Armor Class Bonus: 4
+Special: +1 vs. Missile Weapons
+Weight: 10
+Requires: 10 Strength~
+@1453 = ~This sling was made in the Icewind Dale but the name of the maker is unknown. He, or she, added enchantments which freeze the bullet when it is put in it's place. When the bullet then hit's the target, the cold from it is transferred to the wound.
+
+STATISTICS:
+
+Damage: +3 (missile damage), +1D4 Cold Damage 
+THAC0:  +3 bonus
+Weight: 0
+Speed Factor: 4
+Proficiency Type: Sling
+Type:  1-handed
+Requires: 3 Strength~
+@1455 = ~Once a killer who called himseld Raven walked the streets of Calimport. He was the best assassin of his time. No-one ever saw him, at least the real him, and not once he failed in a mission. Then one day he just disappeared. Some people say he was killed, some people say he just left. Some believe he will still return.
+
+STATISTICS:
+
+Combat Abilities:
+  Death (Save vs. Death possible)
+
+Damage: +4 bonus (missile)
+THAC0:  +4 bonus (missile)
+Weight: 0
+Speed Factor: 2
+Proficiency Type: Sling
+Type:  1-handed
+Requires: 3 Strength~
+@1457 = ~A medium shield is carried in the same manner as a small shield.  Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield.  Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings.  A typical medieval shield resembles a triangle with one point facing downward. This shield is heavily enchanted.
+
+STATISTICS:
+
+Armor Class Bonus: 4
+Weight: 7
+Requires: 12 Strength~
+@1459 = ~This spear contains magic that has the same effect as piercing one's eye. That magic is released with every succesful hit and if the target cannot resist it, the result will be permanent blindness only to be dispelled with powerful magic.
+
+STATISTICS:
+
+Combat Abilities:
+  Permanent Blindness if saving throw fails
+
+Damage: 1D6 + 2
+THAC0:  +2 bonus
+Damage type:  piercing
+Weight: 5
+Speed Factor: 4
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength~
+@1461 = ~The other end of this spear is enchanted with cold magic which causes extra damage to the target. The spear is very old and the power of the magic has faded so there is only a small chance for it to release all of it's power. Mostly the released power is smaller.
+
+STATISTICS
+
+Combat Abilities:
+ 60% chance to make 1D4 cold damage
+ 30% chance to make 2D4 cold damage
+ 10% chance to make 3D4 cold damage
+
+Damage: 1D6 + 3
+THAC0:  +3 bonus
+Damage type:  piercing
+Weight: 3
+Speed Factor: 3
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength~
+@1463 = ~This spear has been forged of material only found from the seas. The enchantments have made it hard as a stone and very effective in combat. It is known to protect it's wielder from a few spells. Some people say that one of those spells is 'Raise Dead', but that's only a legend.
+
+STATISTICS
+
+Equipping Abilities:
+  Protection from Slow, Stun and Dispel Magic
+
+Damage: 1D6 + 5
+THAC0:  +5 bonus
+Damage type:  piercing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength~
+@1465 = ~A small shield is usually round and is carried on the forearm, gripped with the shield hand.  Its light weight as compared to a medium shield permits the user to carry other items in that hand, although he cannot wield or carry another weapon. This shield is heavily enchanted.
+
+STATISTICS:
+
+Armor Class Bonus: 4
+Weight: 2
+Requires: 4 Strength~
+@1467 = ~Mendelev spent all his life with studying the possibility of reflecting spells with equipment. This is all he achieved before dying. The achievement isn't small though and there has been many battles over this shield. Later when reflective equipments became more common, the shield wasn't that valuable anymore but many adventurers would still do anything to get it.
+
+STATISTICS:
+
+Equipping Abilities:
+ +20% to magic resistance
+ Reflects back spells of level 2,3 and 4
+
+Armor Class Bonus: 5
+Weight: 2
+Requires: 4 Strength~
+@1469 = ~This medium shield has the effect of hiding it's wearer from the view. Unfortunately the ability has faded and now the wielder comes visible occassionally.
+
+STATISTICS:
+
+Equipping Abilities:
+ Invisibility (turns on/off)
+
+Armor Class Bonus: 5
+Weight: 7
+Requires: 12 Strength~
+@1471 = ~The short sword of fire is a magically enchanted blade. There has never been many of these and thus finding one is rare. Together with two other swords this sword forms a Holy Triangle. It is said in the old writings of Garem Thormbead that "the one who wields the power of the Holy Triangle, wields the power of gods".
+
+STATISTICS:
+
+Combat Abilities: Fireball
+ There is a 5% chance per hit that a 10d6 fireball explodes, centered on the target
+
+Damage: 1D6 + 3, +1 Fire
+THAC0:  +3 bonus
+Damage type:  piercing
+Weight: 2
+Speed Factor: 1
+Profiency Type: Short Sword
+Type:   1-handed
+Requires: 5 Strength~
+@1473 = ~The short sword of ice is a magically enchanted blade. There has never been many of these and thus finding one is rare. Together with two other swords this sword forms a Holy Triangle. It is said in the old writings of Garem Thormbead that "the one who wields the power of the Holy Triangle, wields the power of gods".
+
+STATISTICS:
+
+Combat Abilities:
+ There is a 5% chance per hit that a Cone Of Cold rushes towards the target
+
+Damage: 1D6 + 3, +1 Cold
+THAC0:  +3 bonus
+Damage type:  piercing
+Weight: 2
+Speed Factor: 1
+Profiency Type: Short Sword
+Type:   1-handed
+Requires: 5 Strength~
+@1475 = ~The short sword of lightning is a magically enchanted blade. There has never been many of thus finding one is rare. Together with two other swords this sword forms a Holy Triangle. It is said in the old writings of Garem Thormbead that "the one who wields the power of the Holy Triangle, wields the power of gods".
+
+STATISTICS:
+
+Combat Abilities:
+ There is a 5% chance per hit that a Bolt Of Lightning pierces the target
+
+Damage: 1D6 + 3, +1 Lightning
+THAC0:  +3 bonus
+Damage type:  piercing
+Weight: 2
+Speed Factor: 1
+Profiency Type: Short Sword
+Type:   1-handed
+Requires: 5 Strength~
+@1477 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  Masterwork quarterstaffs are made of stout oak and are shod with metal at both ends.  This one is particularly special as it has been imbued with magical properties.
+
+STATISTICS:
+
+Combat Abilities: 
+  Good chance to stun the target for a round
+
+Special: 
+  The staff is considered as a +5 weapon
+
+Damage: 1D6 + 3
+THAC0:  +3 bonus
+Damage type:  crushing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Quarterstaff
+Type:  2-handed
+Requires: 5 Strength~
+@1478 = ~This simple staff radiates a powerful enchantment, though its plain design suggests a simple origin. It can be used to breach through magical defenses and as the magic is in the staff itself, wizards are not the only ones who can use it.
+
+STATISTICS:
+
+Abilities:
+  Can cast Remove Magic and Breach two times per day
+  Can cast Pierce Magic, Ruby Ray of Reveasal and Khelben's Warding Whip once per day
+
+Combat Abilities:
+  Dispel Magic
+
+Damage: 1D6 + 3
+THAC0:  +3
+Damage type:  crushing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Quarterstaff
+Type:  2-handed
+Requires: 5 Strength~
+@1480 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends.  This one is particularly special as it has been imbued with magical properties, including the haste effect.
+
+STATISTICS:
+
+Equipping Abilities:
+ Haste
+
+Damage:  1D6 + 1
+THAC0:  +1
+Damage type:  crushing
+Weight: 4
+Speed Factor: 3
+Proficiency Type: Quarterstaff
+Type:  2-handed
+Requires: 5 Strength~
+@1482 = ~The Whirlwind is the fastest staff ever created. It has no speed factor and grants the wielder haste. The Whirlwind was constructed from a sword, a staff and two diamonds. The sword has been melted into the staff and the diamonds are hardening both ends of the staff granting extra damage. Due to several enchantments the Whirlwind is extremely light.
+
+STATISTICS:
+
+Equipping Abilities:
+  Haste
+  +1 Attack per round
+  Dexterity set to 18
+
+Damage: 1D6 + 3
+THAC0:  +3
+Damage type:  crushing
+Weight: 1
+Speed Factor: 0
+Proficiency Type: Quarterstaff
+Type:  2-handed
+Requires: 3 Strength~
+@1483 = ~With this sword one gains the access to few of the most powerful spells of Faerun. One can either imprison someone into an eternal prison or free someone from there. The abilities of this sword should be used carefully or one might find herself in the prison instead of the enemy.
+
+STATISTICS:
+
+Special: 
+  Can cast Imprisonment and Freedom once per day
+
+Damage: 2D4 + 3
+THAC0:  +3 bonus
+Damage type:  slashing
+Weight:  8
+Speed Factor: 5
+Proficiency Type: Bastard sword
+Type:  1-handed
+Requires: 11 Strength~
+@1485 = ~Dhor was a man of many skills. He was known to be a good entertainer and the ladies liked him. He was also a good harp player and a competent hunter. Unfortunately he died in a war and this sword was lost to his enemies. After that it's history is unknown.
+
+STATISTICS:
+
+Combat Abilities:
+  Deals 1D4 inresistable extra poison, acid, slashing or piercing damage
+
+Damage: 2D4 + 4
+THAC0:  +4 bonus
+Damage type:  slashing
+Weight: 8
+Speed Factor: 7
+Proficiency Type: Bastard Sword
+Type:  1-handed
+Requires: 11 Strength~
+@1487 = ~Delvin was a fine smith and believed in the balance of powers. This is his best work and not for naught is he proud of it. The downside for an adventurer is that as Delvin was True Neutral, the sword might not only damage the target. There is also a possbility that it gives the target a helpful ability.
+
+STATISTICS:
+
+Combat Abilities:
+ 10% chance to
+   Make invisible
+   Stun
+   Give 100% Magic Resistance
+   Hold
+   Bless
+   Lower Saving Throws (-2)
+   Aid
+   Deal 25 points of magical damage
+   Heal 25 HP
+   Maze
+The duration of those effects which can have a duration is 3 rounds.
+
+Damage: 1D8 + 4
+THAC0:  +4 bonus
+Damage type:  slashing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength~
+@1489 = ~The blood of a vampire runs in this sword and there is a chance with each succesful hit that the sword drains levels from the target as vampires do. Nothing is able to resist this sword so even the most powerful creatures of the realms can be bent under it's power.
+
+STATISTICS:
+
+Combat Abilities: 
+  15% chance to drain two levels (save possible (-3 bonus), resistance has no meaning)
+
+Damage: 1D8 + 5
+THAC0:  +5 bonus
+Damage type:  slashing
+Weight: 4
+Speed Factor: 1
+Proficiency Type:  Long Sword
+Type:  1-handed
+Requires: 6 Strength~
+@1491 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  The blade hums slightly in your hand and provides protection in combat.
+
+STATISTICS:
+
+Damage: 1D8 + 2
+THAC0:  +2 bonus
+Special:
+  +2 AC bonus
+  +2 Saving Throws bonus
+Damage type:  slashing
+Weight: 2
+Speed Factor: 3
+Proficiency Type: Long sword
+Type:  1-handed
+Requires: 6 Strength~
+@1493 = ~Also known as the Sword of Anger. Looking from outside the sword looks quite beatiful but when it hits you, you tend to go mad. The name of the forger of this sword is unknown but first records of it can be traced to the city of Calimport.
+
+STATISTICS:
+
+Combat Abilities: 
+  Target goes into berserk if Saving Throw fails
+
+Damage: 1D6 + 2
+THAC0:  +2 bonus
+Damage type:  piercing
+Weight: 2
+Speed Factor: 2
+Proficiency Type: Short Sword
+Type:  1-handed
+Requires: 5 Strength~
+@1495 = ~This sword just knows how to hit the target. It is amazing but even those with no experience in fighting can get a hit through a fairly good fighter's defence. The sword has also gained reputation amongst assassins as in skilled hands it can deliver death quickly and smoothly.
+
+STATISTICS:
+
+Damage: 1D6 + 4
+THAC0:  +8 bonus
+Damage type:  piercing
+Weight: 2
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type:  1-handed
+Requires: 5 Strength~
+@1497 = ~The Storm Caller is a very poweful sword despite it's simple looks. It has the rare ability of controlling weather. Every time one enters a combat in an outdoor area using this sword, it begins to rain. There is also a chance that bolts of lightning start to strike down on the enemies. When fighting indoors this weapon's strongest abilities are ineffective.
+
+STATISTICS:
+
+Combat Abilities:
+ 10% chance of Call Lightning when fighting outside
+ When one enters a combat with this blade, a rain will come
+
+Damage: 1D6 + 3, +1D4 Electrical Damage
+THAC0:  +3 bonus
+Damage type:  piercing
+Weight: 2
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type:  1-handed
+Requires: 5 Strength~
+@1498 = ~This is the weapon of the fighter mage Xar. The legend has it that one day he arrived to the gates of the city of Malorchas. He demanded the city to give him the Thera's Diamond, a treasure of great value. His demand was of course turned down but the result was not what the city folk expected. Single handedly Xar crushed the city and took the Diamond. Those who survived told stories of horrible demons who did what Xar ordered. Great adventurers set on quests to slay him but they never returned.
+
+STATISTICS:
+
+Abilities:
+ Can cast Monster Summoning III, Animal Summoning III, Cacofiend and Gate once per day
+ Protection from Evil
+
+Special: 
+  Considered as a +5 weapon
+
+Damage: 1D12 + 3
+THAC0:  +3 bonus
+Damage Type:  slashing
+Weight:  10
+Speed Factor:  7
+Proficiency Type:  Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@1500 = ~Manfried was a legendary knight of the Order of the Valiant Heart. He was a courageous leader and always rode to battle in the frontline. Such behaviour of course had to lead into death some day and that is what happened. Nonetheless his name is still honoured by those who have joined the Order.
+
+STATISTICS:
+
+Damage: 1D10 + 4
+THAC0:  +4 bonus
+Damage type:  slashing
+Weight: 10
+Speed Factor: 6
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@1502 = ~The wakizashi, or companion sword, is extremely important to the samurai.  It is worn at all times, even indoors, and is near the samurai when he sleeps at night.  Wu Jen masters have concealed within this wakishashi great power, unleashed only when the wielder is in the thick of battle.  How or why this wakizashi made it to Faerun is unknown, but if the samurai who owned it still lives, he will certainly be looking for it.
+
+STATISTICS:
+
+Damage: 1D8 + 1
+THAC0:  +1 bonus
+Damage type:  piercing
+Weight:  3
+Speed Factor: 1
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 5 Strength~
+@1504 = ~The wakizashi, or companion sword, is extremely important to the samurai.  It is worn at all times, even indoors, and is near the samurai when he sleeps at night.  Wu Jen masters have concealed within this wakishashi great power, unleashed only when the wielder is in the thick of battle.  How or why this wakizashi made it to Faerun is unknown, but if the samurai who owned it still lives, he will certainly be looking for it.
+
+STATISTICS:
+
+Damage: 1D8 + 3
+THAC0:  +3 bonus
+Damage type:  piercing
+Weight:  2
+Speed Factor: 1
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type:  1-handed
+Requires: 5 Strength~
+@1506 = ~Arbacan's Crossbow, or Crossbow of the Elements. When a bolt is shot, the enchantments in the crossbow add a little magical surprise with it. When the bolt hits a target, the surprise comes with it.
+
+STATISTICS:
+
+THAC0:  +3 bonus
+Damage: +3 (missile), +1 Cold, +1 Fire, +1 Electricity
+Weight: 5
+Speed Factor: 2
+Proficiency Type: Crossbow
+Type:  2-handed
+Requires: 8 Strength~
+@1508 = ~This crossbow was recovered from the ruins of Haraban. It is very fast to use and thus it was named as Death. It brings death so fast that one can shoot down ten goblins before they start to think about doing something.
+
+STATISTICS:
+
+THAC0:  +4 bonus
+Damage: +4 (missile)
+Weight: 5
+Speed Factor: 1
+Proficiency Type: Crossbow
+Type:  2-handed
+Requires: 8 Strength~
+@1510 = ~Girlde of the Ogre is commonly worn by the ogre tribe leaders. It's a symbol of their leadership and gives them courage, will and strength in their battles.
+
+STATISTICS:
+
+Equipping Abilities:
+ +2 to Strength
+ Immune to Confusion/Rigid Thinking/Fear
+
+Weight: 2~
+@1514 = ~This is the reward of winning the second fighting day at the Arena. A real beauty for an armor.
+
+STATISTICS:
+
+Armor Class: -2
+Weight: 35
+Requires: 15 Strength~
+@1516 = ~Yeah, well, I made this weapon to be able to use for the player but it's picture sucked so I made it undroppable.
+
+STATISTICS:
+
+Combat Abilities:
+  May stun the target
+  May blind the target
+  May frighten the target
+
+Damage: 1D6 + 5
+THAC0:  +4
+Damage Type: crushing
+Weight: 8
+Speed Factor: 5
+Profiency Type: Mace
+Type: 1 -handed
+Requires: 10 Strength~
+@1518 = ~Once a young man called Tapio Perkiomaki lived in a small village near Baldur's Gate. He had many friends in the village but one day he decided to leave the place and move to Baldur's Gate. He couldn't just leave without giving something to his friends so for a week he worked with this halberd. At the night when he had finished it, he left it to the center of the village and wrote "My Legacy" on the ground. Then he left and nobody ever saw him again. When his friends woke at morning they found the halberd and knew who had made it. Since then it has been the pride of that small village, until stolen.
+
+STATISTICS:
+
+Equipping Abilities:
+  100% Resistance against Cold
+
+Damage: 1D10 + 4
+THAC0:  +4 bonus
+Damage type:  piercing
+Weight: 12
+Speed Factor: 6
+Proficiency Type: Halberd
+Type:  2-handed
+Requires: 13 Strength~
+@1538 = ~Robe of Lords is enchanted with many protections and there have been number of times when it has been stolen by violence. It has no use to a thief so countless times an evil mage has hired a thief to steal it for her. Therefore it has been used almost only by those of evil alignment.
+
+STATISTICS:
+
+Equipping Abilities:
+ +25% Resistance to Fire, Cold, Electricity, Poison, Acid
+ +1 to AC Class
+ +1 to all Saving Throws
+
+Weight:  4~
+@1542 = ~The Shield of Thor is one of the rewards at the Arena. When you take a closer look, you can see that it really is the "Divine Protector", Shield of Thor.
+
+STATISTICS:
+
+Armor Class Bonus: 5
+Weight: 2
+Requires: 4 Strength~
+@1544 = ~This is one of the few armors found from the ruined city of Esto. It's former user's soul was trapped inside of it for a long time until released by <CHARNAME>. The armor no longer feels alive and certainly does not speak. The sense of evil in it is gone so it is now usable to those of good alignment too.
+
+STATISTICS:
+
+Equipping Abilities:
+ Immunity to Normal Weapons
+
+Armor Class: -1
+Weight: 40
+Requires: 15 Strength~
+@1546 = ~This is one of the few armors found from the ruined city of Esto. It's former user's soul got somehow trapped inside of it and the soul suffers every time someone hits the armor. Few have guts to wear the armor because they are afraid that if they use it and die, their soul will also be trapped to inside of it.
+It is also rumoured that the soul in the armor talks to it's wearer. Some people have said that the armor spoke to them. Something about pain and "they".
+Just recently because of the actions of <CHARNAME> another soul was trapped in. A priest of Waukeen. The armor received more enchantments but can no longer be used by those of neutral alignment.
+
+STATISTICS:
+
+Equipping Abilities:
+ Immunity to Normal Missiles and Weapons
+
+Armor Class: -2
+Weight: 40
+Requires: 15 Strength~
+@1547 = ~This is one of the few armors found from the ruined city of Esto. It's former user's soul got somehow trapped inside of it and the soul suffers every time someone hits the armor. Few have guts to wear the armor because they are afraid that if they use it and die, their soul will also be trapped to inside of it.
+It is also rumoured that the soul in the armor talks to it's wearer. Some people have said that the armor spoke to them. Something about pain and "they".
+
+STATISTICS:
+
+Equipping Abilities:
+ Immunity to Normal Missiles and Weapons
+
+Armor Class: -1
+Weight: 40
+Requires: 15 Strength~
+@1551 = ~This class of open-face helmet, made of reinforced leather or metal, covers most of the head, save the face and neck. These helmets commonly provide protection for the nose. This helmet has been enchanted with a magical gem.
+
+STATISTICS:
+
+Equipping Abilities:
+  75% Resistance against Lightning
+  Regenerates 1 HP every  6th second
+
+Armor Class Bonus:  +2
+Special:  Protects Against Critical Hits
+Weight: 2~
+@1553 = ~The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with a stone or iron head mounted on the end.  The head design varies; some being spiked, others flanged, and still others have pyramidal knobs. This mace has been enchanted with a magical gem.
+
+STATISTICS:
+
+Combat Abilites:
+ Causes electrical damage with a succesful hit (2D6)
+
+Damage: 1D6 + 3
+THAC0:  +3 bonus
+Damage type:  crushing
+Weight: 8
+Speed Factor: 5
+Proficiency Type: Mace
+Type:  1-handed
+Requires: 10 Strength~
+@1555 = ~A small shield is usually round and is carried on the forearm, gripped with the shield hand.  Its light weight as compared to a medium shield permits the user to carry other items in that hand, although he cannot wield or carry another weapon. This shield has been enchanted with a magical gem.
+
+STATISTICS:
+
+Equipping Abilities:
+ 100% Resistance Against Lightning
+
+Armor Class Bonus: 3
+Weight: 3
+Requires: 4 Strength~
+@1569 = ~This is the symbol of Talavan's family. It has been in their hands over two hundred years. Originally it was found from a ruined castle. No-one knows it's history before that.
+
+STATISTICS:
+
+Armor Class Bonus: +1
+Special:
+  Protects Against Critical Hits
+  Gives +5% to magic resistance
+Weight: 2~
+@1571 = ~This is the personal weapon of Chieftain Olmar.
+
+STATISTICS:
+
+Equipping Abilities:  Haste
+
+Damage: 1D6 + 4
+THAC0:  +4 bonus
+Damage type:  piercing
+Speed Factor: 1
+Weight: 2
+Profiency Type: Short Sword
+Type:  1-handed
+Requires: 5 Strength~
+@1575 = ~Centuries ago a powerful wizard trapped a lightning into this staff. With the power of the lightning the wizard was able to give many magical abilities to the staff, all somehow related to electricity.
+
+STATISTICS:
+
+Combat Abilities:
+ 20% chance to cast Chain Lightning on the target
+
+Damage: 1D6 + 3, +5 electrical damage
+THAC0:  +3 bonus
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Profiency Type: Staff
+Type: 2-handed
+Requires: 5 Strength~
+@1580 = ~The Tuigans are a nomadic people widely dispersed across the steppe regions of Faerun but bound together by a common bloodline.  The bows they make are especially tailored for their mobile warriors, and the process used is carefully guarded, but the result is well known: any bow of Tuigan origin can be fired faster than is possible with a normal one.
+
+STATISTICS:
+
+Combat Abilities: 3 shots per round
+THAC0:  +4 bonus
+Damage: +4
+Weight: 2
+Speed Factor: 2
+Proficiency Type: Short Bow
+Type:  2-handed
+Requires: 6 Strength~
+@1582 = ~The two-handed sword is a derivative of the long sword.  Weaponsmiths have always looked for ways to improve existing weapons.  In an effort to improve the long sword, the blade was lengthened.  Eventually, the handle had to be extended and two hands became necessary to properly swing the sword.  The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.  This one is particularly good at its job as it has been enchanted with many magical properties.
+
+STATISTICS:
+
+Damage: 1D10 + 3
+THAC0:  +3 bonus
+Damage type:  slashing
+Weight: 12
+Speed Factor: 6
+Proficiency Type: Two Handed sword
+Type:  2-handed
+Requires: 14 Strength~
+@1586 = ~Ultima Master's robe. It's known that this robe has been made from bear's fur and that it gives elemental protection.
+
+STATISTICS:
+
++50% Resistance to Fire, Cold, Lightning and Acid~
+@1588 = ~This staff has been made of pure magic. It glows green in the hands of the chosen.
+
+STATISTICS:
+
+Equipped Abilities:
+  +2 Intelligence Bonus
+  Free Action
+  +2 Bonus to AC
+
+Combat Abilities:
+  5% change to cast Ultima when hits the target
+
+Damage: 1D6 + 4
+THAC0:  +4 bonus
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Profiency Type: Staff
+Type: 2-handed
+Requires: 5 Strength~
+
+//***********************************************************************************************
+// KITS
+//***********************************************************************************************
+
+@1636 = ~The Lancers are specialized with spears and staffs. They can also make them. This spear was made by a lower level Lancer.
+
+STATISTICS:
+
+Damage: 1D6 + 1
+THAC0:  +1 bonus
+Damage type:  piercing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength~
+@1638 = ~The Lancers are specialized with spears and staffs. They can also make them. This spear was made by a low level Lancer.
+
+STATISTICS:
+
+Damage: 1D6 + 2
+THAC0:  +2 bonus
+Damage type:  piercing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength~
+@1640 = ~The Lancers are specialized with spears and staffs. They can also make them. This spear was made by a mid level Lancer.
+
+STATISTICS:
+
+Damage: 1D6 + 3
+THAC0:  +3 bonus
+Damage type:  piercing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength~
+@1642 = ~The Lancers are specialized with spears and staffs. They can also make them. This spear was made by a high level Lancer.
+
+STATISTICS:
+
+Equipping Abilities:
+ +20% to Magic Resistance
+ +2 to AC Class
+
+Damage: 1D6 + 4
+THAC0:  +4 bonus
+Damage type:  piercing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength~
+@1644 = ~The Lancers are specialized with spears and staffs. They can also make them. This spear was made by a very high level Lancer.
+
+STATISTICS:
+
+Equipping Abilities:
+ +30% to Magic Resistance
+ +2 to AC Class
+ +2 to all Saving Throws
+
+Damage: 1D6 + 5
+THAC0:  +5 bonus
+Damage type:  piercing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength~
+@1646 = ~The Lancers are specialized with spears and staffs. They can also make them. This spear was made by a master Lancer.
+
+STATISTICS:
+
+Equipping Abilities:
+ +40% to Magic Resistance
+ +2 to AC Class
+ +2 to all Saving Throws
+
+Damage: 1D6 + 6, +3 Fire, Ice and Lightning Damage
+THAC0:  +6 bonus
+Damage type:  piercing
+Weight: 5
+Speed Factor: 5
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength~
+@1698 = ~When played, this harp's song frightens all the nearby hostile creatures. This kind of harps are commonly made by Harpists.
+
+STATISTICS:
+
+Special Abilities: Horror three times per day, lasts 30 seconds~
+@1700 = ~When played, this harp's song increases all allies' combat abilities. This kind of harps are commonly made by Harpists.
+
+STATISTICS:
+
+Special Abilities: +2 to all allies's THAC0 and Damage three times per day, lasts 30 seconds~
+@1702 = ~When played, this harp's song increases all allies' defense abilities. This kind of harps are commonly made by Harpists.
+
+STATISTICS:
+
+Special Abilities: +3 to all allies' AC Classes and Saving Throws three times per day, lasts 30 seconds~
+@1704 = ~When played, this harp makes a non-elemental physical attack against one target. This kind of harps are very rarely made by Harpists.
+
+STATISTICS:
+
+Special Abilities: Crushing Attack against one target three times per day, no saving throw~
+@1706 = ~When played, this harp causes one of your enemies to battle on your side for a short duration. This kind of harps are rarely made by Harpists.
+
+STATISTICS:
+
+Special Abilities: Dominates one enemy three times per day, lasts 30 seconds~

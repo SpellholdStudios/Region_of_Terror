@@ -1,0 +1,2313 @@
+@957  = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt. Dieser Flegel wurde mit einem magischen Edelstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Der Flegel bietet einen Säurewiderstand von 50 % 
+
+Schaden: 1W6 + 4, +3 Säureschaden
+ETW0: +3 Bonus
+Schadensart: zerschmettern
+Gewicht: 15
+Initiativefaktor: 5
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+Mindeststärke: ~
+@962  = ~Aegis-Fang +4
+
+Diese Waffe wurde als ein Geschenk für Wulfgar von Bruenor Schlachtenhammer geschmiedet, und das stärkste seiner Verzauberungen wirkt nur in den Händen des jungen Kriegers. Bruenor ist sehr stolz auf diese Waffe. Es ist seine beste Arbeit.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 + 4
+ETW0: +4 Bonus
+Gewicht: 3
+Initiativefaktor: 5
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 18~
+@975  = ~Die Ursprünge dieses Amulettes sind unbekannt, daher weiß niemand wirklich, wer es machte und wo. Es ist wahrscheinlich, dass es irgendwie in einer Zwischenebene gefunden wurde, weil Amulette dieses Typs in der Welt von Faerûn sehr selten sind.
+
+EIGENSCHAFTEN:
+
+Gewährt einen zuätzlichen Zauber der ersten, zweiten, dritten und vierten Stufe.~
+@988  = ~Diese Klinge wurde verwendet, um Baldurs Tor vor einer Horde von Ungeheuern zu retten. Es wurde vom großen Helden Tapio Perkiomaki getragent.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 + 4
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 10
+Initiativefaktor: 6
+Fertigkeit: Langschwert
+Typ: 2-händig
+Mindeststärke: 14~
+@997  = ~Schattendiebe machten diesen Dolch, um ihren Mördern zu helfen, ihre Aufträge zu vollenden. Dieser Dolch kann geworfen werden, und er kehrt in die Hand des Werfers zurück, was ihn unglaublich nützlich für Morde macht. Er macht auch den Träger unsichtbar.
+
+EIGENSCHAFTEN:
+
+Geschicklichkeit +2
+Auf dem Träger liegt Unsichtbarkeit
+
+Schaden: 1W4 + 3
+ETW0: +3 Bonus
+Schadensart: durchbohren
+Gewicht: 1
+Initiativefaktor: 1
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3~
+@999  = ~Das Bastardschwert ist von seiner Art her zwischen dem Zweihänder und dem Langschwert angesiedelt, weshalb es auch als Anderthalbhänder bezeichnet wird. Es besitzt eine zweischneidige Klinge und einen langen Griff, wodurch es auch beidhändig geschwungen werden kann. Die durchschnittliche Länge des Bastardschwertes liegt zwischen 1,40 und 1,60 m. Dies ist ein magisches Bastardschwert.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 + 2
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 9
+Initiativefaktor: 6
+Fertigkeit: Bastardschwert
+Typ: 1-händig
+Mindeststärke: 11~
+@1001 = ~Das Bastardschwert ist von seiner Art her zwischen dem Zweihänder und dem Langschwert angesiedelt, weshalb es auch als Anderthalbhänder bezeichnet wird. Es besitzt eine zweischneidige Klinge und einen langen Griff, wodurch es auch beidhändig geschwungen werden kann. Die durchschnittliche Länge des Bastardschwertes liegt zwischen 1,40 und 1,60 m. Dies ist ein magisches Bastardschwert.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 + 4
+ETW0: +2 Bonus
+Schadensart: aufschlitzen
+Gewicht: 9
+Initaitivefaktor: 6
+Fertigkeit: Bastardschwert
+Typ: 1-händig
+Mindeststärke: 11~
+@1003 = ~Die Klinge der Verzweiflung ist gewöhnlich nur in den Händen der Diener der bösen Göttin Shar zu sehen. Es ist ein unheiliges Symbol, das den Dienern überreicht wird, die ihre Leben dauerhaft ihrer dunklen Gottheit gewidmet haben.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 + 3
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 10
+Initiativefaktor: 7
+Fertigkeit: Zweihänder
+Typ: 2-händig
+Mindeststärke: 14~
+@1007 = ~Für berittene Kämpfer sind Waffen mit langem Schaft eher ungeeignet, weshalb viele Waffen mit einem kürzeren Schaft versehen wurden, so dass sie mit einer Hand geschwungen werden können. Beispiele dafür sind Streitkolben und Flegel, ein weiteres ist der Kriegshammer. Der Kriegshammer für Reiter wurde aus dem Luzerner Hammer entwickelt. Er besteht ganz aus Stahl und ist mit kleinen Metallscheiben - auch Rondelle genannt - versehen, die zum Schutz und zur Verstärkung des Griffes dienen. Diese Rondelle sind oft schmuckvoll verziert und geformt. Der Schaft hat eine Länge von ungefähr 50 cm. Dieser Kriegshammer wurde mit einem magischen Edelstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Das Ziel erhält einen atemberaubenden Schaden bei jedem erfolgreichen Treffer.
+
+Schaden: 1W4 + 3
+ETW0: +3 Bonus
+Schadensart: zerschmettern
+Gewicht: 6
+Initiativefaktor: 3
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9~
+@1011 = ~Ein Plattenpanzer verbindet ein Kettengeflecht mit Metallplatten, die die am meisten gefährdeten Körperbereiche wie Brust-, Bauch- und Leistengegend schützen. Ähnlich in der Bauweise wie ein Bronzepanzer, besteht ein echter Plattenpanzer aus Kettengeflecht und Leder. Dieser Plattenpanzer wurde mit einem magischen Edelstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Zauber der niedrigen Stufe (unter sechs) werden zurück zum Anwender reflektiert.
+
+Rüstungsklasse: 1
+Gewicht: 50
+Mindeststärke: 12~
+@1013 = ~Dieses Schwert ist die persönliche Waffe der "Angst". Es fügt den Feinden Angst zu, aber mehr ist nicht darüber bekannt.
+
+EIGENSCHAFTEN:
+
+Verursacht bei Gegnern Angst
+
+Schaden: 1W10
+Schadensart: aufschlitzen
+Gewicht: 10
+Initiativefaktor: 7
+Fertigkeit: Zweihändiges Schwert
+Typ: 2-händig
+Mindeststärke: 14~
+@1015 = ~Dieses Schwert ist die persönliche Waffe des "Hasses". Es fügt den Feinden vernichtenden Schaden zu, aber mehr ist nicht darüber bekannt.
+
+EIGENSCHAFTEN:
+
+Fügt den Feinden 2W6 zusätzlichen Schaden zu.
+
+Schaden: 1W10
+Schadensart: aufschlitzen
+Gewicht: 10
+Initiativefaktor: 7
+Fertigkeit: Zweihändiges Schwert
+Typ: 2-händig
+Mindeststärke: 14~
+@1017 = ~Dieses Schwert ist die persönliche Waffe des "Schmerzes". Es fügt den Feinden Gift-Schaden zu, aber mehr ist nicht darüber bekannt.
+
+EIGENSCHAFTEN:
+
+Fügt Gegenern 2W6 Gift-Schaden zu
+
+Schaden: 1W10
+Schadensart: aufschlitzen
+Gewicht: 10
+Initiativefaktor: 7
+Fertigkeit: Zweihänder
+Typ: 2-händig
+Mindeststärke: 14~
+@1019 = ~Dieses Schwert ist die persönliche Waffe des "Kummers". Es verursacht den Feinden Krankheit, aber mehr ist nicht darüber bekannt.
+
+EIGENSCHAFTEN:
+
+Verursacht den Feinden Krankheit
+
+Schaden: 1W10
+Schadensart: aufschlitzen
+Gewicht: 10
+Initiativefaktor: 7
+Fertigkeit: Zweihändiges Schwert
+Typ: 2-händig
+Mindeststärke: 14~
+@1023 = ~Diese Klinge ist in die Kräfte von Gut und Böse aufgeteilt. Diese beiden Kräfte kämpfen einen ewigen Kampf im Schwert und glühen mit der Farbe der Finsternis und der Farbe des Lichtes. Das Schwert kann nicht von neutralen Wesen gehandhabt werden. Es muss entweder von guten oder bösen verwendet werden. Heutzutage sind Klingen mit der Macht beider Seiten selten zu finden.
+
+EIGENSCHAFTEN:
+
+Wenn dem angegriffenen Wesen während der folgenden 30 Sekunden ein Rettungswurf misslingt, sind alle seine Zaubersprüche durch die wilde Magie betroffen.
+
+Schaden: 1W12 + 4
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 10
+Initiativefaktor: 7
+Fertigkeit: Zweihändiges Schwert
+Typ: 2-händig
+Mindeststärke: 14~
+@1057 = ~Diese Armbänder sind eine der Belohnungen, die der Sieger der Magie-Duell Wettbewerbes in der Arena erhält. Sie sind nur zu diesem Zweck geschaffen und sind völlig einzigartig.
+
+EIGENSCHAFTEN:
+
+Der Zauberer kann einen Extrazauber der Stufen 5, 6, 7 und 8 lernen
+
+Rüstungsklasse: 4
+Gewicht: 2~
+@1059 = ~Diese Axt fand Bruenor Schlachtenhammer während seiner Abenteuer um die Welt. Sie wurde vielen unglücklichen Goblins und Riesen zum Verhängnis.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +4, +3 Feuer
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 7
+Initiativefaktor: 4
+Fertigkeit:
+Typ: 1-händige Axt
+Mindeststärke: 14~
+@1061 = ~Dies ist der persönliche Helm von Bruenor Schlachtenhammer. Das andere Horn des Helms wurde in einem Kampf abgetrennt. Bruenor liebt den Helm sehr und trägt ihn, selbst wenn er schläft.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: +1 Bonus
+Speziell: Schützt Gegen Kritische Treffer
+Gewicht: 2~
+@1063 = ~Der Schild aus Schlachtenhammers Sippe. Er ist heutzutage im Gebrauch des jüngsten Mitgliedes der Sippe, Bruenor Schlachtenhammer. Der Schild wurde ursprünglich von Bruenors Großvater geschmiedet und war seitdem im Besitz der Familie.
+
+EIGENSCHAFTEN:
+
+Fähigkeiten: Immunität gegen Bezauberung, Verwirrung, Beherrschung, Personen festhalten
+
+Rüstungsklassbonus: 3
+Gewicht: 2
+Mindeststärke: 4~
+@1067 = ~Dieser Dolch wiegt schwer in Eurer Hand und fühlt sich warm an. Alleine ihn bei Euch zu haben lässt Euch aus irgendeinem Grund beunruhigt sein. Der im Griff eingesetzte Edelstein scheint ein gewisses inneres Licht zu haben, obwohl Ihr nicht wisst, wie es solche Beleuchtung haben und trotzdem in seinem Kern so tödlich schwarz sein kann.
+
+EIGENSCHAFTEN:
+
++2 auf hinterhältigen Angriff
+
+Schaden: 1W4 + 4
+ETW0: +4 Bonus
+Schadensart: durchbohren
+Gewicht: 1
+Initiativefaktor: 0 
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3~
+@1069 = ~Dieser mächtige Bogen wurde von Catti-Brie im Mithril Saal gefunden. Es wird gesagt, dass jeder damit abgeschossene Pfeil das Ziel mit Sicherheit trifft. Er ist ebenso dazu fähig, Pfeile zu erzeugen.
+
+EIGENSCHAFTEN:
+
+Dieser Bogen benötigt keine Munition.
+
+Schaden: 1W6 + 5
+ETW0: +5
+Schadensart: durchbohren
+Gewicht: 10
+Fertigkeit: Langbogen
+Typ: beidhändig~
+@1071 = ~Callandor ist das heilige Symbol der Elfen. Einer ihrer Götter schmiedete es für seinen Diener, einem Führer einer Elfenstadt, als alle Hoffnung geschwunden war, den Sieg über die Bestien, die die Stadt angriffen, zu erringen. Mit Hilfe des Schwertes wurden die Bestien besiegt, und Frieden kehrte wieder ein. Callandor wurde zum Symbol des Sieges gegen die Finsternis. Es wurde schwer bewacht, aber dennoch schaffte es jemand, es zu stehlen. Seitdem ist es von Eigentümer zu Eigentümer gewechselt, aber nicht gewaltlos.
+
+EIGENSCHAFTEN:
+
++2 Bonus zur Rüstungsklasse
++20 % zum Magiewiderstand
+20%ige Chance, den Feind krank zu machen
+
+Schaden: 1W12 + 4
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 7
+Initiativefaktor: 5
+Fertigkeit: Zweihändiges Schwert 
+Typ: beidhändig
+Mindeststärke: 14~
+@1072 = ~Drachenblut
+
+Diese Axt fand Bruenor Schlachtenhammer während seiner Abenteuer um die Welt. Sie wurde vielen unglücklichen Goblins und Riesen zum Verhängnis.
+
+Schaden: 1W8 + 4, +3 Feuer
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 15
+Initiativefaktor: 4
+Fertigkeit: einhändige Axt
+Mindeststärke: 14~
+@1080 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt. Dieser Flegel wurde mit Kältemagie verzaubert.
+
+EIGENSCHAFTEN:
+
+10%ige Chance einen Kältekegel zu wirken, wenn das Ziel getroffen wird
+
+Schaden: 1W6 + 3, +4 Kälteschaden
+ETW0: +2 Bonus
+Schadensart: zerschmettern
+Gewicht: 12
+Initiativefaktor: 5
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+Mindeststärke: 13~
+@1089 = ~Das Kurzschwert ist die erste und ursprüngliche Form eines Schwertes. Einfach ausgedrückt ist ein Kurzschwert ein Dolch, bei dem die Klinge so lang ist, dass das Ganze nicht mehr als Dolch bezeichnet werden kann. Der Begriff "Kurzschwert" ist in der Klassifizierung der Schwerter eigentlich nicht bekannt. Er wird jedoch mittlerweile zur Beschreibung einer zweischneidigen Klinge mit einer ungefähren Länge von 60 cm verwendet. Die Klinge ist normalerweise vorne spitz, wodurch sich das Kurzschwert hervorragend zum Stoßen eignet. Dieses Kurzschwert wurde durch die verdorbenen Magie der Bestie verzaubert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 + 2, +5 Elektrischer Schaden
+ETW0: +2 Bonus
+Schadensart: durchbohren
+Gewicht: 2
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 5~
+@1091 = ~Die Hellebarde ist nach dem Speer die älteste und verbreitetste Stangenwaffe. Sie besteht aus einer Klinge, die einem Henkerbeil ähnelt, welche auf einen durchschnittlich 1,80 m langen Stab aufgesetzt ist. Das Gewicht der Axtklinge wird durch eine Fluke ausgeglichen. Am oberen Ende sitzt ein spitzer Dorn, der gewöhnlich viereckig geformt ist. Manchmal wird die Fluke von einem Haken ersetzt, mit dem berittene Kämpfer vom Pferd geholt werden können. Eine Hellebarde lässt sich am besten als eine Kreuzung zwischen Speer und Axt beschreiben. Diese Hellebarde wurde durch die verdorbene Magie der Bestie verzaubert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 + 2, +5 Elektrischer Schaden
+ETW0: +2 Bonus
+Schadensart: durchbohren
+Gewicht: 15
+Initiativefaktor: 7
+Fertigkeit: Hellebarde
+Typ: beidhändig
+Mindeststärke: 13~
+@1093 = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Der Kampfstab wurde durch die verdorbene Magie der Bestie verzaubert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 + 2, +5 Säureschaden
+ETW0: +2 Bonus
+Schadensart: zerschmettern
+Gewicht: 4
+Initiativefaktor: 4
+Fertigkeit: Kampfstab
+Typ: beidhändig
+Mindeststärke: ~
+@1095 = ~Der Streitkolben ist eine direkte Ableitung der einfachen Keule und besteht lediglich aus einem Holzschaft, auf den ein Stein- oder Eisenkopf aufgesetzt ist. Der Kopf kann entweder mit Spitzen versehen, geflanscht oder aber auch pyramidenförmig ausgearbeitet sein. Er wurde durch die verdorbene Magie der Bestie verzaubert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 + 3, +5 Magischer Feuerschaden
+ETW0: +2 Bonus
+Schadensart: zerschmettern
+Gewicht: 10
+Initiativefaktor: 5
+Fertigkeit: Streitkolben 
+Typ: 1-händig
+Mindeststärke: 10~
+@1097 = ~Das ist ein verfluchtes Schwert, das bei jedem Test perfekt funktioniert, in der Schlacht jedoch versagt. Sobald sich der Träger in die Schlacht stürzt, gerät er in rasende Wut und tötet alles in Reichweite, bis er sich schließlich entweder beruhigt oder bewusstlos wird. Das Schwert ist sehr mächtig, der Träger muss jedoch abschätzen, ob sich das Risiko der Anwendung lohnt. Es kann nur mit einem Bannzauber entfernt werden.
+
+EIGENSCHAFTEN:
+
+Der Träger des Schwertes wird rasend
+Es kann nur abgelegt werden, wenn "Fluch brechen" gewirkt wurde
+
+Schaden: 1W10 + 3
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 5
+Initiativefaktor: 2
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6~
+@1099 = ~Dieser Morgenstern war die Waffe eines großen Barbaren, der im Eiswindtal lebte. Die Waffe ist gegen Riesen sehr wirksam und war unter den Ungeheuern des Tales gefürchtet. Aber schließlich starb der Barbar in einem Kampf, und die Waffe ging weiter an die Frostriesen.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 + 3, +3 gegen Riesen
+ETW0: +3 Bonus, +3 gegen Riesen
+Schadensart: zerschmettern
+Gewicht: 9
+Initiativefaktor: 5
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+Mindeststärke: 11~
+@1101 = ~Dieser Dolch wurde verwendet, um einen Dämonen namens Nizz'rim zu töten. Keiner weiß, wer der Mörder war, oder was mit ihm geschah, aber der Dolch wurde Jahre später bei der Leiche eines Orks gefunden.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 + 4
+ETW0: +4 Bonus
+Gewicht: 1
+Initiativefaktor: 1
+Fertigkeit: Dolch
+Typ: 1-händig~
+@1113 = ~Dies ist der magische Krummsäbel +5, Blaues Licht. Es ist eine der persönlichen Waffen von Drizzt Do'Urden. Wegen seiner magischen Natur können nur jene reinen Herzens ihn verwenden.
+
+EIGENSCHAFTEN:
+
++2 Rüstungsklassbonus
+
+Schaden: 1W8 + 5
+ETW0: +5 Bonus
+Schadensart: aufschlitzen
+Gewicht: 4
+Fertigkeit: Krummsäbel
+Initiativefaktor: 2
+Typ: 1-händig
+Mindeststärke: 8~
+@1115 = ~Dies ist der magische Krummsäbel, den Drizzt Do'Urden in einem Drachenhort gefunden hat. Es ist bekannt, dass er den Träger vor Feuer schützt. Es hat die Leben sowohl von Drizzt als auch von Bruenor gerettet.
+
+EIGENSCHAFTEN:
+
+Schutz vor Feuer
+
+Schaden: 1W8 + 3
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 4
+Fertigkeit: Krummsäbel
+Initiativefaktor: 2
+Typ: 1-händig
+Mindeststärke: 8~
+@1121 = ~Diese Lederrüstung wird vom berühmten Meuchelmörder Artemis Entreri getragen. Sie vergrößert außerordentlich die Rettungswürfe des Trägers.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Rettungswurf: +3 Bonus
+Heimlichkeitsbonus: 20 %
+Gewicht: 5
+Mindeststärke: 8~
+@1123 = ~Diese Armschützer geben dem Träger fast vollständigen Schutz vor Magie. Sie sind der Schrecken des Magiers und sind im Besitz des Mörders Artemis Enteri, der sie Kohrim Soulez stahl.
+
+EIGENSCHAFTEN:
+
++80 % zum Magiewiderstand~
+@1125 = ~Dies ist der Dolch des Kämpfer-Mörders Artemiss Entreri. Er ist einer der besten Kämpfer der Welt, und dieser Dolch ist zu Recht seiner. Es hat die Fähigkeit, die Lebendskraft seines Ziels abzusaugen und Entreri verwendet diese Fähigkeit, wenn er seine Feinde fertig macht.
+
+EIGENSCHAFTEN:
+
+Ausgestattete Fähigkeiten:
+ Hast
+
+Kampffähigkeiten:
+ Gift (10 Sekunden lang 2 Punkte Schaden pro Sekunde)
+
+Schaden: 1W4 + 6
+ETW0: +6 Bonus
+Gewicht: 1
+Initiativefaktor: 1
+Fertigkeit: Dolch
+Typ: 1-händig~
+@1131 = ~Der mittlere Schild wird auf die selbe Weise getragen wie der kleine Schild, ist jedoch so schwer, dass mit der Schildhand keine anderen Aktionen ausgeführt werden können. Mittlere Schilde bestehen für gewöhnlich aus Metall und haben einen Durchmesser von 90 bis 120 cm. Es gibt sie in zahlreichen Formen; von rund über quadratisch bis zur Form der gespreizten Drachenflügel. Ein typischer mittlerer Schild ist dreieckig, wobei eine Spitze nach unten zeigt. Dieser Schild wurde mit einem magischen Edelstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Feuerresistenz von 75%
+
+Rüstungsklassbonus: 4
+Gewicht: 7
+Mindeststärke: 12~
+@1133 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 und 120 cm beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen.
+
+ Dieses Schwert wurde mit einem magischen Edelstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 + 4, +2 Feuerschaden
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 4
+Initiativefaktor: 4
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 6~
+@1135 = ~Das Katana des Feuers wird gewöhnlich mit einem anderen Katana des Feuers gepaart, aber die kürzliche Paarung mit dem Katana des Eises hat an Beliebtheit gewonnen. Es gibt mehrere Stufen der Macht für das Katana des Feuers. Dieses scheint irgendwo in der Mitte zu sein.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 + 2, +5 Feuerschaden
+ETW0: +2 Bonus
+Schadensart: aufschlitzen
+Gewicht: 6
+Initiativefaktor: 3
+Fertigkeit: Katana
+Typ: einhändig
+Mindeststärke: 6~
+@1137 = ~Dieser Prunkharnisch wurde im Norden des Eiswindtales geschmiedet. Er ist mit Schutz gegen die Kälte versehen, und er wurde ursprünglich dafür entworfen, um gegen die Riesen zu kämpfen, die das Tal umgeben.
+
+EIGENSCHAFTEN:
+
++75 % zur Kälteresistenz
+
+Rüstungsklasse: -2
+Gewicht: 45
+Mindeststärke: 15~
+@1139 = ~Das Katana ist ein Schwert, dessen Klinge nur auf einer Seite scharf ist. Es ist leicht gekrümmt und endet in einer Spitze, die an die Spitze eines Meißels erinnert. Das Katana stellt vermutlich die aufwendigste Form des Schwertes dar. Seine Fertigung ist ein langer, aufwendiger und höchst geheimer Vorgang, den man schon fast als Kunstwerk bezeichnen müsste. Dieses Schwert spielt in der Kultur von Kara-Tur eine wichtige Rolle. Wenn man es wagt, das Katana eines Samurais zu berühren oder gar zu ziehen, beleidigt man den Samurai, dem es gehört, und zieht seinen Zorn auf sich. Es kommt nur äußerst selten vor, dass ein Gaijin, ein Fremder, in den Besitz einer derartigen Waffe kommt. Entweder handelt es sich bei diesem Gaijin dann um den geehrten Freund eines wichtigen Ministers oder um den Mörder eines Samurais. Dieses Katana wurde mit einem magischen Edelstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 + 3, +3 Kälteschaden
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 6
+Initiativefaktor: 4
+Fertigkeit: Katana
+Typ: einhändig
+Mindeststärke: 6~
+@1145 = ~Ein Prunkharnisch stellt die prächtigste Rüstung dar, die man sich als Krieger kaufen kann. Sie sieht nicht nur beeindruckend aus, sondern bietet auch den besten Schutz. Die perfekt gearbeiteten Metallplatten sind eng miteinander verbunden und wehren sowohl Schläge als auch Pfeile ab. Die ganze Rüstung ist mit Gravuren und Prägungen verziert. Diese Prunkharnisch wurde mit einem magischen Edelstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Kältewiderstand von 50 %
+Gibt die Fähigkeit, einmal pro Tag Feuerschild (Blau) zu verwenden.
+
+Rüstungsklasse:-1
+Gewicht: 70
+Mindeststärke: 15~
+@1147 = ~Der Langschild, auch Drachen- oder Turmschild genannt, ist ein riesiger Schild aus Metall oder Holz, der dem Träger vom Fuß bis fast zum Kinn reicht. Er muss gut am Unterarm befestigt sein und jederzeit fest in der Hand gehalten werden, was es natürlich unmöglich macht, mit der Schildhand noch andere Aktionen auszuführen. Dieses Schild wurde mit einem magischen Edelstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Der Träger gewinnt jede 6. Sekunde 1 Trefferpunkt zurück
+
+Der Träger kann dreimal pro Tag kälteschutz wirken
+
+Rüstungsklassenbonus: 3
+Speziell: +1 gegen Fernkampfwaffen
+Gewicht: 15
+Mindeststärke: 15~
+@1153 = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Es wird immer über einem wattierten Rock oder einem leichten Ledergewand getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen. Dieses Kettenhemd wurde mit einem starken magischen Edelstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Widerstand von 50 % gegen Magie und Magieschaden
+
+Rüstungsklasse: 1
+Gewicht: 40
+Mindeststärke: 8~
+@1155 = ~Die Hellebarde ist nach dem Speer die älteste und verbreitetste Stangenwaffe. Sie besteht aus einer Klinge, die einem Henkerbeil ähnelt, welche auf einen durchschnittlich 1,80 m langen Stab aufgesetzt ist. Das Gewicht der Axtklinge wird durch eine Fluke ausgeglichen. Am oberen Ende sitzt ein spitzer Dorn, der gewöhnlich viereckig geformt ist. Manchmal wird die Fluke von einem Haken ersetzt, mit dem berittene Kämpfer vom Pferd geholt werden können. Eine Hellebarde lässt sich am besten als eine Kreuzung zwischen Speer und Axt beschreiben. Diese Hellebarde wurde mit einem starken magischen Edelstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Gewährt 30% Magieresistenz
+
+Schaden: 1W10 + 4, +7 Magieschaden
+ETW0: +4 Bonus
+Schadensart: durchbohren
+Gewicht: 15
+Initiativefaktor: 6
+Fertigkeit: Hellebarde
+Typ: beidhändig
+Mindeststärke: 13~
+@1166 = ~Der Hammer von Moradin ist eine der Belohnungen, die der Sieger in der Arena erhält. Als Ihr ihn sorgfältiger betrachtet, bemerkt Ihr, dass es tatsächlich der legendäre Hammer von Moradin ist, von dem die Zwerge immer sprechen...
+
+EIGENSCHAFTEN:
+
+Immunität gegen normale Waffen
+
+Schaden: 2W4 + 4
+ETW0: +4 Bonus
+Schadensart: zerschmettern
+Gewicht: 4
+Initiativefaktor: 1
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9~
+@1170 = ~Dieser Plattenpanzer trägt die Zeichen einer wohlhabenden Handelsfamilie. Er wurde geringfügig verzaubert, und das erhöht seinen Wert.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+Gewicht: 20
+Mindeststärke: 12~
+@1180 = ~Dieses Schwert wurde in einem aufgegebenen Bergwerksstollen irgendwo an den Nebelbergen wieder gefunden. Seine Herkunft ist unbekannt, nicht aber seine Fähigkeiten. Im Kampf ist das Schwert sehr stark, aber wenn Ihr jemanden damit tötet, wird das tote Wesen wieder belebt. Danach fühlt das wieder belebte Wesen nur noch Schmerz.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 + 4
+ETW0: +5 Bonus
+Schadensart: aufschlitzen
+Gewicht: 12
+Initiativefaktor: 5
+Fertigkeit: Zweihändiges Schwert
+Typ: beidhändig
+Mindeststärke: 14~
+@1187 = ~Ein Prunkharnisch stellt die prächtigste Rüstung dar, die man sich als Krieger kaufen kann. Sie sieht nicht nur beeindruckend aus, sondern bietet auch den besten Schutz. Die perfekt gearbeiteten Metallplatten sind eng miteinander verbunden und wehren sowohl Schläge als auch Pfeile ab. Die ganze Rüstung ist mit Gravuren und Prägungen verziert. Durch die Handarbeit von Pip Graufuss hat dieser Prunkharnisch die stärkste Verzauberung von allen erhalten, das Auge eines Gottes.
+
+EIGENSCHAFTEN:
+
+Widerstand von +50 % Gegen Säure, Gift, Kälte, Feuer, Blitz und Magie
+Schutz vor Untoten
+Der Trager kann Flammenschlag viermal pro Tag wirken
+
+Rüstungsklasse:-4
+Gewicht: 50
+Mindeststärke: 15~
+@1189 = ~Der Langschild, auch Drachen- oder Turmschild genannt, ist ein riesiger Schild aus Metall oder Holz, der dem Träger vom Fuß bis fast zum Kinn reicht. Er muss gut am Unterarm befestigt sein und jederzeit fest in der Hand gehalten werden, was es natürlich unmöglich macht, mit der Schildhand noch andere Aktionen auszuführen. Durch die Handarbeit von Pip Graufuss hat dieser Langschild die stärkste Verzauberung von allen erhalten, das Auge eines Gottes.
+
+EIGENSCHAFTEN:
+
+Der Träger regneriert jede 3. Sekunde 1 Trefferpunkt
+Unsichtbarkeit
+Alle Rettungswürfe +3
++1 Bonus zu den ganzen Werten
+Der Träger kann viermal pro Tag Flammenschlag  wirken
+
+Rüstungsklassbonus: 5
+Speziell: +1 gegen Fernkampfwaffen
+Gewicht: 15
+Mindeststärke: 15~
+@1191 = ~Das Katana des Eises wird gewöhnlich mit einem anderen Katana des Eises gepaart, aber die kürzliche Paarung mit dem Katana des Feuers hat an Beliebtheit gewonnen. Es gibt mehrere Stufen der Macht für das Katana des Eises. Dieses scheint irgendwo in der Mitte zu sein.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 + 2, +5 KältesSchaden
+ETW0: +2 Bonus
+Schadensart: aufschlitzen
+Gewicht: 6
+Initiativefaktor: 3
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6~
+@1209 = ~Dies ist eine vollkommene Kopie des Arandil.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 + 3
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 3
+Fertigkeit: Krummsäbel
+Initiativefaktor: 2
+Typ: 1-händig
+Mindeststärke: 8~
+@1211 = ~Dies ist eines der von Jarlaxle, dem ehemalige Führer von Bregan Da'erthe, verwendeten Schwerter.
+
+EIGENSCHAFTEN:
+
+Träger unterliegt der Hast
+
+Schaden: 1W6 + 4
+ETW0: +4 Bonus
+Schadensart: durchbohren
+Gewicht: 3
+Initiativefaktor: 2
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 5~
+@1213 = ~Dies ist eine vollkommene Kopie von Meralchans Schicksal.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 + 3
+ETW0: +3 Bonus
+Schadensart: durchbohren
+Gewicht: 3
+Initiativefaktor: 2
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 5~
+@1215 = ~Dieser machtvolle Krummsäbel wurde im Unterreich von Drows gefertigt und ist zur Zeit in Jarlaxles Händen.
+
+EIGENSCHAFTEN:
+
+Der Träger regneriert jede 5. Sekunde 1 Trefferpunkt
+
+Schaden: 1W8 + 4, +5 Kälte, +5 Feuer
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 3
+Fertigkeit: Krummsäbel
+Initiativefaktor: 2
+Typ: 1-händig
+Mindeststärke: 8~
+@1217 = ~Dies ist die Belohnung für den Sieg am ersten Wettkampftag in der Arena. Die Klinge scheint mit elektrischer Magie geladen zu sein.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 + 3, +5 Blitzschaden
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 4
+Initiativefaktor: 4
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 6~
+@1219 = ~Katana +3
+Man kann sich sehr glücklich schätzen, wenn man ein Katana mit einer +3 Verzauberung findet. Die Aufrüstung eines Katana ist keine einfache Angelegenheit, deshalb sind Katanas dieses Kalibers sehr selten. Sie sind gewöhnlich in den Händen der besten Kämpfer von Faerûn.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 + 3
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 5
+Initiativefaktor: 2
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6~
+@1221 = ~Eine der Belohnungen in der Arena. Die Waffe ist auch bekannt als "Die Qual der Welt". Ein so starker Gegenstand wie dieser in den falschen Händen kann Kriege verursachen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 + 4, +2 Feuer, +2 Kälte und +2 Blitz
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 4
+Initiativefaktor: 2
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6~
+@1227 = ~Das Schwert, das mit Kohrims Armbändern gepaart ist. Diese Kombination ist dafür bekannt, Magie zu widerstehen, sie zu entziehen, und sie gegen den Angreifer zu verwenden. Zumindestens in den richtigen Händen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 + 4
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 8
+Initiativefaktor: 2
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 8, 14 Intelligenz~
+@1229 = ~Dieses Schwert hat eine Art Intelligenz, und es kann sehr gefährlich sein, es auszuüben. Catti-Brie gewann den geistigen Kampf dagegen, und jetzt kann sie es ohne Gefahr ziemlich leicht verwenden.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 + 4
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 8
+Initiativefaktor: 2
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 8, 10 Intelligenz~
+@1231 = ~Eine der Belohnungen in der Arena. Ein unglaublich starkes Amulett mit der Fähigkeit, alle Werte um einen Punkt zu erhöhen.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+
++1 zur Stärke, Geschicklichkeit, Konstitution, Intelligenz, Weisheit und Charisma
+
+Gewicht: 2~
+@1235 = ~Das Löwenherz ist eine der in der Arena gewonnenen Belohnungen. Es kennt auch den Namen "Furchtloser". 
+
+EIGENSCHAFTEN:
+
+Immunität gegen Zauber
+Immunität gegen Beherrschung
+Immunität gegen Verwirrung/Striktes Denken/Angst
+
+Schaden: 1W10 + 6
+ETW0: +6 Bonus
+Schadensart: aufschlitzen
+Gewicht: 10
+Initiativefaktor: 5
+Fertigkeit: Zweihändiges Schwert
+Typ: beidhändig
+Mindeststärke: 14~
+@1237 = ~Dieses Amulett scheint den Zahn eines Leichnams an Stelle eines Edelsteins zu haben. Der Zahn glüht mit einer Art magischer Energie. Es ist nicht klug, den Zahn mit der bloßen Haut zu berühren, und daher sollte das Amulett über der Kleidung getragen werden.
+
+EIGENSCHAFTEN:
+
++2 Rüstungsklassbonus
+Infravision
+Schutz vor Versteinerung
+Immunität gegen normale Waffen~
+@1239 = ~Die Klinge von Nomal wurde vor ungefähr zwei Jahrhunderten geschmiedet, um einen Dämon zu töten, der es geschafft hatte, auf die Oberfläche zu flüchten. Er hatte kaltblütig jeden in einer kleinen Stadt in der Nähe der Stadt Arlax getötet. Als die Kunde über den Dämon in die Stadt kam, schuf ein Magier namens Nomal dieses magische Schwert, um den Dämon mit einem einzigem Schlag zu töten. Ein tapferer Krieger wurde mit der Aufgabe gesandt, den Dämon zu töten. Er war erfolgreich, aber starb an den Wunden, die er im Kampf erlitten hatte. Als eine Gruppe von Magiern aus Arlax kam, um zu sehen, was geschehen war, fanden sie den Krieger und den Körper des Dämons, aber die Klinge war verschwunden.
+
+EIGENSCHAFTEN:
+
+15%ige Chance, einen Dämon mit einem einzigen Schlag zu töten
+
+Schaden: 1W6 + 2 (+2 Kälteschaden)
+ETW0: +2 Bonus
+Schadensart: durchbohren
+Gewicht: 2
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 5~
+@1244 = ~Dieser geheimnisvolle Bogen wurde für den Hauptmann der Bogenschützen des Königs Hadir geschaffen. Der Bogen kann Spiegelbilder des Trägers erschaffen, was es den Feinden schwerer macht, ihr Ziel zu treffen.
+
+EIGENSCHAFTEN:
+
+Kann dreimal pro Tag vier Spiegelbilder erschaffen
+
+Schaden: +3
+ETW0: +3
+Gewicht: 7
+Initiativefaktor: 4
+Fertigkeit: Langbogen
+Typ: beidhändig
+Mindeststärke: 18~
+@1246 = ~Eine der besten von Zwergen gemachten Arbeiten. Für ein Kettenhemd bietet es dem Träger unglaublichen Schutz.
+
+EIGENSCHAFTEN:
+
+Immunität gegen Heimtücke und Stufenverlust
+
+Rüstungsklasse: -1
+Gewicht: 8
+Mindeststärke: 8~
+@1252 = ~Vor langer Zeit näherte sich ein dünner Mann einer Magierin und bat sie, für ihn ein Amulett der Macht zu machen. Das Amulett sollte seine Behändigkeit, Kraft und Ausdauer verbessern. Der Preis wurde auf dreitausend festgesetzt, und die Magierin schuf das Amulett. Aber dann hinterging der Mann die Magierin. Er schlug sie bewusstlos und entkam. Die Magierin war jedoch nicht dumm. Sie hatte eine kleine Überraschung in das Amulett eingeschlossen. Es macht, um was der Mann gebeten hatte, aber das ist nicht alles. Es macht auch das Gesicht des Trägers hässlich und vermindert seine geistigen Fähigkeiten außerordentlich.
+
+EIGENSCHAFTEN:
+
++3 zur Konstitution, Geschicklichkeit und Stärke
+
+Weisheit, Intelligenz und Charsima wird auf 3 gesetzt
+
+Kann nur mit dem Zauber "Fluch brechen" entfernt werden~
+@1254 = ~Das Blitz-Amulett wurde geschaffen, um den Träger vor Elektrizität zu schützen, aber um andererseits damit auch einen Gegenangriff zu machen. Diejenigen, die Elektrizität verwenden, sind häufig nicht vor ihr geschützt. Das macht das Amulett wertvoll.
+
+EIGENSCHAFTEN:
+
+Kann dreimal pro Tag Blitz-Bolzen wirken
+100%ige Elektrizitätsresistenz~
+@1256 = ~Das Schädelbrecher-Amulett ist dafür bekannt, den bei dem Ziel verursachten Schaden zu vergrößern. Das kommt daher, weil man, wenn man dieses Amulett trägt, erfahrener im Treffen der richtigen Stellen wird.
+
+EIGENSCHAFTEN:
+
++4 Schadenspunkte bei Nahkampfwaffen~
+@1262 = ~Diese Axt ist dafür bekannt, die Kampffähigkeiten des Gegners zu reduzieren. Die Zeit, während der die Kampffähigkeiten des Gegners ausser Kraft gesetzt sind, ist kurz, aber sehr wertvoll. Wenn der Gegner außer Stande ist, richtig anzugreifen, könnt Ihr ungehinderter eine Menge Schaden anrichten. Der letzte Eigentümer der Axt war Ybrick vom Mithtil Saal, aber er verlor sie in einem Kampf.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten: 
+  Wenn dem Feind ein Rettungswurf misslingt, wird sein ETW0 für eine Runde um fünf Punkte erhöht.
+
+Schaden: 1W8 + 2
+ETW0: +2 Bonus
+Schadensart: aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 3
+Waffenfertigkeit: Axt
+Waffentyp: einhändig
+Mindeststärke: 8~
+@1264 = ~Die Sehkraft wird magisch verzaubert und verbessert die Augen des Trägers. Infolgedessen kann man die Axt von weitem werfen und seine Feinde überraschen.
+
+EIGENSCHAFTEN:
+
+Kehrt nach dem Werfen in die Hand des Benutzers zurück
+Verursacht 2W6 Kälteschaden
+
+Schaden: 1W6 + 3
+ETW0: +3 Bonus
+Schadensart (Handgemenge): aufschlitzen
+Schadensart (Geworfen) : durchbohren (Fernkampf)
+Gewicht: 4
+Initiativefaktor: 2
+Fertigkeit: Axt
+Typ: 1-händig
+Mindeststärke: 5~
+@1266 = ~Die Axt der Leichtigkeit sieht zerbrechlich und kraftlos aus, aber das Äussere kann täuschen. Die Idee hinter dieser Axt ist, den Feind zu verwirren. Die Axt ist stark verzaubert und wird nicht im Kampf zerbrechen. Es ist immer die Umstände wert, den verwirrten Blick auf dem Gesicht des Gegners zu sehen, wenn eine so "zerbrechliche" Waffe wie diese so viel Schmerzen zufügt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 + 4
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 1
+Initiativefaktor: 1
+Fertigkeit: Axt
+Typ: 1-händig
+Mindeststärke: 3~
+@1268 = ~Der Gürtel des Diebstahls, besonders geschaffen für Diebe. Wenn er getragen wird, werden die Diebesfähigkeiten des Trägers verbessert, und daher ist er eine sehr wertvolle Ausrüstung für jeden Dieb. Es ist bekannt, dass dieser Gürtel den Eigentümer häufiger wechselt als ein Zwerg die Socken, deshalb sollte man, wenn man ihn trägt, besonders vorsichtig sein.
+
+EIGENSCHAFTEN:
+
++20 Punkte Bonus auf alle Diebesfähigkeiten
+Gewicht: 2~
+@1270 = ~Dieser Gürtel bekam seinen Namen von Esa "dem Feigling" Hannula. Esa wurde als Feigling geboren, und nichts konnte das ändern. Er ließ diesen Gürtel für ihn machen, so dass er jeder Feindschaft ausweichen konnte. Er geriet (oder würde geraten) beim Trinken in einer Taverne häufig in einen Kampf, deshalb band er sich immer, wenn Schwierigkeiten aufzogen, seinen Riemen um und verschwand.
+
+EIGENSCHAFTEN:
+
+Unsichtbarkeit
+Rüstungsklasse +2
+Gewicht: 2~
+@1272 = ~Der Name kann in diesem Fall irreführend sein, weil dieser Gürtel vor aller Verzauberungs-Magie schützt. Solange man diesen Gürtel trägt, braucht man nicht zu befürchten, dass irgendein Zauber auf einen gewirkt werden kann.
+
+EIGENSCHAFTEN:
+
+Schutz vor "Verzauberungen" der Magierschule
+
+Gewicht: 2~
+@1274 = ~Ein Stück von Bengars Helm
+
+Das scheint Bengars Helm zu sein. Die Flügel fehlen jedoch. Ursprünglich gehörte der Helm dem legendären Krieger Bengar, der auf geheimnisvolle Weise verschwand. Der Helm wurde gefunden, aber die Flügel waren davon abgetrennt. Ohne sie ist der Helm kraftlos.
+
+EIGENSCHAFTEN:
+
+Rüstungsklassbonus: Keiner
+
+Besonderheit: Schützt Gegen Kritische Treffer
+
+Gewicht: 2~
+@1280 = ~Bengars Helm wurde für einen großen Krieger geschmiedet, Bengar. Die Macht des Helms ist in den Flügeln. Die Flügel gingen verloren, als Bengar verschwand, aber jetzt wurden sie wieder gefunden und verzieren diesen prächtigen Kopfschmuck. 
+
+EIGENSCHAFTEN:
+
+Rüstungsklassbonus: +2
+
+Schützt Gegen Kritische Treffer
+Intelligenz wird auf 18 gesetzt
+Immunität gegen Verwirrung/Sriktes Denken/Angst und Bezauberung
+
+Gewicht: 2~
+@1286 = ~Diese Armschützer sind von der seltensten Sorte: sie schützen vor einer ganzen Rasse. In diesem Fall ist es die Rasse der Yuan-Ti. Die Armschützer wurden nur für Zauberer gemacht. Ursprünglich wurden diese nur zum Spass verwendet. Weil man vor allen Angriffen der Yuan-Ti geschützt ist, während man sie trägt, pflegten Zauberer einfach inmitten der gefangenen Yuan-Tis zu gehen und sie langsam abzuschlachten.
+
+EIGENSCHAFTEN:
+
+Speziell: Schutz vor Yuan-Ti's~
+@1288 = ~Die Geschichte dieser Panzerhandschuhe ist eine sehr jämmerliche. Einst lebte ein Mann, ein guter Mann, der einen Weg zum ewigen Leben suchte. Es wurde zu seiner Besessenheit und drängte ihn, schreckliche Taten zu begehen. Er tötete Hunderte von Leuten und speicherte ihre "Lebensenergie" innerhalb dieser Panzerhandschuhe. Es war vorgesehen, dass, als der Träger dieser Panzerhandschuhe starb, er weiteres Leben von den gefangenen Leben im Inneren der Panzerhandschuhe bekam. Das erwies sich als falsch, als der Mann starb. Anstatt dem Träger Leben zu spenden, können die Panzerhandschuhe dazu verwendet werden, jemandem anderen Leben zu spenden. Es gibt eine Spur des Bösen in ihnen, und es erfordert viel Mut, sie zu tragen. Es wird gesagt, dass, wenn der Träger all die ganzen gefangenen Leben verwendet, er selbst gefangen wird.
+
+EIGENSCHAFTEN:
+
+Wiederauferstehung einmal pro Tag~
+@1290 = ~Während man diese Stiefel trägt, bemerkt man eine Änderung in den Fähigkeiten der Hände. Es ist unbekannt, warum Stiefel dieser Art gemacht wurden; gewöhnlich wird diese Art von Verzauberungen an Armschutzern angebracht.
+
+EIGENSCHAFTEN:
+
+Die Geschicklichkeit wird auf 19 gesetzt
+Gewicht: 3~
+@1294 = ~Diese Stiefel sind dafür bekannt, dem Träger dauerhafte Zuflucht zu geben. Sie können dennoch entzaubert werden. Nichtsdestoweniger können sie für Waldläufer, Paladine und Kleriker sehr nützlich sein.
+
+EIGENSCHAFTEN:
+
+Ausgestattete Fähigkeiten: Zuflucht~
+@1300 = ~Dieser Bogen wurde ursprünglich zu einem bestimmten Zweck geschaffen, zur Menschenjagd. Ein Herzog, dessen Name in der Geschichte unterging, trieb gewöhnlich Kurzweil dadaurch, dass er Sklaven jagte. Er verwendete spezielle Pfeile, die das Ziel "erfrieren ließen" und erlegte sie dann mit einem sauberen Schuss in den Kopf.
+
+EIGENSCHAFTEN:
+
+ETW0: +3
+Schaden: +3
+Waffenfertigkeit: Langbogen
+Gewicht: 8
+Mindeststärke: 18
+Geschwindigkeitsfaktor: 4
+Waffentyp: beidhändig~
+@1302 = ~Dieser starke Bogen wurde mit Magie verzaubert, die einige den Status betreffende Zauber abwehren kann, einschließlich Stille. So behaupten einige Menschen, dass, indem man diesen Bogen trägt, man gesprächiger ist als üblich.
+
+EIGENSCHAFTEN:
+
+Schutz vor Stille
+Schutz vor Verlangsamen und Hast
+Schutz vor der Entdeckung
+
+ETW0: +2
+Schaden: +2 (Schusswaffe)
+Gewicht: 2
+Initiativefaktor: 4
+Fertigkeit: Langbogen
+Typ: beidhändig
+Mindeststärke: 6~
+@1304 = ~Dieses Kettenhemd wurde in den Ruinen einer alten Stadt wiederendeckt. Es wurde von einem hochrangigem Soldaten getragen. Die Männer, die es fanden, sagen alle, dass der Mann mit diesem Kettenhemd allein war, als sie ihn fanden. Der Grund für seinen Tod ist ein Geheimnis.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Gewicht: 9
+Mindeststärke: 8~
+@1306 = ~Henrik der Glorreiche ist in der Geschichte als ein Herrscher bekannt, der einen gesunden Sinn für Humor hatte. Das kann man zum Beispiel an dieser Rüstung feststellen. Der Schmied, der sie schmiedete, hatte ebenfalls einen gesunden Sinn für Humor. Henrik war für sein geschwätziges Wesen bekannt, daher fügte der Schmied der Rüstung als kleinen Bonus Schweigen hinzu. Er wurde enthauptet.
+
+EIGENSCHAFTEN:
+
+Der Träger wird zum Schweigen gebracht
+
+Widerstand von +10 % gegen Magie
++1 auf alle Rettungswürfe
+Rüstungsklasse: 0
+Gewicht: 8
+Mindeststärke: 8~
+@1308 = ~Der Umhang des Verschwindens verschafft dem Träger Deckung und Geschwindigkeit. Sofort, wenn man es überstreift, verschwindet man aus den Augen und bemerkt, dass man im Stande ist, sich schneller zu bewegen als üblich. Der Schutz des Umhangs verschwindet, wenn ein Angriff ausgeübt wird.
+
+EIGENSCHAFTEN:
+
+Besonderheiten: 
+
+Hast
+Unsichtbarkeit
+
+Gewicht: 3~
+@1310 = ~Der Heilige Umhang kann nur von denjenigen, die reinen Herzens sind, verwendet werden. Er verbessert das Gedächtnis des Trägers, und so kann er sich mehr Zauber auf einmal einprägen als üblich.
+
+EIGENSCHAFTEN:
+
++1 Speicherplatz für Priesterzauber der 5., 6. und 7. Stufe~
+@1313 = ~Der Rüstungsumhang wird nur für Magier gemacht. Es regeneriert die Lebendskraft des Trägers und gewährt eine "Geisterrüstung" für den Schutz. Diese Umhänge waren in Sembia vor ein paar hundert Jahren ziemlich gebräuchlich. Heutzutage sind sie ziemlich selten.
+
+EIGENSCHAFTEN:
+
+Geisterrüstung
+Regeneriert 1 Tefferpunkt alle 4 Sekunden~
+@1315 = ~Wenn das Ziel durch diesen Morgenstern getroffen wird, kann es dazu verdammt sein, in Stein verwandelt zu werden, um von der Natur "abgenutzt" zu werden. Die Legende sagt, dass alle, die ihn verwenden, ihn schließlich selbst kosten werden.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten: Versteinerung
+
+Schaden: 2W4 + 3
+ETW0: +3 Bonus
+Schadensart: zerschmettern
+Gewicht: 10
+Initiativefaktor: 4
+Fertigkeit: Stachelbesetzte Waffen
+Typ: einhändig
+Mindeststärke: 10~
+@1317 = ~Cervans Morgenstern wurde bekannt für seine Fähigkeit, unter den Feinden zu wüten. Wenn jemand durch diese Waffe getroffen wird, wird er in blinder Wut jeden in Sichtweite angreifen. Ein vollkommenes Werkzeug, um Desorganisation zwischen den Feinden zu schaffen.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten: Das Ziel wird blindwütig
+
+Schaden: 2W4 + 4
+ETW0: +4
+Schadensart: zerschmettern
+Gewicht: 9
+Initiativefaktor: 3
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+Mindeststärke: 11~
+@1326 = ~Sturmbringers Flamme, Inferno des Nordens, Die Gebrochene Klinge: Das Kristallschwert. Geschmiedet während der Zeit der Klagen, zerbrochen auf den Schlachtfeldern von Havannock, jetzt zusammengeschmiedet, um allen Feinden den Tod zu bringen.
+
+Der Herstellungsprozess des Kristallschwertes ist unbekannt. Es wird gesagt, dass es göttlichen Ursprungs ist, aber das wurde nicht bewiesen. Auf jeden  Fall wurde es von einem der stärksten Kämpfer in der Zeit der Klagen getragen: Travis Sturmbringer. Es zerbrach im Kampf von Havannock, als Travis starb. Die Stücke waren verloren, bis sie erst kürzlich wiedergefunden und vom Schmied Brundor zusammengeschmiedet wurden.
+
+EIGENSCHAFTEN:
+
+Es gibt eine Chance von 90 %, dass das Schwert 1-10 Bonus-Schaden zufälliger Art dem Feind zufügt.
+
+Schaden: 1W10 + 6
+ETW0: +6 Bonus
+Schadensart: aufschlitzen
+Gewicht: 7
+Initiativefaktor: 3
+Fertigkeit: Zweihändiges Schwert
+Typ: beidhändig
+Mindeststärke: 14~
+@1328 = ~Dieser starke Dolch wurde mit Kältemagie und mit der Fähigkeit verzaubert, ihn zurückzurufen, wenn er geworfen wurde. Die gebräuchlichste Art, ihn zu verwenden, ist zu werfen.
+
+EIGENSCHAFTEN:
+
+Kehrt nach dem Werfen in die Hand zurück.
+ 
+Schaden: 1W4 + 4, +2W4 Kälteschaden
+ETW0: +4 Bonus
+Schadensart: durchbohren
+Gewicht: 1
+Initiativefaktor: 1
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3~
+@1330 = ~Ein typischer Dolch ist mit einer spitzen, normalerweise zweischneidigen Klinge versehen, wodurch er sich von einem Messer unterscheidet. Ein Messer hat nur eine Schneide und ist etwas kürzer als ein Dolch. Dieser Dolch wurde mit zahlreichen Schutzzaubern versehen.
+
+EIGENSCHAFTEN:
+
+Schutz vor Verwirrung/Striktem Denken/Angst, Entsetzen und Schweigen
+Handlungsfreiheit
+Unauffindbarkeit
+
+Schaden: 1W4 + 2
+ETW0: +2 Bonus
+Schadensart: durchbohren
+Gewicht: 1
+Initiativefaktor: 1
+Fertigkeit: Dolch
+Typ: 1-händig
+Mindeststärke: 3~
+@1332 = ~Ein Wurfpfeil ist eine kleine, leicht zu versteckende Fernkampfwaffe, die nicht mit einem Bogen oder einer anderen Waffe abgefeuert, sondern mit der Hand auf das Ziel geworfen wird. Dieser Wurfpfeil scheint vor Energie zu knistern, und wenn er ein Ziel trifft, wird ein Stromstoss in die Wunde geleitet.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W3 + 1, +2W4 Elektrizitätsschaden
+ETW0: +1 Bonus
+Schadensart: durchbohren (Fernkampf)
+Gewicht: 0
+Initiativefaktor: 1
+Fertigkeit: Wurfpfeil
+Typ: 1-händig~
+@1334 = ~Ein Wurfpfeil ist eine kleine, leicht zu versteckende Fernkampfwaffe, die nicht mit einem Bogen oder einer anderen Waffe abgefeuert, sondern mit der Hand auf das Ziel geworfen wird. Dieser Wurfpfeil verwandelt das Ziel in Stein, wenn er durch seine Haut eindringt. Sofort, wenn der Wurfpfeil das Blut des Opfers berührt, geschieht die Versteinerung. Man sollte vorsichtig sein, wenn man diesen verwendet. Eine kleine Wunde durch seine Schneide kann den Tod herbeiführen.
+
+EIGENSCHAFTEN:
+
+Versteinerung, wenn dem Ziel ein Rettungswurf misslingt, Widerstand kann retten
+
+Schaden: 1W3 + 2
+ETW0: +2 Bonus
+Schadensart: durchbohren (Fernkampf)
+Gewicht: 0
+Initiativefaktor: 1
+Fertigkeit: Wurfpfeil
+Typ: 1-händig~
+@1336 = ~Die Zwergen-Legende ist sowohl mit den Runen des Clangeddin als auch des Moradin verzaubert. Seine Bedeutung für einen Zwerg ist riesig, ebenso seine Macht. Es gibt die Möglichkeit bei jedem Treffer, dass die Kraft von Moradin und Clangeddin erweckt wird und dem Ziel Extraschaden zufügt. Es gibt auch die Möglichkeit, dass die Gottesmacht einen Riesen mit einem Schlag tötet.
+
+EIGENSCHAFTEN:
+
+Die Axt kehrt sofort nach einem Angriff in die Hand des Trägers zurück
+Chance von 10 %, dass die Axt dem Ziel zusätzlich 4W10 Schaden durch zertrümmern zufügt.
+Chance von 25 %, dass die Axt Feuer- und Frost-Riesen mit einem einzigen Schlag tötet.
+
+Schaden: 1W6 + 4
+ETW0: +4 Bonus
+Schadensart (Nahkampf): aufschlitzen
+Schadensart (Geworfen): durchbohren (Fernkampf)
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Axt
+Typ: 1-händig
+Mindeststärke: 4~
+@1338 = ~Dieser Flegel ist dafür bekannt, dass er den Träger vor allen Arten von sofortigen todlichen Angriffen schützt. Die Chance zu sterben ist noch sehr real, aber bei Verwendung dieses Flegels kann man unerwünschte überraschende Todeszauber vermeiden. Sicherlich wollt wissen, was Euch tötet.
+
+EIGENSCHAFTEN:
+
+Ausgestattete Fähigkeiten: Schutz vor Sofortigem Tod
+
+Schaden: 1W6 + 3
+ETW0: +2 Bonus
+Schadensart: zerschmettern
+Gewicht: 10
+Initiativefaktor: 5
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+Mindeststärke: 13~
+@1340 = ~Es war am Vorabend einer Schlacht, als Sermak der Grosse flüchtete. Orks brachen in die Stadt Albagar herein. Die Männer wurden ohne einen Führer zurücklassen. Frauen und Kinder waren mit einer kleinen Eskorte auf dem Weg in die Sicherheit der Berge. Die Stadt wurde angegriffen, und die Niederlage war nahe. Es war dann im ersten Licht des fünften Tages, dass Sermak das Große mit einer neuen Waffe zurückkam. Allein ritt er den Feinden in den Rücken, während seine Männer von der Vorderseite angriffen. Leider war die Anzahl sogar bei Sonnenaufgang zu groß und der Kampf, die Stadt und der Flegel wurden alle verloren.
+
+EIGENSCHAFTEN:
+
+Tötet Orks mit einem einzigen Schlag
+Schutz vor +1 Waffen und kleiner
+
+Schaden: 1W6 + 6
+ETW0: +5 Bonus
+Schadensart: zerschmettern
+Gewicht: 5
+Initiativefaktor: 1
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+Mindeststärke: 6~
+@1342 = ~Verfluchter Prunkharnisch
+
+Angmar war ein sehr erfahrener Schmied. Er ist derjenige, der diese starke Rüstung schmiedete. Es ging zu seinem König, der dankbar war und Angmar gut belohnte. Leider hatte ein Mitbewerber von Angmar die Gelegenheit, die Rüstung zu verfluchen. Als der Fluch bemerkt wurde, wurde Angmar verbannt.
+
+EIGENSCHAFTEN:
+
+-2 zu ETW0
+-5 zu Schaden
+Besonderheit: Kann nur mit dem "Fluch entfernen" Zauber entfernt werden
+
+Rüstungsklasse:-4
+Gewicht: 35
+Mindeststärke: 15~
+@1344 = ~Diese Rüstung ist aus dem reinen Bösen gemacht und es gibt keine Aufzeichnung über seinen Ursprung. Der Hass auf das Gute ist beim Tragen der Rüstung deutlich zu spüren, und so können nur diejenigen mit Finsternis in ihrem Herzen sie tragen. Die Rüstung gewährt einen Angriffsbonus gegen gute Wesen.
+
+EIGENSCHAFTEN:
+
++2 Schaden gegen Gute Wesen
+-2 zu ETW0 gegen Gute Wesen
+
+Rüstungsklasse: -3
+Gewicht: 30
+Mindeststärke: 15~
+@1346 = ~Diese Rüstung enthält das Blut eines Trolls, das dem Träger eine ähnliche Fähigkeit gewährt, wie sie der Troll hat, Erneuerung. Jemand, der diese Rüstung trägt, bemerkt sofort, dass er sich besser zu fühlt, und würde es hassen, sie abzunehmen.
+
+EIGENSCHAFTEN:
+
+Regeneriert 1 Trefferpunkt jede 3. Sekunde
+
+Rüstungsklasse: -2
+Gewicht: 35
+Mindeststärke: 15~
+@1348 = ~Diese Rüstung ist aus ineinander greifenden Schuppen des Schattendrachen gebildet und im obersten Teil aus den Schuppen eines Golddrachen. Geschmackvolle fachmännische Arbeit und praktische Erwägungen machen diese Rüstung sowohl schön als auch nützlich. Die Schattendrachen-Schuppen gewähren dem Träger Extraschutz vor Säure und die Schuppen des Golddrachen gewähren vollem Schutz vor Elektrizität. Zusammen bilden die Schuppen eine sehr harte Kombination, die es äußerst schwierig macht, diese Rüstung zu durchbohren.
+
+EIGENSCHAFTEN:
+
+Widerstand von +50 % gegen Säure
+Widerstand von +100 % gegen die Elektrizität
+
+Rüstungsklasse:-3
+Gewicht: 15
+Mindeststärke: 8~
+@1352 = ~Dieser Helm verbessert die Geschwindigkeit sowohl des Verstandes als auch des Körpers. Während man ihn trägt, bemerkt man, dass man im Stande ist, schneller zu denken und sich schneller zu bewegen. Das macht es leichter, ein Ziel zu treffen und gleichzeitig wird es leichter, Schlägen auszuweichen. Die durch den Helm verliehene "Hast" kann zerstreut werden, aber dennoch gibt der Helm Bonus für Angriff und Verteidigung.
+
+EIGENSCHAFTEN:
+
+Intelligenz wird auf 18 festgesetzt
+Verbesserte Hast
+
+ETW0: +1 Bonus
+Rüstungsklassbonus: +1
+Gewicht: 2~
+@1354 = ~Die Legende sagt uns, dass diese besondere Art Ionenstein mit der versklavten Seele eines Feuerriesen gefertigt wird. Dieser hellorange Ionenstein gewährt dem Träger die Stärke eines Riesen.
+
+EIGENSCHAFTEN:
+
+Stärke wird auf 22 festgesetzt
+
+Rüstungsklassbonus: keiner
+Gewicht: 2~
+@1356 = ~Der Helm der eisernen Absicht schützt seinen Träger vor allen Arten von Versuchen, seine Gedanken zu beeinflussen. Es wird gesagt, dass der Helm auch die Gefühle des Trägers reduziert. Das ist nicht bewiesen, aber es wäre keine große Überraschung, wenn es wahr wäre.
+
+EIGENSCHAFTEN:
+
+Schutz vor Geistesschwäche, Verwirrung, Striktem Denken, Angst, Überlegenheit, Toben, Bezaubern
+
+Besonderheit: Schützt Gegen Kritische Treffer
+
+Gewicht: 1~
+@1358 = ~Hellebarde +5, Der Wind
+
+Der Wind enthält magische Luftströme und es gibt eine gute Chance, dass, wenn sie ein Ziel trifft, die Luft freigesetzt wird. Seine Wirkung ist dem Flügelschlag von Drachen ähnlich. Das Ziel wird vom Träger weggeblasen.
+
+EIGENSCHAFTEN:
+
+50%ige Chance für einen Flügelschlag, wenn er das Ziel trifft, geringe Chance für einen Rettungswurf
+
+Schaden: 1W10 + 5
+ETW0: +5 Bonus
+Schadensart: durchbohren
+Gewicht: 12
+Initiativefaktor: 4
+Fertigkeit: Hellebarde
+Typ: beidhändig
+Mindeststärke: 13~
+@1360 = ~Mangloves war ein Stratege, als er lebte. Er glaubte, dass jeder Feind mit der richtigen Strategie geschlagen werden kann. Deshalb ließ er diese Hellebarde für sich machen. Sie hat viele Fähigkeiten, die Schwächen der Gegner zu treffen, die ihre Vernichtung leichter machen.
+
+EIGENSCHAFTEN:
+
+Chance von 25 %, das Ziel für 2 Runden krank zu machen
+Chance von 25 %, das Ziel für 2 Runden schwachsinnig zu machen
+Chance von 25 %, beim  Ziel für 2 Runden Panik zu verursachen
+Chance von 25 %, das Ziel für 2 Runden festzuhalten
+
+Schaden: 1W10 + 3
+ETW0: +3 Bonus
+Schadensart: durchbohren
+Gewicht: 12
+Initiativefaktor: 6
+Fertigkeit: Hellebarde
+Typ: beidhändig
+Mindeststärke: 13~
+@1362 = ~Der Purpurhammer wurde ursprünglich als Scherz von Gol Bergspitze für Jacob Chalim gemacht. Es war leider Ironie des Schicksals, dass nach einer Weile die Männer auf verschiedenen Seiten Krieg führten und Jacob Gol mit diesem Hammer tötete.
+
+EIGENSCHAFTEN:
+
+Der nächste Zauber des Ziels ist durch Unbändige Magie betroffen, falls der Rettungswurf versagt.
+
+Schaden: 1W4 + 3
+ETW0: +2 Bonus
+Schadensart: zerschmettern
+Gewicht: 6
+Initiativefaktor: 2
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9~
+@1364 = ~Das Gift wird sowohl mit giftiger als auch mit zersetzender Magie auf offensive und defensive Weise gezaubert. Es wurde von den Zwergen gemacht, aber danach wurde es größtenteils von Menschen verwendet.
+
+EIGENSCHAFTEN:
+
+Widerstand von +50 % gegen Gift
+Widerstand von +50 % gegen Säure
+
+Schaden: 1W4 + 4, +2 Säure, +2 Gift
+ETW0: +3 Bonus
+Schadensart: zerschmettern
+Gewicht: 5
+Initiativefaktor: 1
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9~
+@1366 = ~Dieser Kriegshammer wurde ursprünglich von Zauberern gegossen, und das macht den Namen verständlich. Die Waffe ist der Schrecken aller Zauberwirker. Diejenigen mit nicht genug Macht, dem Hammer zu widerstehen, vergessen einen Zauber bei jedem Treffer. Das kann Panik und einen sicheren Tod verursachen. Die Zauberer, die das Verhängnis gossen, versuchten,ihn zu verbergen, aber irgendwie wurde er gestohlen, und danach gab es keine Aufzeichnung über seinen Verbleib.
+
+EIGENSCHAFTEN:
+
+Entfernt alle feindlichen Heiligtümer im Gebiet, kein Rettungswurf
+Ziel vergisst einen Zauber bei jedem Treffer, Widerstand kann retten
+
+Schaden: 2W4 + 6
+ETW0: +6 Bonus
+Schadensart: zerschmettern
+Gewicht: 4
+Initiativefaktor: 1
+Fertigkeit: Kriegshammer
+Typ: 1-händig~
+@1368 = ~Das Heilige Dreieck ist eine Kombination aus dem Eisschwert, Feuerschwert und Blitzschwert. Sie wurden vom Schmied Brundor zu einem geschmiedet und bilden jetzt das Heilige Dreieck. Das Schwert ist äußerst stark, und es wird gesagt, dass derjenige, der die Macht der drei Schwerter ausübt, die Macht von Göttern ausübt.
+
+EIGENSCHAFTEN:
+
+Feuerball
+Es gibt eine Chance von 5 % pro Treffer, dass ein 10W6 Feuerball explodiert, der auf das Ziel gerichtet ist.
+
+Kältekegel
+Es gibt eine Chance von 5 % pro Treffer, dass ein Kältekegel auf das Ziel stürmt.
+
+Blitzstrahl
+Es gibt eine Chance von 5 % pro Treffer, dass ein Blitzstrahl das Ziel durchstößt.
+
+Schaden: 1W6 +4, +1 Feuer, Eis und Blitz
+ETW0: +4 Bonus
+Schadensart: durchbohren
+Gewicht: 2
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 5~
+@1370 = ~Diese Klinge wurde geschmiedet, um die Welt unausgeglichen zu halten. Es kann entweder von solchen guter oder schlechter Gesinnung ausgeübt werden. Es ist bekannt, dass Extraschaden an neutrale Wesen ausgeteilt wird.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 + 2, +3 gegen neutrale Wesen
+ETW0: +2 Bonus, +3 gegen neutrale Wesen
+Schadensart: aufschlitzen
+Gewicht: 4
+Initiativefaktor: 2
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6~
+@1372 = ~Dieses Katana wurde vom Waffenmeister der Kämpferinnung in der Stadt Morgoth verwendet. Es gibt eisenharte Insekte bei jedem erfolgreichen Treffer frei, und sie zerfetzen den Feind und verteilen Schaden. Das Ziel könnte auch schwachsinnig oder verschwommen werden.
+
+EIGENSCHAFTEN:
+
+Schwachsinnigkeit für 4 Runden (Rettungswurf gegen Zauber)
+
+Schaden: 1W10 + 4, +5 Aufschlitzen-Schaden
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6~
+@1374 = ~Das Phantom ist ein gefürchteter Bogen, der überall bekannt ist. Er verschießt Phantompfeile, die das Ziel verlangsamen und verbrennen und die Wunde erfrieren lassen können. Man sollte trotzdem vorsichtig sein, weil gesagt wird, dass das Phamtom verflucht ist. Wenn Ihr den Bogen zu lange verwendt, verliert Ihr Euren Verstand...
+
+EIGENSCHAFTEN:
+
+Dieser starke Bogen braucht keine Munition
+Kann das Ziel verlangsamen
+
+Schaden: 1W6 + 4, +2 Magisches Feuer und Kälte
+ETW0: +4 Bonus
+Gewicht: 3
+Initiativefaktor: 4
+Fertigkeit: Langbogen
+Typ: beidhändig
+Mindeststärke: 6~
+@1376 = ~Das beschlagene Lederwams hat wenig mit der normalen Lederrüstung gemeinsam. Die Lederrüstung ist ein gehärteter Panzer, während das beschlagene Lederwams weich und biegsam und mit hunderten von Metallnieten besetzt ist. Die Nieten sind so nahe beieinander, dass sie einen flexiblen Überzug aus hartem Metall bilden, durch den sich Hiebe und Stiche abwehren lassen. Das Grundmaterial aus weichem Leder dient lediglich dazu, die Nieten zusammen zu halten. Diese Lederrüstung ist stark verzaubert.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 8
+Mindeststärke: 6~
+@1378 = ~Diese stark verzauberte Lederrüstung ist bekannt dafür, Zauber der niedrigeren Stufen zu neutralisieren. Das bedeutet sowohl nützliche als auch schädliche Zauber, so könnte die Rüstung jemandem sowohl zur Rettung als auch zum Verhängnis werden.
+
+EIGENSCHAFTEN:
+
+Immunität gegen Zauber der Stufen 1, 2 und 3
+
+Rüstungsklasse: 3
+Gewicht: 4
+Mindeststärke: 3~
+@1380 = ~Diese Lederrüstung wurde zu einem einzigen Zweck geschaffen: um seinen Träger vor einem der am meisten gefürchteten Zauber von Faerûn zu schützen, "Einkerkerung". Sie hat sich als sehr wirksam gegen Halbleichen erwiesen.
+
+EIGENSCHAFTEN:
+
+Immunität gegen Einkerkerung
+
+Rüstungsklasse: 2
+Gewicht: 8
+Mindeststärke: 6~
+@1382 = ~Der Lebenstehler funktioniert auf zwei Arten. Es teilt unwiderstehlichen Extraschaden beim Ziel aus, während es den Träger mit derselben Menge heilt. Also, um genau zu sein, stiehlt der Lebenstehler nicht wirklich Leben. Aber andererseits nimmt es es von dem einen und gibt es dem anderen.
+
+EIGENSCHAFTEN:
+
+"Stielt" dem Gegner mit jedem Treffer zwei Trefferpunkte
+
+Schaden: 1W6 + 4
+ETW0: +3 Bonus
+Schadensart: zerschmettern
+Gewicht: 7
+Initiativefaktor: 4
+Fertigkeit: Streitkolben
+Typ: einhändig
+Mindeststärke: 10~
+@1384 = ~Der Name dieser Waffe bezieht sich auf seine Fähigkeiten. Es gibt die Chance der kurzzeitigen Erkrankung oder der Vergiftung des Ziels. Die Waffe schützt auch den Träger vor Gift. Es wird auch gesagt, dass Schlangen bei der Entwicklung dieser Waffe verwendet wurden.
+
+EIGENSCHAFTEN:
+
+50%ige Chance, dem Ziel Gift oder Krankheit zuzufügen, wenn der Rettungswurf versagt.
+Widerstand von 50 % gegen Gift
+
+Schaden: 1W6 + 2
+ETW0: +1 Bonus
+Schadensart: zerschmettern
+Gewicht: 6
+Initiativefaktor: 6
+Fertigkeit: Streitkolben
+Typ: 1-händig
+Mindeststärke: 10~
+@1386 = ~Das Ninja-To ist das Schwert der Ninja und nicht von so hochwertiger Qualität wie die anderen Klingen, die aus Kara-Tur stammen, beispielsweise das Katana. Das Ninja-To hat eine gerade Klinge und ist relativ kurz. Es eignet sich daher ideal für den verschlagenen Ninja, da es sich leicht verbergen lässt. Da es recht kurz ist, eignet es sich besser als die langen Klingen eines Samurais, um damit unter beengten Verhältnissen zu kämpfen. Das verschafft einem Ninja, der gegen einen Samurai antritt, manchmal einen Vorteil. Dieses Ninja-To ist stark verzaubert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 + 2
+ETW0: +2 Bonus
+Schadensart: aufschlitzen
+Gewicht: 5
+Initiativefaktor: 2
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Typ: 1-händig
+Mindeststärke: 6~
+@1388 = ~Das Ninja-To ist das Schwert der Ninja und nicht von so hochwertiger Qualität wie die anderen Klingen, die aus Kara-Tur stammen, beispielsweise das Katana. Das Ninja-To hat eine gerade Klinge und ist relativ kurz. Es eignet sich daher ideal für den verschlagenen Ninja, da es sich leicht verbergen lässt. Da es recht kurz ist, eignet es sich besser als die langen Klingen eines Samurais, um damit unter beengten Verhältnissen zu kämpfen. Das verschafft einem Ninja, der gegen einen Samurai antritt, manchmal einen Vorteil. Dieses Ninja-To ist stark verzaubert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 + 3
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 4
+Initiativefaktor: 1
+Fertigkeit: Krummsäbal/Wakishashi/Ninja-To
+Typ: 1-händig
+Mindeststärke: 6~
+@1393 = ~Diese Waffe wurde vom Schmied Brundor aus einem normalen Ninja-To und den Speichersteinen des alten Helden Xander geschmiedet. Es wurde bald bekannt, dass der Träger den Geist übernehmen lassen kann und das Schwert für kurze Zeit selbständig angreifen kann. Xanders Traum, seine Fähigkeiten an zukünftigen Generationen weiterzugeben ist wahr geworden.
+
+EIGENSCHAFTEN:
+
+Das Schwert kann selbständig für 5 Runden angreifen
+
+Schaden: 1W8 + 2
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 4
+Initiativefaktor: 2
+Fertigkeit: Krummsäbel/Wakishashi/Ninja-To
+Typ: 1-händig
+Mindeststärke: 6~
+@1395 = ~Der Plattenpanzer der Sonne wurde von Sonnenanbetern vor über einem Jahrtausend geschaffen. Er ist bis heute gut erhalten. Die Verzauberungen haben ihn sicher bewahrt und funktionieren noch gut. Der Träger der Rüstung kann einige Priester-Zauber wirken.
+
+EIGENSCHAFTEN:
+
+Kann dreimal pro Tag "Sonnenstrahl" und "Falscher Sonnenaufgang" wirken.
+
+Rüstungsklasse: -1
+Gewicht: 50
+Mindeststärke: 12~
+@1397 = ~Dieser Plattenpanzer funktioniert wie eine Art Portal zwischen anderen Daseins-Ebenen. Beim Tragen dieser Rüstung bewegt sich ein Teil des Trägers zu einer höheren Daseins-Ebene. Das gibt viel Schutz in dieser Ebene.
+
+EIGENSCHAFTEN:
+
+Schutz vor Versteineung
+Schutz vor Hinterlist
++10 zu den maximalen Trefferpunkten
+
+Rüstungsklasse:-2
+Gewicht: 27
+Mindeststärke: 12~
+@1399 = ~Malver war ein alter Mann, als er diesen Plattenpanzer schmiedete. Es war ein Geschenk für seinen Enkel. Kurz nachdem der Plattenpanzer fertiggestellt war, starb Malver und konnte so die Rüstung dem Enkel nicht selbst geben. Sein Helfer sollte es tun, wenn etwas geschah. Der Helfer nahm die Rüstung, aber nicht für den Enkel.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Gewicht: 35
+Mindeststärke: 12~
+@1418 = ~Seit den Tagen von Nesseril haben Magier gelernt, alltägliche Objekte, die sie umgeben, mit den verschiedensten magischen Eigenschaften zu versehen. Einer der beliebtesten Gegenstände für die Anwendung von Zaubern ist die gemeine Robe. Sie ist leicht, erschwinglich und behält ihre Verzauberung gut bei, wodurch sie zur idealen Ausrüstung für einen Magier wird. Aufgrund ihres magischen Erbes dürfen jedoch nur Magier diese Roben tragen. Diese Robe wurde mit Schutzmagie verzaubert.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: +2 Bonus
+Rettungswürfe: +2 Bonus
+Gewicht: 4~
+@1420 = ~Die Legende sagt, dass einst ein Regent, dessen Name in der Geschichte verloren gegangen ist, sehr krank war und versprochen hat, diejenige Person zu belohnen, die im Stande wäre, ihn zu heilen. Ein Magier namens Albacar machte diese Robe, aber wegen den dummen Rollenspielregeln konnte der Regent die Robe nicht tragen. Er war kein Magier. Der Regent starb, und die Robe ging verloren.
+
+EIGENSCHAFTEN:
+
+Schutz vor Säure
+Schutz vor Gift
+Gewicht: 4~
+@1422 = ~Der Träger dieser Robe kann Zeit kontrollieren. Die magische Energie der Robe reicht für den Anwender aus, um im Stande zu sein, zweimal pro Tag "Zeitstop" zu werfen. Durch die starke magische Energie der Robe wehrt sie auch einige der ausgehenden Energie ab.
+
+EIGENSCHAFTEN:
+
+Sofortiger Zeitstop zweimal pro Tag
+Widerstand von +10 % gegen Magie
+Widerstand von +10 % gegen den Magieschaden
+
+Gewicht: 4~
+@1430 = ~Wie man sagt, hat ein Roter Magier niederen Ranges namens Huhhus die vollkommene Art entdeckt, Troll-Fleisch zu destillieren, um einen Trank zu machen, der dieselbe erneuerbare Fähigkeit wie die der Trolle zur Verfügung stellt. Wenige waren jedoch bereit, die abscheuliche Flüssigkeit zu trinken, und Jahrzehnte später schuf ein unbekannter Handwerker diesen Bogen, aufgebaut auf den Fundamenten der durch Huhhus gelegte Kenntnisse.
+
+EIGENSCHAFTEN:
+
+Regeneriert alle 6 Sekunden 1 Trefferpunkt
+
+Schaden: +2 Bonus (Fernkampf)
+ETW0: +2 Bonus
+Gewicht: 2
+Initiativefaktor: 4
+Fertigkeit: Kurzbogen
+Typ: beidhändig
+Mindeststärke: 3~
+@1432 = ~Die Legende sagt, dass ein Junge namens Hammon einmal herausgefordert wurde, einen Apfel vom Kopf seines Vaters zu schießen. Damit er das tun konnte, erhielt er diesen Bogen, obwohl keiner damals von seinen magischen Fähigkeiten wusste. Jedenfalls schoss der Junge und durchbohrte die Brust seines Vaters. Jahrzehnte später fand der Handwerker eines nahe gelegenen Dorfes heraus, dass, wenn ein Pfeil mit diesem Bogen geschossen wird, er bemüht ist, das Ziel auf dem höchstmöglich tödlichen Weg zu treffen.
+
+EIGENSCHAFTEN:
+
+ETW0: +8 Bonus
+Gewicht: 2
+Initiativefaktor: 5
+Fertigkeit: Kurzbogen
+Typ: beidhändig
+Mindeststärke: 6~
+@1434 = ~Es wurden ungefähr zwanzig Gepard-Krummsäbel hergestellt, von denen ungefähr fünfzehn vermisst sind. Sie wurden vom "Falken" gemacht, ihr echter Name ist nicht bekannt, und von ihren Soldaten verwendet. Leute sterben, und die Krummsäbel wurden von Abenteurer zu Abenteurer weitergereicht.
+
+EIGENSCHAFTEN:
+
++2 zu Angriffen pro Runde
+
+Schaden: 1W8 + 3
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Typ: 1-händig
+Mindeststärke: 10~
+@1435 = ~Diese Waffen sind auch als "Diebes-Fänger" bekannt. Sie wurden von Soldaten verwendet, um Diebe zu erlegen. Leider ging die Waffe verloren, an einen Dieb natürlich, und seitdem gab es keinen Beleg für seine Existenz.
+
+EIGENSCHAFTEN:
+
+Schutz vor Hinterlist
+Kann dreimal pro Tag den Zauber "Unsichtbarkeit aufheben" wirken
+
+ETW0: +4
+Schadensart: aufschlitzen
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Typ: einhändig
+Mindeststärke: 10~
+@1437 = ~Der Schöpfer dieser Waffe war ein Wahnsinniger, aber ein äußerst starker. Er tötete hochrangige Priester, Zauberer und Kämpfer und fing ihre Seelen in dieser Waffe. Dann ging er den Seelenplünderer schwingend zu den Höllen und forderte den Dämonen-Lord Grazzt heraus. Wer gewann, das ist nicht bekannt und auch nicht das Schicksal dieses Krummsäbels.
+
+EIGENSCHAFTEN:
+
+Bei einem erfolgreichen Treffer wird sofort einer dieser Zauber auf das Ziel geworfen:
+
+Flammenschlag
+Leid
+Feuerball
+Kältekegel
+Finger des Todes
+
+Schaden: 1W8 + 6
+ETW0: +6 Bonus
+Schadensart: aufschlitzen
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Typ: 1-händig
+Mindeststärke: 10~
+@1439 = ~Der Beschützer wurde geschmiedet und verzaubert, um seinen Träger vor allem vor Fernkampfwaffen zu schützen. Die Verzauberung war in den Verzierungen, die jetzt fehlen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklassbonus: 2
+Besonderheit: +2 gegen Fernkampfwaffen
+Gewicht: 15
+Mindeststärke: 15~
+@1447 = ~Der Beschützer wurde geschmiedet und verzaubert, um seinen Träger vor allen Fernkampfwaffen zu schützen. Die Verzauberung ist in den Verzierungen. Sie ziehen alle Fernkampfwaffen an, um den Schild zu treffen, nicht seinen Benutzer.
+
+EIGENSCHAFTEN:
+
+Rüstungsklassbonus: 3
+
+Schutz vor allen Fernkampfwaffen
+
+Gewicht: 15
+Mindeststärke: 15~
+@1449 = ~Diese Art Schild wurde von den Wachen des Königs in den Ländern von Pelandor verwendet. Schilder wie dieser sind selten von woanders zu finden. Diebe und Großhändler haben ungefähr zwanzig von ihnen in der Welt verteilt.
+
+EIGENSCHAFTEN:
+
+Rüstungsklassbonus: 4
+Besonderheit: +1 gegen Fernkampfwaffen
+Gewicht: 4
+Mindeststärke: 10~
+@1451 = ~Dieser Schild gewährt meist bestimmten Schutz vor allen sofort tödlichen Angriffen. Aber der Tod kann noch auf andere Art kommen.
+
+Ausgezeichnete fachmännische Arbeit wird durch einen dauerhaften Zauber der Leichtigkeit ergänzt, der den Schild sehr leicht zu tragen macht.
+
+EIGENSCHAFTEN:
+
+-6 Rettungswurf gegen Tod
+
+Rüstungsklassbonus: 4
+Speziell: +1 gegen Fernkampfwaffen
+Gewicht: 10
+Mindeststärke: 10~
+@1453 = ~Diese Schleuder wurde im Eiswindtal gefertigt, aber der Name des Schöpfers ist unbekannt. Er, oder sie, fügten Verzauberungen hinzu, die die Kugel einfrieren lassen, wenn sie an Ihren Platz gelegt wird. Wenn die Kugel dann das Ziel trifft, wird ihre Kälte auf die Wunde übertragen.
+
+EIGENSCHAFTEN:
+
+Schaden: +3 (Fernkampfschaden), +1W4 Kälteschaden
+ETW0: +3 Bonus
+Gewicht: 0
+Initiativefaktor: 4
+Fertigkeit: Schleuder
+Typ: 1-händig
+Mindeststärke: 3~
+@1455 = ~Einst zog ein Mörder, der sich selbst Rabe nannte, durch die Straßen von Calimshafen. Er war der beste Meuchelmörder seiner Zeit. Keiner sah ihn jemals, zumindestens nicht sein wahres ich, und nicht einmal versagte er bei einer Mission. Dann verschwand er einfach eines Tages. Einige Menschen sagen, dass er getötet wurde, andere Menschen sagen, dass er nur wegreiste. Einige glauben, dass er wieder zurückkehren wird.
+
+EIGENSCHAFTEN:
+
+Tod (Rettungswurf gegen Tod möglich)
+
+Schaden: +4 Bonus (Fernkampf)
+ETW0: +4 Bonus Fernkampf
+Gewicht: 0
+Initiativefaktor: 2
+Fertigkeit: Schleuder
+Typ: einhändig
+Mindeststärke: 3~
+@1457 = ~Der mittlere Schild wird auf die selbe Weise getragen wie der kleine Schild, ist jedoch so schwer, dass mit der Schildhand keine anderen Aktionen ausgeführt werden können. Mittlere Schilde bestehen für gewöhnlich aus Metall und haben einen Durchmesser von 90 bis 120 cm. Es gibt sie in zahlreichen Formen; von rund über quadratisch bis zur Form der gespreizten Drachenflügel. Ein typischer mittlerer Schild ist dreieckig, wobei eine Spitze nach unten zeigt. Dieser Schild ist stark verzaubert.
+
+EIGENSCHAFTEN:
+
+Rüstungsklassbonus: 4
+Gewicht: 7
+Mindeststärke: 12~
+@1459 = ~Dieser Speer enthält Magie, die dieselbe Wirkung hat, wie jemandem das Auge zu durchstoßen. Diese Magie wird mit jedem erfolgreichen Treffer freigesetzt, und wenn das Ziel ihr nicht widerstehen kann, wird das Ergebnis dauerhafte Blindheit sein, die nur mit starker Magie zerstreut zu werden kann.
+
+EIGENSCHAFTEN:
+
+Dauerhafte Blindheit, wenn der Rettungswurf versagt
+
+Schaden: 1W6 + 2
+ETW0: +2 Bonus
+Schadensart: durchbohren
+Gewicht: 5
+Initiativefaktor: 4
+Fertigkeit: Speer
+Typ: beidhändig
+Mindeststärke: 5~
+@1461 = ~Das andere Ende dieses Speers ist mit Kältemagie verzaubert, die beim Ziel zusätzlichen Schaden verursacht. Der Speer ist sehr alt, und die Macht der Magie ist verblasst, so dass es nur eine geringe Chance dafür gibt, dass er all seine Macht freisetzt. Größtenteils ist die freigesetzte Macht geringer.
+
+EIGENSCHAFTEN:
+
+Chance von 60 %, 1W4 Kälteschaden zu verursachen
+Chance von 30 %, 2W4 Kälteschaden zu verursachen
+Chance von 10 %, 3W4 Kälteschaden zu verursachen
+
+Schaden: 1W6 + 3
+ETW0: +3 Bonus
+Schadensart: durchbohren
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Speer
+Typ: beidhändig
+Mindeststärke: 5~
+@1463 = ~Dieser Speer wurde aus Material geschmiedet, das nur in den Meeren zu finden ist. Die Verzauberung hat ihn steinhart und sehr wirksam im Kampf gemacht. Er ist bekannt dafür, den Träger vor einigen Zaubern zu schützen. Einige Menschen sagen, dass einer jener Zauber "Tote erwecken" ist, aber das ist nur eine Legende.
+
+EIGENSCHAFTEN:
+
+Schutz vor Verlangsamen, Betäuben und Magie Zerstreuen
+
+Schaden: 1W6 + 5
+ETW0: +5 Bonus
+Schadensart: durchbohren
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Speer
+Typ: beidhändig
+Mindeststärke: 5~
+@1465 = ~Ein kleiner Schild ist in der Regel rund. Man fährt mit dem Unterarm durch den Halteriemen und greift ihn zusätzlich mit der Schildhand. Verglichen mit dem mittleren Schild ist er so leicht, dass man noch einen weiteren Gegenstand tragen kann. Allerdings kann mit der Schildhand keine Waffe mehr geführt werden. Dieser Schild ist stark verzaubert.
+
+EIGENSCHAFTEN:
+
+Rüstungsklassbonus: 4
+Gewicht: 2
+Mindeststärke: 4~
+@1467 = ~Mendelev verbrachte sein ganzes Leben mit dem Studium der Möglichkeiten, Zauber mit der Ausrüstungen widerzuspiegeln. Das ist alles, was er vor dem Sterben erreichte. Die Errungenschaft ist jedoch nicht gering und es gab viele Kämpfe um diesen Schild. Später, als reflektierende Ausrüstungen üblicher wurden, war der Schild nicht mehr so wertvoll, aber viele Abenteurer würden noch alles dafür tun, um ihn zu bekommen.
+
+EIGENSCHAFTEN:
+
++20 % zum Magiewiderstand
+Wirft Zauber der Stufen  2, 3 und 4 zurück 
+
+Rüstungsklassbonus: 5
+Gewicht: 2
+Mindeststärke: 4~
+@1469 = ~Dieser mittlere Schild hat die Wirkung, den Träger vor Blicken zu verbergen. Leider ist die Fähigkeit verblasst, und jetzt wird der Träger hin und wieder sichtbarer.
+
+EIGENSCHAFTEN:
+
+Unsichtbarkeit (schaltet sich Ein/Aus)
+
+Rüstungsklassbonus: 5
+Gewicht: 7
+Mindeststärke: 12~
+@1471 = ~Das Kurzschwert des Feuers ist eine magisch verzauberte Klinge. Es hat nie viele von diesen gegeben und daher ist der Fund eines solchen selten. Zusammen mit zwei anderen Schwertern bildet dieses Schwert ein Heiliges Dreieck. Es wird in den alten Schriften von Garem Thormbead gesagt, dass "derjenige, der die Macht des Heiligen Dreiecks ausübt, die Macht der Götter" ausübt.
+
+EIGENSCHAFTEN:
+
+Meteor
+Es gibt eine Chance von 5 % pro Treffer, dass ein auf das Ziel gerichteter 10W6 Meteor explodiert.
+
+Feuerschaden: 1W6 + 3, +1 
+ETW0: +3 Bonus
+Schadensart: durchbohren
+Gewicht: 2
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 5~
+@1473 = ~Das Kurzschwert des Eises ist eine magisch verzauberte Klinge. Es hat nie viele von diesen gegeben und daher ist der Fund eines solchen selten. Zusammen mit zwei anderen Schwertern bildet dieses Schwert ein Heiliges Dreieck. Es wird in den alten Schriften von Garem Thormbead gesagt, dass "derjenige, der die Macht des Heiligen Dreiecks ausübt, die Macht der Götter" ausübt.
+
+EIGENSCHAFTEN:
+
+Es gibt eine Chance von 5 % pro Treffer, dass ein Kältekegel auf das Ziel stürmt.
+
+Kälteschaden: 1W6 + 3, +1
+ETW0: +3 Bonus
+Schadensart: durchbohren
+Gewicht: 2
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 5~
+@1475 = ~Das Kurzschwert des Blitzes ist eine magisch verzauberte Klinge. Es hat nie viele von diesen gegeben und daher ist der Fund eines solchen selten. Zusammen mit zwei anderen Schwertern bildet dieses Schwert ein Heiliges Dreieck. Es wird in den alten Schriften von Garem Thormbead gesagt, dass "derjenige, der die Macht des Heiligen Dreiecks ausübt, die Macht der Götter" ausübt.
+
+EIGENSCHAFTEN:
+
+Es gibt eine Chance von 5 % pro Treffer, dass ein Blitzstrahl das Ziel durchstößt.
+
+Blitzschaden: 1W6 + 3, +1
+ETW0: +3 Bonus
+Schadensart: durchbohren
+Gewicht: 2
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: einhändig
+Mindeststärke: 5~
+@1477 = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Der Kampfstab wird mit beiden Händen geschwungen. Dieser Kampfstab ist etwas ganz Besonderes, da er mit magischen Eigenschaften versehen wurde.
+
+
+
+EIGENSCHAFTEN:
+
+Gute Chance, das Ziel für eine Runde zu betäuben
+Der Kampfstab wird als eine +5 Waffe betrachtet
+
+Schaden: 1W6 + 3
+ETW0: +3 Bonus
+Schadensart: zerschmettern
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kampfstab
+Typ: beidhändig
+Mindeststärke: 5~
+@1478 = ~Der einfache Stecken strahlt eine mächtige Magie aus. Sein schmuckloses Äußeres deutet darauf hin, dass er einem einfachen Mann gehörte. Er kann verwendet werden, um Magie zu zerstören.
+
+EIGENSCHAFTEN:
+
+Kann zweimal täglich Magie zerstören und Bresche wirken.
+Kann einmal täglich Magie durchdringen, Rubinroter Strahl der Aufhebung und Khelbens parierende Peitsche wirken.
+Magie bannen
+
+Schaden: 1W6 + 3
+ETW0: +3
+Schadensart: zerschmettern
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kampfstab
+Typ: beidhändig
+Mindeststärke: 5~
+@1480 = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Der Kampfstab wird mit beiden Händen geschwungen. Dieser Kampfstab ist etwas ganz Besonderes, da er mit magischen Eigenschaften einschließlich Beschleunigen versehen wurde.
+
+EIGENSCHAFTEN:
+
+Träger unterliegt der Hast
+
+Schaden: 1W6 + 1
+ETW0: +1
+Schadensart: zerschmettern
+Gewicht: 4
+Initiativefaktor: 3
+Fertigkeit: Kampfstab
+Typ: beidhändig
+Mindeststärke: 5~
+@1482 = ~Der Wirbelwind ist der schnellste jemals geschaffene Kampfstab. Er hat keinen Geschwindigkeitsfaktor und gewährt dem Träger Hast. Der Wirbelwind wurde aus einem Schwert, einem Kampstab und zwei Diamanten hergestellt. Das Schwert wurde in den Kampstab geschmolzen, und die Diamanten härten beide Enden des Kampstabs und gewähren zusätzlichen Schaden. Wegen mehrerer Verzauberungen ist der Wirbelwind äußerst leicht.
+
+EIGENSCHAFTEN:
+
+Hast
++1 Angriff pro Runde
+Geschicklichkeit wird auf 18 gesetzt
+
+Schaden: 1W6 + 3
+ETW0: +3
+Schadensart: zerschmettern
+Gewicht: 1
+Initiativefaktor: 0
+Fertigkeit: Kampfstab
+Typ: beidhändig
+Mindeststärke: 3~
+@1483 = ~Mit diesem Schwert gewinnt man den Zugang zu einigen der stärksten Zauber von Faerûn. Man kann jemanden entweder in ein ewiges Gefängnis einsperren, oder jemanden von dort befreien. Die Fähigkeiten dieses Schwertes sollten vorsichtig verwendet werden, oder man könnte sich selbst statt des Feindes im Gefängnis finden.
+
+EIGENSCHAFTEN:
+
+Kann einmal pro Tag Einkerkerung und Freiheit wirken
+
+Schaden: 2W4 + 3
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 8
+Initiativefaktor: 5
+Fertigkeit: Bastardschwert
+Typ: 1-händig
+Mindeststärke: 11~
+@1485 = ~Dhor war ein Mann mit vielen Fähigkeiten. Er war als guter Unterhaltungskünstler bekannt und die Damen mochten ihn. Er war auch ein guter Harfenspieler und ein fähiger Jäger. Leider starb er im Krieg, und dieses Schwert ging an seine Feinde verloren. Seine weitere Geschichte ist unbekannt.
+
+EIGENSCHAFTEN:
+
+Verursacht unaufhaltsamen zusätzlichem 1W4 Schaden durch Gift, Säure, Aufschlitzen oder Durchbohren.
+
+Schaden: 2W4 + 4
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 8
+Initiativefaktor: 7
+Fertigkeit: Bastardschwert
+Typ: 1-händig
+Mindeststärke: 11~
+@1487 = ~Delvin war ein guter Schmied und glaubte an das Gleichgewicht der Mächte. Dies ist seine beste Arbeit, und nicht umsonst ist er stolz darauf. Die Kehrseite für einen Abenteurer ist, dass, weil Delvin neutral gut war, das Schwert das Ziel nicht nur beschädigen könnte. Es gibt auch die Möglichkeit, dass es dem Ziel eine nützliche Fähigkeit gibt.
+
+EIGENSCHAFTEN:
+
+10%ige Chance Unsichtbar zu werden
+Betäuben
+100 % Magiewiderstand gewähren
+Festhalten
+Segnen
+Geringere Rettungswürfe (-2)
+Hilfe
+25 Punkte Magieschaden verursachen
+25 Trefferpunkte heilen
+Irrgarten
+Die Wirkungdauer kann jeweils 3 Runden anhalten.
+
+Schaden: 1W8 + 4
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 4
+Initiativefaktor: 4
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 6~
+@1489 = ~Das Blut eines Vampirs zirkuliert in diesem Schwert und daher gibt es die Möglichkeit bei jedem erfolgreichem Treffer, dass das Schwert dem Ziel Lebensenergie entzieht, so wie es Vampire tun. Nichts ist im Stande, diesem Schwert so zu widerstehen, daher beugen sich sogar die stärksten Wesen der Reiche seiner Macht.
+
+EIGENSCHAFTEN:
+
+Chance von 15 % auf den Entzug von zwei Stufen Lebenskraft (Rettungswurf möglich (-3 Bonus), Widerstand hat keine Bedeutung)
+
+Schaden: 1W8 + 5
+ETW0: +5 Bonus
+Schadensart: aufschlitzen
+Gewicht: 4
+Initiativefaktor: 1
+Fertigkeit: Langschwert
+Typ: einhändig
+Mindeststärke: 6~
+@1491 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Die Klinge summt ein bisschen in Eurer Hand und bietet Schutz im Kampf.
+
+EIGENSCHAFTEN:
+
++2 Rüstungsklasse Bonus
++2 Rettungswurf-Bonus
+
+Schaden: 1W8 + 2
+ETW0: +2 Bonus
+Schadensart: aufschlitzen
+Gewicht: 2
+Initiativefaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig
+Mindeststärke: 6~
+@1493 = ~Auch bekannt als das Schwert der Wut. Von außen betrachtet sieht das Schwert ganz hübsch aus, aber wenn es Euch trifft, neigt Ihr dazu, verrückt zu werden. Der Name des Schmieds dieses Schwertes ist unbekannt, aber erste Aufzeichnungen hiervon können in der Stadt Calimshafen aufgegespürt werden.
+
+EIGENSCHAFTEN:
+
+Ziel gerät in rasende Wut, wenn der Rettungswurf versagt.
+
+Schaden: 1W6 + 2
+ETW0: +2 Bonus
+Schadensart: durchbohren
+Gewicht: 2
+Initiativefaktor: 2
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 5~
+@1495 = ~Dieses Schwert weiß genau, wie man das Ziel trifft. Das ist erstaunlich, aber sogar diejenigen ohne Erfahrung im Kämpfen können einen Treffer durch die Verteidigung eines ziemlich guten Kämpfers erlangen. Das Schwert hat auch einen Ruf unter Mördern gewonnen, weil es in geschickten Händen schnell und glatt den Tod bringen kann.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 + 4
+ETW0: +8 Bonus
+Schadensart: durchbohren
+Gewicht: 2
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 5~
+@1497 = ~Der Sturmrufer ist ein sehr mächtiges Schwert, obwohl es einfach aussieht. Es hat die seltene Fähigkeit, das Wetter zu kontrollieren. Jedes Mal, wenn man im Freien in einen Kampf gerät und dieses Schwert verwendet, beginnt es zu regnen. Es gibt auch eine Chance, dass Blitzstrahlen beginnen, auf den Feinden niederzuschlagen. Beim Kampf im Hause sind die stärksten Fähigkeiten dieser Waffe unwirksam.
+
+EIGENSCHAFTEN:
+
+Chance von 10 %, beim Kampf im Freien Blitze herbeizurufen.
+Wenn man in einen Kampf mit dieser Klinge gerät, wird Regen kommen.
+
+Schaden: 1W6 + 3, +1W4 Elektrizitätsschaden
+ETW0: +3 Bonus
+Schadensart: durchbohren
+Gewicht: 2
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 5~
+@1498 = ~Dies ist die Waffe des Kämpfer-Magiers Xar. Die Legende sagt, dass er eines Tages an die Tore der Stadt Malorchas kam. Er forderte die Stadt auf, ihm Theras Diamanten, einem Schatz von großem Wert, zu geben. Sein Verlangen wurde natürlich abgelehnt, aber das Ergebnis war nicht, was die Stadtleute erwarteten. Im Alleingang zertrümmerte Xar die Stadt und holte den Diamanten. Diejenigen, die überlebten, erzählten Geschichten von schrecklichen Dämonen, die taten, was Xzar befahl. Große Abenteurer machten sich auf die Suche, um ihn zu ermorden, aber sie kehrten nie zurück.
+
+EIGENSCHAFTEN:
+
+Kann Monster herbeirufen III, Tiere beschwören III, Caco-Scheusal und Tor einmal pro Tag wirken
+Schutz vor Bösem
+
+Besonderheit: Wird als +5 Waffe betrachtet
+
+Schaden: 1W12 + 3
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 10
+Initiativefaktor: 7
+Fertigkeit: Zweihändiges Schwert
+Typ: beidhändig
+Mindeststärke: 14~
+@1500 = ~Manfried war ein legendärer Ritter aus dem Orden des Tapferen Herzens. Er war ein mutiger Führer und ritt immer in der vordersten Front in eine Schlacht. Solches Verhalten musste natürlich eines Tages zum Tod führen, und das ist das, was geschah. Dennoch wird sein Name noch von denjenigen verehrt, die sich dem Orden angeschlossen haben.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 + 4
+ETW0: +4 Bonus
+Schadensart: aufschlitzen
+Gewicht: 10
+Initiativefaktor: 6
+Fertigkeit: Zweihänder
+Typ: beidhändig
+Mindeststärke: 14~
+@1502 = ~Das Wakizashi, auch Begleitschwert genannt, ist für einen Samurai von höchster Wichtigkeit. Es wird von ihm ständig getragen, auch wenn er sich in einem Gebäude aufhält. Wenn er schläft, liegt es neben ihm. Wu-Jen-Meister haben dieses Wakizashi mit großer magischer Macht ausgestattet. Die Magie schlummert jedoch in der Waffe und macht sich erst in der Hitze des Gefechts bemerkbar. Wie das Wakizashi den Weg nach Faerûn gefunden hat, ist unbekannt. Der Samurai, dem es gehört, lebt jedoch noch und ist sicherlich auf der Suche nach seiner Klinge.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 + 1
+ETW0: +1 Bonus
+Schadensart: durchbohren
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Typ: 1-händig
+Mindeststärke: 5~
+@1504 = ~Das Wakizashi, auch Begleitschwert genannt, ist für einen Samurai von höchster Wichtigkeit. Es wird von ihm ständig getragen, auch wenn er sich in einem Gebäude aufhält. Wenn er schläft, liegt es neben ihm. Wu-Jen-Meister haben dieses Wakizashi mit großer magischer Macht ausgestattet. Die Magie schlummert jedoch in der Waffe und macht sich erst in der Hitze des Gefechts bemerkbar. Wie das Wakizashi den Weg nach Faerûn gefunden hat, ist unbekannt. Der Samurai, dem es gehört, lebt jedoch noch und ist sicherlich auf der Suche nach seiner Klinge.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 + 3
+ETW0: +3 Bonus
+Schadensart: durchbohren
+Gewicht: 2
+Initiativefaktor: 1
+Fertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Typ: 1-händig
+Mindeststärke: 5~
+@1506 = ~Arbacans Armbrust, oder Armbrust der Elemente. Wenn ein Bolzen abgeschossen wird, fügen die Verzauberungen in der Armbrust ihm einige magische Überraschungen hinzu. Wenn der Bolzen ein Ziel trifft, kommt die Überraschung.
+
+EIGENSCHAFTEN:
+
+ETW0: +3 Bonus
+Schaden: +3 (Fernkampf), +1 Kälte, +1 Feuer, +1 Elektrizität
+Gewicht: 5
+Initiativefaktor: 2
+Fertigkeit: Armbrust
+Typ: beidhändig
+Mindeststärke: 8~
+@1508 = ~Diese Armbrust wurde in den Ruinen von Haraban wiederendeckt. Sie ist sehr schnell zu verwenden, und so wurde sie Tod genannt. Es bringt den Tod so schnell, dass man zehn Goblins niederschießen kann, bevor sie daran denken, etwas zu tun.
+
+EIGENSCHAFTEN:
+
+ETW0: +4 Bonus
+Schaden: +4 (Fernkampf)
+Gewicht: 5
+Initiativefaktor: 1
+Fertigkeit: Armbrust
+Typ: beidhändig
+Mindeststärke: 8~
+@1510 = ~Der Ogergürtel wird gewöhnlich von Oger-Stammesführern getragen. Es ist ein Symbol ihrer Führung und gibt ihnen Mut, Willen und Kraft bei ihren Kämpfen.
+
+EIGENSCHAFTEN:
+
++2 zur Stärke
+Immunität gegen Verwirrung/Rigides Denken/Furcht
+
+Gewicht: 2~
+@1514 = ~Dies ist die Belohnung für den Sieg am zweiten Wettkampftag in der Arena. Eine echte Schönheit für eine Rüstung.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: -2
+Gewicht: 35
+Mindeststärke: 15~
+@1516 = ~Ja, gut, ich machte diese Waffe, damit sie der Spieler verwenden könnte, aber sein Bild ist sehr schlecht, deshalb machte ich sie nicht ablegbar.
+
+EIGENSCHAFTEN:
+
+Kann das Ziel betäuben
+Kann das Ziel blenden
+Kann das Ziel erschrecken
+
+Schaden: 1W6 + 5
+ETW0: +4
+Schadensart: zerschmettern
+Gewicht: 8
+Initiativefaktor: 5
+Fertigkeit: Streitkolben
+Typ: 1-händig
+Mindeststärke: 10~
+@1518 = ~Einst lebte ein junger Mann namens Tapio Perkiomaki in einem kleinen Dorf in der Nähe von Baldurs Tor. Er hatte viele Freunde im Dorf, aber eines Tages entschied er sich dafür, den Ort zu verlassen und nach Baldurs Tor zu ziehen. Er konnte jedoch nicht einfach abreisen, ohne seinen Freunden etwas zu geben, deshalb arbeitete er seit einer Woche an dieser Hellebarde. In der Nacht, als er sie fertig hatte, ließ er sie im Dorfzentrum zurück und schrieb "Mein Vermächtnis" auf den Boden. Dann reiste er ab und niemand sah ihn jemals wieder. Als seine Freunde am Morgen erwachten, fanden sie die Hellebarde und wussten, wer sie gemacht hatte. Seitdem war sie der Stolz dieses kleinen Dorfes, bis sie gestohlen wurde.
+
+EIGENSCHAFTEN:
+
+Widerstand von 100 % gegen Kälte
+
+Schaden: 1W10 + 4
+ETW0: +4 Bonus
+Schadensart: durchbohren
+Gewicht: 12
+Initiativefaktor: 6
+Fertigkeit: Hellebarde
+Typ: beidhändig
+Mindeststärke: 13~
+@1538 = ~Robe der Herren ist mit viel Schutz verzaubert und sie wurde mehrmals mit Gewalt gestohlen. Sie hat keinen Nutzen für einen Dieb, deshalb hat unzählige Male ein böser Magier einen Dieb angestellt, um sie für ihn zu stehlen. Deshalb wurde sie fast nur von denjenigen mit böser Gesinnung verwendet.
+
+EIGENSCHAFTEN:
+
+Widerstand von +25 % gegen Feuer, Kälte, Elektrizität, Gift, Säure
+
++1 zur Rüstungsklasse
++1 auf alle Rettungswürfe
+
+Gewicht: 4~
+@1542 = ~Der Schild des Thor ist eine der Belohnungen in der Arena. Bei näherer Betrachtung könnt Ihr sehen, dass es wirklich der "göttliche Beschützer" ist, der Schild des Thor.
+
+EIGENSCHAFTEN:
+
+Rüstungsklassbonus: 5
+Gewicht: 2
+Mindeststärke: 4~
+@1544 = ~Dies  ist eine der wenigen Rüstungen, die in der zerstörten Stadt Esto gefundenen wurden. Die Seele des voherigen Benutzers war lange Zeit darin gefangen, bis sie durch <CHARNAME> befreit wurde. Die Rüstung fühlt sich nicht mehr lebendig an und spricht sicherlich nicht. Das Gefühl des Bösen darin ist weg, so dass sie jetzt auch von denjenigen guter Gesinnung verwendet werden kann.
+
+EIGENSCHAFTEN:
+
+Immunität gegen Normale Waffen
+
+Rüstungsklasse: -1
+Gewicht: 40
+Mindeststärke: 15~
+@1546 = ~Dies ist eine der wenigen Rüstungen, die in der zerstörten Stadt Esto gefundenen wurde. Die Seele des voherigen Benutzers ist irgendwie darin gefangen, und die Seele leidet jedes Mal, wenn jemand die Rüstung trifft. Wenige haben den Mut, die Rüstung zu tragen, weil sie befürchten, dass ihre Seele auch in ihrem Inneren gefangen sein wird, wenn sie sie benutzen und sterben. Es gibt auch Gerüchte, dass die Seele in der Rüstung mit ihrem Träger spricht. Einige Menschen haben gesagt, dass die Rüstung mit ihnen sprach. Etwas über den Schmerz und "sie".
+Erst kürzlich wurde aufgrund der Taten von <CHARNAME> eine andere Seele darin gefangen. Ein Priester von Waukeen. Die Rüstung erhielt mehr Verzauberungen, kann aber von denjenigen mit neutraler Gesinnung nicht mehr verwendet werden.
+
+EIGENSCHAFTEN:
+
+Immunität gegen normale Ferkampfwaffen und andere Waffen
+
+Rüstungsklasse: 2
+Gewicht: 40
+Mindeststärke: 15~
+@1547 = ~Dies ist eine der wenigen Rüstungen, die in der zerstörten Stadt Esto gefundenen wurde. Die Seele des voherigen Benutzers ist irgendwie darin gefangen, und die Seele leidet jedes Mal, wenn jemand die Rüstung trifft. Wenige haben den Mut, die Rüstung zu tragen, weil sie befürchten, dass ihre Seele auch in ihrem Inneren gefangen sein wird, wenn sie sie benutzen und sterben. Es gibt auch Gerüchte, dass die Seele in der Rüstung mit ihrem Träger spricht. Einige Menschen haben gesagt, dass die Rüstung mit ihnen sprach. Etwas über den Schmerz und "sie".
+
+EIGENSCHAFTEN:
+
+Immunität gegen normale Ferkampfwaffen und andere Waffen
+
+Rüstungsklasse: -1
+Gewicht: 40
+Mindeststärke: 15~
+@1551 = ~Diese Gattung gesichtsfreier Helme, gefertigt aus verstärktem Leder oder Metall, bedeckt den grössten Teil des Kopfs, ausgenommen das Gesicht und der Hals. Diese Helme bieten üblicherweise Schutz für die Nase. Dieser Helm wurde mit einem magischen Edelstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Widerstand von 75 % gegen den Blitze
+Regeneriert 1 Trefferpunkt jede 6. Sekunde
+
+Rüstungsklassenbonus: +2
+
+Besonderheit: Schützt vor Kritischen Treffern
+
+Gewicht: 2~
+@1553 = ~Der Streitkolben ist eine direkte Ableitung der einfachen Keule und besteht lediglich aus einem Holzschaft, auf den ein Stein- oder Eisenkopf aufgesetzt ist. Der Kopf kann entweder mit Spitzen versehen, geflanscht oder aber auch pyramidenförmig ausgearbeitet sein. Dieser Streitkolben wurde mit einem magischen Edelstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Verursacht Elektrizitätsschaden bei einem erfolgreichen Treffer (2W6)
+
+Schaden: 1W6 + 3
+ETW0: +3 Bonus
+Schadensart: zerschmettern
+Gewicht: 8
+Initiativefaktor: 5
+Fertigkeit: Streitkolben
+Typ: 1-händig
+Mindeststärke: 10~
+@1555 = ~Ein kleiner Schild ist in der Regel rund. Man fährt mit dem Unterarm durch den Halteriemen und greift ihn zusätzlich mit der Schildhand. Verglichen mit dem mittleren Schild ist er so leicht, dass man noch einen weiteren Gegenstand tragen kann. Allerdings kann mit der Schildhand keine Waffe mehr geführt werden. Dieser Schild wurde mit einem magischen Edelstein verzaubert.
+
+EIGENSCHAFTEN:
+
+Widerstand von 100 % gegen den Blitz
+
+Rüstungsklassbonus: 3
+Gewicht: 3
+Mindeststärke: 4~
+@1569 = ~Dies ist das Symbol der Familie Talavans. Es war über zweihundert Jahren ihren Händen. Ursprünglich wurde es in einem zerstörten Schloss gefunden. Keiner kennt seine frühereGeschichte.
+
+EIGENSCHAFTEN:
+
+Rüstungsklassbonus: +1
+
+Besonderheit: Schützt Gegen Kritische Treffer
+Erhöht den Magiewiderstand um +5 %
+
+Gewicht: 2~
+@1571 = ~Dies ist die persönliche Waffe des Anführers Olmar.
+
+EIGENSCHAFTEN:
+
+Der Träger unterliegt der Hast
+
+Schaden: 1W6 + 4
+ETW0: +4 Bonus
+Schadensart: durchbohren
+Initiativefaktor: 1
+Gewicht: 2
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+Mindeststärke: 5~
+@1575 = ~Vor Jahrhunderten fing ein starker Zauberer einen Blitz in diesen Stab. Mit der Macht des Blitzs war der Zauberer im Stande, dem Stab viele magische Fähigkeiten zu verleihen, alle haben irgendwie mit Elektrizität zu tun.
+
+EIGENSCHAFTEN:
+
+Chance von 20 %, Kettenblitze auf das Ziel zu werfen
+
+Schaden: 1W6 + 3, +5 Elektrizitätsschaden
+ETW0: +3 Bonus
+Schadensart: zerschmettern
+Gewicht: 4
+Initiativefaktor: 2
+Fertigkeit: Kampfstab
+Typ: beidhändig
+Mindeststärke: 5~
+@1580 = ~Die Tuigans sind Nomaden, die weit über die Steppengebiete von Faerûn verstreut sind, aber durch einen gemeinsamen Stammbaum verbunden sind. Die Bögen, die sie herstellen, sind besonders für ihre beweglichen Krieger zugeschnitten und das verwendete Fertigungsverfahren wird sorgfältig gehütet, aber das Ergebnis ist weithin bekannt: jeder Bogen der Tuigan kann schneller abgeschossen werden, als es mit einem normalen möglich ist.
+
+EIGENSCHAFTEN:
+
+3 Schüsse pro Runde
+
+ETW0: +4 Bonus
+Schaden: +4
+Gewicht: 2
+Initiativefaktor: 2
+Fertigkeit: Kurzbogen
+Typ: beidhändig
+Mindeststärke: 6~
+@1582 = ~Beim Zweihänder handelt es sich um eine Weiterentwicklung des Langschwertes. Waffenschmiede sind seit jeher daran interessiert, bereits existierende Waffen noch zu verbessern, was beim Langschwert dazu führte, dass die Klinge verlängert wurde. Schließlich musste auch der Griff verlängert werden und man brauchte nun beide Hände, um das Schwert richtig zu schwingen. Der Zweihänder dient hauptsächlich dazu, berittene Krieger schwer zu verletzen und die Stoßformation eines Heeres aufzubrechen. Dafür eignet sich dieses Schwert besonders gut, da es verzaubert wurde und nun einige magische Eigenschaften aufweist.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 + 3
+ETW0: +3 Bonus
+Schadensart: aufschlitzen
+Gewicht: 12
+Initiativefaktor: 6
+Fertigkeit: Zweihänder
+Typ: beidhändig
+Mindeststärke: 14~
+@1586 = ~Robe des Ultima-Meisters. Es ist bekannt, dass diese Robe aus Bärenfell gemacht wurde und dass sie elementaren Schutz gibt.
+
+EIGENSCHAFTEN:
+
+Widerstand von +50 % gegen Feuer, Kälte, Blitz und Säure~
+@1588 = ~Dieser Kampfstab wurde aus reiner Magie gemacht. Er glüht grün in den Händen der Auserwählten.
+
+EIGENSCHAFTEN:
+
++2 Intelligenzbonus
+Handlungsfreiheit
++2 Bonus zur Rüstungsklasse
+Chance von 5 %, Ultima zu wirken, wenn er das Ziel trifft
+
+Schaden: 1W6 + 4
+ETW0: +4 Bonus
+Schadensart: zerschmettern
+Gewicht: 4
+Initiativefaktor: 2
+Fertigkeit: Kampfstab
+Typ: beidhändig
+Mindeststärke: 5~
+
+//***********************************************************************************************
+// KITS
+//***********************************************************************************************
+
+@1636 = ~Die Lanzenträger sind auf Speere und Kampfstäbe spezialisiert. Sie können sie auch herstellen. Dieser Speer wurde von einem Lanzenträger geringster Stufe gefertigt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 + 1
+ETW0: +1 Bonus
+Schadensart: durchbohren
+Gewicht: 5
+Initiativefaktor: 5
+Fertigkeit: Speer
+Typ: beidhändig
+Mindeststärke: 5~
+@1638 = ~Die Lanzenträger sind auf Speere und Kampfstäbe spezialisiert. Sie können sie auch herstellen. Dieser Speer wurde von einem Lanzenträger geringer Stufe gefertigt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 + 2
+ETW0: +2 Bonus
+Schadensart: durchbohren
+Gewicht: 5
+Initiativefaktor: 5
+Fertigkeit: Speer
+Typ: beidhändig
+Mindeststärke: 5~
+@1640 = ~Die Lanzenträger sind auf Speere und Kampfstäbe spezialisiert. Sie können sie auch herstellen. Dieser Speer wurde von einem Lanzenträger mittlerer Stufe gefertigt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 + 3
+ETW0: +3 Bonus
+Schadensart: durchbohren
+Gewicht: 5
+Initiativefaktor: 5
+Fertigkeit: Speer
+Typ: beidhändig
+Mindeststärke: 5~
+@1642 = ~Die Lanzenträger sind auf Speere und Kampfstäbe spezialisiert. Sie können sie auch herstellen. Dieser Speer wurde von einem Lanzenträger hoher Stufe gefertigt.
+
+EIGENSCHAFTEN:
+
++20 % zum Magiewiderstand
++2 zur ARüstungsklasse Klasse
+
+Schaden: 1W6 + 4
+ETW0: +4 Bonus
+Schadensart: durchbohren
+Gewicht: 5
+Initiativefaktor: 5
+Fertigkeit: Speer
+Typ: beidhändig
+Mindeststärke: 5~
+@1644 = ~Die Lanzenträger sind auf Speere und Kampfstäbe spezialisiert. Sie können sie auch herstellen. Dieser Speer wurde von einem Lanzenträger sehr hoher Stufe gefertigt.
+
+EIGENSCHAFTEN:
+
++30 % zum Magiewiderstand
++2 zur Rüstungsklasse
++2 auf alle Rettungswürfe
+
+Schaden: 1W6 + 5
+ETW0: +5 Bonus
+Schadensart: durchbohren
+Gewicht: 5
+Initiative: 5
+Fertigkeit: Speer
+Typ: beidhändig
+Mindeststärke: 5~
+@1646 = ~Die Lanzenträger sind auf Speere und Kampfstäbe spezialisiert. Sie können sie auch herstellen. Dieser Speer wurde von einem Meister der Lanzenträger gefertigt.
+
+EIGENSCHAFTEN:
+
++40 % zum Magiewiderstand
++2 zur Rüstungsklasse
++2 auf alle Rettungswürfe
+
+Schaden: 1W6 + 6, +3 Feuer, Eis und Blitz-Schaden
+ETW0: +6 Bonus
+Schadensart: durchbohren
+Gewicht: 5
+Initiativefaktor: 5
+Fertigkeit: Speer
+Typ: beidhändig
+Mindeststärke: 5~
+@1698 = ~Wenn sie gespielt wird, jagt das Lied dieser Harfe allen feindlichen Wesen in der Nähe Angst ein. Diese Art von Harfen wird üblicherweise von Harfnern hergestellt.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+
+Schrecken dreimal pro Tag, dauert 30 Sekunden.~
+@1700 = ~Wenn sie gespielt wird, vergrößert das Lied dieser Harfe die Kampffähigkeiten aller Verbündeten. Diese Art von Harfen wird üblicherweise von Harfnern hergestellt.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+
++2 zum ETW0 und Schaden aller Verbündeten dreimal pro Tag für 30 Sekunden.~
+@1702 = ~Wenn sie gespielt wird, vergrößert das Lied dieser Harfe die Verteidigsfähigkeiten aller Verbündeten. Diese Art von Harfen wird üblicherweise von Harfnern hergestellt.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+
++3 zu Rüstungsklassen und Rettungswürfen aller Verbündeten dreimal pro Tag für 30 Sekunden.~
+@1704 = ~Wenn sie gespielt wird, führt diese Harfe einen nichtelementaren physischen Angriff gegen ein Ziel aus. Diese Art von Harfen wird üblicherweise von Harfnern hergestellt.
+
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+
+Zerschmetternder Angriff gegen ein Ziel dreimal pro Tag, kein Rettungswurf~
+@1706 = ~Wenn sie gespielt wird, veranlasst diese Harfe einen Eurer Feinde, für kurze Zeit auf Eurer Seite zu kämpfen. Diese Art von Harfen wird üblicherweise von Harfnern hergestellt.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+
+Beherrscht einen Feind dreimal pro Tag, dauert 30 Sekunden~
