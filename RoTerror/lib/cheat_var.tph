@@ -1,0 +1,31 @@
+ACTION_IF FILE_EXISTS_IN_GAME ~bgee.lua~ BEGIN
+	COPY_EXISTING ~bgee.lua~ ~override/bgee.lua~
+	REPLACE_TEXTUALLY
+~{"BD0010", "Test"},~
+~--RoTerror Areas
+	{"RR3100", "Arlax"},
+	{"RR3200", "Monzuma's Cave"},
+	{"RR3300", "Westchar"},
+	{"RR3400", "Olmar´s Castle"},
+	{"RR3450", "Talavan's Castle"},
+	{"RR3900", "Maribur"},
+	{"RR3950", "Mysterious Cave"},
+	{"RA4200", "Forest"},
+	{"RA4300", "The Arena"},
+	{"RA4500", "Farms"},
+	{"RA4700", "Gaidan's Castle"},
+	{"RA4900", "Cave"},
+	{"RA5700", "Razor´s Hideout"},
+	{"RR0044", "Slave Route"},
+	{"RA5100", "Bremen"},
+	{"RA5400", "The Waypoint"},
+	{"RA5401", "Mountain Reaches"},
+	{"RA5600", "Hermit's Outpost"},
+	{"RA5601", "Ice Temple"},
+	{"RA5412", "Aerie of Dragons"},
+	{"RA5416", "Maze"},
+	
+	{"BD0010", "Test"},
+~
+
+END
