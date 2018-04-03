@@ -1549,7 +1549,7 @@ ACTION_IF GAME_IS ~bg2ee~ BEGIN
 END
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	COPY ~RoTerror/missing/BG0108.MOS~ ~override~
-		 ~RoTerror/missing/BG0108.TIZ~ ~override~
+		 ~RoTerror/missing/BG0108.TIS~ ~override~
 		 ~RoTerror/missing/BG0108.WED~ ~override~
 	COPY ~RoTerror/missing/B010800.PVRZ~ ~RoTerror\Pvrz~
 		 ~RoTerror/missing/B010850.PVRZ~ ~RoTerror\Pvrz~
