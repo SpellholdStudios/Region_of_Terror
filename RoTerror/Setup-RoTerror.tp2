@@ -62,6 +62,7 @@ ALWAYS
 				noconvert_array = charsetsNoConvertArray
 			END
 		END
+		COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/fl#utf8_worldmap.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
 		LOAD_TRA ~RoTerror/language/%LANGUAGE%/setup-ee.tra~
 	END
 	INCLUDE ~RoTerror/lib/a7_tools.tpa~
@@ -275,7 +276,9 @@ RA5412  value
 RA5600  value
 RA5601  value
 RA5610  value
-RA5700  value~
+RA5700  value
+RA5412  value
+RA5416	value~
 
 APPEND ~PDIALOG.2DA~
 ~Wulfg2       Wulfg2P            Wulfg2J           ***           Wulfg2P            Wulfg2J         ***           ***
@@ -660,7 +663,7 @@ PRINT @925
 COPY ~RoTerror/SPL/nostring~  ~%ROT-SPL%~
 
 
-ACTION_IF NOT FILE_EXISTS ~ctb.mrk~ AND NOT FILE_EXISTS ~data/CTB-RULE.BIF~     //CTB compatibility
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~ctb.mrk~ AND NOT FILE_EXISTS ~data/CTB-RULE.BIF~     //CTB compatibility
 THEN BEGIN
   COPY ~RoTerror/Compat/CtB/SPWI140.SPL~ ~%ROT-SPL%~
     SAY NAME1  @926
@@ -670,7 +673,7 @@ THEN BEGIN
 END
 
 
-ACTION_IF NOT FILE_EXISTS ~tdd.mrk~ AND NOT FILE_EXISTS ~data/TDD-RULE.BIF~    //TDD compatibility
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~tdd.mrk~ AND NOT FILE_EXISTS ~data/TDD-RULE.BIF~    //TDD compatibility
 THEN BEGIN
   COPY ~RoTerror/Compat/TDD/SPWI733.spl~          ~%ROT-SPL%~
     SAY NAME1 @928
@@ -1014,7 +1017,7 @@ END
 //***********************************************************************************
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 	ACTION_IF (NOT FILE_EXISTS ~data/SOS-RULE.BIF~) AND
-			(NOT FILE_EXISTS ~sos.mrk~) AND
+			(NOT FILE_EXISTS_IN_GAME ~sos.mrk~) AND
 			(NOT FILE_EXISTS_IN_GAME ~TT0025.ARE~) THEN BEGIN  // YETI animation - SOS and NeJ
 	COPY ~RoTerror/anim/Yeti~ ~override~
 	END
@@ -1111,7 +1114,7 @@ BUT_ONLY_IF_IT_CHANGES
 //***********************************************************************************
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 	ACTION_IF (NOT FILE_EXISTS ~data/CtB-RULE.BIF~) AND 
-			  (NOT FILE_EXISTS ~ctb.mrk~)	THEN BEGIN  // Virgin/Red Harpy animation
+			  (NOT FILE_EXISTS_IN_GAME ~ctb.mrk~)	THEN BEGIN  // Virgin/Red Harpy animation
 	COPY ~RoTerror/anim/Virgin~ ~override~
 	END
 	COPY_EXISTING ~MALAR1.CRE~   ~override~
@@ -1281,13 +1284,13 @@ ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
 
   COPY ~Worldmap/map_mods_links.tbl~  ~Worldmap~
    APPEND_FILE ~RoTerror/Worldmap/links.tbl~
-   PATCH_IF (FILE_EXISTS ~sos.mrk~)  OR (FILE_EXISTS ~data/SOS-RULE.BIF~)BEGIN
-     APPEND_FILE ~RoTerror/Worldmap/sos_links.tbl~
-   END                              
-   PATCH_IF (FILE_EXISTS ~ctb.mrk~)  OR (FILE_EXISTS ~data/CTB-RULE.BIF~)BEGIN
-     APPEND_FILE ~RoTerror/Worldmap/ctb_links.tbl~
-   END                              
-   PATCH_IF (FILE_EXISTS ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~)BEGIN
+   PATCH_IF (FILE_EXISTS_IN_GAME ~sos.mrk~)  OR (FILE_EXISTS ~data/SOS-RULE.BIF~) BEGIN
+     APPEND_FILE ~RoTerror/Worldmap/sos_links.tbl~                        
+   END                                                                    
+   PATCH_IF (FILE_EXISTS_IN_GAME ~ctb.mrk~)  OR (FILE_EXISTS ~data/CTB-RULE.BIF~) BEGIN
+     APPEND_FILE ~RoTerror/Worldmap/ctb_links.tbl~                        
+   END                                                                    
+   PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) BEGIN
      APPEND_FILE ~RoTerror/Worldmap/tdd_links.tbl~
    END
 
@@ -1303,8 +1306,6 @@ ELSE BEGIN
   COPY ~RoTerror/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
 END
 
-
-
 ACTION_IF GAME_IS ~eet~ BEGIN
 	INCLUDE ~%MOD_FOLDER%/lib/add_worldmap_tbl.tpa~
 	LAF ADD_WORLDMAP_TBL
@@ -1313,10 +1314,11 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 		inclSv = 0
 		STR_VAR
 		path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/eet/areas.tbl~
-		path_to_areas_bp = EVAL ~%MOD_FOLDER%/Worldmap/areas.tbl~
+//		path_to_areas_bp = EVAL ~%MOD_FOLDER%/Worldmap/areas.tbl~
 		path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/eet/links.tbl~
 		path_to_trans = EVAL ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
 	END
+	//INCLUDE ~%MOD_FOLDER%/lib/PatchingAreas.tpa~
 END
 
 //////////////////////////////
@@ -1612,6 +1614,11 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 END
 
 //////////////////////////////
+// bgee.lua cheat table
+//////////////////////////////
+INCLUDE ~%MOD_FOLDER%/lib/cheat_var.tph~
+
+//////////////////////////////
 // fixing missing ambiant in RA3706.ARE and RR3104.ARE
 //////////////////////////////
 //SoA bif is corrupt, both files are now in ogg2
@@ -1644,7 +1651,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 	SAY @1714
 	SAY @1715
 	
-	INCLUDE ~SOS/lib/fl#add_kit_ee.tpa~
+	INCLUDE ~RoTerror/lib/fl#add_kit_ee.tpa~
 	LAF fl#add_kit_ee
 	INT_VAR
 		briefdesc = RESOLVE_STR_REF (@1715)
