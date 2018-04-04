@@ -17,7 +17,7 @@ RA4900      RA4900   RA4900     4      14       1340    1150   @ROT_785012  @ROT
 RA5700      RA5700   RA5700     4      38       1510     780   @ROT_785013  @ROT_785113  N        //Razor´s Hideout
 RR0044      RR0044   RR0044     4     130       1270    1070   @ROT_785014  @ROT_785114  N        //Slave Route
 
-RA5100      RA5100   RA5100     4      25        850    550    @ROT_785015  N            N        //Bremen
+RA5100      RA5100   RA5100     2      25        850    550    @ROT_785015  N            N        //Bremen
 RA5400      RA5400   RA5400     2      47        775    475    @ROT_785016  N            N        //The Waypoint
 RA5401      RA5401   RA5401     2      64        805    375    @ROT_785017  N            N        //Mountain Reaches
 RA5600      RA5600   RA5600     2      63        600    425    @ROT_785018  N            N        //Hermit's Outpost

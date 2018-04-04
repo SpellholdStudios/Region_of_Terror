@@ -1307,6 +1307,17 @@ ELSE BEGIN
 END
 
 ACTION_IF GAME_IS ~eet~ BEGIN
+	COPY ~%MOD_FOLDER%/Worldmap/eet/links.tbl~  ~Worldmap/eet~
+		PATCH_IF (FILE_EXISTS_IN_GAME ~sos.mrk~)  OR (FILE_EXISTS ~data/SOS-RULE.BIF~) BEGIN
+			APPEND_FILE ~RoTerror/Worldmap/eet/sos_links.tbl~                        
+		END                                                                    
+		PATCH_IF (FILE_EXISTS_IN_GAME ~ctb.mrk~)  OR (FILE_EXISTS ~data/CTB-RULE.BIF~) BEGIN
+			APPEND_FILE ~RoTerror/Worldmap/eet/ctb_links.tbl~                        
+		END                                                                    
+		PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) BEGIN
+			APPEND_FILE ~RoTerror/Worldmap/eet/tdd_links.tbl~
+		END
+
 	INCLUDE ~%MOD_FOLDER%/lib/add_worldmap_tbl.tpa~
 	LAF ADD_WORLDMAP_TBL
 		INT_VAR
@@ -1318,7 +1329,7 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 		path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/eet/links.tbl~
 		path_to_trans = EVAL ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
 	END
-	//INCLUDE ~%MOD_FOLDER%/lib/PatchingAreas.tpa~
+	INCLUDE ~%MOD_FOLDER%/worldmap/eet/PatchingAreas.tpa~
 END
 
 //////////////////////////////
