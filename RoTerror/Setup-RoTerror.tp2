@@ -536,6 +536,12 @@ COPY ~RoTerror/are/string/rr4002.are~    ~%ROT-ARE%~
   SAY 0x5ec @110
   SAY 0x6b0 @111
 
+// Files  
+COPY ~RoTerror\WED~ ~override~
+COPY ~RoTerror\BAM~ ~%ROT-BAM%~
+COPY ~RoTerror\SFX~ ~override~
+COPY ~RoTerror\BMP~ ~override~
+
 
 //***********************************************************************************
 // Dialogues
@@ -944,44 +950,55 @@ PRINT @1608
 
 
 //***********************************************************************************
-ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
-	ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ THEN BEGIN  // CYCLOP animation
-		COPY ~RoTerror/anim/Cyclop~ ~override~
+// CYCLOP animation
+//***********************************************************************************
+ACTION_FOR_EACH var IN 2da wav bam BEGIN
+	ACTION_BASH_FOR ~RoTerror/anim/Cyclop~ ~^.+\.%var%$~ BEGIN
+		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override~
+		END
 	END
 END
 
+
 COPY_EXISTING ~CYCLEAD.CRE~  ~override~
-              ~CYCLOP.CRE~   ~override~
-              ~CYCLOP2.CRE~  ~override~
-              ~CYCLOP3.CRE~  ~override~
-              ~CYCLOP4.CRE~  ~override~
- WRITE_LONG 0x28 0xE000   //IC_CYCLOP        0xE000 CYCLOPS with EE
+			~CYCLOP.CRE~   ~override~
+			~CYCLOP2.CRE~  ~override~
+			~CYCLOP3.CRE~  ~override~
+			~CYCLOP4.CRE~  ~override~
+WRITE_LONG 0x28 0xE000   //IC_CYCLOP        0xE000 CYCLOPS with EE
 BUT_ONLY_IF_IT_CHANGES
 
-
+//***********************************************************************************
+// MERILITH animation
 //***********************************************************************************
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
-	ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ THEN BEGIN  // MERILITH animation
-		COPY ~RoTerror/anim/Merilith~ ~override~
+	ACTION_FOR_EACH var IN wav 2da bam BEGIN
+		ACTION_BASH_FOR ~RoTerror/anim/Merilith~ ~^.+\.%var%$~ BEGIN
+			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override~
+			END
+		END
 	END
-	ELSE BEGIN
-		COPY ~RoTerror/anim/Merilith/MTAN.2da~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN01.wav~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN02.wav~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN03A.wav~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN03B.wav~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN04A.wav~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN04B.wav~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN05A.wav~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN05B.wav~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN07.wav~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN08.wav~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN09A.wav~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN09B.wav~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN11A.wav~ ~override~
-		COPY ~RoTerror/anim/Merilith/IWTAN11B.wav~ ~override~
-		//BAMs are already there with TDD
+END
+
+ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
+	ACTION_BASH_FOR ~RoTerror/anim/Merilith~ ~^.+\.bam$~ BEGIN
+		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override~
+		END
 	END
+	ACTION_BASH_FOR ~RoTerror/anim/Merilith~ ~^.+\.wav$~ BEGIN
+		OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
+			REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~IWTAN~ ~TANAR~
+		END
+		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
+		END
+	END
+/*	COPY_EXISTING ~override/MTAN.2da~ ~override~ BEGIN
+		REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~IWTAN~ ~TANAR~
+	END*/
 END
 
 COPY_EXISTING ~ASHAM.CRE~    ~override~
@@ -993,21 +1010,45 @@ COPY_EXISTING ~ASHAM.CRE~    ~override~
               ~HELDEM1.CRE~  ~override~
               ~HELDEM2.CRE~  ~override~
               ~MARIL.CRE~    ~override~
- WRITE_LONG 0x28 0xE090   //IC_MERILITH      0xE090 MARILITH with EE
+ WRITE_LONG 0x28 0xE090   //IC_MERILITH      0xE090 MERILITH with EE
 BUT_ONLY_IF_IT_CHANGES
 
 
 //***********************************************************************************
+//BELHIFET animation
+//***********************************************************************************
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
-	ACTION_IF NOT FILE_EXISTS ~data/TS-RULE.BIF~ THEN BEGIN   // BELHIFET animation
-	COPY ~RoTerror/anim/Belhifet~ ~override~
+	ACTION_IF (NOT FILE_EXISTS ~data/TS-RULE.BIF~) BEGIN
+		ACTION_FOR_EACH var IN 2da wav bam BEGIN
+			ACTION_BASH_FOR ~RoTerror/anim/Belhifet~ ~^.+\.%var%$~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override~
+			END
+		END
 	END
+	
 	COPY_EXISTING ~GREAN.CRE~   ~override~
-	WRITE_LONG 0x28 0xE0D0   //IC_UMBERHULK
+		WRITE_LONG 0x28 0xE0D0   //instead of IC_UMBERHULK
 	BUT_ONLY_IF_IT_CHANGES
 END
 
 ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
+	ACTION_FOR_EACH var IN bam BEGIN
+		ACTION_BASH_FOR ~RoTerror/anim/Belhifet~ ~^.+\.%var%$~ BEGIN
+			OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
+				REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MUMB~ ~MBE1~
+			END
+			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
+			END
+		END
+	END
+	ACTION_FOR_EACH var IN wav ini BEGIN
+		ACTION_BASH_FOR ~RoTerror/anim/Belhifet~ ~^.+\.%var%$~ BEGIN
+			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override~
+			END
+		END
+	END
 	COPY_EXISTING ~GREAN.CRE~   ~override~
 		WRITE_LONG 0x28 0xE256   //IC_UMBERHULK     0xE256 SOD_TMP01 with EE	0xe256 IC_BELHIFET with EXTENDED ANIMATION
 	BUT_ONLY_IF_IT_CHANGES
@@ -1015,33 +1056,68 @@ END
 
 
 //***********************************************************************************
+// YETI animation
+//***********************************************************************************
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
-	ACTION_IF (NOT FILE_EXISTS ~data/SOS-RULE.BIF~) AND
-			(NOT FILE_EXISTS_IN_GAME ~sos.mrk~) AND
-			(NOT FILE_EXISTS_IN_GAME ~TT0025.ARE~) THEN BEGIN  // YETI animation - SOS and NeJ
-	COPY ~RoTerror/anim/Yeti~ ~override~
+	ACTION_IF (NOT FILE_EXISTS ~data/SOS-RULE.BIF~) AND	(NOT FILE_EXISTS_IN_GAME ~sos.mrk~) AND	(NOT FILE_EXISTS_IN_GAME ~TT0025.ARE~) BEGIN
+		ACTION_FOR_EACH var IN 2da bam BEGIN
+			ACTION_BASH_FOR ~RoTerror/anim/Yeti~ ~^.+\.%var%$~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override~
+			END
+		END
+	END
+	ACTION_BASH_FOR ~RoTerror/anim/Yeti~ ~^.+\.ogg$~ BEGIN
+		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~RoTerror/ogg2~
+		END
 	END
 	COPY_EXISTING ~YETI1.CRE~    ~override~
-				  ~YETI2.CRE~    ~override~
-				  ~YETI3.CRE~    ~override~
-	WRITE_LONG 0x28 0xE060   //IC_LICH
+              ~YETI2.CRE~    ~override~
+              ~YETI3.CRE~    ~override~
+		WRITE_LONG 0x28 0xE060   //IC_LICH
 	BUT_ONLY_IF_IT_CHANGES
 END
 
 ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
+	ACTION_FOR_EACH var IN bam BEGIN
+		ACTION_BASH_FOR ~RoTerror/anim/Yeti~ ~^.+\.%var%$~ BEGIN
+			OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
+				REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MLIC~ ~MYET~
+			END
+			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
+			END
+		END
+	END
+	ACTION_BASH_FOR ~RoTerror/anim/Yeti~ ~^.+\.ogg$~ BEGIN
+		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~RoTerror/ogg2~
+		END
+	END
 	COPY_EXISTING ~YETI1.CRE~    ~override~
 				  ~YETI2.CRE~    ~override~
 				  ~YETI3.CRE~    ~override~
-	WRITE_LONG 0x28 0xE25D   //IC_LICH          0xE25D TUNDRA_YETI with EE    0xe25D IC_TUNDRA_YETI with EXTENDED ANIMATION
+		WRITE_LONG 0x28 0xE25D   //IC_LICH          0xE25D TUNDRA_YETI with EE    0xe25D IC_TUNDRA_YETI with EXTENDED ANIMATION
 	BUT_ONLY_IF_IT_CHANGES
 END
 
-
 //***********************************************************************************
+// FROST GIANT animation
+//***********************************************************************************
+ACTION_BASH_FOR ~RoTerror/anim/FrostG~ ~^.+\.ogg$~ BEGIN
+	ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_RES%.wav~ BEGIN
+		COPY ~%BASH_FOR_FILESPEC%~ ~RoTerror/ogg2~
+	END
+END
+
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
-	ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ THEN BEGIN  // FROST GIANT animation
-	COPY ~RoTerror/anim/FrostG~ ~override~
-	
+	ACTION_IF NOT FILE_EXISTS ~data/TDD-RULE.BIF~ AND NOT FILE_EXISTS_IN_GAME ~tdd.mrk~ BEGIN
+		ACTION_FOR_EACH var IN 2da bam BEGIN
+			ACTION_BASH_FOR ~RoTerror/anim/FrostG~ ~^.+\.%var%$~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override~
+			END
+		END
+	END
 	COPY_EXISTING ~ORC06.cre~          ~override~    //ToB creatures, ORC06 - NeJ as well
 					~HLOLAF.cre~         ~override~
 					~CHAK.cre~           ~override~
@@ -1050,12 +1126,11 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 	BUT_ONLY_IF_IT_CHANGES
 	
 	ACTION_IF (FILE_EXISTS_IN_GAME ~ULIGAR.CRE~) THEN BEGIN
-	COPY_EXISTING ~ULIGAR.CRE~        ~override~    //NeJ2
-		WRITE_LONG 0x28  0xE700   //IC_OROG1 instead of IC_OROG2
-	BUT_ONLY_IF_IT_CHANGES
+		COPY_EXISTING ~ULIGAR.CRE~        ~override~    //NeJ2
+			WRITE_LONG 0x28  0xE700   //IC_OROG1 instead of IC_OROG2
+		BUT_ONLY_IF_IT_CHANGES
 	END
 	
-	END
 	COPY_EXISTING ~BREFR1.CRE~    ~override~
 				~BREFR2.CRE~    ~override~
 				~FROSTGG.CRE~   ~override~
@@ -1065,25 +1140,28 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 				~FROSTGI4.CRE~  ~override~
 				~FROSTHAM.CRE~  ~override~
 				~ICEBEARD.CRE~  ~override~
-	WRITE_LONG 0x28 0xE710   //IC_OROG2
+		WRITE_LONG 0x28 0xE710   //IC_OROG2
 	BUT_ONLY_IF_IT_CHANGES
 END
 
 ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
-	COPY_EXISTING ~ORC06.cre~          ~override~    //ToB creatures, ORC06 
-				~HLOLAF.cre~         ~override~
-				~CHAK.cre~           ~override~
-				~AR18FIG.cre~        ~override~
-	WRITE_LONG 0x28  0xE710   //IC_OROG1 instead of IC_OROG2     0xE710 OROG_ELITE with EE  -  0xE710 IC_OROG2 with EXTENDED ANIMATION
-	BUT_ONLY_IF_IT_CHANGES
-	
-	
-	ACTION_IF (FILE_EXISTS_IN_GAME ~ULIGAR.CRE~) THEN BEGIN
-	COPY_EXISTING ~ULIGAR.CRE~        ~override~   
-	WRITE_LONG 0x28  0xE710   //IC_OROG1 instead of IC_OROG2     0xE710 OROG_ELITE with EE  -  0xE710 IC_OROG2 with EXTENDED ANIMATION
-	BUT_ONLY_IF_IT_CHANGES
+	ACTION_FOR_EACH var IN bam BEGIN
+		ACTION_BASH_FOR ~RoTerror/anim/FrostG~ ~^.+\.%var%$~ BEGIN
+			OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
+				REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MNO2~ ~MGFR~
+			END
+			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
+			END
+		END
 	END
-	
+
+	ACTION_IF (FILE_EXISTS_IN_GAME ~ULIGAR.CRE~) THEN BEGIN
+		COPY_EXISTING ~ULIGAR.CRE~        ~override~   
+			WRITE_LONG 0x28  0xE710   //IC_OROG1 instead of IC_OROG2     0xE710 OROG_ELITE with EE  -  0xE710 IC_OROG2 with EXTENDED ANIMATION
+		BUT_ONLY_IF_IT_CHANGES
+	END
+
 	
 	COPY_EXISTING ~BREFR1.CRE~    ~override~
 				~BREFR2.CRE~    ~override~
@@ -1094,12 +1172,13 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
 				~FROSTGI4.CRE~  ~override~
 				~FROSTHAM.CRE~  ~override~
 				~ICEBEARD.CRE~  ~override~
-	WRITE_LONG 0x28 0xE24F   //IC_OROG2     0xE24F GIANT_FROST with EE  -  0xe24F IC_GIANT_FROST with EXTENDED ANIMATION
+		WRITE_LONG 0x28 0xE24F   //IC_OROG2     0xE24F GIANT_FROST with EE  -  0xe24F IC_GIANT_FROST with EXTENDED ANIMATION
 	BUT_ONLY_IF_IT_CHANGES
 END
 
 //***********************************************************************************
 // FIRE GIANT animation - use existing ToB animation
+//***********************************************************************************
 COPY_EXISTING ~CULTMO9.cre~     ~override~
               ~GGIANTF1.cre~    ~override~
               ~GGIANTF2.cre~    ~override~
@@ -1112,10 +1191,16 @@ BUT_ONLY_IF_IT_CHANGES
 
 
 //***********************************************************************************
+// Virgin/Red Harpy animation
+//***********************************************************************************
+
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
-	ACTION_IF (NOT FILE_EXISTS ~data/CtB-RULE.BIF~) AND 
-			  (NOT FILE_EXISTS_IN_GAME ~ctb.mrk~)	THEN BEGIN  // Virgin/Red Harpy animation
-	COPY ~RoTerror/anim/Virgin~ ~override~
+	ACTION_IF (NOT FILE_EXISTS ~data/CtB-RULE.BIF~) AND (NOT FILE_EXISTS_IN_GAME ~ctb.mrk~)	BEGIN
+		ACTION_FOR_EACH var IN 2da bam wav BEGIN
+			ACTION_BASH_FOR ~RoTerror/anim/Virgin~ ~^.+\.%var%$~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override~
+			END
+		END
 	END
 	COPY_EXISTING ~MALAR1.CRE~   ~override~
 				~MALAR2.CRE~   ~override~
@@ -1140,6 +1225,22 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 END
 
 ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
+	ACTION_FOR_EACH var IN bam BEGIN
+		ACTION_BASH_FOR ~RoTerror/anim/Virgin~ ~^.+\.%var%$~ BEGIN
+			OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
+				REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MTIC~ ~MHAR~
+			END
+			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
+			END
+		END
+	END
+	ACTION_BASH_FOR ~RoTerror/anim/Virgin/MHAR~ ~^.+\.wav$~ BEGIN
+		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override~
+		END
+	END
+	
 	COPY_EXISTING ~MALAR1.CRE~   ~override~
 				~MALAR2.CRE~   ~override~
 				~MALAR3.CRE~   ~override~
@@ -1164,7 +1265,13 @@ END
 
 //***********************************************************************************
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
-	COPY ~RoTerror/anim/Samurai~ ~override~
+	ACTION_FOR_EACH var IN 2da bam wav BEGIN
+		ACTION_BASH_FOR ~RoTerror/anim/Samurai~ ~^.+\.%var%$~ BEGIN
+			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override~
+			END
+		END
+	END
 	
 	COPY_EXISTING ~CHXZAR.CRE~    ~override~
 				~SHDWSAM1.CRE~  ~override~
@@ -1182,6 +1289,22 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 END
 
 ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
+	ACTION_FOR_EACH var IN wav ini BEGIN
+		ACTION_BASH_FOR ~RoTerror/anim/Samurai/MISA~ ~^.+\.%var%$~ BEGIN
+			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override~
+			END
+		END
+	END
+	ACTION_BASH_FOR ~RoTerror/anim/Samurai~ ~^.+\.bam$~ BEGIN
+		OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
+			REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MZO2~ ~MISA~
+		END
+		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
+		END
+	END
+
 	COPY_EXISTING ~CHXZAR.CRE~    ~override~
 				~SHDWSAM1.CRE~  ~override~
 				~SHDWSAM2.CRE~  ~override~
@@ -1199,8 +1322,13 @@ END
 
 //***********************************************************************************
 // WHITE ABISHAI animation - NEW
+//***********************************************************************************
 ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
-	COPY ~RoTerror/anim/Abishai~ ~override~
+	ACTION_FOR_EACH var IN 2da bam wav BEGIN
+		ACTION_BASH_FOR ~RoTerror/anim/Abishai~ ~^.+\.%var%$~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override~
+		END
+	END
 	
 	COPY_EXISTING ~ABISHAI1.CRE~  ~override~
 				~GODABIS1.CRE~  ~override~
@@ -1223,6 +1351,22 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 END
 
 ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
+	ACTION_FOR_EACH var IN bam BEGIN
+		ACTION_BASH_FOR ~RoTerror/anim/Abishai~ ~^.+\.%var%$~ BEGIN
+			OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
+				REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MGO4~ ~MABW~
+			END
+			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override~
+			END
+		END
+	END
+	ACTION_BASH_FOR ~RoTerror/anim/Abishai~ ~^.+\.wav$~ BEGIN
+		ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override~
+		END
+	END
+
 	COPY_EXISTING ~ABISHAI1.CRE~  ~override~
 				~GODABIS1.CRE~  ~override~
 				~GODABIS2.CRE~  ~override~
@@ -1260,6 +1404,13 @@ ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN
 END
 
 ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
+	ACTION_FOR_EACH var IN bam BEGIN
+		ACTION_BASH_FOR ~RoTerror/anim/Horror~ ~^.+\.%var%$~ BEGIN
+			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%BASH_FOR_FILE%~ BEGIN
+				COPY ~%BASH_FOR_FILESPEC%~ ~override~
+			END
+		END
+	END
 	COPY_EXISTING ~CHOYOL.CRE~   ~override~
 				~CHUYOL.CRE~   ~override~
 				~HOOK1.CRE~    ~override~
@@ -1307,7 +1458,7 @@ ELSE BEGIN
 END
 
 ACTION_IF GAME_IS ~eet~ BEGIN
-	COPY ~%MOD_FOLDER%/Worldmap/eet/links.tbl~  ~Worldmap/eet~
+	COPY ~%MOD_FOLDER%/Worldmap/eet/links.tbl~  ~%MOD_FOLDER%/Worldmap/eet~
 		PATCH_IF (FILE_EXISTS_IN_GAME ~sos.mrk~)  OR (FILE_EXISTS ~data/SOS-RULE.BIF~) BEGIN
 			APPEND_FILE ~RoTerror/Worldmap/eet/sos_links.tbl~                        
 		END                                                                    
@@ -1596,15 +1747,6 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
    COPY ~RoTerror\PVRZ~ ~override~
 
 END
-
-
-
-
-COPY ~RoTerror\WED~ ~override~
-COPY ~RoTerror\BAM~ ~%ROT-BAM%~
-COPY ~RoTerror\SFX~ ~override~
-COPY ~RoTerror\BMP~ ~override~
-
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	MAKE_BIFF ~ROT-ARE~ BEGIN
