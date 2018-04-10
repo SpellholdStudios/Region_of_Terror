@@ -1,0 +1,41 @@
+MZO2 /Samurai/
+***
+						SOUND
+ATTACK          		ISAIR3A ISAIR3B
+ATTACK          		2 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		ISAIR07 ISAIR08
+DAMAGE          		0 0
+DIE             		ISAIR9A ISAIR9B
+DIE             		0 0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		ISAIR3A ISAIR3B nosound
+ATTACK_SLASH    		2 2 0
+ATTACK_BACKSLASH		ISAIR4A ISAIR4B nosound
+ATTACK_BACKSLASH		2 2 0
+ATTACK_JAB      		ISAIR4A ISAIR4B nosound
+ATTACK_JAB      		0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry			ISAIR2A ISAIR2B
+Battle_Cry			0 0
+Selection                       ISAIR1A ISAIR1B
+Selection                       0

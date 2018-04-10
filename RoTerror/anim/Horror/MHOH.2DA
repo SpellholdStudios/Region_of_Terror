@@ -1,0 +1,41 @@
+Mno2/Frost Giant (TDD)
+***
+						SOUND
+ATTACK          		hook03a hook03b nosound
+ATTACK          		0 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		hook07a hook08a
+DAMAGE          		0 0
+DIE             		hook09a hook10a
+DIE             		0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		hook03a hook03b
+ATTACK_SLASH    		0 0 0
+ATTACK_BACKSLASH		hook03a hook03b
+ATTACK_BACKSLASH		0 0
+ATTACK_JAB      		hook04a hook04b
+ATTACK_JAB      		0 0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry			hook01a hook02a
+Battle_Cry			0 0
+Selection                       hook01a hook02a
+Selection                       0 0
