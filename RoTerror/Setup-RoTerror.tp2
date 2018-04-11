@@ -1458,14 +1458,14 @@ ELSE BEGIN
 END
 
 ACTION_IF GAME_IS ~eet~ BEGIN
-	COPY ~%MOD_FOLDER%/Worldmap/eet/links.tbl~  ~%MOD_FOLDER%/Worldmap/eet~
+	COPY ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~  ~%MOD_FOLDER%/Worldmap/eet~
 		PATCH_IF (FILE_EXISTS_IN_GAME ~sos.mrk~)  OR (FILE_EXISTS ~data/SOS-RULE.BIF~) BEGIN
 			APPEND_FILE ~RoTerror/Worldmap/eet/sos_links.tbl~                        
 		END                                                                    
 		PATCH_IF (FILE_EXISTS_IN_GAME ~ctb.mrk~)  OR (FILE_EXISTS ~data/CTB-RULE.BIF~) BEGIN
 			APPEND_FILE ~RoTerror/Worldmap/eet/ctb_links.tbl~                        
 		END                                                                    
-		PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) BEGIN
+		PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) OR  (MOD_IS_INSTALLED "setup-TDDz.tp2" "0") BEGIN
 			APPEND_FILE ~RoTerror/Worldmap/eet/tdd_links.tbl~
 		END
 
@@ -1475,9 +1475,9 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 		verbose = 1
 		inclSv = 0
 		STR_VAR
-		path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/eet/areas.tbl~
+		path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-areas.tbl~
 //		path_to_areas_bp = EVAL ~%MOD_FOLDER%/Worldmap/areas.tbl~
-		path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/eet/links.tbl~
+		path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~
 		path_to_trans = EVAL ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
 	END
 	INCLUDE ~%MOD_FOLDER%/worldmap/eet/PatchingAreas.tpa~

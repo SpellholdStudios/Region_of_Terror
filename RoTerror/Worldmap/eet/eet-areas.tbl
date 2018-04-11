@@ -26,4 +26,4 @@ RA5412      RA5412   RA5412     2      69        890    370    @ROT_785020  N   
 RA5416      RA5416   RA5416     2      66        980    310    @ROT_785021  N            N        //Maze
 
 //Drizztsaga F_0111 moves a little bit, Bremen is at the same location
-F_0111      F_0111   F_0111     4      25        866    350    @DSW_786003  @DSW_786003  N        //Bear Tribe Village
+F_0111      F_0111   F_0111     4      54        475    155    @DSW_786003  @DSW_786003  N        //Bear Tribe Village
