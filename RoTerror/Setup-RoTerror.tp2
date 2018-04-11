@@ -538,6 +538,8 @@ COPY ~RoTerror/are/string/rr4002.are~    ~%ROT-ARE%~
 
 // Files  
 COPY ~RoTerror\WED~ ~override~
+COPY_EXISTING ~rr3403.are~ ~override~
+	WRITE_ASCII 0x08 "BG0108.WED"
 COPY ~RoTerror\BAM~ ~%ROT-BAM%~
 COPY ~RoTerror\SFX~ ~override~
 COPY ~RoTerror\BMP~ ~override~
@@ -1716,32 +1718,11 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	COPY ~RoTerror/missing/B010800.PVRZ~ ~RoTerror\Pvrz~
 		 ~RoTerror/missing/B010850.PVRZ~ ~RoTerror\Pvrz~
 
-  LAF GET_TOOL_BINARY
-    STR_VAR
-      tool_name = ~tile2ee~
-    RET
-      tool_binary
-  END
-
-  LAF HANDLE_TILE2EE
-//   INT_VAR
-//      pvrz_index    = free_index
-    STR_VAR
-      input_path    = ~RoTerror\Pvrz~
-      // can be skipped if tile2ee is located in default path (see above)
-      tile2ee_path  = EVAL ~%tool_binary%~
-      output_path   = ~override~
-    RET
-      num_converted
-  END
-  ACTION_IF (num_converted < 87) BEGIN
-    OUTER_SET skipped = 87 - num_converted
-    FAIL ~Error: Failed to convert %skipped% out of 87 graphics files.~
-  END
-MAKE_BIFF ~ROT-TIS~ BEGIN
-	~override/ROT-TIS~ ~^.*$~
-END
-DELETE + ~override/ROT-TIS~
+	LAF HANDLE_TILESETS
+		STR_VAR
+		tiz_path = ~RoTerror/Tiz~
+		tisunpack_path = ~RoTerror/bin~
+	END	 
 END
 ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
    COPY ~RoTerror\PVRZ~ ~override~
