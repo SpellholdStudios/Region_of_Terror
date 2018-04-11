@@ -538,8 +538,6 @@ COPY ~RoTerror/are/string/rr4002.are~    ~%ROT-ARE%~
 
 // Files  
 COPY ~RoTerror\WED~ ~override~
-COPY_EXISTING ~rr3403.are~ ~override~
-	WRITE_ASCII 0x08 "BG0108.WED"
 COPY ~RoTerror\BAM~ ~%ROT-BAM%~
 COPY ~RoTerror\SFX~ ~override~
 COPY ~RoTerror\BMP~ ~override~
@@ -1708,16 +1706,7 @@ LAF HANDLE_AUDIO
 	output_path = ~override~
 END
 
-ACTION_IF GAME_IS ~bg2ee~ BEGIN
-	COPY ~RoTerror\missing~ ~override~
-END
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	COPY ~RoTerror/missing/BG0108.MOS~ ~override~
-		 ~RoTerror/missing/BG0108.TIS~ ~override~
-		 ~RoTerror/missing/BG0108.WED~ ~override~
-	COPY ~RoTerror/missing/B010800.PVRZ~ ~RoTerror\Pvrz~
-		 ~RoTerror/missing/B010850.PVRZ~ ~RoTerror\Pvrz~
-
 	LAF HANDLE_TILESETS
 		STR_VAR
 		tiz_path = ~RoTerror/Tiz~
@@ -1745,6 +1734,11 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	MAKE_BIFF ~ROT-SPL~ BEGIN
 		~RoTerror/ROT-SPL~ ~^.*$~
 	END
+	DELETE + ~override/ROT-ARE~
+	DELETE + ~override/ROT-BAM~
+	DELETE + ~override/ROT-ITM~
+	DELETE + ~override/ROT-RULE~
+	DELETE + ~override/ROT-SPL~
 END
 
 //////////////////////////////
