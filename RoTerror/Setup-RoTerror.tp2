@@ -1,7 +1,8 @@
 BACKUP ~RoTerror/Backup~
 
 //AUTHOR ~Gilgamesh, King Diamond (WeiDU conversion)~ NO_IF_EVAL_BUG
-SUPPORT ~Roxanne - Send PM to Roxanne at SHSForums.net or RoxanneSHS@mail.com~
+SUPPORT ~Roxanne - Send PM to Roxanne at SHSForums.net or RoxanneSHS@mail.com
+			Weigo - Send PM to Weigo at SHSForums.net or Weigo at Gibberlings3.net~
 
 VERSION ~v3.1 EE~
 
@@ -996,9 +997,6 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
 			COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
 		END
 	END
-/*	COPY_EXISTING ~override/MTAN.2da~ ~override~ BEGIN
-		REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~IWTAN~ ~TANAR~
-	END*/
 END
 
 COPY_EXISTING ~ASHAM.CRE~    ~override~
@@ -1441,7 +1439,7 @@ ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
    PATCH_IF (FILE_EXISTS_IN_GAME ~ctb.mrk~)  OR (FILE_EXISTS ~data/CTB-RULE.BIF~) BEGIN
      APPEND_FILE ~RoTerror/Worldmap/ctb_links.tbl~                        
    END                                                                    
-   PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) BEGIN
+   PATCH_IF (FILE_EXISTS_IN_GAME ~tdd.mrk~)  OR (FILE_EXISTS ~data/TDD-RULE.BIF~) OR  (MOD_IS_INSTALLED "setup-TDDz.tp2" "0") BEGIN
      APPEND_FILE ~RoTerror/Worldmap/tdd_links.tbl~
    END
 
