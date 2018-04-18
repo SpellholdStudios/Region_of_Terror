@@ -66,7 +66,6 @@ ALWAYS
 		COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/fl#utf8_worldmap.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
 		LOAD_TRA ~RoTerror/language/%LANGUAGE%/setup-ee.tra~
 	END
-	INCLUDE ~RoTerror/lib/a7_tools.tpa~
 END
 
 LANGUAGE ~English~
@@ -99,36 +98,17 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 
 //	COPY + ~Setup-RoT.exe~     ~WeiDU.exe~
 	COPY + ~chitin.key~        ~RoTerror/chitin.rot~
-	COPY_LARGE + ~dialog.tlk~  ~RoTerror/dialog.rot~
-	COPY_LARGE + ~dialogf.tlk~  ~RoTerror/dialogf.rot~
+	ACTION_FOR_EACH var IN ~~ F BEGIN
+		ACTION_IF FILE_EXISTS ~dialog%var%.tlk~ BEGIN
+			COPY_LARGE + ~dialog%var%.tlk~ ~RoTerror/dialog%var%.rot~
+		END
+	END
 	MKDIR ~RoTerror/over.bak~
 	COPY_LARGE + ~override~      ~RoTerror/over.bak~
 		
-	MKDIR ~RoTerror/ROT-ARE~
-	MKDIR ~RoTerror/ROT-BAM~
-	MKDIR ~RoTerror/ROT-ITM~
-	MKDIR ~RoTerror/ROT-RULE~
-	MKDIR ~RoTerror/ROT-SPL~
-
-	OUTER_SPRINT ROT-ARE 	~RoTerror/ROT-ARE~
-	OUTER_SPRINT ROT-BAM    ~RoTerror/ROT-BAM~
-	OUTER_SPRINT ROT-ITM    ~RoTerror/ROT-ITM~
-	OUTER_SPRINT ROT-RULE   ~RoTerror/ROT-RULE~
-	OUTER_SPRINT ROT-SPL    ~RoTerror/ROT-SPL~
-	
 	INCLUDE ~%MOD_FOLDER%/lib/install-guititle.tpa~
-	COPY_EXISTING ~misc01.itm~ ~RoTerror/ROT-RULE/rot.mrk~
-	
-	PRINT @3
 
-	COPY ~RoTerror/RULE~ ~override~
-END 
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-	OUTER_SPRINT ROT-ARE 	~override~
-	OUTER_SPRINT ROT-ITM    ~override~
-	OUTER_SPRINT ROT-SPL    ~override~
-	OUTER_SPRINT ROT-BAM    ~override~
-	OUTER_SPRINT ROT-RULE   ~override~
+	PRINT @3
 END
 
 COPY_EXISTING ~misc01.itm~ ~override/rot.mrk~ // tell other mod that region of terror is installed
@@ -307,12 +287,12 @@ END
 //***********************************************************************************
 PRINT @24
 
-COPY ~RoTerror/are/nostring~    ~%ROT-ARE%~
+COPY ~RoTerror/are/nostring~    ~override~
 
-COPY ~RoTerror/are/string/RA3010.ARE~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA3010.ARE~    ~override~
   SAY 0x290 @25
 
-COPY ~RoTerror/are/string/RA3013.ARE~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA3013.ARE~    ~override~
   SAY 0x2f68 @26
   SAY 0x302c @26
   SAY 0x30f0 @26
@@ -330,62 +310,62 @@ COPY ~RoTerror/are/string/RA3013.ARE~    ~%ROT-ARE%~
   SAY 0x3a20 @26
   SAY 0x3ae4 @28
 
-COPY ~RoTerror/are/string/ra3014.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/ra3014.are~    ~override~
   SAY 0x180 @29
   SAY 0x244 @29
 
-COPY ~RoTerror/are/string/RA3703.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA3703.are~    ~override~
   SAY 0x2948 @30
   SAY 0x2a0c @31
   SAY 0x2ad0 @32
 
-COPY ~RoTerror/are/string/RA3705.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA3705.are~    ~override~
   SAY 0x2ee4 @33
 
-COPY ~RoTerror/are/string/RA3707.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA3707.are~    ~override~
   SAY 0xa00 @34
 
-COPY ~RoTerror/are/string/RA3709.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA3709.are~    ~override~
   SAY 0x1bf0 @35
   SAY 0x1cb4 @35
   SAY 0x1d78 @36
   SAY 0x1e3c @36
   SAY 0x1f00 @37
 
-COPY ~RoTerror/are/string/RA3710.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA3710.are~    ~override~
   SAY 0x19a4 @34
   SAY 0x1a68 @38
 
-COPY ~RoTerror/are/string/ra4200.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/ra4200.are~    ~override~
   SAY 0x26b0 @39
   SAY 0x2774 @40
   SAY 0x2838 @41
 
-COPY ~RoTerror/are/string/ra4202.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/ra4202.are~    ~override~
   SAY 0x574 @42
 
-COPY ~RoTerror/are/string/ra4300.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/ra4300.are~    ~override~
   SAY 0x3d78 @43
   SAY 0x3e3c @43
 
-COPY ~RoTerror/are/string/RA4301.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA4301.are~    ~override~
   SAY 0x5c0 @43
   SAY 0x684 @43
 
-COPY ~RoTerror/are/string/ra4303.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/ra4303.are~    ~override~
   SAY 0x290 @44
 
-COPY ~RoTerror/are/string/ra4304.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/ra4304.are~    ~override~
   SAY 0x290 @44
   SAY 0x354 @44
 
-COPY ~RoTerror/are/string/ra4305.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/ra4305.are~    ~override~
   SAY 0x4b0 @45
   SAY 0x574 @45
   SAY 0x638 @44
   SAY 0x6fc @44
 
-COPY ~RoTerror/are/string/ra4401.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/ra4401.are~    ~override~
   SAY 0x14cc @46
   SAY 0x1590 @47
   SAY 0x1654 @48
@@ -399,7 +379,7 @@ COPY ~RoTerror/are/string/ra4401.are~    ~%ROT-ARE%~
   SAY 0x1c74 @55
   SAY 0x1d38 @56
 
-COPY ~RoTerror/are/string/ra4402.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/ra4402.are~    ~override~
   SAY 0x858 @57
   SAY 0x91c @57
   SAY 0x9e0 @58
@@ -408,13 +388,13 @@ COPY ~RoTerror/are/string/ra4402.are~    ~%ROT-ARE%~
   SAY 0xc2c @61
   SAY 0xcf0 @62
 
-COPY ~RoTerror/are/string/ra4701.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/ra4701.are~    ~override~
   SAY 0x1fb8 @63
 
-COPY ~RoTerror/are/string/ra4900.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/ra4900.are~    ~override~
   SAY 0x244 @64
 
-COPY ~RoTerror/are/string/RA5000.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA5000.are~    ~override~
   SAY 0x1bf0 @65
   SAY 0x1cb4 @66
   SAY 0x1d78 @66
@@ -422,30 +402,30 @@ COPY ~RoTerror/are/string/RA5000.are~    ~%ROT-ARE%~
   SAY 0x1f00 @66
   SAY 0x1fc4 @67
 
-COPY ~RoTerror/are/string/RA5001.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA5001.are~    ~override~
   SAY 0x45ac @68
 
-COPY ~RoTerror/are/string/RA5003.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA5003.are~    ~override~
   SAY 0x1c88 @69
 
-COPY ~RoTerror/are/string/RA5401.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA5401.are~    ~override~
   SAY 0x47a0 @70
 
-COPY ~RoTerror/are/string/RA5412.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA5412.are~    ~override~
   SAY 0x2490 @71
   SAY 0x2554 @72
 
-COPY ~RoTerror/are/string/RA5414.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA5414.are~    ~override~
   SAY 0x180 @73
 
-COPY ~RoTerror/are/string/RA5601.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA5601.are~    ~override~
   SAY 0x3ed4 @74
 
-COPY ~RoTerror/are/string/RA5602.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/RA5602.are~    ~override~
   SAY 0x5990 @75
   SAY 0x5bdc @76
 
-COPY ~RoTerror/are/string/rr3100.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3100.are~    ~override~
   SAY 0x81c0 @77
   SAY 0x81f4 @78
   SAY 0x8228 @79
@@ -456,16 +436,16 @@ COPY ~RoTerror/are/string/rr3100.are~    ~%ROT-ARE%~
   SAY 0x8394 @83
   SAY 0x83c8 @84
 
-COPY ~RoTerror/are/string/rr3106.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3106.are~    ~override~
   SAY 0x180 @85
 
-COPY ~RoTerror/are/string/rr3115.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3115.are~    ~override~
   SAY 0x574 @86
 
-COPY ~RoTerror/are/string/rr3119.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3119.are~    ~override~
   SAY 0x7e0 @87
 
-COPY ~RoTerror/are/string/rr3150.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3150.are~    ~override~
   SAY 0xe6c @88
   SAY 0xf30 @88
   SAY 0xff4 @88
@@ -473,50 +453,50 @@ COPY ~RoTerror/are/string/rr3150.are~    ~%ROT-ARE%~
   SAY 0x117c @88
   SAY 0x1240 @88
 
-COPY ~RoTerror/are/string/rr3300.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3300.are~    ~override~
   SAY 0x28d0 @89
   SAY 0x2be0 @90
   SAY 0x3078 @91
 
-COPY ~RoTerror/are/string/rr3302.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3302.are~    ~override~
   SAY 0x6d0 @92
   SAY 0x858 @93
   SAY 0x9e0 @94
 
-COPY ~RoTerror/are/string/rr3303.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3303.are~    ~override~
   SAY 0x2490 @95
   SAY 0x2618 @96
 
-COPY ~RoTerror/are/string/rr3307.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3307.are~    ~override~
   SAY 0x354 @97
   SAY 0x418 @97
 
-COPY ~RoTerror/are/string/rr3403.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3403.are~    ~override~
   SAY 0xb88 @98
   SAY 0xc4c @99
 
-COPY ~RoTerror/are/string/rr3405.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3405.are~    ~override~
   SAY 0x4b0 @100
 
-COPY ~RoTerror/are/string/rr3407.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3407.are~    ~override~
   SAY 0xac4 @101
 
-COPY ~RoTerror/are/string/rr3409.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3409.are~    ~override~
   SAY 0x5c0 @102
   SAY 0x748 @103
 
-COPY ~RoTerror/are/string/rr3410.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3410.are~    ~override~
   SAY 0xac4 @103
   SAY 0xb88 @103
   SAY 0xc4c @103
 
-COPY ~RoTerror/are/string/rr3452.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3452.are~    ~override~
   SAY 0x1ab4 @104
 
-COPY ~RoTerror/are/string/rr3456.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3456.are~    ~override~
   SAY 0x6d0 @105
 
-COPY ~RoTerror/are/string/rr3702.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr3702.are~    ~override~
   SAY 0x9b4 @106
   SAY 0xa78 @106
   SAY 0xb3c @106
@@ -526,11 +506,11 @@ COPY ~RoTerror/are/string/rr3702.are~    ~%ROT-ARE%~
   SAY 0xe4c @36
   SAY 0xf10 @37
 
-COPY ~RoTerror/are/string/rr4001.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr4001.are~    ~override~
   SAY 0x2a58 @107
   SAY 0x2b1c @108
 
-COPY ~RoTerror/are/string/rr4002.are~    ~%ROT-ARE%~
+COPY ~RoTerror/are/string/rr4002.are~    ~override~
   SAY 0x3a0 @109
   SAY 0x464 @110
   SAY 0x528 @110
@@ -539,7 +519,7 @@ COPY ~RoTerror/are/string/rr4002.are~    ~%ROT-ARE%~
 
 // Files  
 COPY ~RoTerror\WED~ ~override~
-COPY ~RoTerror\BAM~ ~%ROT-BAM%~
+COPY ~RoTerror\BAM~ ~override~
 COPY ~RoTerror\SFX~ ~override~
 COPY ~RoTerror\BMP~ ~override~
 
@@ -667,47 +647,47 @@ PRINT @924
 PRINT @925
 
 
-COPY ~RoTerror/SPL/nostring~  ~%ROT-SPL%~
+COPY ~RoTerror/SPL/nostring~  ~override~
 
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~ctb.mrk~ AND NOT FILE_EXISTS ~data/CTB-RULE.BIF~     //CTB compatibility
 THEN BEGIN
-  COPY ~RoTerror/Compat/CtB/SPWI140.SPL~ ~%ROT-SPL%~
+  COPY ~RoTerror/Compat/CtB/SPWI140.SPL~ ~override~
     SAY NAME1  @926
     SAY UNIDENTIFIED_DESC @927
 
-  COPY ~RoTerror/Compat/CtB/BAM~ ~%ROT-SPL%~
+  COPY ~RoTerror/Compat/CtB/BAM~ ~override~
 END
 
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~tdd.mrk~ AND NOT FILE_EXISTS ~data/TDD-RULE.BIF~    //TDD compatibility
 THEN BEGIN
-  COPY ~RoTerror/Compat/TDD/SPWI733.spl~          ~%ROT-SPL%~
+  COPY ~RoTerror/Compat/TDD/SPWI733.spl~          ~override~
     SAY NAME1 @928
     SAY UNIDENTIFIED_DESC @929
 
-  COPY ~RoTerror/Compat/TDD/SPWI828.spl~          ~%ROT-SPL%~
+  COPY ~RoTerror/Compat/TDD/SPWI828.spl~          ~override~
     SAY NAME1 @930
     SAY UNIDENTIFIED_DESC @931
 
-  COPY ~RoTerror/Compat/TDD/SPWI968.spl~          ~%ROT-SPL%~
+  COPY ~RoTerror/Compat/TDD/SPWI968.spl~          ~override~
     SAY NAME1 @932
     SAY UNIDENTIFIED_DESC @933
 
-  COPY ~RoTerror/Compat/TDD/SCRX17.itm~           ~%ROT-SPL%~
+  COPY ~RoTerror/Compat/TDD/SCRX17.itm~           ~override~
     SAY DESC @929
 
-  COPY ~RoTerror/Compat/TDD/SCRX24.itm~           ~%ROT-SPL%~
+  COPY ~RoTerror/Compat/TDD/SCRX24.itm~           ~override~
     SAY DESC @931
 
-  COPY ~RoTerror/Compat/TDD/SCRX34.itm~           ~%ROT-SPL%~
+  COPY ~RoTerror/Compat/TDD/SCRX34.itm~           ~override~
     SAY DESC @933
 
-  COPY ~RoTerror/Compat/TDD/BAM~ ~%ROT-SPL%~
+  COPY ~RoTerror/Compat/TDD/BAM~ ~override~
 END
 
 
-COPY ~RoTerror/spl/BURGAS.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/BURGAS.spl~   ~override~
   READ_LONG  0x64   abil_offset
   READ_SHORT 0x68   abil_num
   SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BURGAS~))
@@ -718,12 +698,12 @@ COPY ~RoTerror/spl/BURGAS.spl~   ~%ROT-SPL%~
   SAY UNIDENTIFIED_DESC @935
 
 
-COPY ~RoTerror/spl/DRAGNSUM.spl~  ~%ROT-SPL%~
+COPY ~RoTerror/spl/DRAGNSUM.spl~  ~override~
   SAY NAME1 @936
   SAY UNIDENTIFIED_DESC @937
 
 
-COPY ~RoTerror/spl/GOLDENCL.spl~  ~%ROT-SPL%~
+COPY ~RoTerror/spl/GOLDENCL.spl~  ~override~
   READ_LONG  0x64   abil_offset
   READ_SHORT 0x68   abil_num
   SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~GLDKILL2~))
@@ -734,12 +714,12 @@ COPY ~RoTerror/spl/GOLDENCL.spl~  ~%ROT-SPL%~
   SAY UNIDENTIFIED_DESC @939
 
 
-COPY ~RoTerror/spl/HERO.spl~      ~%ROT-SPL%~
+COPY ~RoTerror/spl/HERO.spl~      ~override~
   SAY NAME1 @940
   SAY UNIDENTIFIED_DESC @941
 
 
-COPY ~RoTerror/spl/ICEEXPL.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/ICEEXPL.spl~   ~override~
   READ_LONG  0x64   abil_offset
   READ_SHORT 0x68   abil_num
   SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~ICEEXPL~))
@@ -750,17 +730,17 @@ COPY ~RoTerror/spl/ICEEXPL.spl~   ~%ROT-SPL%~
   SAY UNIDENTIFIED_DESC @943
 
 
-COPY ~RoTerror/spl/IIRADT.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/IIRADT.spl~   ~override~
   SAY NAME1 @944
   SAY UNIDENTIFIED_DESC @945
 
 
-COPY ~RoTerror/spl/PSNSHDE.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/PSNSHDE.spl~   ~override~
   SAY NAME1 @946
   SAY UNIDENTIFIED_DESC @947 
 
 
-COPY ~RoTerror/spl/ROT3161.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/ROT3161.spl~   ~override~
   READ_LONG  0x64   abil_offset
   READ_SHORT 0x68   abil_num
   SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~GRENDRGN~))
@@ -768,7 +748,7 @@ COPY ~RoTerror/spl/ROT3161.spl~   ~%ROT-SPL%~
     WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
   END
 
-COPY ~RoTerror/spl/ROT3162.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/ROT3162.spl~   ~override~
   READ_LONG  0x64   abil_offset
   READ_SHORT 0x68   abil_num
   SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~GREBLAST~))
@@ -776,7 +756,7 @@ COPY ~RoTerror/spl/ROT3162.spl~   ~%ROT-SPL%~
     WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
   END
 
-COPY ~RoTerror/spl/ROT3163.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/ROT3163.spl~   ~override~
   READ_LONG  0x64   abil_offset
   READ_SHORT 0x68   abil_num
   SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~AQUADRGN~))
@@ -784,7 +764,7 @@ COPY ~RoTerror/spl/ROT3163.spl~   ~%ROT-SPL%~
     WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
   END
 
-COPY ~RoTerror/spl/ROT3165.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/ROT3165.spl~   ~override~
   READ_LONG  0x64   abil_offset
   READ_SHORT 0x68   abil_num
   SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BLUEDRGN~))
@@ -792,7 +772,7 @@ COPY ~RoTerror/spl/ROT3165.spl~   ~%ROT-SPL%~
     WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
   END
 
-COPY ~RoTerror/spl/ROT3166.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/ROT3166.spl~   ~override~
   READ_LONG  0x64   abil_offset
   READ_SHORT 0x68   abil_num
   SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BLUBLAST~))
@@ -800,7 +780,7 @@ COPY ~RoTerror/spl/ROT3166.spl~   ~%ROT-SPL%~
     WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
   END
 
-COPY ~RoTerror/spl/ROT3167.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/ROT3167.spl~   ~override~
   READ_LONG  0x64   abil_offset
   READ_SHORT 0x68   abil_num
   SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BLUERAIN~))
@@ -808,7 +788,7 @@ COPY ~RoTerror/spl/ROT3167.spl~   ~%ROT-SPL%~
     WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
   END
 
-COPY ~RoTerror/spl/ROT3168.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/ROT3168.spl~   ~override~
   READ_LONG  0x64   abil_offset
   READ_SHORT 0x68   abil_num
   SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BRWNDRGN~))
@@ -816,7 +796,7 @@ COPY ~RoTerror/spl/ROT3168.spl~   ~%ROT-SPL%~
     WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
   END
 
-COPY ~RoTerror/spl/ROT3169.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/ROT3169.spl~   ~override~
   READ_LONG  0x64   abil_offset
   READ_SHORT 0x68   abil_num
   SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BRWNHIT~))
@@ -824,7 +804,7 @@ COPY ~RoTerror/spl/ROT3169.spl~   ~%ROT-SPL%~
     WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
   END
 
-COPY ~RoTerror/spl/ROT3170.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/ROT3170.spl~   ~override~
   READ_LONG  0x64   abil_offset
   READ_SHORT 0x68   abil_num
   SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~DOOMSDAY~))
@@ -832,7 +812,7 @@ COPY ~RoTerror/spl/ROT3170.spl~   ~%ROT-SPL%~
     WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
   END
 
-COPY ~RoTerror/spl/ROT3171.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/ROT3171.spl~   ~override~
   READ_LONG  0x64   abil_offset
   READ_SHORT 0x68   abil_num
   SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~GOLDBRE~))
@@ -841,17 +821,17 @@ COPY ~RoTerror/spl/ROT3171.spl~   ~%ROT-SPL%~
   END
 
 
-COPY ~RoTerror/spl/REGFILD.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/REGFILD.spl~   ~override~
   SAY NAME1 @948
   SAY UNIDENTIFIED_DESC @949
 
 
-COPY ~RoTerror/spl/ULTIMA.spl~    ~%ROT-SPL%~
+COPY ~RoTerror/spl/ULTIMA.spl~    ~override~
   SAY NAME1 @950
   SAY UNIDENTIFIED_DESC @951 
 
 
-COPY ~RoTerror/spl/WAKEINF.spl~   ~%ROT-SPL%~
+COPY ~RoTerror/spl/WAKEINF.spl~   ~override~
   SAY NAME1 @952
   SAY UNIDENTIFIED_DESC @953
 
@@ -1629,43 +1609,43 @@ ACTION_IF ("%rows_cnt%"<=(93 + extra)) THEN BEGIN
   BUT_ONLY_IF_IT_CHANGES
 
 
-  COPY_EXISTING ~%ROT-ARE%/RA5100.are~  ~%ROT-ARE%~
+  COPY_EXISTING ~override/RA5100.are~  ~override~
     READ_LONG  0xbc "song_offset"
     WRITE_LONG ("%song_offset%")   "%song_68%"    //day song
     WRITE_LONG ("%song_offset%"+4) "%song_68%"    //night song
    BUT_ONLY_IF_IT_CHANGES
 
-  COPY_EXISTING ~%ROT-ARE%/RA3704.ARE~  ~%ROT-ARE%~
+  COPY_EXISTING ~override/RA3704.ARE~  ~override~
     READ_LONG  0xbc "song_offset"
     WRITE_LONG ("%song_offset%")   "%song_69%"     //day song
     WRITE_LONG ("%song_offset%"+4) "%song_69%"     //night song
     WRITE_LONG ("%song_offset%"+0x0c) "%song_69%"  //battle song
    BUT_ONLY_IF_IT_CHANGES
 
-  COPY_EXISTING ~%ROT-ARE%/RR3100.ARE~  ~%ROT-ARE%~
+  COPY_EXISTING ~override/RR3100.ARE~  ~override~
     READ_LONG  0xbc "song_offset"
     WRITE_LONG ("%song_offset%")   "%song_71%"    //day song
     WRITE_LONG ("%song_offset%"+4) "%song_72%"    //night song
    BUT_ONLY_IF_IT_CHANGES
 
-  COPY_EXISTING ~%ROT-ARE%/RA5104.ARE~  ~%ROT-ARE%~
-                ~%ROT-ARE%/RR3409.ARE~  ~%ROT-ARE%~
-                ~%ROT-ARE%/RR3410.ARE~  ~%ROT-ARE%~
+  COPY_EXISTING ~override/RA5104.ARE~  ~override~
+                ~override/RR3409.ARE~  ~override~
+                ~override/RR3410.ARE~  ~override~
     READ_LONG  0xbc "song_offset"
     WRITE_LONG ("%song_offset%")   "%song_73%"     //day song
     WRITE_LONG ("%song_offset%"+4) "%song_73%"     //night song
    BUT_ONLY_IF_IT_CHANGES
 
-  COPY_EXISTING ~%ROT-ARE%/RA5400.ARE~  ~%ROT-ARE%~
-                ~%ROT-ARE%/RA5412.ARE~  ~%ROT-ARE%~
+  COPY_EXISTING ~override/RA5400.ARE~  ~override~
+                ~override/RA5412.ARE~  ~override~
     READ_LONG  0xbc "song_offset"
     WRITE_LONG ("%song_offset%")   "%song_74%"     //day song
     WRITE_LONG ("%song_offset%"+4) "%song_74%"     //night song
    BUT_ONLY_IF_IT_CHANGES
 
-  COPY_EXISTING ~%ROT-ARE%/RA5411.ARE~  ~%ROT-ARE%~
-                ~%ROT-ARE%/RA5416.ARE~  ~%ROT-ARE%~
-                ~%ROT-ARE%/RA5600.ARE~  ~%ROT-ARE%~
+  COPY_EXISTING ~override/RA5411.ARE~  ~override~
+                ~override/RA5416.ARE~  ~override~
+                ~override/RA5600.ARE~  ~override~
     READ_LONG  0xbc "song_offset"
     WRITE_LONG ("%song_offset%")   "%song_75%"     //day song
     WRITE_LONG ("%song_offset%"+4) "%song_75%"     //night song
@@ -1716,28 +1696,54 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
 END
 
-ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	MAKE_BIFF ~ROT-ARE~ BEGIN
-		~RoTerror/ROT-ARE~ ~^.*$~
+//////////////////////////////
+// biffing
+//////////////////////////////
+
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN		//older mods use RoT-RULE
+	MAKE_BIFF ~RoT-RULE~ BEGIN
+		~override~ ~RoT.mrk~
 	END
-	MAKE_BIFF ~ROT-BAM~ BEGIN
-		~RoTerror/ROT-BAM~ ~^.*$~
-	END
-	MAKE_BIFF ~ROT-ITM~ BEGIN
-		~RoTerror/ROT-ITM~ ~^.*$~
-	END
-	MAKE_BIFF ~ROT-RULE~ BEGIN
-		~RoTerror/ROT-RULE~ ~^.*$~
-	END
-	MAKE_BIFF ~ROT-SPL~ BEGIN
-		~RoTerror/ROT-SPL~ ~^.*$~
-	END
-	DELETE + ~override/ROT-ARE~
-	DELETE + ~override/ROT-BAM~
-	DELETE + ~override/ROT-ITM~
-	DELETE + ~override/ROT-RULE~
-	DELETE + ~override/ROT-SPL~
 END
+
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+	MAKE_BIFF ~RoT-RULE~ BEGIN
+		~override~ ~^.*\.2da$~
+	END
+	ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
+		AT_UNINSTALL ~rmdir /s /q %MOD_FOLDER%\temp~ EXACT
+	END ELSE BEGIN //osx, unix
+		AT_UNINSTALL ~rm -rf %MOD_FOLDER%/temp~ EXACT
+	END
+	
+	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_RoT_biff BEGIN
+		~RoT-TIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
+		~RoT-WAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
+		~RoT-RES~ , ~override~ , ~^.*$~ => 100000000 //100 MB
+	END
+	
+	ACTION_PHP_EACH table_RoT_biff AS biff => size BEGIN
+		OUTER_SET totalSize = 0
+		OUTER_SET index = 0
+		MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
+		ACTION_BASH_FOR ~%biff_1%~ ~%biff_2%~ BEGIN
+			ACTION_IF ( BASH_FOR_SIZE + totalSize > size ) AND ( totalSize > 0 ) BEGIN
+				MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
+				OUTER_SET index = index + 1
+				OUTER_SET totalSize = 0
+				MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
+			END
+			MOVE ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/temp/%biff%%index%~
+			OUTER_SET totalSize = totalSize + BASH_FOR_SIZE
+		END
+		ACTION_IF ( totalSize > 0 ) BEGIN
+			MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
+		END
+	END
+END
+
+COPY_EXISTING ~misc01.itm~ ~override/RoT.mrk~
+
 
 //////////////////////////////
 // bgee.lua cheat table
