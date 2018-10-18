@@ -44,7 +44,7 @@ COPY ~GUI_Mods/%gui_slot_name%~  ~override~
 ACTION_IF NOT FILE_EXISTS ~Setup-GUI.tp2~
 THEN BEGIN
   MKDIR ~GUI_Mods~
-  COPY ~Setup-RoT.exe~ ~Setup-GUI.exe~
+  COPY ~Setup-RoTerror.exe~ ~Setup-GUI.exe~
   COPY ~GUI_Mods.2DA~ ~GUI_Mods/GUI_Mods.2DA~
   COPY ~new_gui_switcher.tp2~ ~Setup-GUI.tp2~
    APPEND_FILE ~orig_gui.tp2~
@@ -71,7 +71,7 @@ COPY ~RoTerror/gui~ ~GUI_Mods/%gui_slot_name%~
 //***********************************************************************************
 //*****************************************************************************************
 
-/*COPY_EXISTING + ~RoTerror/title.tr~ ~RoTerror/title.tra~
+COPY_EXISTING + ~RoTerror/title.tr~ ~RoTerror/title.tra~
  SPRINT bgt " "
  SPRINT tdd ""
  SPRINT sos ""
@@ -112,5 +112,5 @@ COPY ~RoTerror/gui~ ~GUI_Mods/%gui_slot_name%~
  SPRINT str ~Play%bgt%Shadows of Amn<TM>%separator2%%ts%%tdd%%sos%%nej%%bp%%ctb%%rot%~
  REPLACE_TEXTUALLY ~game prompt~ "%str%"
 
- STRING_SET ~73245~ @123456789 USING ~RoTerror/title.tra~*/
+ STRING_SET ~73245~ @123456789 USING ~RoTerror/title.tra~
 //***********************************************************************************
