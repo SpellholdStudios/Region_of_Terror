@@ -1708,7 +1708,7 @@ END
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	MAKE_BIFF ~RoT-RULE~ BEGIN
-		~override~ ~^.*\.2da$~
+		~override~ ~RoT.mrk~
 	END
 	ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
 		AT_UNINSTALL ~rmdir /s /q %MOD_FOLDER%\temp~ EXACT
@@ -1719,7 +1719,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_RoT_biff BEGIN
 		~RoT-TIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
 		~RoT-WAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
-		~RoT-RES~ , ~override~ , ~^.*$~ => 100000000 //100 MB
+//		~RoT-RES~ , ~override~ , ~^.*$~ => 100000000 //100 MB
 	END
 	
 	ACTION_PHP_EACH table_RoT_biff AS biff => size BEGIN
@@ -1974,7 +1974,7 @@ END
 //***********************************************************************************
 BEGIN @1626
 REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) ~Not for EET and BG2EE~
-REQUIRE_COMPONENT ~ROTERROR/SETUP-ROTERROR.TP2~      "0"  ~You must have RoT mod installed~
+REQUIRE_COMPONENT ~ROTERROR/SETUP-ROTerror.TP2~      "0"  ~You must have RoT mod installed~
 FORBID_COMPONENT  "Setup-TDD.tp2"      "1"  ~You must not have "TDD Kit Pack" installed to activate RoT kits successfully~
 
 INCLUDE ~%MOD_FOLDER%/lib/install-kits.tpa~
