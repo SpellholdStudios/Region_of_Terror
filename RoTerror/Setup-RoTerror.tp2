@@ -1458,7 +1458,7 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 		path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~
 		path_to_trans = EVAL ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
 	END
-	INCLUDE ~%MOD_FOLDER%/worldmap/eet/PatchingAreas.tpa~
+	//INCLUDE ~%MOD_FOLDER%/worldmap/eet/PatchingAreas.tpa~
 END
 
 //////////////////////////////
