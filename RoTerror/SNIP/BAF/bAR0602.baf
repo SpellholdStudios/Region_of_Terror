@@ -2,8 +2,9 @@ IF
 	Global("CreaWulfi","AR0602",0)
 THEN
 	RESPONSE #100
-		CreateCreature("Wulfg2",[630.2340],13) // Wulfgar
-		SetGlobal("CreaWulfi","AR0602",1)
+	SetGlobal("EntJar1","AR0602",2)
+	SetGlobal("CreaWulfi","AR0602",1)
+	CreateCreature("Wulfg2",[630.2340],13) 
 END
 
 IF
@@ -16,6 +17,14 @@ THEN
 		StartCutSceneMode()
 		StartCutScene("EntJar1")
 		UnhideGUI()
+END
+
+IF
+Global("EntJar1","AR0602",2)
+PartyHasItem("Misc4b")
+THEN
+RESPONSE #100
+SetGlobal("EntJar1","AR0602",0)
 END
 
 
