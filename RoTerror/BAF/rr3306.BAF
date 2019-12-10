@@ -58,7 +58,7 @@ IF
 	Global("Fndlst","GLOBAL",1)
 THEN
 	RESPONSE #100
-		AddJournalEntry(75061,QUEST)
+		AddJournalEntry(@575061,QUEST)
 		SetGlobal("Fndlst","GLOBAL",2)
 END
 
