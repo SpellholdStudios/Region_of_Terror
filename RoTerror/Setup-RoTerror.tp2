@@ -1700,11 +1700,6 @@ END
 // biffing
 //////////////////////////////
 
-ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN		//older mods use RoT-RULE
-	MAKE_BIFF ~RoT-RULE~ BEGIN
-		~override~ ~RoT.mrk~
-	END
-END
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	MAKE_BIFF ~RoT-RULE~ BEGIN
