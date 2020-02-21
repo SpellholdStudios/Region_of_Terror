@@ -1,0 +1,9 @@
+33
+1  OUTDOOR           
+2  DAYNIGHT          
+4  WEATHER           
+8  CITY              
+16 FOREST            
+32 DUNGEON           
+64 EXTENDEDNIGHT     
+128 CANRESTOTHER

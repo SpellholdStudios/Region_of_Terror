@@ -1,0 +1,2808 @@
+COPY_EXISTING ~CAT.CRE~ ~override~
+ WRITE_ASCII 0x280 ~CAT01~ #8          //DV
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~COW.CRE~ ~override~
+ WRITE_ASCII 0x280 ~COW01~ #8          //DV
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~HORSE.CRE~ ~override~
+ WRITE_ASCII 0x280 ~HORSE01~ #8        //DV
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~ORC06.CRE~ ~override~
+ ADD_CRE_ITEM ~XBOW04~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~VAMPBAT.CRE~ ~override~
+ WRITE_ASCII 0x280 ~VAMPBAT~ #8        //DV
+BUT_ONLY_IF_IT_CHANGES
+
+
+//***********************************************************************************
+PRINT @113
+
+COPY ~RoT/cre/nostring~    ~override~
+
+
+COPY ~RoT/cre/AHIGHMA1.cre~  ~override~
+     ~RoT/cre/AHIGHMA2.cre~  ~override~
+  SAY NAME1 @114
+  SAY NAME2 @114
+
+COPY ~RoT/cre/AHIGHMA3.cre~  ~override~
+  SAY NAME1 @115
+  SAY NAME2 @115
+
+COPY ~RoT/cre/ALENNA.cre~    ~override~
+  SAY NAME1 @116
+  SAY NAME2 @116
+
+COPY ~RoT/cre/ALESSARI.cre~  ~override~
+  SAY NAME1 @117
+  SAY NAME2 @117
+
+COPY ~RoT/cre/ALISEXT.cre~   ~override~
+     ~RoT/cre/ALISSA8.cre~   ~override~
+     ~RoT/cre/ALISSA10.cre~  ~override~
+     ~RoT/cre/ALISSA12.cre~  ~override~
+     ~RoT/cre/ALISSA14.cre~  ~override~
+  SAY NAME1 @118
+  SAY NAME2 @118
+  SAY 0xa8 @119  
+  SAY 0xac @120 
+  SAY 0xb0 @121 
+  SAY 0xb4 @122  
+  SAY 0xb8 @123  
+  SAY 0xbc @124  
+  SAY 0xc0 @125  
+  SAY 0xc4 @126 
+  SAY 0xc8 @127  
+  SAY 0xcc @128  
+  SAY 0xd0 @129  
+  SAY 0xec @130 
+  SAY 0xf0 @131  
+  SAY 0xf4 @132  
+  SAY 0xf8 @133  
+  SAY 0xfc @134  
+  SAY 0x100 @135  
+  SAY 0x104 @136 
+  SAY 0x108 @137  
+  SAY 0x10c @138 
+  SAY 0x110 @139  
+  SAY 0x114 @140  
+  SAY 0x118 @141  
+  SAY 0x11c @142  
+  SAY 0x120 @143 
+  SAY 0x124 @144  
+  SAY 0x128 @145  
+  SAY 0x12c @146  
+  SAY 0x130 @147  
+  SAY 0x134 @148 
+  SAY 0x138 @149  
+  SAY 0x13c @150  
+  SAY 0x1a8 @151  
+  SAY 0x1ac @152  
+  SAY 0x1b0 @153  
+  SAY 0x1b4 @154 
+  SAY 0x1c0 @155  
+  SAY 0x1cc @156
+
+COPY ~RoT/cre/ALROR.cre~     ~override~
+  SAY NAME1 @157 
+  SAY NAME2 @157 
+
+COPY ~RoT/cre/ALTHUR.cre~    ~override~
+  SAY NAME1 @158
+  SAY NAME2 @158 
+
+COPY ~RoT/cre/ANN11.cre~     ~override~
+  SAY NAME1 @159
+  SAY NAME2 @159 
+
+COPY ~RoT/cre/ANTTI.cre~     ~override~
+  SAY NAME1 @160 
+  SAY NAME2 @160 
+
+COPY ~RoT/cre/ARENAA1.cre~   ~override~
+     ~RoT/cre/ARENAA2.cre~   ~override~
+     ~RoT/cre/ARENAA3.cre~   ~override~
+     ~RoT/cre/ARENAA4.cre~   ~override~
+     ~RoT/cre/ARENAA5.cre~   ~override~
+     ~RoT/cre/ARENAA6.cre~   ~override~
+     ~RoT/cre/ARENAA7.cre~   ~override~
+  SAY NAME1 @161 
+  SAY NAME2 @161 
+
+COPY ~RoT/cre/ARENAF1.cre~   ~override~
+     ~RoT/cre/ARENAF2.cre~   ~override~
+  SAY NAME1 @162 
+  SAY NAME2 @162 
+
+COPY ~RoT/cre/ARENAF3.cre~   ~override~        
+  SAY NAME1 @163 
+  SAY NAME2 @163
+
+COPY ~RoT/cre/ARENAL1.cre~   ~override~
+  SAY NAME1 @164 
+  SAY NAME2 @164 
+
+COPY ~RoT/cre/ARENAMA1.cre~  ~override~
+  SAY NAME1 @165
+  SAY NAME2 @165
+
+COPY ~RoT/cre/ARENAMA2.cre~  ~override~
+  SAY NAME1 @166
+  SAY NAME2 @166
+
+COPY ~RoT/cre/ARENAMA3.cre~  ~override~       
+  SAY NAME1 @167
+  SAY NAME2 @167
+
+COPY ~RoT/cre/ARENAMA4.cre~  ~override~       
+  SAY NAME1 @168
+  SAY NAME2 @168 
+
+COPY ~RoT/cre/ARENAMA5.cre~  ~override~
+  SAY NAME1 @169 
+  SAY NAME2 @169 
+
+COPY ~RoT/cre/ARFI51.cre~    ~override~
+  SAY NAME1 @170 
+  SAY NAME2 @170 
+
+COPY ~RoT/cre/ARFI52.cre~    ~override~         
+  SAY NAME1 @171 
+  SAY NAME2 @171 
+
+COPY ~RoT/cre/ARFI53.cre~    ~override~         
+  SAY NAME1 @172 
+  SAY NAME2 @172 
+
+COPY ~RoT/cre/ARFI54.cre~    ~override~         
+  SAY NAME1 @173 
+  SAY NAME2 @173 
+
+COPY ~RoT/cre/ARFI55.cre~    ~override~         
+  SAY NAME1 @174
+  SAY NAME2 @174 
+
+COPY ~RoT/cre/ARFRMR1.cre~   ~override~
+     ~RoT/cre/ARFRMR2.cre~   ~override~
+  SAY NAME1 @175
+  SAY NAME2 @175
+
+COPY ~RoT/cre/ARFRMRB1.cre~  ~override~
+     ~RoT/cre/ARLAXB1.cre~   ~override~
+  SAY 0xa4 @176 
+  SAY 0xb8 @177 
+  SAY 0x10c @176 
+  SAY 0x110 @178 
+  SAY 0x114 @179 
+  SAY 0x118 @180 
+
+COPY ~RoT/cre/ARFRMRG1.cre~  ~override~
+  SAY 0xa4 @181 
+  SAY 0x10c @182 
+  SAY 0x110 @183 
+  SAY 0x114 @184 
+  SAY 0x118 @185 
+
+COPY ~RoT/cre/ARFRMRW1.cre~  ~override~
+     ~RoT/cre/ARFRMRW2.cre~  ~override~
+  SAY NAME1 @186
+  SAY NAME2 @186
+
+COPY ~RoT/cre/ARINVS.cre~    ~override~
+  SAY NAME1 @187
+  SAY NAME2 @187
+
+COPY ~RoT/cre/ARLAXC2.cre~   ~override~
+     ~RoT/cre/ARLAXC5.cre~   ~override~
+  SAY 0xa4 @188 
+  SAY 0xb8 @189 
+  SAY 0x10c @188 
+  SAY 0x110 @190 
+
+COPY ~RoT/cre/ARLAXG1.cre~   ~override~
+     ~RoT/cre/ARLAXG2.cre~   ~override~
+     ~RoT/cre/ARLAXG3.cre~   ~override~
+     ~RoT/cre/ARLAXG4.cre~   ~override~
+     ~RoT/cre/ARLAXG5.cre~   ~override~
+  SAY NAME1 @191
+  SAY NAME2 @191
+  SAY 0xa4 @192 
+  SAY 0xb8 @193 
+  SAY 0xc8 @194 
+  SAY 0x10c @195 
+  SAY 0x110 @196 
+  SAY 0x114 @197 
+  SAY 0x118 @198 
+
+COPY ~RoT/cre/ARLAXGC.cre~   ~override~
+  SAY NAME1 @199 
+  SAY NAME2 @199 
+  SAY 0xa4 @192  
+  SAY 0xb8 @193  
+  SAY 0xc8 @194  
+  SAY 0x10c @195  
+  SAY 0x110 @196 
+  SAY 0x114 @197  
+  SAY 0x118 @198  
+
+COPY ~RoT/cre/ARLAXGI1.cre~  ~override~
+  SAY 0xa4 @181 
+  SAY 0x10c @182  
+  SAY 0x110 @183  
+  SAY 0x114 @184 
+  SAY 0x118 @185  
+
+COPY ~RoT/cre/ARLAXN1.cre~   ~override~
+  SAY NAME1 @200 
+  SAY NAME2 @200 
+  SAY 0xa4 @201 
+  SAY 0xb8 @202  
+  SAY 0x10c @201  
+  SAY 0x110 @203  
+
+COPY ~RoT/cre/ARLAXN2.cre~   ~override~
+  SAY NAME1 @204 
+  SAY NAME2 @204 
+  SAY 0xa4 @205  
+  SAY 0xb8 @206  
+  SAY 0x10c @205 
+  SAY 0x110 @207  
+
+COPY ~RoT/cre/ARLAXN3.cre~   ~override~
+     ~RoT/cre/ARLAXN4.cre~   ~override~
+  SAY NAME1 @208 
+  SAY NAME2 @208 
+  SAY 0xa4 @201  
+  SAY 0xb8 @202  
+  SAY 0x10c @201  
+  SAY 0x110 @203 
+
+COPY ~RoT/cre/ARLAXN5.cre~   ~override~
+     ~RoT/cre/ARLAXN6.cre~   ~override~
+  SAY NAME1 @209 
+  SAY NAME2 @209
+  SAY 0xa4 @205 
+  SAY 0xb8 @206  
+  SAY 0x10c @205  
+  SAY 0x110 @207  
+
+COPY ~RoT/cre/ARLAXP2.cre~   ~override~
+     ~RoT/cre/ARLAXP5.cre~   ~override~
+  SAY 0xa4 @188 
+  SAY 0xb8 @189 
+  SAY 0x10c @188 
+  SAY 0x110 @190 
+
+COPY ~RoT/cre/ARLSM.cre~     ~override~
+  SAY NAME1 @210
+  SAY NAME2 @210
+
+COPY ~RoT/cre/ARLTRAV.cre~   ~override~
+  SAY NAME1 @211
+  SAY NAME2 @211
+
+COPY ~RoT/cre/ASHAM.cre~     ~override~
+  SAY NAME1 @212 
+  SAY NAME2 @212 
+
+COPY ~RoT/cre/AUFI1.cre~     ~override~
+     ~RoT/cre/AUFI2.cre~     ~override~
+  SAY NAME1 @162
+  SAY NAME2 @162
+
+COPY ~RoT/cre/AUNO1.cre~     ~override~
+     ~RoT/cre/AUNO2.cre~     ~override~
+     ~RoT/cre/AUNO3.cre~     ~override~
+     ~RoT/cre/AUNO4.cre~     ~override~
+     ~RoT/cre/AUNO5.cre~     ~override~
+     ~RoT/cre/AUPE1.cre~     ~override~
+     ~RoT/cre/AUPE2.cre~     ~override~
+     ~RoT/cre/AUPE3.cre~     ~override~
+     ~RoT/cre/AUPE4.cre~     ~override~
+     ~RoT/cre/AUPE5.cre~     ~override~
+  SAY NAME1 @161 
+  SAY NAME2 @161 
+
+COPY ~RoT/cre/AVENGER.cre~   ~override~
+  SAY NAME1 @213 
+  SAY NAME2 @213
+
+COPY ~RoT/cre/BATMAGE1.cre~  ~override~
+     ~RoT/cre/BATMAGE2.cre~  ~override~
+  SAY NAME1 @214
+  SAY NAME2 @214
+
+COPY ~RoT/cre/BBRUNO.cre~    ~override~
+  SAY NAME1 @215
+  SAY NAME2 @215
+
+COPY ~RoT/cre/BCDM.cre~      ~override~
+  SAY NAME1 @216 
+  SAY NAME2 @216 
+  SAY 0xa4 @176 
+  SAY 0xb8 @177  
+  SAY 0x10c @176  
+  SAY 0x110 @178  
+  SAY 0x114 @179 
+  SAY 0x118 @180  
+
+COPY ~RoT/cre/BCDM2.cre~     ~override~
+  SAY 0xa4 @176 
+  SAY 0xb8 @177  
+  SAY 0x10c @176  
+  SAY 0x110 @178  
+  SAY 0x114 @179  
+  SAY 0x118 @180  
+
+COPY ~RoT/cre/BELETH.cre~    ~override~
+  SAY NAME1 @217 
+  SAY NAME2 @217 
+
+COPY ~RoT/cre/BEOGORN.cre~   ~override~
+  SAY NAME1 @218 
+  SAY NAME2 @218 
+
+COPY ~RoT/cre/BHELAL.cre~    ~override~
+  SAY NAME1 @219 
+  SAY NAME2 @219 
+
+COPY ~RoT/cre/BIGGS.cre~     ~override~
+  SAY NAME1 @220 
+  SAY NAME2 @220 
+
+COPY ~RoT/cre/BLUEDRG.cre~   ~override~
+  SAY NAME1 @221 
+  SAY NAME2 @221 
+
+COPY ~RoT/cre/BREELLE1.cre~  ~override~
+  SAY NAME1 @222 
+  SAY NAME2 @222 
+
+COPY ~RoT/cre/BREFI5.cre~    ~override~
+     ~RoT/cre/BREFI6.cre~    ~override~
+  SAY NAME1 @223
+  SAY NAME2 @223
+
+COPY ~RoT/cre/BREFI8.cre~    ~override~
+  SAY NAME1 @224 
+  SAY NAME2 @224 
+
+COPY ~RoT/cre/BREFI9.cre~    ~override~
+  SAY NAME1 @225 
+  SAY NAME2 @225 
+
+COPY ~RoT/cre/BREFR1.cre~    ~override~
+     ~RoT/cre/BREFR2.cre~    ~override~
+  SAY NAME1 @226
+  SAY NAME2 @226
+
+COPY ~RoT/cre/BREHERM1.cre~  ~override~
+     ~RoT/cre/BREHERM2.cre~  ~override~
+     ~RoT/cre/BREHERM3.cre~  ~override~
+  SAY NAME1 @227 
+  SAY NAME2 @227 
+
+COPY ~RoT/cre/BRELAMOR.cre~  ~override~
+  SAY NAME1 @228
+  SAY NAME2 @228 
+
+COPY ~RoT/cre/BRETOR1.cre~   ~override~
+  SAY NAME1 @229 
+  SAY NAME2 @229 
+
+COPY ~RoT/cre/BREVIL1.cre~   ~override~
+     ~RoT/cre/BREVIL2.cre~   ~override~
+     ~RoT/cre/BREVIL3.cre~   ~override~
+  SAY NAME1 @230
+  SAY NAME2 @230
+  SAY 0xa4 @231 
+  SAY 0x10c @231 
+  SAY 0x110 @232 
+
+COPY ~RoT/cre/BREVIL4.cre~   ~override~
+     ~RoT/cre/BREVIL5.cre~   ~override~
+     ~RoT/cre/BREVIL6.cre~   ~override~
+  SAY NAME1 @230
+  SAY NAME2 @230 
+  SAY 0xa4 @188  
+  SAY 0xb8 @189  
+  SAY 0x10c @188  
+  SAY 0x110 @190  
+
+COPY ~RoT/cre/BREVIL7.cre~   ~override~
+  SAY 0xa4 @176 
+  SAY 0xb8 @177  
+  SAY 0x10c @176 
+  SAY 0x110 @178  
+  SAY 0x114 @179  
+  SAY 0x118 @180  
+
+COPY ~RoT/cre/BREVIL8.cre~   ~override~
+  SAY 0xa4 @181 
+  SAY 0x10c @182 
+  SAY 0x110 @183 
+  SAY 0x114 @184 
+  SAY 0x118 @185 
+
+COPY ~RoT/cre/BRUE2.cre~     ~override~
+     ~RoT/cre/BRUE21.cre~    ~override~
+     ~RoT/cre/BRUE22.cre~    ~override~
+     ~RoT/cre/BRUE23.cre~    ~override~
+     ~RoT/cre/BRUENO2.cre~   ~override~
+     ~RoT/cre/PRUEN3C.cre~   ~override~
+     ~RoT/cre/PRUENOR.cre~   ~override~
+  SAY NAME1 @233
+  SAY NAME2 @233
+  SAY 0xa8 @234 
+  SAY 0xac @235 
+  SAY 0xb0 @236 
+  SAY 0xb4 @237 
+  SAY 0xb8 @238 
+  SAY 0xbc @239 
+  SAY 0xc4 @240 
+  SAY 0xc8 @241 
+  SAY 0xcc @242 
+  SAY 0xd0 @243 
+  SAY 0xec @244
+  SAY 0xf0 @245 
+  SAY 0xf4 @246 
+  SAY 0xf8 @247 
+  SAY 0xfc @248 
+  SAY 0x100 @249 
+  SAY 0x104 @250 
+  SAY 0x108 @251 
+  SAY 0x10c @252 
+  SAY 0x110 @253 
+  SAY 0x114 @254 
+  SAY 0x118 @255 
+  SAY 0x11c @256 
+  SAY 0x120 @257 
+  SAY 0x124 @258 
+  SAY 0x128 @259 
+  SAY 0x12c @260 
+  SAY 0x130 @261 
+  SAY 0x134 @262 
+  SAY 0x138 @263 
+  SAY 0x13c @264 
+  SAY 0x1a8 @265 
+  SAY 0x1ac @266 
+  SAY 0x1b0 @267 
+  SAY 0x1b4 @268 
+  SAY 0x1bc @269 
+  SAY 0x1c0 @270 
+  SAY 0x1cc @271
+
+COPY ~RoT/cre/BRUNDOR.cre~   ~override~
+     ~RoT/cre/BRUNDOR2.cre~  ~override~
+  SAY NAME1 @272
+  SAY NAME2 @272
+
+COPY ~RoT/cre/BRYNE.cre~     ~override~
+  SAY NAME1 @273
+  SAY NAME2 @273
+
+COPY ~RoT/cre/BURRICH.cre~   ~override~
+  SAY NAME1 @274
+  SAY NAME2 @274
+
+COPY ~RoT/cre/CADDEM16.cre~  ~override~
+     ~RoT/cre/CADDEM21.cre~  ~override~
+  SAY NAME1 @275
+  SAY NAME2 @275
+
+COPY ~RoT/cre/CADDEM17.cre~  ~override~
+  SAY NAME1 @276
+  SAY NAME2 @276
+
+COPY ~RoT/cre/CADDEM18.cre~  ~override~
+     ~RoT/cre/CADDEM25.cre~  ~override~
+  SAY NAME1 @277
+  SAY NAME2 @277
+
+COPY ~RoT/cre/CADDEM19.cre~  ~override~
+  SAY NAME1 @278
+  SAY NAME2 @278
+
+COPY ~RoT/cre/CADDEM22.cre~  ~override~
+  SAY NAME1 @279
+  SAY NAME2 @279
+
+COPY ~RoT/cre/CADDEM8.cre~   ~override~
+  SAY NAME1 @280
+  SAY NAME2 @280
+
+COPY ~RoT/cre/CADPRI8.cre~   ~override~
+     ~RoT/cre/CADPRI9.cre~   ~override~
+     ~RoT/cre/CADPRI21.cre~  ~override~
+  SAY NAME1 @281
+  SAY NAME2 @281
+
+COPY ~RoT/cre/CADPRI11.cre~  ~override~
+     ~RoT/cre/CADPRI23.cre~  ~override~
+  SAY NAME1 @282
+  SAY NAME2 @282
+
+COPY ~RoT/cre/CADPRI12.cre~  ~override~
+  SAY NAME1 @283
+  SAY NAME2 @283
+
+COPY ~RoT/cre/CADPRI13.cre~  ~override~
+     ~RoT/cre/CADPRI24.cre~  ~override~
+  SAY NAME1 @284
+  SAY NAME2 @284
+
+COPY ~RoT/cre/CADPRI14.cre~  ~override~
+  SAY NAME1 @285
+  SAY NAME2 @285
+
+COPY ~RoT/cre/CADPRI15.cre~  ~override~
+  SAY NAME1 @286
+  SAY NAME2 @286
+
+COPY ~RoT/cre/CADPRI7.cre~   ~override~
+     ~RoT/cre/CADPRI10.cre~  ~override~
+     ~RoT/cre/CADPRI22.cre~  ~override~
+  SAY NAME1 @287
+  SAY NAME2 @287
+
+COPY ~RoT/cre/CAERN.cre~     ~override~
+  SAY NAME1 @288
+  SAY NAME2 @288 
+
+COPY ~RoT/cre/CAIN.cre~      ~override~
+  SAY NAME1 @289 
+  SAY NAME2 @289 
+
+COPY ~RoT/cre/CALDAR.cre~    ~override~
+  SAY NAME1 @290 
+  SAY NAME2 @290 
+
+COPY ~RoT/cre/CALTORN.cre~   ~override~
+  SAY NAME1 @291 
+  SAY NAME2 @291 
+
+COPY ~RoT/cre/CARSERV1.cre~  ~override~
+     ~RoT/cre/CARSERV2.cre~  ~override~
+     ~RoT/cre/CARSERV3.cre~  ~override~
+     ~RoT/cre/CARSERV4.cre~  ~override~
+     ~RoT/cre/CARSERV5.cre~  ~override~
+  SAY 0xa4 @192 
+  SAY 0xb8 @193 
+  SAY 0xc8 @194 
+  SAY 0x10c @195 
+  SAY 0x110 @196 
+  SAY 0x114 @197 
+  SAY 0x118 @198 
+
+COPY ~RoT/cre/CASTLEGR.cre~  ~override~
+  SAY NAME1 @292 
+  SAY NAME2 @292 
+  SAY 0xa4 @192 
+  SAY 0xb8 @193  
+  SAY 0xc8 @194  
+  SAY 0x10c @195  
+  SAY 0x110 @196  
+  SAY 0x114 @197  
+  SAY 0x118 @198  
+
+COPY ~RoT/cre/CASTRE1.cre~   ~override~
+  SAY NAME1 @293 
+  SAY NAME2 @293 
+
+COPY ~RoT/cre/CASTRE2.cre~   ~override~        
+     ~RoT/cre/CASTRE3.cre~   ~override~
+  SAY NAME1 @294 
+  SAY NAME2 @294 
+
+COPY ~RoT/cre/CATT2.cre~     ~override~
+     ~RoT/cre/CATT21.cre~    ~override~
+  SAY NAME1 @295 
+  SAY NAME2 @295
+  SAY 0xac @296 
+  SAY 0xb0 @297  
+  SAY 0xb4 @298  
+  SAY 0xb8 @299  
+  SAY 0xbc @300  
+  SAY 0xc0 @301 
+  SAY 0xc4 @302  
+  SAY 0xc8 @303  
+  SAY 0xcc @304  
+  SAY 0xd0 @305  
+  SAY 0xec @306
+  SAY 0xf0 @307  
+  SAY 0xf4 @308  
+  SAY 0xf8 @309  
+  SAY 0xfc @310  
+  SAY 0x100 @311  
+  SAY 0x104 @312  
+  SAY 0x108 @313  
+  SAY 0x10c @314
+  SAY 0x110 @315  
+  SAY 0x114 @316  
+  SAY 0x118 @317 
+  SAY 0x11c @318  
+  SAY 0x120 @319  
+  SAY 0x124 @320  
+  SAY 0x128 @321  
+  SAY 0x12c @322  
+  SAY 0x130 @323  
+  SAY 0x134 @324  
+  SAY 0x138 @325  
+  SAY 0x13c @326  
+  SAY 0x1a8 @327  
+  SAY 0x1ac @328  
+  SAY 0x1b0 @329  
+  SAY 0x1b4 @330  
+  SAY 0x1bc @331  
+  SAY 0x1c0 @332  
+  SAY 0x1cc @333 
+
+COPY ~RoT/cre/CHADE.cre~     ~override~
+  SAY NAME1 @334 
+  SAY NAME2 @334 
+
+COPY ~RoT/cre/CHAUNTI.cre~   ~override~
+     ~RoT/cre/CHAUNTI2.cre~  ~override~
+  SAY NAME1 @335 
+  SAY NAME2 @335 
+
+COPY ~RoT/cre/CHOYOL.cre~    ~override~
+  SAY NAME1 @336 
+  SAY NAME2 @336 
+
+COPY ~RoT/cre/CHUYOL.cre~    ~override~
+  SAY NAME1 @337 
+  SAY NAME2 @337 
+
+COPY ~RoT/cre/CHXZAR.cre~    ~override~
+  SAY NAME1 @338 
+  SAY NAME2 @338 
+
+COPY ~RoT/cre/CLOB.cre~      ~override~
+  SAY NAME1 @339 
+  SAY NAME2 @339 
+  SAY 0xa4 @231  
+  SAY 0x10c @231  
+  SAY 0x110 @232  
+
+COPY ~RoT/cre/COLBERT.cre~   ~override~
+  SAY NAME1 @340 
+  SAY NAME2 @340 
+
+COPY ~RoT/cre/CRATZYL.cre~   ~override~
+  SAY NAME1 @341
+  SAY NAME2 @341
+
+COPY ~RoT/cre/CULTBE1.cre~   ~override~
+  SAY NAME1 @225 
+  SAY NAME2 @225 
+
+COPY ~RoT/cre/CULTBE10.cre~  ~override~
+     ~RoT/cre/CULTBE11.cre~  ~override~
+     ~RoT/cre/CULTBE12.cre~  ~override~
+     ~RoT/cre/CULTBE19.cre~  ~override~
+     ~RoT/cre/CULTBE20.cre~  ~override~
+     ~RoT/cre/CULTBE25.cre~  ~override~
+     ~RoT/cre/CULTBE5.cre~   ~override~
+     ~RoT/cre/CULTBE6.cre~   ~override~
+     ~RoT/cre/CULTBE8.cre~   ~override~
+     ~RoT/cre/CULTBE9.cre~   ~override~
+  SAY NAME1 @342
+  SAY NAME2 @342
+
+COPY ~RoT/cre/CULTBE13.cre~  ~override~
+     ~RoT/cre/CULTBE7.cre~   ~override~
+  SAY NAME1 @343
+  SAY NAME2 @343
+
+COPY ~RoT/cre/CULTBE14.cre~  ~override~
+     ~RoT/cre/CULTBE15.cre~  ~override~
+     ~RoT/cre/CULTBE16.cre~  ~override~
+     ~RoT/cre/CULTBE2.cre~   ~override~
+     ~RoT/cre/CULTBE3.cre~   ~override~
+     ~RoT/cre/CULTBE4.cre~   ~override~
+  SAY NAME1 @344
+  SAY NAME2 @344
+
+COPY ~RoT/cre/CULTBE17.cre~  ~override~
+  SAY NAME1 @345
+  SAY NAME2 @345
+
+COPY ~RoT/cre/CULTBE18.cre~  ~override~
+  SAY NAME1 @346
+  SAY NAME2 @346
+
+COPY ~RoT/cre/CULTBEH.cre~   ~override~
+  SAY NAME1 @347 
+  SAY NAME2 @347 
+
+COPY ~RoT/cre/CULTMO12.cre~  ~override~
+  SAY NAME1 @348
+  SAY NAME2 @348
+
+COPY ~RoT/cre/CULTMO3.cre~   ~override~
+  SAY NAME1 @349
+  SAY NAME2 @349
+
+COPY ~RoT/cre/CULTMO4.cre~   ~override~
+  SAY NAME1 @350
+  SAY NAME2 @350
+
+COPY ~RoT/cre/CULTMO5.cre~   ~override~
+  SAY NAME1 @351
+  SAY NAME2 @351
+
+COPY ~RoT/cre/CULTMO7.cre~   ~override~
+  SAY NAME1 @352
+  SAY NAME2 @352
+
+COPY ~RoT/cre/CULTSA11.cre~  ~override~
+     ~RoT/cre/CULTSA12.cre~  ~override~
+     ~RoT/cre/CULTSA13.cre~  ~override~
+     ~RoT/cre/CULTSA14.cre~  ~override~
+     ~RoT/cre/CULTSA15.cre~  ~override~
+  SAY NAME1 @353
+  SAY NAME2 @353
+
+COPY ~RoT/cre/CULTSA21.cre~  ~override~
+     ~RoT/cre/CULTSA22.cre~  ~override~
+     ~RoT/cre/CULTSA23.cre~  ~override~
+     ~RoT/cre/CULTSA24.cre~  ~override~
+     ~RoT/cre/CULTSAC1.cre~  ~override~
+     ~RoT/cre/CULTSAC2.cre~  ~override~
+     ~RoT/cre/CULTSAC3.cre~  ~override~
+     ~RoT/cre/CULTSAC4.cre~  ~override~
+     ~RoT/cre/CULTSAC5.cre~  ~override~
+     ~RoT/cre/CULTSAC6.cre~  ~override~
+     ~RoT/cre/CULTSAC7.cre~  ~override~
+  SAY NAME1 @354
+  SAY NAME2 @354
+
+COPY ~RoT/cre/CYCLEAD.cre~   ~override~
+  SAY NAME1 @355 
+  SAY NAME2 @355 
+
+COPY ~RoT/cre/CYCLOP.cre~    ~override~
+     ~RoT/cre/CYCLOP2.cre~   ~override~
+     ~RoT/cre/CYCLOP3.cre~   ~override~
+     ~RoT/cre/CYCLOP4.cre~   ~override~
+  SAY NAME1 @356 
+  SAY NAME2 @356 
+
+COPY ~RoT/cre/DADRAGON.cre~  ~override~
+  SAY NAME1 @357 
+  SAY NAME2 @357 
+
+COPY ~RoT/cre/DEANO.cre~     ~override~
+  SAY NAME1 @358
+  SAY NAME2 @358 
+
+COPY ~RoT/cre/DELEI.cre~     ~override~
+  SAY NAME1 @359 
+  SAY NAME2 @359
+
+COPY ~RoT/cre/DENEIR2.cre~   ~override~
+  SAY NAME1 @360
+  SAY NAME2 @360 
+
+COPY ~RoT/cre/DESMAGE.cre~   ~override~
+  SAY NAME1 @361 
+  SAY NAME2 @361 
+
+COPY ~RoT/cre/DIVGUAR.cre~   ~override~
+  SAY NAME1 @362 
+  SAY NAME2 @362 
+
+COPY ~RoT/cre/DRIZ21.cre~    ~override~
+     ~RoT/cre/DRIZI2.cre~    ~override~
+  SAY NAME1 @363
+  SAY NAME2 @363 
+  SAY 0xa8 @364 
+  SAY 0xac @365  
+  SAY 0xb0 @366  
+  SAY 0xb4 @367  
+  SAY 0xb8 @368  
+  SAY 0xbc @369  
+  SAY 0xc0 @370  
+  SAY 0xc4 @371  
+  SAY 0xc8 @372  
+  SAY 0xcc @373  
+  SAY 0xd0 @374  
+  SAY 0xec @375
+  SAY 0xf0 ~~ [DRIZZT10] 
+  SAY 0xf4 @377 
+  SAY 0xf8 @378 
+  SAY 0xfc @379  
+  SAY 0x100 @380  
+  SAY 0x104 @381  
+  SAY 0x108 @382  
+  SAY 0x10c @383
+  SAY 0x110 @384  
+  SAY 0x114 @385  
+  SAY 0x118 @383
+  SAY 0x11c @386 
+  SAY 0x120 @387  
+  SAY 0x124 @388  
+  SAY 0x128 @389  
+  SAY 0x12c @390  
+  SAY 0x130 @391  
+  SAY 0x134 @392  
+  SAY 0x138 @393
+  SAY 0x13c @394
+  SAY 0x1a8 @395
+  SAY 0x1ac @396  
+  SAY 0x1b0 @397  
+  SAY 0x1b4 @398  
+  SAY 0x1bc @399  
+  SAY 0x1c0 @400  
+  SAY 0x1cc @401
+
+COPY ~RoT/cre/EGALD1.cre~    ~override~
+     ~RoT/cre/EGALD2.cre~    ~override~
+     ~RoT/cre/EGALD3.cre~    ~override~
+  SAY NAME1 @402 
+  SAY NAME2 @402 
+
+COPY ~RoT/cre/EGMAGE1.cre~   ~override~
+  SAY NAME1 @403
+  SAY NAME2 @403
+
+COPY ~RoT/cre/EGMAGE2.cre~   ~override~
+  SAY NAME1 @404
+  SAY NAME2 @404
+
+COPY ~RoT/cre/ELEANA.cre~    ~override~
+     ~RoT/cre/ELEANA2.cre~   ~override~
+     ~RoT/cre/ELEANA3.cre~   ~override~
+  SAY NAME1 @405
+  SAY NAME2 @405
+
+COPY ~RoT/cre/ELRICK1.cre~   ~override~
+  SAY NAME1 @406
+  SAY NAME2 @406
+
+COPY ~RoT/cre/ENRICO.cre~    ~override~
+  SAY NAME1 @407
+  SAY NAME2 @407
+
+COPY ~RoT/cre/ENTER2.cre~    ~override~
+     ~RoT/cre/ENTERI.cre~    ~override~
+     ~RoT/cre/ENTERI2.cre~   ~override~
+     ~RoT/cre/ENTERI3C.cre~  ~override~
+     ~RoT/cre/ENTERI5C.cre~  ~override~
+     ~RoT/cre/ENTERI6C.cre~  ~override~
+     ~RoT/cre/ENTERISS.cre~  ~override~
+  SAY NAME1 @408
+  SAY NAME2 @408 
+  SAY 0xac @409  
+  SAY 0xb0 @410  
+  SAY 0xb4 @411 
+  SAY 0xb8 @412  
+  SAY 0xbc @413  
+  SAY 0xc0 @414 
+  SAY 0xc4 @415  
+  SAY 0xc8 @416  
+  SAY 0xcc @417  
+  SAY 0xd0 @418  
+  SAY 0xec @419
+  SAY 0xf0 @420  
+  SAY 0xf4 @421  
+  SAY 0xfc @422  
+  SAY 0x100 @423  
+  SAY 0x108 @424  
+  SAY 0x10c @425  
+  SAY 0x110 @426  
+  SAY 0x114 @427  
+  SAY 0x118 @428  
+  SAY 0x11c @429  
+  SAY 0x120 @430  
+  SAY 0x124 @431  
+  SAY 0x128 @432  
+  SAY 0x12c @433  
+  SAY 0x130 @434  
+  SAY 0x134 @435  
+  SAY 0x138 @436  
+  SAY 0x13c @437 
+  SAY 0x1a8 @438  
+  SAY 0x1ac @439  
+  SAY 0x1b0 @440  
+  SAY 0x1b4 @441  
+  SAY 0x1b8 @442  
+  SAY 0x1c0 @443  
+  SAY 0x1c4 @444  
+  SAY 0x1cc @445
+
+COPY ~RoT/cre/ERANDA.cre~    ~override~
+     ~RoT/cre/ERANDA2.cre~   ~override~
+     ~RoT/cre/ERANDA3.cre~   ~override~
+  SAY NAME1 @446 
+  SAY NAME2 @446 
+
+COPY ~RoT/cre/ERMAG1.cre~    ~override~
+     ~RoT/cre/ERMAG2.cre~    ~override~
+     ~RoT/cre/ERMAG3.cre~    ~override~
+     ~RoT/cre/ERMAG4.cre~    ~override~
+  SAY NAME1 @447 
+  SAY NAME2 @447 
+
+COPY ~RoT/cre/ERRTU.cre~     ~override~
+  SAY NAME1 @448 
+  SAY NAME2 @448 
+
+COPY ~RoT/cre/ESA.cre~       ~override~
+  SAY NAME1 @449
+  SAY NAME2 @449 
+
+COPY ~RoT/cre/ESATH.cre~     ~override~
+     ~RoT/cre/ESATH2.cre~    ~override~
+     ~RoT/cre/ESATH3.cre~    ~override~
+  SAY NAME1 @450
+  SAY NAME2 @450 
+
+COPY ~RoT/cre/ESATHW.cre~    ~override~
+  SAY NAME1 @451 
+  SAY NAME2 @451 
+
+COPY ~RoT/cre/ETTA.cre~      ~override~
+  SAY NAME1 @452 
+  SAY NAME2 @452 
+
+COPY ~RoT/cre/ETTABOY1.cre~  ~override~
+     ~RoT/cre/ETTABOY2.cre~  ~override~
+  SAY 0xa4 @176 
+  SAY 0xb8 @177  
+  SAY 0x10c @176  
+  SAY 0x110 @178  
+  SAY 0x114 @179  
+  SAY 0x118 @180  
+
+COPY ~RoT/cre/ETTING.cre~    ~override~
+     ~RoT/cre/ETTING2.cre~   ~override~
+  SAY NAME1 @453 
+  SAY NAME2 @453 
+
+COPY ~RoT/cre/FANGU.cre~     ~override~
+  SAY NAME1 @357 
+  SAY NAME2 @357 
+
+COPY ~RoT/cre/FENEDON.cre~   ~override~
+  SAY NAME1 @454 
+  SAY NAME2 @454
+
+COPY ~RoT/cre/FEREAN.cre~    ~override~
+  SAY NAME1 @455 
+  SAY NAME2 @455 
+
+COPY ~RoT/cre/FGRAGHA.cre~   ~override~
+  SAY NAME1 @456 
+  SAY NAME2 @456
+
+COPY ~RoT/cre/FIRESAL2.cre~  ~override~
+  SAY NAME1 @457 
+  SAY NAME2 @457
+
+COPY ~RoT/cre/FITZ.cre~      ~override~
+  SAY NAME1 @458
+  SAY NAME2 @458 
+
+COPY ~RoT/cre/FRDEATH.cre~   ~override~
+  SAY NAME1 @459 
+  SAY NAME2 @459 
+
+COPY ~RoT/cre/FRMR1.cre~     ~override~
+     ~RoT/cre/FRMR2.cre~     ~override~
+     ~RoT/cre/FRMR4.cre~     ~override~
+  SAY NAME1 @175
+  SAY NAME2 @175
+
+COPY ~RoT/cre/FRMR3.cre~     ~override~
+  SAY NAME1 @230
+  SAY NAME2 @230
+  SAY 0xa4 @231 
+  SAY 0x10c @231 
+  SAY 0x110 @232 
+
+COPY ~RoT/cre/FRMR5.cre~     ~override~
+  SAY NAME1 @186 
+  SAY NAME2 @186 
+
+COPY ~RoT/cre/FROSTGG.cre~   ~override~
+  SAY NAME1 @460 
+  SAY NAME2 @460 
+
+COPY ~RoT/cre/FROSTGI.cre~   ~override~
+     ~RoT/cre/FROSTGI2.cre~  ~override~
+     ~RoT/cre/FROSTGI3.cre~  ~override~
+     ~RoT/cre/FROSTGI4.cre~  ~override~
+  SAY NAME1 @226 
+  SAY NAME2 @226
+
+COPY ~RoT/cre/FROSTGL.cre~   ~override~
+  SAY NAME1 @461 
+  SAY NAME2 @461 
+
+COPY ~RoT/cre/FROSTHAM.cre~  ~override~
+  SAY NAME1 @462 
+  SAY NAME2 @462 
+
+COPY ~RoT/cre/FVILL1.cre~    ~override~
+     ~RoT/cre/FVILL2.cre~    ~override~
+     ~RoT/cre/FVILL3.cre~    ~override~
+  SAY NAME1 @230
+  SAY NAME2 @230
+  SAY 0xa4 @188 
+  SAY 0xb8 @189 
+  SAY 0x10c @188 
+  SAY 0x110 @190 
+
+COPY ~RoT/cre/FYUAL.cre~     ~override~
+  SAY NAME1 @463 
+  SAY NAME2 @463 
+
+COPY ~RoT/cre/FYUAM.cre~     ~override~
+  SAY NAME1 @464 
+  SAY NAME2 @464 
+
+COPY ~RoT/cre/GAIDAN.cre~    ~override~
+     ~RoT/cre/GAIDAN2.cre~   ~override~
+  SAY NAME1 @465
+  SAY NAME2 @465 
+
+COPY ~RoT/cre/GALAN1.cre~    ~override~
+  SAY NAME1 @466 
+  SAY NAME2 @466 
+
+COPY ~RoT/cre/GALRYN.cre~    ~override~
+  SAY NAME1 @467 
+  SAY NAME2 @467 
+
+COPY ~RoT/cre/GAREM.cre~     ~override~
+  SAY NAME1 @468
+  SAY NAME2 @468 
+
+COPY ~RoT/cre/GARMARI1.cre~  ~override~
+     ~RoT/cre/GARMARI2.cre~  ~override~
+  SAY NAME1 @469
+  SAY NAME2 @469
+
+COPY ~RoT/cre/GARMARI3.cre~  ~override~
+     ~RoT/cre/GARMARI4.cre~  ~override~
+  SAY NAME1 @470 
+  SAY NAME2 @470 
+
+COPY ~RoT/cre/GARRAX.cre~    ~override~
+     ~RoT/cre/GARRAX2.cre~   ~override~
+     ~RoT/cre/GARRAX3.cre~   ~override~
+     ~RoT/cre/GARRAX4.cre~   ~override~
+     ~RoT/cre/GARRAX5.cre~   ~override~
+  SAY NAME1 @471
+  SAY NAME2 @471
+
+COPY ~RoT/cre/GARSAPH1.cre~  ~override~
+     ~RoT/cre/GARSAPH2.cre~  ~override~
+  SAY NAME1 @472
+  SAY NAME2 @472
+
+COPY ~RoT/cre/GARSERV1.cre~  ~override~
+     ~RoT/cre/GARSERV2.cre~  ~override~
+     ~RoT/cre/GARSERV3.cre~  ~override~
+     ~RoT/cre/GARSERV4.cre~  ~override~
+  SAY NAME1 @473
+  SAY NAME2 @473
+
+COPY ~RoT/cre/GARSWRD1.cre~  ~override~
+     ~RoT/cre/GARSWRD2.cre~  ~override~
+  SAY NAME1 @474
+  SAY NAME2 @474
+
+COPY ~RoT/cre/GARTOPZ1.cre~  ~override~
+     ~RoT/cre/GARTOPZ2.cre~  ~override~
+  SAY NAME1 @475 
+  SAY NAME2 @475 
+
+COPY ~RoT/cre/GCDW.cre~      ~override~
+     ~RoT/cre/GCDW2.cre~     ~override~
+  SAY NAME1 @476
+  SAY NAME2 @476
+  SAY 0xa4 @181 
+  SAY 0x10c @182 
+  SAY 0x110 @183 
+  SAY 0x114 @184 
+  SAY 0x118 @185 
+
+COPY ~RoT/cre/GERAN.cre~     ~override~
+  SAY NAME1 @477 
+  SAY NAME2 @477 
+
+COPY ~RoT/cre/GFLANS.cre~    ~override~
+  SAY NAME1 @478 
+  SAY NAME2 @478
+
+COPY ~RoT/cre/GGIANTF1.cre~  ~override~
+     ~RoT/cre/GGIANTF2.cre~  ~override~
+     ~RoT/cre/GGIANTF3.cre~  ~override~
+     ~RoT/cre/GGIANTFR.cre~  ~override~
+  SAY NAME1 @479 
+  SAY NAME2 @479
+
+COPY ~RoT/cre/GHENDIA.cre~   ~override~
+  SAY NAME1 @480 
+  SAY NAME2 @480 
+
+COPY ~RoT/cre/GHOLIM.cre~    ~override~
+  SAY NAME1 @481 
+  SAY NAME2 @481 
+
+COPY ~RoT/cre/GHOLSKE1.cre~  ~override~
+  SAY NAME1 @482 
+  SAY NAME2 @482 
+
+COPY ~RoT/cre/GODABIS1.cre~  ~override~
+  SAY NAME1 @483 
+  SAY NAME2 @483 
+
+COPY ~RoT/cre/GODABIS2.cre~  ~override~
+  SAY NAME1 @484 
+  SAY NAME2 @484 
+
+COPY ~RoT/cre/GODADV1.cre~   ~override~
+     ~RoT/cre/GODADV2.cre~   ~override~
+  SAY NAME1 @485 
+  SAY NAME2 @485 
+
+COPY ~RoT/cre/GODADV3.cre~   ~override~        
+  SAY NAME1 @486 
+  SAY NAME2 @486 
+
+COPY ~RoT/cre/GODADV4.cre~   ~override~
+  SAY NAME1 @487 
+  SAY NAME2 @487 
+
+COPY ~RoT/cre/GODADV5.cre~   ~override~        
+  SAY NAME1 @488 
+  SAY NAME2 @488 
+
+COPY ~RoT/cre/GODADV6.cre~   ~override~        
+  SAY NAME1 @489 
+  SAY NAME2 @489 
+
+COPY ~RoT/cre/GODAQUA.cre~   ~override~        
+  SAY NAME1 @490 
+  SAY NAME2 @490 
+
+COPY ~RoT/cre/GODAVA1.cre~   ~override~
+     ~RoT/cre/GODAVA2.cre~   ~override~
+  SAY NAME1 @491 
+  SAY NAME2 @491 
+
+COPY ~RoT/cre/GODBEAR1.cre~  ~override~
+  SAY NAME1 @492 
+  SAY NAME2 @492 
+
+COPY ~RoT/cre/GODBEAR2.cre~  ~override~
+  SAY NAME1 @350 
+  SAY NAME2 @350 
+
+COPY ~RoT/cre/GODBEAR3.cre~  ~override~
+     ~RoT/cre/GODBEAR4.cre~  ~override~
+  SAY NAME1 @349 
+  SAY NAME2 @349 
+
+COPY ~RoT/cre/GODDOOM1.cre~  ~override~
+  SAY NAME1 @493
+  SAY NAME2 @493 
+
+COPY ~RoT/cre/GODDOOM2.cre~  ~override~       
+     ~RoT/cre/GODDOOM3.cre~  ~override~
+     ~RoT/cre/GODDOOM4.cre~  ~override~
+  SAY NAME1 @494 
+  SAY NAME2 @494
+
+COPY ~RoT/cre/GODELE1.cre~   ~override~
+  SAY NAME1 @495         
+  SAY NAME2 @495         
+                                           
+COPY ~RoT/cre/GODELE2.cre~   ~override~        
+  SAY NAME1 @496
+  SAY NAME2 @496       
+                                           
+COPY ~RoT/cre/GODELE3.cre~   ~override~        
+  SAY NAME1 @497        
+  SAY NAME2 @497        
+                                           
+COPY ~RoT/cre/GODGOL3.cre~   ~override~
+     ~RoT/cre/GODGOL4.cre~   ~override~
+     ~RoT/cre/GODGOL5.cre~   ~override~
+     ~RoT/cre/GODGOL6.cre~   ~override~
+  SAY NAME1 @498 
+  SAY NAME2 @498
+
+COPY ~RoT/cre/GODHALF1.cre~  ~override~
+  SAY NAME1 @499 
+  SAY NAME2 @499 
+
+COPY ~RoT/cre/GODHATE.cre~   ~override~
+  SAY NAME1 @500 
+  SAY NAME2 @500 
+
+COPY ~RoT/cre/GODLICH1.cre~  ~override~
+  SAY NAME1 @501 
+  SAY NAME2 @501 
+
+COPY ~RoT/cre/GODMAD1.cre~   ~override~
+  SAY NAME1 @502 
+  SAY NAME2 @502
+
+COPY ~RoT/cre/GODMARI1.cre~  ~override~
+  SAY NAME1 @469
+  SAY NAME2 @469 
+
+COPY ~RoT/cre/GODMARI2.cre~  ~override~
+  SAY NAME1 @470 
+  SAY NAME2 @470 
+
+COPY ~RoT/cre/GODMARI3.cre~  ~override~
+  SAY NAME1 @503
+  SAY NAME2 @503 
+
+COPY ~RoT/cre/GODMARI4.cre~  ~override~
+  SAY NAME1 @504 
+  SAY NAME2 @504 
+
+COPY ~RoT/cre/GODMONK1.cre~  ~override~
+     ~RoT/cre/GODMONK2.cre~  ~override~
+     ~RoT/cre/GODMONK3.cre~  ~override~
+     ~RoT/cre/GODMONK4.cre~  ~override~
+  SAY NAME1 @505
+  SAY NAME2 @505
+
+COPY ~RoT/cre/GODPAIN.cre~   ~override~
+  SAY NAME1 @506 
+  SAY NAME2 @506 
+
+COPY ~RoT/cre/GODRUBY.cre~   ~override~
+  SAY NAME1 @507 
+  SAY NAME2 @507
+
+COPY ~RoT/cre/GODSERV1.cre~  ~override~
+     ~RoT/cre/GODSERV2.cre~  ~override~
+  SAY NAME1 @473
+  SAY NAME2 @473
+
+COPY ~RoT/cre/GODSKEL1.cre~  ~override~
+     ~RoT/cre/GODSKEL2.cre~  ~override~
+     ~RoT/cre/GODSKEL3.cre~  ~override~
+  SAY NAME1 @352 
+  SAY NAME2 @352 
+
+COPY ~RoT/cre/GODSORR.cre~   ~override~
+  SAY NAME1 @508 
+  SAY NAME2 @508
+
+COPY ~RoT/cre/GODUNK1.cre~   ~override~
+     ~RoT/cre/GODUNK2.cre~   ~override~
+     ~RoT/cre/GODUNK3.cre~   ~override~
+     ~RoT/cre/GODUNK4.cre~   ~override~
+  SAY NAME1 @509 
+  SAY NAME2 @509
+
+COPY ~RoT/cre/GODWOLF1.cre~  ~override~
+     ~RoT/cre/GODWOLF2.cre~  ~override~
+  SAY NAME1 @510
+  SAY NAME2 @510
+
+COPY ~RoT/cre/GOLRUBY1.cre~  ~override~
+  SAY NAME1 @511 
+  SAY NAME2 @511 
+
+COPY ~RoT/cre/GOLSAPH1.cre~  ~override~       
+     ~RoT/cre/GOLSAPH2.cre~  ~override~
+     ~RoT/cre/GOLSAPH3.cre~  ~override~
+  SAY NAME1 @472
+  SAY NAME2 @472 
+
+COPY ~RoT/cre/GONDOH.cre~    ~override~
+  SAY NAME1 @512 
+  SAY NAME2 @512 
+
+COPY ~RoT/cre/GRAGHAF1.cre~  ~override~
+     ~RoT/cre/GRAGHAF2.cre~  ~override~
+     ~RoT/cre/GRAGHAF3.cre~  ~override~
+     ~RoT/cre/GRAGHAF4.cre~  ~override~
+     ~RoT/cre/GRAGHAF5.cre~  ~override~
+     ~RoT/cre/GRAGHAF6.cre~  ~override~
+  SAY NAME1 @513 
+  SAY NAME2 @513 
+
+COPY ~RoT/cre/GRAGHAK.cre~   ~override~
+  SAY NAME1 @514 
+  SAY NAME2 @514 
+
+COPY ~RoT/cre/GRAGHAM1.cre~  ~override~
+     ~RoT/cre/GRAGHAM2.cre~  ~override~
+  SAY NAME1 @456
+  SAY NAME2 @456
+
+COPY ~RoT/cre/GRAGHAM3.cre~  ~override~
+     ~RoT/cre/GRAGHAM4.cre~  ~override~
+     ~RoT/cre/GRAGHAM5.cre~  ~override~
+  SAY NAME1 @515 
+  SAY NAME2 @515 
+
+COPY ~RoT/cre/GRAGHAQ.cre~   ~override~
+  SAY NAME1 @516 
+  SAY NAME2 @516 
+
+COPY ~RoT/cre/GRAYFOOT.cre~  ~override~
+     ~RoT/cre/GRAYFOT2.cre~  ~override~
+  SAY NAME1 @517 
+  SAY NAME2 @517 
+
+COPY ~RoT/cre/GREAN.cre~     ~override~
+  SAY NAME1 @518 
+  SAY NAME2 @518
+
+COPY ~RoT/cre/GREENDRG.cre~  ~override~
+  SAY NAME1 @519 
+  SAY NAME2 @519 
+
+COPY ~RoT/cre/GREGDEMI.cre~  ~override~
+  SAY NAME1 @520
+  SAY NAME2 @520 
+
+COPY ~RoT/cre/GUAREYE1.cre~  ~override~
+     ~RoT/cre/GUAREYE2.cre~  ~override~
+     ~RoT/cre/GUAREYE3.cre~  ~override~
+     ~RoT/cre/GUAREYE4.cre~  ~override~
+     ~RoT/cre/GUAREYE5.cre~  ~override~
+     ~RoT/cre/GUAREYE6.cre~  ~override~
+  SAY NAME1 @521 
+  SAY NAME2 @521 
+
+COPY ~RoT/cre/GUASOLD1.cre~  ~override~
+     ~RoT/cre/GUASOLD2.cre~  ~override~
+     ~RoT/cre/GUASOLD3.cre~  ~override~
+     ~RoT/cre/GUASOLD4.cre~  ~override~
+  SAY 0xa4 @192 
+  SAY 0xb8 @193  
+  SAY 0xc8 @194  
+  SAY 0x10c @195  
+  SAY 0x110 @196  
+  SAY 0x114 @197 
+  SAY 0x118 @198  
+
+COPY ~RoT/cre/HAMARA1.cre~   ~override~
+     ~RoT/cre/HAMARA2.cre~   ~override~
+     ~RoT/cre/HAMARA3.cre~   ~override~
+  SAY NAME1 @522
+  SAY NAME2 @522
+
+COPY ~RoT/cre/HAMJEN1.cre~   ~override~
+     ~RoT/cre/HAMJEN2.cre~   ~override~
+     ~RoT/cre/HAMJEN3.cre~   ~override~
+  SAY NAME1 @523
+  SAY NAME2 @523
+
+COPY ~RoT/cre/HAMMAN1.cre~   ~override~
+     ~RoT/cre/HAMMAN2.cre~   ~override~
+     ~RoT/cre/HAMMAN3.cre~   ~override~
+  SAY NAME1 @524 
+  SAY NAME2 @524 
+
+COPY ~RoT/cre/HAMMHAND.cre~  ~override~
+  SAY NAME1 @525 
+  SAY NAME2 @525
+
+COPY ~RoT/cre/HAMMR1.cre~    ~override~
+     ~RoT/cre/HAMMR2.cre~    ~override~
+     ~RoT/cre/HAMMR3.cre~    ~override~
+     ~RoT/cre/HAMMR4.cre~    ~override~
+     ~RoT/cre/HAMMR5.cre~    ~override~
+  SAY NAME1 @526
+  SAY NAME2 @526 
+
+COPY ~RoT/cre/HAMOLG1.cre~   ~override~
+     ~RoT/cre/HAMOLG2.cre~   ~override~
+     ~RoT/cre/HAMOLG3.cre~   ~override~
+  SAY NAME1 @527
+  SAY NAME2 @527
+
+COPY ~RoT/cre/HAMROB1.cre~   ~override~
+     ~RoT/cre/HAMROB2.cre~   ~override~
+     ~RoT/cre/HAMROB3.cre~   ~override~
+  SAY NAME1 @528
+  SAY NAME2 @528 
+
+COPY ~RoT/cre/HANDS.cre~     ~override~
+  SAY NAME1 @529 
+  SAY NAME2 @529 
+
+COPY ~RoT/cre/HEDAN.cre~     ~override~
+  SAY NAME1 @530 
+  SAY NAME2 @530
+
+COPY ~RoT/cre/HEDBOY1.cre~   ~override~
+     ~RoT/cre/HEDBOY2.cre~   ~override~
+     ~RoT/cre/HEDBOY3.cre~   ~override~
+     ~RoT/cre/HEDBOY4.cre~   ~override~
+  SAY 0xa4 @176 
+  SAY 0xb8 @177 
+  SAY 0x10c @176 
+  SAY 0x110 @178 
+  SAY 0x114 @179 
+  SAY 0x118 @180 
+
+COPY ~RoT/cre/HEDGIR1.cre~   ~override~
+     ~RoT/cre/HEDGIR2.cre~   ~override~
+  SAY 0xa4 @181 
+  SAY 0x10c @182  
+  SAY 0x110 @183  
+  SAY 0x114 @184  
+  SAY 0x118 @185  
+
+COPY ~RoT/cre/HEDWAR1.cre~   ~override~
+     ~RoT/cre/HEDWAR2.cre~   ~override~
+     ~RoT/cre/HEDWAR3.cre~   ~override~
+     ~RoT/cre/HEDWAR4.cre~   ~override~
+     ~RoT/cre/HEDWAR5.cre~   ~override~
+     ~RoT/cre/HEDWAR6.cre~   ~override~
+     ~RoT/cre/HEDWAR7.cre~   ~override~
+  SAY NAME1 @230
+  SAY NAME2 @230 
+
+COPY ~RoT/cre/HELDEM5.cre~   ~override~
+  SAY NAME1 @531 
+  SAY NAME2 @531 
+
+COPY ~RoT/cre/HENMAN.cre~    ~override~
+  SAY NAME1 @532 
+  SAY NAME2 @532 
+  SAY 0xa4 @192 
+  SAY 0xb8 @193  
+  SAY 0xc8 @194 
+  SAY 0x10c @195  
+  SAY 0x110 @196  
+  SAY 0x114 @197 
+  SAY 0x118 @198 
+
+COPY ~RoT/cre/HENVIS.cre~    ~override~
+  SAY NAME1 @533 
+  SAY NAME2 @533 
+
+COPY ~RoT/cre/HEPHAS.cre~    ~override~
+     ~RoT/cre/HEPHAS2.cre~   ~override~
+  SAY NAME1 @534 
+  SAY NAME2 @534 
+
+COPY ~RoT/cre/HLID.cre~      ~override~
+  SAY NAME1 @535 
+  SAY NAME2 @535 
+
+COPY ~RoT/cre/HOLYONE1.cre~  ~override~
+     ~RoT/cre/HOLYONE2.cre~  ~override~
+     ~RoT/cre/HOLYONE3.cre~  ~override~
+     ~RoT/cre/HOLYONE4.cre~  ~override~
+  SAY NAME1 @536 
+  SAY NAME2 @536 
+
+COPY ~RoT/cre/HOOK1.cre~     ~override~
+     ~RoT/cre/HOOK4.cre~     ~override~
+  SAY NAME1 @537 
+  SAY NAME2 @537
+
+COPY ~RoT/cre/HOOK3.cre~     ~override~
+  SAY NAME1 @538
+  SAY NAME2 @538
+
+COPY ~RoT/cre/HOOK5.cre~     ~override~
+  SAY NAME1 @539 
+  SAY NAME2 @539 
+
+COPY ~RoT/cre/ICEBEARD.cre~  ~override~
+  SAY NAME1 @540 
+  SAY NAME2 @540
+
+COPY ~RoT/cre/ICEGL2.cre~    ~override~
+  SAY NAME1 @541 
+  SAY NAME2 @541
+
+COPY ~RoT/cre/ICEGL3.cre~    ~override~
+  SAY NAME1 @542 
+  SAY NAME2 @542 
+
+COPY ~RoT/cre/ICESAL2.cre~   ~override~
+  SAY NAME1 @543 
+  SAY NAME2 @543
+
+COPY ~RoT/cre/ILHAN.cre~     ~override~
+     ~RoT/cre/ILHAN2.cre~    ~override~
+     ~RoT/cre/ILHAN3.cre~    ~override~
+  SAY NAME1 @544 
+  SAY NAME2 @544 
+
+COPY ~RoT/cre/IWDDOOR.cre~   ~override~
+  SAY NAME1 @545 
+  SAY NAME2 @545 
+
+COPY ~RoT/cre/IWDDRG1.cre~   ~override~
+  SAY NAME1 @546 
+  SAY NAME2 @546
+
+COPY ~RoT/cre/IWDDRG2.cre~   ~override~        
+  SAY NAME1 @547
+  SAY NAME2 @547 
+
+COPY ~RoT/cre/IWDDRG3.cre~   ~override~        
+  SAY NAME1 @548 
+  SAY NAME2 @548
+
+COPY ~RoT/cre/IWDDRG4.cre~   ~override~        
+  SAY NAME1 @549 
+  SAY NAME2 @549 
+
+COPY ~RoT/cre/IWDDRG5.cre~   ~override~
+  SAY NAME1 @550 
+  SAY NAME2 @550 
+
+COPY ~RoT/cre/IWDDRG6.cre~   ~override~
+  SAY NAME1 @546 
+  SAY NAME2 @546 
+
+COPY ~RoT/cre/IWDDRG7.cre~   ~override~
+  SAY NAME1 @547 
+  SAY NAME2 @547 
+
+COPY ~RoT/cre/IWDDRG8.cre~   ~override~
+  SAY NAME1 @548 
+  SAY NAME2 @548 
+
+COPY ~RoT/cre/IWDGOB3.cre~   ~override~
+  SAY NAME1 @551
+  SAY NAME2 @551
+
+COPY ~RoT/cre/IWDIN1.cre~    ~override~
+  SAY NAME1 @552 
+  SAY NAME2 @552 
+
+COPY ~RoT/cre/IWDMIST2.cre~  ~override~
+  SAY NAME1 @553
+  SAY NAME2 @553
+
+COPY ~RoT/cre/IWDMIST5.cre~  ~override~
+  SAY NAME1 @554
+  SAY NAME2 @554
+
+COPY ~RoT/cre/IWDMIST6.cre~  ~override~
+  SAY NAME1 @555
+  SAY NAME2 @555
+
+COPY ~RoT/cre/IWDORC4.cre~   ~override~
+  SAY NAME1 @556 
+  SAY NAME2 @556 
+
+COPY ~RoT/cre/IWDORC5.cre~   ~override~
+  SAY NAME1 @557
+  SAY NAME2 @557 
+
+COPY ~RoT/cre/JAPHET.cre~    ~override~
+     ~RoT/cre/JAPHET2.cre~   ~override~
+  SAY NAME1 @558 
+  SAY NAME2 @558 
+
+COPY ~RoT/cre/JAPWIF.cre~    ~override~
+  SAY NAME1 @559 
+  SAY NAME2 @559 
+
+COPY ~RoT/cre/JARLAX2.cre~   ~override~
+     ~RoT/cre/JARLAX3C.cre~  ~override~
+     ~RoT/cre/JARLAX5C.cre~  ~override~
+     ~RoT/cre/JARLAX6C.cre~  ~override~
+     ~RoT/cre/JARLAXF1.cre~  ~override~
+     ~RoT/cre/JARLAXF2.cre~  ~override~
+     ~RoT/cre/JARLAXF3.cre~  ~override~
+     ~RoT/cre/JARLAX_R.cre~  ~override~
+     ~RoT/cre/JARLXLE2.cre~  ~override~
+     ~RoT/cre/JARLAXS.cre~   ~override~
+  SAY NAME1 @560
+  SAY NAME2 @560
+  SAY 0xac @561  
+  SAY 0xb0 @562 
+  SAY 0xb4 @563  
+  SAY 0xbc @564  
+  SAY 0xc0 @565  
+  SAY 0xc4 @302  
+  SAY 0xc8 @567  
+  SAY 0xcc @568  
+  SAY 0xd0 @569  
+  SAY 0xec @570
+  SAY 0xf0 @571 
+  SAY 0xf4 @572  
+  SAY 0xf8 @573  
+  SAY 0xfc @574  
+  SAY 0x100 @575  
+  SAY 0x104 @576  
+  SAY 0x108 @577  
+  SAY 0x10c @578  
+  SAY 0x110 @579  
+  SAY 0x114 @580  
+  SAY 0x118 @581  
+  SAY 0x11c @582  
+  SAY 0x120 @583
+  SAY 0x124 @584  
+  SAY 0x128 @585  
+  SAY 0x12c @586  
+  SAY 0x130 @587 
+  SAY 0x134 @588  
+  SAY 0x138 @589  
+  SAY 0x13c @590  
+  SAY 0x1a8 @591  
+  SAY 0x1ac @592  
+  SAY 0x1b0 @593 
+  SAY 0x1b4 @594  
+  SAY 0x1b8 @595  
+  SAY 0x1c0 @596  
+  SAY 0x1c4 @597  
+  SAY 0x1cc @598
+
+COPY ~RoT/cre/JATTA.cre~     ~override~
+  SAY NAME1 @599 
+  SAY NAME2 @599
+
+COPY ~RoT/cre/JELLKING.cre~  ~override~
+  SAY NAME1 @600 
+  SAY NAME2 @600 
+
+COPY ~RoT/cre/JENAVI.cre~    ~override~
+  SAY NAME1 @601 
+  SAY NAME2 @601 
+
+COPY ~RoT/cre/JINNA.cre~     ~override~
+  SAY NAME1 @602
+  SAY NAME2 @602 
+
+COPY ~RoT/cre/JOLNAR.cre~    ~override~
+  SAY NAME1 @603 
+  SAY NAME2 @603 
+
+COPY ~RoT/cre/JON2.cre~      ~override~
+  SAY NAME1 @604 
+  SAY NAME2 @604 
+  SAY 0xa4 @176  
+  SAY 0xb8 @177  
+  SAY 0x10c @176  
+  SAY 0x110 @178  
+  SAY 0x114 @179  
+  SAY 0x118 @180  
+
+COPY ~RoT/cre/KATT.cre~      ~override~
+     ~RoT/cre/KATT3C.cre~    ~override~
+  SAY NAME1 @295 
+  SAY NAME2 @295 
+
+COPY ~RoT/cre/KBAKER.cre~    ~override~
+  SAY NAME1 @605 
+  SAY NAME2 @605 
+
+COPY ~RoT/cre/KIMBERG.cre~   ~override~
+  SAY NAME1 @606
+  SAY NAME2 @606 
+
+COPY ~RoT/cre/KINDAST.cre~   ~override~
+  SAY NAME1 @607
+  SAY NAME2 @607 
+
+COPY ~RoT/cre/LANDO.cre~     ~override~
+  SAY NAME1 @608 
+  SAY NAME2 @608
+
+COPY ~RoT/cre/LARON1.cre~    ~override~
+  SAY NAME1 @609 
+  SAY NAME2 @609
+
+COPY ~RoT/cre/LATHAR.cre~    ~override~
+  SAY NAME1 @610 
+  SAY NAME2 @610 
+
+COPY ~RoT/cre/LEADER1.cre~   ~override~
+     ~RoT/cre/LEADER2.cre~   ~override~
+  SAY 0xa4 @192 
+  SAY 0xb8 @193  
+  SAY 0xc8 @194  
+  SAY 0x10c @195  
+  SAY 0x110 @196  
+  SAY 0x114 @197  
+  SAY 0x118 @198  
+
+COPY ~RoT/cre/LEANDER.cre~   ~override~
+  SAY NAME1 @611 
+  SAY NAME2 @611 
+
+COPY ~RoT/cre/LICHGUAR.cre~  ~override~
+  SAY NAME1 @612 
+  SAY NAME2 @612 
+
+COPY ~RoT/cre/LOREM.cre~     ~override~
+  SAY NAME1 @613 
+  SAY NAME2 @613 
+
+COPY ~RoT/cre/MALAR1.cre~    ~override~
+     ~RoT/cre/MALAR4.cre~    ~override~
+     ~RoT/cre/MALAR5.cre~    ~override~
+     ~RoT/cre/MALAR6.cre~    ~override~
+     ~RoT/cre/MALAR7.cre~    ~override~
+     ~RoT/cre/MALAR8.cre~    ~override~
+     ~RoT/cre/MALAR10.cre~   ~override~
+     ~RoT/cre/MALAR11.cre~   ~override~
+     ~RoT/cre/MALAR15.cre~   ~override~
+     ~RoT/cre/MALAR16.cre~   ~override~
+     ~RoT/cre/MALAR17.cre~   ~override~
+     ~RoT/cre/MALAR18.cre~   ~override~
+  SAY NAME1 @614
+  SAY NAME2 @614 
+
+COPY ~RoT/cre/MALAR12.cre~   ~override~
+  SAY NAME1 @615
+  SAY NAME2 @615
+
+COPY ~RoT/cre/MALAR19.cre~   ~override~
+  SAY NAME1 @616
+  SAY NAME2 @616
+
+COPY ~RoT/cre/MALAR2.cre~    ~override~
+  SAY NAME1 @617
+  SAY NAME2 @617
+
+COPY ~RoT/cre/MALAR3.cre~    ~override~
+  SAY NAME1 @618
+  SAY NAME2 @618
+
+COPY ~RoT/cre/MALAR9.cre~    ~override~
+  SAY NAME1 @619
+  SAY NAME2 @619 
+
+COPY ~RoT/cre/MALNAR.cre~    ~override~
+  SAY NAME1 @620 
+  SAY NAME2 @620 
+
+COPY ~RoT/cre/MARALDA.cre~   ~override~
+  SAY NAME1 @621 
+  SAY NAME2 @621 
+
+COPY ~RoT/cre/MARELID.cre~   ~override~
+  SAY NAME1 @622 
+  SAY NAME2 @622 
+
+COPY ~RoT/cre/MARLISS.cre~   ~override~
+  SAY NAME1 @623 
+  SAY NAME2 @623
+
+COPY ~RoT/cre/MARTTIN2.cre~  ~override~
+  SAY NAME1 @624 
+  SAY NAME2 @624 
+
+COPY ~RoT/cre/MARTWYN1.cre~  ~override~
+  SAY NAME1 @625
+  SAY NAME2 @625 
+
+COPY ~RoT/cre/MATRIM.cre~    ~override~
+  SAY NAME1 @626 
+  SAY NAME2 @626 
+
+COPY ~RoT/cre/MATTI.cre~     ~override~
+  SAY NAME1 @627 
+  SAY NAME2 @627
+
+COPY ~RoT/cre/MAYASSI.cre~   ~override~
+  SAY NAME1 @628 
+  SAY NAME2 @628 
+
+COPY ~RoT/cre/MAYDOBR.cre~   ~override~
+  SAY NAME1 @629 
+  SAY NAME2 @629 
+
+COPY ~RoT/cre/MAYWIFE.cre~   ~override~
+  SAY NAME1 @630
+  SAY NAME2 @630 
+
+COPY ~RoT/cre/MELAN.cre~     ~override~
+  SAY NAME1 @631 
+  SAY NAME2 @631
+
+COPY ~RoT/cre/MENDOR.cre~    ~override~
+  SAY NAME1 @632 
+  SAY NAME2 @632 
+
+COPY ~RoT/cre/MINODAR1.cre~  ~override~
+     ~RoT/cre/MINODAR2.cre~  ~override~
+  SAY NAME1 @633
+  SAY NAME2 @633 
+
+COPY ~RoT/cre/MIRLANDA.cre~  ~override~
+  SAY NAME1 @634 
+  SAY NAME2 @634 
+
+COPY ~RoT/cre/MOLLY2.cre~    ~override~
+  SAY NAME1 @635 
+  SAY NAME2 @635 
+
+COPY ~RoT/cre/MONKSS2.cre~   ~override~
+     ~RoT/cre/MONKSS3.cre~   ~override~
+     ~RoT/cre/MONKSS4.cre~   ~override~
+     ~RoT/cre/MONKSS5.cre~   ~override~
+     ~RoT/cre/MONKSS6.cre~   ~override~
+     ~RoT/cre/MONKSS7.cre~   ~override~
+     ~RoT/cre/MONKSS8.cre~   ~override~
+     ~RoT/cre/MONKSS9.cre~   ~override~
+     ~RoT/cre/MONKSS10.cre~  ~override~
+     ~RoT/cre/MONKSS11.cre~  ~override~
+     ~RoT/cre/MONKSS19.cre~  ~override~
+     ~RoT/cre/MONKSS20.cre~  ~override~
+     ~RoT/cre/MONKSS21.cre~  ~override~
+     ~RoT/cre/MONKSS22.cre~  ~override~
+     ~RoT/cre/MONKSS23.cre~  ~override~
+     ~RoT/cre/MONKSS25.cre~  ~override~
+     ~RoT/cre/MONKSS26.cre~  ~override~
+  SAY NAME1 @636
+  SAY NAME2 @636 
+
+COPY ~RoT/cre/MONKSS12.cre~  ~override~
+     ~RoT/cre/MONKSS24.cre~  ~override~
+     ~RoT/cre/MONKSS27.cre~  ~override~
+  SAY NAME1 @637 
+  SAY NAME2 @637
+
+COPY ~RoT/cre/MONKSS30.cre~  ~override~
+  SAY NAME1 @638
+  SAY NAME2 @638
+
+COPY ~RoT/cre/MONTESSI.cre~  ~override~
+  SAY NAME1 @639 
+  SAY NAME2 @639 
+
+COPY ~RoT/cre/MORAND2.cre~   ~override~
+     ~RoT/cre/MORANDIN.cre~  ~override~
+  SAY NAME1 @640 
+  SAY NAME2 @640
+
+COPY ~RoT/cre/MORANDT1.cre~  ~override~
+  SAY NAME1 @641
+  SAY NAME2 @641
+
+COPY ~RoT/cre/MORDRG1.cre~   ~override~
+     ~RoT/cre/MORDRG2.cre~   ~override~
+     ~RoT/cre/MORDRG3.cre~   ~override~
+     ~RoT/cre/MORDRG4.cre~   ~override~
+  SAY NAME1 @642 
+  SAY NAME2 @642 
+  SAY 0xac @643 
+  SAY 0xb0 @644 
+  SAY 0xb4 @645  
+  SAY 0xb8 @646 
+  SAY 0xbc @647  
+  SAY 0xc8 @648  
+  SAY 0xcc @649  
+  SAY 0xd0 @650 
+  SAY 0xec @651
+  SAY 0xf0 @652
+  SAY 0xf4 @653
+  SAY 0xfc @654  
+  SAY 0x100 @655 
+  SAY 0x10c @656  
+  SAY 0x110 @657  
+  SAY 0x114 @658 
+  SAY 0x118 @659
+  SAY 0x11c @660
+  SAY 0x120 @661
+  SAY 0x124 @662
+  SAY 0x128 @663
+  SAY 0x12c @664
+  SAY 0x130 @665
+  SAY 0x134 @666
+  SAY 0x138 @667
+  SAY 0x13c @668
+  SAY 0x1a8 @669
+  SAY 0x1ac @670
+  SAY 0x1b0 @671
+  SAY 0x1b4 @672  
+  SAY 0x1c0 @673  
+  SAY 0x1cc @674 
+
+COPY ~RoT/cre/MVILL1.cre~    ~override~
+     ~RoT/cre/MVILL2.cre~    ~override~
+  SAY NAME1 @230 
+  SAY NAME2 @230 
+  SAY 0xa4 @231 
+  SAY 0x10c @231  
+  SAY 0x110 @232 
+
+COPY ~RoT/cre/MVILL3.cre~    ~override~
+     ~RoT/cre/MVILL4.cre~    ~override~
+     ~RoT/cre/MVILL5.cre~    ~override~
+     ~RoT/cre/MVILL6.cre~    ~override~
+  SAY NAME1 @230 
+  SAY NAME2 @230 
+
+COPY ~RoT/cre/MYBAND1.cre~   ~override~
+  SAY NAME1 @675
+  SAY NAME2 @675
+
+COPY ~RoT/cre/MYCUTT1.cre~   ~override~
+  SAY NAME1 @676
+  SAY NAME2 @676
+
+COPY ~RoT/cre/MYGTROL.cre~   ~override~
+  SAY NAME1 @677
+  SAY NAME2 @677
+
+COPY ~RoT/cre/MYMUGG1.cre~   ~override~
+     ~RoT/cre/MYMUGG2.cre~   ~override~
+  SAY NAME1 @678
+  SAY NAME2 @678
+
+COPY ~RoT/cre/MYMYC01.cre~   ~override~
+  SAY NAME1 @679 
+  SAY NAME2 @679 
+
+COPY ~RoT/cre/MYMYC02.cre~   ~override~
+  SAY NAME1 @680 
+  SAY NAME2 @680
+
+COPY ~RoT/cre/MYSSWR10.cre~  ~override~
+     ~RoT/cre/MYSSWRD1.cre~  ~override~
+     ~RoT/cre/MYSSWRD2.cre~  ~override~
+     ~RoT/cre/MYSSWRD3.cre~  ~override~
+     ~RoT/cre/MYSSWRD4.cre~  ~override~
+     ~RoT/cre/MYSSWRD5.cre~  ~override~
+     ~RoT/cre/MYSSWRD6.cre~  ~override~
+     ~RoT/cre/MYSSWRD7.cre~  ~override~
+     ~RoT/cre/MYSSWRD8.cre~  ~override~
+     ~RoT/cre/MYSSWRD9.cre~  ~override~
+  SAY NAME1 @681 
+  SAY NAME2 @681
+
+COPY ~RoT/cre/MYTHUG.cre~    ~override~
+  SAY NAME1 @682 
+  SAY NAME2 @682 
+
+COPY ~RoT/cre/NCDM.cre~      ~override~
+     ~RoT/cre/NCDM2.cre~     ~override~
+  SAY NAME1 @208
+  SAY NAME2 @208
+  SAY 0xa4 @201 
+  SAY 0xb8 @202 
+  SAY 0x10c @201 
+  SAY 0x110 @203 
+
+COPY ~RoT/cre/NCDW.cre~      ~override~
+     ~RoT/cre/NCDW2.cre~     ~override~
+  SAY NAME1 @208 
+  SAY NAME2 @208
+  SAY 0xa4 @205  
+  SAY 0xb8 @206  
+  SAY 0x10c @205  
+  SAY 0x110 @207  
+
+COPY ~RoT/cre/NECH.cre~      ~override~
+  SAY NAME1 @683 
+  SAY NAME2 @683 
+
+COPY ~RoT/cre/NOHOS1.cre~    ~override~
+     ~RoT/cre/NOHOS2.cre~    ~override~
+  SAY NAME1 @684 
+  SAY NAME2 @684 
+
+COPY ~RoT/cre/NUESSA.cre~    ~override~
+  SAY NAME1 @685 
+  SAY NAME2 @685 
+
+COPY ~RoT/cre/OENGUA1.cre~   ~override~
+     ~RoT/cre/OENGUA2.cre~   ~override~
+  SAY 0xa4 @192 
+  SAY 0xb8 @193  
+  SAY 0xc8 @194  
+  SAY 0x10c @195 
+  SAY 0x110 @196  
+  SAY 0x114 @197 
+  SAY 0x118 @198 
+
+COPY ~RoT/cre/OENMAGE2.cre~  ~override~
+     ~RoT/cre/OENMAGE3.cre~  ~override~
+  SAY NAME1 @214
+  SAY NAME2 @214
+
+COPY ~RoT/cre/OLMAR.cre~     ~override~
+     ~RoT/cre/OLMAR2.cre~    ~override~
+     ~RoT/cre/OLMAR3.cre~    ~override~
+     ~RoT/cre/OLMAR4.cre~    ~override~
+     ~RoT/cre/OLMAR5.cre~    ~override~
+  SAY NAME1 @686 
+  SAY NAME2 @686 
+
+COPY ~RoT/cre/OLMGRD.cre~    ~override~
+  SAY NAME1 @687 
+  SAY NAME2 @687
+  SAY 0xa4 @192  
+  SAY 0xb8 @193  
+  SAY 0xc8 @194  
+  SAY 0x10c @195  
+  SAY 0x110 @196  
+  SAY 0x114 @197 
+  SAY 0x118 @198  
+
+COPY ~RoT/cre/OLMGUAR1.cre~  ~override~
+  SAY 0xa4 @192 
+  SAY 0xb8 @193  
+  SAY 0xc8 @194  
+  SAY 0x10c @195 
+  SAY 0x110 @196 
+  SAY 0x114 @197 
+  SAY 0x118 @198 
+
+COPY ~RoT/cre/OLMSPY.cre~    ~override~
+  SAY NAME1 @688 
+  SAY NAME2 @688 
+
+COPY ~RoT/cre/OLMWAR1.cre~   ~override~
+     ~RoT/cre/OLMWAR2.cre~   ~override~
+     ~RoT/cre/OLMWAR3.cre~   ~override~
+     ~RoT/cre/OLMWAR4.cre~   ~override~
+     ~RoT/cre/OLMWAR5.cre~   ~override~
+     ~RoT/cre/OLMWAR6.cre~   ~override~
+     ~RoT/cre/OLMWAR7.cre~   ~override~
+     ~RoT/cre/OLMWAR8.cre~   ~override~
+     ~RoT/cre/OLMWAR9.cre~   ~override~
+     ~RoT/cre/OLMWAR10.cre~  ~override~
+     ~RoT/cre/OLMWAR11.cre~  ~override~
+     ~RoT/cre/OLMWAR12.cre~  ~override~
+     ~RoT/cre/OLMWAR13.cre~  ~override~
+     ~RoT/cre/OLMWAR14.cre~  ~override~
+     ~RoT/cre/OLMWAR15.cre~  ~override~
+     ~RoT/cre/OLMWAR16.cre~  ~override~
+     ~RoT/cre/OLMWAR17.cre~  ~override~
+     ~RoT/cre/OLMWAR18.cre~  ~override~
+     ~RoT/cre/OLMWAR19.cre~  ~override~
+     ~RoT/cre/OLMWAR20.cre~  ~override~
+     ~RoT/cre/OLMWAR21.cre~  ~override~
+     ~RoT/cre/OLMWAR22.cre~  ~override~
+     ~RoT/cre/OLMWAR23.cre~  ~override~
+     ~RoT/cre/OLMWAR24.cre~  ~override~
+     ~RoT/cre/OLMWAR25.cre~  ~override~
+     ~RoT/cre/OLMWAR26.cre~  ~override~
+     ~RoT/cre/OLMWAR27.cre~  ~override~
+     ~RoT/cre/OLMWAR28.cre~  ~override~
+     ~RoT/cre/OLMWAR29.cre~  ~override~
+     ~RoT/cre/OLMWAR30.cre~  ~override~
+  SAY NAME1 @689
+  SAY NAME2 @689
+  SAY 0xa4 @192 
+  SAY 0xb8 @193 
+  SAY 0xc8 @194 
+  SAY 0x10c @195 
+  SAY 0x110 @196 
+  SAY 0x114 @197 
+  SAY 0x118 @198 
+
+COPY ~RoT/cre/OLMWAR40.cre~  ~override~
+     ~RoT/cre/OLMWAR41.cre~  ~override~
+     ~RoT/cre/OLMWAR45.cre~  ~override~
+     ~RoT/cre/OLMWAR51.cre~  ~override~
+     ~RoT/cre/OLMWAR52.cre~  ~override~
+     ~RoT/cre/OLMWAR53.cre~  ~override~
+     ~RoT/cre/OLMWAR54.cre~  ~override~
+     ~RoT/cre/OLMWAR55.cre~  ~override~
+     ~RoT/cre/OLMWAR56.cre~  ~override~
+     ~RoT/cre/OLMWAR57.cre~  ~override~
+     ~RoT/cre/OLMWAR58.cre~  ~override~
+     ~RoT/cre/OLMWAR59.cre~  ~override~
+  SAY NAME1 @689
+  SAY NAME2 @689
+
+COPY ~RoT/cre/OLMWAR42.cre~  ~override~
+     ~RoT/cre/OLMWAR43.cre~  ~override~
+     ~RoT/cre/OLMWAR46.cre~  ~override~
+     ~RoT/cre/OLMWAR47.cre~  ~override~
+     ~RoT/cre/OLMWAR60.cre~  ~override~
+     ~RoT/cre/OLMWAR61.cre~  ~override~
+     ~RoT/cre/OLMWAR62.cre~  ~override~
+     ~RoT/cre/OLMWAR63.cre~  ~override~
+     ~RoT/cre/OLMWAR64.cre~  ~override~
+     ~RoT/cre/OLMWAR65.cre~  ~override~
+     ~RoT/cre/OLMWAR66.cre~  ~override~
+     ~RoT/cre/OLMWAR67.cre~  ~override~
+     ~RoT/cre/OLMWAR68.cre~  ~override~
+     ~RoT/cre/OLMWAR69.cre~  ~override~
+  SAY NAME1 @690
+  SAY NAME2 @690
+  SAY 0xa4 @192 
+  SAY 0xb8 @193 
+  SAY 0xc8 @194 
+  SAY 0x10c @195 
+  SAY 0x110 @196 
+  SAY 0x114 @197 
+  SAY 0x118 @198 
+
+COPY ~RoT/cre/OLMWAR44.cre~  ~override~
+  SAY NAME1 @691
+  SAY NAME2 @691
+  SAY 0xa4 @192 
+  SAY 0xb8 @193 
+  SAY 0xc8 @194 
+  SAY 0x10c @195 
+  SAY 0x110 @196 
+  SAY 0x114 @197 
+  SAY 0x118 @198 
+
+COPY ~RoT/cre/OPTION.cre~    ~override~
+  SAY NAME1 @692
+  SAY NAME2 @692 
+
+COPY ~RoT/cre/OSGIL.cre~     ~override~
+  SAY NAME1 @693 
+  SAY NAME2 @693 
+
+COPY ~RoT/cre/OUTORC1.cre~   ~override~
+  SAY NAME1 @694 
+  SAY NAME2 @694 
+
+COPY ~RoT/cre/OUTORC5.cre~   ~override~
+  SAY NAME1 @695 
+  SAY NAME2 @695 
+
+COPY ~RoT/cre/PCDM.cre~      ~override~
+     ~RoT/cre/PCDM2.cre~     ~override~
+  SAY 0xa4 @231 
+  SAY 0x10c @231 
+  SAY 0x110 @232 
+
+COPY ~RoT/cre/PCDW.cre~      ~override~
+     ~RoT/cre/PCDW2.cre~     ~override~
+  SAY 0xa4 @188 
+  SAY 0xb8 @189 
+  SAY 0x10c @188  
+  SAY 0x110 @190 
+
+COPY ~RoT/cre/PEKKA.cre~     ~override~
+  SAY NAME1 @696 
+  SAY NAME2 @696 
+
+COPY ~RoT/cre/PLADJIN.cre~   ~override~
+  SAY NAME1 @697 
+  SAY NAME2 @697 
+
+COPY ~RoT/cre/POTSELCA.cre~  ~override~
+  SAY NAME1 @698 
+  SAY NAME2 @698
+
+COPY ~RoT/cre/QUINTIP1.cre~  ~override~
+     ~RoT/cre/QUINTIP2.cre~  ~override~
+  SAY NAME1 @699
+  SAY NAME2 @699
+
+COPY ~RoT/cre/RAHVIN_R.cre~  ~override~
+  SAY NAME1 @700
+  SAY NAME2 @700
+
+COPY ~RoT/cre/RANDALL1.cre~  ~override~
+     ~RoT/cre/RANDALL2.cre~  ~override~
+     ~RoT/cre/RANDALL3.cre~  ~override~
+     ~RoT/cre/RANDALL4.cre~  ~override~
+  SAY NAME1 @701 
+  SAY NAME2 @701 
+  SAY 0xac @702 
+  SAY 0xb0 @703  
+  SAY 0xb4 @704  
+  SAY 0xb8 @705 
+  SAY 0xbc @706  
+  SAY 0xc0 @707  
+  SAY 0xc8 @708  
+  SAY 0xcc @709  
+  SAY 0xd0 @710  
+  SAY 0xec @711
+  SAY 0xf0 @712  
+  SAY 0xf4 @713  
+  SAY 0xf8 @714  
+  SAY 0xfc @715  
+  SAY 0x100 @716  
+  SAY 0x104 @717  
+  SAY 0x108 @718  
+  SAY 0x10c @719
+  SAY 0x110 @720  
+  SAY 0x114 @721  
+  SAY 0x118 @722  
+  SAY 0x11c @723
+  SAY 0x120 @724  
+  SAY 0x124 @725
+  SAY 0x128 @726  
+  SAY 0x12c @727  
+  SAY 0x130 @728  
+  SAY 0x134 @729  
+  SAY 0x138 @730  
+  SAY 0x13c @731  
+  SAY 0x1a8 @732  
+  SAY 0x1ac @733  
+  SAY 0x1b0 @734  
+  SAY 0x1b4 @735  
+  SAY 0x1c0 @736  
+  SAY 0x1cc @737
+
+COPY ~RoT/cre/RANNEC3.cre~   ~override~
+  SAY NAME1 @738
+  SAY NAME2 @738
+
+COPY ~RoT/cre/RANSKE1.cre~   ~override~
+     ~RoT/cre/RANSKE2.cre~   ~override~
+     ~RoT/cre/RANSKE3.cre~   ~override~
+     ~RoT/cre/RANSKE4.cre~   ~override~
+     ~RoT/cre/RANSKE5.cre~   ~override~
+     ~RoT/cre/RANSKE6.cre~   ~override~
+     ~RoT/cre/RANSKE8.cre~   ~override~
+  SAY NAME1 @352
+  SAY NAME2 @352
+
+COPY ~RoT/cre/RAZOR.cre~     ~override~
+  SAY NAME1 @739 
+  SAY NAME2 @739
+
+COPY ~RoT/cre/REG2.cre~      ~override~
+     ~RoT/cre/REG21.cre~     ~override~
+     ~RoT/cre/REG22.cre~     ~override~
+     ~RoT/cre/REG23.cre~     ~override~
+     ~RoT/cre/REGI2.cre~     ~override~
+     ~RoT/cre/REKIS.cre~     ~override~
+     ~RoT/cre/REKIS3C.cre~   ~override~
+  SAY NAME1 @740
+  SAY NAME2 @740 
+  SAY 0xa8 @741  
+  SAY 0xac @742  
+  SAY 0xb0 @743  
+  SAY 0xb4 @744 
+  SAY 0xbc @745  
+  SAY 0xc0 @746  
+  SAY 0xc4 @747  
+  SAY 0xc8 @748  
+  SAY 0xcc @749  
+  SAY 0xd0 @750 
+  SAY 0xec @751
+  SAY 0xf0 @752
+  SAY 0xf4 @753  
+  SAY 0xf8 @754  
+  SAY 0xfc @755  
+  SAY 0x100 @756  
+  SAY 0x104 @757  
+  SAY 0x108 @758  
+  SAY 0x10c @759
+  SAY 0x110 @760  
+  SAY 0x114 @761  
+  SAY 0x118 @762  
+  SAY 0x11c @763
+  SAY 0x120 @764
+  SAY 0x124 @765
+  SAY 0x128 @766
+  SAY 0x12c @767  
+  SAY 0x130 @768  
+  SAY 0x134 @769  
+  SAY 0x138 @770  
+  SAY 0x13c @771  
+  SAY 0x1a8 @772  
+  SAY 0x1ac @773  
+  SAY 0x1b0 @774  
+  SAY 0x1b4 @775  
+  SAY 0x1b8 @776  
+  SAY 0x1bc @777  
+  SAY 0x1c0 @778  
+  SAY 0x1c4 @779  
+  SAY 0x1cc @780 
+
+COPY ~RoT/cre/REMORLE.cre~   ~override~
+  SAY NAME1 @781 
+  SAY NAME2 @781
+
+COPY ~RoT/cre/ROB.cre~       ~override~
+     ~RoT/cre/ROB2.cre~      ~override~
+  SAY NAME1 @528 
+  SAY NAME2 @528
+
+COPY ~RoT/cre/RODGER.cre~    ~override~
+  SAY NAME1 @782 
+  SAY NAME2 @782
+
+COPY ~RoT/cre/ROEND.cre~     ~override~
+  SAY NAME1 @783 
+  SAY NAME2 @783 
+
+COPY ~RoT/cre/RYONN.cre~     ~override~
+  SAY NAME1 @784 
+  SAY NAME2 @784 
+  SAY 0xa4 @192  
+  SAY 0xb8 @193  
+  SAY 0xc8 @194  
+  SAY 0x10c @195  
+  SAY 0x110 @196  
+  SAY 0x114 @197  
+  SAY 0x118 @198  
+
+COPY ~RoT/cre/SALKING.cre~   ~override~
+  SAY NAME1 @785 
+  SAY NAME2 @785 
+
+COPY ~RoT/cre/SCHNUR.cre~    ~override~
+  SAY NAME1 @786 
+  SAY NAME2 @786 
+
+COPY ~RoT/cre/SCRLMER.cre~   ~override~
+  SAY NAME1 @787 
+  SAY NAME2 @787 
+
+COPY ~RoT/cre/SELDEN.cre~    ~override~
+  SAY NAME1 @788 
+  SAY NAME2 @788 
+
+COPY ~RoT/cre/SELLEA1.cre~   ~override~
+  SAY NAME1 @789
+  SAY NAME2 @789
+
+COPY ~RoT/cre/SHADAR.cre~    ~override~
+  SAY NAME1 @790 
+  SAY NAME2 @790 
+
+COPY ~RoT/cre/SHAMON.cre~    ~override~
+  SAY NAME1 @791 
+  SAY NAME2 @791
+
+COPY ~RoT/cre/SHDWSAM1.cre~  ~override~
+     ~RoT/cre/SHDWSAM3.cre~  ~override~
+     ~RoT/cre/SHDWSAM5.cre~  ~override~
+     ~RoT/cre/SHDWSAM6.cre~  ~override~
+  SAY NAME1 @792
+  SAY NAME2 @792
+
+COPY ~RoT/cre/SHDWSAM2.cre~  ~override~
+  SAY NAME1 @793
+  SAY NAME2 @793
+
+COPY ~RoT/cre/SHDWSAM4.cre~  ~override~
+  SAY NAME1 @794
+  SAY NAME2 @794
+
+COPY ~RoT/cre/SHDWSAM7.cre~  ~override~
+  SAY NAME1 @795 
+  SAY NAME2 @795 
+
+COPY ~RoT/cre/SLAVEM1.cre~   ~override~
+     ~RoT/cre/SLAVEM2.cre~   ~override~
+  SAY 0xa4 @231 
+  SAY 0x10c @231 
+  SAY 0x110 @232 
+
+COPY ~RoT/cre/SLAVET1.cre~   ~override~
+     ~RoT/cre/SLAVET2.cre~   ~override~
+     ~RoT/cre/SLAVET3.cre~   ~override~
+     ~RoT/cre/SLAVET4.cre~   ~override~
+     ~RoT/cre/SLAVET5.cre~   ~override~
+  SAY NAME1 @796
+  SAY NAME2 @796
+
+COPY ~RoT/cre/SLAVEW1.cre~   ~override~
+     ~RoT/cre/SLAVEW2.cre~   ~override~
+  SAY 0xa4 @188 
+  SAY 0xb8 @189 
+  SAY 0x10c @188 
+  SAY 0x110 @190 
+
+COPY ~RoT/cre/SNDGRL1.cre~   ~override~
+     ~RoT/cre/SNDGRL2.cre~   ~override~
+  SAY NAME1 @797 
+  SAY NAME2 @797
+
+COPY ~RoT/cre/SPESELCA.cre~  ~override~
+  SAY NAME1 @798 
+  SAY NAME2 @798 
+  SAY 0xa4 @799  
+  SAY 0x10c @800  
+  SAY 0x110 @799  
+  SAY 0x114 @801  
+  SAY 0x1b8 @802  
+
+COPY ~RoT/cre/STAFFGR.cre~   ~override~
+  SAY 0xa4 @192 
+  SAY 0xb8 @193 
+  SAY 0xc8 @194  
+  SAY 0x10c @195  
+  SAY 0x110 @196 
+  SAY 0x114 @197 
+  SAY 0x118 @198  
+
+COPY ~RoT/cre/STAFFM1.cre~   ~override~
+     ~RoT/cre/STAFFM2.cre~   ~override~
+     ~RoT/cre/STAFFM3.cre~   ~override~
+     ~RoT/cre/STAFFM4.cre~   ~override~
+     ~RoT/cre/STAFFM5.cre~   ~override~
+     ~RoT/cre/STAFFM6.cre~   ~override~
+     ~RoT/cre/STAFFM7.cre~   ~override~
+     ~RoT/cre/STAFFM8.cre~   ~override~
+     ~RoT/cre/STAFFM9.cre~   ~override~
+     ~RoT/cre/STAFFM10.cre~  ~override~
+     ~RoT/cre/STAFFM11.cre~  ~override~
+     ~RoT/cre/STAFFM12.cre~  ~override~
+  SAY NAME1 @803
+  SAY NAME2 @803 
+
+COPY ~RoT/cre/STRAK.cre~     ~override~
+  SAY NAME1 @804 
+  SAY NAME2 @804 
+
+COPY ~RoT/cre/SUMSAMUR.cre~  ~override~
+  SAY NAME1 @805 
+  SAY NAME2 @805 
+
+COPY ~RoT/cre/TALAVAN.cre~   ~override~
+     ~RoT/cre/TALAVAN2.cre~  ~override~
+     ~RoT/cre/TALAVAN3.cre~  ~override~
+     ~RoT/cre/TALAVAN4.cre~  ~override~
+  SAY NAME1 @806 
+  SAY NAME2 @806 
+
+COPY ~RoT/cre/TALAVAN5.cre~  ~override~
+  SAY NAME1 @807 
+  SAY NAME2 @807 
+
+COPY ~RoT/cre/TALMAGE1.cre~  ~override~       
+     ~RoT/cre/TALMAGE2.cre~  ~override~
+     ~RoT/cre/TALMAGE3.cre~  ~override~
+  SAY NAME1 @214 
+  SAY NAME2 @214 
+
+COPY ~RoT/cre/TALWAR1.cre~   ~override~
+     ~RoT/cre/TALWAR2.cre~   ~override~
+     ~RoT/cre/TALWAR3.cre~   ~override~
+     ~RoT/cre/TALWAR4.cre~   ~override~
+     ~RoT/cre/TALWAR5.cre~   ~override~
+     ~RoT/cre/TALWAR6.cre~   ~override~
+     ~RoT/cre/TALWAR7.cre~   ~override~
+     ~RoT/cre/TALWAR8.cre~   ~override~
+     ~RoT/cre/TALWAR9.cre~   ~override~
+     ~RoT/cre/TALWAR10.cre~  ~override~
+     ~RoT/cre/TALWAR11.cre~  ~override~
+     ~RoT/cre/TALWAR12.cre~  ~override~
+     ~RoT/cre/TALWAR13.cre~  ~override~
+     ~RoT/cre/TALWAR14.cre~  ~override~
+     ~RoT/cre/TALWAR15.cre~  ~override~
+     ~RoT/cre/TALWAR16.cre~  ~override~
+     ~RoT/cre/TALWAR17.cre~  ~override~
+     ~RoT/cre/TALWAR18.cre~  ~override~
+     ~RoT/cre/TALWAR19.cre~  ~override~
+     ~RoT/cre/TALWAR20.cre~  ~override~
+     ~RoT/cre/TALWAR21.cre~  ~override~
+     ~RoT/cre/TALWAR22.cre~  ~override~
+     ~RoT/cre/TALWAR23.cre~  ~override~
+     ~RoT/cre/TALWAR24.cre~  ~override~
+     ~RoT/cre/TALWAR25.cre~  ~override~
+     ~RoT/cre/TALWAR26.cre~  ~override~
+     ~RoT/cre/TALWAR27.cre~  ~override~
+     ~RoT/cre/TALWAR28.cre~  ~override~
+     ~RoT/cre/TALWAR29.cre~  ~override~
+     ~RoT/cre/TALWAR30.cre~  ~override~
+     ~RoT/cre/TALWAR35.cre~  ~override~
+  SAY NAME1 @808
+  SAY NAME2 @808
+  SAY 0xa4 @192 
+  SAY 0xb8 @193 
+  SAY 0xc8 @194 
+  SAY 0x10c @195 
+  SAY 0x110 @196 
+  SAY 0x114 @197 
+  SAY 0x118 @198 
+
+COPY ~RoT/cre/TALWAR40.cre~  ~override~
+     ~RoT/cre/TALWAR41.cre~  ~override~
+     ~RoT/cre/TALWAR45.cre~  ~override~
+  SAY NAME1 @808
+  SAY NAME2 @808
+
+COPY ~RoT/cre/TALWAR42.cre~  ~override~
+     ~RoT/cre/TALWAR43.cre~  ~override~
+     ~RoT/cre/TALWAR46.cre~  ~override~
+     ~RoT/cre/TALWAR47.cre~  ~override~
+     ~RoT/cre/TALWAR48.cre~  ~override~
+     ~RoT/cre/TALWAR49.cre~  ~override~
+     ~RoT/cre/TALWAR50.cre~  ~override~
+  SAY NAME1 @690
+  SAY NAME2 @690
+  SAY 0xa4 @192 
+  SAY 0xb8 @193 
+  SAY 0xc8 @194 
+  SAY 0x10c @195 
+  SAY 0x110 @196 
+  SAY 0x114 @197 
+  SAY 0x118 @198 
+
+COPY ~RoT/cre/TALWAR44.cre~  ~override~
+  SAY NAME1 @809
+  SAY NAME2 @809
+  SAY 0xa4 @192 
+  SAY 0xb8 @193 
+  SAY 0xc8 @194 
+  SAY 0x10c @195 
+  SAY 0x110 @196 
+  SAY 0x114 @197 
+  SAY 0x118 @198 
+
+COPY ~RoT/cre/TAPIO.cre~     ~override~
+     ~RoT/cre/TAPIO2.cre~    ~override~
+  SAY NAME1 @810 
+  SAY NAME2 @810 
+  SAY 0xa4 ~~ [TAPIO3]
+  SAY 0xa8 @812  
+  SAY 0xac @813 
+  SAY 0xb0 @814  
+  SAY 0xb4 @815  
+  SAY 0xb8 @816  
+  SAY 0xbc @817  
+  SAY 0xc0 @818
+  SAY 0xc4 @819  
+  SAY 0xc8 @820  
+  SAY 0xcc @821  
+  SAY 0xd0 @822  
+  SAY 0xec @823  
+  SAY 0xf0 @824  
+  SAY 0xf4 @825  
+  SAY 0xf8 @826  
+  SAY 0xfc @827  
+  SAY 0x100 @828  
+  SAY 0x104 @829  
+  SAY 0x108 @830  
+  SAY 0x10c @831
+  SAY 0x110 @832  
+  SAY 0x114 @833
+  SAY 0x118 @834  
+  SAY 0x11c @835 
+  SAY 0x120 @836  
+  SAY 0x124 @837  
+  SAY 0x128 @838  
+  SAY 0x12c @839  
+  SAY 0x130 @840  
+  SAY 0x134 @841  
+  SAY 0x138 @842  
+  SAY 0x13c @843  
+  SAY 0x1a8 @844  
+  SAY 0x1ac @845  
+  SAY 0x1b0 @846  
+  SAY 0x1b4 @847  
+  SAY 0x1bc @848  
+  SAY 0x1c0 @849  
+
+COPY ~RoT/cre/TAVEKEE.cre~   ~override~
+  SAY NAME1 @850 
+  SAY NAME2 @850 
+
+COPY ~RoT/cre/TENMAGE2.cre~  ~override~
+     ~RoT/cre/TENMAGE3.cre~  ~override~
+  SAY NAME1 @447 
+  SAY NAME2 @447 
+
+COPY ~RoT/cre/THEMAN1.cre~   ~override~
+  SAY NAME1 @230 
+  SAY NAME2 @230
+
+COPY ~RoT/cre/THEO.cre~      ~override~
+  SAY NAME1 @851
+  SAY NAME2 @851 
+
+COPY ~RoT/cre/THORIN.cre~    ~override~
+  SAY NAME1 @852 
+  SAY NAME2 @852 
+
+COPY ~RoT/cre/TPWENT.cre~    ~override~
+  SAY NAME1 @853 
+  SAY NAME2 @853
+
+COPY ~RoT/cre/TRESHAM1.cre~  ~override~
+  SAY NAME1 @854
+  SAY NAME2 @854 
+
+COPY ~RoT/cre/ULGARTH.cre~   ~override~
+  SAY NAME1 @855 
+  SAY NAME2 @855
+
+COPY ~RoT/cre/ULOGRE1.cre~   ~override~
+  SAY NAME1 @856 
+  SAY NAME2 @856 
+
+COPY ~RoT/cre/ULOGRE2.cre~   ~override~
+  SAY NAME1 @857
+  SAY NAME2 @857 
+
+COPY ~RoT/cre/ULOGRE3.cre~   ~override~
+  SAY NAME1 @858 
+  SAY NAME2 @858 
+
+COPY ~RoT/cre/ULORC.cre~     ~override~
+  SAY NAME1 @859 
+  SAY NAME2 @859 
+
+COPY ~RoT/cre/ULORC2.cre~    ~override~
+  SAY NAME1 @860 
+  SAY NAME2 @860 
+
+COPY ~RoT/cre/ULORC3.cre~    ~override~
+  SAY NAME1 @861 
+  SAY NAME2 @861 
+
+COPY ~RoT/cre/ULORC4.cre~    ~override~
+  SAY NAME1 @862 
+  SAY NAME2 @862 
+
+COPY ~RoT/cre/ULORC5.cre~    ~override~
+  SAY NAME1 @863 
+  SAY NAME2 @863 
+
+COPY ~RoT/cre/ULTIMM.cre~    ~override~
+  SAY NAME1 @864 
+  SAY NAME2 @864 
+
+COPY ~RoT/cre/UNDAPP.cre~    ~override~
+  SAY NAME1 @865 
+  SAY NAME2 @865 
+
+COPY ~RoT/cre/VALESH.cre~    ~override~
+  SAY NAME1 @866 
+  SAY NAME2 @866 
+
+COPY ~RoT/cre/VALESSA.cre~   ~override~
+  SAY NAME1 @867 
+  SAY NAME2 @867 
+
+COPY ~RoT/cre/VINOBBO.cre~   ~override~
+  SAY 0xa4 @176 
+  SAY 0xb8 @177  
+  SAY 0x10c @176 
+  SAY 0x110 @178  
+  SAY 0x114 @179  
+  SAY 0x118 @180 
+
+COPY ~RoT/cre/VINOBGI.cre~   ~override~
+  SAY 0xa4 @181 
+  SAY 0x10c @182  
+  SAY 0x110 @183  
+  SAY 0x114 @184  
+  SAY 0x118 @185  
+
+COPY ~RoT/cre/VINOBMA.cre~   ~override~
+  SAY NAME1 @868
+  SAY NAME2 @868 
+  SAY 0xa4 @201  
+  SAY 0xb8 @202  
+  SAY 0x10c @201  
+  SAY 0x110 @203  
+
+COPY ~RoT/cre/VINOBWO.cre~   ~override~
+  SAY NAME1 @868 
+  SAY NAME2 @868 
+  SAY 0xa4 @205  
+  SAY 0xb8 @206  
+  SAY 0x10c @205  
+  SAY 0x110 @207  
+
+COPY ~RoT/cre/VITRAVE.cre~   ~override~
+  SAY NAME1 @211
+  SAY NAME2 @211
+
+COPY ~RoT/cre/WAROHOR1.cre~  ~override~
+  SAY NAME1 @351 
+  SAY NAME2 @351 
+
+COPY ~RoT/cre/WEALMER.cre~   ~override~
+  SAY NAME1 @869 
+  SAY NAME2 @869 
+  SAY 0xa4 @201  
+  SAY 0xb8 @202  
+  SAY 0x10c @201  
+  SAY 0x110 @203  
+
+COPY ~RoT/cre/WULDEL1.cre~   ~override~
+     ~RoT/cre/WULDEL2.cre~   ~override~
+  SAY NAME1 @870
+  SAY NAME2 @870
+
+COPY ~RoT/cre/WULFG2.cre~    ~override~
+     ~RoT/cre/WULFGI2.cre~   ~override~
+  SAY NAME1 @871
+  SAY NAME2 @871
+  SAY 0xa8 @872  
+  SAY 0xac @873  
+  SAY 0xb0 @874
+  SAY 0xb4 @875  
+  SAY 0xb8 @876  
+  SAY 0xbc @877  
+  SAY 0xc0 @878  
+  SAY 0xc4 @879  
+  SAY 0xc8 @880  
+  SAY 0xcc @881
+  SAY 0xd0 @882  
+  SAY 0xec ~~ [WU_DAM] 
+  SAY 0xf0 @884  
+  SAY 0xf4 @885  
+  SAY 0xf8 @886  
+  SAY 0xfc @887  
+  SAY 0x100 @888  
+  SAY 0x104 @889  
+  SAY 0x108 @890  
+  SAY 0x10c @891
+  SAY 0x110 @892  
+  SAY 0x114 @893
+  SAY 0x118 @894  
+  SAY 0x11c @895  
+  SAY 0x120 @896  
+  SAY 0x124 @897  
+  SAY 0x128 @898  
+  SAY 0x12c @899  
+  SAY 0x130 @900  
+  SAY 0x134 @901  
+  SAY 0x138 @902  
+  SAY 0x13c @903  
+  SAY 0x1a8 @904  
+  SAY 0x1ac @905  
+  SAY 0x1b0 @906  
+  SAY 0x1b4 @907  
+  SAY 0x1bc @908  
+  SAY 0x1c0 @909  
+  SAY 0x1cc @910
+
+COPY ~RoT/cre/XASPIRIT.cre~  ~override~
+  SAY NAME1 @911 
+  SAY NAME2 @911
+
+COPY ~RoT/cre/XSADFAE.cre~   ~override~
+  SAY NAME1 @912 
+  SAY NAME2 @912 
+
+COPY ~RoT/cre/YACASAS.cre~   ~override~
+  SAY NAME1 @913 
+  SAY NAME2 @913 
+
+COPY ~RoT/cre/YAMAN.cre~     ~override~
+  SAY NAME1 @914 
+  SAY NAME2 @914 
+
+COPY ~RoT/cre/YATOLSA.cre~   ~override~
+  SAY NAME1 @915 
+  SAY NAME2 @915
+
+COPY ~RoT/cre/YETI1.cre~     ~override~
+  SAY NAME1 @916 
+  SAY NAME2 @916
+
+COPY ~RoT/cre/YETI2.cre~     ~override~
+  SAY NAME1 @917 
+  SAY NAME2 @917
+
+COPY ~RoT/cre/YETI3.cre~     ~override~
+  SAY NAME1 @918 
+  SAY NAME2 @918
+
+COPY ~RoT/cre/ZACARE1.cre~   ~override~
+     ~RoT/cre/ZACARE2.cre~   ~override~
+     ~RoT/cre/ZACARE3.cre~   ~override~
+  SAY NAME1 @919
+  SAY NAME2 @919 
+
+COPY ~RoT/cre/ZAGORR.cre~    ~override~
+  SAY NAME1 @920 
+  SAY NAME2 @920
+
+COPY ~RoT/cre/ZEMIR.cre~     ~override~
+  SAY NAME1 @921 
+  SAY NAME2 @921 
+
+COPY ~RoT/cre/ZEMTHIF5.cre~  ~override~
+     ~RoT/cre/ZEMTHIF9.cre~  ~override~
+  SAY NAME1 @922 
+  SAY NAME2 @922 
+
+COPY ~RoT/cre/ZEN.cre~       ~override~
+  SAY NAME1 @923 
+  SAY NAME2 @923

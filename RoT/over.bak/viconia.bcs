@@ -1,0 +1,1702 @@
+SC
+CR
+CO
+TR
+16500 0 0 0 0 "" "" OB
+2 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16408 10 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 18 0 0 0 ""OB
+TR
+TR
+16441 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16395 128 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16395 29 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+198OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 1 18 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16436 0 0 0 0 "AR1000ViconiaDeath" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+86OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+177OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "ViconiaStake"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+181OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 "viconia"OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1503 0 0 0 0"" "" AC
+AC
+63OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"" "" AC
+AC
+131OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALJaheiraRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "GLOBALJaheiraRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 0 0 0 0"GLOBALJaheiraRomanceActive" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALAerieRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "GLOBALAerieRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 0 0 0 0"GLOBALAerieRomanceActive" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 1 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 4 0 0 0 "GLOBALViconiaVampire" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+5 0 0 0 0"GLOBALViconiaVampire" "" AC
+AC
+198OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "yocklol" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "vicpri01" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16412 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "yocklol"OB
+TR
+TR
+16412 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "vicpri01"OB
+TR
+CO
+RS
+RE
+100AC
+40OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+100 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "yocklol" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "vicpri01" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "LOCALStalkedYoc" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16515 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+72 0 0 0 0"LOCALSLoveTalk" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"LOCALStalkedYoc" "" AC
+AC
+317OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+40 0 0 0 0"" "" AC
+AC
+168OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+147 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 1 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 3 1 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALViconiaMatch" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16518 32 1 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16412 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+TR
+TR
+16515 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 4 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 41 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 51 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 63 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16432 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"LOCALSLoveTalk" "" AC
+AC
+317OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+40 0 0 0 0"" "" AC
+AC
+168OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16566 0 0 0 0 "ViconiaRomance" "GLOBAL" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+147 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 1 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 3 1 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALViconiaMatch" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16518 32 1 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16412 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+TR
+TR
+16515 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 33 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 3 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 5 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 7 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 9 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 11 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 13 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 15 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 17 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 19 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 21 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 23 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 25 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 27 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 29 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 31 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 33 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 35 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 37 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 43 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 45 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 47 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 53 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 55 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 57 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 59 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 63 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 65 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 67 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 69 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16432 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 73 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 75 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+268OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+30 0 0 0 0"GLOBALViconiaRomance" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16566 0 0 0 0 "ViconiaRomance" "GLOBAL" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 1 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 3 1 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALViconiaMatch" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16510 0 1 0 0 "AR1300" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16518 32 1 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16412 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+TR
+TR
+16515 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16412 0 1 0 0 "" "" OB
+255 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16408 10 1 0 0 "" "" OB
+128 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 33 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 3 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 5 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 7 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 9 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 11 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 13 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 15 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 17 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 19 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 21 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 23 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 25 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 27 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 29 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 31 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 33 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 35 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 37 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 43 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 45 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 47 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 53 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 55 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 57 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 59 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 63 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 65 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 67 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 69 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16432 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 73 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 75 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"LOCALSLoveTalk" "" AC
+AC
+317OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+40 0 0 0 0"" "" AC
+AC
+168OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16566 0 0 0 0 "ViconiaRomance" "GLOBAL" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALViconiaMatch" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 38 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 4 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 6 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 8 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 10 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 12 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 14 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 16 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 18 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 20 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 22 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 24 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 26 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 28 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 30 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 32 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 34 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 36 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 38 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 40 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 42 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 44 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 46 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 48 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 50 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 52 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 54 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 56 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 58 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 60 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 62 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 64 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 66 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 68 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 70 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 72 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 74 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 76 0 0 0 "LOCALSLoveTalk" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+109OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"LOCALSLoveTalk" "" AC
+AC
+268OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3000 0 0 0 0"GLOBALViconiaRomance" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 1 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "AR1000ViconiaFree" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16515 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16497 0 0 0 0 "vicg" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "victown1" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 1 0 0 "victown4" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+198OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 1 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "AR1000ViconiaFree" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 3 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16498 0 0 0 0 "vicg" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "victown1" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "victown4" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR1000ViconiaFight" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"AR1000ViconiaFree" "" AC
+AC
+113OB
+0 0 0 0 0 0 0 0 0 0 0 0 "Viconia"OB
+OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1206 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 1 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "AR1000ViconiaFree" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16515 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 3 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16498 0 0 0 0 "vicg" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "victown1" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16465 0 0 0 0 "victown4" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"AR1000ViconiaFree" "" AC
+AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+3 0 0 0 0"GLOBALSPRITE_IS_DEADVicg" "" AC
+AC
+198OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 1 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "AR1000ViconiaFree" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16498 2 0 0 0 "Vicg" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+63OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"" "" AC
+AC
+198OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 1 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "AR1000ViconiaFree" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16412 0 0 0 0 "" "" OB
+255 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+134OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 1 18 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+45 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALPhaereInnuendo" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16408 6 1 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "Phaere"OB
+TR
+TR
+16399 5 0 0 0 "GLOBALChapter" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "LOCALSViconiaMad1" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+198OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+2 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "GLOBALPhaereInnuendo" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16408 6 1 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "Phaere"OB
+TR
+TR
+16399 5 0 0 0 "GLOBALChapter" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "LOCALSViconiaMad2" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+198OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+2 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 3 0 0 0 "GLOBALPhaereInnuendo" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16408 6 1 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "Phaere"OB
+TR
+TR
+16399 5 0 0 0 "GLOBALChapter" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "LOCALSViconiaMad3" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 2 0 0 0 "GLOBALViconiaRomanceActive" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+198OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+2 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR0502TannerWarning" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16510 0 0 0 0 "AR0502" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16451 0 1 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "Anomen"OB
+TR
+TR
+16465 0 0 0 0 "Anomen" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16521 2 0 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16451 0 1 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "Jaheira"OB
+TR
+TR
+16465 0 0 0 0 "Jaheira" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"AR0502TannerWarning" "" AC
+AC
+198OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 21 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16451 0 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "GLOBALViconiaKeldornFight" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+175OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+21OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+60OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+7 0 0 0 0"" "" AC
+AC
+60OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 0 0 0 0"useitem" "" AC
+AC
+60OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"vicvskel" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16395 255 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR1000ViconiaFree" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16451 0 1 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "LOCALSNPCFight" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+1 0 0 0 0"LOCALSNPCFight" "" AC
+AC
+60OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+7 0 0 0 0"" "" AC
+AC
+60OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 0 0 0 0"useitem" "" AC
+AC
+60OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"vicx" "" AC
+AC
+138OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16395 128 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR1000ViconiaFree" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+2 0 0 0 0 "" "" OB
+30 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+60OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"vicx" "" AC
+AC
+60OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 0 0 0 0"useitem" "" AC
+AC
+60OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+7 0 0 0 0"" "" AC
+AC
+10OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16395 255 1 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR1000ViconiaFree" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16451 0 1 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 1 0 0 0 "LOCALSNPCFight" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+30OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"LOCALSNPCFight" "" AC
+AC
+60OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+6 0 0 0 0"" "" AC
+AC
+60OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+2 0 0 0 0"" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16395 128 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+2 0 0 0 0 "" "" OB
+30 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR1000ViconiaFree" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+10OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+AC
+36OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+CR
+CO
+TR
+16395 255 0 0 0 "" "" OB
+0 0 0 0 0 0 0 1 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "AR1000ViconiaFree" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+0OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 0 0 0 0"" "" AC
+RE
+RS
+CR
+SC

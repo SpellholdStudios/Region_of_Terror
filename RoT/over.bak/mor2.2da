@@ -1,0 +1,41 @@
+MOR2 /orc w bow/
+***
+						SOUND
+ATTACK          		orcbw01 nosound nosound
+ATTACK          		2 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		orcbw07a orcbw07b
+DAMAGE          		0 0
+DIE             		orcbw09 orcbw10
+DIE             		0 0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		orcbw03A orcbw03B nosound
+ATTACK_SLASH    		2 0 0
+ATTACK_BACKSLASH		***
+ATTACK_BACKSLASH		0
+ATTACK_JAB      		***
+ATTACK_JAB      		0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry			orcbw01 orcbw02
+Battle_Cry			0 0
+Selection                       orcbw01
+Selection                       0

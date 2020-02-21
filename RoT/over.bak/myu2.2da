@@ -1,0 +1,41 @@
+MYU2 /yuan ti,elite/
+***
+						SOUND
+ATTACK          		yanel03a nosound nosound
+ATTACK          		2 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		yanel07a yanel07b yanel08a yanel08b
+DAMAGE          		0 0 0 0
+DIE             		yanel09a yanel09b
+DIE             		0 0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		yanel03a yanel03b nosound
+ATTACK_SLASH    		2 2 0
+ATTACK_BACKSLASH		yanel04a yanel04b nosound
+ATTACK_BACKSLASH		2 2 0
+ATTACK_JAB      		yanel05a yanel05b nosound
+ATTACK_JAB      		2 2 0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry			yanel01 yanel02
+Battle_Cry			0 0
+Selection                       yanel01
+Selection                       0

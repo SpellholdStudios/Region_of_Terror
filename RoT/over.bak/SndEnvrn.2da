@@ -1,0 +1,9 @@
+2DA V1.0
+10101010
+        ENVIRONMENT     VOLUME      DECAY       DAMPING     REVERB_LEVEL
+STONE0  6               1.0         2.309       0.888       0.08
+FOREST  0               1.0         0.0         0.0         1.0
+CITY00  17              1.0         2.767       0.224       1.0
+OUTDOR  5               1.0         0.478       0.0         1.0
+GENRIC  0               1.0         0.0         1.0         1.0
+GENRIC1 0               1.0         0.0         0.0         1.0

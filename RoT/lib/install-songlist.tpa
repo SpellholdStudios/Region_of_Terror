@@ -1,0 +1,86 @@
+ACTION_IF GAME_IS ~bg2 tob bgt~ BEGIN  
+	//SONGLIST.2DA has less than 8 free slots - we must move the whole music setup to the GUI auto-mod
+	MKDIR ~GUI_Mods/%slot_name%/sound~
+	COPY ~RoT/RULE/default/SONGLIST.2DA~ ~GUI_Mods/%slot_name%/sound/SONGLIST.2DA~
+	
+	<<<<<<<< sound1.tp2
+	OUTER_SET rows_cnt=0
+	COPY_EXISTING ~GUI_Mods/%gui_slot_name%/sound/SONGLIST.2DA~ ~override~
+	COUNT_2DA_ROWS 3 "rows_cnt"
+	
+	>>>>>>>>
+	<<<<<<<< sound2.tp2
+	APPEND ~SONGLIST.2DA~ ~9999_68      IWD2Area        MXIWD2.MUS~
+	APPEND ~SONGLIST.2DA~ ~9999_69      FF6Music        MXFFF6.MUS~
+	APPEND ~SONGLIST.2DA~ ~9999_71      CDAY1           CDAY1.MUS~
+	APPEND ~SONGLIST.2DA~ ~9999_72      CNITE           CNITE.MUS~
+	APPEND ~SONGLIST.2DA~ ~9999_73      Harp_V4         HARP_V4.MUS~
+	APPEND ~SONGLIST.2DA~ ~9999_74      MX2102          MX2102.MUS~
+	APPEND ~SONGLIST.2DA~ ~9999_75      MX5411          MX5411.MUS~
+	
+	COPY_EXISTING ~SONGLIST.2da~  ~override~
+	SET song_68 = "%rows_cnt%"
+	REPLACE_TEXTUALLY ~9999_68~    "%song_68%"
+	SET song_69 = "%rows_cnt%"+1
+	REPLACE_TEXTUALLY ~9999_69~    "%song_69%"
+	SET song_71 = "%rows_cnt%"+2
+	REPLACE_TEXTUALLY ~9999_71~    "%song_71%"
+	SET song_72 = "%rows_cnt%"+3
+	REPLACE_TEXTUALLY ~9999_72~    "%song_72%"
+	SET song_73 = "%rows_cnt%"+4
+	REPLACE_TEXTUALLY ~9999_73~    "%song_73%"
+	SET song_74 = "%rows_cnt%"+5
+	REPLACE_TEXTUALLY ~9999_74~    "%song_74%"
+	SET song_75 = "%rows_cnt%"+6
+	REPLACE_TEXTUALLY ~9999_75~    "%song_75%"
+	
+	COPY_EXISTING ~RA5100.ARE~  ~override~
+		READ_LONG  0xbc "song_offset"
+		WRITE_LONG ("%song_offset%")   "%song_68%"    //day song
+		WRITE_LONG ("%song_offset%"+4) "%song_68%"    //night song
+	BUT_ONLY_IF_IT_CHANGES
+	
+	COPY_EXISTING ~RA3704.ARE~  ~override~
+		READ_LONG  0xbc "song_offset"
+		WRITE_LONG ("%song_offset%")   "%song_69%"     //day song
+		WRITE_LONG ("%song_offset%"+4) "%song_69%"     //night song
+		WRITE_LONG ("%song_offset%"+0x0c) "%song_69%"  //battle song
+	BUT_ONLY_IF_IT_CHANGES
+	
+	COPY_EXISTING ~RR3100.ARE~  ~override~
+		READ_LONG  0xbc "song_offset"
+		WRITE_LONG ("%song_offset%")   "%song_71%"    //day song
+		WRITE_LONG ("%song_offset%"+4) "%song_72%"    //night song
+	BUT_ONLY_IF_IT_CHANGES
+	
+	COPY_EXISTING ~RA5104.ARE~  ~override~
+					~RR3409.ARE~  ~override~
+					~RR3410.ARE~  ~override~
+		READ_LONG  0xbc "song_offset"
+		WRITE_LONG ("%song_offset%")   "%song_73%"     //day song
+		WRITE_LONG ("%song_offset%"+4) "%song_73%"     //night song
+	BUT_ONLY_IF_IT_CHANGES
+	
+	COPY_EXISTING ~RA5400.ARE~  ~override~
+					~RA5412.ARE~  ~override~
+		READ_LONG  0xbc "song_offset"
+		WRITE_LONG ("%song_offset%")   "%song_74%"     //day song
+		WRITE_LONG ("%song_offset%"+4) "%song_74%"     //night song
+	BUT_ONLY_IF_IT_CHANGES
+	
+	COPY_EXISTING ~RA5411.ARE~  ~override~
+					~RA5416.ARE~  ~override~
+					~RA5600.ARE~  ~override~
+		READ_LONG  0xbc "song_offset"
+		WRITE_LONG ("%song_offset%")   "%song_75%"     //day song
+		WRITE_LONG ("%song_offset%"+4) "%song_75%"     //night song
+	BUT_ONLY_IF_IT_CHANGES
+	//***********************************************************************************
+	
+	>>>>>>>>
+	
+	COPY_EXISTING ~Setup-GUI.tp2~ ~Setup-GUI.tp2~
+	APPEND_FILE_EVALUATE ~sound.tp2~
+	APPEND_FILE ~sound2.tp2~
+
+END

@@ -1,0 +1,41 @@
+msa2 /salamander,frost/
+***
+						SOUND
+ATTACK          		salam07 nosound nosound
+ATTACK          		2 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		salam08
+DAMAGE          		0
+DIE             		salam09a salam09b salam10a salam10b
+DIE             		0 0 0 0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		salam03a salam03b
+ATTACK_SLASH    		0 0
+ATTACK_BACKSLASH		salam04
+ATTACK_BACKSLASH		0
+ATTACK_JAB      		***
+ATTACK_JAB      		0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry			salam01a salam01b salam02
+Battle_Cry			0 0 0
+Selection                       salam07
+Selection                       0

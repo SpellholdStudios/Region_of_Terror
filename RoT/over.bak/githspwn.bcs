@@ -1,0 +1,38 @@
+SC
+CR
+CO
+TR
+16408 15 0 0 0 "" "" OB
+2 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16450 0 0 0 0 "misc8u" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16399 0 0 0 0 "GLOBALKruinTalked" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+TR
+16397 0 1 0 0 "" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 "Kruin"OB
+TR
+TR
+16465 0 1 0 0 "Kruin" "" OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+TR
+CO
+RS
+RE
+100AC
+7OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+OB
+0 0 0 0 0 0 0 0 0 0 0 0 ""OB
+0 -1 -1 0 0"KRUIN" "" AC
+RE
+RS
+CR
+SC

@@ -1,0 +1,5 @@
+90
+134 AttackReevaluate(O:Target*,I:ReevaluationPeriod*)
+140 GiveItemCreate(S:ResRef*,O:Object*,I:Usage1*,I:Usage2*,I:Usage3*)
+152 ChangeAIType(O:Object*)
+

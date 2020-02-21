@@ -1,0 +1,1648 @@
+COPY ~RoT/itm/ACIDAX.itm~    ~override~
+  SAY NAME2 @7 
+  SAY DESC @955
+
+COPY ~RoT/itm/ACIDFLIL.itm~  ~override~
+  SAY NAME2 @956 
+  SAY DESC @957
+
+COPY ~RoT/itm/ACIDGEM.itm~   ~override~
+  SAY NAME2 @958 
+  SAY UNIDENTIFIED_DESC @959 
+  SAY DESC @960 
+
+COPY ~RoT/itm/AEGISFA.itm~   ~override~
+  SAY NAME2 @961
+  SAY DESC @962
+
+COPY ~RoT/itm/ALE1.itm~      ~override~
+  SAY NAME2 @963 
+  SAY UNIDENTIFIED_DESC @964
+  SAY DESC @965 
+
+COPY ~RoT/itm/ALE2.itm~      ~override~
+  SAY NAME2 @966 
+  SAY UNIDENTIFIED_DESC @964
+  SAY DESC @967 
+
+COPY ~RoT/itm/ALE3.itm~      ~override~
+  SAY NAME2 @968
+  SAY UNIDENTIFIED_DESC @964
+  SAY DESC @969 
+
+COPY ~RoT/itm/ALE4.itm~      ~override~
+  SAY NAME2 @970 
+  SAY UNIDENTIFIED_DESC @964
+  SAY DESC @971 
+
+COPY ~RoT/itm/ALE5.itm~      ~override~
+  SAY NAME2 @972 
+  SAY UNIDENTIFIED_DESC @964
+  SAY DESC @973
+
+COPY ~RoT/itm/ALESSARI.itm~  ~override~
+
+COPY ~RoT/itm/AMULEXT.itm~   ~override~
+  SAY NAME2 @974
+  SAY DESC @975 
+
+COPY ~RoT/itm/ANCISA.itm~    ~override~
+  SAY NAME1 @976 
+  SAY NAME2 @977
+  SAY UNIDENTIFIED_DESC @978 
+  SAY DESC @979
+
+COPY ~RoT/itm/ANCISB.itm~    ~override~
+  SAY NAME2 @980
+  SAY UNIDENTIFIED_DESC @981 
+  SAY DESC @982 
+
+COPY ~RoT/itm/ANCISC.itm~    ~override~
+  SAY NAME2 @980
+  SAY UNIDENTIFIED_DESC @981 
+  SAY DESC @982
+
+COPY ~RoT/itm/ANCISD.itm~    ~override~
+  SAY NAME1 @983 
+  SAY NAME2 @984 
+  SAY UNIDENTIFIED_DESC @985 
+  SAY DESC @986 
+
+COPY ~RoT/itm/ANCISWRD.itm~  ~override~
+  SAY NAME2 @987 
+  SAY DESC @988
+
+COPY ~RoT/itm/AQUAHEAR.itm~  ~override~
+  SAY NAME1 @989 
+  SAY NAME2 @989 
+  SAY UNIDENTIFIED_DESC @990 
+
+COPY ~RoT/itm/ARBRAC.itm~    ~override~
+  SAY NAME2 @991 
+  SAY DESC @992 
+
+COPY ~RoT/itm/ARDIAM.itm~    ~override~
+  SAY NAME2 @993
+  SAY DESC @994
+
+COPY ~RoT/itm/ARLSCRL.itm~   ~override~
+  SAY UNIDENTIFIED_DESC @995
+
+COPY ~RoT/itm/ASHAM.ITM~     ~override~
+
+COPY ~RoT/itm/ASSDAGG.itm~   ~override~
+  SAY NAME2 @996
+  SAY DESC @997 
+
+COPY ~RoT/itm/B4-32M5.itm~   ~override~
+     ~RoT/itm/BAG02J.itm~    ~override~
+     ~RoT/itm/BAG03L.itm~    ~override~
+     ~RoT/itm/BAG04B.itm~    ~override~
+
+COPY ~RoT/itm/BANELORD.itm~  ~override~
+
+COPY ~RoT/itm/BAOFACC.itm~   ~override~
+  SAY NAME2 @998 
+  SAY DESC @999
+
+COPY ~RoT/itm/BAOFPOW.itm~   ~override~
+  SAY NAME2 @1000 
+  SAY DESC @1001
+
+COPY ~RoT/itm/BBDESP.itm~    ~override~
+  SAY NAME2 @1002 
+  SAY DESC @1003 
+
+
+COPY ~RoT/itm/BLAARROW.itm~  ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BLAARROW~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    READ_BYTE (abil_offset + cnt*0x38) type
+    PATCH_IF( type=2 ) THEN BEGIN          //Ranged
+      WRITE_SHORT  (abil_offset + cnt*0x38 + 0x2a) pro
+    END
+  END
+  SAY NAME2 @1004
+  SAY DESC @1005
+
+
+COPY ~RoT/itm/BLACHAMM.itm~  ~override~
+  SAY NAME2 @1006 
+  SAY DESC @1007
+
+COPY ~RoT/itm/BLACKGEM.itm~  ~override~
+  SAY NAME2 @1008 
+  SAY UNIDENTIFIED_DESC @959 
+  SAY DESC @1009 
+
+COPY ~RoT/itm/BLACPLAT.itm~  ~override~
+  SAY NAME2 @1010
+  SAY DESC @1011
+
+COPY ~RoT/itm/BLADEFE1.itm~  ~override~
+  SAY NAME2 @1012 
+  SAY DESC @1013
+
+COPY ~RoT/itm/BLADEFE2.itm~  ~override~
+
+COPY ~RoT/itm/BLADEHA1.itm~  ~override~
+  SAY NAME2 @1014
+  SAY DESC @1015
+
+COPY ~RoT/itm/BLADEHA2.itm~  ~override~
+
+COPY ~RoT/itm/BLADEPA1.itm~  ~override~
+  SAY NAME2 @1016
+  SAY DESC @1017
+
+COPY ~RoT/itm/BLADEPA2.itm~  ~override~
+
+COPY ~RoT/itm/BLADESO1.itm~  ~override~
+  SAY NAME2 @1018
+  SAY DESC @1019
+
+COPY ~RoT/itm/BLADESO2.itm~  ~override~
+
+COPY ~RoT/itm/BLAZOR.itm~    ~override~
+     ~RoT/itm/BLORD.itm~     ~override~
+     ~RoT/itm/BLUEDRGN.itm~  ~override~
+
+COPY ~RoT/itm/BLUEHEAR.itm~  ~override~
+  SAY NAME1 @1020 
+  SAY NAME2 @1020 
+  SAY UNIDENTIFIED_DESC @1021 
+
+COPY ~RoT/itm/BOFGAE.itm~    ~override~
+  SAY NAME2 @1022 
+  SAY DESC @1023
+
+COPY ~RoT/itm/BOGIL1.itm~    ~override~
+  SAY NAME1 @1024
+  SAY NAME2 @1024
+  SAY UNIDENTIFIED_DESC @1025
+
+COPY ~RoT/itm/BOGIL10.itm~   ~override~
+  SAY NAME1 @1026
+  SAY NAME2 @1026
+  SAY UNIDENTIFIED_DESC @1027
+
+COPY ~RoT/itm/BOGIL11.itm~   ~override~
+  SAY NAME1 @1028 
+  SAY NAME2 @1028 
+  SAY UNIDENTIFIED_DESC @1029
+
+COPY ~RoT/itm/BOGIL12.itm~   ~override~
+  SAY NAME1 @1030 
+  SAY NAME2 @1030 
+  SAY UNIDENTIFIED_DESC @1031
+
+COPY ~RoT/itm/BOGIL13.itm~   ~override~
+  SAY NAME1 @1032
+  SAY NAME2 @1032
+  SAY UNIDENTIFIED_DESC @1033 
+
+COPY ~RoT/itm/BOGIL2.itm~    ~override~
+  SAY NAME1 @1034
+  SAY NAME2 @1034
+  SAY UNIDENTIFIED_DESC @1035
+
+COPY ~RoT/itm/BOGIL3.itm~    ~override~
+  SAY NAME1 @1036
+  SAY NAME2 @1036
+  SAY UNIDENTIFIED_DESC @1037
+
+COPY ~RoT/itm/BOGIL4.itm~    ~override~
+  SAY NAME1 @1038
+  SAY NAME2 @1038
+  SAY UNIDENTIFIED_DESC @1039
+
+COPY ~RoT/itm/BOGIL5.itm~    ~override~
+  SAY NAME1 @1040
+  SAY NAME2 @1040 
+  SAY UNIDENTIFIED_DESC @1041
+
+COPY ~RoT/itm/BOGIL6.itm~    ~override~
+  SAY NAME1 @1042
+  SAY NAME2 @1042
+  SAY UNIDENTIFIED_DESC @1043
+
+COPY ~RoT/itm/BOGIL7.itm~    ~override~
+  SAY NAME1 @1044
+  SAY NAME2 @1044 
+  SAY UNIDENTIFIED_DESC @1045
+
+COPY ~RoT/itm/BOGIL8.itm~    ~override~
+  SAY NAME1 @1046
+  SAY NAME2 @1046 
+  SAY UNIDENTIFIED_DESC @1047
+
+COPY ~RoT/itm/BOGIL9.itm~    ~override~
+  SAY NAME1 @1048
+  SAY NAME2 @1048 
+  SAY UNIDENTIFIED_DESC @1049
+
+COPY ~RoT/itm/BOTAPIO.itm~   ~override~
+  SAY NAME1 @1050 
+  SAY NAME2 @1050
+  SAY UNIDENTIFIED_DESC @1051 
+
+COPY ~RoT/itm/BOYAMUL.itm~   ~override~
+  SAY NAME1 @1052 
+  SAY NAME2 @1053
+  SAY UNIDENTIFIED_DESC @1054 
+  SAY DESC @1055 
+
+COPY ~RoT/itm/BRACWC.itm~    ~override~
+  SAY NAME2 @1056 
+  SAY DESC @1057
+
+COPY ~RoT/itm/BRUENAX.itm~   ~override~
+  SAY NAME2 @1058
+  SAY DESC @1059
+
+COPY ~RoT/itm/BRUENHE.itm~   ~override~
+  SAY NAME2 @1060
+  SAY DESC @1061
+
+COPY ~RoT/itm/BRUENSH.itm~   ~override~
+  SAY NAME2 @1062 
+  SAY DESC @1063
+
+COPY ~RoT/itm/BRUNBOOK.itm~  ~override~
+  SAY NAME1 @1064 
+  SAY NAME2 @1064 
+  SAY UNIDENTIFIED_DESC @1065 
+
+COPY ~RoT/itm/BSTABBER.itm~  ~override~
+  SAY NAME2 @1066 
+  SAY DESC @1067
+
+COPY ~RoT/itm/BURGAS.itm~    ~override~
+  SAY NAME2 @934
+  SAY DESC @935
+
+COPY ~RoT/itm/CABOW.itm~     ~override~
+  SAY NAME2 @1068
+  SAY DESC @1069
+
+
+COPY ~RoT/itm/CABOW2.itm~    ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~MYARROW~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    READ_BYTE (abil_offset + cnt*0x38) type
+    PATCH_IF( type=2 ) THEN BEGIN          //Ranged
+      WRITE_SHORT  (abil_offset + cnt*0x38 + 0x2a) pro
+    END
+  END
+
+
+COPY ~RoT/itm/CALLAN.itm~    ~override~
+  SAY NAME2 @1070 
+  SAY DESC @1071
+
+COPY ~RoT/itm/CAMBIO1.itm~   ~override~
+
+COPY ~RoT/itm/CBRUENA.itm~   ~override~
+  SAY NAME2 @1058
+  SAY DESC @1072
+
+COPY ~RoT/itm/CHAKEY.itm~    ~override~
+  SAY NAME1 @1073 
+  SAY NAME2 @1073 
+  SAY UNIDENTIFIED_DESC @1074 
+
+COPY ~RoT/itm/CHAMPSC.itm~   ~override~
+  SAY NAME1 @1075 
+  SAY NAME2 @1075 
+  SAY UNIDENTIFIED_DESC @1076 
+
+COPY ~RoT/itm/CHRM.itm~      ~override~
+  SAY NAME1 @1077 
+  SAY NAME2 @1077 
+  SAY UNIDENTIFIED_DESC @1078 
+  SAY DESC @1078 
+
+COPY ~RoT/itm/CHWRAIT2.itm~  ~override~
+
+COPY ~RoT/itm/COFLAIL.itm~   ~override~
+  SAY NAME2 @1079 
+  SAY DESC @1080
+
+COPY ~RoT/itm/CONS.itm~      ~override~
+  SAY NAME1 @1081 
+  SAY NAME2 @1081 
+  SAY UNIDENTIFIED_DESC @1082
+
+COPY ~RoT/itm/CULTCUP1.itm~  ~override~
+  SAY NAME1 @1083 
+  SAY NAME2 @1083 
+  SAY UNIDENTIFIED_DESC @1084 
+
+COPY ~RoT/itm/CULTMO1.itm~   ~override~
+     ~RoT/itm/CULTMO2.itm~   ~override~
+     ~RoT/itm/CULTMO3.itm~   ~override~
+     ~RoT/itm/CULTMO4.itm~   ~override~
+     ~RoT/itm/CULTMO5.itm~   ~override~
+     ~RoT/itm/CULTMO6.itm~   ~override~
+     ~RoT/itm/CULTMO7.itm~   ~override~
+     ~RoT/itm/CULTMO8.itm~   ~override~
+     ~RoT/itm/CULTMO9.itm~   ~override~
+     ~RoT/itm/CULTMO10.itm~  ~override~
+     ~RoT/itm/CULTMO11.itm~  ~override~
+     ~RoT/itm/CULTMO12.itm~  ~override~
+
+COPY ~RoT/itm/CULTSYM1.itm~  ~override~
+  SAY NAME1 @1085 
+  SAY NAME2 @1085 
+  SAY DESC @1086
+
+COPY ~RoT/itm/CULTSYM2.itm~  ~override~
+  SAY NAME1 @1085
+  SAY NAME2 @1085
+  SAY DESC @1087 
+
+COPY ~RoT/itm/CULTWEP1.itm~  ~override~
+  SAY NAME2 @1088
+  SAY DESC @1089
+
+COPY ~RoT/itm/CULTWEP2.itm~  ~override~
+  SAY NAME2 @1090
+  SAY DESC @1091
+
+COPY ~RoT/itm/CULTWEP3.itm~  ~override~
+  SAY NAME2 @1092
+  SAY DESC @1093
+
+COPY ~RoT/itm/CULTWEP4.itm~  ~override~
+  SAY NAME2 @1094 
+  SAY DESC @1095
+
+COPY ~RoT/itm/CURKAT.itm~    ~override~
+  SAY NAME2 @1096 
+  SAY DESC @1097
+
+COPY ~RoT/itm/CYCHAND.itm~   ~override~
+  SAY NAME2 @1098 
+  SAY DESC @1099
+
+COPY ~RoT/itm/CYCLOP.itm~    ~override~
+
+COPY ~RoT/itm/DAGOFDED.itm~  ~override~
+  SAY NAME2 @1100
+  SAY DESC @1101
+
+COPY ~RoT/itm/DELLY1.itm~    ~override~
+  SAY NAME1 @1102 
+  SAY NAME2 @1102 
+  SAY UNIDENTIFIED_DESC @1103 
+
+
+COPY ~RoT/itm/DIAARROW.itm~  ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~DIAARROW~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    READ_BYTE (abil_offset + cnt*0x38) type
+    PATCH_IF( type=2 ) THEN BEGIN          //Ranged
+      WRITE_SHORT  (abil_offset + cnt*0x38 + 0x2a) pro
+    END
+  END
+  SAY NAME2 @1004
+  SAY DESC @1104
+
+
+COPY ~RoT/itm/DRAGBLU1.itm~  ~override~
+
+COPY ~RoT/itm/DRAGCAP.itm~   ~override~
+  SAY NAME1 @1105
+  SAY NAME2 @1105 
+  SAY UNIDENTIFIED_DESC @1106 
+
+COPY ~RoT/itm/DRAGCAP2.itm~  ~override~
+  SAY NAME1 @1105 
+  SAY NAME2 @1105 
+  SAY UNIDENTIFIED_DESC @1107 
+
+COPY ~RoT/itm/DRAGNSUM.itm~  ~override~
+  SAY NAME2 @936 
+  SAY DESC @937
+
+COPY ~RoT/itm/DRAGSIL2.itm~  ~override~
+     ~RoT/itm/DRAGSIL3.itm~  ~override~
+     ~RoT/itm/DRAGSIL4.itm~  ~override~
+
+COPY ~RoT/itm/DRAKEY1.itm~   ~override~
+  SAY NAME1 @1108 
+  SAY NAME2 @1108 
+  SAY UNIDENTIFIED_DESC @1109 
+
+COPY ~RoT/itm/DRIZZTBO.itm~  ~override~
+  SAY NAME2 @1110 
+  SAY DESC @1111 
+
+COPY ~RoT/itm/DRIZZTDE.itm~  ~override~
+  SAY NAME2 @1112
+  SAY DESC @1113
+
+COPY ~RoT/itm/DRIZZTFR.itm~  ~override~
+  SAY NAME2 @1114
+  SAY DESC @1115
+
+COPY ~RoT/itm/DXTR.itm~      ~override~
+  SAY NAME1 @1116 
+  SAY NAME2 @1116 
+  SAY UNIDENTIFIED_DESC @1117 
+
+COPY ~RoT/itm/EAGLES.itm~    ~override~
+  SAY NAME2 @926
+  SAY DESC @927
+
+COPY ~RoT/itm/ELEMCLC.itm~   ~override~
+  SAY NAME2 @1118
+  SAY DESC @1119 
+
+COPY ~RoT/itm/ENTERISA.itm~  ~override~
+  SAY NAME2 @1120 
+  SAY DESC @1121
+
+COPY ~RoT/itm/ENTERISB.itm~  ~override~
+  SAY NAME2 @1122
+  SAY DESC @1123
+
+COPY ~RoT/itm/ENTERISD.itm~  ~override~
+  SAY NAME2 @1124
+  SAY DESC @1125
+
+COPY ~RoT/itm/FGiant1.itm~   ~override~
+     ~RoT/itm/FGiant2.itm~   ~override~
+     ~RoT/itm/FIBAPRO.itm~   ~override~
+
+COPY ~RoT/itm/FICHAMP.itm~   ~override~
+  SAY NAME1 @1075 
+  SAY NAME2 @1075 
+  SAY DESC @1126 
+
+COPY ~RoT/itm/FIREORB.itm~   ~override~
+  SAY NAME2 @1127 
+  SAY UNIDENTIFIED_DESC @1128 
+  SAY DESC @1129 
+
+COPY ~RoT/itm/FIRESHLD.itm~  ~override~
+  SAY NAME2 @1130 
+  SAY DESC @1131
+
+COPY ~RoT/itm/FIRESWRD.itm~  ~override~
+  SAY NAME2 @1132 
+  SAY DESC @1133
+
+COPY ~RoT/itm/FIRKAT.itm~    ~override~
+  SAY NAME2 @1134
+  SAY DESC @1135
+
+COPY ~RoT/itm/FROSGOL.itm~   ~override~
+
+COPY ~RoT/itm/FROSTAR.itm~   ~override~
+  SAY NAME2 @1136
+  SAY DESC @1137
+
+COPY ~RoT/itm/FROSTGI.itm~   ~override~
+     ~RoT/itm/FROSTGI2.itm~  ~override~
+
+COPY ~RoT/itm/FROZKAT.itm~   ~override~
+  SAY NAME2 @1138 
+  SAY DESC @1139
+
+COPY ~RoT/itm/FROZORB.itm~   ~override~
+  SAY NAME1 @1140 
+  SAY NAME2 @1141 
+  SAY UNIDENTIFIED_DESC @1142 
+  SAY DESC @1143 
+
+COPY ~RoT/itm/FROZPLAT.itm~  ~override~
+  SAY NAME2 @1144
+  SAY DESC @1145
+
+COPY ~RoT/itm/FROZSHLD.itm~  ~override~
+  SAY NAME2 @1146 
+  SAY DESC @1147
+
+COPY ~RoT/itm/GAIKEY.itm~    ~override~
+  SAY NAME1 @1148 
+  SAY NAME2 @1148 
+  SAY UNIDENTIFIED_DESC @1149 
+
+COPY ~RoT/itm/GARING.itm~    ~override~
+  SAY NAME2 @1150 
+  SAY DESC @1151
+
+COPY ~RoT/itm/GARRAXD.itm~   ~override~
+     ~RoT/itm/GARRAXF.itm~   ~override~
+     ~RoT/itm/GARRAXS.itm~   ~override~
+     ~RoT/itm/GIANTFR.itm~   ~override~
+
+COPY ~RoT/itm/GLOWCHAN.itm~  ~override~
+  SAY NAME2 @1152 
+  SAY DESC @1153
+
+COPY ~RoT/itm/GLOWHALB.itm~  ~override~
+  SAY NAME2 @1154 
+  SAY DESC @1155
+
+COPY ~RoT/itm/GLOWROCK.itm~  ~override~
+  SAY NAME2 @1156 
+  SAY UNIDENTIFIED_DESC @1157 
+  SAY DESC @1158 
+
+COPY ~RoT/itm/GODMARI1.itm~  ~override~
+     ~RoT/itm/GODMARI2.itm~  ~override~
+     ~RoT/itm/GOLACID.itm~   ~override~
+     ~RoT/itm/GOLAMUL.itm~   ~override~
+
+COPY ~RoT/itm/GOLDAG.itm~    ~override~
+  SAY NAME1 @1159
+  SAY NAME2 @1159 
+  SAY UNIDENTIFIED_DESC @1160 
+
+COPY ~RoT/itm/GOLDENCL.itm~  ~override~
+  SAY NAME2 @938
+  SAY DESC @939
+
+COPY ~RoT/itm/GOLICE.itm~    ~override~
+     ~RoT/itm/GOLRUBY.itm~   ~override~
+     ~RoT/itm/GOLRUBY2.itm~  ~override~
+     ~RoT/itm/GOLSAPP.itm~   ~override~
+     ~RoT/itm/GOLSAPP2.itm~  ~override~
+     ~RoT/itm/GOLTOPZ.ITM~   ~override~
+
+COPY ~RoT/itm/GRAYBOOK.itm~  ~override~
+  SAY NAME1 @1161 
+  SAY NAME2 @1161 
+  SAY UNIDENTIFIED_DESC @1162 
+
+COPY ~RoT/itm/GREAN.itm~     ~override~
+     ~RoT/itm/GREANAM.itm~   ~override~
+     ~RoT/itm/GREANRI.itm~   ~override~
+     ~RoT/itm/GREATONE.itm~  ~override~
+     ~RoT/itm/GRENDRGN.itm~  ~override~
+     ~RoT/itm/GRGHSTA.itm~   ~override~
+     ~RoT/itm/GUEN.itm~      ~override~
+     ~RoT/itm/GUEN2.itm~     ~override~
+
+COPY ~RoT/itm/GUSTAT.itm~    ~override~
+  SAY NAME2 @1163
+  SAY DESC @1164
+
+COPY ~RoT/itm/HAMOFMOR.itm~  ~override~
+  SAY NAME2 @1165
+  SAY DESC @1166
+
+COPY ~RoT/itm/HANBB.itm~     ~override~
+  SAY NAME1 @1167
+  SAY NAME2 @1167 
+  SAY UNIDENTIFIED_DESC @1168 
+
+COPY ~RoT/itm/HAYMAIL.itm~   ~override~
+  SAY NAME2 @1169 
+  SAY DESC @1170
+
+COPY ~RoT/itm/HERBOOK.itm~   ~override~
+  SAY NAME1 @1171
+  SAY NAME2 @1171
+  SAY UNIDENTIFIED_DESC @1172 
+
+COPY ~RoT/itm/HERMGEM.itm~   ~override~
+  SAY NAME2 @1173 
+  SAY UNIDENTIFIED_DESC @1174 
+  SAY DESC @1175 
+
+COPY ~RoT/itm/HERO.itm~      ~override~
+  SAY NAME2 @940
+  SAY DESC @1176
+
+COPY ~RoT/itm/HERSCRL.itm~   ~override~
+  SAY NAME2 @1177 
+  SAY DESC @1178 
+
+COPY ~RoT/itm/HERSWRD.itm~   ~override~
+  SAY NAME2 @1179 
+  SAY DESC @1180
+
+COPY ~RoT/itm/HIGHMBO.itm~   ~override~
+  SAY NAME2 @1181 
+  SAY DESC @1182
+
+COPY ~RoT/itm/HOLYGEM.itm~   ~override~
+  SAY NAME2 @1183
+  SAY UNIDENTIFIED_DESC @1184 
+  SAY DESC @1185 
+
+COPY ~RoT/itm/HOLYPLAT.itm~  ~override~
+  SAY NAME2 @1186 
+  SAY DESC @1187
+
+COPY ~RoT/itm/HOLYSHLD.itm~  ~override~
+  SAY NAME2 @1188 
+  SAY DESC @1189
+
+COPY ~RoT/itm/HOOK1.ITM~     ~override~
+     ~RoT/itm/HOOK2.ITM~     ~override~
+     ~RoT/itm/HOOK3.itm~     ~override~
+     ~RoT/itm/HOOK4.itm~     ~override~
+     ~RoT/itm/HOOK5.itm~     ~override~
+
+COPY ~RoT/itm/ICEEXPL.itm~   ~override~
+  SAY NAME2 @942 
+  SAY DESC @943 
+
+COPY ~RoT/itm/ICEKAT.itm~    ~override~
+  SAY NAME2 @1190
+  SAY DESC @1191
+
+COPY ~RoT/itm/IIRADT.itm~    ~override~
+  SAY NAME2 @944
+  SAY DESC @945
+
+COPY ~RoT/itm/IMP2.itm~      ~override~
+     ~RoT/itm/IMPIMM.itm~    ~override~
+     ~RoT/itm/INRING.itm~    ~override~
+
+COPY ~RoT/itm/INTL.itm~      ~override~
+  SAY NAME1 @1192 
+  SAY NAME2 @1192
+  SAY UNIDENTIFIED_DESC @1193 
+
+COPY ~RoT/itm/IWDGEM1.itm~   ~override~
+     ~RoT/itm/IWDGEM2.itm~   ~override~
+     ~RoT/itm/IWDGEM3.itm~   ~override~
+     ~RoT/itm/IWDGEM4.itm~   ~override~
+     ~RoT/itm/IWDGEM5.itm~   ~override~
+     ~RoT/itm/IWDGEM6.itm~   ~override~
+     ~RoT/itm/IWDGEM7.itm~   ~override~
+     ~RoT/itm/IWDGEM8.itm~   ~override~
+     ~RoT/itm/IWDGEM9.itm~   ~override~
+     ~RoT/itm/IWDGEM10.itm~  ~override~
+  SAY DESC @1194
+
+COPY ~RoT/itm/IWDKEY1.itm~   ~override~
+  SAY NAME1 @1195 
+  SAY NAME2 @1195 
+  SAY UNIDENTIFIED_DESC @1196
+
+COPY ~RoT/itm/IWDKEY2.itm~   ~override~
+  SAY NAME1 @1197 
+  SAY NAME2 @1197 
+  SAY UNIDENTIFIED_DESC @1198 
+
+COPY ~RoT/itm/IWDKEY3.itm~   ~override~
+  SAY NAME1 @1199 
+  SAY NAME2 @1199 
+  SAY UNIDENTIFIED_DESC @1200 
+
+COPY ~RoT/itm/IWDMIST1.itm~  ~override~
+     ~RoT/itm/IWDMIST2.itm~  ~override~
+     ~RoT/itm/IWDMIST3.itm~  ~override~
+     ~RoT/itm/IWDMIST4.itm~  ~override~
+     ~RoT/itm/IWDMIST5.itm~  ~override~
+     ~RoT/itm/IWDMIST6.itm~  ~override~
+     ~RoT/itm/IWDMIST7.itm~  ~override~
+
+COPY ~RoT/itm/IWDROCK.itm~   ~override~
+  SAY DESC @1201
+
+COPY ~RoT/itm/IWDSCR1.itm~   ~override~
+  SAY DESC @1202
+
+COPY ~RoT/itm/IWDSCR2.itm~   ~override~
+  SAY DESC @1203
+
+COPY ~RoT/itm/IWDSCR3.itm~   ~override~
+  SAY DESC @1204
+
+COPY ~RoT/itm/IWDSCR4.itm~   ~override~
+  SAY DESC @1205
+
+COPY ~RoT/itm/IWDSCR5.itm~   ~override~
+  SAY DESC @1206
+
+COPY ~RoT/itm/IWDSCR6.itm~   ~override~
+  SAY DESC @1207 
+
+COPY ~RoT/itm/JARDAG.itm~    ~override~
+
+COPY ~RoT/itm/JARLAXC1.itm~  ~override~
+  SAY NAME2 @1208
+  SAY DESC @1209
+
+COPY ~RoT/itm/JARLAXS.itm~   ~override~
+  SAY NAME2 @1210
+  SAY DESC @1211
+
+COPY ~RoT/itm/JARLAXS1.itm~  ~override~
+  SAY NAME2 @1212
+  SAY DESC @1213
+
+COPY ~RoT/itm/JARLAXSC.itm~  ~override~
+  SAY NAME2 @1214
+  SAY DESC @1215
+
+COPY ~RoT/itm/JELLKING.itm~  ~override~
+
+COPY ~RoT/itm/JUDBLAD.itm~   ~override~
+  SAY NAME2 @1216
+  SAY DESC @1217
+
+COPY ~RoT/itm/KATANAT.itm~   ~override~
+  SAY NAME2 @1218 
+  SAY DESC @1219
+
+COPY ~RoT/itm/KATOFPOW.itm~  ~override~
+  SAY NAME2 @1220 
+  SAY DESC @1221
+
+COPY ~RoT/itm/KEYFUH.itm~    ~override~
+  SAY NAME1 @1222 
+  SAY NAME2 @1222 
+  SAY UNIDENTIFIED_DESC @1223 
+
+COPY ~RoT/itm/KEYTOBR.itm~   ~override~
+  SAY NAME1 @1224 
+  SAY NAME2 @1224 
+  SAY UNIDENTIFIED_DESC @1225 
+
+COPY ~RoT/itm/KHARONNA.itm~  ~override~
+     ~RoT/itm/KHARONSN.itm~  ~override~
+  SAY NAME2 @1226
+  SAY DESC @1227
+
+COPY ~RoT/itm/KHAZID.itm~    ~override~
+  SAY NAME2 @1228
+  SAY DESC @1229 
+
+COPY ~RoT/itm/KINGAMUL.itm~  ~override~
+  SAY NAME2 @1230 
+  SAY DESC @1231
+
+COPY ~RoT/itm/LATKEY.itm~    ~override~
+  SAY NAME1 @1232
+  SAY NAME2 @1232
+  SAY DESC @1233
+
+COPY ~RoT/itm/LIONH.itm~     ~override~
+  SAY NAME2 @1234 
+  SAY DESC @1235
+
+COPY ~RoT/itm/LITOOTH.itm~   ~override~
+  SAY NAME2 @1236
+  SAY DESC @1237
+
+COPY ~RoT/itm/MAGSSWRD.itm~  ~override~
+  SAY NAME2 @1238
+  SAY DESC @1239
+
+COPY ~RoT/itm/MALAR1.itm~    ~override~
+     ~RoT/itm/MALAR2.itm~    ~override~
+
+COPY ~RoT/itm/MARASCRL.itm~  ~override~
+  SAY NAME1 @1240 
+  SAY NAME2 @1240 
+  SAY DESC @1241
+
+COPY ~RoT/itm/MARKSHDW.itm~  ~override~
+  SAY NAME1 @1242 
+  SAY NAME2 @1242
+  SAY DESC @1243
+
+COPY ~RoT/itm/MINDFLA2.itm~  ~override~
+     ~RoT/itm/MINOD.itm~     ~override~
+
+COPY ~RoT/itm/MIRRBOW.itm~   ~override~
+  SAY NAME2 @8 
+  SAY DESC @1244
+
+COPY ~RoT/itm/MITHARMR.itm~  ~override~
+  SAY NAME2 @1245
+  SAY DESC @1246
+
+COPY ~RoT/itm/MOLNECK.itm~   ~override~
+  SAY NAME1 @1247 
+  SAY NAME2 @1247 
+  SAY DESC @1248
+
+COPY ~RoT/itm/MONKSTF1.itm~  ~override~
+     ~RoT/itm/MONKSTF2.itm~  ~override~
+     ~RoT/itm/MONKSTF3.itm~  ~override~
+     ~RoT/itm/MONKSTF4.itm~  ~override~
+
+COPY ~RoT/itm/MYMEAT.itm~    ~override~
+  SAY NAME1 @1249
+  SAY NAME2 @1249 
+  SAY UNIDENTIFIED_DESC @1250
+
+COPY ~RoT/itm/NEWAMCU.itm~   ~override~
+  SAY NAME2 @1251
+  SAY DESC @1252
+
+COPY ~RoT/itm/NEWAMLI.itm~   ~override~
+  SAY NAME2 @1253
+  SAY DESC @1254
+
+COPY ~RoT/itm/NEWAMSK.itm~   ~override~
+  SAY NAME2 @1255
+  SAY DESC @1256
+
+COPY ~RoT/itm/NEWARBL.itm~   ~override~
+  SAY NAME2 @1257 
+  SAY DESC @1258
+
+
+COPY ~RoT/itm/NEWARDE.itm~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~DEAARROW~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    READ_BYTE (abil_offset + cnt*0x38) type
+    PATCH_IF( type=2 ) THEN BEGIN          //Ranged
+      WRITE_SHORT  (abil_offset + cnt*0x38 + 0x2a) pro
+    END
+  END
+  SAY NAME2 @1259
+  SAY DESC @1260
+
+
+COPY ~RoT/itm/NEWAX01.itm~   ~override~
+  SAY NAME2 @1261 
+  SAY DESC @1262
+
+COPY ~RoT/itm/NEWAX02.itm~   ~override~
+  SAY NAME2 @1263
+  SAY DESC @1264
+
+COPY ~RoT/itm/NEWAXLI.itm~   ~override~
+  SAY NAME2 @1265
+  SAY DESC @1266
+
+COPY ~RoT/itm/NEWBE01.itm~   ~override~
+  SAY NAME2 @1267
+  SAY DESC @1268
+
+COPY ~RoT/itm/NEWBE02.itm~   ~override~
+  SAY NAME2 @1269 
+  SAY DESC @1270
+
+COPY ~RoT/itm/NEWBE03.itm~   ~override~
+  SAY NAME2 @1271 
+  SAY DESC @1272
+
+COPY ~RoT/itm/NEWBEH1.itm~   ~override~
+  SAY NAME2 @1273 
+  SAY DESC @1274
+
+COPY ~RoT/itm/NEWBEH2.itm~   ~override~
+     ~RoT/itm/NEWBEH3.itm~   ~override~
+  SAY NAME1 @1275
+  SAY NAME2 @1276
+  SAY UNIDENTIFIED_DESC @1277
+  SAY DESC @1278
+
+COPY ~RoT/itm/NEWBEHE.itm~   ~override~
+  SAY NAME2 @1279 
+  SAY DESC @1280
+
+COPY ~RoT/itm/NEWBO01.itm~   ~override~
+  SAY NAME2 @1281 
+  SAY DESC @1282 
+
+COPY ~RoT/itm/NEWBO02.itm~   ~override~
+  SAY NAME2 @1283 
+  SAY DESC @1284
+
+COPY ~RoT/itm/NEWBR01.itm~   ~override~
+  SAY NAME2 @1285 
+  SAY DESC @1286 
+
+COPY ~RoT/itm/NEWBRLI.itm~   ~override~
+  SAY NAME2 @1287 
+  SAY DESC @1288
+
+COPY ~RoT/itm/NEWBT01.ITM~   ~override~
+  SAY NAME2 @1289 
+  SAY DESC @1290
+
+COPY ~RoT/itm/NEWBTPR.itm~   ~override~
+  SAY NAME2 @1291 
+  SAY DESC @1292
+
+COPY ~RoT/itm/NEWBTSA.itm~   ~override~
+  SAY NAME2 @1293 
+  SAY DESC @1294 
+
+
+COPY ~RoT/itm/NEWBUIC.itm~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BULLIC~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    READ_BYTE (abil_offset + cnt*0x38) type
+    PATCH_IF( type=2 ) THEN BEGIN          //Ranged
+      WRITE_SHORT  (abil_offset + cnt*0x38 + 0x2a) pro
+    END
+  END
+  SAY NAME2 @1295
+  SAY DESC @1296
+
+
+COPY ~RoT/itm/NEWBULI.itm~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BULLLI~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    READ_BYTE (abil_offset + cnt*0x38) type
+    PATCH_IF( type=2 ) THEN BEGIN          //Ranged
+      WRITE_SHORT  (abil_offset + cnt*0x38 + 0x2a) pro
+    END
+  END
+  SAY NAME2 @1297
+  SAY DESC @1298
+
+
+COPY ~RoT/itm/NEWCB01.itm~   ~override~
+  SAY NAME2 @1299 
+  SAY DESC @1300
+
+COPY ~RoT/itm/NEWCB02.itm~   ~override~
+  SAY NAME2 @1301
+  SAY DESC @1302
+
+COPY ~RoT/itm/NEWCHDE.itm~   ~override~
+  SAY NAME2 @1303 
+  SAY DESC @1304
+
+COPY ~RoT/itm/NEWCHHE.ITM~   ~override~
+  SAY NAME2 @1305
+  SAY DESC @1306
+
+COPY ~RoT/itm/NEWCK01.itm~   ~override~
+  SAY NAME2 @1307 
+  SAY DESC @1308
+
+COPY ~RoT/itm/NEWCK02.itm~   ~override~
+  SAY NAME2 @1309
+  SAY DESC @1310 
+
+COPY ~RoT/itm/NEWCKSH.itm~   ~override~
+  SAY NAME2 @1311
+  SAY UNIDENTIFIED_DESC @1312 
+  SAY DESC @1313
+
+COPY ~RoT/itm/NEWCL01.itm~   ~override~
+  SAY NAME2 @1314 
+  SAY DESC @1315
+
+COPY ~RoT/itm/NEWCL02.itm~   ~override~
+  SAY NAME2 @1316
+  SAY DESC @1317
+
+COPY ~RoT/itm/NEWCRYB1.itm~  ~override~
+     ~RoT/itm/NEWCRYB2.itm~  ~override~
+  SAY NAME1 @1318
+  SAY NAME2 @1319
+  SAY UNIDENTIFIED_DESC @1320
+  SAY DESC @1321
+
+COPY ~RoT/itm/NEWCRYH.itm~   ~override~
+  SAY NAME1 @1322
+  SAY NAME2 @1323
+  SAY UNIDENTIFIED_DESC @1324
+  SAY DESC @1321
+
+COPY ~RoT/itm/NEWCRYS.itm~   ~override~
+  SAY NAME2 @1325 
+  SAY DESC @1326
+
+COPY ~RoT/itm/NEWDA01.itm~   ~override~
+  SAY NAME2 @1327
+  SAY DESC @1328
+
+COPY ~RoT/itm/NEWDA02.itm~   ~override~
+  SAY NAME2 @1329
+  SAY DESC @1330 
+
+COPY ~RoT/itm/NEWDR01.itm~   ~override~
+  SAY NAME2 @1331 
+  SAY DESC @1332
+
+COPY ~RoT/itm/NEWDR02.itm~   ~override~
+  SAY NAME2 @1333
+  SAY DESC @1334
+
+COPY ~RoT/itm/NEWDWLE.itm~   ~override~
+  SAY NAME2 @1335 
+  SAY DESC @1336
+
+COPY ~RoT/itm/NEWFL01.itm~   ~override~
+  SAY NAME2 @1337 
+  SAY DESC @1338
+
+COPY ~RoT/itm/NEWFLSU.itm~   ~override~
+  SAY NAME2 @1339
+  SAY DESC @1340
+
+COPY ~RoT/itm/NEWFP01.itm~   ~override~
+  SAY NAME2 @1341 
+  SAY DESC @1342
+
+COPY ~RoT/itm/NEWFP02.itm~   ~override~
+  SAY NAME2 @1343 
+  SAY DESC @1344 
+
+COPY ~RoT/itm/NEWFP03.itm~   ~override~
+  SAY NAME2 @1345 
+  SAY DESC @1346
+
+COPY ~RoT/itm/NEWGAR.itm~    ~override~
+  SAY NAME2 @1347 
+  SAY DESC @1348
+
+COPY ~RoT/itm/NEWGSCA.itm~   ~override~
+  SAY NAME1 @1349 
+  SAY NAME2 @1349 
+  SAY DESC @1350
+
+COPY ~RoT/itm/NEWHE01.itm~   ~override~
+  SAY NAME2 @1351 
+  SAY DESC @1352
+
+COPY ~RoT/itm/NEWHE02.itm~   ~override~
+  SAY NAME2 @1353
+  SAY DESC @1354
+
+COPY ~RoT/itm/NEWHEIM.itm~   ~override~
+  SAY NAME2 @1355
+  SAY DESC @1356
+
+COPY ~RoT/itm/NEWHL01.itm~   ~override~
+  SAY NAME2 @1357
+  SAY DESC @1358
+
+COPY ~RoT/itm/NEWHL02.itm~   ~override~
+  SAY NAME2 @1359 
+  SAY DESC @1360
+
+COPY ~RoT/itm/NEWHM01.itm~   ~override~
+  SAY NAME2 @1361
+  SAY DESC @1362
+
+COPY ~RoT/itm/NEWHM03.itm~   ~override~
+  SAY NAME2 @1363
+  SAY DESC @1364
+
+COPY ~RoT/itm/NEWHMDO.itm~   ~override~
+  SAY NAME2 @1365
+  SAY DESC @1366
+
+COPY ~RoT/itm/NEWHOTR.itm~   ~override~
+  SAY NAME2 @1367
+  SAY DESC @1368
+
+COPY ~RoT/itm/NEWKAT01.itm~  ~override~
+  SAY NAME2 @1369 
+  SAY DESC @1370
+
+COPY ~RoT/itm/NEWKAT02.itm~  ~override~
+  SAY NAME2 @1371
+  SAY DESC @1372
+
+COPY ~RoT/itm/NEWLB01.itm~   ~override~
+  SAY NAME2 @1373 
+  SAY DESC @1374
+ 
+COPY ~RoT/itm/NEWLE01.itm~   ~override~
+  SAY NAME2 @1375 
+  SAY DESC @1376
+
+COPY ~RoT/itm/NEWLE02.itm~   ~override~
+  SAY NAME2 @1377
+  SAY DESC @1378
+
+COPY ~RoT/itm/NEWLE03.itm~   ~override~
+  SAY NAME2 @1379
+  SAY DESC @1380
+
+COPY ~RoT/itm/NEWMALS.ITM~   ~override~
+  SAY NAME2 @1381 
+  SAY DESC @1382
+
+COPY ~RoT/itm/NEWMASN.ITM~   ~override~
+  SAY NAME2 @1383
+  SAY DESC @1384
+
+COPY ~RoT/itm/NEWNIN02.itm~  ~override~
+  SAY NAME2 @1385 
+  SAY DESC @1386
+
+COPY ~RoT/itm/NEWNIN03.itm~  ~override~
+  SAY NAME2 @1387
+  SAY DESC @1388
+
+COPY ~RoT/itm/NEWNTG1.itm~   ~override~
+  SAY NAME2 @1389 
+  SAY UNIDENTIFIED_DESC @1390 
+  SAY DESC @1391 
+
+COPY ~RoT/itm/NEWNTG2.itm~   ~override~
+  SAY NAME2 @1389 
+  SAY UNIDENTIFIED_DESC @1390 
+  SAY DESC @1391 
+
+COPY ~RoT/itm/NEWNTXA.itm~   ~override~
+  SAY NAME2 @1392 
+  SAY DESC @1393
+
+COPY ~RoT/itm/NEWNTXAA.itm~  ~override~
+
+COPY ~RoT/itm/NEWPL01.itm~   ~override~
+  SAY NAME2 @1394
+  SAY DESC @1395
+
+COPY ~RoT/itm/NEWPL02.itm~   ~override~
+  SAY NAME2 @1396 
+  SAY DESC @1397
+
+COPY ~RoT/itm/NEWPL03.itm~   ~override~
+  SAY NAME2 @1398 
+  SAY DESC @1399
+
+COPY ~RoT/itm/NEWPO01.itm~   ~override~
+  SAY NAME2 @1400 
+  SAY DESC @1401 
+
+COPY ~RoT/itm/NEWPO02.itm~   ~override~
+  SAY NAME2 @1402 
+  SAY DESC @1403 
+
+COPY ~RoT/itm/NEWPO03.itm~   ~override~
+  SAY NAME2 @1404 
+  SAY DESC @1405 
+
+COPY ~RoT/itm/NEWRIBL.itm~   ~override~
+  SAY NAME2 @1406 
+  SAY UNIDENTIFIED_DESC @1407 
+  SAY DESC @1408 
+
+COPY ~RoT/itm/NEWRICH.itm~   ~override~
+  SAY NAME2 @1409 
+  SAY UNIDENTIFIED_DESC @1407 
+  SAY DESC @1410 
+
+COPY ~RoT/itm/NEWRIME.ITM~   ~override~
+  SAY NAME2 @1411 
+  SAY DESC @1412 
+
+COPY ~RoT/itm/NEWRISP.itm~   ~override~
+  SAY NAME2 @1413 
+  SAY DESC @1414 
+
+COPY ~RoT/itm/NEWRIVI.ITM~   ~override~
+  SAY NAME2 @1415 
+  SAY DESC @1416 
+
+COPY ~RoT/itm/NEWRO01.itm~   ~override~
+  SAY NAME2 @1417 
+  SAY DESC @1418
+
+COPY ~RoT/itm/NEWRO02.itm~   ~override~
+  SAY NAME2 @1419 
+  SAY DESC @1420
+
+COPY ~RoT/itm/NEWRO03.itm~   ~override~
+  SAY NAME2 @1421 
+  SAY DESC @1422
+
+COPY ~RoT/itm/NEWRUCL.itm~   ~override~
+  SAY NAME1 @1423 
+  SAY NAME2 @1424 
+  SAY UNIDENTIFIED_DESC @1425 
+  SAY DESC @1426 
+
+COPY ~RoT/itm/NEWRUMO.itm~   ~override~
+  SAY NAME1 @1423
+  SAY NAME2 @1427 
+  SAY UNIDENTIFIED_DESC @1425
+  SAY DESC @1428 
+
+COPY ~RoT/itm/NEWSB01.itm~   ~override~
+  SAY NAME2 @1429 
+  SAY DESC @1430
+
+COPY ~RoT/itm/NEWSB02.itm~   ~override~
+  SAY NAME2 @1431
+  SAY DESC @1432
+
+COPY ~RoT/itm/NEWSCI01.itm~  ~override~
+  SAY NAME2 @1433 
+  SAY DESC @1434
+
+COPY ~RoT/itm/NEWSCI02.itm~  ~override~
+  SAY NAME2 @9
+  SAY DESC @1435
+
+COPY ~RoT/itm/NEWSCI03.itm~  ~override~
+  SAY NAME2 @1436
+  SAY DESC @1437
+
+COPY ~RoT/itm/NEWSHP1.itm~   ~override~
+  SAY NAME2 @1438
+  SAY DESC @1439
+
+COPY ~RoT/itm/NEWSHP2.itm~   ~override~
+  SAY NAME2 @1440
+  SAY UNIDENTIFIED_DESC @1390
+  SAY DESC @1441
+
+COPY ~RoT/itm/NEWSHP3.itm~   ~override~
+  SAY NAME1 @1442
+  SAY NAME2 @1443
+  SAY UNIDENTIFIED_DESC @1444
+  SAY DESC @1445
+
+COPY ~RoT/itm/NEWSHPO.itm~   ~override~
+  SAY NAME2 @1446
+  SAY DESC @1447
+
+COPY ~RoT/itm/NEWSL01.itm~   ~override~
+  SAY NAME2 @1448 
+  SAY DESC @1449
+
+COPY ~RoT/itm/NEWSL02.itm~   ~override~
+  SAY NAME2 @1450
+  SAY DESC @1451
+
+COPY ~RoT/itm/NEWSLI01.itm~  ~override~
+  SAY NAME2 @1452 
+  SAY DESC @1453
+
+COPY ~RoT/itm/NEWSLI02.itm~  ~override~
+  SAY NAME2 @1454
+  SAY DESC @1455
+
+COPY ~RoT/itm/NEWSM01.itm~   ~override~
+  SAY NAME2 @1456 
+  SAY DESC @1457
+
+COPY ~RoT/itm/NEWSPR01.itm~  ~override~
+  SAY NAME2 @1458 
+  SAY DESC @1459
+
+COPY ~RoT/itm/NEWSPR02.itm~  ~override~
+  SAY NAME2 @1460
+  SAY DESC @1461
+
+COPY ~RoT/itm/NEWSPR03.itm~  ~override~
+  SAY NAME2 @1462
+  SAY DESC @1463
+
+COPY ~RoT/itm/NEWSS01.itm~   ~override~
+  SAY NAME2 @1464 
+  SAY DESC @1465
+
+COPY ~RoT/itm/NEWSS02.itm~   ~override~
+  SAY NAME2 @1466
+  SAY DESC @1467
+
+COPY ~RoT/itm/NEWSS03.itm~   ~override~
+  SAY NAME2 @1468
+  SAY DESC @1469
+
+COPY ~RoT/itm/NEWSSFI.itm~   ~override~
+  SAY NAME2 @1470
+  SAY DESC @1471
+
+COPY ~RoT/itm/NEWSSIC.itm~   ~override~
+  SAY NAME2 @1472
+  SAY DESC @1473
+
+COPY ~RoT/itm/NEWSSLI.itm~   ~override~
+  SAY NAME2 @1474
+  SAY DESC @1475
+
+COPY ~RoT/itm/NEWSTF01.itm~  ~override~
+  SAY NAME2 @1476
+  SAY DESC @1477
+
+COPY ~RoT/itm/NEWSTF03.itm~  ~override~
+  SAY NAME2 @10 
+  SAY DESC @1478 
+
+COPY ~RoT/itm/NEWSTHA.itm~   ~override~
+  SAY NAME2 @1479 
+  SAY DESC @1480
+
+COPY ~RoT/itm/NEWSTQU.itm~   ~override~
+  SAY NAME2 @1481
+  SAY DESC @1482
+
+COPY ~RoT/itm/NEWSWB01.itm~  ~override~
+  SAY NAME2 @11 
+  SAY DESC @1483
+
+COPY ~RoT/itm/NEWSWB02.itm~  ~override~
+  SAY NAME2 @1484
+  SAY DESC @1485
+
+COPY ~RoT/itm/NEWSWL01.itm~  ~override~
+  SAY NAME2 @1486
+  SAY DESC @1487
+
+COPY ~RoT/itm/NEWSWL02.itm~  ~override~
+  SAY NAME2 @1488
+  SAY DESC @1489
+
+COPY ~RoT/itm/NEWSWL03.itm~  ~override~
+  SAY NAME2 @1490
+  SAY DESC @1491
+
+COPY ~RoT/itm/NEWSWS01.itm~  ~override~
+  SAY NAME2 @1492 
+  SAY DESC @1493
+
+COPY ~RoT/itm/NEWSWS02.itm~  ~override~
+  SAY NAME2 @1494
+  SAY DESC @1495
+
+COPY ~RoT/itm/NEWSWS03.itm~  ~override~
+  SAY NAME2 @1496
+  SAY DESC @1497
+
+COPY ~RoT/itm/NEWSWT01.itm~  ~override~
+  SAY NAME2 @12 
+  SAY DESC @1498
+
+COPY ~RoT/itm/NEWSWT02.itm~  ~override~
+  SAY NAME2 @1499
+  SAY DESC @1500
+
+COPY ~RoT/itm/NEWWA02.itm~   ~override~
+  SAY NAME2 @1501
+  SAY DESC @1502
+
+COPY ~RoT/itm/NEWWA03.itm~   ~override~
+  SAY NAME2 @1503
+  SAY DESC @1504
+
+COPY ~RoT/itm/NEWXB01.itm~   ~override~
+  SAY NAME2 @1505 
+  SAY DESC @1506
+
+COPY ~RoT/itm/NEWXB02.itm~   ~override~
+  SAY NAME2 @1507
+  SAY DESC @1508
+
+COPY ~RoT/itm/OGREBELT.itm~  ~override~
+  SAY NAME2 @1509 
+  SAY DESC @1510
+
+COPY ~RoT/itm/OLMKEY.itm~    ~override~
+  SAY NAME1 @1511
+  SAY NAME2 @1511
+  SAY DESC @1512
+
+COPY ~RoT/itm/ORNATEF.itm~   ~override~
+  SAY NAME2 @1513
+  SAY DESC @1514
+
+COPY ~RoT/itm/PAINMACE.itm~  ~override~
+  SAY NAME2 @1515
+  SAY DESC @1516
+
+COPY ~RoT/itm/PERLEG.itm~    ~override~
+  SAY NAME2 @1517
+  SAY DESC @1518
+
+COPY ~RoT/itm/PSSHLDDE.itm~  ~override~
+  SAY NAME2 @946
+  SAY DESC @947
+
+COPY ~RoT/itm/RAHVIN.itm~    ~override~
+     ~RoT/itm/RAHVINR1.itm~  ~override~
+     ~RoT/itm/RAHVINR2.itm~  ~override~
+     ~RoT/itm/RAMOR.itm~     ~override~
+
+COPY ~RoT/itm/RANNOTE.itm~   ~override~
+  SAY NAME1 @1519 
+  SAY NAME2 @1519
+  SAY DESC @1520 
+
+COPY ~RoT/itm/RARESPEL.itm~  ~override~
+  SAY NAME1 @1521 
+  SAY NAME2 @1521 
+  SAY DESC @1522
+
+COPY ~RoT/itm/REFRING.itm~   ~override~
+  SAY NAME2 @1523 
+  SAY DESC @1524
+
+COPY ~RoT/itm/REGFIELD.itm~  ~override~
+  SAY NAME2 @948
+  SAY DESC @949
+
+COPY ~RoT/itm/REGISAM.itm~   ~override~
+  SAY NAME2 @1525
+  SAY DESC @1526
+
+COPY ~RoT/itm/RIDST1.itm~    ~override~
+  SAY NAME1 @1527
+  SAY NAME2 @1527 
+  SAY DESC @1528
+
+COPY ~RoT/itm/RIDST2.itm~    ~override~
+  SAY NAME1 @1527 
+  SAY NAME2 @1527 
+  SAY DESC @1529 
+
+COPY ~RoT/itm/RIDST3.itm~    ~override~
+  SAY NAME1 @1527 
+  SAY NAME2 @1527 
+  SAY DESC @1530 
+
+COPY ~RoT/itm/RIDST4.itm~    ~override~
+  SAY NAME1 @1527 
+  SAY NAME2 @1527 
+  SAY DESC @1531 
+
+COPY ~RoT/itm/RIDST5.itm~    ~override~
+  SAY NAME1 @1527 
+  SAY NAME2 @1527 
+  SAY DESC @1532 
+
+COPY ~RoT/itm/RINGOFUP.itm~  ~override~
+  SAY NAME2 @1533 
+  SAY DESC @1534
+
+COPY ~RoT/itm/RITDAGG.itm~   ~override~
+  SAY NAME1 @1535 
+  SAY NAME2 @1535
+  SAY DESC @1536 
+
+COPY ~RoT/itm/ROBOFLO.itm~   ~override~
+  SAY NAME2 @1537
+  SAY DESC @1538 
+
+COPY ~RoT/itm/SALASPE2.itm~  ~override~
+     ~RoT/itm/SALKING.itm~   ~override~
+
+COPY ~RoT/itm/SECKEY.itm~    ~override~
+  SAY NAME1 @1539 
+  SAY NAME2 @1539 
+  SAY DESC @1540
+
+COPY ~RoT/itm/SHDWSAM1.itm~  ~override~
+     ~RoT/itm/SHDWSAM2.itm~  ~override~
+     ~RoT/itm/SHDWSAM3.itm~  ~override~
+     ~RoT/itm/SHDWSAM4.itm~  ~override~
+
+COPY ~RoT/itm/SHLDOTH.itm~   ~override~
+  SAY NAME2 @1541 
+  SAY DESC @1542
+
+COPY ~RoT/itm/SOULARM2.itm~  ~override~
+  SAY NAME2 @1543
+  SAY DESC @1544
+
+COPY ~RoT/itm/SOULARM3.itm~  ~override~
+  SAY NAME2 @1545
+  SAY DESC @1546
+
+COPY ~RoT/itm/SOULARMR.itm~  ~override~
+  SAY NAME2 @1543
+  SAY DESC @1547
+
+COPY ~RoT/itm/STARGEM.itm~   ~override~
+  SAY NAME2 @1548 
+  SAY UNIDENTIFIED_DESC @959
+  SAY DESC @1549 
+
+COPY ~RoT/itm/STARHELM.itm~  ~override~
+  SAY NAME2 @1550 
+  SAY DESC @1551
+
+COPY ~RoT/itm/STARMACE.itm~  ~override~
+  SAY NAME2 @1552 
+  SAY DESC @1553
+
+COPY ~RoT/itm/STARSHLD.itm~  ~override~
+  SAY NAME2 @1554 
+  SAY DESC @1555
+
+COPY ~RoT/itm/STOPOT.itm~    ~override~
+  SAY NAME2 @1556 
+  SAY DESC @1556 
+
+COPY ~RoT/itm/STRNG.itm~     ~override~
+  SAY NAME1 @1557 
+  SAY NAME2 @1557 
+  SAY DESC @1558
+
+COPY ~RoT/itm/SUPPLIES.itm~  ~override~
+  SAY NAME1 @1559 
+  SAY NAME2 @1559
+  SAY UNIDENTIFIED_DESC @1560
+
+COPY ~RoT/itm/SYMBEYE.itm~   ~override~
+  SAY NAME1 @1561 
+  SAY NAME2 @1561 
+  SAY DESC @1562
+
+COPY ~RoT/itm/TABL1.itm~     ~override~
+  SAY NAME1 @1563 
+  SAY NAME2 @1563 
+  SAY DESC @1564
+
+COPY ~RoT/itm/TABL2.itm~     ~override~
+  SAY NAME1 @1565
+  SAY NAME2 @1565 
+  SAY DESC @1564
+
+COPY ~RoT/itm/TABL3.itm~     ~override~
+  SAY NAME1 @1566 
+  SAY NAME2 @1566 
+  SAY DESC @1564
+
+COPY ~RoT/itm/TABL4.itm~     ~override~
+  SAY NAME1 @1567 
+  SAY NAME2 @1567 
+  SAY DESC @1564
+
+COPY ~RoT/itm/TALAVHE.itm~   ~override~
+  SAY NAME2 @1568
+  SAY DESC @1569
+
+COPY ~RoT/itm/TALAVSH.itm~   ~override~
+  SAY NAME2 @1570
+  SAY DESC @1571
+
+COPY ~RoT/itm/TALKEY.itm~    ~override~
+  SAY NAME1 @1572 
+  SAY NAME2 @1572 
+  SAY DESC @1573
+
+COPY ~RoT/itm/THUNDER.itm~   ~override~
+  SAY NAME2 @1574
+  SAY DESC @1575 
+
+COPY ~RoT/itm/TRESDEAD.itm~  ~override~
+  SAY NAME1 @1576 
+  SAY NAME2 @1576 
+  SAY DESC @1577
+
+COPY ~RoT/itm/TRESLIVE.itm~  ~override~
+  SAY NAME1 @854 
+  SAY NAME2 @854 
+  SAY DESC @1578
+
+COPY ~RoT/itm/TROLL02.itm~   ~override~
+
+COPY ~RoT/itm/TUGBOW1.itm~   ~override~
+  SAY NAME2 @1579 
+  SAY DESC @1580
+
+COPY ~RoT/itm/TWOHT.ITM~     ~override~
+  SAY NAME2 @1581 
+  SAY DESC @1582
+
+COPY ~RoT/itm/ULTIMA.itm~    ~override~
+  SAY NAME2 @950
+  SAY DESC @951
+
+COPY ~RoT/itm/ULTIMAC.itm~   ~override~
+  SAY NAME2 @1583
+  SAY DESC @1584
+
+COPY ~RoT/itm/ULTIMAR.itm~   ~override~
+  SAY NAME2 @1585
+  SAY DESC @1586 
+
+COPY ~RoT/itm/ULTIMAS.itm~   ~override~
+  SAY NAME2 @1587
+  SAY DESC @1588
+
+COPY ~RoT/itm/ULTKEY.itm~    ~override~
+  SAY NAME1 @1589 
+  SAY NAME2 @1589
+  SAY DESC @1590
+
+COPY ~RoT/itm/VAMP4.itm~     ~override~
+
+COPY ~RoT/itm/WAKEINF.itm~   ~override~        
+  SAY NAME2 @952
+  SAY DESC @953
+
+COPY ~RoT/itm/WISD.itm~      ~override~
+  SAY NAME1 @1591 
+  SAY NAME2 @1591 
+  SAY DESC @1592
+
+COPY ~RoT/itm/XVARTW.itm~    ~override~

@@ -1,0 +1,41 @@
+mgo4 /goblin elite w bow/
+***
+						SOUND
+ATTACK          		GOBAXE1 nosound nosound
+ATTACK          		2 0 0
+AWAKE           		***
+AWAKE           		0
+CAST            		***
+CAST            		0
+CONJURE         		***
+CONJURE         		0
+DAMAGE          		GOBAXE7 GOBAXE8
+DAMAGE          		0 0
+DIE             		GOBAXE9 GOBAXE10
+DIE             		0 0
+HEAD_TURN       		***
+HEAD_TURN       		0
+READY           		***
+READY           		0
+SHOOT           		***
+SHOOT           		0
+TWITCH          		***
+TWITCH          		0
+WALK            		***
+WALK            		0
+ATTACK_SLASH    		GOBAXE3a GOBAXE3b nosound
+ATTACK_SLASH    		2 0 0
+ATTACK_BACKSLASH		GOBAXE4a GOBAXE4b nosound
+ATTACK_BACKSLASH		2 0 0
+ATTACK_JAB      		GOBAXE4a GOBAXE4b nosound
+ATTACK_JAB      		2 0 0
+EMERGE          		***
+EMERGE          		0
+HIDE            		***
+HIDE            		0
+SLEEP          			***
+SLEEP          			0
+Battle_Cry			GOBAXE1 GOBAXE2
+Battle_Cry			0 0
+Selection                       GOBAXE1
+Selection                       0
