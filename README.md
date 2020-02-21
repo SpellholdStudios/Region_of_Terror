@@ -45,8 +45,9 @@ More information can be found on the website (link is at the bottom of the file)
 - New spells (mostly kit-specific).
 - Special features (check the website).
 - Mod maker's house (Use codes and enter area "RA4400").
-- SECRETS!!!!<br>
+- SECRETS!!!!
 
+<p></p>
 
 <details><summary>History: original readme from from Gilgamesh (v1.0A)</summary>
 <p>
