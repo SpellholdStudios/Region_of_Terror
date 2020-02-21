@@ -1,7 +1,7 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Region_of_Terror?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20German%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
 
 <div align="center"><h1>Region of Terror</h1>
@@ -11,13 +11,13 @@
 </div><br />
 
 
-**Author:** Gilgamesh  
+**Author:** Gilgamesh (Pekka Syrjänen)  
 **Mod Website:** <a href="http://www.spellholdstudios.net/ie/rot">Spellhold Studios</a>  
-**Mod Forum:** <a href="http://www.shsforums.net/forum/168-region-of-terror/">Shadows over Soubar</a>  
+**Mod Forum:** <a href="http://www.shsforums.net/forum/168-region-of-terror/">Region of Terror</a>  
 
 [Read the mod's readme](http://spellholdstudios.github.io/readmes/rot-readme-english.html).
 
-[Download the mod at Spellhold Studios](http://www.shsforums.net/files/category/40-shadows-over-soubar/).<br>
+[Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/325-region-of-terror-v21/).<br>
 
 
 <div align="center">
@@ -50,24 +50,28 @@ More information can be found on the website (link is at the bottom of the file)
 
 <details><summary>History: original readme from from Gilgamesh (v1.0A)</summary>
 <p>
+
 I began working on this mod in Spring 2002. It is almost completely done by me and the work took 2,5 years. It was a hobby for me and I worked when I felt like it.<br>
 TDD and EE were the only mods out when I began working and I have been using mostly the same methods as in those mods (which are nowadays old-fashioned). However hopefully some people will be able to enjoy the mod.<br>
 The mod was sheltered by TEAMBG for a long time but after they shut down I moved to FORGOTTEN WARS. I received most of the help I needed from the TEAMBG forums.<br>
 I don't speak English as my first language and I've grown a lot during the creation of the mod so you may be able to notice some differences in style here and there. I've tried to use as good English as possible but it is not too great. I hope it won't bother anyone much.<br>
 Everything you'll find from the mod is just improvisation. Ideas that have sprung up from my mind that I have then created in the game. The Final Fantasies have had some influence for example.<br>
 Unfortunately I didn't like modding and finished only because I refused to quit. The ToB compatibility and NPC dialogs (banters) were never done.<br>
-If they are to be done, I won't be the one who does them.
+If they are to be done, I won't be the one who does them.<br>
+
+Gilgamesh
 </p>
 </details><br>
 
 <details><summary>History: a note from King Diamond (v2.0)</summary>
 <p>
+
 As a big lover of all that is really BIG :stuck_out_tongue_winking_eye: I've decided to give this mod another chance to survive in the modern environments (you know - "generation Pepsi", "Greece - European Champions" and stuff...). So, here is another humble attempt not to screw anything that is supposed to work properly.<br>
 
 Some installation notes:
 
-- If you want to install RoT along with TDD you can't use Kit Packs from both mods. Plz choose wich one you want to install. In any case, install RoT AFTER TDD v1.10 (or later).
-- Don't forget to install the latest Worldmap mod from Yacomo/Weigo (v6 or later). Local RoT's WMP just doesn't know about any other mod existence.<br><br>
+- If you want to install RoT along with TDD you can't use Kit Packs from both mods. Plz choose which one you want to install. In any case, install RoT AFTER TDD v1.10 (or later).
+- Don't forget to install the latest Worldmap mod from Yacomo/Weigo (v6 or later). Local RoT's WMP just doesn't know about any other mod existence.<br>
 
 Cheers,<br>
 and stay heavy,<br>
@@ -82,11 +86,71 @@ and stay heavy,<br>
 
 ## <a name="compat" id="compat"></a>Compatibility
 
+This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
+
+Region of Terror is a WeiDU mod, and therefore should be compatible with all WeiDU mods. It is only compatible with BGII: ToB. However, we cannot test every single one. If you encounter any bugs, please <a href="http://www.shsforums.net/forum/168-region-of-terror/">report them on the forum</a>!
+
+>Classical game players are strongly recommended to download and install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
+<div align="right"><a href="#top">Back to top</a></div>
+
 
 <hr>
 
 
 ## <a name="installation" id="installation"></a>Installation
+
+#### Notes
+
+*If you've previously installed the mod, remove it before extracting the new version. To do this, run **`setup-rot.exe`**, un-install all previously installed components and delete the :file_folder: **rot** folder.*
+
+*When installing or un-installing, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.*
+
+*__Disable any antivirus__ or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.*
+
+## 
+
+#### Enhanced Editions Note
+
+The Enhanced Editions are actively supported games. Please note that every patch update will wipe your current mod setup! If in the middle of a modded game you might want to delay the patch update (if possible) as even after reinstalling the mods, you might not be able to continue with your old savegames. Alternatively, copy the whole game's folder into a new one that can be modded and will stay untouched by game patches. It is important that you install the mod to the language version you are playing the game in. Otherwise, the dialogues of the mod will not show but give error messages.
+
+## 
+
+#### Windows
+
+Region of Terror for Windows is distributed as an extractable compressed archive and includes a WeiDU installer.
+
+Extract the contents of the mod archive into the folder of the game you wish to modify (*the folder which contains the "CHITIN.KEY" file*), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: rot folder and a setup-rot.exe file in your game folder. To install, simply double-click **`setup-rot.exe`** and follow the instructions on screen.
+
+Run **`setup-rot.exe`** in your game folder to reinstall, un-install or otherwise change the components settings.
+
+## 
+
+#### Mac OS X
+
+Region of Terror for Mac OS X is distributed is distributed in the same compressed archive and includes a WeiDU installer.
+
+First, extract the files from the archive into your game directory. On successful extraction, there should be a :file_folder: rot folder, setup-rot and setup-rot.command files in your game folder. To install, simply double-click **`setup-rot.command`** and follow the instructions on screen.
+
+Run **`setup-rot.command`** in your game folder to reinstall, un-install or otherwise change the components settings.
+
+## 
+
+#### Linux
+
+Region of Terror for Linux is distributed as a compressed tarball and does not include a WeiDU installer.
+
+Extract the contents of the mod to the folder of the game you wish to modify.
+
+Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy WeiDU and WeInstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+
+To install, run **`WeInstall setup-rot`** in your game folder. Then run **`wine BGMain.exe`** and start playing.
+
+## 
+
+#### Note for Complete Un-installation
+
+In addition to the methods above for removing individual components, you can completely un-install the mod using **`setup-rot --uninstall`** at the command line to remove all components without wading through prompts.</br>
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -94,8 +158,7 @@ and stay heavy,<br>
 
 ## <a name="components" id="components"></a>Components
 
-The installer includes the following components. The number of each is the component *DESIGNATED* number which gives it a fixed install position, lets other components and mods detect it and allows automated installers to specify component choices.  
-All optional subcomponents require the main component (they need to since it's the one that installs new content).<br /><br />
+The installer includes the following components. The number of each is the component *DESIGNATED* number which gives it a fixed install position, lets other components and mods detect it and allows automated installers to specify component choices.<br /><br />
 
 
 #### 0. Main component
@@ -106,7 +169,29 @@ This component installs the mod itself.</br>
 
 #### 1. Region Of Terror Kit Pack
 
-This component requires the main component to be installed.</br>
+This component requires the main component to be installed. It installs the following kits in the game:
+- Holy Swordsman (Paladin)
+- Lancer (Fighter)
+- Shadow Walker (Thief)
+- Elemental Warrior (Fighter)
+- Forest protector (Ranger)
+- Singer (Bard)
+- Priest of Auril (Priest)
+- Priest of Deneir (Priest)
+- Priest of Loviatar (Priest)
+- Doombringer (Fighter)
+- Wilderness Samurai (Ranger)
+- Trail Tracker (Ranger)
+- Silent Hunter (Thief)
+- Snare Master (Thief)
+- Harpist (Bard)
+- Drifter (Bard)
+- Knight (Paladin)
+- Planar Druid (Druid)
+- Wisher (Druid)
+- Aerial Druid (Druid)
+
+:warning: **WARNING!** It is only valid for non-EE games and can't be installed with TDD Kit Packs. Please choose which one you want to install.
 
 <div align="right"><a href="#top">Back to top</a></div>
 
@@ -116,10 +201,79 @@ This component requires the main component to be installed.</br>
 
 ## <a name="credits" id="credits"></a>Credits and Acknowledgements
 
-**Original author:** <a href=""></a>  
-**Coders:** <a href="http://www.shsforums.net/user/3816-king-diamond/">King Diamond </a>(WeiDU version) and <a href="http://www.shsforums.net/user/3958-weigo/">Weigo</a> (EE revision)  
+**Original author:** <a href="http://www.shsforums.net/user/3097-gilgamesh/">Gilgamesh</a>  
+**Coders:** Wiskas (original installer), <a href="http://www.shsforums.net/user/3816-king-diamond/">King Diamond </a>(WeiDU version) and <a href="http://www.shsforums.net/user/3958-weigo/">Weigo</a> (EE revision)  
 
 
+#### Special Acknowledgements to:
+
+- <a href="http://www.spellholdstudios.net/">Spellhold Studios</a> team for hosting the mod (<a href="http://www.shsforums.net">Forums</a>).
+- <a href="www.forgottenwars.net">FORGOTTEN WARS</a> (for taking the <a href="http://forums.forgottenwars.net/index.php?showforum=173">mod</a> after TeamBG's death).
+- TEAM BG (for hosting both our site and forum, and for providing the best IE editing tools in the world!).
+- The creators of the Baldur's Gate series: <a href="http://www.bioware.com/">Bioware</a> and <a href="http://www.obsidian.net/">Black Isle Studios</a>.
+
+- Original installer : Wiskas.
+- Voice Actors:
+  - Clinton Wolf.................Drizzt Do'Urden
+  - Bruno Bernardi...............Artemis Entreri
+  - Steven Andrews...............Wulfgar
+  - Gregg Kincaid ...............Bruenor
+  - Valeska Scholl ..............Catti-Brie
+  - Robert Dupuis ...............Regis
+  - Gregg Kincaid ...............Randall
+  - Valeska Scholl ..............Alissa
+  - Robert Dupuis ...............Mordragon
+  - Robert Dupuis ...............Jarlaxle
+- Portrait art: Jeromia Phair (aka Deity) and various artists around the web; if you want special credit, please contact me (instructions at the end of this file).
+- Max Schnur (for scripting help in the early stages of the mod creating).
+- Tapio Perkiömäki (for doing nothing).
+- Gregg Kincaid (for voice acting in several roles of the mod and writing the smith's apprentice's dialogs).
+- Jon Olav Hauglid (for trying to help me with an area problem).
+- Lorne Ledger (for the area art of the Spirit Soaring [outside] and the area north from Bremen).
+- Bruno Bernardi (for the original idea of the Apprentice, thanks to him I invented a big new feature, the quest for the Eye of a God).
+- Robert Dupuis (for voice acting in several roles in the mod).
+- Valeska Scholl (for giving the much needed voice's for the two female NPCs).
+- Avenger and Per Olofsson (for tispack).
+- MindFlayer (for creating two areas for the mod).
+- Nullsoft Inc (for providing the installer maker).
+- Andrés Bernardi ("Cuervo_br"): <a href="http://www.geocities.com/rotmod2003/">website</a> designer.
+- Version 2.0:
+  - Badgert and Serdrick from <a href="http://aerie-ru.info">A.E.R.I.E team</a>: additional help.
+  - King Diamond: WeiDU conversion, bug fixing...
+- German translation: Gerri, Telperion, Leonardo Watson.
+- Russian translation: aerie-ru.info team (Alex, Alina, Badgert, Mercuzium, Serkos and Sviatozar).
+- Everyone else from the <a href="http://gibberlings3.net/forums/">The Gibberlings Three</a>, <a href="http://www.shsforums.net/">Spellhold Studios</a> forums, and the other Infinity Engine gaming and modding communities who offered their help and support.
+
+## 
+
+#### Programs/tools used in creation:
+
+- <a href="https://github.com/WeiDUorg/weidu/releases"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a>, by Wes Weimer, the bigg and Wisp.
+- <a href="https://github.com/Argent77/NearInfinity/releases">Near Infinity</a>, by Jon Olav Hauglid, FredSRichardson, and Argent77.
+- <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a>, by Dmitry Jemerov / bigmoshi.
+- <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a>, by Avenger.
+- <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a>, maintained by igi and lynx.
+- <a href="http://www.teambg.eu/?page=tools&amp;cat=32">BAM Workshop</a>, by Glenn Flansburg.
+- <a href="http://www.shsforums.net/topic/57564-bamworkshop/">BAMWorkshop 2</a>, by Andrew Bridges.
+- <a href="http://notepad-plus-plus.org/">Notepad++</a>, by the Notepad++ team, Don Ho, and the spellcheck plug-in.
+- <a href="http://www.shsforums.net/files/file/1048-weidu-highlighter-for-notepad/">WeiDU Notepad++ Highlighters </a>, by Argent77.
+
+## 
+
+#### Copyright Information
+
+###### Region of Terror is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Gilgamesh, based on material from the game Baldur's Gate II and its expansion.
+###### All mod content is &copy;Gilgamesh.
+###### Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp. All other trademarks and copyrights are property of their respective owners.
+
+###### This mod was created to be freely enjoyed by all Baldur's Gate II players, and its content is free of rights. However, it should not be sold, published, compiled or redistributed in any form without the consent of the author.
+###### Please note that any and all redistribution and/or hosting of this mod is prohibited without permission from the author.
+
+###### If there are any copyright issues or this statement needs revision, then please contact me and advise me what to do about it. Most notably, if you see any artwork in this mod that might conflict with Copyright rules, please let me know as soon as possible, and I will remove the conflicting content immediately.
+
+###### The modding community for the Infinity Engine has been going strong for more than 10 years now, and is the culmination of thousands of unpaid modding hours by fellow fans of the game. Modders produce their best work and players get the best, well-supported mods when we all work together.
+###### There are two big ways to upset this harmony. One is to claim someone else's work as your own. The second is to host and redistribute a mod without permission from the author(s).
+###### Be kind to your fellow players and modders. Don't do either.</br></br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -132,22 +286,22 @@ This component requires the main component to be installed.</br>
 
 - Added *rot.ini* metadata file to support AL|EN's "Project Infinity".
 - Added `DESIGNATED` numbers and "*region_of_terror*" and "*rot_kits*" component `LABELS`.
+- Worldmap transition should work as intended.
+- Various bugfixes, as listed in the GitHub commits. :wink:
+- Corrected tra files.
 - Added `README` command in tp2.
-
-- Wrote a new *rot-readme-english.html* readme file and moved all readme files into new readme folder.</li>
+- Wrote a new *rot-readme-english.html* readme file and moved all readme files into new readme folder.
+- Renamed folder to RoT and moved tp2 inside mod folder.
 - Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
 - Uploaded mod to official SpellHold Studios GitHub mirror account.
-
-- Renamed folder to RoT and moved tp2 inside mod folder.
-- Corrected tra files.
-- Worldmap transition should work as intended.
-- Various bugfixes, as listed in the GitHub commits.
 
 ## 
 
 #### Version 3.1 (April 13, 2018)
 
-- Compatibility with EE/EET and SOA/TOB/BGT.
+- Compatibility with EE/EET and SOA/TOB/BGT, by Weigo.
+- So many fixes to be described. :wink:
+- Updated <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer to v246.
 
 ## 
 
@@ -220,103 +374,8 @@ This component requires the main component to be installed.</br>
 - Initial release.
 <div align="right"><a href="#top">Back to top</a></div>
 =============================================================================================================================================
-                       REGION OF TERROR README
-                                V1.0A
-                   (original ReadMe from Gilgamesh)
-
-*******************************************************************************
-**  Credits:
-*******************************************************************************
-MOD DEVELOPER / CREATOR : "GILGAMESH"
-
-WEBSITE DESIGN : Bruno Andrés Bernardi ("Cuervo_br")
-
-INSTALLER BY: "Wiskas"
-
-VOICE ACTORS :
-Clinton Wolf.................Drizzt Do'Urden
-Bruno Bernardi...............Artemis Entreri
-Steven Andrews...............Wulfgar
-Gregg Kincaid ...............Bruenor
-Valeska Scholl ..............Catti-Brie
-Robert Dupuis ...............Regis
-Gregg Kincaid ...............Randall
-Valeska Scholl ..............Alissa
-Robert Dupuis ...............Mordragon
-Robert Dupuis ...............Jarlaxle
-
-
-PORTRAIT ART : JEROMIA PHAIR (aka Deity) and various artists around the web; if you want special credit, please contact me (instructions at the end of this file)
-
-
-SPECIAL THANK'S TO :
-Max Schnur (for scripting help in the early stages of the mod creating)
-Tapio Perkiömäki (for doing nothing)
-Gregg Kincaid (for voice acting in several roles of the mod and writing the smith's apprentice's dialogs)
-Jon Olav Hauglid (for trying to help me with an area problem)
-Lorne Ledger (for the area art of the Spirit Soaring [outside] and the area north from Bremen)
-Bruno Bernardi (for the original idea of the Apprentice, thank's to him I invented a big new feature, the quest for the Eye of a God)
-Robert Dupuis (for voice acting in several roles in the mod)
-Valeska Scholl (for giving the much needed voice's for the two female NPCs)
-MindFlayer (for creating two areas for the mod)
-Avenger and Per Olofsson (for tispack)
-Nullsoft Inc (for providing the installer maker)
-TEAM BG (for hosting both our site and forum, and forproviding the best IE editing tools in the world!)
-FORGOTTEN WARS (for taking the mod after TeamBG's death)
-
-
-A lot of areas, sounds and animations have been taken from other IE games.
-There is also one midi - file from the Super Nintendo game Final Fantasy 6.
-
-
-Websites:
-www.forgottenwars.net (the community)
-http://www.geocities.com/rotmod2003/ (website of the mod)
-http://forums.forgottenwars.net/index.php?showforum=173 (completed mods forums)
-
-
-How to contact:
-pekka_gilgamesh@hotmail.com
-or use the forum of the mod
-I'd prefer the usage of the forums.
-
-@GILGAMESH (Pekka Syrjänen)
-
-                      REGION OF TERROR README
-                                V2.0
-                      (a note from King Diamond)
-
-
-As a big lover of all that is really BIG :P I've decided to give this mod another chance to survive in the modern environments (you know - "generation Pepsi", "Greece - European Champions" and stuff...)
-So, here is another humble attempt not to screw anything that is supposed to work properly.
-1st, as you may already realized, a size of the mod was dramatically reduced from >600Mb to near 328Mb without loosing *anything*.
-2nd, all *technical* compatibility issues with many large mods are solved. You may expect flawless functionality together with BGT-WeiDU 1.00, CtB v1.7, TDD v1.10, SOS v1.10, TS-BP v6.04.01
-There *could* be some minor plot inconsistencies here and there, but plz don't rely on that too much. ;)
-3rd. RoT now requires full ToB installation (sorry, no SoA-only support - we're delivering only the best! :D )
-4th. People who played the original or were involved into its development will be really surprized by some *audible* aspects of the mod (do you?...)
-5th. This version includes all original patches.
-
-Some installation notes:
-
- - if you want to install RoT along with TDD you can't use Kit Packs from both mods. Plz choose wich one you want to install. In any case, install RoT AFTER TDD v1.10 (or later);
-
- - don't forget to install the latest Worldmap mod from Yacomo/Weigo (v6 or later). Local RoT's WMP just doesn't know about any other mod existence.
-
-
-
-
-Cheers,
-and stay heavy,       >:E
-               KD
 
 *******************************************************************************
 ** v2.0 Credits:
-*******************************************************************************
-  Badgert and Serdrick from A.E.R.I.E team (http://aerie-ru.info) - additional help
-
-  KD - WeiDU conversion, bugfixing, blah, blah, blah...
-
-*******************************************************************************
-*******************************************************************************
 *******************************************************************************
 *******************************************************************************
