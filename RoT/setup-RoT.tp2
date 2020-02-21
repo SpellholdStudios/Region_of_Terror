@@ -5,6 +5,8 @@ SUPPORT ~http://www.shsforums.net/forum/168-region-of-terror/ or https://github.
 
 VERSION ~v4.0~
 
+README ~rot/readme/rot-readme-%LANGUAGE%.html~ ~rot/readme/rot-readme-readme-english.html~
+
 AUTO_TRA ~RoT/Language/%s~
 
 ALWAYS
@@ -73,25 +75,30 @@ LANGUAGE ~English~
          ~RoT/Language/English/journal.tra~
          ~RoT/Language/English/setup.tra~
 
-LANGUAGE ~Russian~
+LANGUAGE ~Russian (translation by aerie-ru.info team)~
          ~Russian~
          ~RoT/Language/Russian/scripts.tra~
          ~RoT/Language/Russian/journal.tra~
          ~RoT/Language/Russian/setup.tra~
 
-LANGUAGE ~Deutch~
+LANGUAGE ~Deutsch (Uebersetzung von Gerri, Telperion, Leonardo Watson)~
          ~German~
          ~RoT/Language/German/scripts.tra~
          ~RoT/Language/German/journal.tra~
          ~RoT/Language/German/setup.tra~
 
-LANGUAGE ~Castellano~
+LANGUAGE ~Espanol~
 		 ~Spanish~
 		 ~RoT/Language/Spanish/scripts.tra~
 		 ~RoT/Language/Spanish/journal.tra~
 		 ~RoT/Language/Spanish/setup.tra~
 
+
+/* =================================== *
+ *  Region of Terror : main component  *
+ * =================================== */
 BEGIN @0
+DESIGNATED 0 LABEL ~region_of_terror~
 
 ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 
@@ -1963,12 +1970,14 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 	BUT_ONLY_IF_IT_CHANGES
 END
 
-//***********************************************************************************
-//Kits
-//***********************************************************************************
+
+/* =========================== *
+ *  Region Of Terror Kit Pack  *
+ * =========================== */
 BEGIN @1626
+DESIGNATED 1 LABEL ~rot_kits~
 REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) ~Not for EET and BG2EE~
-REQUIRE_COMPONENT ~RoT/SETUP-RoT.TP2~      "0"  ~You must have RoT mod installed~
+REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~      "0"  ~You must have RoT mod installed~
 FORBID_COMPONENT  "Setup-TDD.tp2"      "1"  ~You must not have "TDD Kit Pack" installed to activate RoT kits successfully~
 
 INCLUDE ~%MOD_FOLDER%/lib/install-kits.tpa~
