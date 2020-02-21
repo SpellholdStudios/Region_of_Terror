@@ -45,7 +45,7 @@ More information can be found on the website (link is at the bottom of the file)
 - New spells (mostly kit-specific).
 - Special features (check the website).
 - Mod maker's house (Use codes and enter area "RA4400").
-- SECRETS!!!!
+- SECRETS!!!!<br>
 
 
 <details><summary>History: original readme from from Gilgamesh (v1.0A)</summary>
@@ -373,9 +373,3 @@ This component requires the main component to be installed. It installs the foll
 
 - Initial release.
 <div align="right"><a href="#top">Back to top</a></div>
-=============================================================================================================================================
-
-*******************************************************************************
-** v2.0 Credits:
-*******************************************************************************
-*******************************************************************************
