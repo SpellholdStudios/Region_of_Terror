@@ -47,7 +47,7 @@ More information can be found on the website (link is at the bottom of the file)
 - Mod maker's house (Use codes and enter area "RA4400").
 - SECRETS!!!!
 
-<p></p>
+<p>  </p>
 
 <details><summary>History: original readme from from Gilgamesh (v1.0A)</summary>
 <p>
@@ -212,19 +212,14 @@ This component requires the main component to be installed. It installs the foll
 - <a href="www.forgottenwars.net">FORGOTTEN WARS</a> (for taking the <a href="http://forums.forgottenwars.net/index.php?showforum=173">mod</a> after TeamBG's death).
 - TEAM BG (for hosting both our site and forum, and for providing the best IE editing tools in the world!).
 - The creators of the Baldur's Gate series: <a href="http://www.bioware.com/">Bioware</a> and <a href="http://www.obsidian.net/">Black Isle Studios</a>.
-
-- Original installer : Wiskas.
+- Original installer: Wiskas.
 - Voice Actors:
-  - Clinton Wolf.................Drizzt Do'Urden
-  - Bruno Bernardi...............Artemis Entreri
-  - Steven Andrews...............Wulfgar
-  - Gregg Kincaid ...............Bruenor
-  - Valeska Scholl ..............Catti-Brie
-  - Robert Dupuis ...............Regis
-  - Gregg Kincaid ...............Randall
-  - Valeska Scholl ..............Alissa
-  - Robert Dupuis ...............Mordragon
-  - Robert Dupuis ...............Jarlaxle
+  - Clinton Wolf: Drizzt Do'Urden
+  - Bruno Bernardi: Artemis Entreri
+  - Steven Andrews: Wulfgar
+  - Gregg Kincaid: Bruenor and Randall
+  - Valeska Scholl: Catti-Brie and Alissa
+  - Robert Dupuis: Regis, Mordragon and Jarlaxle
 - Portrait art: Jeromia Phair (aka Deity) and various artists around the web; if you want special credit, please contact me (instructions at the end of this file).
 - Max Schnur (for scripting help in the early stages of the mod creating).
 - Tapio Perkiömäki (for doing nothing).
