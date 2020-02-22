@@ -232,7 +232,6 @@ This component requires the main component to be installed. It installs the foll
 - Bruno Bernardi (for the original idea of the Apprentice, thanks to him I invented a big new feature, the quest for the Eye of a God).
 - Robert Dupuis (for voice acting in several roles in the mod).
 - Valeska Scholl (for giving the much needed voice's for the two female NPCs).
-- Avenger and Per Olofsson (for tispack).
 - MindFlayer (for creating two areas for the mod).
 - Nullsoft Inc (for providing the installer maker).
 - Andrés Bernardi ("Cuervo_br"): <a href="http://www.geocities.com/rotmod2003/">website</a> designer.
