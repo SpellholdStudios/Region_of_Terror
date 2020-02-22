@@ -15,7 +15,6 @@
 **Mod Website:** <a href="http://www.spellholdstudios.net/ie/rot">Spellhold Studios</a>  
 **Mod Forum:** <a href="http://www.shsforums.net/forum/168-region-of-terror/">Region of Terror</a>  
 
-&nbsp;
 
 [Read the mod's readme](http://spellholdstudios.github.io/readmes/rot-readme-english.html).
 
