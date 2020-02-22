@@ -13,10 +13,10 @@
 @12   = ~The Summoner +3~
 @13   = ~Journey to the North~
 @14   = ~The preparations of the journey have been made and you set out for the Icewind Dale. The road leads you to the city of Baldur?s Gate and the journey continues by sea. After a week of salty waters and pirates you dock on the harbor of Luskan. You stop for awhile to replenish your supplies and then continue the journey to the dalelands. Finally, after weeks of travelling, you arrive to the village of Bremen. It seems that a battle has been fought there just recently and the docks have been wrecked. Only one ship is in order.~
-@15   = ~The journey to the north was succesful and it is time to leave the dale. After weeks of travelling, you are back at last. The sight of the massive walls of Athkatla greet you.~
+@15   = ~The journey to the north was successful and it is time to leave the dale. After weeks of travelling, you are back at last. The sight of the massive walls of Athkatla greet you.~
 @16   = ~Spirit Soaring~
 @17   = ~The priest of Deneir, Cadderly, is in trouble and you hurry to his aid. Demons from the hells have arrived through a portal and taken over his temple. They will soon break free if nothing is done. Now, if ever, the need for heroic deeds is dire. The portal to the hells must be closed; else the demons are free to bring their terror upon the upper world and taint the lands with their filth.~
-@18   = ~The quest in the Spirit Soaring was succesful and the demons were sent back to the Abyss where they belong. The horrors of the temple still vivid in your mind, you return back to Amn.~
+@18   = ~The quest in the Spirit Soaring was successful and the demons were sent back to the Abyss where they belong. The horrors of the temple still vivid in your mind, you return back to Amn.~
 @19   = ~Applying Level-50 Ruleset...~
 @20   = ~Installing dialogues...~
 @21   = ~Patching existing scripts...~
@@ -27,14 +27,14 @@
 @26   = ~It looks like there is a creature in here.~
 @27   = ~It seems that there are creatures inside these "jars".~
 @28   = ~"The Dragon has the key."~
-@29   = ~The runes seem somehow to protect you. You can breathe normally and walk on...nothing.~
+@29   = ~The runes seem somehow to protect you. You can breathe normally and walk on... nothing.~
 @30   = ~Two dead female priests have been hanged here. Other has only one leg and other only one hand.~
 @31   = ~The priest hanged here appears to be in good shape, but dead.~
 @32   = ~The legs of this hanged priest have been eaten.~
 @33   = ~The passage has collapsed.~
 @34   = ~The entrance has been sealed.~
 @35   = ~You see a long row of coffins. The skeletons on them are sculpt from stone.~
-@36   = ~The sculptures on these coffins are incompleted.~
+@36   = ~The sculptures on these coffins are uncompleted.~
 @37   = ~The summonings are performed in this circle.~
 @38   = ~The passage to priests' quarters has collapsed.~
 @39   = ~The trees are blocking a cave entrance~
@@ -49,7 +49,7 @@
 @48   = ~Here you can learn about Creature Making/Editing.~
 @49   = ~Here you can learn about Dialog Editing, Scripting, Globals and NPC's.~
 @50   = ~Here you can learn about Effect Making/Editing.~
-@51   = ~Here you can learn about teh Experience Gap.~
+@51   = ~Here you can learn about the Experience Gap.~
 @52   = ~Here you can learn about creating new Areas with IETME.~
 @53   = ~Here you can learn about creating new Items, Spells and Stores.~
 @54   = ~Get out of this stupid room.~
@@ -121,8 +121,8 @@
 @120  = ~Thus far it has been an honour to travel with you.~ [AlsHap]
 @121  = ~You are a little bit off the course...~ [AlsUAn]
 @122  = ~Stop this, please. The balance between good and evil should be maintained.~ [AlsUSr]
-@123  = ~I think it's best we go seperate ways. Our goals are clearly different.~ [AlsUBr]
-@124  = ~Eh...I don't know about this...~ [AlsLead]
+@123  = ~I think it's best we go separate ways. Our goals are clearly different.~ [AlsUBr]
+@124  = ~Eh... I don't know about this...~ [AlsLead]
 @125  = ~I-I'm going to need some rest soon...~ [AlsTir]
 @126  = ~Don't you think we ought to be going already?~ [AlsBor]
 @127  = ~If I am to fight then so be it!~ [AlsBat1]
@@ -134,8 +134,8 @@
 @133  = ~I used to play in the woods, when I was a child...~ [AlsFor]
 @134  = ~I've lived most my life in peace and quiet. I'm not really used to cities with all the people going about.~ [AlsCit]
 @135  = ~This place is chilling me...~ [AlsDun]
-@136  = ~The sunrise looks beatiful in the temple I used to live in. I should take you there someday.~ [AlsDay]
-@137  = ~Traveling in the middle of the night...I better get used to this...~ [AlsNig]
+@136  = ~The sunrise looks beautiful in the temple I used to live in. I should take you there someday.~ [AlsDay]
+@137  = ~Traveling in the middle of the night... I better get used to this...~ [AlsNig]
 @138  = ~Is there something I can do to help?~ [AlsCom1]
 @139  = ~What can I do for you?~ [AlsCom2]
 @140  = ~Something important?~ [AlsCom3]
@@ -153,9 +153,9 @@
 @152  = ~Ah!~ [AlsCrM]
 @153  = ~I'm not helping anyone here...~ [AlsImm]
 @154  = ~I'm sorry, but I can take no more to carry.~ [AlsIFul]
-@155  = ~Sorry...Couldn't hold it.~ [AlsLM]
+@155  = ~Sorry... Couldn't hold it.~ [AlsLM]
 @156  = ~  When asked about her past, Alissa is quiet first, thinking, and then begins her tale. She was born in a temple devoted for the god Deneir, child to a priest couple. The ways of Deneir were taught to her already when she was very young and she lived quite happily under the priests' guidance. She absorbed their wisdom and to their delight she appeared to be a very lively person. She was quick to learn and was able to use her magical gifts well. But around the age of sixteen she began to learn strange magical abilities on her own. She was confused and did not know the origin of her skills. As she was afraid of them, afraid of what they might mean, she never told anyone about them, not even her parents.
-  To the disappointment of the priests, she left the temple at the age of twenty. She wanted to see the world and more secretly, wanted to learn something about her abilites. She has studied books and spoken with a few priests but has found no information concerning such skills. Being afraid of them, she desperately wants to know more about them.~
+  To the disappointment of the priests, she left the temple at the age of twenty. She wanted to see the world and more secretly, wanted to learn something about her abilities. She has studied books and spoken with a few priests but has found no information concerning such skills. Being afraid of them, she desperately wants to know more about them.~
 @157  = ~Alora~
 @158  = ~Al'thur~
 @159  = ~Ann~
@@ -180,11 +180,11 @@
 @178  = ~You ain't from around here. I knows it.~ [CHILM02]
 @179  = ~Wow! An adventurer!~ [CHILM03]
 @180  = ~I didn't do anything.~ [CHILM04]
-@181  = ~I'm...not suppossed to talk to strangers.~ [CHILF04]
+@181  = ~I'm... not supposed to talk to strangers.~ [CHILF04]
 @182  = ~Yer a stranger!~ [CHILF01]
 @183  = ~ don't know you at all. You don't live here.~ [CHILF02]
-@184  = ~Umm...hello.~ [CHILF03]
-@185  = ~I'm...not supposed to talk to strangers.~ [CHILF04]
+@184  = ~Umm... hello.~ [CHILF03]
+@185  = ~I'm... not supposed to talk to strangers.~ [CHILF04]
 @186  = ~Farmer's Wife~
 @187  = ~Mystical Door~
 @188  = ~You look like a good enough sort.~ [PEASF01]
@@ -247,9 +247,9 @@
 @245  = ~AAARGH!~ [Br_Die]
 @246  = ~Har! These wounds won't be bothering me!~ [Br_Hurt]
 @247  = ~Blasted home fer the wood elfs...~ [Br_ArFor]
-@248  = ~Bloody humans..."He's not good enough for our precious city..."~ [Br_ArC]
+@248  = ~Bloody humans... "He's not good enough for our precious city..."~ [Br_ArC]
 @249  = ~There's often lot's t' kill in places like this...~ [Br_ArDu]
-@250  = ~Aah...a fine day fer killin'!~ [Br_ArDa]
+@250  = ~Aah... a fine day fer killin'!~ [Br_ArDa]
 @251  = ~Don't worry! Me ax be ready fer surprises...~ [Br_ArNi]
 @252  = ~State yer business!~ [Br_Com1]
 @253  = ~What yer be needin'?~ [Br_Com2]
@@ -312,7 +312,7 @@
 @305  = ~Can ye evade this!?~ [Cat_Cry3]
 @306  = ~*ouch*~ [Cat_Dam]
 @307  = ~*dying*~ [Cat_Dea]
-@308  = ~...I...I'm going to need some healing...the sooner the better...~ [Cat_Hur]
+@308  = ~...I ... I'm going to need some healing... the sooner the better...~ [Cat_Hur]
 @309  = ~Forest is a perfect place for an archer to hide.~ [Cat_For]
 @310  = ~My experiences of cities are limited. I grew up in caves.~ [Cat_Cit]
 @311  = ~Let's be extra careful. Ye never know what's lurking in places like these.~ [Cat_Dun]
@@ -327,7 +327,7 @@
 @320  = ~Consider it done!~ [Cat_Act1]
 @321  = ~Gladly.~ [Cat_Act2]
 @322  = ~I go.~ [Cat_Act3]
-@323  = ~Wise choise.~ [Cat_Act4]
+@323  = ~Wise choice.~ [Cat_Act4]
 @324  = ~I'll do my best.~ [Cat_Act5]
 @325  = ~Glad to be able to help.~ [Cat_Act6]
 @326  = ~I'll do it.~ [Cat_Act7]
@@ -411,10 +411,10 @@
 @400  = ~The magic is lost!~ [DR_LOSM]
 @401  = ~  Drizzt Do'Urden is probably the best drow fighter ever. He was born in the drow city of Menzoberranzan but it never truly became his home. And that is because the drows are cruel people, evil from within. Drizzt is not. His only support in the city was his father Zaknafein.
   Well, Drizzt had no choise but to be persistent in the middle of all kinds of horrors and cruelties and train fighting with scimitars. He became somewhat respected for his skills, but when the matriarch mother of room Do'Urden killed Zaknafein, he had had enough of drows. He escaped to the dangerous and endless caverns of Underdark and fought his way out of there to the upper world.
-  Drows are a hated race so Drizzt had a hard time below the sun. At first everybody was hostile but he was able to find some friends like Monitolio who teached him to be a ranger of the goddess Mielikki and Bruenor who gave him a place to stay. A home.
+  Drows are a hated race so Drizzt had a hard time below the sun. At first everybody was hostile but he was able to find some friends like Monitolio who taught him to be a ranger of the goddess Mielikki and Bruenor who gave him a place to stay. A home.
   Later he met Regis, Wulfgar and Catti-Brie. The five of them (Bruenor, Regis, Drizzt, Wulfgar and Catti-Brie) freed the Icewind Dale from Crystal Shard, got the Mithril Hall back to the dwarves and did many other heroic acts.
   When Wulfgar was lost in a battle and thought as dead, Drizzt and Catti-Brie became close. Six years passed and when Drizzt was helping to hunt pirates on a ship he got to understand that his father was still alive and being tortured in hells by powerful demons.
-  He set off with his companions on a quest to free his father and was able to bring someone back. It was not his father though. It was Wulfgar who had been tortured for all these years and when he returned everyone was happy, but the situation was pretty awkward. Catti-Brie had been Wulfgar's lover. They tried to get back what they had once had, but with no succees. Wulfgar left the companions and Drizzt and Catti-Brie started to became closer and closer. When Wulfgar was one with himself he finally returned to stay. He had a wife and a child and he accepted the relationship of Drizzt and Catti-Brie.
+  He set off with his companions on a quest to free his father and was able to bring someone back. It was not his father though. It was Wulfgar who had been tortured for all these years and when he returned everyone was happy, but the situation was pretty awkward. Catti-Brie had been Wulfgar's lover. They tried to get back what they had once had, but with no success. Wulfgar left the companions and Drizzt and Catti-Brie started to became closer and closer. When Wulfgar was one with himself he finally returned to stay. He had a wife and a child and he accepted the relationship of Drizzt and Catti-Brie.
   Drizzt owns statue of panther. With it he can summon his panther friend Guenhwyvar to fight by his side. Guenhwyvar is Drizzt's most loyal friend and no matter what they are facing, they help each other.~
 @402  = ~Edomis Galdenburg~
 @403  = ~Trevis~
@@ -424,7 +424,7 @@
 @407  = ~Raistlin~
 @408  = ~Artemis Entreri~
 @409  = ~I like the way you handle things...~ [En_Happ]
-@410  = ~We should recondsider our decision to join this group, Jarlaxle...~ [En_UnhA]
+@410  = ~We should reconsider our decision to join this group, Jarlaxle...~ [En_UnhA]
 @411  = ~You are getting us too much publicity. Would better to stop being so "hero"...~ [En_UnhS]
 @412  = ~Traveling with you gets too dangerous. Farewell!~ [En_UnhB]
 @413  = ~Now you're starting to be reasonable.~ [En_Lead]
@@ -438,7 +438,7 @@
 @421  = ~...I'm in big trouble here...~ [En_Hurt]
 @422  = ~This reminds me of Calimport...~ [En_City]
 @423  = ~Many places to hide, offer the dungeons.~ [En_Dun]
-@424  = ~Night is the time of assassins and thiefs...~ [En_Nig]
+@424  = ~Night is the time of assassins and thieves...~ [En_Nig]
 @425  = ~What?~ [En_Com1]
 @426  = ~Who is to die now?~ [En_Com2]
 @427  = ~My dagger is at your command...~ [En_Com3]
@@ -453,10 +453,10 @@
 @436  = ~I'll do as you wish, this time.~ [En_Act6]
 @437  = ~Fine.~ [En_Act7]
 @438  = ~Now we're talking!~ [En_CHit]
-@439  = ~Oops...That rarely happens...~ [En_CMiss]
+@439  = ~Oops... That rarely happens...~ [En_CMiss]
 @440  = ~What!? No injuries?~ [En_Imm]
 @441  = ~I can't carry everything!~ [En_Ifull]
-@442  = ~...I got...something...~ [En_Pick]
+@442  = ~...I got ... something...~ [En_Pick]
 @443  = ~Damn! There goes my magic!~ [En_Lmag]
 @444  = ~I'd rather kill my enemies in a fair battle...~ [En_Trap]
 @445  = ~  Artemis Entreri is one of the best human fighters. He grew up on the streets of Calimport and got his training there. He was a respected and feared assassin. Succeeded always and never felt sorry for his victims.
@@ -592,8 +592,8 @@
 @568  = ~Hah! I bet you won't even see the killing blow!~ [jarlax08]
 @569  = ~Come on! I'll take you!~ [jarlax09]
 @570  = ~*ouch*~ [jarlax12]
-@571  = ~What...is...this...?~ [jarlax11]
-@572  = ~...I'm...bleeding pretty badly...~ [jarlax10]
+@571  = ~What... is... this...?~ [jarlax11]
+@572  = ~...I'm... bleeding pretty badly...~ [jarlax10]
 @573  = ~Heh, I sure hope we don't run into my surface cousins...~ [jarlax13]
 @574  = ~I better be careful here...~ [jarlax14]
 @575  = ~I wonder how's it going in Menzoberranzan. It's been a long time since I last was there.~ [jarlax15]
@@ -668,7 +668,7 @@
 @641  = ~Morand Thunderhammer~
 @642  = ~Mordragon~
 @643  = ~You make me smile...It hurts.~ [mordra02]
-@644  = ~I'd rather do something else than help other people...What have they done to deserve it?~ [mordra03]
+@644  = ~I'd rather do something else than help other people... What have they done to deserve it?~ [mordra03]
 @645  = ~You and I, we are not a good pair together.~ [mordra04]
 @646  = ~Traveling with you is pointless. Why continue?~ [mordra05]
 @647  = ~*Snort*~ [mordra06]
@@ -678,7 +678,7 @@
 @651  = ~*ouch*~ [mordra12]
 @652  = ~*death*~ [mordra13]
 @653  = ~I am covered in blood but I feel nothing.~ [mordra14]
-@654  = ~They all pretend to be so busy...It's comforting when in reality your life is nothing.~ [mordra16]
+@654  = ~They all pretend to be so busy... It's comforting when in reality your life is nothing.~ [mordra16]
 @655  = ~I look around and see myself.~ [mordra17]
 @656  = ~Ready.~ [mordra20]
 @657  = ~You need me?~ [mordra21]
@@ -694,11 +694,11 @@
 @667  = ~Very well.~ [mordra31]
 @668  = ~Going...~ [mordra32]
 @669  = ~Feel my wrath!~ [mordra33]
-@670  = ~Ahh...Damn!~ [mordra34]
+@670  = ~Ahh... Damn!~ [mordra34]
 @671  = ~This one takes no damage!~ [mordra35]
 @672  = ~If you like your head where it is, give that to someone else.~ [mordra36]
-@673  = ~I couldn't focus...The spell is gone.~ [mordra39]
-@674  = ~When asked about his past, Mordragon's face darkens and he begins his tale. About two years ago all was well. He was reaching paladinhood, was in love with a local lady and could not have been happier. Their love blossomed and wedding was near. But then a plague struck and by cruel faith Mordragon was the sole survivor of his family. That being bad enough already, the plague also claimed the life of his lover. Mordragon felt quilty of being alive and grieved for his losses but could not find any comfort in anything. He ran to the mountains to find himself but the old Mordragon was gone, for good. Everything had been taken from him and he became angry. Angry at the world, angry at everyone. Why should there be happiness while he was in pain? Caring about nothing anymore he made his way through the dales and woods with no purpose. His whereabouts of the past few months are unknown even to himself.~
+@673  = ~I couldn't focus... The spell is gone.~ [mordra39]
+@674  = ~When asked about his past, Mordragon's face darkens and he begins his tale. About two years ago all was well. He was reaching paladinhood, was in love with a local lady and could not have been happier. Their love blossomed and wedding was near. But then a plague struck and by cruel faith Mordragon was the sole survivor of his family. That being bad enough already, the plague also claimed the life of his lover. Mordragon felt guilty of being alive and grieved for his losses but could not find any comfort in anything. He ran to the mountains to find himself but the old Mordragon was gone, for good. Everything had been taken from him and he became angry. Angry at the world, angry at everyone. Why should there be happiness while he was in pain? Caring about nothing anymore he made his way through the dales and woods with no purpose. His whereabouts of the past few months are unknown even to himself.~
 @675  = ~Trained Bandit~
 @676  = ~Desperado~
 @677  = ~Greater Giant Troll~
@@ -730,7 +730,7 @@
 @703  = ~I must say I'm troubled for your actions of late.~ [Ran_Ann]
 @704  = ~I thought traveling with you would bring some change, but all it brought was more pain.~ [Ran_Ser]
 @705  = ~I don't like you. Your actions are anything but good ones. Therefore I leave now, for good.~ [Ran_Bre]
-@706  = ~Leader? Me? ...Intresting.~ [Ran_Lea]
+@706  = ~Leader? Me? ...Interesting.~ [Ran_Lea]
 @707  = ~*yawn* I say we rest right now.~ [Ran_Tir]
 @708  = ~I'll show you your way to death...~ [Ran_Cry1]
 @709  = ~Don't worry, soon all will be over.~ [Ran_Cry2]
@@ -746,20 +746,20 @@
 @719  = ~What do you want?~ [Ran_Com1]
 @720  = ~Tell me your instructions.~ [Ran_Com2]
 @721  = ~What now?~ [Ran_Com3]
-@722  = ~I am ready...at least as ready as I can be...~ [Ran_Com4]
+@722  = ~I am ready... at least as ready as I can be...~ [Ran_Com4]
 @723  = ~Yes?~ [Ran_Com5]
 @724  = ~I am willing to hear you out.~ [Ran_Com6]
 @725  = ~I'll do that.~ [Ran_Act1]
-@726  = ~Hmm...I'll obey.~ [Ran_Act2]
+@726  = ~Hmm... I'll obey.~ [Ran_Act2]
 @727  = ~OK. It's not like I have something better to do.~ [Ran_Act3]
 @728  = ~This way?~ [Ran_Act4]
 @729  = ~I wonder where you are taking me now...~ [Ran_Act5]
 @730  = ~I see no reason why I shouldn't do this.~ [Ran_Act6]
 @731  = ~I will go if that is what you want.~ [Ran_Act7]
-@732  = ~Hmm...a fine hit!~ [Ran_Hit]
-@733  = ~Oops...My accuracy isn't great.~ [Ran_Mis]
+@732  = ~Hmm... a fine hit!~ [Ran_Hit]
+@733  = ~Oops... My accuracy isn't great.~ [Ran_Mis]
 @734  = ~This is not of my own doing! I need a better weapon.~ [Ran_Imm]
-@735  = ~I'm...not a donkey.~ [Ran_Inv]
+@735  = ~I'm... not a donkey.~ [Ran_Inv]
 @736  = ~Damn! My spell was wasted!~ [Ran_Mag]
 @737  = ~  When asked about his past Randall seems to stare at you blankly, and you suddenly have the feeling that he is a very sad person. After a few seconds he begins his tale in a somewhat quivering voice...
   As a child he was abandoned by his true parents in the woods, left there alone to suffer an almost certain death by the cruel hands of nature. Up to this day he doesn't know why he was abandoned, but he thinks the reason is a simple cruel one: he is an half-elf, the fruit of a forbidden love.
@@ -778,7 +778,7 @@
 @742  = ~Heh, you're not too bad in this...~ [Reg_Hap]
 @743  = ~I'm not the one to judge your actions but...~ [Reg_Ann]
 @744  = ~I think you shouldn't behave like this...~ [Reg_Ser]
-@745  = ~I...don't think this is such a good idea...~ [Reg_Lea]
+@745  = ~I... don't think this is such a good idea...~ [Reg_Lea]
 @746  = ~Come on! I'm done! Let's take a break.~ [Reg_Tir]
 @747  = ~What are you waiting for? My stomach is rumbling...~ [Reg_Bor]
 @748  = ~Heh, let's do it!~ [Reg_Cry1]
@@ -786,10 +786,10 @@
 @750  = ~I'll be rright behind you!~ [Reg_Cry3]
 @751  = ~*ouch*~ [Reg_Dam]
 @752  = ~*dying*~ [Reg_Dea]
-@753  = ~Heh, excuse me but...a little help would be appreciated...~ [Reg_Hur]
+@753  = ~Heh, excuse me but... a little help would be appreciated...~ [Reg_Hur]
 @754  = ~Let's go find some berries, eh!~ [Reg_For]
 @755  = ~Where is the nearest tavern? I'm ready for some bread and ale!~ [Reg_Cit]
-@756  = ~...Let's not part too far away from each other...Please...~ [Reg_Dun]
+@756  = ~...Let's not part too far away from each other... Please...~ [Reg_Dun]
 @757  = ~Dinner time!~ [Reg_Day]
 @758  = ~What are they thinking...? People tend to sleep at nights, not wander around "adventuring"...~ [Reg_Nig]
 @759  = ~You need me?~ [Reg_Com1]
@@ -802,14 +802,14 @@
 @766  = ~I'll do it.~ [Reg_Act2]
 @767  = ~Well, why not.~ [Reg_Act3]
 @768  = ~I'll try...~ [Reg_Act4]
-@769  = ~This way...hmm...~ [Reg_Act5]
+@769  = ~This way... hmm...~ [Reg_Act5]
 @770  = ~Well, you know what you're doing.~ [Reg_Act6]
 @771  = ~Sounds good!~ [Reg_Act7]
 @772  = ~Did you see that!? What a hit!~ [Reg_Hit]
-@773  = ~Heh, embarrasing.~ [Reg_Mis]
+@773  = ~Heh, embarrassing.~ [Reg_Mis]
 @774  = ~I don't think I'm doing much difference here!~ [Reg_Imm]
 @775  = ~There's only so much I can carry...~ [Reg_InvF]
-@776  = ~Hmm...what's this...~ [Reg_Pic]
+@776  = ~Hmm... what's this...~ [Reg_Pic]
 @777  = ~Heh, makes me feel secured.~ [Reg_Inv]
 @778  = ~Ah! Spell gone!~ [Reg_Los]
 @779  = ~They'll never even get to know what hit them...~ [Reg_Trap]
@@ -839,8 +839,8 @@
 @798  = ~Spell Seller~
 @799  = ~Anything you need, I can likely provide, I assure you.~ [FEMER02]
 @800  = ~Greetings, good customer. A pearl to you.~ [FEMER01]
-@801  = ~This is the land of merchants, good friend...a veritable paradise for those with coins.~ [FEMER03]
-@802  = ~This is the land of merchants, good friend...a veritable paradise for those with coin.~ [FEMER03]
+@801  = ~This is the land of merchants, good friend... a veritable paradise for those with coins.~ [FEMER03]
+@802  = ~This is the land of merchants, good friend... a veritable paradise for those with coin.~ [FEMER03]
 @803  = ~Staff Member~
 @804  = ~Strak~
 @805  = ~Cal'Zakath~
@@ -853,7 +853,7 @@
 @812  = ~We'll get em, boys!~ [TAPIO6]
 @813  = ~Good thing I was raised from dead.~ [TAPIO7]
 @814  = ~I think I shall die again soon.~ [TAPIO8]
-@815  = ~Hmm...did my heart just stop?~ [TAPIO9]
+@815  = ~Hmm... Did my heart just stop?~ [TAPIO9]
 @816  = ~That's it, I'm dying.~ [TAPIO10]
 @817  = ~I'm a natural leader.~ [TAPIO11]
 @818  = ~*Yawn*~ [TAPIO12]
@@ -886,7 +886,7 @@
 @845  = ~Woeh!~ [TAPIO39]
 @846  = ~No effect.~ [TAPIO34]
 @847  = ~I can carry no more.~ [TAPIO35]
-@848  = ~Hmm...feels itchy.~ [TAPIO37]
+@848  = ~Hmm... Feels itchy.~ [TAPIO37]
 @849  = ~I lost my magic! D'oh!~ [TAPIO36]
 @850  = ~Tavern Keeper~
 @851  = ~Theo~
@@ -923,7 +923,7 @@
 @882  = ~Tempus! Tempus!~ [WU_CRY3]
 @884  = ~I, die!?~ [WU_DIE]
 @885  = ~I'm wounded! Please, heal me!~ [WU_HURT]
-@886  = ~During my life, I haven't spent a lot of time in...forests.~ [WU_FOR]
+@886  = ~During my life, I haven't spent a lot of time in... forests.~ [WU_FOR]
 @887  = ~Cities are full of violence. I, if anyone, know that.~ [WU_ARCI]
 @888  = ~Just like in the old days, when I used to live in the caves of the dwarves.~ [WU_DUN]
 @889  = ~The sun reveals the hidden enemies.~ [WU_ARD]
@@ -948,7 +948,7 @@
 @908  = ~What a strange feeling...~ [WU_HIDD]
 @909  = ~Damn! I'm not good with magics.~ [WU_LOSM]
 @910  = ~  Wulfgar, the great and powerful barbarian tribe leader, now travelling with his friends Bruenor, Catti-Brie, Regis and Drizzt.
-  Wulfgar has incredible strength and with his war hammer Aegis Fang (a magical hammer, forged by Bruenor Battlehammer as a gift) he is aknowledged as a very fearsome foe for anyone. He is the "servant" of the barbarian god Tempus and when you hear his battle cry, you want to run, fast.
+  Wulfgar has incredible strength and with his war hammer Aegis Fang (a magical hammer, forged by Bruenor Battlehammer as a gift) he is acknowledged as a very fearsome foe for anyone. He is the "servant" of the barbarian god Tempus and when you hear his battle cry, you want to run, fast.
   Wulfgar grew up in a barbarian tribe and was with a group who attacked against the dwarves living in Icewind Dale. The barbarians were defeated and in order to stay alive he had to serve Bruenor Battlehammer, a dwarven leader, for five years and in that time they became friends.
   With the help of the drow ranger Drizzt Do'Urden, Bruenor trained Wulfgar to be a man. He fell in love with Catti-Brie, a human who lived amongst the dwarves as Bruenor's adoptive daughter and when the five years had gone, Wulfgar decided to stay.
   Unfortunately his romantic affairs with Catti-Brie ended when he "fell". Everybody thought he died in a battle against powerful creatures from underground but actually he was drawn into the hell where the great demon Errtu tortured him for six long years until he was finally freed with the help of his companions.
@@ -978,7 +978,7 @@ Casting Time: 1
 Target: Creature touched
 Saving Throw: None
 
-The transmutated creature becomes more poised, articulate, and personally forceful.  The spell grants an enhancement bonus to Charisma of 1d4+1 points, adding the usual benefits of Charisma-based skills and abilities.~
+The transmutated creature becomes more poised, articulate, and personally forceful. The spell grants an enhancement bonus to Charisma of 1d4+1 points, adding the usual benefits of Charisma-based skills and abilities.~
 @928  = ~Monster Summoning IV~
 @929  = ~Monster Summoning IV (Conjuration/Summoning)
 Level: 7
@@ -988,7 +988,7 @@ Casting Time: 3
 Area of Effect: Special
 Saving Throw: None
 
-This spell summons 7 HD monsters. There is a 60% chance of receiving one monster and a 40% chance of receiving two monsters.  These monster(s) appear within spell range and attack the caster's opponents until the spell duration expires, or until they are slain. The monsters include a vampire wolf, a Umber Hulk and a githyanki.~
+This spell summons 7 HD monsters. There is a 60% chance of receiving one monster and a 40% chance of receiving two monsters. These monster(s) appear within spell range and attack the caster's opponents until the spell duration expires, or until they are slain. The monsters include a vampire wolf, a Umber Hulk and a githyanki.~
 @930  = ~Monster Summoning V~
 @931  = ~Monster Summoning V(Conjuration/Summoning)
 Level: 8
@@ -998,7 +998,7 @@ Casting Time: 5
 Area of Effect: Special
 Saving Throw: None
 
-This spell summons 7 HD monsters. There is a 60% chance of receiving one monster and a 40% chance of receiving two monsters.  These monster(s) appear within spell range and attack the caster's opponents until the spell duration expires, or until they are slain. The monsters include a troll, a greater werewolf, and a greater wraith.~
+This spell summons 7 HD monsters. There is a 60% chance of receiving one monster and a 40% chance of receiving two monsters. These monster(s) appear within spell range and attack the caster's opponents until the spell duration expires, or until they are slain. The monsters include a troll, a greater werewolf, and a greater wraith.~
 @932  = ~Monster Summoning VI~
 @933  = ~Monster Summoning VI (Conjuration/Summoning)
 Level: 9
@@ -1008,7 +1008,7 @@ Casting Time: 3
 Area of Effect: Special
 Saving Throw: None
 
-This spell summons 9-10 HD monsters. There is a 60% chance of receiving one monster and a 40% chance of receiving two monsters.  These monster(s) appear within spell range and attack the caster's opponents until the spell duration expires, or until they are slain. The monsters include an Ettin, a Kua-Toa, or a vampire.~
+This spell summons 9-10 HD monsters. There is a 60% chance of receiving one monster and a 40% chance of receiving two monsters. These monster(s) appear within spell range and attack the caster's opponents until the spell duration expires, or until they are slain. The monsters include an Ettin, a Kua-Toa, or a vampire.~
 @934  = ~Poisonous Gas~
 @935  = ~Poisonous Gas (Evocation)
 Level: 7
@@ -1018,7 +1018,7 @@ Casting Time: 8
 Area of Effect: 30' radius cloud
 Saving Throw: 1/2
 
-This spell creates a cloud of toxic and poisons the air in it.  Any creature within the area of the spell must leave the cloud immediately, or suffer 1-4 points of poison damage per level of the caster each round while in the area of effect with a save vs. spells for half.~
+This spell creates a cloud of toxic and poisons the air in it. Any creature within the area of the spell must leave the cloud immediately, or suffer 1-4 points of poison damage per level of the caster each round while in the area of effect with a save vs. spells for half.~
 @936  = ~Summon Blue Dragon~
 @937  = ~Summon Blue Dragon (Conjuration, Summoning)
 Level: 9
@@ -1048,7 +1048,7 @@ Casting Time: 9
 Area of Effect: Special
 Saving Throw: None
 
-Seven centuries ago a Circle of powerful mages trapped the spirit of the most feared figter of Faerun into this scroll. The figter is Cal'Zakath, a Shadow Samurai. He is dead but by the means of this spell he can be summoned to fight by the side of the caster for a short period of time. The spell cannot be memorized and thus it can be used only once. After that Cal'Zakath will be released to death.~
+Seven centuries ago a Circle of powerful mages trapped the spirit of the most feared fighter of Faerun into this scroll. The fighter is Cal'Zakath, a Shadow Samurai. He is dead but by the means of this spell he can be summoned to fight by the side of the caster for a short period of time. The spell cannot be memorized and thus it can be used only once. After that Cal'Zakath will be released to death.~
 @942  = ~Ice Exploder~
 @943  = ~Ice Exploder (Abjuration)
 Level: 5
@@ -1087,7 +1087,7 @@ Casting Time: 9
 Area of Effect: Party
 Saving Throw: None
 
-This powerful spell enables the wizard to imbue party with the ability to regenerate.  This regeneration will heal any wounds and even regenerate lost limbs.  The creatures affected will regain 2 hit points per turn.  The effect lasts for 7 turns or until dispelled.~
+This powerful spell enables the wizard to imbue party with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creatures affected will regain 2 hit points per turn. The effect lasts for 7 turns or until dispelled.~
 @950  = ~Ultima~
 @951  = ~Ultima (Schoolless)
 Level: 9
@@ -1107,7 +1107,7 @@ Saving Throw: None
 
 Wizard calls upon fire magics from hell and uses them against one target. The target is hit by a massive fire explosion and a flame strike from the sky. There's also a change that the Fire Elemental King gives his power to the strike and kills the enemy if it fails it's saving throw against death.~
 @954  = ~Adding new items...~
-@955  = ~The most common version of the battle axe is a stout pole about four feet in length with a single-edged, trumpet-shaped blade mounted on one end.  Battle axes are also called broad axes. This axe has been enchanted with a magical gem.
+@955  = ~The most common version of the battle axe is a stout pole about four feet in length with a single-edged, trumpet-shaped blade mounted on one end. Battle axes are also called broad axes. This axe has been enchanted with a magical gem.
 
 STATISTICS:
 
@@ -1131,7 +1131,7 @@ Not Usable By:
  Monk
  Beast Master~
 @956  = ~Corroding Flail +3~
-@957  = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link.  The weapon was originally used as a tool for threshing grain. This flail has been enchanted with a magical gem.
+@957  = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon was originally used as a tool for threshing grain. This flail has been enchanted with a magical gem.
 
 STATISTICS:
 
@@ -1166,7 +1166,7 @@ Damage:  2D4 + 4
 THAC0: +4 bonus
 Weight: 3
 Speed Factor: 5
-Profiency Type: War Hammer
+Proficiency Type: War Hammer
 Type:   1-handed
 Requires: 18 Strength
 
@@ -1197,10 +1197,10 @@ Only usable by:
 @977  = ~Hilt of the Ancient~
 @978  = ~Two Handed Sword Hilt
 
-This is the hilt of a two handed sword.  It appears to have been forged by a fine craftsman, even though the blade was broken off long ago and the pommel is obviously missing a large diamond.~
+This is the hilt of a two handed sword. It appears to have been forged by a fine craftsman, even though the blade was broken off long ago and the pommel is obviously missing a large diamond.~
 @979  = ~Ancient Sword Hilt
 
-This hilt appears to be a part of the lengendary Ancient Sword. The sword was lost with the hero of Baldur's Gate, Tapio Perkiomaki, who used it to save the city from a great horde of monsters.~
+This hilt appears to be a part of the legendary Ancient Sword. The sword was lost with the hero of Baldur's Gate, Tapio Perkiomaki, who used it to save the city from a great horde of monsters.~
 @980  = ~Diamond of the Ancient~
 @981  = ~Diamond is a hard clear gem which can be cleared blue-white, rich blue, yellow or pink. The hardest of all the gemstones, and among the most valuable. Diamonds are usually found in the northern mountains by underground races, and then traded to the surface world.~
 @982  = ~Ancient Sword Diamond
@@ -1213,7 +1213,7 @@ This appears to be a part of the legendary Ancient Sword. Obviously the diamond 
 This Two Handed Sword Blade has mysteriously lost it's hilt. It might be possible to fix the weapon if the hilt was found.~
 @986  = ~Blade of the Ancient
 
-This blade appears to be a part of the lengendary Ancient Sword. The sword was lost with the hero of Baldur's Gate, Tapio Perkiomaki, who used it to save the city from a great horde of monsters.~
+This blade appears to be a part of the legendary Ancient Sword. The sword was lost with the hero of Baldur's Gate, Tapio Perkiomaki, who used it to save the city from a great horde of monsters.~
 @987  = ~Ancient Sword~
 @988  = ~This blade was used to save Baldur's Gate from a horde of monsters. It was wielded by the great hero, Tapio Perkiomaki.
 
@@ -1247,7 +1247,7 @@ STATISTICS:
 Armor Class: 2
 Weight: 2~
 @993  = ~Rare Diamond~
-@994  = ~Diamond is a hard clear gem which can be clear blue-white, rich blue, yellow or pink.  The hardest of all the gemstones, and among the most valuable.  Diamonds are usually found in the northern mountains by underground races, and then traded to the surface world. There seems to be something odd in this diamond. It's brighter and heavier than a normal diamond of this size.~
+@994  = ~Diamond is a hard clear gem which can be clear blue-white, rich blue, yellow or pink. The hardest of all the gemstones, and among the most valuable. Diamonds are usually found in the northern mountains by underground races, and then traded to the surface world. There seems to be something odd in this diamond. It's brighter and heavier than a normal diamond of this size.~
 @995  = ~You can see nothing special in this scroll. Perhaps it has value only for it's owner.~
 @996  = ~Assassin's Dagger~
 @997  = ~Shadow Thieves made this dagger to help their assassins complete their jobs. This dagger can be thrown and it returns into the hand of the thrower, making it incredibly useful for assassinations. It also makes the wielder invisible.
@@ -1263,7 +1263,7 @@ THAC0:  +3 bonus
 Damage type:  piercing
 Weight: 1
 Speed Factor: 1
-Profiency Type: Dagger
+Proficiency Type: Dagger
 Type:  1-handed
 Requires: 3 Strength
 
@@ -1334,7 +1334,7 @@ Not Usable By:
  Beast Master
  Good and Neutral characters~
 @1004 = ~Diamond Arrow +4~
-@1005 = ~The Diamond Arrow is a magical arrow which causes a powerful stunning blow on a succesful hit. 
+@1005 = ~The Diamond Arrow is a magical arrow which causes a powerful stunning blow on a successful hit. 
 
 STATISTICS:
 
@@ -1345,11 +1345,11 @@ Damage type:  missile (piercing)
 Weight: 0
 Launcher:  Bow~
 @1006 = ~War Hammer of Darkness +3~
-@1007 = ~Mounted knights cannot effectively use long pole weapons while on horseback, and as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand.  Maces and flails are two previous examples of this - the war hammer is another.  The horseman's war hammer is a descendant of the Lucerne hammer.  It is made entirely of steel, with rondels protecting and strengthening the grip.  Rondels are small disks of metal, often shaped into decorative designs.  The shaft is about 18 inches long.' This war hammer has been enchanted with a magical gem.
+@1007 = ~Mounted knights cannot effectively use long pole weapons while on horseback, and as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand. Maces and flails are two previous examples of this - the war hammer is another. The horseman's war hammer is a descendant of the Lucerne hammer. It is made entirely of steel, with rondels protecting and strengthening the grip. Rondels are small disks of metal, often shaped into decorative designs. The shaft is about 18 inches long.' This war hammer has been enchanted with a magical gem.
 
 STATISTICS:
 
-Combat Abilites:
+Combat Abilities:
  Target receives some stunning damage on every successful blow
 
 Damage: 1D4 + 3
@@ -1370,7 +1370,7 @@ Not Usable By:
 @1008 = ~Stone of the Darkness~
 @1009 = ~Stone of the Darkness is a deep black coral except for a small golden spot in the middle. It can be used for enchanting weapons and armor.~
 @1010 = ~Plate Mail Armor of the Darkness +2~
-@1011 = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin.  Similar in construction to bronze plate mail, true plate mail comprises of chain and leather. This plate mail has been enchanted with a magical gem.
+@1011 = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin. Similar in construction to bronze plate mail, true plate mail comprises of chain and leather. This plate mail has been enchanted with a magical gem.
 
 STATISTICS:
 
@@ -1492,7 +1492,7 @@ Not Usable By:
 STATISTICS:
 
 Combat Abilities:
-  If the targetted creature fails it's save vs. spells during the following 30 seconds all of it's spells are affected by wild magic
+  If the targeted creature fails it's save vs. spells during the following 30 seconds all of it's spells are affected by wild magic
 
 Damage: 1D12 + 4
 THAC0:  +4 bonus
@@ -1514,8 +1514,8 @@ Not Usable By:
 @1024 = ~The Story of Gilgamesh I~
 @1025 = ~Prologue
 
-  After heaven and earth had been separated and mankind had been created; after An, Enlil and Ereskigal had taken posesssion of heaven, earth and the underworld; after Enki had set sail for the underworld and the sea ebbed and flowed in honor of its lord; on this day, a huluppu tree which had been planted on the banks of the Euphrates and nourished by its waters was uprooted by the south wind and carried away by the Euphrates.
-  A goddess who was wandering among the banks siezed the swaying tree and -- at the behest of Anu and Enlil -- brought it to Inanna's garden in Uruk.
+  After heaven and earth had been separated and mankind had been created; after An, Enlil and Ereskigal had taken possession of heaven, earth and the underworld; after Enki had set sail for the underworld and the sea ebbed and flowed in honor of its lord; on this day, a huluppu tree which had been planted on the banks of the Euphrates and nourished by its waters was uprooted by the south wind and carried away by the Euphrates.
+  A goddess who was wandering among the banks seized the swaying tree and -- at the behest of Anu and Enlil -- brought it to Inanna's garden in Uruk.
   Inanna tended the tree carefully and lovingly she hoped to have a throne and a bed made for herself from its wood.
   After ten years, the tree had matured. 
   But in the meantime, she found to her dismay that her hopes could not be fulfilled, because during that time a dragon had built its nest at the foot of the tree the Zu-bird was raising its young in the crown, and the demon Lith had built her house in the middle.
@@ -3093,7 +3093,7 @@ to Shamash, lord god.~
 @1052 = ~A piece of leather~
 @1053 = ~A part of an amulet~
 @1054 = ~With a quick look this seems to be just a simple piece of leather.~
-@1055 = ~When you take a good look you notice that this is a part of an amulet. It is obviosly missing it's magical gem.~
+@1055 = ~When you take a good look you notice that this is a part of an amulet. It is obviously missing it's magical gem.~
 @1056 = ~Bracers of the Wizard Champion~
 @1057 = ~These bracers are one of the rewards given to the winner of the mage duels competition at the Arena. They been created just for this purpose and are completely unique.
 
@@ -3117,7 +3117,7 @@ THAC0:  +4 bonus
 Damage type: slashing
 Weight: 7
 Speed Factor: 4
-Profiency Type:
+Proficiency Type:
 1-handed Axe
 Requires: 14 Strength
 
@@ -3225,7 +3225,7 @@ Damage:  1d6 + 5
 THAC0:   +5
 Damage type:  piercing
 Weight: 10
-Profiency Type: Longbow
+Proficiency Type: Longbow
 Type:   2-handed
 
 Not Usable By:
@@ -3276,7 +3276,7 @@ THAC0:  +4 bonus
 Damage type: slashing
 Weight: 15
 Speed Factor: 4
-Profiency Type: 1-handed Axe
+Proficiency Type: 1-handed Axe
 Requires: 14 Strength
 
 Not Usable By:
@@ -3295,7 +3295,7 @@ Not Usable By:
 @1077 = ~Charisma Scroll~
 @1078 = ~This scroll raises the caster's charisma by two points.~
 @1079 = ~Flail of Coldness +2~
-@1080 = ~The flail is a strudy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. This flail has been enchanted with cold magics.
+@1080 = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. This flail has been enchanted with cold magics.
 
 STATISTICS:
 
@@ -3338,7 +3338,7 @@ THAC0:  +2 bonus
 Damage type:  piercing
 Weight: 2
 Speed Factor: 1
-Profiency Type: Short Sword
+Proficiency Type: Short Sword
 Type:   1-handed
 Requires: 5 Strength
 
@@ -3348,7 +3348,7 @@ Not Usable By:
  Mage
  Beast Master~
 @1090 = ~Cult Halberd +2~
-@1091 = ~By far the oldest and most often used pole-arm, the halberd consists of a cleaver-like axe blade mounted on a staff averaging six feet in length.  The axe blade is balanced at the rear with a fluke, and surmounted by a sharp spike, usually of quadrangular design.  The fluke is sometimes replaced by a hook used to dismount cavalry.  A halberd can be best described as a cross between a spear and an axe. This halberd has been enchanted with the tainted magic of the Beast.
+@1091 = ~By far the oldest and most often used pole-arm, the halberd consists of a cleaver-like axe blade mounted on a staff averaging six feet in length. The axe blade is balanced at the rear with a fluke, and surmounted by a sharp spike, usually of quadrangular design. The fluke is sometimes replaced by a hook used to dismount cavalry. A halberd can be best described as a cross between a spear and an axe. This halberd has been enchanted with the tainted magic of the Beast.
 
 STATISTICS:
 
@@ -3369,7 +3369,7 @@ Not Usable By:
  Monk
  Beast Master~
 @1092 = ~Cult Staff +2~
-@1093 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands. This quarterstaff has been enchanted with the tainted magic of the Beast.
+@1093 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length. High quality quarterstaves are made of stout oak and are shod with metal at both ends. The quarterstaff must be wielded with both hands. This quarterstaff has been enchanted with the tainted magic of the Beast.
 
 STATISTICS:
 
@@ -3385,7 +3385,7 @@ Requires: 5 Strength
 Not Usable By:
  Monk~
 @1094 = ~Cult Mace +2~
-@1095 = ~The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with a stone or iron head mounted on the end.  The head design varies; some being spiked, others flanged, and still others have pyramidal knobs. This mace has been enchanted with the tainted magic of the Beast.
+@1095 = ~The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with a stone or iron head mounted on the end. The head design varies; some being spiked, others flanged, and still others have pyramidal knobs. This mace has been enchanted with the tainted magic of the Beast.
 
 STATISTICS:
 
@@ -3405,7 +3405,7 @@ Not Usable By:
  Monk
  Beast Master~
 @1096 = ~Cursed Berserking Katana +3~
-@1097 = ~This is a cursed sword which performs perfectly under every test, save the heat of battle.  Upon entering combat, the wielder will immediately go berserk, killing everything within reach until either calming down or falling unconscious.  A very powerful sword, but one must decide whether or not it is worth the risk.  Even after the battle-fury has ended, this sword can only be removed via an exorcism using a remove curse spell.
+@1097 = ~This is a cursed sword which performs perfectly under every test, save the heat of battle. Upon entering combat, the wielder will immediately go berserk, killing everything within reach until either calming down or falling unconscious. A very powerful sword, but one must decide whether or not it is worth the risk. Even after the battle-fury has ended, this sword can only be removed via an exorcism using a remove curse spell.
 
 STATISTICS:
 
@@ -3436,7 +3436,7 @@ THAC0:  +3 bonus, +3 vs. giants
 Damage type: crushing
 Weight: 9
 Speed Factor: 5
-Profiency Type: Flail/Morningstar
+Proficiency Type: Flail/Morningstar
 Type: 1-handed
 Requires: 11 Strength
 
@@ -3455,14 +3455,14 @@ Damage: 1D4 + 4
 THAC0:  +4 bonus
 Weight: 1
 Speed Factor: 1
-Profiency Type: Dagger
+Proficiency Type: Dagger
 Type:   1-handed
 
 Not Usable By:
  Cleric~
 @1102 = ~Delly's Body~
 @1103 = ~This is the body of Wulfgar's wife.~
-@1104 = ~The Diamond Arrow is a magical arrow which causes a powerful stunning blow on a succesful hit.
+@1104 = ~The Diamond Arrow is a magical arrow which causes a powerful stunning blow on a successful hit.
 
 STATISTICS:
 
@@ -3483,7 +3483,7 @@ STATISTICS:
 
 Equipped Ability : Increases movement rate~
 @1112 = ~Scimitar +5, Twinkle~
-@1113 = ~This is the magical scimitar +6, Twinkle. It is one of the personal weapons of Drizzt Do'Urden.  Due to its magical nature, only those pure of heart can use it.
+@1113 = ~This is the magical scimitar +6, Twinkle. It is one of the personal weapons of Drizzt Do'Urden. Due to its magical nature, only those pure of heart can use it.
 
 STATISTICS:
 
@@ -3506,7 +3506,7 @@ Not Usable By:
 @1114 = ~Scimitar +3, Icingdeath~
 @1115 = ~This is the magical scimitar Drizzt Do'Urden found from a dragons lair. It's known that it protects the wielder from fire. It has saved the lives of Drizzt and Bruenor both.
 
-STATlSTICS:
+STATISTICS:
 
 Equipping Abilities:
   Protection from Fire
@@ -3515,7 +3515,7 @@ Damage:  1D8 + 3
 THAC0:   +3 bonus
 Damage type: Slashing
 Weight:  4
-Profiency type:  Scimitar
+Proficiency type:  Scimitar
 Speed Factor:  2
 Type:   1-handed
 Requires: 8 Strength
@@ -3549,7 +3549,7 @@ Requires: 8 Strength
 Usable Only By:
   Thief~
 @1122 = ~Kohrim's Bracers~
-@1123 = ~These bracers give the wearer almost a complete protection from magic. They are the horror of the mages and are in the posession of the assassin Artemis Enteri who stole them from Kohrim Soulez.
+@1123 = ~These bracers give the wearer almost a complete protection from magic. They are the horror of the mages and are in the possession of the assassin Artemis Enteri who stole them from Kohrim Soulez.
 
 STATISTICS:
 
@@ -3574,7 +3574,7 @@ Damage: 1D4 + 6
 THAC0:  +6 bonus
 Weight: 1
 Speed Factor: 1
-Profiency Type: Dagger
+Proficiency Type: Dagger
 Type:   1-handed
 
 Not Usable By:
@@ -3588,7 +3588,7 @@ Not Usable By:
 @1128 = ~A precious stone you've found from one of your adventures.~
 @1129 = ~This round and polished stone glows in red. When you touch it, it burns your hand. It can be used for enchanting weapons and armor.~
 @1130 = ~Medium Shield of Fire +3~
-@1131 = ~A medium shield is carried in the same manner as a small shield.  Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield.  Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings.  A typical medieval shield resembles a triangle with one point facing downward. This shield has been enchanted with a magical gem.
+@1131 = ~A medium shield is carried in the same manner as a small shield. Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield. Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings. A typical medieval shield resembles a triangle with one point facing downward. This shield has been enchanted with a magical gem.
 
 STATISTICS:
 
@@ -3607,7 +3607,7 @@ Not Usable By:
  Monk
  Kensai~
 @1132 = ~Long Sword of Fire +4~
-@1133 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era.  Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches.  In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip.  Despite the tip, the long sword is designed for slashing, not thrusting. This sword has been enchanted with a magical gem.
+@1133 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches. In the latter case, the blade is known to take up 40 inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting. This sword has been enchanted with a magical gem.
 
 STATISTICS:
 
@@ -3668,7 +3668,7 @@ Not Usable By:
  Beast Master
  Kensai~
 @1138 = ~Frozen Katana +3~
-@1139 = ~The katana is a single-edged, slightly curved sword that ends with a chisel point. The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process, that is more art form than anything else.  This blade is an important facet of Kara-Tur culture.  To touch or wield a samurai's katana is to insult the samurai and to incite his wrath.  For a gaijin, or foreigner, to own such a blade is a rare occurrence. Either the gaijin is a greatly honored friend of an important minister, or  the gaijin has murdered a samurai. This katana has been enchanted with a magical gem.
+@1139 = ~The katana is a single-edged, slightly curved sword that ends with a chisel point. The katana is perhaps one of the finest swords ever made, the steps to its creation a long and secret process, that is more art form than anything else. This blade is an important facet of Kara-Tur culture. To touch or wield a samurai's katana is to insult the samurai and to incite his wrath. For a gaijin, or foreigner, to own such a blade is a rare occurrence. Either the gaijin is a greatly honored friend of an important minister, or  the gaijin has murdered a samurai. This katana has been enchanted with a magical gem.
 
 STATISTICS:
 
@@ -3691,7 +3691,7 @@ Not Usable By:
 @1142 = ~A precious item you've found on one of your adventures.~
 @1143 = ~This is a cold piece of iron, covered in ice. No force in Faerun could melt the ice from the surface of the item. It can be used for enchanting weapons and armor.~
 @1144 = ~Frozen Full Plate Mail +2~
-@1145 = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection.  The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail. This plate mail has been enchanted with a magical gem.
+@1145 = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection. The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail. This plate mail has been enchanted with a magical gem.
 
 STATISTICS:
 
@@ -3715,7 +3715,7 @@ Not Usable By:
  Beast Master
  Kensai~
 @1146 = ~Frozen Large Shield +2~
-@1147 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user.  It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times.  Naturally, this precludes use of the shield hand for anything but holding the body shield in place. This shield has been enchanted with a magical gem.
+@1147 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place. This shield has been enchanted with a magical gem.
 
 STATISTICS:
 
@@ -3740,11 +3740,11 @@ Not Usable By:
 @1148 = ~Key to Gaidan's Doors~
 @1149 = ~This Key fits to the locks of the invisible doors at Gaidan's Castle. It might be hard to find the lock in the door, but when it is found, the door can be opened.~
 @1150 = ~Garem's Ring~
-@1151 = ~A ring is a small band of precious metal that is used as jewelry.  Some rare rings have had enchantments placed upon them that confer various magical abilities.  These rings are highly sought after, especially by those of the adventuring profession.
+@1151 = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession.
 
 This ring appears to belong to a man named Garem.~
 @1152 = ~Glowing Chain Mail Armor + 4~
-@1153 = ~Chain mail is made of interlocking metal rings.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows. This chain mail has been enchanted with a powerful magical gem.
+@1153 = ~Chain mail is made of interlocking metal rings. It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows. This chain mail has been enchanted with a powerful magical gem.
 
 STATISTICS:
 
@@ -3765,7 +3765,7 @@ Not Usable By:
  Beast Master
  Stalker~
 @1154 = ~Glowing Halberd +4~
-@1155 = ~By far the oldest and most often used pole-arm, the halberd consists of a cleaver-like axe blade mounted on a staff averaging six feet in length.  The axe blade is balanced at the rear with a fluke, and surmounted by a sharp spike, usually of quadrangular design.  The fluke is sometimes replaced by a hook used to dismount cavalry.  A halberd can be best described as a cross between a spear and an axe. This halberd has been enchanted with a powerful magical gem.
+@1155 = ~By far the oldest and most often used pole-arm, the halberd consists of a cleaver-like axe blade mounted on a staff averaging six feet in length. The axe blade is balanced at the rear with a fluke, and surmounted by a sharp spike, usually of quadrangular design. The fluke is sometimes replaced by a hook used to dismount cavalry. A halberd can be best described as a cross between a spear and an axe. This halberd has been enchanted with a powerful magical gem.
 
 STATISTICS:
 
@@ -3862,7 +3862,7 @@ Not Usable By:
 @1171 = ~Hermit's Journal~
 @1172 = ~Eleasias 1345:
 
-We had to leave the encampent...(water has ruined the text on a few lines)...believe that we'll find the gem once we get back with the reinforcements.
+We had to leave the campement... (water has ruined the text on a few lines)... believe that we'll find the gem once we get back with the reinforcements.
 
 
 Eleasias 1347:
@@ -3872,12 +3872,12 @@ The goblins were defeated last year and finally the digging produced a result. W
 
 Eleasias 1348:
 
-I thought this was going well but there has been some scheming. Only time will...(you can't read the final words)
+I thought this was going well but there has been some scheming. Only time will... (you can't read the final words)
 
 
 Eleasias 1349:
 
-...My wife tried to kill me. I didn't know it was her and I...stabbed her to death. The atmosphere is getting very dangerous. I'm planning to take some of the gems and run.
+... My wife tried to kill me. I didn't know it was her and I... stabbed her to death. The atmosphere is getting very dangerous. I'm planning to take some of the gems and run.
 
 
 Eleasias 1350:
@@ -3912,7 +3912,7 @@ The monsters have been acting really strange. When the other humans left, they d
 
 Eleasias 1368:
 
-I've lost the gem. Someone must've stolen it. However I can take no actiong to get it back.
+I've lost the gem. Someone must've stolen it. However I can take no actions to get it back.
 
 
 Eleasias 1369:
@@ -3929,7 +3929,7 @@ Casting Time: 9
 Area of Effect: Special
 Saving Throw: None 
 
-Seven centuries ago a Circle of powerful mages trapped the spirit of the most feared figter of Faerun into this scroll. The figter is Cal'Zakath, a Shadow Samurai. He is dead but by the means of this spell he can be summoned to fight by the side of the caster for a short period of time. The spell cannot be memorized and thus it can be used only once. After that Cal'Zakath will be released to death.~
+Seven centuries ago a Circle of powerful mages trapped the spirit of the most feared fighter of Faerun into this scroll. The fighter is Cal'Zakath, a Shadow Samurai. He is dead but by the means of this spell he can be summoned to fight by the side of the caster for a short period of time. The spell cannot be memorized and thus it can be used only once. After that Cal'Zakath will be released to death.~
 @1177 = ~Mysterious Scroll~
 @1178 = ~There's some text on the paper:
 
@@ -3970,7 +3970,7 @@ Weight:  4~
 @1184 = ~This is a strange orb you have found on one of your adventures. This might be worth of a closer look.~
 @1185 = ~The Eye of a God is an extremely rare glowing orb. None of these orbs have been found and nobody has the wisdom to tell how they came to be in the first place, nor what are they. It is rumoured that a skilled Smith could enchant a weapon or an armor with this gem to give it incredible powers.~
 @1186 = ~God's Eye Full Plate Mail +5~
-@1187 = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection.  The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail. By the handwork of Pip Grayfoot, this full plate mail has received the most powerful enchantment of them all, the Eye of a God.
+@1187 = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection. The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail. By the handwork of Pip Grayfoot, this full plate mail has received the most powerful enchantment of them all, the Eye of a God.
 
 STATISTICS:
 
@@ -3997,7 +3997,7 @@ Not Usable By:
  Beast Master
  Kensai~
 @1188 = ~God's Eye Large Shield +4~
-@1189 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user.  It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times.  Naturally, this precludes use of the shield hand for anything but holding the body shield in place. By the handwork of Pip Grayfoot, this large shield has received the most powerful enchantment of them all, the Eye of a God.
+@1189 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place. By the handwork of Pip Grayfoot, this large shield has received the most powerful enchantment of them all, the Eye of a God.
 
 STATISTICS:
 
@@ -4078,7 +4078,7 @@ Damage: 1D8 + 3
 THAC0:  +3 bonus
 Damage Type: slashing
 Weight: 3
-Profiency Type: Scimitar
+Proficiency Type: Scimitar
 Speed Factor: 2
 Type:   1-handed
 Requires: 8 Strength
@@ -4100,7 +4100,7 @@ THAC0:  +4 bonus
 Damage type: piercing
 Weight: 3
 Speed Factor: 2
-Profiency Type: Short Sword
+Proficiency Type: Short Sword
 Type:   1-handed
 Requires: 5 Strength
 
@@ -4117,7 +4117,7 @@ THAC0:  +3 bonus
 Damage type: piercing
 Weight: 3
 Speed Factor: 2
-Profiency Type: Short Sword
+Proficiency Type: Short Sword
 Type:   1-handed
 Requires: 5 Strength
 
@@ -4135,7 +4135,7 @@ Damage: 1D8 + 4, +5 Cold, +5 Fire
 THAC0:  +4 bonus
 Damage Type: slashing
 Weight: 3
-Profiency Type: Scimitar
+Proficiency Type: Scimitar
 Speed Factor: 2
 Type:   1-handed
 Requires: 8 Strength
@@ -4216,7 +4216,7 @@ THAC0:  +4 bonus
 Damage Type:  slashing
 Weight: 8
 Speed Factor: 2
-Profiency Type: Long Sword
+Proficiency Type: Long Sword
 Type:    1-handed
 Requires: 8 Strength, 14 Intelligence
 
@@ -4234,7 +4234,7 @@ THAC0:   +3 bonus
 Damage Type:  slashing
 Weight: 8
 Speed Factor: 2
-Profiency Type: Long Sword
+Proficiency Type: Long Sword
 Type:    1-handed
 Requires: 8 Strength, 10 Intelligence
 
@@ -4307,7 +4307,7 @@ THAC0:   +2 bonus
 Damage type:  piercing
 Weight: 2
 Speed Factor: 1
-Profiency Type: Short Sword
+Proficiency Type: Short Sword
 Type:   1-handed
 Requires: 5 Strength
 
@@ -4374,13 +4374,13 @@ STATISTICS:
 
 Weight: 40~
 @1251 = ~Cursed Amulet~
-@1252 = ~Long ago a skinny man approached a mage and asked her to make an amulet of power to him. The amulet was supposed to improve his agility, strength and stamina. Price was set at three thousand and the mage created the amulet. But it was then that the man betrayed the mage. He punched her unconscious and escaped. The mage was not stupid though. She had included a little surprise with the amulet. It does what the man had asked but that's not all. It also makes the face of the wearer ugly and decreaces his mental abilities greatly.
+@1252 = ~Long ago a skinny man approached a mage and asked her to make an amulet of power to him. The amulet was supposed to improve his agility, strength and stamina. Price was set at three thousand and the mage created the amulet. But it was then that the man betrayed the mage. He punched her unconscious and escaped. The mage was not stupid though. She had included a little surprise with the amulet. It does what the man had asked but that's not all. It also makes the face of the wearer ugly and decreases his mental abilities greatly.
 
 STATISTICS:
 
 Equipping Abilities: 
   +3 to constitution, dexterity and strength
-  Wisdom, intelligence and charsima set to 3
+  Wisdom, intelligence and charisma set to 3
 
 Special: 
   Can only be removed with a 'Remove Curse' spell
@@ -4411,7 +4411,7 @@ Equipping Abilities:
 Not Usable By:
   Wizardslayer~
 @1257 = ~Arrow of Blindness~
-@1258 = ~The point of this arrow contains special poison made to blind the targetted creature for a short period of time. That makes the arrow very useful to assassins. The first shot doesn't have to kill; the enemy can't do anything when blinded.
+@1258 = ~The point of this arrow contains special poison made to blind the targeted creature for a short period of time. That makes the arrow very useful to assassins. The first shot doesn't have to kill; the enemy can't do anything when blinded.
 
 STATISTICS:
 
@@ -4421,7 +4421,7 @@ Special:  Blinds the target for 4 rounds
 Weight: 0
 Launcher:  Bow~
 @1259 = ~Arrow of Silence~
-@1260 = ~When shot with an arrow like this, the targetted creature loses the ability to talk for a short period of time. The arrow has been noticed to be very effective against mages. One arrow before the battle to disable the mage and the rest is easy.
+@1260 = ~When shot with an arrow like this, the targeted creature loses the ability to talk for a short period of time. The arrow has been noticed to be very effective against mages. One arrow before the battle to disable the mage and the rest is easy.
 
 STATISTICS:
 
@@ -4560,9 +4560,9 @@ Not Usable By:
 @1277 = ~This is a wing of a helm.~
 @1278 = ~A piece of the Bengar's Helm
 
-It seems that this is one of the two missing wings of the Bengar's Helm. The power of the helm is in the wings and without them it is powerless. Originally the helm belonged to a legendary hero Bengar, who disappeared mysteriously hundreds of years ago. The wings and the helm were found but seperated by the finders.~
+It seems that this is one of the two missing wings of the Bengar's Helm. The power of the helm is in the wings and without them it is powerless. Originally the helm belonged to a legendary hero Bengar, who disappeared mysteriously hundreds of years ago. The wings and the helm were found but separated by the finders.~
 @1279 = ~Bengar's Helm +2~
-@1280 = ~Bengar's Helm was forged for a great warrior, Bengar. The power of the helm is in the wings. The wings were lost when Bengar disappeared but now they have been found again and are ornating this magnificient head gear.
+@1280 = ~Bengar's Helm was forged for a great warrior, Bengar. The power of the helm is in the wings. The wings were lost when Bengar disappeared but now they have been found again and are ornating this magnificent head gear.
 
 STATISTICS:
 
@@ -4580,7 +4580,7 @@ Not Usable By:
  Monk
  Kensai~
 @1281 = ~Bolt of Fire~
-@1282 = ~This bolt seems to burn as it is held in the hand.  When shot from the crossbow, it seems to leap towards its target leaving behind a sulfuric smell.  As it hits there is a blow as the heat stored is released into the target's wound.
+@1282 = ~This bolt seems to burn as it is held in the hand. When shot from the crossbow, it seems to leap towards its target leaving behind a sulfuric smell. As it hits there is a blow as the heat stored is released into the target's wound.
 
 STATISTICS:
 
@@ -4590,7 +4590,7 @@ Special:  4D4 fire damage (save vs. breath for half)
 Weight:  0
 Launcher:  Crossbow~
 @1283 = ~Bolt +3~
-@1284 = ~Quarrels or bolts are the ammunition fired by crossbows regardless of the weapon's size.  However this bolt has been imbued with magical properties which enhances performance in flight, almost as if the bolt was guided towards its target.
+@1284 = ~Quarrels or bolts are the ammunition fired by crossbows regardless of the weapon's size. However this bolt has been imbued with magical properties which enhances performance in flight, almost as if the bolt was guided towards its target.
 
 STATISTICS:
 
@@ -4628,7 +4628,7 @@ Weight:  3
 Not Usable By:
   Wizardslayer~
 @1291 = ~Boots of Protection~
-@1292 = ~Boots are normally hand-made by cobblers.  Common boots are made by using a form, but good boots are designed for the foot of an individual. These boots have been enchanted with protection magics.
+@1292 = ~Boots are normally hand-made by cobblers. Common boots are made by using a form, but good boots are designed for the foot of an individual. These boots have been enchanted with protection magics.
 
 STATISTICS:
 
@@ -4647,7 +4647,7 @@ Usable By:
  Ranger
  Paladin~
 @1295 = ~Blizzard Bullet +1~
-@1296 = ~Magical currents are embedded inside this bullet so that it seems a little more balanced and lighter as it jumps towards an opponent.  When the bullet strikes an opponent it releases a wave of cold into the wound.
+@1296 = ~Magical currents are embedded inside this bullet so that it seems a little more balanced and lighter as it jumps towards an opponent. When the bullet strikes an opponent it releases a wave of cold into the wound.
 
 STATISTICS:
 
@@ -4657,7 +4657,7 @@ Damage type:  missile (piercing)
 Weight: 0
 Launcher:  sling~
 @1297 = ~Thunder Bullet +1~
-@1298 = ~Magical currents are embedded inside this bullet so that it seems a little more balanced and lighter as it jumps towards an opponent.  When the bullet strikes an opponent it releases a spark of energy into the wound.
+@1298 = ~Magical currents are embedded inside this bullet so that it seems a little more balanced and lighter as it jumps towards an opponent. When the bullet strikes an opponent it releases a spark of energy into the wound.
 
 STATISTICS:
 
@@ -4733,7 +4733,7 @@ Not Usable By:
  Beast Master
  Stalker~
 @1305 = ~Henrik's Chain +5~
-@1306 = ~Henrik the Magnificient is known in the history as a ruler who had a good sense of humor. That can be noticed for example from this armor. The smith who forged this had also a good sense of humor. Henrik was known of his talkative personality so the smith added a little bonus with the armor, silence. He was beheaded.
+@1306 = ~Henrik the Magnificent is known in the history as a ruler who had a good sense of humor. That can be noticed for example from this armor. The smith who forged this had also a good sense of humor. Henrik was known of his talkative personality so the smith added a little bonus with the armor, silence. He was beheaded.
 
 STATISTICS:
 
@@ -4781,7 +4781,7 @@ Equipping Abilities:
 Usable By:
  Good Clerics~
 @1311 = ~Armor Cloak~
-@1312 = ~The cloak can be made in every possible shape with just about every type of fabric.  The most common forms are a circular piece of fabric with a hole in the center for the head, and fabric draped from neck, connected by a chain, brooch, cord, or pins.  ~
+@1312 = ~The cloak can be made in every possible shape with just about every type of fabric. The most common forms are a circular piece of fabric with a hole in the center for the head, and fabric draped from neck, connected by a chain, brooch, cord, or pins.~
 @1313 = ~The Armor Cloak is made for mages only. It regenerates the wearers life force and gives a 'Ghost Armor' for protection. These cloaks were quite common in Sembia a couple of hundred years ago. Nowadays they are pretty rare.
 
 STATISTICS:
@@ -4842,7 +4842,7 @@ Not Usable By:
 @1321 = ~This is a part of the Crystal Sword, a great two-handed sword forged during the Time of Troubles. It is said that the sword is of divine origin. It was last wielded by Travis Stormbringer and was broken into three parts in the battle of the Havannock's field when Travis died. After the battle the parts disappeared, probably taken by survived warriors.~
 @1322 = ~Two-Handed Sword Hilt~
 @1323 = ~Hilt of the Crystal~
-@1324 = ~This is the hilt of a two-handed sword.  It appears to have been forged by a fine craftsman, even though the blade was broken off long ago.~
+@1324 = ~This is the hilt of a two-handed sword. It appears to have been forged by a fine craftsman, even though the blade was broken off long ago.~
 @1325 = ~The Crystal Sword +6~
 @1326 = ~Stormbringer's Flame, Inferno of the North, The Blade That Was Broken: The Crystal Sword. Forged during the Time of Troubles, broken in the battlefields of Havannock, now forged back into one to deliver death for all foes.
 
@@ -4947,7 +4947,7 @@ Not Usable By:
  Kensai
  Cavalier~
 @1335 = ~Dwarven Legend +4~
-@1336 = ~The Dwarven Legend is enchanted with the runes of both Clangeddin and Moradin. It's significiance to a dwarf is huge, as is it's power. There is a chance with each hit that the force of Moradin and Clangeddin awakes and delivers extra damage to the target. There is also a chance that the divine power kills a giant with one blow.
+@1336 = ~The Dwarven Legend is enchanted with the runes of both Clangeddin and Moradin. It's significance to a dwarf is huge, as is it's power. There is a chance with each hit that the force of Moradin and Clangeddin awakes and delivers extra damage to the target. There is also a chance that the divine power kills a giant with one blow.
 
 STATISTICS:
 
@@ -5098,7 +5098,7 @@ Not Usable By:
  Beast Master
  Kensai~
 @1347 = ~Dragon Armor~
-@1348 = ~This suit of armor is formed from interlocking shadow dragon scales and on top of them the scales of a golden dragon.  Elegant workmanship and practical considerations make this armor both beautiful and useful.  The shadow dragon scales grant the wearer extra protection from acid and the scales of the golden dragon grant full protection from electricity. Together the scales form a very hard combination making this armor extremely difficult to pierce.
+@1348 = ~This suit of armor is formed from interlocking shadow dragon scales and on top of them the scales of a golden dragon. Elegant workmanship and practical considerations make this armor both beautiful and useful. The shadow dragon scales grant the wearer extra protection from acid and the scales of the golden dragon grant full protection from electricity. Together the scales form a very hard combination making this armor extremely difficult to pierce.
 
 STATISTICS:
 
@@ -5117,7 +5117,7 @@ Not Usable By:
  Avenger
  Kensai~
 @1349 = ~Golden Dragon's Scales~
-@1350 = ~There are a small number of scales salvaged from the golden dragon.  Legend has it they can be magically forged into a powerful armor.~
+@1350 = ~There are a small number of scales salvaged from the golden dragon. Legend has it they can be magically forged into a powerful armor.~
 @1351 = ~Helm of Quickness~
 @1352 = ~This helm improves the speed of both mind and body. While wearing it one notices to be able to think faster and move faster. That makes hitting the target easier and at the same evading blows becomes easier. The 'Haste' given by the helm can be dispelled but nonetheless the helm gives bonuses to attack and defense.
 
@@ -5139,7 +5139,7 @@ Not Usable By:
  Monk
  Kensai~
 @1353 = ~Bright Orange Ioun Stone~
-@1354 = ~Legend tells us that this particular type of ioun stone is crafted with the enslaved soul of a fire giant.  This bright orange ioun stone will grant the wearer the strength of a giant.
+@1354 = ~Legend tells us that this particular type of ioun stone is crafted with the enslaved soul of a fire giant. This bright orange ioun stone will grant the wearer the strength of a giant.
 
 STATISTICS:
 
@@ -5244,7 +5244,7 @@ Not Usable By:
  Monk
  Beast Master~
 @1363 = ~The Venom +3~
-@1364 = ~The Venom is enchanted with both poisonous and corrodive magics in an offencive and a defensive way. It was made by the dwarves but after that it has been mostly used by humans.
+@1364 = ~The Venom is enchanted with both poisonous and corrosive magics in an offensive and a defensive way. It was made by the dwarves but after that it has been mostly used by humans.
 
 STATISTICS:
 
@@ -5308,7 +5308,7 @@ THAC0:  +4 bonus
 Damage type:  piercing
 Weight: 2
 Speed Factor: 1
-Profiency Type: Short Sword
+Proficiency Type: Short Sword
 Type:   1-handed
 Requires: 5 Strength
 
@@ -5338,7 +5338,7 @@ Not Usable By:
  Beast Master
  Neutral Alignment~
 @1371 = ~Master's Katana +4~
-@1372 = ~This katana was used by the weapon master of the fighter's guild in the city of Morgoth. It releases iron tough insects with every succesful hit and they slash through the enemy dealing damage. The target might also become feebleminded or blurred.
+@1372 = ~This katana was used by the weapon master of the fighter's guild in the city of Morgoth. It releases iron tough insects with every successful hit and they slash through the enemy dealing damage. The target might also become feebleminded or blurred.
 
 STATISTICS:
 
@@ -5385,7 +5385,7 @@ Not Usable By:
  Kensai
  Cavalier~
 @1375 = ~Studded Leather +4~
-@1376 = ~Studded leather armor has little in common with normal leather armor.  Instead of a hardened shell, studded leather offers hundreds of metal rivets affixed to a supple backing.  The numerous studs form a flexible coat of metal that helps to turn aside slashing and cutting attacks, while the leather is little more than a means of securing the rivets in place. This leather armor is heavily enchanted.
+@1376 = ~Studded leather armor has little in common with normal leather armor. Instead of a hardened shell, studded leather offers hundreds of metal rivets affixed to a supple backing. The numerous studs form a flexible coat of metal that helps to turn aside slashing and cutting attacks, while the leather is little more than a means of securing the rivets in place. This leather armor is heavily enchanted.
  
 STATISTICS:
 
@@ -5484,7 +5484,7 @@ Not Usable By:
  Monk
  Beast Master~
 @1385 = ~Ninja-To +2~
-@1386 = ~The sword of the ninja, the ninja-to, is of lower quality than other Kara-Tur blades such as the katana.  The ninja-to is short with a straight blade, making it ideal for the subterfuge of the ninja.  The ninja-to is also more suited to fighting in closed places, sometimes giving the ninja an advantage over the longer blades that the samurai used. This Ninja-To is heavily enchanted.
+@1386 = ~The sword of the ninja, the ninja-to, is of lower quality than other Kara-Tur blades such as the katana. The ninja-to is short with a straight blade, making it ideal for the subterfuge of the ninja. The ninja-to is also more suited to fighting in closed places, sometimes giving the ninja an advantage over the longer blades that the samurai used. This Ninja-To is heavily enchanted.
 
 STATISTICS:
 
@@ -5504,7 +5504,7 @@ Not Usable By:
  Beast Master~
 @1387 = ~Ninja-To +3~
 @1388 = ~Ninja-To
-The sword of the ninja, the ninja-to, is of lower quality than other Kara-Tur blades such as the katana.  The ninja-to is short with a straight blade, making it ideal for the subterfuge of the ninja.  The ninja-to is also more suited to fighting in closed places, sometimes giving the ninja an advantage over the longer blades that the samurai used. This Ninja-To is heavily enchanted.
+The sword of the ninja, the ninja-to, is of lower quality than other Kara-Tur blades such as the katana. The ninja-to is short with a straight blade, making it ideal for the subterfuge of the ninja. The ninja-to is also more suited to fighting in closed places, sometimes giving the ninja an advantage over the longer blades that the samurai used. This Ninja-To is heavily enchanted.
 
 STATISTICS:
 
@@ -5524,7 +5524,7 @@ Not Usable By:
  Beast Master~
 @1389 = ~Memory Stone~
 @1390 = ~This looks like an ordinary gem.~
-@1391 = ~This is one of the two Xander's memory stones. He was a great warrior in his life and sought for a way to pass his abilities to the future generations. No-one knows what happened but his spirit is said to be trapped inside of the two stones, seperated.~
+@1391 = ~This is one of the two Xander's memory stones. He was a great warrior in his life and sought for a way to pass his abilities to the future generations. No-one knows what happened but his spirit is said to be trapped inside of the two stones, separated.~
 @1392 = ~Xander's Spirit +2~
 @1393 = ~This weapon was forged by smith Brundor from a normal Ninja-To and the memory stones of the ancient hero, Xander. It soon became known that the wielder can let the spirit take over and the sword can attack on it's own for a short period of time. Xander's dream of his abilities passing on to the future generations has become true.
 
@@ -5548,7 +5548,7 @@ Not Usable By:
  Mage
  Beast Master~
 @1394 = ~Plate Mail of the Sun +4~
-@1395 = ~Plate Mail of the Sun was created by Sun worshippers about a millenium ago. It has preserved well to this day. The enchantments have kept it safe and work well still. The wearer of the armor can cast a few priest spells.
+@1395 = ~Plate Mail of the Sun was created by Sun worshippers about a millennium ago. It has preserved well to this day. The enchantments have kept it safe and work well still. The wearer of the armor can cast a few priest spells.
 
 STATISTICS:
 
@@ -5571,7 +5571,7 @@ Not Usable By:
  Beast Master
  Kensai~
 @1396 = ~Fading Plate +5~
-@1397 = ~This plate mail armor works as a somekind of a portal between other planes of existance. While wearing this armor a part of the wearer moves to a higher plane of existance. This gives a lot of protection in this plane.
+@1397 = ~This plate mail armor works as a somekind of a portal between other planes of existence. While wearing this armor a part of the wearer moves to a higher plane of existence. This gives a lot of protection in this plane.
 
 STATISTICS:
 
@@ -5616,21 +5616,21 @@ Not Usable By:
  Beast Master
  Kensai~
 @1400 = ~Elixir of Life~
-@1401 = ~When wholly consumed, this potion restores 39 hit points to the person.  The effect is instantaneous and the potion is destroyed in the process. ~
+@1401 = ~When wholly consumed, this potion restores 39 hit points to the person. The effect is instantaneous and the potion is destroyed in the process.~
 @1402 = ~Potion of Ascendance~
-@1403 = ~This potion will move the being of the drinker into a higher plane of existance leaving only a small portion in this world. This grants +10 to Armor Class and Saving Throws. The duration of the effect is short, two rounds.~
+@1403 = ~This potion will move the being of the drinker into a higher plane of existence leaving only a small portion in this world. This grants +10 to Armor Class and Saving Throws. The duration of the effect is short, two rounds.~
 @1404 = ~Potion of Vocalization~
 @1405 = ~This potion will remove the effect of the spell 'Silence'. A very valuable potion for a wizard.~
 @1406 = ~Blessed Ring~
-@1407 = ~A ring is a small band of precious metal that is used as jewelry.  Some rare rings have had enchantments placed upon them that confer various magical abilities.  These rings are highly sought after, especially by those of the adventuring profession.~
-@1408 = ~A ring is a small band of precious metal that is used as jewelry.  Some rare rings have had enchantments placed upon them that confer various magical abilities.  These rings are highly sought after, especially by those of the adventuring profession. This ring has been blessed.
+@1407 = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession.~
+@1408 = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession. This ring has been blessed.
 
 STATISTICS:
 
 Equipping Abilities:
  Bless (+2 to Saving Throws and Attack Rolls)~
 @1409 = ~Ring of Chant~
-@1410 = ~A ring is a small band of precious metal that is used as jewelry.  Some rare rings have had enchantments placed upon them that confer various magical abilities.  These rings are highly sought after, especially by those of the adventuring profession. This ring has the effect of 'Chant'.
+@1410 = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession. This ring has the effect of 'Chant'.
 
 STATISTICS:
 
@@ -5716,7 +5716,7 @@ This is one of the runes of Clangeddin. It contains substantial magical energy a
 
 This is one of the runes of Moradin. It contains substantial magical energy and would be very useful to a skilled smith.~
 @1429 = ~Regenerative Short Bow +2~
-@1430 = ~A lowly ranked Red Mage named Huhhus is said to have discovered the perfect way to distill troll flesh to make a potion that provided the same regenerative ability as that of the troll.  Few were willing to drink the vile liquid however and decades later an unknown craftsman created this bow, building upon the foundations of knowledge laid by Huhhus.
+@1430 = ~A lowly ranked Red Mage named Huhhus is said to have discovered the perfect way to distill troll flesh to make a potion that provided the same regenerative ability as that of the troll. Few were willing to drink the vile liquid however and decades later an unknown craftsman created this bow, building upon the foundations of knowledge laid by Huhhus.
 
 STATISTICS:
 
@@ -5778,7 +5778,7 @@ Not Usable By:
  Cleric
  Mage
  Beast Master~
-@1435 = ~This weapons also knowns the name "Thief Catcher". It has been used by soldiers to hunt down thieves. Unfortunately the weapon was lost, to a thief, of course, and since then there has been no record of it's existance.
+@1435 = ~This weapons also knowns the name "Thief Catcher". It has been used by soldiers to hunt down thieves. Unfortunately the weapon was lost, to a thief, of course, and since then there has been no record of it's existence.
 
 STATISTICS:
 
@@ -5807,7 +5807,7 @@ Not Usable By:
 STATISTICS:
 
 Combat Abilities:
-  With a succesful hit one of these spells is cast instantly to the target:
+  With a successful hit one of these spells is cast instantly to the target:
     Flame Strike
     Harm
     Fireball
@@ -5845,11 +5845,11 @@ Not Usable By:
  Monk
  Kensai~
 @1440 = ~Shield Ornamentation~
-@1441 = ~This appears to be an ornamentation of a shield. It is obviosly magical and if forged back into the original shield, the magic should be available for the user of the shield.~
+@1441 = ~This appears to be an ornamentation of a shield. It is obviously magical and if forged back into the original shield, the magic should be available for the user of the shield.~
 @1442 = ~Gems~
 @1443 = ~Small Ornamentations~
 @1444 = ~These look like ordinary gems.~
-@1445 = ~These appear to be ornamentations of a shield. They are obviosly magical and if forged back into the original shield, the magic should be available for the user of the shield.~
+@1445 = ~These appear to be ornamentations of a shield. They are obviously magical and if forged back into the original shield, the magic should be available for the user of the shield.~
 @1446 = ~The Protector +2~
 @1447 = ~The Protector was forged and enchanted to protect it's wielder from all projectile weapons. The enchantment is in the ornamentations. They draw all missiles to hit the shield, not it's user.
 
@@ -5923,7 +5923,7 @@ Not Usable By:
   Kensai
   Cavalier~
 @1454 = ~Raven's Sling +4~
-@1455 = ~Once a killer who called himseld Raven walked the streets of Calimport. He was the best assassin of his time. No-one ever saw him, at least the real him, and not once he failed in a mission. Then one day he just disappeared. Some people say he was killed, some people say he just left. Some believe he will still return.
+@1455 = ~Once a killer who called himself Raven walked the streets of Calimport. He was the best assassin of his time. No-one ever saw him, at least the real him, and not once he failed in a mission. Then one day he just disappeared. Some people say he was killed, some people say he just left. Some believe he will still return.
 
 STATISTICS:
 
@@ -5942,7 +5942,7 @@ Not Usable By:
   Kensai
   Cavalier~
 @1456 = ~Medium Shield +3~
-@1457 = ~A medium shield is carried in the same manner as a small shield.  Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield.  Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings.  A typical medieval shield resembles a triangle with one point facing downward. This shield is heavily enchanted.
+@1457 = ~A medium shield is carried in the same manner as a small shield. Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield. Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings. A typical medieval shield resembles a triangle with one point facing downward. This shield is heavily enchanted.
 
 STATISTICS:
 
@@ -5958,7 +5958,7 @@ Not Usable By:
  Monk
  Kensai~
 @1458 = ~Eye Piercer +2~
-@1459 = ~This spear contains magic that has the same effect as piercing one's eye. That magic is released with every succesful hit and if the target cannot resist it, the result will be permanent blindness only to be dispelled with powerful magic.
+@1459 = ~This spear contains magic that has the same effect as piercing one's eye. That magic is released with every successful hit and if the target cannot resist it, the result will be permanent blindness only to be dispelled with powerful magic.
 
 STATISTICS:
 
@@ -6029,7 +6029,7 @@ Not Usable By:
  Monk
  Beast Master~
 @1464 = ~Small Shield +3~
-@1465 = ~A small shield is usually round and is carried on the forearm, gripped with the shield hand.  Its light weight as compared to a medium shield permits the user to carry other items in that hand, although he cannot wield or carry another weapon. This shield is heavily enchanted.
+@1465 = ~A small shield is usually round and is carried on the forearm, gripped with the shield hand. Its light weight as compared to a medium shield permits the user to carry other items in that hand, although he cannot wield or carry another weapon. This shield is heavily enchanted.
 
 STATISTICS:
 
@@ -6065,7 +6065,7 @@ Not Usable By:
  Monk
  Kensai~
 @1468 = ~Shield of Hiding +4~
-@1469 = ~This medium shield has the effect of hiding it's wearer from the view. Unfortunately the ability has faded and now the wielder comes visible occassionally.
+@1469 = ~This medium shield has the effect of hiding it's wearer from the view. Unfortunately the ability has faded and now the wielder comes visible occasionally.
 
 STATISTICS:
 
@@ -6096,7 +6096,7 @@ THAC0:  +3 bonus
 Damage type:  piercing
 Weight: 2
 Speed Factor: 1
-Profiency Type: Short Sword
+Proficiency Type: Short Sword
 Type:   1-handed
 Requires: 5 Strength
 
@@ -6118,7 +6118,7 @@ THAC0:  +3 bonus
 Damage type:  piercing
 Weight: 2
 Speed Factor: 1
-Profiency Type: Short Sword
+Proficiency Type: Short Sword
 Type:   1-handed
 Requires: 5 Strength
 
@@ -6140,7 +6140,7 @@ THAC0:  +3 bonus
 Damage type:  piercing
 Weight: 2
 Speed Factor: 1
-Profiency Type: Short Sword
+Proficiency Type: Short Sword
 Type:   1-handed
 Requires: 5 Strength
 
@@ -6150,7 +6150,7 @@ Not Usable By:
  Mage
  Beast Master~
 @1476 = ~Bruiser Staff +3~
-@1477 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  Masterwork quarterstaffs are made of stout oak and are shod with metal at both ends.  This one is particularly special as it has been imbued with magical properties.
+@1477 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length. Masterwork quarterstaffs are made of stout oak and are shod with metal at both ends. This one is particularly special as it has been imbued with magical properties.
 
 STATISTICS:
 
@@ -6177,7 +6177,7 @@ STATISTICS:
 
 Abilities:
   Can cast Remove Magic and Breach two times per day
-  Can cast Pierce Magic, Ruby Ray of Reveasal and Khelben's Warding Whip once per day
+  Can cast Pierce Magic, Ruby Ray of Reversal and Khelben's Warding Whip once per day
 
 Combat Abilities:
   Dispel Magic
@@ -6196,7 +6196,7 @@ Usable By:
  Clerics
  Druids~
 @1479 = ~Quarterstaff of Quickness +1~
-@1480 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends.  This one is particularly special as it has been imbued with magical properties, including the haste effect.
+@1480 = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length. High quality quarterstaves are made of stout oak and are shod with metal at both ends. This one is particularly special as it has been imbued with magical properties, including the haste effect.
 
 STATISTICS:
 
@@ -6283,7 +6283,7 @@ Not Usable By:
  Monk
  Beast Master~
 @1486 = ~Delvin's Sword +4~
-@1487 = ~Delvin was a fine smith and believed in the balance of powers. This is his best work and not for naught is he proud of it. The downside for an adventurer is that as Delvin was True Neutral, the sword might not only damage the target. There is also a possbility that it gives the target a helpful ability.
+@1487 = ~Delvin was a fine smith and believed in the balance of powers. This is his best work and not for naught is he proud of it. The downside for an adventurer is that as Delvin was True Neutral, the sword might not only damage the target. There is also a possibility that it gives the target a helpful ability.
 
 STATISTICS:
 
@@ -6316,7 +6316,7 @@ Not Usable By:
  Mage
  Beast Master~
 @1488 = ~Vampiric Blade +5~
-@1489 = ~The blood of a vampire runs in this sword and there is a chance with each succesful hit that the sword drains levels from the target as vampires do. Nothing is able to resist this sword so even the most powerful creatures of the realms can be bent under it's power.
+@1489 = ~The blood of a vampire runs in this sword and there is a chance with each successful hit that the sword drains levels from the target as vampires do. Nothing is able to resist this sword so even the most powerful creatures of the realms can be bent under it's power.
 
 STATISTICS:
 
@@ -6338,7 +6338,7 @@ Not Usable By:
  Mage
  Beast Master~
 @1490 = ~Protective Long Sword~
-@1491 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  The blade hums slightly in your hand and provides protection in combat.
+@1491 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords. The blade hums slightly in your hand and provides protection in combat.
 
 STATISTICS:
 
@@ -6360,7 +6360,7 @@ Not Usable By:
  Mage
  Beast Master~
 @1492 = ~Calishman +2~
-@1493 = ~Also known as the Sword of Anger. Looking from outside the sword looks quite beatiful but when it hits you, you tend to go mad. The name of the forger of this sword is unknown but first records of it can be traced to the city of Calimport.
+@1493 = ~Also known as the Sword of Anger. Looking from outside the sword looks quite beautiful but when it hits you, you tend to go mad. The name of the forger of this sword is unknown but first records of it can be traced to the city of Calimport.
 
 STATISTICS:
 
@@ -6381,7 +6381,7 @@ Not Usable By:
  Cleric 
  Mage
  Beast Master~
-@1494 = ~Sword of Certainity +4~
+@1494 = ~Sword of Certainty +4~
 @1495 = ~This sword just knows how to hit the target. It is amazing but even those with no experience in fighting can get a hit through a fairly good fighter's defence. The sword has also gained reputation amongst assassins as in skilled hands it can deliver death quickly and smoothly.
 
 STATISTICS:
@@ -6401,7 +6401,7 @@ Not Usable By:
  Mage
  Beast Master~
 @1496 = ~Storm Caller +3~
-@1497 = ~The Storm Caller is a very poweful sword despite it's simple looks. It has the rare ability of controlling weather. Every time one enters a combat in an outdoor area using this sword, it begins to rain. There is also a chance that bolts of lightning start to strike down on the enemies. When fighting indoors this weapon's strongest abilities are ineffective.
+@1497 = ~The Storm Caller is a very powerful sword despite it's simple looks. It has the rare ability of controlling weather. Every time one enters a combat in an outdoor area using this sword, it begins to rain. There is also a chance that bolts of lightning start to strike down on the enemies. When fighting indoors this weapon's strongest abilities are ineffective.
 
 STATISTICS:
 
@@ -6472,7 +6472,7 @@ Not Usable By:
  Monk
  Beast Master~
 @1501 = ~Wakizashi +2~
-@1502 = ~The wakizashi, or companion sword, is extremely important to the samurai.  It is worn at all times, even indoors, and is near the samurai when he sleeps at night.  Wu Jen masters have concealed within this wakishashi great power, unleashed only when the wielder is in the thick of battle.  How or why this wakizashi made it to Faerun is unknown, but if the samurai who owned it still lives, he will certainly be looking for it.
+@1502 = ~The wakizashi, or companion sword, is extremely important to the samurai. It is worn at all times, even indoors, and is near the samurai when he sleeps at night. Wu Jen masters have concealed within this wakishashi great power, unleashed only when the wielder is in the thick of battle. How or why this wakizashi made it to Faerun is unknown, but if the samurai who owned it still lives, he will certainly be looking for it.
 
 STATISTICS:
 
@@ -6491,7 +6491,7 @@ Not Usable By:
  Mage
  Beast Master~
 @1503 = ~Wakizashi +3~
-@1504 = ~The wakizashi, or companion sword, is extremely important to the samurai.  It is worn at all times, even indoors, and is near the samurai when he sleeps at night.  Wu Jen masters have concealed within this wakishashi great power, unleashed only when the wielder is in the thick of battle.  How or why this wakizashi made it to Faerun is unknown, but if the samurai who owned it still lives, he will certainly be looking for it.
+@1504 = ~The wakizashi, or companion sword, is extremely important to the samurai. It is worn at all times, even indoors, and is near the samurai when he sleeps at night. Wu Jen masters have concealed within this wakishashi great power, unleashed only when the wielder is in the thick of battle. How or why this wakizashi made it to Faerun is unknown, but if the samurai who owned it still lives, he will certainly be looking for it.
 
 STATISTICS:
 
@@ -6599,7 +6599,7 @@ THAC0:  +4
 Damage Type: crushing
 Weight: 8
 Speed Factor: 5
-Profiency Type: Mace
+Proficiency Type: Mace
 Type: 1 -handed
 Requires: 10 Strength
 
@@ -6649,7 +6649,7 @@ STATISTICS:
 Special Abilities:
  Reflects all spell damage back to the source. This includes offensive spells like magic missile, but not disabling (non-damage) spells such as hold person.~
 @1525 = ~Regis' Amulet~
-@1526 = ~This amulet is known to charm all humaoids. It is in the hands of the halfling Regis and can only be worn by halflings.
+@1526 = ~This amulet is known to charm all humanoids. It is in the hands of the halfling Regis and can only be worn by halflings.
 
 STATISTICS:
 
@@ -6816,12 +6816,12 @@ Not Usable By:
  Monk
  Kensai~
 @1552 = ~Mace of the Star +3~
-@1553 = ~The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with a stone or iron head mounted on the end.  The head design varies; some being spiked, others flanged, and still others have pyramidal knobs. This mace has been enchanted with a magical gem.
+@1553 = ~The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with a stone or iron head mounted on the end. The head design varies; some being spiked, others flanged, and still others have pyramidal knobs. This mace has been enchanted with a magical gem.
 
 STATISTICS:
 
 Combat Abilites:
- Causes electrical damage with a succesful hit (2D6)
+ Causes electrical damage with a successful hit (2D6)
 
 Damage: 1D6 + 3
 THAC0:  +3 bonus
@@ -6839,7 +6839,7 @@ Not Usable By:
  Monk
  Beast Master~
 @1554 = ~Small Shield of the Star +2~
-@1555 = ~A small shield is usually round and is carried on the forearm, gripped with the shield hand.  Its light weight as compared to a medium shield permits the user to carry other items in that hand, although he cannot wield or carry another weapon. This shield has been enchanted with a magical gem.
+@1555 = ~A small shield is usually round and is carried on the forearm, gripped with the shield hand. Its light weight as compared to a medium shield permits the user to carry other items in that hand, although he cannot wield or carry another weapon. This shield has been enchanted with a magical gem.
 
 STATISTICS:
 
@@ -6898,7 +6898,7 @@ THAC0:  +4 bonus
 Damage type:  piercing
 Speed Factor: 1
 Weight: 2
-Profiency Type: Short Sword
+Proficiency Type: Short Sword
 Type:  1-handed
 Requires: 5 Strength
 
@@ -6922,7 +6922,7 @@ THAC0:  +3 bonus
 Damage type:  crushing
 Weight: 4
 Speed Factor: 2
-Profiency Type: Staff
+Proficiency Type: Staff
 Type: 2-handed
 Requires: 5 Strength
 
@@ -6932,7 +6932,7 @@ Usable By:
 @1577 = ~This is the dead body of the thief Tresham.~
 @1578 = ~The injured body of Tresham can be taken to the prison in Arlax to get a reward.~
 @1579 = ~Tuigan Bow +4~
-@1580 = ~The Tuigans are a nomadic people widely dispersed across the steppe regions of Faerun but bound together by a common bloodline.  The bows they make are especially tailored for their mobile warriors, and the process used is carefully guarded, but the result is well known: any bow of Tuigan origin can be fired faster than is possible with a normal one.
+@1580 = ~The Tuigans are a nomadic people widely dispersed across the steppe regions of Faerun but bound together by a common bloodline. The bows they make are especially tailored for their mobile warriors, and the process used is carefully guarded, but the result is well known: any bow of Tuigan origin can be fired faster than is possible with a normal one.
 
 STATISTICS:
 
@@ -6953,7 +6953,7 @@ Not Usable By:
  Kensai
  Cavalier~
 @1581 = ~Two Handed Sword +3~
-@1582 = ~The two-handed sword is a derivative of the long sword.  Weaponsmiths have always looked for ways to improve existing weapons.  In an effort to improve the long sword, the blade was lengthened.  Eventually, the handle had to be extended and two hands became necessary to properly swing the sword.  The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.  This one is particularly good at its job as it has been enchanted with many magical properties.
+@1582 = ~The two-handed sword is a derivative of the long sword. Weaponsmiths have always looked for ways to improve existing weapons. In an effort to improve the long sword, the blade was lengthened. Eventually, the handle had to be extended and two hands became necessary to properly swing the sword. The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations. This one is particularly good at its job as it has been enchanted with many magical properties.
 
 STATISTICS:
 
@@ -7002,7 +7002,7 @@ THAC0:  +4 bonus
 Damage type:  crushing
 Weight: 4
 Speed Factor: 2
-Profiency Type: Staff
+Proficiency Type: Staff
 Type: 2-handed
 Requires: 5 Strength
 
@@ -7055,24 +7055,24 @@ Usable By:
 
 @1629 = ~holy swordsman~
 @1630 = ~Holy Swordsman~
-@1631 = ~HOLY SWORDSMAN: Holy Swordsman's training has focused on swords. They haven't been trained in the arts of magic and thus cannot use any priest spells. The idea to train Holy Swordsmen came from a great paladin fighter about three hundred years ago. He was known as one of the best fighters of his time. It is an hounour to be trained as a Holy Swordsman.
+@1631 = ~HOLY SWORDSMAN: Holy Swordsman's training has focused on swords. They haven't been trained in the arts of magic and thus cannot use any priest spells. The idea to train Holy Swordsmen came from a great paladin fighter about three hundred years ago. He was known as one of the best fighters of his time. It is an honour to be trained as a Holy Swordsman.
 
 Advantages:
--  Can achieve Grand Mastery with Two-handed Swords and Two-handed Weapon Style
--  Can achieve Master level with all other swords
+- Can achieve Grand Mastery with Two-handed Swords and Two-handed Weapon Style
+- Can achieve Master level with all other swords
 
 Disadvantages:
--  May not use any priest spells~
+- May not use any priest spells~
 @1632 = ~lancer~
 @1633 = ~Lancer~
-@1634 = ~LANCER: Lancers were originally trained in Sembia to be palace guards. After five generations they were replaced by swordsmen and thus forgotten. The training methods didn't die though and were spread to the other parts of the world too. A Lancer needs to be trained by a fighter and a mage and therefore they are very rare nowadays. The combat training focuses on spears and the mage teaches the abilitiy to enchant them. An experienced Lancer can create a very powerful spear for himself.
+@1634 = ~LANCER: Lancers were originally trained in Sembia to be palace guards. After five generations they were replaced by swordsmen and thus forgotten. The training methods didn't die though and were spread to the other parts of the world too. A Lancer needs to be trained by a fighter and a mage and therefore they are very rare nowadays. The combat training focuses on spears and the mage teaches the ability to enchant them. An experienced Lancer can create a very powerful spear for himself.
 
 Advantages:
--  Grand Mastery with spears and staffs
--  Creates more and more powerful spears at certain levels (up to +6, final spear received on level 26)
+- Grand Mastery with spears and staffs
+- Creates more and more powerful spears at certain levels (up to +6, final spear received on level 26)
 
 Disadvantages:
--  Can only get to Master level with other weapons~
+- Can only get to Master level with other weapons~
 @1635 = ~Lancer's Spear +1~
 @1636 = ~The Lancers are specialized with spears and staffs. They can also make them. This spear was made by a lower level Lancer.
 
@@ -7212,38 +7212,38 @@ Not Usable By:
 @1649 = ~SHADOW WALKER: Shadow Walkers are specialized in some of the thieving abilities. They can learn skills much quicker than normal thieves. They are also very good sword handlers. They have been trained to find the weaknesses in armors and know just where to hit. But because of the lack of training with traps, they cannot use them.
 
 Advantages:
--  Can get to Expert level with daggers and all one-handed swords
--  Gets +5 to Hide in Shadows, Find Traps, Pick Pockets and Open Locks every third level
+- Can get to Expert level with daggers and all one-handed swords
+- Gets +5 to Hide in Shadows, Find Traps, Pick Pockets and Open Locks every third level
 
 Disadvantages:
--  Can't use traps~
+- Can't use traps~
 @1650 = ~elemental warrior~
 @1651 = ~Elemental Warrior~
-@1652 = ~ELEMENTAL WARRIOR: Elemental Warriors have spent most of their youth with resistance increasing exercises. Thus they haven't had the time to increase their strength in mental or physical abilities. They have a natural resistance against the most common elements but there is no Elemental Warrior who can be aknowledged as stunningly beautiful or handsome because of the cruel training methods.
+@1652 = ~ELEMENTAL WARRIOR: Elemental Warriors have spent most of their youth with resistance increasing exercises. Thus they haven't had the time to increase their strength in mental or physical abilities. They have a natural resistance against the most common elements but there is no Elemental Warrior who can be acknowledged as stunningly beautiful or handsome because of the cruel training methods.
 
 Advantages:
--  50% Resistance against Fire, Ice and Electricity
+- 50% Resistance against Fire, Ice and Electricity
 
 Disadvantages:
--  Max stat at creation 16~
+- Max stat at creation 16~
 @1653 = ~forest protector~
 @1654 = ~Forest protector~
-@1655 = ~FOREST PROTECTOR: Forest Protectors have dedicated their lives for protecting the nature. No-one trains to be a Forest Protector, it's a calling. Usually they move to live in the woods but remain in contact with other people. They are in no way hermits and are usually popular in small villages. They love nature and are usually very charismatic. They get along with animals and can summon them to help in battles. Forest Protectors have little intrest in physical skills.
+@1655 = ~FOREST PROTECTOR: Forest Protectors have dedicated their lives for protecting the nature. No-one trains to be a Forest Protector, it's a calling. Usually they move to live in the woods but remain in contact with other people. They are in no way hermits and are usually popular in small villages. They love nature and are usually very charismatic. They get along with animals and can summon them to help in battles. Forest Protectors have little interest in physical skills.
 
 Advantages:
--  Charisma can be 20 at creation
--  They can summon animals to help in battle
+- Charisma can be 20 at creation
+- They can summon animals to help in battle
 
 Disadvantages:
--  Strength maximum 16 at creation
--  Dexterity maximum 14 at creation~
+- Strength maximum 16 at creation
+- Dexterity maximum 14 at creation~
 @1656 = ~singer~
 @1657 = ~Singer~
-@1658 = ~SINGER: Singers have a stunning voice and they can enchant it with various magical abilities. They are not intrested in weapons and are only familiar with a few of them. Singers are more often seen in taverns entertaining than on the battlefields but to have a Singer in your army can greatly assist you in battles. Male Singers tend to be in the favour of the ladies and receive some jealous looks from other men.
+@1658 = ~SINGER: Singers have a stunning voice and they can enchant it with various magical abilities. They are not interested in weapons and are only familiar with a few of them. Singers are more often seen in taverns entertaining than on the battlefields but to have a Singer in your army can greatly assist you in battles. Male Singers tend to be in the favour of the ladies and receive some jealous looks from other men.
 
 Advantages:
--  Bard's Sing gets more abilities every fourth level:
-  7th  -  Haste
+- Bard's Sing gets more abilities every fourth level:
+  7th   -  Haste
   11th  -  Immunity against fear
   15th  -  -3 to party members' Armor Classes
   19th  -  -3 to party members' Saving Throws
@@ -7254,20 +7254,20 @@ Advantages:
   39th  -  +50 % Resistance against Electricity to party members
   43th  -  -4 to party members' Armor Classes, Saving Throws and THAC0
   47th  -  +4 to party members' Damage
--  Usable for all alignments
+- Usable for all alignments
 
 Disadvantages:
--  Can only put profiency points on daggers, short swords, scimitars, katanas, maces, flails, clubs and fighting styles~
+- Can only put proficiency points on daggers, short swords, scimitars, katanas, maces, flails, clubs and fighting styles~
 @1659 = ~priest of auril~
 @1660 = ~Priest of Auril~
-@1661 = ~PRIEST OF AURIL: Auril is the good goddess of ice and thus her priests have a special intrest in ice. Their faith grants them full immunity against cold and they can even use the mage spell Ice Storm.
+@1661 = ~PRIEST OF AURIL: Auril is the good goddess of ice and thus her priests have a special interest in ice. Their faith grants them full immunity against cold and they can even use the mage spell Ice Storm.
 
 Advantages:
--  100% immunity against cold
--  Can use the spell Ice Storm (get's a special, more powerful Ice Storm spell at level 18)
+- 100% immunity against cold
+- Can use the spell Ice Storm (gets a special, more powerful Ice Storm spell at level 18)
 
 Disadvantages:
--  None~
+- None~
 @1662 = ~Ice Storm~
 @1663 = ~Ice Storm - Improved~
 @1664 = ~priest of Deneir~
@@ -7275,11 +7275,11 @@ Disadvantages:
 @1666 = ~PRIEST OF DENEIR: Deneir is the neutral god of wisdom and illusions. His servants can cast some illusion spells and can evade magical attacks with more success than other priests.
 
 Advantages:
--  Can use Invisibility, Improved Invisibility and Invisibility 10' Radius
--  Gets -4 to all Saving Throws
+- Can use Invisibility, Improved Invisibility and Invisibility 10' Radius
+- Gets -4 to all Saving Throws
 
 Disadvantages:
--  None~
+- None~
 @1667 = ~Invisibility~
 @1668 = ~Invisibility 10' Radius~
 @1669 = ~Improved Invisibility~
@@ -7288,97 +7288,97 @@ Disadvantages:
 @1672 = ~PRIEST OF LOVIATAR: Loviatar is the goddess of pain and hurt and her priests are feared all around the world. They hate every other forms of life and Priests of Ilmater are actively hunted and killed when possible. The root of this hatred is simply that Ilmats are so stupidly cheerful when they are hurt and pain seems to make them more fervent about their deity.
 
 Advantages:
--  Starting from level 10 can use the spell Pain Touch which decreases the target's combat abilities greatly; -4 to THAC0 and Damage Bonus, -3 to Strength and Dexterity. Saving throw might save the target (-2 bonus to the save)
+- Starting from level 10 can use the spell Pain Touch which decreases the target's combat abilities greatly; -4 to THAC0 and Damage Bonus, -3 to Strength and Dexterity. Saving throw might save the target (-2 bonus to the save)
 
 Disadvantages:
--  None~
+- None~
 @1673 = ~Pain Touch~
 @1674 = ~doombringer~
 @1675 = ~Doombringer~
 @1676 = ~DOOMBRINGER: Doombringers have a trained Doom Attack. While they use it they are vulnerable but deal a lot more damage than usually. Doombringers are very dangerous due to the fact that they are quite reckless in battle. They are usually evil and might kill people for no apparent reason.
 
 Advantages:
--  Doom Attack, lasts 60 seconds (once per day)
+- Doom Attack, lasts 60 seconds (once per day)
    *While in Doom Attack, they deal more damage (+2 at first)
    *While in Doom Attack, they have a smaller THAC0 (-2 at first)
    *Doom attack gets more power at levels 15, 23 and 30
--  Grand Mastery is possible with all weapons and fighting styles
+- Grand Mastery is possible with all weapons and fighting styles
 
 Disadvantages:
--  While in Doom Attack, their AC Class is greater (+3 at first)
--  AC Class gets bigger every time Doom Attack gets more power (+4, +5, +6)
--  They have greater Saving Throws (+3 to all)~
+- While in Doom Attack, their AC Class is greater (+3 at first)
+- AC Class gets bigger every time Doom Attack gets more power (+4, +5, +6)
+- They have greater Saving Throws (+3 to all)~
 @1677 = ~Doom Attack~
 @1678 = ~wilderness Samurai~
 @1679 = ~Wilderness Samurai~
 @1680 = ~WILDERNESS SAMURAI: The Wilderness Samurai are lone fighters who live in the deserted parts of the Faerun. They are expert swordsmen and masters with katanas and scimitars. They don't get along with people very well and don't like big cities. Most of them are good from their hearts and use their skills to hunt down and kill hordes of monsters like goblins and orcs. It's very rare to see an adventuring Wilderness Samurai.
 
 Advantages:
--  Can achieve Grand Mastery with Katanas, Scmitars, One Weapon-Style and Two Weapon-Style
--  Can achieve Master level with all swords, Sword and Shield Style and Two-Handed Sword Style
+- Can achieve Grand Mastery with Katanas, Scmitars, One Weapon-Style and Two Weapon-Style
+- Can achieve Master level with all swords, Sword and Shield Style and Two-Handed Sword Style
 
 Disadvantages:
--  Can't use spells~
+- Can't use spells~
 @1681 = ~trail tracker~
 @1682 = ~Trail Tracker~
 @1683 = ~TRAIL TRACKER: The Trail Trackers are hunters. They hunt down men and animals. They have been used for thief cathing and for finding and killing animals that have been causing troubles. They usually take out their victims with a special paralyzing attack.
 
 Advantages:
--  Gets +30 to Stealth
--  Paralyzing Strike (During 5 seconds the Trail Tracker can stun the target with every succesful hit, usable once per day, no save, powerful creatures are not affected)
--  Get's -2 to THAC0
+- Gets +30 to Stealth
+- Paralyzing Strike (During 5 seconds the Trail Tracker can stun the target with every successful hit, usable once per day, no save, powerful creatures are not affected)
+- Gets -2 to THAC0
 
 Disadvantages:
--  Weapon bonus damage is reduced by two (+3 weapon deals the damage of a +1 weapon)~
+- Weapon bonus damage is reduced by two (+3 weapon deals the damage of a +1 weapon)~
 @1684 = ~Paralyzing Strike~
 @1685 = ~silent hunter~
 @1686 = ~Silent Hunter~
-@1687 = ~SILENT HUNTER: Silent Hunters are perfect shadowers. They can easily follow anyone and if necessarry, annihilate them smoothly and quietly. They aren't very good in close combat and thus avoid going into one.
+@1687 = ~SILENT HUNTER: Silent Hunters are perfect shadowers. They can easily follow anyone and if necessary, annihilate them smoothly and quietly. They aren't very good in close combat and thus avoid going into one.
 
 Advantages:
--  Grand Mastery with Daggers
--  Gets +50 to Hide in Shadows at level 1
--  Gets +50 to Hide in Shadows at level 15
+- Grand Mastery with Daggers
+- Gets +50 to Hide in Shadows at level 1
+- Gets +50 to Hide in Shadows at level 15
 
 Disadvantages:
--  They have +2 in AC Class making them more vulnerable to attack
--  Strength and Constitution max is 16 at creation~
+- They have +2 in AC Class making them more vulnerable to attack
+- Strength and Constitution max is 16 at creation~
 @1688 = ~snare master~
 @1689 = ~Snare Master~
 @1690 = ~SNARE MASTER: Snare Masters are specialized with elemental snares. They can use fire, cold and electricity in their traps. With more experience, they can also add some status changing effects on their traps. Because of the intense training with traps, they cannot backstab and are unfamiliar with bows. Snare Master is commonly called for help if someone wants to...surprise her enemy.
 
 Advantages:
--  Gets +30 to Set Traps Skill
--  Can use the Ice Snare
+- Gets +30 to Set Traps Skill
+- Can use the Ice Snare
    * Levels 1-15; cold damage (2D8)
    * Levels 15-50; greater cold damage and slow (3D8)
--  Can use the Fire Snare
+- Can use the Fire Snare
    * Levels 1-15; fire damage (2D8)
    * Levels 15-50; greater fire damage and confuse (3D8)
--  Can use the Lightning Snare
+- Can use the Lightning Snare
    * Levels 1-15; electrical damage (2D8)
    * Levels 15-50; greater electrical damage and feeblemindess (3D8)
 
 Disadvantages:
--  No backstab multiplier
--  Can't place any profiency points on bows and fighting styles~
+- No backstab multiplier
+- Can't place any proficiency points on bows and fighting styles~
 @1691 = ~Set Fire Snare~
 @1692 = ~Set Ice Snare~
 @1693 = ~Set Lightning Snare~
 @1694 = ~harpist~
 @1695 = ~Harpist~
-@1696 = ~HARPIST: Harpists are special harp players and makers. They can make harps and add some magical enchantments on them. Some Harpists enchant their harps with minor mind controlling spells and play in tarvens to get some gold from the audience.
+@1696 = ~HARPIST: Harpists are special harp players and makers. They can make harps and add some magical enchantments on them. Some Harpists enchant their harps with minor mind controlling spells and play in taverns to get some gold from the audience.
 
 Advantages:
--  Gets Harp of Horror at level 8 (Scares the enemies)
--  Gets Harp of Ally at level 12 (Improves the fighting skills of the party)
--  Gets Harp of Defense at level 15 (Improves the defensive skills of the party)
--  Gets Harp of Domination at level 20 (Dominates the enemies)
--  Gets Harp of Offense at level 23 (Damages one target)
+- Gets Harp of Horror at level 8 (Scares the enemies)
+- Gets Harp of Ally at level 12 (Improves the fighting skills of the party)
+- Gets Harp of Defense at level 15 (Improves the defensive skills of the party)
+- Gets Harp of Domination at level 20 (Dominates the enemies)
+- Gets Harp of Offense at level 23 (Damages one target)
 
 Disadvantages:
--  Max stat at creation 16
--  Bard Song does not become better with levels~
+- Max stat at creation 16
+- Bard Song does not become better with levels~
 @1697 = ~Harp of Horror~
 @1698 = ~When played, this harp's song frightens all the nearby hostile creatures. This kind of harps are commonly made by Harpists.
 
@@ -7429,76 +7429,76 @@ Usable By:
 @1709 = ~DRIFTER: Drifters have chosen the life of lonely wanderers. Their only friend is music. They can become quicker and tougher than the bards normally can and can be better fighters too. Drifters have had to learn some fighting skills to get food while travelling.
 
 Advantages:
--  Can specialize with every weapon
--  Constitution and Dexterity can be 20 at creation
+- Can specialize with every weapon
+- Constitution and Dexterity can be 20 at creation
 
 Disadvantages:
--  Pick Pockets level doesn't grow
--  Gets only half of the normal Lore
--  Bard Song does not become better with levels~
+- Pick Pockets level doesn't grow
+- Gets only half of the normal Lore
+- Bard Song does not become better with levels~
 @1710 = ~knight~
 @1711 = ~Knight~
 @1712 = ~KNIGHT: Knights have studied all forms of humanoid fighting styles and are very good in close combat when they are facing humanoids. They have no skills with ranged weapons and thus they prefer not to use them. Knights usually have some kind of magical resistance, depends on the place where they were trained.
 
 Advantages:
--  +2 to Damage and THAC0 against Humanoids
--  +20 to Magic Resistance
--  +20 to Magic Damage Resistance
+- +2 to Damage and THAC0 against Humanoids
+- +20 to Magic Resistance
+- +20 to Magic Damage Resistance
 
 Disadvantages:
--  May not use Lay On Hands - ability
--  May not place any profience points on missile weapons~
+- May not use Lay On Hands - ability
+- May not place any proficiency points on missile weapons~
 @1713 = ~dark paladin~
 @1714 = ~Dark Paladin~
 @1715 = ~DARK PALADIN: Dark Paladins are the opposite for noble and good paladins. They have chosen the darker path and follow gods like Bhaal. They have none of the usual paladin abilities Detect Evil, Protection from Evil and Lay on Hands. They ended their training before any of these spells became familiar to them. Their evil gods grant them bonuses against those of good alignment.
 
 Advantages:
--  +2 to Damage and THAC0 against creatures with good alignment
--  After reaching level 10 can use Disease Weapon ability to add the disease effect on the equipped weapon
+- +2 to Damage and THAC0 against creatures with good alignment
+- After reaching level 10 can use Disease Weapon ability to add the disease effect on the equipped weapon
    * Disease lasts 10 seconds on enemy dealing 2 points of damage per second
    * The weapon is diseased 15 seconds
    * The ability is usable once per day
    * No Saving Throw (powerful creatures are not affected though)
 
 Disadvantages:
--  May not use Lay on Hands
--  May not use Detect Evil
--  May not use Protection from Evil~
+- May not use Lay on Hands
+- May not use Detect Evil
+- May not use Protection from Evil~
 @1716 = ~Disease Weapon~
 @1717 = ~planar druid~
 @1718 = ~Planar Druid~
 @1719 = ~PLANAR DRUID: Planar Druids have the ability to shapeshift into a demon and they have gained some fire resistance due to the time spent in the demon form. However taking the demon form is dangerous and if the shapshifting doesn't happen in a controlled situation, anything might follow. Therefore Planar Druids have to be experienced before using the ability. 
 
 Advantages:
--  Can shapeshift into a demon once per day starting from level 14
--  Gets +50% to Fire Resistance
+- Can shapeshift into a demon once per day starting from level 14
+- Gets +50% to Fire Resistance
 
 Disadvantages:
--  Max Dexterity and Intelligence 14 at creation
--  No other shapeshifting abilities~
+- Max Dexterity and Intelligence 14 at creation
+- No other shapeshifting abilities~
 @1720 = ~Shapeshifts Demon~
 @1721 = ~wisher~
 @1722 = ~Wisher~
 @1723 = ~WISHER: Wishers are extremely rare and they have specialized in the using of the mage spell Limited Wish. They can also have a very high intelligence to help with the spell. On the downside they have no shapeshifting abilities.
 
 Advantages:
--  Intelligence can be 20 at creation
--  Gets -2 to all Saving Throws
--  Can use the mage spell Limited Wish once per day at levels 1-13, twice at levels 14-22 and three times at levels 23-50
+- Intelligence can be 20 at creation
+- Gets -2 to all Saving Throws
+- Can use the mage spell Limited Wish once per day at levels 1-13, twice at levels 14-22 and three times at levels 23-50
 
 Disadvantages:
--  Can't shapeshift~
+- Can't shapeshift~
 @1724 = ~Limited Wish~
 @1725 = ~aerial druid~
 @1726 = ~Aerial Druid~
 @1727 = ~AERIAL DRUID: Aerial Druids are able to call for air elemental creatures from different planes to help in battles. Aerial Servant is an example of the creatures Aerial Druid can summon. This sort of abilities are easy to train so they have required no sacrifices from other druid abilities.
 
 Advantages:
--  Can summon different kinds of air elemental creatures (one at level 7, two at level 10 and three at level 13)
--  (Has the normal shapeshifting abilities)
+- Can summon different kinds of air elemental creatures (one at level 7, two at level 10 and three at level 13)
+- (Has the normal shapeshifting abilities)
 
 Disadvantages:
--  None~
+- None~
 @1728 = ~Summon Lesser Air Elemental~
 @1729 = ~Summon Aerial Servant~
 @1730 = ~Summon Air Elemental~
