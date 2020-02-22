@@ -15,10 +15,13 @@
 **Mod Website:** <a href="http://www.spellholdstudios.net/ie/rot">Spellhold Studios</a>  
 **Mod Forum:** <a href="http://www.shsforums.net/forum/168-region-of-terror/">Region of Terror</a>  
 
+&nbsp;
+
 [Read the mod's readme](http://spellholdstudios.github.io/readmes/rot-readme-english.html).
 
 [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/325-region-of-terror-v21/).<br>
 
+&nbsp;
 
 <div align="center">
 <a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Components</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a></br>
@@ -47,7 +50,8 @@ More information can be found on the website (link is at the bottom of the file)
 - Mod maker's house (Use codes and enter area "RA4400").
 - SECRETS!!!!
 
-<p>  </p>
+
+&nbsp;
 
 <details><summary>History: original readme from from Gilgamesh (v1.0A)</summary>
 <p>
@@ -203,7 +207,7 @@ This component requires the main component to be installed. It installs the foll
 ## <a name="credits" id="credits"></a>Credits and Acknowledgements
 
 **Original author:** <a href="http://www.shsforums.net/user/3097-gilgamesh/">Gilgamesh</a>  
-**Coders:** Wiskas (original installer), <a href="http://www.shsforums.net/user/3816-king-diamond/">King Diamond </a>(WeiDU version) and <a href="http://www.shsforums.net/user/3958-weigo/">Weigo</a> (EE revision)  
+**Coders:** Wiskas (original installer), <a href="http://www.shsforums.net/user/3816-king-diamond/">King Diamond </a>(WeiDU version) and <a href="http://www.shsforums.net/user/7223-ikki/">Ikky</a> & <a href="http://www.shsforums.net/user/3958-weigo/">Weigo</a> (EE revision)  
 
 
 #### Special Acknowledgements to:
@@ -249,6 +253,7 @@ This component requires the main component to be installed. It installs the foll
 - <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a>, by Dmitry Jemerov / bigmoshi.
 - <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a>, by Avenger.
 - <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a>, maintained by igi and lynx.
+- <a href="http://www.pocketplane.net/mambo/index.php?option=content&task=blogcategory&id=137&Itemid=96">TISpack</a> by Per Olofsson.
 - <a href="http://www.teambg.eu/?page=tools&amp;cat=32">BAM Workshop</a>, by Glenn Flansburg.
 - <a href="http://www.shsforums.net/topic/57564-bamworkshop/">BAMWorkshop 2</a>, by Andrew Bridges.
 - <a href="http://notepad-plus-plus.org/">Notepad++</a>, by the Notepad++ team, Don Ho, and the spellcheck plug-in.
