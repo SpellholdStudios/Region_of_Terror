@@ -290,6 +290,7 @@ This component requires the main component to be installed. It installs the foll
 - Corrected tra files.
 - Added `README` command in tp2.
 - Wrote a new *rot-readme-english.html* readme file and moved all readme files into new readme folder.
+- Integrated Russian translation fixes from the BWP Russian Textpack: journal.tra, MARTWYN1.tra and MYSHDW01.tra.
 - Renamed folder to RoT and moved tp2 inside mod folder.
 - Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
 - Uploaded mod to official SpellHold Studios GitHub mirror account.
