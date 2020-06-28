@@ -197,15 +197,15 @@ COPY ~RoT/kits/SPCL544.SPL~         ~override~
      ~RoT/kits/SPCL543J.SPL~        ~override~
 
 /**************************************************************************/
-ADD_KIT ~Auril~
-~Auril                   0           0           1           1           0           1           0           0~
-~Auril 0  0  0  0  1  1  0  1  0  0  0  0  0  0  0  0  1  1  0  0  1  1  1  0  0  0  0  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
-~Auril                   0       0       13      0       12      0~
-~Auril                   0       0       0       0       0       0~
-~Auril                   0       0       13      0       12      0~
-~Auril                   0       0       11      0       10      0~
-~Auril                   1       0       0       1       0       0       1       0       0~
-~Auril                   1       0       1       1       0       1~
+ADD_KIT ~AurilRot~
+~AurilRot                   0           0           1           1           0           1           0           0~
+~AurilRot 0  0  0  0  1  1  0  1  0  0  0  0  0  0  0  0  1  1  0  0  1  1  1  0  0  0  0  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 ~
+~AurilRot                   0       0       13      0       12      0~
+~AurilRot                   0       0       0       0       0       0~
+~AurilRot                   0       0       13      0       12      0~
+~AurilRot                   0       0       11      0       10      0~
+~AurilRot                   1       0       0       1       0       0       1       0       0~
+~AurilRot                   1       0       1       1       0       1~
 ~RoT/kits/CLABCLAu.2DA~
 ~ K_C_HO  K_C_HL  K_C_HE  K_C_E  K_C_G  K_C_D  K_C_H ~
 ~0x00000050 3~
@@ -315,15 +315,15 @@ COPY ~RoT/kits/SPCL156.SPL~         ~override~
 
 
 /**************************************************************************/
-ADD_KIT ~Samurai~
-~Samurai                 1           1           1           1           1           1           1           1~
-~Samurai 4  4  2  2  2  2  2  2  4  4  4  2  4  5  5  2  2  2  2  2  2  2  2  2  2  2  2  2  4  4  5  5  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2 ~
-~Samurai                 13      13      14      0       14      0~
-~Samurai                 0       0       0       0       0       0~
-~Samurai                 17      17      0       0       17      0~
-~Samurai                 15      15      0       0       15      0~
-~Samurai                 1       0       0       1       0       0       1       0       0~
-~Samurai                 0       1       0       0       0       0~
+ADD_KIT ~Wild_Samurai~
+~Wild_Samurai                 1           1           1           1           1           1           1           1~
+~Wild_Samurai 4  4  2  2  2  2  2  2  4  4  4  2  4  5  5  2  2  2  2  2  2  2  2  2  2  2  2  2  4  4  5  5  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2 ~
+~Wild_Samurai                 13      13      14      0       14      0~
+~Wild_Samurai                 0       0       0       0       0       0~
+~Wild_Samurai                 17      17      0       0       17      0~
+~Wild_Samurai                 15      15      0       0       15      0~
+~Wild_Samurai                 1       0       0       1       0       0       1       0       0~
+~Wild_Samurai                 0       1       0       0       0       0~
 ~RoT/kits/CLABRASa.2DA~
 ~ K_R_HO  K_R_HL  K_R_HE  K_R_E  K_R_G  K_R_D  K_R_H ~
 ~0x00000300 12~
