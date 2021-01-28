@@ -1702,47 +1702,6 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 
 END
 
-//////////////////////////////
-// biffing
-//////////////////////////////
-
-
-ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	MAKE_BIFF ~RoT-RULE~ BEGIN
-		~override~ ~RoT.mrk~
-	END
-	ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
-		AT_UNINSTALL ~rmdir /s /q %MOD_FOLDER%\temp~ EXACT
-	END ELSE BEGIN //osx, unix
-		AT_UNINSTALL ~rm -rf %MOD_FOLDER%/temp~ EXACT
-	END
-	
-	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_RoT_biff BEGIN
-		~RoT-TIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
-		~RoT-WAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
-//		~RoT-RES~ , ~override~ , ~^.*$~ => 100000000 //100 MB
-	END
-	
-	ACTION_PHP_EACH table_RoT_biff AS biff => size BEGIN
-		OUTER_SET totalSize = 0
-		OUTER_SET index = 0
-		MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
-		ACTION_BASH_FOR ~%biff_1%~ ~%biff_2%~ BEGIN
-			ACTION_IF ( BASH_FOR_SIZE + totalSize > size ) AND ( totalSize > 0 ) BEGIN
-				MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
-				OUTER_SET index = index + 1
-				OUTER_SET totalSize = 0
-				MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
-			END
-			MOVE ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/temp/%biff%%index%~
-			OUTER_SET totalSize = totalSize + BASH_FOR_SIZE
-		END
-		ACTION_IF ( totalSize > 0 ) BEGIN
-			MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
-		END
-	END
-END
-
 COPY_EXISTING ~misc01.itm~ ~override/RoT.mrk~
 
 
@@ -1970,6 +1929,48 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 	BUT_ONLY_IF_IT_CHANGES
 END
 
+
+/* =========================== *
+ *  Region Of Terror Biffing   *
+ * =========================== */
+BEGIN ~Region Of Terror Biffing~
+	DESIGNATED 2 LABEL ~rot_biffing~
+	REQUIRE_PREDICATE (GAME_IS ~bg2 tob bgt~) ~Not for EET and BG2EE~
+	REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~ "0" ~You must have RoT mod installed~
+
+	MAKE_BIFF ~RoT-RULE~ BEGIN
+		~override~ ~RoT.mrk~
+	END
+	ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
+		AT_UNINSTALL ~rmdir /s /q %MOD_FOLDER%\temp~ EXACT
+	END ELSE BEGIN //osx, unix
+		AT_UNINSTALL ~rm -rf %MOD_FOLDER%/temp~ EXACT
+	END
+	
+	ACTION_DEFINE_ASSOCIATIVE_ARRAY table_RoT_biff BEGIN
+		~RoT-TIS~ , ~override~ , ~^.*\.tis$~ => 150000000 //150 MB
+		~RoT-WAV~ , ~override~ , ~^.*\.wav$~ => 150000000 //150 MB
+//		~RoT-RES~ , ~override~ , ~^.*$~ => 100000000 //100 MB
+	END
+	
+	ACTION_PHP_EACH table_RoT_biff AS biff => size BEGIN
+		OUTER_SET totalSize = 0
+		OUTER_SET index = 0
+		MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
+		ACTION_BASH_FOR ~%biff_1%~ ~%biff_2%~ BEGIN
+			ACTION_IF ( BASH_FOR_SIZE + totalSize > size ) AND ( totalSize > 0 ) BEGIN
+				MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
+				OUTER_SET index = index + 1
+				OUTER_SET totalSize = 0
+				MKDIR ~%MOD_FOLDER%/temp/%biff%%index%~
+			END
+			MOVE ~%BASH_FOR_FILESPEC%~ ~%MOD_FOLDER%/temp/%biff%%index%~
+			OUTER_SET totalSize = totalSize + BASH_FOR_SIZE
+		END
+		ACTION_IF ( totalSize > 0 ) BEGIN
+			MAKE_BIFF ~%biff%%index%~ BEGIN ~%MOD_FOLDER%/temp/%biff%%index%~ ~^.*$~ END
+		END
+	END
 
 /* =========================== *
  *  Region Of Terror Kit Pack  *
