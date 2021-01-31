@@ -7502,3 +7502,21 @@ Disadvantages:
 @1728 = ~Summon Lesser Air Elemental~
 @1729 = ~Summon Aerial Servant~
 @1730 = ~Summon Air Elemental~
+
+/////////////////////
+// GUI Text Screen //
+/////////////////////
+
+@20000 = ~"Original SoA/ToB"~
+@20001 = ~"Region Of Terror"~
+@20002 = ~Game Graphical User Interface (GUI)~
+@20003 = ~ Baldur's Gate<TM> and the Tales of the Sword Coast<TM> or play ~
+@20004 = ~"Tortured Souls"~
+@20005 = ~%separator%"The Darkest Day"~
+@20006 = ~%separator%"Shadows over Soubar"~
+@20007 = ~ with the new expansion(s): ~
+@20008 = ~%separator%"Neverending Journey"~
+@20009 = ~%separator%"Big Picture"~
+@20010 = ~%separator%"Check the Bodies"~
+@20011 = ~Play%bgt%Shadows of Amn<TM>%separator2%%ts%%tdd%%sos%%nej%%bp%%ctb%%rot%~
+@20012 = ~%separator%"Region of Terror"~

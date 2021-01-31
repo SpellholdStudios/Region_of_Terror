@@ -7558,3 +7558,21 @@ THAC0:  +6 бонус
 @1728 = ~Призвать Малого Воздушного Элементала~
 @1729 = ~Призвать Небесного Слугу~
 @1730 = ~Призвать Воздушного Элементала~
+
+/////////////////////
+// GUI Text Screen //
+/////////////////////
+
+@20000 = ~"Original SoA/ToB"~
+@20001 = ~"Region Of Terror"~
+@20002 = ~Game Graphical User Interface (GUI)~
+@20003 = ~ Врата Балдура <TM> и Сказания Побережья Меча <TM> или играть в ~
+@20004 = ~"Tortured Souls"~
+@20005 = ~%separator%"The Darkest Day"~
+@20006 = ~%separator%"Shadows over Soubar"~
+@20007 = ~ с новыми дополнениями: ~
+@20008 = ~%separator%"Neverending Journey"~
+@20009 = ~%separator%"Big Picture"~
+@20010 = ~%separator%"Check the Bodies"~
+@20011 = ~Играть в%bgt%Тени Амна <TM>%separator2%%ts%%tdd%%sos%%nej%%bp%%ctb%%rot%~
+@20012 = ~%separator%"Region of Terror"~
