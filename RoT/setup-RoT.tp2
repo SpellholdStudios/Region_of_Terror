@@ -648,6 +648,11 @@ INCLUDE ~%MOD_FOLDER%/lib/install-cre.tpa~
 //***********************************************************************************
 PRINT @924
 
+// Replace incorrectly translated spell names
+STRING_SET 34580 @928
+STRING_SET 16158 @930
+STRING_SET 16159 @932
+
 
 //***********************************************************************************
 PRINT @925
