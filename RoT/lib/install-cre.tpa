@@ -2405,7 +2405,7 @@ COPY ~RoT/cre/SPESELCA.cre~  ~override~
   SAY 0x10c @800  
   SAY 0x110 @799  
   SAY 0x114 @801  
-  SAY 0x1b8 @802  
+  SAY 0x118 @802  
 
 COPY ~RoT/cre/STAFFGR.cre~   ~override~
   SAY 0xa4 @192 
