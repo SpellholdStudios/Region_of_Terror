@@ -74,7 +74,7 @@ As a big lover of all that is really BIG :stuck_out_tongue_winking_eye: I've dec
 
 Some installation notes:
 
-- If you want to install RoT along with TDD you can't use Kit Packs from both mods. Plz choose which one you want to install. In any case, install RoT AFTER TDD v1.10 (or later).
+- If you want to install RoT along with TDD you can't use Kit Packs from both mods unless you have TobEx. Plz choose which one you want to install or install TobEx first. In any case, install RoT AFTER TDD v1.10 (or later).
 - Don't forget to install the latest Worldmap mod from Yacomo/Weigo (v6 or later). Local RoT's WMP just doesn't know about any other mod existence.<br>
 
 Cheers,<br>
@@ -195,7 +195,7 @@ This component requires the main component to be installed. It installs the foll
 - Wisher (Druid)
 - Aerial Druid (Druid)
 
-:warning: **WARNING!** It is only valid for non-EE games and can't be installed with TDD Kit Packs. Please choose which one you want to install.
+:warning: **WARNING!** It is only valid for non-EE games and can't be installed with TDD Kit Packs without TobEx. Please choose which one you want to install or install TobEx first.
 
 <div align="right"><a href="#top">Back to top</a></div>
 

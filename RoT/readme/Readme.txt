@@ -115,9 +115,9 @@ really surprized by some *audible* aspects of the mod (do you?...)
 
 Some installation notes:
 
- - if you want to install RoT along with TDD you can't use Kit Packs from both mods.
-   Plz choose wich one you want to install. In any case, install RoT AFTER TDD v1.10
-   (or later);
+ - if you want to install RoT along with TDD you can't use Kit Packs from both mods
+   unless you have TobEx. Plz choose wich one you want to install or install TobEx
+   first. In any case, install RoT AFTER TDD v1.10 (or later);
 
  - don't forget to install the latest Worldmap mod from Yacomo/Weigo (v6 or later). 
    Local RoT's WMP just doesn't know about any other mod existance.

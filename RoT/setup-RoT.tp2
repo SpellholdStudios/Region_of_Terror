@@ -1978,6 +1978,7 @@ BEGIN @1626
 DESIGNATED 1 LABEL ~rot_kits~
 REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) ~Not for EET and BG2EE~
 REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~      "0"  ~You must have RoT mod installed~
-FORBID_COMPONENT  "Setup-TDD.tp2"      "1"  ~You must not have "TDD Kit Pack" installed to activate RoT kits successfully~
+REQUIRE_PREDICATE ((MOD_IS_INSTALLED ~Setup-TDD.tp2~ ~1~) && (MOD_IS_INSTALLED ~TOBEX/TOBEX.TP2~ ~100~) || !(MOD_IS_INSTALLED ~Setup-TDD.tp2~ ~1~))
+	~You must not have "TDD Kit Pack" installed, unless with TobEx~
 
 INCLUDE ~%MOD_FOLDER%/lib/install-kits.tpa~
