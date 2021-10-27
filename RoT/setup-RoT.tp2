@@ -527,7 +527,12 @@ COPY ~RoT/are/string/rr4002.are~    ~override~
 COPY ~RoT\WED~ ~override~
 COPY ~RoT\BAM~ ~override~
 COPY ~RoT\SFX~ ~override~
+
 COPY ~RoT\BMP~ ~override~
+// Replace smaller images with EE quality
+ACTION_IF (GAME_IS ~bg2ee eet~) THEN BEGIN
+	COPY ~RoT\BMP\EE~ ~override~
+END
 
 
 //***********************************************************************************
