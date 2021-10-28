@@ -7823,3 +7823,9 @@ Nachteile:
 @20010 = ~%separator%"Check the Bodies"~
 @20011 = ~Spiele%bgt%Schatten von Amn<TM>%separator2%%ts%%tdd%%sos%%nej%%bp%%ctb%%rot%~
 @20012 = ~%separator%"Region of Terror"~
+
+////////////////
+// New for v5 //
+////////////////
+
+@1800 = ~Cadderly~

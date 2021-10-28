@@ -515,6 +515,13 @@ COPY ~RoT/cre/CADDEM8.cre~   ~override~
   SAY NAME1 @280
   SAY NAME2 @280
 
+COPY ~RoT/cre/CADDER2.cre~ ~override~
+     ~RoT/cre/CADDER3.cre~ ~override~
+     ~RoT/cre/CADDER5.cre~ ~override~
+     ~RoT/cre/CADDERLY.cre~ ~override~
+  SAY NAME1 @1800
+  SAY NAME2 @1800
+
 COPY ~RoT/cre/CADPRI8.cre~   ~override~
      ~RoT/cre/CADPRI9.cre~   ~override~
      ~RoT/cre/CADPRI21.cre~  ~override~

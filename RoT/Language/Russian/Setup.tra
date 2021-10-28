@@ -7576,3 +7576,9 @@ THAC0:  +6 бонус
 @20010 = ~%separator%"Check the Bodies"~
 @20011 = ~Играть в%bgt%Тени Амна <TM>%separator2%%ts%%tdd%%sos%%nej%%bp%%ctb%%rot%~
 @20012 = ~%separator%"Region of Terror"~
+
+////////////////
+// New for v5 //
+////////////////
+
+@1800 = ~Каддерли~
