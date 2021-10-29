@@ -1943,10 +1943,10 @@ END
 /* =========================== *
  *  Region Of Terror Biffing   *
  * =========================== */
-BEGIN ~Region Of Terror Biffing~
+BEGIN @1801
 	DESIGNATED 2 LABEL ~rot_biffing~
-	REQUIRE_PREDICATE (GAME_IS ~bg2 tob bgt~) ~Not for EET and BG2EE~
-	REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~ "0" ~You must have RoT mod installed~
+	REQUIRE_PREDICATE (GAME_IS ~bg2 tob bgt~) @1802
+	REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~ "0" @1803
 
 	MAKE_BIFF ~RoT-RULE~ BEGIN
 		~override~ ~RoT.mrk~
@@ -1987,9 +1987,8 @@ BEGIN ~Region Of Terror Biffing~
  * =========================== */
 BEGIN @1626
 DESIGNATED 1 LABEL ~rot_kits~
-REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) ~Not for EET and BG2EE~
-REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~      "0"  ~You must have RoT mod installed~
-REQUIRE_PREDICATE ((MOD_IS_INSTALLED ~Setup-TDD.tp2~ ~1~) && (MOD_IS_INSTALLED ~TOBEX/TOBEX.TP2~ ~100~) || !(MOD_IS_INSTALLED ~Setup-TDD.tp2~ ~1~))
-	~You must not have "TDD Kit Pack" installed, unless with TobEx~
+REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) @1802
+REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~ "0" @1803
+REQUIRE_PREDICATE ((MOD_IS_INSTALLED ~Setup-TDD.tp2~ ~1~) && (MOD_IS_INSTALLED ~TOBEX/TOBEX.TP2~ ~100~) || !(MOD_IS_INSTALLED ~Setup-TDD.tp2~ ~1~)) @1804 
 
 INCLUDE ~%MOD_FOLDER%/lib/install-kits.tpa~
