@@ -371,11 +371,6 @@ COPY ~RoT/are/string/ra4305.are~    ~override~
   SAY 0x638 @44
   SAY 0x6fc @44
 
-ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	// Decompress BIFC file to prevent oBG2 from crashing
-	COPY_EXISTING ~AM0902B.WAV~ ~override~
-END
-
 COPY ~RoT/are/string/ra4401.are~    ~override~
   SAY 0x14cc @46
   SAY 0x1590 @47
@@ -537,6 +532,12 @@ COPY ~RoT\BMP~ ~override~
 // Replace smaller images with EE quality
 ACTION_IF (GAME_IS ~bg2ee eet~) THEN BEGIN
 	COPY ~RoT\BMP\EE~ ~override~
+END
+
+// Decompress BIFC file to prevent oBG2 from crashing
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+	COPY_EXISTING ~AM0902B.WAV~ ~override~ // RA4305
+	COPY_EXISTING ~AR0334.TIS~ ~override~ // RR3101
 END
 
 
