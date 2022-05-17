@@ -21,7 +21,7 @@ THEN
 		ActionOverride("Enteri3C",DisplayStringHead(Myself,@574785))
 		Wait(7)
 		ActionOverride("Jarlax3C",DisplayStringHead(Myself,@574789))
-		Wait(7)
+		Wait(9)
 		ActionOverride("Jarlax3C",DisplayStringHead(Myself,@574790))
 		Wait(7)
 		ActionOverride("Enteri3C",DisplayStringHead(Myself,@574791))
