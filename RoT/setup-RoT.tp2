@@ -534,14 +534,6 @@ ACTION_IF (GAME_IS ~bg2ee eet~) THEN BEGIN
 	COPY ~RoT\BMP\EE~ ~override~
 END
 
-// Decompress BIFC file to prevent oBG2 from crashing
-ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
-	COPY_EXISTING ~AM0902B.WAV~ ~override~ // RA4305
-	COPY_EXISTING ~AR0334.TIS~ ~override~ // RR3101
-	COPY_EXISTING ~AM1300.WAV~ ~override~ // RR3700
-	COPY_EXISTING ~AM1300N.WAV~ ~override~ // RR3700
-END
-
 
 //***********************************************************************************
 // Dialogues
@@ -1729,11 +1721,37 @@ COPY_EXISTING ~misc01.itm~ ~override/RoT.mrk~
 INCLUDE ~%MOD_FOLDER%/lib/cheat_var.tph~
 
 //////////////////////////////
-// fixing missing ambiant in RA3706.ARE and RR3104.ARE
+// Original BG2 compatibility
 //////////////////////////////
-//SoA bif is corrupt, both files are now in ogg2
-//COPY_EXISTING ~AM0903.WAV~ ~override/RA3706.WAV~
-//COPY_EXISTING ~AM0509.WAV~ ~override/RR3104.WAV~
+
+// Decompress BIFC files to prevent oBG2 from crashing
+ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
+	COPY_EXISTING ~AM0511.WAV~ ~override~ // RR3105
+	COPY_EXISTING ~AM0414.WAV~ ~override~ // RA3750
+	COPY_EXISTING ~AM0902B.WAV~ ~override~ // RA4305
+	COPY_EXISTING ~AM1300.WAV~ ~override~ // RR3700
+	COPY_EXISTING ~AM1300N.WAV~ ~override~ // RR3700
+	COPY_EXISTING ~AR0015.TIS~ ~override~ // RR3403
+	
+
+	// RR0044
+	COPY_EXISTING ~AR0044.TIS~ ~override~
+		~AR0044.MOS~ ~override~
+		~AR0044.WED~ ~override~
+		~AR0044LM.BMP~ ~override~
+		~AR0044HT.BMP~ ~override~
+		~AR0044SR.BMP~ ~override~
+
+	// RR3101
+	COPY_EXISTING ~AR0334.TIS~ ~override~
+		~AR0334.ARE~ ~override~
+		~AR0334.BCS~ ~override~
+		~AR0334.MOS~ ~override~
+		~AR0334.WED~ ~override~
+		~AR0334LM.BMP~ ~override~
+		~AR0334HT.BMP~ ~override~
+		~AR0334SR.BMP~ ~override~
+END
 
 //////////////////////////////
 // ALISSA is a Clerical of Deneir & Mordragon is a Dark Paladin
