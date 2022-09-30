@@ -9,6 +9,7 @@ END
 
 IF
 	Global("StartForging","RR3101",1)
+	Exists("Brundor")
 	InActiveArea("Brundor")
 THEN
 	RESPONSE #100
@@ -20,6 +21,7 @@ END
 
 IF
 	Global("StartForging","RR3101",1)
+	Exists("Brundor2")
 	InActiveArea("Brundor2")
 THEN
 	RESPONSE #100
