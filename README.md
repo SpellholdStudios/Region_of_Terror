@@ -171,7 +171,13 @@ This component installs the mod itself.</br>
 
 ## 
 
-#### 1. Region Of Terror Kit Pack
+#### 1. Biffing
+
+This component requires the main component to be installed. Compress files for better game performance. Only valid for classic (BG2:ToB or BGT) game.
+
+##
+
+#### 2. Region of Terror Kit Pack
 
 This component requires the main component to be installed. It installs the following kits in the game:
 - Holy Swordsman (Paladin)
