@@ -171,7 +171,13 @@ This component installs the mod itself.</br>
 
 ## 
 
-#### 1. Region Of Terror Kit Pack
+#### 1. Biffing
+
+This component requires the main component to be installed. Compress files for better game performance. Only valid for classic (BG2:ToB or BGT) game.
+
+##
+
+#### 2. Region of Terror Kit Pack
 
 This component requires the main component to be installed. It installs the following kits in the game:
 - Holy Swordsman (Paladin)
@@ -281,6 +287,23 @@ This component requires the main component to be installed. It installs the foll
 
 ## <a name="versions" id="versions"></a>Version History
 
+#### Work-in-progress version
+
+##### Current progress:
+
+- Biffing is now an optional installation component.
+- Region of Terror Kits can be installed along with TDD kits now.
+- Fixed CTDs for oBG2 areas: RA4305, RR3101, RR3700.
+- Restored small NPC portraits for oBG2.
+- Traified Cadderly's name and missing string-refs.
+- Restored translated oBG2 GUI titles.
+- Fixed incorrect voice index of Spell seller NPC.
+- Adjusted and extended cutscenes' text timing.
+- Used mod version of the spells' names for classic engine.
+- Moved area-related sounds to non-localized directory.
+
+##
+
 #### Version 4.0 (February 21, 2020)
 
 - Added *rot.ini* metadata file to support AL|EN's "Project Infinity".
@@ -373,3 +396,5 @@ This component requires the main component to be installed. It installs the foll
 
 - Initial release.
 <div align="right"><a href="#top">Back to top</a></div>
+
+*[oBG2]: Classic Baldur's Gate II
