@@ -294,6 +294,7 @@ This component requires the main component to be installed. It installs the foll
 - Biffing is now an optional installation component.
 - Region of Terror Kits can be installed along with TDD kits now.
 - Fixed CTDs for oBG2 areas: RA4305, RR3101, RR3700.
+- Fixed incorrect dialog condition of Mednor in "Clob's son missing" quest.
 - Restored small NPC portraits for oBG2.
 - Traified Cadderly's name and missing string-refs.
 - Restored translated oBG2 GUI titles.
