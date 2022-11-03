@@ -63,7 +63,7 @@ END
 
 IF ~~ THEN BEGIN 10 // from: 1.2 1.1
   SAY @12
-  IF ~LevelGT(Player1,17)~ THEN GOTO 11
+  IF ~LevelGT(Player1,16)~ THEN GOTO 11
   IF ~LevelLT(Player1,17)~ THEN GOTO 9
 END
 
