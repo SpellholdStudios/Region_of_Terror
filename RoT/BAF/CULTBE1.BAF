@@ -2,8 +2,6 @@ IF
 	Global("Talk","LOCALS",0)
 THEN
 	RESPONSE #100
-		StartCutSceneMode()
-		HideGUI()
 		SmallWait(5)
 		FaceObject(Player1)
 		ActionOverride("CultBe2",FaceObject(Player1))
