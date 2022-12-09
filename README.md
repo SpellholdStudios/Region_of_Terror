@@ -75,7 +75,7 @@ As a big lover of all that is really BIG :stuck_out_tongue_winking_eye: I've dec
 Some installation notes:
 
 - If you want to install RoT along with TDD you can't use Kit Packs from both mods unless you have TobEx. Plz choose which one you want to install or install TobEx first. In any case, install RoT AFTER TDD v1.10 (or later).
-- Don't forget to install the latest Worldmap mod from Yacomo/Weigo (v6 or later). Local RoT's WMP just doesn't know about any other mod existence.<br>
+- Don't forget to install the latest Worldmap mod from Yacomo/Weigo (v10 or later). Local RoT's WMP just doesn't know about any other mod existence.<br>
 
 Cheers,<br>
 and stay heavy,<br>
@@ -293,6 +293,7 @@ This component requires the main component to be installed. It installs the foll
 
 - Biffing is now an optional installation component.
 - Region of Terror Kits can be installed along with TDD kits now.
+- Added Icewind Dale areas to the BP-BGT-Worldmap
 - Fixed CTDs for oBG2 areas: RA4305, RR3101, RR3700.
 - Fixed incorrect dialog condition of Mednor in "Clob's son missing" quest.
 - Fixed incorrect actor name of Rodger in "Clob's son missing" quest.
