@@ -294,10 +294,11 @@ This component requires the main component to be installed. It installs the foll
 - Biffing is now an optional installation component.
 - Region of Terror Kits can be installed along with TDD kits now.
 - Added Icewind Dale areas to the BP-BGT-Worldmap
-- Fixed CTDs for oBG2 areas: RA4305, RR3101, RR3700.
+- Fixed CTDs for oBG2 areas: RA3750, RA4305, RR0044, RR3101, RR3105, RR3403, RR3700.
 - Fixed incorrect dialog condition of Mednor in "Clob's son missing" quest.
 - Fixed incorrect actor name of Rodger in "Clob's son missing" quest.
 - Fixed infinietly Cut Scene mode in "Cult of the Beast" quest.
+- Opened three permanently locked doors from RA5602 area in "Wulfgar's Wife" quest.
 - Restored small NPC portraits for oBG2.
 - Traified Cadderly's name and missing string-refs.
 - Restored translated oBG2 GUI titles.
