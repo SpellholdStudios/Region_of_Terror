@@ -119,7 +119,7 @@ Some installation notes:
    unless you have TobEx. Plz choose wich one you want to install or install TobEx
    first. In any case, install RoT AFTER TDD v1.10 (or later);
 
- - don't forget to install the latest Worldmap mod from Yacomo/Weigo (v6 or later). 
+ - don't forget to install the latest Worldmap mod from Yacomo/Weigo (v10 or later). 
    Local RoT's WMP just doesn't know about any other mod existance.
 
 

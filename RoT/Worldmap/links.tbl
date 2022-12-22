@@ -165,5 +165,13 @@ RR3100    E         RA5700      ExitS       1         4          N        N     
 RA5700    S         RA4500      ExitS       1         1          N        N        N        N        N        0
 RA4500    N         RA5700      ExitS       1         4          N        N        N        N        N        0
 
-
+//Icewind Dale Travel Links
+RA5100    N         RA5400      EXIT5100    2         4          N        N        N        N        N        0
+RA5400    S         RA5100      EXIT5400    2         7          N        N        N        N        N        0
+RA5400    N         RA5401      EXIT5400    1         1          N        N        N        N        N        0
+RA5400    W         RA5600      EXIT5400    1         4          N        N        N        N        N        0
+RA5401    S         RA5400      EXIT5401    1         4          N        N        N        N        N        0
+RA5600    E         RA5400      EXIT5600    1         4          N        N        N        N        N        0
+RA5600    S         RA5601      EXIT5600    1         2          N        N        N        N        N        0
+RA5601    N         RA5600      EXIT5601    1         4          N        N        N        N        N        0
 
