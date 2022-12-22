@@ -295,6 +295,7 @@ This component requires the main component to be installed. It installs the foll
 - Region of Terror Kits can be installed along with TDD kits now.
 - Added Icewind Dale areas to the BP-BGT-Worldmap
 - Fixed CTDs for oBG2 areas: RA3750, RA4305, RR0044, RR3101, RR3105, RR3403, RR3700.
+- Fixed hung issue when mage (other than PC) is selected for battle area.
 - Fixed incorrect dialog condition of Mednor in "Clob's son missing" quest.
 - Fixed incorrect actor name of Rodger in "Clob's son missing" quest.
 - Fixed infinietly Cut Scene mode in "Cult of the Beast" quest.

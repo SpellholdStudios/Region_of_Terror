@@ -22,6 +22,7 @@ THEN
 		UnhideGUI()
 		EndCutSceneMode()
 		ActionOverride("Edwin",LeaveAreaLUA("ra4302","",[1028.2046],8))
+		ActionOverride("Edwin",MakeUnselectable(1))
 END
 
 IF
@@ -56,6 +57,7 @@ THEN
 		UnhideGUI()
 		EndCutSceneMode()
 		ActionOverride("Aerie",LeaveAreaLUA("ra4302","",[1028.2046],8))
+		ActionOverride("Aerie",MakeUnselectable(1))
 END
 
 IF
@@ -116,6 +118,7 @@ THEN
 		UnhideGUI()
 		EndCutSceneMode()
 		ActionOverride("Randall",LeaveAreaLUA("ra4302","",[1028.2046],8))
+		ActionOverride("Randall",MakeUnselectable(1))
 END
 
 IF
