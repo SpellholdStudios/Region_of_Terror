@@ -19,9 +19,7 @@ LevelGT("Aerie",14)~ THEN REPLY @2 GOTO 9
   IF ~InParty("Edwin")
 LevelGT("Edwin",14)~ THEN REPLY @3 GOTO 10
   IF ~Class(Player1,MAGE_ALL)
-LevelGT(Player1,14)
-!InParty("Edwin")
-!InParty("Aerie")~ THEN REPLY @4 GOTO 11
+LevelGT(Player1,14)~ THEN REPLY @4 GOTO 11
   IF ~InParty("Randall")
 LevelGT("Randall",14)~ THEN REPLY @5 GOTO 33
   IF ~~ THEN REPLY @6 EXIT
