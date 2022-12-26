@@ -322,7 +322,8 @@ This component requires the main component to be installed. It installs the foll
 - Used mod version of the spells' names for classic engine.
 - Moved area-related sounds to non-localized directory.
 - Removed RoT abbreviation from Worldmap tooltip.
-- Renamed variable name conflicted with variable from Umar Hills (based on Roxanne's version)
+- Renamed variable name conflicted with variable from Umar Hills (based on Roxanne's version).
+- Fixed stringrefs of Westchar store's drinks (based on Roxanne's version).
 
 ##
 
