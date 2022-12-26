@@ -310,6 +310,7 @@ This component requires the main component to be installed. It installs the foll
 - Adjusted and extended cutscenes' text timing.
 - Used mod version of the spells' names for classic engine.
 - Moved area-related sounds to non-localized directory.
+- Removed RoT abbreviation from Worldmap tooltip.
 
 ##
 
