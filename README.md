@@ -303,6 +303,7 @@ This component requires the main component to be installed. It installs the foll
 - Fixed missing script evaluation for AR0509 in "Clob's son missing" quest.
 - Fixed infinietly Cut Scene mode in "Cult of the Beast" quest.
 - Fixed Brundor's Cyclone forging requirements.
+- Allowed Shadow Dragon Scales item to be used to forge Dragon Armor as well.
 - Opened three permanently locked doors from RA5602 area in "Wulfgar's Wife" quest.
 - Animation compatibility with DrizztSaga (Red Harpy animation slot)
 - Restored small NPC portraits for oBG2.
