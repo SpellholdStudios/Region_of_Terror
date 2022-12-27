@@ -115,7 +115,7 @@ PartyHasItem("AnciSd")~ THEN REPLY @25 GOTO 33
 PartyHasItem("NewSsIc")
 PartyHasItem("NewSsLi")~ THEN REPLY @26 GOTO 85
   IF ~PartyHasItem("SW1H25")
-NumItemsParty("MISC42",2)
+NumItemsPartyGT("MISC42",1)
 PartyHasItem("NewStHa")~ THEN REPLY @27 GOTO 87
   IF ~PartyHasItem("NewCryH")
 PartyHasItem("NewCryB1")
@@ -212,7 +212,7 @@ PartyHasItem("AnciSd")~ THEN REPLY @25 GOTO 38
 PartyHasItem("NewSsIc")
 PartyHasItem("NewSsLi")~ THEN REPLY @26 GOTO 84
   IF ~PartyHasItem("SW1H25")
-NumItemsParty("MISC42",2)
+NumItemsPartyGT("MISC42",1)
 PartyHasItem("NewStHa")~ THEN REPLY @27 GOTO 101
   IF ~PartyHasItem("NewCryH")
 PartyHasItem("NewCryB1")
@@ -627,8 +627,7 @@ IF ~~ THEN BEGIN 87 // from: 14.3
   IF ~PartyGoldGT(2999)~ THEN REPLY @61 DO ~TakePartyGold(3000)
 TakePartyItem("NewStHa")
 TakePartyItem("SW1H25")
-TakePartyItem("MISC42")
-TakePartyItem("MISC42")
+TakePartyItemNum("MISC42",2)
 DestroyItem("NewStHa")
 DestroyItem("SW1H25")
 DestroyItem("MISC42")
@@ -760,8 +759,7 @@ IF ~~ THEN BEGIN 101 // from: 22.3
   IF ~PartyGoldGT(2999)~ THEN REPLY @61 DO ~TakePartyGold(3000)
 TakePartyItem("NewStHa")
 TakePartyItem("SW1H25")
-TakePartyItem("MISC42")
-TakePartyItem("MISC42")
+TakePartyItemNum("MISC42",2)
 DestroyItem("NewStHa")
 DestroyItem("SW1H25")
 DestroyItem("MISC42")
