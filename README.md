@@ -325,6 +325,7 @@ This component requires the main component to be installed. It installs the foll
 - Removed RoT abbreviation from Worldmap tooltip.
 - Renamed variable name conflicted with variable from Umar Hills (based on Roxanne's version).
 - Fixed player coordinates after first cutscene (based on Roxanne's version).
+- Updated Cadderly script to handle health points better (based on Roxanne's version).
 - Corrected Egidus dialog to not mention Artemis & Jarlaxle after final battle (based on Roxanne's version).
 - Fixed stringrefs of Westchar store's drinks (based on Roxanne's version).
 - Fixed Bremen Villager conversation logic (based on Roxanne's version).
