@@ -121,7 +121,9 @@ PartyHasItem("NewStHa")~ THEN REPLY @27 GOTO 87
 PartyHasItem("NewCryB1")
 PartyHasItem("NewCryB2")~ THEN REPLY @28 GOTO 89
   IF ~PartyHasItem("NewGSca")
-PartyHasItem("LEAT19")~ THEN REPLY @29 GOTO 91
+OR(2)
+  PartyHasItem("LEAT19")
+  PartyHasItem("SCALEB")~ THEN REPLY @29 GOTO 91
   IF ~PartyHasItem("NewBeH1")
 PartyHasItem("NewBeH2")
 PartyHasItem("NewBeH3")~ THEN REPLY @30 GOTO 93
@@ -218,7 +220,9 @@ PartyHasItem("NewStHa")~ THEN REPLY @27 GOTO 101
 PartyHasItem("NewCryB1")
 PartyHasItem("NewCryB2")~ THEN REPLY @28 GOTO 103
   IF ~PartyHasItem("NewGSca")
-PartyHasItem("LEAT19")~ THEN REPLY @29 GOTO 105
+OR(2)
+  PartyHasItem("LEAT19")
+  PartyHasItem("SCALEB")~ THEN REPLY @29 GOTO 105
   IF ~PartyHasItem("NewBeH1")
 PartyHasItem("NewBeH2")
 PartyHasItem("NewBeH3")~ THEN REPLY @30 GOTO 107
@@ -666,8 +670,10 @@ IF ~~ THEN BEGIN 91 // from: 14.5
   IF ~PartyGoldGT(3999)~ THEN REPLY @61 DO ~TakePartyGold(4000)
 TakePartyItem("NewGSca")
 TakePartyItem("LEAT19")
+TakePartyItem("SCALEB")
 DestroyItem("NewGSca")
-DestroyItem("LEAT19")~ GOTO 92
+DestroyItem("LEAT19")
+DestroyItem("SCALEB")~ GOTO 92
   IF ~~ THEN REPLY @62 GOTO 14
   IF ~~ THEN REPLY @63 GOTO 35
 END
@@ -798,8 +804,10 @@ IF ~~ THEN BEGIN 105 // from: 22.5
   IF ~PartyGoldGT(3999)~ THEN REPLY @61 DO ~TakePartyGold(4000)
 TakePartyItem("NewGSca")
 TakePartyItem("LEAT19")
+TakePartyItem("SCALEB")
 DestroyItem("NewGSca")
-DestroyItem("LEAT19")~ GOTO 106
+DestroyItem("LEAT19")
+DestroyItem("SCALEB")~ GOTO 106
   IF ~~ THEN REPLY @62 GOTO 22
   IF ~~ THEN REPLY @63 GOTO 35
 END
