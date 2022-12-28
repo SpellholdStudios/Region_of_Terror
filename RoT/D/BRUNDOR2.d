@@ -267,7 +267,11 @@ IF ~~ THEN BEGIN 33 // from: 14.1
 TakePartyItem("AnciSa")
 TakePartyItem("AnciSb")
 TakePartyItem("AnciSc")
-TakePartyItem("AnciSd")~ GOTO 34
+TakePartyItem("AnciSd")
+DestroyItem("AnciSa")
+DestroyItem("AnciSb")
+DestroyItem("AnciSc")
+DestroyItem("AnciSd")~ GOTO 34
   IF ~~ THEN REPLY @63 GOTO 14
   IF ~~ THEN REPLY @64 GOTO 35
 END
@@ -565,7 +569,10 @@ IF ~~ THEN BEGIN 85 // from: 14.2
   IF ~PartyGoldGT(2999)~ THEN REPLY @62 DO ~TakePartyGold(3000)
 TakePartyItem("NewSsFi")
 TakePartyItem("NewSsIc")
-TakePartyItem("NewSsLi")~ GOTO 86
+TakePartyItem("NewSsLi")
+DestroyItem("NewSsFi")
+DestroyItem("NewSsIc")
+DestroyItem("NewSsLi")~ GOTO 86
   IF ~~ THEN REPLY @63 GOTO 14
   IF ~~ THEN REPLY @64 GOTO 35
 END
@@ -601,7 +608,10 @@ IF ~~ THEN BEGIN 89 // from: 14.4
   IF ~PartyGoldGT(3999)~ THEN REPLY @62 DO ~TakePartyGold(4000)
 TakePartyItem("NewCryH")
 TakePartyItem("NewCryB1")
-TakePartyItem("NewCryB2")~ GOTO 90
+TakePartyItem("NewCryB2")
+DestroyItem("NewCryH")
+DestroyItem("NewCryB1")
+DestroyItem("NewCryB2")~ GOTO 90
   IF ~~ THEN REPLY @63 GOTO 14
   IF ~~ THEN REPLY @64 GOTO 35
 END
@@ -636,7 +646,10 @@ IF ~~ THEN BEGIN 93 // from: 14.6
   IF ~PartyGoldGT(2499)~ THEN REPLY @62 DO ~TakePartyGold(2500)
 TakePartyItem("NewBeH1")
 TakePartyItem("NewBeH2")
-TakePartyItem("NewBeH3")~ GOTO 94
+TakePartyItem("NewBeH3")
+DestroyItem("NewBeH1")
+DestroyItem("NewBeH2")
+DestroyItem("NewBeH3")~ GOTO 94
   IF ~~ THEN REPLY @63 GOTO 14
   IF ~~ THEN REPLY @64 GOTO 35
 END
@@ -652,7 +665,10 @@ IF ~~ THEN BEGIN 95 // from: 14.7
   IF ~PartyGoldGT(2999)~ THEN REPLY @62 DO ~TakePartyGold(3000)
 TakePartyItem("NewNtG1")
 TakePartyItem("NewNtG2")
-TakePartyItem("SW1H49")~ GOTO 96
+TakePartyItem("SW1H49")
+DestroyItem("NewNtG1")
+DestroyItem("NewNtG2")
+DestroyItem("SW1H49")~ GOTO 96
   IF ~~ THEN REPLY @63 GOTO 14
   IF ~~ THEN REPLY @64 GOTO 35
 END
@@ -668,7 +684,10 @@ IF ~~ THEN BEGIN 97 // from: 14.8
   IF ~PartyGoldGT(2999)~ THEN REPLY @62 DO ~TakePartyGold(3000)
 TakePartyItem("NewShP1")
 TakePartyItem("NewShP2")
-TakePartyItem("NewShP3")~ GOTO 98
+TakePartyItem("NewShP3")
+DestroyItem("NewShP1")
+DestroyItem("NewShP2")
+DestroyItem("NewShP3")~ GOTO 98
   IF ~~ THEN REPLY @63 GOTO 14
   IF ~~ THEN REPLY @64 GOTO 35
 END
@@ -684,7 +703,10 @@ IF ~~ THEN BEGIN 99 // from: 14.9
   IF ~PartyGoldGT(3999)~ THEN REPLY @62 DO ~TakePartyGold(4000)
 TakePartyItem("AX1H08")
 TakePartyItem("NewRuMo")
-TakePartyItem("NewRuCl")~ GOTO 100
+TakePartyItem("NewRuCl")
+DestroyItem("AX1H08")
+DestroyItem("NewRuMo")
+DestroyItem("NewRuCl")~ GOTO 100
   IF ~~ THEN REPLY @63 GOTO 14
   IF ~~ THEN REPLY @64 GOTO 35
 END

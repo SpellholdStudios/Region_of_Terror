@@ -297,15 +297,16 @@ This component requires the main component to be installed. It installs the foll
 - Journal system for EE games.
 - Fixed CTDs for oBG2 areas: RA3750, RA4305, RR0044, RR3101, RR3105, RR3403, RR3700.
 - Fixed hung issue when mage (other than PC) is selected for battle area.
-- Fixed Bremen exit 
+- Fixed Bremen exit.
 - Fixed incorrect dialog condition of Mednor in "Clob's son missing" quest.
 - Fixed incorrect actor name of Rodger in "Clob's son missing" quest.
 - Fixed missing script evaluation for AR0509 in "Clob's son missing" quest.
 - Fixed infinietly Cut Scene mode in "Cult of the Beast" quest.
 - Fixed Brundor's Cyclone forging requirements.
 - Allowed Shadow Dragon Scales item to be used to forge Dragon Armor as well.
+- Aligned and fixed Brundor/Brundor2 dialog files.
 - Opened three permanently locked doors from RA5602 area in "Wulfgar's Wife" quest.
-- Animation compatibility with DrizztSaga (Red Harpy animation slot)
+- Animation compatibility with DrizztSaga (Red Harpy animation slot).
 - Restored small NPC portraits for oBG2.
 - Reduced waiting time to 8 hours (single rest) in the Spirit Soarning.
 - Traified Cadderly's name and missing string-refs.
