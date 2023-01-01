@@ -302,6 +302,7 @@ This component requires the main component to be installed. It installs the foll
 - Fixed infinietly Cut Scene mode in "Cult of the Beast" quest.
 - Opened three permanently locked doors from RA5602 area in "Wulfgar's Wife" quest.
 - Restored small NPC portraits for oBG2.
+- Reduced waiting time to 8 hours (single rest) in the Spirit Soarning.
 - Traified Cadderly's name and missing string-refs.
 - Restored translated oBG2 GUI titles.
 - Fixed incorrect voice index of Spell seller NPC.
