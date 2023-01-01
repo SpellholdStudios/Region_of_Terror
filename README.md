@@ -333,6 +333,7 @@ This component requires the main component to be installed. It installs the foll
 - Reduced wait time to 2 hours for Tresham in "Escaped Prisoner" quest (based on Roxanne's version).
 - Extended looting time of Ultima Master (based on Roxanne's version).
 - Restored missing rest movies for RR3117 (based on Roxanne's version).
+- Added Continue statement to the patched Drizzt Encouter area AR2601 (based on Roxanne's version).
 
 ##
 
