@@ -1,22 +1,11 @@
-/*
 IF
 	OnCreation()
-	Global("DrizztEncounter","AR2601",0)
-THEN
-	RESPONSE #100
-		SetGlobal("DrizztEncounter","AR2601",1)
-		Continue()
-END
-*/
-
-IF
-	OnCreation()
+	Global("DrizztEncounter","GLOBAL",0)
 	OR(4)
 		InParty("Driz2")
 		InParty("Wulfgi2")
 		InParty("Reg2")
 		InParty("Brue2")
-	Global("DrizztEncounter","GLOBAL",0)
 THEN
 	RESPONSE #100
 		Explore()
@@ -30,4 +19,5 @@ THEN
 		CreateCreature("TROLL01",[752.294],2) // Troll
 		CreateCreature("TROLL01",[790.337],2) // Troll
 		CreateCreature("TROLL01",[741.225],2) // Troll
+		Continue()
 END
