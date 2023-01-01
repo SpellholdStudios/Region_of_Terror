@@ -5,7 +5,7 @@ THEN
 	RESPONSE #100
 		StartCutSceneMode()
 		HideGUI()
-		SetGlobalTimer("WritofCa","RR3701",ONE_DAY)
+		SetGlobalTimer("WritofCa","RR3701",EIGHT_HOURS)
 		SmallWait(5)
 		ActionOverride("Alissa1",LeaveParty())
 		SmallWait(3)
@@ -24,8 +24,8 @@ IF
 	Global("FuckIhatethis","RR3701",1)
 THEN
 	RESPONSE #100
-		CreateCreature("Cadderly",[714.1289],10) // Cadderly
-		MoveGlobalObject("Alissa1",Player1)  //was Alissa1
+		CreateCreature("Cadderly",[714.1289],10)
+		MoveGlobalObject("Alissa1",Player1)
 		SetGlobal("DlCadd","GLOBAL",3)
 END
 
@@ -34,7 +34,7 @@ IF
 	!InParty("Alissa1")
 THEN
 	RESPONSE #100
-		SetGlobalTimer("WritofCa","RR3701",ONE_DAY)
+		SetGlobalTimer("WritofCa","RR3701",EIGHT_HOURS)
 		ActionOverride("Cadderly",EscapeArea())
 		SetGlobal("DlCadd","GLOBAL",2)
 END
@@ -45,7 +45,7 @@ IF
 	!InParty("Alissa1")
 THEN
 	RESPONSE #100
-		CreateCreature("Cadderly",[714.1289],10) // Cadderly
+		CreateCreature("Cadderly",[714.1289],10)
 		SetGlobal("DlCadd","GLOBAL",3)
 END
 
