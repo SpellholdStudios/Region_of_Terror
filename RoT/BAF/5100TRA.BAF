@@ -1,10 +1,7 @@
 IF
 	Clicked([ANYONE])
-	OR(3)
-		Global("Youcanleavenow","GLOBAL",0)
-		!Global("Youcanleavenow2","GLOBAL",0)
-		!Global("Youcanleavenow3","GLOBAL",0)
 	InParty("Driz2")
+	Global("Youcanleavenow","GLOBAL",0) // Drizzt hasn't spoken with Fenedon
 THEN
 	RESPONSE #100
 		ClearAllActions()

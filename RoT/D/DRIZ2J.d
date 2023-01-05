@@ -939,7 +939,8 @@ END
 
 IF ~~ THEN BEGIN 169 // from: 168.0
   SAY @238
-  IF ~~ THEN DO ~SetGlobal("Dweaponquest","GLOBAL",1)~ UNSOLVED_JOURNAL @572915 EXIT
+  IF ~~ THEN DO ~SetGlobal("Dweaponquest","GLOBAL",1)
+  SetGlobal("Youcanleavenow","GLOBAL",1)~ UNSOLVED_JOURNAL @572915 EXIT
 END
 
 IF ~Global("Seethemayor","GLOBAL",1)~ THEN BEGIN 170
