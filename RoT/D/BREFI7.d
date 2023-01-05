@@ -1,10 +1,6 @@
 BEGIN ~BREFI7~
 
-IF ~Global("Openthegate","RA5100",0)
-	OR(3)
-	!Global("Youcanleavenow","GLOBAL",0)
-	!Global("Youcanleavenow2","GLOBAL",0)
-	!Global("Youcanleavenow3","GLOBAL",0)~ THEN BEGIN 0
+IF ~Global("Openthegate","RA5100",0)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN GOTO 1
 END
