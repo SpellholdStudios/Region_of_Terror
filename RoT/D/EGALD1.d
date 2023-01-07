@@ -18,7 +18,11 @@ END
 IF ~~ THEN BEGIN 3 // from: 2.0
   SAY @3
   IF ~InParty("Driz2")
-InParty("Wulfg2")~ THEN EXTERN ~DRIZ2J~ 150
+InParty("Wulfg2")
+Global("Theendisnear","GLOBAL",0)~ THEN EXTERN ~DRIZ2J~ 150
+  IF ~InParty("Driz2")
+InParty("Wulfg2")
+!Global("Theendisnear","GLOBAL",0)~ THEN EXTERN ~DRIZ2J~ 153
   IF ~InParty("Driz2")
 !InParty("Wulfg2")~ THEN EXTERN ~DRIZ2J~ 153
   IF ~!InParty("Driz2")
