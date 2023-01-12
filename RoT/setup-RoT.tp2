@@ -1225,7 +1225,7 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
 	ACTION_FOR_EACH var IN bam BEGIN
 		ACTION_BASH_FOR ~RoT/anim/Virgin~ ~^.+\.%var%$~ BEGIN
 			OUTER_PATCH_SAVE newname ~%BASH_FOR_FILE%~ BEGIN
-				REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MTIC~ ~MHAR~
+				REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~MTIC~ ~MDH2~
 			END
 			ACTION_IF NOT FILE_EXISTS_IN_GAME ~%newname%~ BEGIN
 				COPY ~%BASH_FOR_FILESPEC%~ ~override/%newname%~
@@ -1256,8 +1256,8 @@ ACTION_IF GAME_IS ~eet bg2ee~ BEGIN
 				~MALAR18.CRE~  ~override~
 				~MALAR19.CRE~  ~override~
 				~ZACARE2.CRE~  ~override~
-	WRITE_LONG 0x28  0xE252   //IC_ICE_TROLL   0xE252 HARPY with EE  -  0xe252 IC_HARPY with EXTENDED ANIMATION
-	BUT_ONLY_IF_IT_CHANGES
+		WRITE_LONG 0x28  0xE26A   //HALFDRAGON_RED for EE
+		BUT_ONLY_IF_IT_CHANGES
 END
 
 //***********************************************************************************
