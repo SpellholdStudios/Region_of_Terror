@@ -302,6 +302,7 @@ This component requires the main component to be installed. It installs the foll
 - Fixed infinietly Cut Scene mode in "Cult of the Beast" quest.
 - Fixed Brundor's Cyclone forging requirements.
 - Opened three permanently locked doors from RA5602 area in "Wulfgar's Wife" quest.
+- Animation compatibility with DrizztSaga (Red Harpy animation slot)
 - Restored small NPC portraits for oBG2.
 - Reduced waiting time to 8 hours (single rest) in the Spirit Soarning.
 - Traified Cadderly's name and missing string-refs.
