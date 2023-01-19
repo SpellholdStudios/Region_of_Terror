@@ -1756,6 +1756,11 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 		~AR0334SR.BMP~ ~override~
 END
 
+// Other modification interoperability (like Drizzt Saga)
+MAKE_BIFF ~RoT-RULE~ BEGIN
+	~override~ ~RoT.mrk~
+END
+
 //////////////////////////////
 // ALISSA is a Clerical of Deneir & Mordragon is a Dark Paladin
 // The kits are only for the two characters
@@ -1977,9 +1982,6 @@ BEGIN @1801
 	REQUIRE_PREDICATE (GAME_IS ~bg2 tob bgt~) @1802
 	REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~ "0" @1803
 
-	MAKE_BIFF ~RoT-RULE~ BEGIN
-		~override~ ~RoT.mrk~
-	END
 	ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
 		AT_UNINSTALL ~rmdir /s /q %MOD_FOLDER%\temp~ EXACT
 	END ELSE BEGIN //osx, unix
