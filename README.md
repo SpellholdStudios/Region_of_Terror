@@ -299,6 +299,7 @@ This component requires the main component to be installed. It installs the foll
 - Fixed hung issue when mage (other than PC) is selected for battle area.
 - Fixed incorrect dialog condition of Mednor in "Clob's son missing" quest.
 - Fixed incorrect actor name of Rodger in "Clob's son missing" quest.
+- Fixed missing script evaluation for AR0509 in "Clob's son missing" quest.
 - Fixed infinietly Cut Scene mode in "Cult of the Beast" quest.
 - Fixed Brundor's Cyclone forging requirements.
 - Opened three permanently locked doors from RA5602 area in "Wulfgar's Wife" quest.

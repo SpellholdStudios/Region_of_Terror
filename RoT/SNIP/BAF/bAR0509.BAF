@@ -5,6 +5,7 @@ THEN
 	RESPONSE #100
 		CreateCreature("Jatta",[662.310],1) // Jatta
 		SetGlobal("nmkesae","AR0509",1)
+		Continue()
 END
 
 
