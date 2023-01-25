@@ -38,7 +38,7 @@ IF
 	Global("dkjfdfklj","AR0406",4)
 THEN
 	RESPONSE #100
-		SetGlobalTimer("Thefinmewt","GLOBAL",ONE_DAY)
+		SetGlobalTimer("Thefinmewt","GLOBAL",TWO_HOURS)
 		SetGlobal("dkjfdfklj","AR0406",5)
 END
 
