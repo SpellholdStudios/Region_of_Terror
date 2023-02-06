@@ -16,8 +16,8 @@ END
 IF ~~ THEN BEGIN 2 // from: 1.0
   SAY @4
   IF ~~ THEN REPLY @5 GOTO 3
-  IF ~CheckStatGT(LastTalkedToBy,17,CHR)~ THEN REPLY @6 GOTO 7
-  IF ~CheckStatLT(LastTalkedToBy,18,CHR)~ THEN REPLY @6 GOTO 8
+  IF ~CheckStatGT(LastTalkedToBy,17,CHR)~ THEN REPLY @6 GOTO 8
+  IF ~CheckStatLT(LastTalkedToBy,18,CHR)~ THEN REPLY @6 GOTO 7
   IF ~~ THEN REPLY @7 DO ~IncrementGlobal("PeoplesMorale","GLOBAL",-1)
 EscapeArea()~ EXIT
 END
