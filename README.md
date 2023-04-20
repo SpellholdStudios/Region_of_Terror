@@ -308,6 +308,7 @@ This component requires the main component to be installed. It installs the foll
 - Animation compatibility with DrizztSaga (Red Harpy animation slot)
 - Restored small NPC portraits for oBG2.
 - Reduced waiting time to 8 hours (single rest) in the Spirit Soarning.
+- Changed incorrect Ice Salamander type from UNDEAD to MONSTER
 - Traified Cadderly's name and missing string-refs.
 - Restored translated oBG2 GUI titles.
 - Fixed incorrect voice index of Spell seller NPC.
