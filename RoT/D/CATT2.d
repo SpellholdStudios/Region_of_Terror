@@ -8,7 +8,7 @@ END
 IF ~~ THEN BEGIN 1 // from: DRIZ2J
   SAY @1
   IF ~~ THEN DO ~SetGlobal("Theendisnear","GLOBAL",4)
-SetGlobal("Villagesaved","GLOBAL",1)
+SetGlobal("RoTMariborSaved","GLOBAL",1)
 SetGlobal("TrigCQCip","GLOBAL",1)
 AddXPObject(Player1,100000)
 AddXPObject(Player2,100000)
@@ -22,7 +22,7 @@ END
 IF ~~ THEN BEGIN 2 // from: DRIZ2J
   SAY @2
   IF ~~ THEN DO ~SetGlobal("Theendisnear","GLOBAL",4)
-SetGlobal("Villagesaved","GLOBAL",1)
+SetGlobal("RoTMariborSaved","GLOBAL",1)
 SetGlobal("TrigCQCip","GLOBAL",1)
 AddXPObject(Player1,100000)
 AddXPObject(Player2,100000)

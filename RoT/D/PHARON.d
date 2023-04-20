@@ -100,18 +100,18 @@ IF ~~ THEN BEGIN 15 // from: 9.1
 END
 
 IF ~Global("Phatell","GLOBAL",1)
-Global("Villagesaved","GLOBAL",0)~ THEN BEGIN 16
+Global("RoTMariborSaved","GLOBAL",0)~ THEN BEGIN 16
   SAY @29
   IF ~~ THEN EXIT
 END
 
-IF ~Global("Villagesaved","GLOBAL",1)
+IF ~Global("RoTMariborSaved","GLOBAL",1)
 Global("Phatell","GLOBAL",1)~ THEN BEGIN 17
   SAY @30
   IF ~~ THEN DO ~SetGlobal("Phatell","GLOBAL",2)~ EXIT
 END
 
-IF ~Global("Villagesaved","GLOBAL",1)
+IF ~Global("RoTMariborSaved","GLOBAL",1)
 Global("Phatell","GLOBAL",2)~ THEN BEGIN 18
   SAY @31
   IF ~~ THEN EXIT
