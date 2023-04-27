@@ -260,6 +260,8 @@ IF ~~ THEN BEGIN 26 // from: 25.0
   IF ~~ THEN REPLY @43 GOTO 21
   IF ~Global("Knowsmith","LOCALS",1)~ THEN REPLY @44 GOTO 22
   IF ~!Global("Knowsmith","LOCALS",1)~ THEN REPLY @4 GOTO 4
+  IF ~PartyHasItem("SoulArmr")
+      Global("SoulArmorQuest","GLOBAL",0)~ THEN REPLY @46 GOTO 82
   IF ~~ THEN REPLY @55 GOTO 27
   IF ~~ THEN REPLY @56 GOTO 30
 END
@@ -583,7 +585,7 @@ IF ~~ THEN BEGIN 81 // from: 80.0
   IF ~~ THEN EXTERN ~GRAYFOOT~ 173
 END
 
-IF ~~ THEN BEGIN 82 // from: 20.4
+IF ~~ THEN BEGIN 82 // from: 26.3 20.4
   SAY @99
   IF ~~ THEN GOTO 83
 END
