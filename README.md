@@ -298,6 +298,7 @@ This component requires the main component to be installed. It installs the foll
 - Fixed CTDs for oBG2 areas: RA3750, RA4305, RR0044, RR3101, RR3105, RR3403, RR3700.
 - Fixed hung issue when mage (other than PC) is selected for battle area.
 - Fixed Bremen exit.
+- Fixed missing figther Arena duels between 2,250,000 and 2,259,999 XP.
 - Fixed incorrect dialog condition of Mednor in "Clob's son missing" quest.
 - Fixed incorrect actor name of Rodger in "Clob's son missing" quest.
 - Fixed missing script evaluation for AR0509 in "Clob's son missing" quest.
