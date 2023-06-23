@@ -1973,6 +1973,33 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 	BUT_ONLY_IF_IT_CHANGES
 END
 
+BEGIN @1805
+	DESIGNATED 3 LABEL ~rot-alternative-maribur~
+	REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~ "0" @1803
+	REQUIRE_PREDICATE (GAME_IS ~bg2 tob bgt~) @1802
+
+    COPY_LARGE ~%MOD_FOLDER%/TIZ/ALT/RR3900.TIS~ ~override~
+		~%MOD_FOLDER%/TIZ/ALT/RR3900N.TIS~ ~override~
+		~%MOD_FOLDER%/TIZ/ALT/WTPOOLNR.TIS~ ~override~
+
+	COPY ~%MOD_FOLDER%/BMP/ALT/RR3900.MOS~ ~override~
+		~%MOD_FOLDER%/BMP/ALT/RR3900N.MOS~ ~override~
+		~%MOD_FOLDER%/BMP/ALT/RR3900HT.BMP~ ~override~
+		~%MOD_FOLDER%/BMP/ALT/RR3900LM.BMP~ ~override~
+		~%MOD_FOLDER%/BMP/ALT/RR3900LN.BMP~ ~override~
+		~%MOD_FOLDER%/BMP/ALT/RR3900SR.BMP~ ~override~
+
+	COPY ~%MOD_FOLDER%/WED/ALT/RR3900.WED~ ~override~
+		~%MOD_FOLDER%/WED/ALT/RR3900N.WED~ ~override~
+
+	COPY ~%MOD_FOLDER%/ARE/ALT/RR3900.ARE~ ~override~
+		WRITE_ASCII 0x94 /* ARE_script */ ~RR3900~ #8
+
+	// Area script adjustment
+	COPY_EXISTING ~RR3900.BCS~ ~override~
+		DECOMPILE_AND_PATCH BEGIN
+			REPLACE_TEXTUALLY EXACT_MATCH ~[3360.2000]~ ~[1580.1500]~ // Jolnar
+		END
 
 /* =========================== *
  *  Region Of Terror Biffing   *
