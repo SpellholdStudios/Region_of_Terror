@@ -3,27 +3,37 @@
 SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS  Y_POS  NAME         TOOLTIP      LOAD_IM
 
 RR3100      RR3100   RR3100     4      80       1510    2710   @ROT_785001  @ROT_785101  N        //Arlax
-RR3200      RR3200   RR3200     4     113       1270    2950   @ROT_785002  @ROT_785102  N        //Monzuma큦 Cave
+RR3200      RR3200   RR3200     4     113       1270    2950   @ROT_785002  @ROT_785102  N        //Monzuma's Cave
 RR3300      RR3300   RR3300     4      51       1500    1920   @ROT_785003  @ROT_785103  N        //Westchar
-RR3400      RR3400   RR3400     4      75        710    2340   @ROT_785004  @ROT_785104  N        //Olmar큦 Castle
-RR3450      RR3450   RR3450     4      79        800    2275   @ROT_785005  @ROT_785105  N        //Talavan큦 Castle
+RR3400      RR3400   RR3400     4      75        710    2340   @ROT_785004  @ROT_785104  N        //Olmar's Castle
+RR3450      RR3450   RR3450     4      79        800    2275   @ROT_785005  @ROT_785105  N        //Talavan's Castle
 RR3900      RR3900   RR3900     4     126       1500    2290   @ROT_785006  @ROT_785106  N        //Maribur
 RR3950      RR3950   RR3950     4     112       1370    2285   @ROT_785007  @ROT_785107  N        //Mysterious Cave
 RA4200      RA4200   RA4200     4      17       1440    2215   @ROT_785008  @ROT_785108  N        //Forest
 RA4300      RA4300   RA4300     4      26        199    2528   @ROT_785009  @ROT_785109  N        //The Arena
 RA4500      RA4500   RA4500     4      42       1420    2695   @ROT_785010  @ROT_785110  N        //Farms
-RA4700      RA4700   RA4700     4      75       1230    3065   @ROT_785011  @ROT_785111  N        //Gaidan큦 Castle
+RA4700      RA4700   RA4700     4      75       1230    3065   @ROT_785011  @ROT_785111  N        //Gaidan's Castle
 RA4900      RA4900   RA4900     4      14        705    2260   @ROT_785012  @ROT_785112  N        //Cave
-RA5700      RA5700   RA5700     4      38       1390    2880   @ROT_785013  @ROT_785113  N        //Razor큦 Hideout
+RA5700      RA5700   RA5700     4      38       1390    2880   @ROT_785013  @ROT_785113  N        //Razor's Hideout
 RR0044      RR0044   RR0044     4     130        625    2350   @ROT_785014  @ROT_785114  N        //Slave Route
 
-RA5100      RA5100   RA5100     2      25        580    170    @ROT_785015  N            N        //Bremen
-RA5400      RA5400   RA5400     2      47        570    265    @ROT_785016  N            N        //The Waypoint
-RA5401      RA5401   RA5401     2      64        645    313    @ROT_785017  N            N        //Mountain Reaches
-RA5600      RA5600   RA5600     2      63        510    340    @ROT_785018  N            N        //Hermit's Outpost
-RA5601      RA5601   RA5601     2      83        430    400    @ROT_785019  N            N        //Ice Temple
-RA5412      RA5412   RA5412     2      69        890    370    @ROT_785020  N            N        //Aerie of Dragons
+RA5100      RA5100   RA5100     2      25        580    190    @ROT_785015  N            N        //Bremen
+RA5400      RA5400   RA5400     2      47        540    110    @ROT_785016  N            N        //The Waypoint
+RA5401      RA5401   RA5401     2      64        588    47     @ROT_785017  N            N        //Mountain Reaches
+RA5600      RA5600   RA5600     2      63        383    198    @ROT_785018  N            N        //Hermit's Outpost
+RA5601      RA5601   RA5601     2      83        300    340    @ROT_785019  N            N        //Ice Temple
+RA5412      RA5412   RA5412     2      69        990    400    @ROT_785020  N            N        //Aerie of Dragons
 RA5416      RA5416   RA5416     2      66        980    310    @ROT_785021  N            N        //Maze
 
-//Drizztsaga F_0111 moves a little bit, Bremen is at the same location
+//DrizztSaga F_0111 moves a little bit, Bremen is at the same location
 F_0111      F_0111   F_0111     4      54        475    155    @DSW_786003  @DSW_786003  N        //Bear Tribe Village
+
+//IWD2-EET locations adjustement
+IW1000      IW1000   IW1000     0      134       665    210    N             N             N        // Targos Docks
+IW1100      IW1100   IW1100     0      134       665    210    N             N             N        // Targos
+IW1200      IW1200   IW1200     0      152       665    210    @IW1000       @IW1000       N        // Targos
+IW2000      IW2000   IW2000     2      155       475    265    @IW2000       @IW2000       N        // Shaengarne Ford
+IW2001      IW2001   IW2001     0      134       475    265    N             N             N        //
+IW2100      IW2100   IW2100     0      134       426    282    N             N             N        //
+IW2101      IW2101   IW2101     0      134       426    282    N             N             N        //
+IW2102      IW2102   IW2102     0      156       380    290    @IW2000       @IW2000       N        // Shaengarne Ford
