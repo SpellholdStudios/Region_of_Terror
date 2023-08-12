@@ -291,6 +291,7 @@ This component requires the main component to be installed. It installs the foll
 
 ##### Current progress:
 
+- Alternative Maribur area from the "World of Baldur's Gate" modification - designed and modeled by Cuttooth, and integrated into the mod by Roberciiik (big thanks to Acifer and Argent77 for helping with water overlay issue!).
 - Biffing is now an optional installation component.
 - Region of Terror Kits can be installed along with TDD kits now.
 - Added Icewind Dale areas to the BP-BGT-Worldmap.
