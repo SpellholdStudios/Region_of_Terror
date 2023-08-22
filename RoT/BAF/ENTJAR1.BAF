@@ -85,7 +85,7 @@ THEN
 		ActionOverride("Enteri2",DestroySelf())
 		ActionOverride("Jarlxle2",DestroySelf())
 		Wait(1)
-		LeaveAreaLUA("ar0602","",[3745.2799],0)
+		LeaveAreaLUA("ar0602","",[3129.2872],7)
 		MultiPlayerSync()
 		EndCutSceneMode()
 		UnhideGUI()
