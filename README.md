@@ -329,6 +329,7 @@ This component requires the main component to be installed. It installs the foll
 - Fixed stringrefs of Westchar store's drinks (based on Roxanne's version).
 - Fixed Bremen Villager conversation logic (based on Roxanne's version).
 - Reduced wait time to 2 hours for Tresham in "Escaped Prisoner" quest (based on Roxanne's version).
+- Restored missing rest movies for RR3117 (based on Roxanne's version)
 
 ##
 
