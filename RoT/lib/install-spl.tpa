@@ -1,0 +1,188 @@
+
+COPY ~RoT/SPL/nostring~  ~override~
+
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~ctb.mrk~ AND NOT FILE_EXISTS ~data/CTB-RULE.BIF~     //CTB compatibility
+THEN BEGIN
+  COPY ~RoT/Compat/CtB/SPWI140.SPL~ ~override~
+    SAY NAME1  @926
+    SAY UNIDENTIFIED_DESC @927
+
+  COPY ~RoT/Compat/CtB/BAM~ ~override~
+END
+
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~tdd.mrk~ AND NOT FILE_EXISTS ~data/TDD-RULE.BIF~    //TDD compatibility
+THEN BEGIN
+  COPY ~RoT/Compat/TDD/SPWI733.spl~          ~override~
+    SAY NAME1 @928
+    SAY UNIDENTIFIED_DESC @929
+
+  COPY ~RoT/Compat/TDD/SPWI828.spl~          ~override~
+    SAY NAME1 @930
+    SAY UNIDENTIFIED_DESC @931
+
+  COPY ~RoT/Compat/TDD/SPWI968.spl~          ~override~
+    SAY NAME1 @932
+    SAY UNIDENTIFIED_DESC @933
+
+  COPY ~RoT/Compat/TDD/SCRX17.itm~           ~override~
+    SAY DESC @929
+
+  COPY ~RoT/Compat/TDD/SCRX24.itm~           ~override~
+    SAY DESC @931
+
+  COPY ~RoT/Compat/TDD/SCRX34.itm~           ~override~
+    SAY DESC @933
+
+  COPY ~RoT/Compat/TDD/BAM~ ~override~
+END
+
+
+COPY ~RoT/spl/BURGAS.spl~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BURGAS~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
+  END
+  SAY NAME1 @934
+  SAY UNIDENTIFIED_DESC @935
+
+
+COPY ~RoT/spl/DRAGNSUM.spl~  ~override~
+  SAY NAME1 @936
+  SAY UNIDENTIFIED_DESC @937
+
+
+COPY ~RoT/spl/GOLDENCL.spl~  ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~GLDKILL2~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
+  END
+  SAY NAME1 @938
+  SAY UNIDENTIFIED_DESC @939
+
+
+COPY ~RoT/spl/HERO.spl~      ~override~
+  SAY NAME1 @940
+  SAY UNIDENTIFIED_DESC @941
+
+
+COPY ~RoT/spl/ICEEXPL.spl~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~ICEEXPL~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
+  END
+  SAY NAME1 @942
+  SAY UNIDENTIFIED_DESC @943
+
+
+COPY ~RoT/spl/IIRADT.spl~   ~override~
+  SAY NAME1 @944
+  SAY UNIDENTIFIED_DESC @945
+
+
+COPY ~RoT/spl/PSNSHDE.spl~   ~override~
+  SAY NAME1 @946
+  SAY UNIDENTIFIED_DESC @947 
+
+
+COPY ~RoT/spl/ROT3161.spl~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~GRENDRGN~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
+  END
+
+COPY ~RoT/spl/ROT3162.spl~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~GREBLAST~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
+  END
+
+COPY ~RoT/spl/ROT3163.spl~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~AQUADRGN~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
+  END
+
+COPY ~RoT/spl/ROT3165.spl~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BLUEDRGN~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
+  END
+
+COPY ~RoT/spl/ROT3166.spl~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BLUBLAST~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
+  END
+
+COPY ~RoT/spl/ROT3167.spl~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BLUERAIN~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
+  END
+
+COPY ~RoT/spl/ROT3168.spl~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BRWNDRGN~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
+  END
+
+COPY ~RoT/spl/ROT3169.spl~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~BRWNHIT~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
+  END
+
+COPY ~RoT/spl/ROT3170.spl~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~DOOMSDAY~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
+  END
+
+COPY ~RoT/spl/ROT3171.spl~   ~override~
+  READ_LONG  0x64   abil_offset
+  READ_SHORT 0x68   abil_num
+  SET pro = (1 + IDS_OF_SYMBOL(~PROJECTL~ ~GOLDBRE~))
+  FOR(cnt=0; cnt<abil_num; cnt+=1) BEGIN
+    WRITE_SHORT  (abil_offset + cnt*0x28 + 0x26) pro
+  END
+
+
+COPY ~RoT/spl/REGFILD.spl~   ~override~
+  SAY NAME1 @948
+  SAY UNIDENTIFIED_DESC @949
+
+
+COPY ~RoT/spl/ULTIMA.spl~    ~override~
+  SAY NAME1 @950
+  SAY UNIDENTIFIED_DESC @951 
+
+
+COPY ~RoT/spl/WAKEINF.spl~   ~override~
+  SAY NAME1 @952
+  SAY UNIDENTIFIED_DESC @953
