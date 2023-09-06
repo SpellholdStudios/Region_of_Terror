@@ -1,8 +1,9 @@
 
-![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Region_of_Terror?include_prereleases&color=darkred)<a name="top" id="top"> </a>
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20German%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
-
+![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Region_of_Terror?label=Release&include_prereleases&color=darkred)
+![Downloads](https://img.shields.io/github/downloads/SpellholdStudios/Region_of_Terror/total.svg?color=blue&label=Downloads)
+![Platform](https://img.shields.io/static/v1?label=Platform&message=Windows%20%7C%20Mac%20%7C%20Linux&color=informational)
+![Language](https://img.shields.io/static/v1?label=Language&message=English%20%7C%20German%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
+![SupportedGames](https://img.shields.io/static/v1?label=Supported%20games&message=BG2%3AEE%20%7C%20BG2%20%7C%20BGT%20%7C%20EET&color=blue)
 
 <div align="center"><h1>Region of Terror</h1>
 
@@ -290,9 +291,9 @@ This component requires the main component to be installed. It installs the foll
 
 ## <a name="versions" id="versions"></a>Version History
 
-#### Work-in-progress version
+#### Version 5.0 (Upcoming version...)
 
-##### Current progress:
+By Roberciiik:
 
 - Alternative Maribur area from the "World of Baldur's Gate" modification - designed and modeled by Cuttooth, and integrated into the mod by Roberciiik (big thanks to Acifer and Argent77 for helping with water overlay issue!).
 - Biffing is now an optional installation component.

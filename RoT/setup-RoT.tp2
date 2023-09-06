@@ -1,11 +1,11 @@
-BACKUP ~RoT/Backup~
+BACKUP ~weidu_external/rot/backup~
 
 //AUTHOR ~Gilgamesh, King Diamond (WeiDU conversion)~ NO_IF_EVAL_BUG
 SUPPORT ~http://www.shsforums.net/forum/168-region-of-terror/ or https://github.com/SpellholdStudios/Region_of_Terror~
 
-VERSION ~v4.0~
+VERSION ~v5.0-pre~
 
-README ~rot/readme/rot-readme-%LANGUAGE%.html~ ~rot/readme/rot-readme-readme-english.html~
+README ~rot/readme/rot-readme-%LANGUAGE%.html~ ~rot/readme/rot-readme-%LANGUAGE%.txt~ ~rot/readme/rot-readme-readme-english.html~
 
 AUTO_TRA ~RoT/Language/%s~
 
