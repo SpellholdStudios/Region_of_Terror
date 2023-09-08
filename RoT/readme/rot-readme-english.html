@@ -306,6 +306,9 @@
   </head>
 
   <body>
+	<script type="module">
+		document.getElementById("latestVersion").innerText = document.getElementById('versionHistory').getElementsByTagName("h6")[0].innerText
+	</script>
 	<div id="wrap">
 	  <a name="top" id="top"></a>
 	  <div id="header">
@@ -319,7 +322,7 @@
 			Author: Gilgamesh (Pekka Syrj&#228;nen) &#8226; <acronym title="Weimer Dialogue Utility">WeiDU</acronym> coding: <a href="#credits">Multiple</a>
 		</p>
 		<p class="about">
-			<a href="http://www.spellholdstudios.net/ie/rot">Mod Website</a> &#8226; <a href="http://www.shsforums.net/forum/168-region-of-terror/">Mod Forum</a> &#8226; <a href="http://www.shsforums.net/files/file/325-region-of-terror-v21/">Download</a> &#8226; <a href="https://github.com/SpellholdStudios/Region_of_Terror/releases/latest">GitHub</a> &#8226; Version 4.0
+			<a href="http://www.spellholdstudios.net/ie/rot">Mod Website</a> &#8226; <a href="http://www.shsforums.net/forum/168-region-of-terror/">Mod Forum</a> &#8226; <a href="http://www.shsforums.net/files/file/325-region-of-terror-v21/">Download</a> &#8226; <a href="https://github.com/SpellholdStudios/Region_of_Terror/releases/latest">GitHub</a> &#8226; <span id="latestVersion"></span>
 		</p>
 		<hr style="margin: 10px 0 10px 0; padding: 0; height: 1px; border: 0; color: #aaa; background-color: #aaa;" />
 
@@ -772,9 +775,56 @@
 
 <!-- ============== V e r s i o n   H i s t o r y =============== -->
 	  <a name="version" id="version"></a>
-	  <div class="content">
+	  <div class="content" id="versionHistory">
 
 		<h2>Version History</h2><br>
+
+		<h6>Version 5.0 (Upcoming release)</h6>
+
+		<h5>By Roberciiik:</h5>
+		<ul>
+			<li>Alternative Maribur area from the "World of Baldur's Gate" modification - designed and modeled by Cuttooth, and integrated into the mod by Roberciiik (big thanks to Acifer and Argent77 for helping with water overlay issue!).</li>
+			<li>Biffing is now an optional installation component.</li>
+			<li>Region of Terror Kits can be installed along with TDD kits now.</li>
+			<li>Added Icewind Dale areas to the BP-BGT-Worldmap & compatibility with IWD-EET.</li>
+			<li>Journal system for EE games.</li>
+			<li>Updated Russian translations (thanks to abalabokhin)</li>
+			<li>Fixed CTDs for oBG2 areas: RA3750, RA4305, RR0044, RR3101, RR3105, RR3403, RR3700.</li>
+			<li>Fixed hung issue when mage (other than PC) is selected for battle area.</li>
+			<li>Fixed Bremen exit.</li>
+			<li>Fixed missing figther Arena duels between 2,250,000 and 2,259,999 XP.</li>
+			<li>Fixed incorrect dialog condition of Mednor in "Clob's son missing" quest.</li>
+			<li>Fixed incorrect actor name of Rodger in "Clob's son missing" quest.</li>
+			<li>Fixed missing script evaluation for AR0509 in "Clob's son missing" quest.</li>
+			<li>Fixed infinietly Cut Scene mode in "Cult of the Beast" quest.</li>
+			<li>Fixed Brundor's Cyclone forging requirements.</li>
+			<li>Fixed effects probability ranges of Garrax's Semitar</li>
+			<li>Allowed Shadow Dragon Scales item to be used to forge Dragon Armor as well.</li>
+			<li>Aligned and fixed Brundor/Brundor2 dialog files.</li>
+			<li>Opened three permanently locked doors from RA5602 area in "Wulfgar's Wife" quest.</li>
+			<li>Animation compatibility with DrizztSaga (Red Harpy animation slot).</li>
+			<li>Restored small NPC portraits for oBG2.</li>
+			<li>Reduced waiting time to 8 hours (single rest) in the Spirit Soarning.</li>
+			<li>Changed incorrect Ice Salamander type from UNDEAD to MONSTER</li>
+			<li>Traified Cadderly's name and missing string-refs.</li>
+			<li>Restored translated oBG2 GUI titles.</li>
+			<li>Fixed incorrect voice index of Spell seller NPC.</li>
+			<li>Adjusted and extended cutscenes' text timing.</li>
+			<li>Used mod version of the spells' names for classic engine.</li>
+			<li>Moved area-related sounds to non-localized directory.</li>
+			<li>Removed RoT abbreviation from Worldmap tooltip.</li>
+			<li>Renamed variable name conflicted with variable from Umar Hills (based on Roxanne's version).</li>
+			<li>Fixed player coordinates after first cutscene (based on Roxanne's version).</li>
+			<li>Updated Cadderly script to handle health points better (based on Roxanne's version).</li>
+			<li>Corrected Egidus dialog to not mention Artemis & Jarlaxle after final battle (based on Roxanne's version).</li>
+			<li>Fixed stringrefs of Westchar store's drinks (based on Roxanne's version).</li>
+			<li>Fixed Bremen Villager conversation logic (based on Roxanne's version).</li>
+			<li>Reduced wait time to 2 hours for Tresham in "Escaped Prisoner" quest (based on Roxanne's version).</li>
+			<li>Extended looting time of Ultima Master (based on Roxanne's version).</li>
+			<li>Restored missing rest movies for RR3117 (based on Roxanne's version).</li>
+			<li>Added Continue statement to the patched Drizzt Encouter area AR2601 (based on Roxanne's version).</li>
+		</ul>
+		<br/>
 
 		<h6>Version 4.0 (February 21, 2020)</h6>
 
