@@ -298,9 +298,7 @@ By Roberciiik:
 - Alternative Maribur area from the "World of Baldur's Gate" modification - designed and modeled by Cuttooth, and integrated into the mod by Roberciiik (big thanks to Acifer and Argent77 for helping with water overlay issue!).
 - Biffing is now an optional installation component.
 - Region of Terror Kits can be installed along with TDD kits now.
-- Added Icewind Dale areas to the BP-BGT-Worldmap & compatibility with IWD-EET.
-- Journal system for EE games.
-- Updated Russian translations (thanks to abalabokhin)
+- Added Icewind Dale areas to the BP-BGT-Worldmap & compatibility with IWD-EET (thanks to JohnBob).
 - Fixed CTDs for oBG2 areas: RA3750, RA4305, RR0044, RR3101, RR3105, RR3403, RR3700.
 - Fixed hung issue when mage (other than PC) is selected for battle area.
 - Fixed Bremen exit.
@@ -314,8 +312,8 @@ By Roberciiik:
 - Allowed Shadow Dragon Scales item to be used to forge Dragon Armor as well.
 - Aligned and fixed Brundor/Brundor2 dialog files.
 - Opened three permanently locked doors from RA5602 area in "Wulfgar's Wife" quest.
-- Animation compatibility with DrizztSaga (Red Harpy animation slot).
-- Restored small NPC portraits for oBG2.
+- Animation compatibility with DrizztSaga (Red Harpy animation slot) (thanks to TotoR).
+- Restored small size of NPC portraits for oBG2.
 - Reduced waiting time to 8 hours (single rest) in the Spirit Soarning.
 - Changed incorrect Ice Salamander type from UNDEAD to MONSTER
 - Traified Cadderly's name and missing string-refs.
@@ -324,7 +322,7 @@ By Roberciiik:
 - Adjusted and extended cutscenes' text timing.
 - Used mod version of the spells' names for classic engine.
 - Moved area-related sounds to non-localized directory.
-- Removed RoT abbreviation from Worldmap tooltip.
+- Journal system for EE games (based on Roxanne's version).
 - Renamed variable name conflicted with variable from Umar Hills (based on Roxanne's version).
 - Fixed player coordinates after first cutscene (based on Roxanne's version).
 - Updated Cadderly script to handle health points better (based on Roxanne's version).
@@ -335,6 +333,12 @@ By Roberciiik:
 - Extended looting time of Ultima Master (based on Roxanne's version).
 - Restored missing rest movies for RR3117 (based on Roxanne's version).
 - Added Continue statement to the patched Drizzt Encouter area AR2601 (based on Roxanne's version).
+- Removed RoT abbreviation from Worldmap tooltip (based on Roxanne's version).
+
+By Abalabokhin:
+
+- Updated Russian translation.
+- Fixed issue with reloading `scripts.tra` and `journal.tra` files during HANDLE_CHARSET conversion.
 
 ##
 
