@@ -50,6 +50,7 @@ ALWAYS
 				"russian" => "CP1251"
 				"castilian" => "CP1252"
 				"spanish" => "CP1252"
+				"schinese" => "CP936"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup scripts journal END
 			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END
@@ -93,6 +94,7 @@ LANGUAGE ~Espanol~
 		 ~RoT/Language/Spanish/journal.tra~
 		 ~RoT/Language/Spanish/setup.tra~
 
+
 LANGUAGE ~Simplified Chinese(Optimization and translation By Youye)~
 		 ~schinese~
 		 ~RoT/Language/schinese/scripts.tra~
@@ -103,7 +105,7 @@ LANGUAGE ~Simplified Chinese(Optimization and translation By Youye)~
 /* =================================== *
  *  Region of Terror : main component  *
  * =================================== */
-BEGIN @0
+BEGIN ~恐怖区域，5.0-pre EE ~
 DESIGNATED 0 LABEL ~region_of_terror~
 
 ADD_JOURNAL @500000 @574337 @574338 @566095 @569174 @569173 @576186 @568920 @569177 @569178 @564128 @572810 @572811 @572812 @572896 @572897 @572898 @572899 @572903 @571685 @571235 @571236 @571237 @566097 @566098 @566099 @568192 @568205 @568220 @568198 @568221 @568222 @566428 @571711 @571709 @571712 @571233 @567005 @574058 @574059 @574061 @566094 @574781 @564316 @563195 @566096 @566101 @572915 @571803 @571802 @571801 @575862 @571806 @571805 @568695 @568867 @568877 @568875 @568873 @568881 @568882 @568689 @566100 @575863 @570608 @570607 @570609 @568545 @568546 @568549 @568263 @568281 @564865 @570462 @570505 @566652 @566653 @565530 @565533 @565536 @565656 @565655 @566285 @565653 @566284 @563941 @563943 @570748 @570736 @566785 @566784 @567011 @566777 @566781 @566782 @566783 @576084 @576086 @576185 @563708 @563712 @573330 @574055 @574056 @574057 @572659 @572660 @572661 @572662 @572663 @572664 @572666 @572670 @567010 @566564 @566565 @566566 @564221 @564220 @570734 @564219 @564130 @576012 @564701 @574048 @574049 @574051 @574050 @574052 @564415 @564299 @564301 @567006 @567008 @565535 @565529 @572863 @572864 @568691 @571713 @571714 @567009 @564132 @564131 @564129 @570606 @569184 @573242 @565641 @571675 @571676 @571677 @571680 @571678 @571681 @573244 @563001 @573245 @573243 @572917 @575059 @575061 @575062 @576184 @573332 USING ~RoT/language/%LANGUAGE%/journal.tra~
@@ -119,7 +121,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 	COPY_LARGE + ~override~      ~RoT/over.bak~
 		
 	INCLUDE ~%MOD_FOLDER%/lib/install-guititle.tpa~
-	PRINT @3
+	PRINT ~修补规则集...~
 END
 
 COPY_EXISTING ~misc01.itm~ ~override/rot.mrk~ // tell other mod that region of terror is installed
@@ -133,7 +135,7 @@ APPEND ~SPELL.IDS~ ~2828 WIZARD_MONSTER_SUMMONING_V~  //sharing with TDD
 APPEND ~SPELL.IDS~ ~2968 WIZARD_MONSTER_SUMMONING_VI~ //sharing with TDD
  UNLESS ~2968 WIZARD_MONSTER_SUMMONING_VI~
 
-PRINT @4
+PRINT ~添加新射弹...~
 
 ADD_PROJECTILE ~RoT/PRO/AQUADRGN.PRO~
 ADD_PROJECTILE ~RoT/PRO/BLAARROW.PRO~
@@ -181,7 +183,7 @@ ACTION_IF (GAME_IS ~bg2 tob bgt~) BEGIN
 END
 
 //***********************************************************************************
-PRINT @5
+PRINT ~修补2DAs...~
 
 INCLUDE ~RoT/lib/tooltip.tpa~
 LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~ACIDAX~   tooltips = ~@8 12033~ END
@@ -300,7 +302,7 @@ END
 //***********************************************************************************
 // New AREAS
 //***********************************************************************************
-PRINT @24
+PRINT ~添加新区域...~
 
 COPY ~RoT/are/nostring~    ~override~
 
@@ -547,7 +549,7 @@ END
 //***********************************************************************************
 // Dialogues
 //***********************************************************************************
-PRINT @20
+PRINT ~安装对话...~
 
 COMPILE EVALUATE_BUFFER ~RoT/D~
 
@@ -555,7 +557,7 @@ COMPILE EVALUATE_BUFFER ~RoT/D~
 //***********************************************************************************
 // Scripts
 //***********************************************************************************
-PRINT @21
+PRINT ~修补现有脚本...~
 
 EXTEND_BOTTOM  ~AR0020.BCS~  ~RoT/SNIP/BAF/bAR0020.BAF~
  EVALUATE_BUFFER
@@ -627,7 +629,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME ~BPDUEARC.SPL~ THEN BEGIN  //if there's no BP 
 END
 
 //***********************************************************************************
-PRINT @22
+PRINT ~添加新脚本...~
 
 COMPILE EVALUATE_BUFFER ~RoT/BAF~
 
@@ -635,7 +637,7 @@ COMPILE EVALUATE_BUFFER ~RoT/BAF~
 //***********************************************************************************
 // Areas
 //***********************************************************************************
-PRINT @23
+PRINT ~修补现有区域...~
 
 COPY_EXISTING ~AR0528.ARE~ ~override~
  WRITE_ASCII 0x94 ~AR0528~ #8
@@ -655,14 +657,14 @@ END
 //***********************************************************************************
 // Creatures
 //***********************************************************************************
-PRINT @112
+PRINT ~修补现有生物...~
 
 INCLUDE ~%MOD_FOLDER%/lib/install-cre.tpa~
 
 //***********************************************************************************
 // Spells
 //***********************************************************************************
-PRINT @924
+PRINT ~修补现有法术...~
 
 // Replace incorrectly translated spell names
 STRING_SET 34580 @928
@@ -670,14 +672,14 @@ STRING_SET 16158 @930
 STRING_SET 16159 @932
 
 
-PRINT @925
+PRINT ~添加新法术...~
 INCLUDE ~%MOD_FOLDER%/lib/install-spl.tpa~
 
 
 //***********************************************************************************
 // Items
 //***********************************************************************************
-PRINT @954
+PRINT ~添加新项目...~
 
 INCLUDE ~%MOD_FOLDER%/lib/install-itm.tpa~
 
@@ -685,7 +687,7 @@ INCLUDE ~%MOD_FOLDER%/lib/install-itm.tpa~
 //***********************************************************************************
 // Stores
 //***********************************************************************************
-PRINT @1593
+PRINT ~添加新商店...~
 
 COPY ~RoT/sto/ARENAM2.STO~   ~override~
      ~RoT/sto/ARLAX1.STO~    ~override~
@@ -764,7 +766,7 @@ COPY ~RoT/sto/WECHAR.STO~    ~override~
 //***********************************************************************************
 // Animations
 //***********************************************************************************
-PRINT @1608
+PRINT ~重新排列动画...~
 
 
 //***********************************************************************************
@@ -1242,7 +1244,7 @@ END
 //***********************************************************************************
 // Worldmap
 //***********************************************************************************
-PRINT @1609
+PRINT ~更新世界地图...~
 
 ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
   COPY ~Worldmap/map_mods_areas.tbl~  ~Worldmap~
@@ -1301,7 +1303,7 @@ END
 //////////////////////////////
 //Adding music
 //////////////////////////////
-PRINT @1625
+PRINT ~注册腐烂音乐主题...~
 
 COPY ~RoT/music~   ~music~
 MKDIR ~music/CDay1~
@@ -1791,7 +1793,7 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 	BUT_ONLY_IF_IT_CHANGES
 END
 
-BEGIN @1805
+BEGIN ~替代版Maribur区域~
 	DESIGNATED 3 LABEL ~rot-alternative-maribur~
 	REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~ "0" @1803
 
@@ -1867,10 +1869,10 @@ BEGIN @1805
 /* =========================== *
  *  Region Of Terror Biffing   *
  * =========================== */
-BEGIN @1801
+BEGIN ~恐怖地带Biffing~
 	DESIGNATED 2 LABEL ~rot_biffing~
-	REQUIRE_PREDICATE (GAME_IS ~bg2 tob bgt~) @1802
-	REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~ "0" @1803
+	REQUIRE_PREDICATE (GAME_IS ~bg2 tob bgt~) ~不适合EET和BG2EE~
+	REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~ "0" ~需要安装RoT组件~
 
 	ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
 		AT_UNINSTALL ~rmdir /s /q %MOD_FOLDER%\temp~ EXACT
@@ -1906,10 +1908,10 @@ BEGIN @1801
 /* =========================== *
  *  Region Of Terror Kit Pack  *
  * =========================== */
-BEGIN @1626
+BEGIN ~恐怖区域套装~
 DESIGNATED 1 LABEL ~rot_kits~
-REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) @1802
-REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~ "0" @1803
-REQUIRE_PREDICATE ((MOD_IS_INSTALLED ~Setup-TDD.tp2~ ~1~) && (MOD_IS_INSTALLED ~TOBEX/TOBEX.TP2~ ~100~) || !(MOD_IS_INSTALLED ~Setup-TDD.tp2~ ~1~)) @1804 
+REQUIRE_PREDICATE (!GAME_IS ~bg2ee eet~) ~不适合EET和BG2EE~
+REQUIRE_COMPONENT ~RoT/setup-RoT.tp2~ "0" ~需要安装RoT组件~
+REQUIRE_PREDICATE ((MOD_IS_INSTALLED ~Setup-TDD.tp2~ ~1~) && (MOD_IS_INSTALLED ~TOBEX/TOBEX.TP2~ ~100~) || !(MOD_IS_INSTALLED ~Setup-TDD.tp2~ ~1~)) ~除非使用TobEx，否则您不得安装“TDD套件包”~ 
 
 INCLUDE ~%MOD_FOLDER%/lib/install-kits.tpa~
