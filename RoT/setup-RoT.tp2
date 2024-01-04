@@ -93,6 +93,11 @@ LANGUAGE ~Espanol~
 		 ~RoT/Language/Spanish/journal.tra~
 		 ~RoT/Language/Spanish/setup.tra~
 
+LANGUAGE ~Simplified Chinese(Optimization and translation By Youye)~
+		 ~schinese~
+		 ~RoT/Language/schinese/scripts.tra~
+		 ~RoT/Language/schinese/journal.tra~
+		 ~RoT/Language/schinese/setup.tra~
 
 /* =================================== *
  *  Region of Terror : main component  *
