@@ -50,6 +50,7 @@ ALWAYS
 				"russian" => "CP1251"
 				"castilian" => "CP1252"
 				"spanish" => "CP1252"
+			    "schinese" => "CP936"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup scripts journal END
 			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END
@@ -93,7 +94,7 @@ LANGUAGE ~Espanol~
 		 ~RoT/Language/Spanish/journal.tra~
 		 ~RoT/Language/Spanish/setup.tra~
 
-LANGUAGE ~Simplified Chinese(Optimization and translation By Youye)~
+LANGUAGE ~Simplified Chinese (Optimization and translation By Youye)~
 		 ~schinese~
 		 ~RoT/Language/schinese/scripts.tra~
 		 ~RoT/Language/schinese/journal.tra~

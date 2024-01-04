@@ -340,6 +340,10 @@ By Abalabokhin:
 - Updated Russian translation.
 - Fixed issue with reloading `scripts.tra` and `journal.tra` files during HANDLE_CHARSET conversion.
 
+By Lzw104522773:
+
+- Added Simplified Chinese translation made by Youye.
+
 ##
 
 #### Version 4.0 (February 21, 2020)
