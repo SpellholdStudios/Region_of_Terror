@@ -298,7 +298,7 @@ By Roberciiik:
 - Alternative Maribur area from the "World of Baldur's Gate" modification - designed and modeled by Cuttooth, and integrated into the mod by Roberciiik (big thanks to Acifer and Argent77 for helping with water overlay issue!).
 - Biffing is now an optional installation component.
 - Region of Terror Kits can be installed along with TDD kits now.
-- Added Icewind Dale areas to the BP-BGT-Worldmap & compatibility with IWD-EET (thanks to JohnBob).
+- Added Icewind Dale areas to the BP-BGT-Worldmap (v13 required!) & compatibility with IWD-EET (thanks to JohnBob).
 - Fixed CTDs for oBG2 areas: RA3750, RA4305, RR0044, RR3101, RR3105, RR3403, RR3700.
 - Fixed hung issue when mage (other than PC) is selected for battle area.
 - Fixed Bremen exit.
@@ -306,7 +306,7 @@ By Roberciiik:
 - Fixed incorrect dialog condition of Mednor in "Clob's son missing" quest.
 - Fixed incorrect actor name of Rodger in "Clob's son missing" quest.
 - Fixed missing script evaluation for AR0509 in "Clob's son missing" quest.
-- Fixed infinietly Cut Scene mode in "Cult of the Beast" quest.
+- Fixed infinitely Cut Scene mode in "Cult of the Beast" quest.
 - Fixed Brundor's Cyclone forging requirements.
 - Fixed effects probability ranges of Garrax's Semitar
 - Allowed Shadow Dragon Scales item to be used to forge Dragon Armor as well.
