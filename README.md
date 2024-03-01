@@ -76,7 +76,7 @@ As a big lover of all that is really BIG :stuck_out_tongue_winking_eye: I've dec
 Some installation notes:
 
 - If you want to install RoT along with TDD you can't use Kit Packs from both mods unless you have TobEx. Plz choose which one you want to install or install TobEx first. In any case, install RoT AFTER TDD v1.10 (or later).
-- Don't forget to install the latest Worldmap mod from Yacomo/Weigo (v10 or later). Local RoT's WMP just doesn't know about any other mod existence.<br>
+- Don't forget to install the latest Worldmap mod from Yacomo/Weigo (v13 or later). Local RoT's WMP just doesn't know about any other mod existence.<br>
 
 Cheers,<br>
 and stay heavy,<br>
