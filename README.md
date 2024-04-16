@@ -19,7 +19,7 @@
 
 [Read the mod's readme](http://spellholdstudios.github.io/readmes/rot-readme-english.html).
 
-[Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/325-region-of-terror-v21/).<br>
+[Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/325-region-of-terror/).<br>
 
 &nbsp;
 
@@ -291,7 +291,7 @@ This component requires the main component to be installed. It installs the foll
 
 ## <a name="versions" id="versions"></a>Version History
 
-#### Version 5.0 (Upcoming version...)
+#### Version 5.0 (April 16, 2024)
 
 By Roberciiik:
 
@@ -335,7 +335,7 @@ By Roberciiik:
 - Added Continue statement to the patched Drizzt Encouter area AR2601 (based on Roxanne's version).
 - Removed RoT abbreviation from Worldmap tooltip (based on Roxanne's version).
 
-By Abalabokhin:
+By Paladin84:
 
 - Updated Russian translation.
 - Fixed issue with reloading `scripts.tra` and `journal.tra` files during HANDLE_CHARSET conversion.
@@ -343,6 +343,10 @@ By Abalabokhin:
 By Lzw104522773:
 
 - Added Simplified Chinese translation made by Youye.
+
+By AL|EN:
+
+- Updated Infinity Auto Packager.
 
 ##
 
