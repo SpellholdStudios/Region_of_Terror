@@ -53,7 +53,7 @@ ALWAYS
 			    "schinese" => "CP936"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup scripts journal END
-			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup setup-ee END
+			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END
 			LAF ~HANDLE_CHARSETS~
 				INT_VAR
 				infer_charsets = 0
