@@ -291,6 +291,16 @@ This component requires the main component to be installed. It installs the foll
 
 ## <a name="versions" id="versions"></a>Version History
 
+#### Under development
+
+By Roberciiik:
+
+- Added NPC portraits for EE engine.
+
+By Lzw104522773:
+
+- Updated Simplified Chinese translation.
+
 #### Version 5.0 (April 16, 2024)
 
 By Roberciiik:
