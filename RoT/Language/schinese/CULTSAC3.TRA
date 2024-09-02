@@ -1,7 +1,7 @@
-@0 = ~你要怎么处置她？~
-@1 = ~撕开她的眼睛。~
-@2 = ~打断她的手臂。~
-@3 = ~割破她的腋窝。~
-@4 = ~踢她几次。~
-@5 = ~揍她几次。~
-@6 = ~没什么。~
+@0    = ~What shall you do with her?~
+@1    = ~Tear out her eyes.~
+@2    = ~Break her arms.~
+@3    = ~Cut her armpits.~
+@4    = ~Kick her several times.~
+@5    = ~Punch her several times.~
+@6    = ~Nothing.~
