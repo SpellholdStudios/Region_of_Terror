@@ -97,10 +97,10 @@ LANGUAGE ~Espanol~
 //Replace the original Optimization and translation by Youye
 LANGUAGE ~Simplified Chinese (retranslation By Lzw104522773)~
 		 ~schinese~
-		 ~RoT/Language/schinese/install.tra~
 		 ~RoT/Language/schinese/scripts.tra~
 		 ~RoT/Language/schinese/journal.tra~
 		 ~RoT/Language/schinese/setup.tra~
+		 ~RoT/Language/schinese/install.tra~
 
 /* =================================== *
  *  Region of Terror : main component  *
