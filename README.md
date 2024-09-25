@@ -295,6 +295,8 @@ This component requires the main component to be installed. It installs the foll
 
 By Roberciiik:
 
+- Fixed player return coordinates after second cutscene.
+- Fixed view point coordinates of third cutscene.
 - Added NPC portraits for EE engine.
 
 By Lzw104522773:

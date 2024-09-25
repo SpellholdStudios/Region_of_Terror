@@ -1,8 +1,4 @@
-@0    = ~What to do?~
-@1    = ~Go through the portal.~
-@2    = ~Leave and report back to Mayor's assistant.~
-@3    = ~Leave.~
-@0 = ~怎么办？~
-@1 = ~通过大门。~
-@2 = ~离开并向市长助理汇报。~
-@3 = ~离开。~
+@0    = ~该怎么办？~
+@1    = ~穿过传送门。~
+@2    = ~离开并回去向镇长助理汇报。~
+@3    = ~离开。~

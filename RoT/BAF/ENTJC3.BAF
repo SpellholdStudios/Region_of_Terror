@@ -17,6 +17,7 @@ THEN
 		ActionOverride("3CutSH",CreateVisualEffectObject("SPENTANG","Pruen3C"))
 		ActionOverride("3CutSH",CreateVisualEffectObject("SPENTANG","Katt3C"))
 		ActionOverride("3CutSH",CreateVisualEffectObject("SPENTANG","Rekis3C"))
+		MoveViewPoint([550.350],INSTANT)
 		FadeFromColor([20.0],0)
 		Wait(2)
 		ActionOverride("3CutSH",CreateVisualEffectObject("SPENTANG","Pruen3C"))

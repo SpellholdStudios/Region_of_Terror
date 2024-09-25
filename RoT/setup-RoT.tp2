@@ -53,7 +53,7 @@ ALWAYS
 			    "schinese" => "CP936"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup scripts journal END
-			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END
+			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN install setup-ee END
 			LAF ~HANDLE_CHARSETS~
 				INT_VAR
 				infer_charsets = 0
@@ -94,11 +94,13 @@ LANGUAGE ~Espanol~
 		 ~RoT/Language/Spanish/journal.tra~
 		 ~RoT/Language/Spanish/setup.tra~
 
-LANGUAGE ~Simplified Chinese (Optimization and translation By Youye)~
+//Replace the original Optimization and translation by Youye
+LANGUAGE ~Simplified Chinese (retranslation By Lzw104522773)~
 		 ~schinese~
 		 ~RoT/Language/schinese/scripts.tra~
 		 ~RoT/Language/schinese/journal.tra~
 		 ~RoT/Language/schinese/setup.tra~
+		 ~RoT/Language/schinese/install.tra~
 
 /* =================================== *
  *  Region of Terror : main component  *
@@ -610,7 +612,8 @@ EXTEND_TOP  ~AR2000.BCS~  ~RoT/SNIP/BAF/tAR2000.BAF~
 EXTEND_BOTTOM  ~AR2100.BCS~  ~RoT/SNIP/BAF/bAR2100.BAF~
  EVALUATE_BUFFER
 
-EXTEND_TOP  ~AR2601.BCS~ ~RoT/SNIP/BAF/AR2601.BAF~  EVALUATE_BUFFER //overwriting Drizzt encounter
+EXTEND_TOP  ~AR2601.BCS~ ~RoT/SNIP/BAF/AR2601.BAF~ // overwriting Drizzt encounter
+	EVALUATE_BUFFER
 
 EXTEND_BOTTOM  ~BALDUR.BCS~  ~RoT/SNIP/BAF/bBALDUR.BAF~
  EVALUATE_BUFFER

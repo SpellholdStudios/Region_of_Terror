@@ -1,0 +1,3 @@
+原先的中文翻译质量不是很好，我完全进行了重新翻译，但也难免会存在翻译不恰当或错误的地方，如果大家在玩这个mod的过程中发现不恰当或者错误的地方，可以截图后发邮件给我（liuzwei@163.com），我会尽快进行修改。
+
+The original Chinese translation was not of very high quality, so I completely re-translated it, but there may still be inappropriate or incorrect parts. If anyone finds any inappropriate or incorrect parts while playing this mod, you can take a screenshot and send it to me via email (liuzwei@163.com), and I will make the necessary corrections as soon as possible.
