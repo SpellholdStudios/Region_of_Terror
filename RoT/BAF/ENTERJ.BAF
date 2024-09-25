@@ -356,7 +356,7 @@ THEN
 		Wait(2)
 		ActionOverride("JarlaxS",DestroySelf())
 		Wait(1)
-		LeaveAreaLUA("ar0603","",[540.2922],10)
+		LeaveAreaLUA("ar0603","",[1150.2670],10)
 		EndCutSceneMode()
 		UnhideGUI()
 		FadeFromColor([20.0],0)
