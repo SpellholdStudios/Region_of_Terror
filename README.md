@@ -295,6 +295,7 @@ This component requires the main component to be installed. It installs the foll
 
 - Fixed player return coordinates after second cutscene.
 - Fixed view point coordinates of third cutscene.
+- Added Spirit Soaring area to the BP-BGT-Worldmap.
 
 #### Version 5.0 (April 16, 2024)
 
