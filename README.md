@@ -293,6 +293,7 @@ This component requires the main component to be installed. It installs the foll
 
 #### Under development
 
+- Fixed original Drizzt Encounter bug introduced in version 5.0.
 - Fixed player return coordinates after second cutscene.
 - Fixed view point coordinates of third cutscene.
 
