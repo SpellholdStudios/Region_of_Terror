@@ -24,3 +24,5 @@ RA5600      RA5600   RA5600     2      168       220    105    @ROT_785018  N   
 RA5601      RA5601   RA5601     2      167       358    414    @ROT_785019  N            N        //Ice Temple
 RA5412      RA5412   RA5412     2      69        993    234    @ROT_785020  N            N        //Aerie of Dragons
 RA5416      RA5416   RA5416     2      66        883    207    @ROT_785021  N            N        //Maze
+
+RR3700      RR3700   RR3700     2      84        2720   4240   @ROT_785022  @ROT_785022  N        //Spirit Soaring
