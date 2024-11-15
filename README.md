@@ -293,18 +293,9 @@ This component requires the main component to be installed. It installs the foll
 
 #### Under development
 
-By Roberciiik:
-
+- Fixed original Drizzt Encounter bug introduced in version 5.0.
 - Fixed player return coordinates after second cutscene.
 - Fixed view point coordinates of third cutscene.
-- Added Spirit Soaring area to the BP-BGT-Worldmap.
-- Fixed incorrect name of Commoner Women from Arlax.
-- Added NPC portraits for EE engine.
-
-By Lzw104522773:
-
-- Updated Simplified Chinese translation.
-
 
 #### Version 5.0 (April 16, 2024)
 
