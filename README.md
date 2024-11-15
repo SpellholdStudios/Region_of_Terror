@@ -297,11 +297,13 @@ By Roberciiik:
 
 - Fixed player return coordinates after second cutscene.
 - Fixed view point coordinates of third cutscene.
+- Fixed incorrect name of Commoner Women from Arlax.
 - Added NPC portraits for EE engine.
 
 By Lzw104522773:
 
 - Updated Simplified Chinese translation.
+
 
 #### Version 5.0 (April 16, 2024)
 
@@ -325,7 +327,8 @@ By Roberciiik:
 - Aligned and fixed Brundor/Brundor2 dialog files.
 - Opened three permanently locked doors from RA5602 area in "Wulfgar's Wife" quest.
 - Animation compatibility with DrizztSaga (Red Harpy animation slot) (thanks to TotoR).
-- Restored small size of NPC portraits for oBG2.
+- Restored small size of NPC 
+for oBG2.
 - Reduced waiting time to 8 hours (single rest) in the Spirit Soarning.
 - Changed incorrect Ice Salamander type from UNDEAD to MONSTER
 - Traified Cadderly's name and missing string-refs.
