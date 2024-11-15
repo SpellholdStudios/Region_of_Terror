@@ -1,53 +1,53 @@
-@0    = ~Hallo Anführer! Alles ist in Ordnung. Ich werde es Euch wissen lassen, wenn etwas hier Eure Aufmerksamkeit erfordert.~
+@0    = ~Hallo AnfÃ¼hrer! Alles ist in Ordnung. Ich werde es Euch wissen lassen, wenn etwas hier Eure Aufmerksamkeit erfordert.~
 
 @1    = ~Jetzt, da ich hier verantwortlich bin, habe ich vor, die Fehler in Ordnung zu bringen, die Olmar machte.~
 
-@2    = ~Es ist schön, zu sehen, dass Ihr wohlbehalten angekommen seid, <SIRMAAM>! Soll ich Euch über unser Problem informieren?~
+@2    = ~Es ist schÃ¶n, zu sehen, dass Ihr wohlbehalten angekommen seid, <SIRMAAM>! Soll ich Euch Ã¼ber unser Problem informieren?~
 
 @3    = ~Sicher, fahrt fort.~
 
 @4    = ~Wenn es wichtig ist...~
 
-@5    = ~Ich habe jetzt keine Zeit dafür. Später.~
+@5    = ~Ich habe jetzt keine Zeit dafÃ¼r. SpÃ¤ter.~
 
-@6    = ~Ihr kennt doch die hölzerne Palisade ausserhalb der Burg. Eine gefährlich aussehende Gruppe hat dort ihr Lager aufgeschlagen. Sie wollen mit dem Anführer dieser Burg sprechen.~
+@6    = ~Ihr kennt doch die hÃ¶lzerne Palisade ausserhalb der Burg. Eine gefÃ¤hrlich aussehende Gruppe hat dort ihr Lager aufgeschlagen. Sie wollen mit dem AnfÃ¼hrer dieser Burg sprechen.~
 
-@7    = ~Ich wollte schon selbst mit ihnen sprechen, aber sie sagten nichts. Nur, dass sie  mit dem Anführer sprechen wollen. Daher hatte ich keine andere Wahl, als einen Boten nach Euch zu schicken, damit Ihr hierher kommt.~
+@7    = ~Ich wollte schon selbst mit ihnen sprechen, aber sie sagten nichts. Nur, dass sie  mit dem AnfÃ¼hrer sprechen wollen. Daher hatte ich keine andere Wahl, als einen Boten nach Euch zu schicken, damit Ihr hierher kommt.~
 
 @8    = ~Ihr habt das Richtige getan. Ich werde nachsehen, was diese Leute wollen.~
 
-@9    = ~Wie setzte sich diese Gruppe zusammen? Wie viele Männer?~
+@9    = ~Wie setzte sich diese Gruppe zusammen? Wie viele MÃ¤nner?~
 
-@10   = ~Ihr hättet mich wegen einer solchen Belanglosigkeit nicht belästigen sollen! Holt Euch einige Magier und Soldaten! Tötet diese Eindringlinge und verbrennt ihre Körper, während ich mich ausruhe!~
+@10   = ~Ihr hÃ¤ttet mich wegen einer solchen Belanglosigkeit nicht belÃ¤stigen sollen! Holt Euch einige Magier und Soldaten! TÃ¶tet diese Eindringlinge und verbrennt ihre KÃ¶rper, wÃ¤hrend ich mich ausruhe!~
 
 @11   = ~In Ordnung, <SIRMAAM>! Ruft die Wachen, wenn Ihr Hilfe braucht.~
 
-@12   = ~Schwer bewaffnet. Fünf Männer, eine Frau.~
+@12   = ~Schwer bewaffnet. FÃ¼nf MÃ¤nner, eine Frau.~
 
 @13   = ~Ich werde mal nachsehen, was sie wollen.~
 
-@14   = ~Pah! Nehmt Euch ein paar Soldaten und einige Magier! Tötet diese schwer bewaffneten Eindringlinge und verbrennt ihre Körper, während ich mich ausruhe!~
+@14   = ~Pah! Nehmt Euch ein paar Soldaten und einige Magier! TÃ¶tet diese schwer bewaffneten Eindringlinge und verbrennt ihre KÃ¶rper, wÃ¤hrend ich mich ausruhe!~
 
 @15   = ~Ja, <SIRMAAM>!~
 
-@16   = ~Das ist es, <LADYLORD>. Hört mich an.~
+@16   = ~Das ist es, <LADYLORD>. HÃ¶rt mich an.~
 
 @17   = ~Habt Ihr mit ihnen gesprochen?~
 
-@18   = ~Es ist vollbracht, <SIRMAAM>! Sie werden Euch nicht wieder stören.~
+@18   = ~Es ist vollbracht, <SIRMAAM>! Sie werden Euch nicht wieder stÃ¶ren.~
 
 @19   = ~Gut. Dann werde ich wieder gehen...~
 
-@20   = ~Wenn so etwas noch einmal passieren sollte, dann ruft nicht wieder nach mir. Tötet die Eindringlinge einfach.~
+@20   = ~Wenn so etwas noch einmal passieren sollte, dann ruft nicht wieder nach mir. TÃ¶tet die Eindringlinge einfach.~
 
 @21   = ~In Ordnung. Das werde ich mir merken, <SIRMAAM>!~
 
 @22   = ~Nichts zu berichten, <LADYLORD>.~
 
-@23   = ~Ist das Problem jetzt gelöst?~
+@23   = ~Ist das Problem jetzt gelÃ¶st?~
 
-@24   = ~Ich habe mich darum gekümmert.~
+@24   = ~Ich habe mich darum gekÃ¼mmert.~
 
-@25   = ~Nicht, dass es Euch etwas angehen würde, aber ja.~
+@25   = ~Nicht, dass es Euch etwas angehen wÃ¼rde, aber ja.~
 
 @26   = ~Alles klar, <SIRMAAM>. Ich werde Euch benachrichtigen, wenn mehr Probleme auftreten sollten.~

@@ -1,101 +1,101 @@
-@0    = ~Hallo da, Abenteurer! Ich bin ein ehrlicher Bauer und benötige Hilfe. Ich spreche für die Bewohner der Höfe außerhalb von Arlax. Wollt Ihr mich anhören?~ ~Hallo da, Abenteurerin! Ich bin ein ehrlicher Bauer und benötige Hilfe. Ich spreche für die Bewohner der Höfe außerhalb von Arlax. Wollt Ihr mich anhören?~
+@0    = ~Hallo da, Abenteurer! Ich bin ein ehrlicher Bauer und benÃ¶tige Hilfe. Ich spreche fÃ¼r die Bewohner der HÃ¶fe auÃŸerhalb von Arlax. Wollt Ihr mich anhÃ¶ren?~ ~Hallo da, Abenteurerin! Ich bin ein ehrlicher Bauer und benÃ¶tige Hilfe. Ich spreche fÃ¼r die Bewohner der HÃ¶fe auÃŸerhalb von Arlax. Wollt Ihr mich anhÃ¶ren?~
 
 @1    = ~Fahrt fort und sprecht, mein Freund. Vielleicht kann ich Euch beistehen.~
 
-@2    = ~Ich kann Euch nichts versprechen, aber ich werde Euch zuhören.~
+@2    = ~Ich kann Euch nichts versprechen, aber ich werde Euch zuhÃ¶ren.~
 
-@3    = ~Ich habe keine Zeit, mir die Probleme irgendwelcher Bauern anzuhören.~
+@3    = ~Ich habe keine Zeit, mir die Probleme irgendwelcher Bauern anzuhÃ¶ren.~
 
 @4    = ~Verschwindet!~
 
-@5    = ~Es geht um Leben und Tod. Wir brauchen ganz dringend Hilfe dort draußen.~
+@5    = ~Es geht um Leben und Tod. Wir brauchen ganz dringend Hilfe dort drauÃŸen.~
 
-@6    = ~Unser Vieh wird seit einigen Wochen auf den Weiden angegriffen. Von Mostern, die niemand von uns je zuvor gesehen hat. Das Hohe Konzil der Magier gewährt uns keinerlei Hilfe. Es kümmert sie nicht einmal.~
+@6    = ~Unser Vieh wird seit einigen Wochen auf den Weiden angegriffen. Von Mostern, die niemand von uns je zuvor gesehen hat. Das Hohe Konzil der Magier gewÃ¤hrt uns keinerlei Hilfe. Es kÃ¼mmert sie nicht einmal.~
 
-@7    = ~Aber die Angriffe sind, wie es scheint, sogar schlimmer, als wir zunächst dachten. Ein tapferer Junge einer unserer Bauernfamilien fand heraus, dass die Monster nicht zufällig angreifen, sondern sogar einen gemeinsamen Anführer haben.~
+@7    = ~Aber die Angriffe sind, wie es scheint, sogar schlimmer, als wir zunÃ¤chst dachten. Ein tapferer Junge einer unserer Bauernfamilien fand heraus, dass die Monster nicht zufÃ¤llig angreifen, sondern sogar einen gemeinsamen AnfÃ¼hrer haben.~
 
-@8    = ~Ein Minenlager wurde von den Monstern zerstört und sie haben sich jetzt in der Mine einquartiert. Der tapfere Junge sah das Morden beim nächtlichen Überfall auf die Mine.~
+@8    = ~Ein Minenlager wurde von den Monstern zerstÃ¶rt und sie haben sich jetzt in der Mine einquartiert. Der tapfere Junge sah das Morden beim nÃ¤chtlichen Ãœberfall auf die Mine.~
 
-@9    = ~Er ist der einzige Überlebende, der uns Nachricht vom Überfall geben konnte. "Sie haben einen Anführer", sagte er uns bei seiner Rückkehr. "Irgendeine schreckliche untote Kreatur".~
+@9    = ~Er ist der einzige Ãœberlebende, der uns Nachricht vom Ãœberfall geben konnte. "Sie haben einen AnfÃ¼hrer", sagte er uns bei seiner RÃ¼ckkehr. "Irgendeine schreckliche untote Kreatur".~
 
-@10   = ~Aufgrund dieser Information fürchten wir, könnten diese Bestien bald über unsere Höfe herfallen. Wenn das geschieht, haben wir keinerlei Möglichkeit, uns zu verteidigen.~
+@10   = ~Aufgrund dieser Information fÃ¼rchten wir, kÃ¶nnten diese Bestien bald Ã¼ber unsere HÃ¶fe herfallen. Wenn das geschieht, haben wir keinerlei MÃ¶glichkeit, uns zu verteidigen.~
 
-@11   = ~Heute habe ich das Konzil ein zweites Mal um Hilfe gebeten. Sie versprachen mir, jemanden zur Untersuchung der Ereignisse zu entsenden, aber ich fürchte, dass dies erst in ein oder zwei Monaten soweit sein wird.~
+@11   = ~Heute habe ich das Konzil ein zweites Mal um Hilfe gebeten. Sie versprachen mir, jemanden zur Untersuchung der Ereignisse zu entsenden, aber ich fÃ¼rchte, dass dies erst in ein oder zwei Monaten soweit sein wird.~
 
-@12   = ~Und bis dahin, so meine Befürchtungen, wird es zu spät sein. Wir brauchen jetzt Hilfe! Jemand muß den Anführer dieser Kreaturen erschlagen gehen!~
+@12   = ~Und bis dahin, so meine BefÃ¼rchtungen, wird es zu spÃ¤t sein. Wir brauchen jetzt Hilfe! Jemand muÃŸ den AnfÃ¼hrer dieser Kreaturen erschlagen gehen!~
 
-@13   = ~Und Ihr wollt, dass ich dieser jemand bin? Ich denke, ich weiß, was hier los ist und werde Euch sehr gerne helfen, wenn ich kann.~
+@13   = ~Und Ihr wollt, dass ich dieser jemand bin? Ich denke, ich weiÃŸ, was hier los ist und werde Euch sehr gerne helfen, wenn ich kann.~
 
 @14   = ~Wartet 'mal 'ne Minute! Ihr wollt, dass ich diese Kreatur erschlage!?~
 
-@15   = ~Ihr wollt, dass ich das für Euch erledige? Was bekomme ich dafür?~
+@15   = ~Ihr wollt, dass ich das fÃ¼r Euch erledige? Was bekomme ich dafÃ¼r?~
 
-@16   = ~Wie könnt Ihr diesem Jungen trauen? Was, wenn er sich die ganze Geschichte nur ausgedacht hat?~
+@16   = ~Wie kÃ¶nnt Ihr diesem Jungen trauen? Was, wenn er sich die ganze Geschichte nur ausgedacht hat?~
 
-@17   = ~Ich verstehe ja, dass ihr meine Hilfe benötigt, aber tut mir leid, Euch zu enttäuschen. Ich habe momentan weder Zeit noch Mut genug, um mich dieser Kreatur zu stellen.~
+@17   = ~Ich verstehe ja, dass ihr meine Hilfe benÃ¶tigt, aber tut mir leid, Euch zu enttÃ¤uschen. Ich habe momentan weder Zeit noch Mut genug, um mich dieser Kreatur zu stellen.~
 
 @18   = ~Das ist allein Euer Problem. Lasst mich damit in Ruhe.~
 
-@19   = ~Seid gesegnet! Wir beten für Euren Sieg. Bitte, zeigt mir Eure Karte... einige unserer Höfe sind hier zu finden. Folgt von dort aus einfach der Straße nach Norden und Ihr erreicht die Mine.~
+@19   = ~Seid gesegnet! Wir beten fÃ¼r Euren Sieg. Bitte, zeigt mir Eure Karte... einige unserer HÃ¶fe sind hier zu finden. Folgt von dort aus einfach der StraÃŸe nach Norden und Ihr erreicht die Mine.~
 
-@20   = ~Während Ihr unterwegs seid, werden wir für eine angemessene Belohnung zusammenlegen. Ich weiß, dass es nicht viel gibt, was ich für Euch tun kann, aber ich wünsche Euch viel Glück und den Segen der Götter!~
+@20   = ~WÃ¤hrend Ihr unterwegs seid, werden wir fÃ¼r eine angemessene Belohnung zusammenlegen. Ich weiÃŸ, dass es nicht viel gibt, was ich fÃ¼r Euch tun kann, aber ich wÃ¼nsche Euch viel GlÃ¼ck und den Segen der GÃ¶tter!~
 
-@21   = ~Ja! Ihr oder jemand anderes mit den Gaben des Schwertes oder der Magie. Diese Bedrohung ist fatal für uns. Aber ich möchte Euch nichts vormachen, falls Ihr uns helft, könnte Euer Leben verwirkt sein.~
+@21   = ~Ja! Ihr oder jemand anderes mit den Gaben des Schwertes oder der Magie. Diese Bedrohung ist fatal fÃ¼r uns. Aber ich mÃ¶chte Euch nichts vormachen, falls Ihr uns helft, kÃ¶nnte Euer Leben verwirkt sein.~
 
-@22   = ~Ich... Ich kann Euch nicht einfach den Rücken kehren. Ich muß Euch helfen. Erzählt mir, was zu tun ist.~
+@22   = ~Ich... Ich kann Euch nicht einfach den RÃ¼cken kehren. Ich muÃŸ Euch helfen. ErzÃ¤hlt mir, was zu tun ist.~
 
-@23   = ~Was bekomme ich dafür, wenn ich Euch helfe?~
+@23   = ~Was bekomme ich dafÃ¼r, wenn ich Euch helfe?~
 
-@24   = ~Wenngleich es mich auch quält, so muß ich doch sagen, dass ich diese Aufgabe nicht ausführen kann. Ich habe nicht den Mut, um in das Herz dieser Mine vorzudringen und dieser schrecklichen Kreatur gegenüberzutreten.~
+@24   = ~Wenngleich es mich auch quÃ¤lt, so muÃŸ ich doch sagen, dass ich diese Aufgabe nicht ausfÃ¼hren kann. Ich habe nicht den Mut, um in das Herz dieser Mine vorzudringen und dieser schrecklichen Kreatur gegenÃ¼berzutreten.~
 
 @25   = ~'tschuldigung, aber das ist Euer Problem. Verschont mich damit.~
 
-@26   = ~Ich flehe Euch an, bitte hört mir zu. Es geht um sehr ernste Dinge.~
+@26   = ~Ich flehe Euch an, bitte hÃ¶rt mir zu. Es geht um sehr ernste Dinge.~
 
 @27   = ~Oh, na gut. Sprecht, aber denkt daran, ich verspreche Euch nichts.~
 
-@28   = ~Ich habe für sowas keine Zeit. Verschwindet!~
+@28   = ~Ich habe fÃ¼r sowas keine Zeit. Verschwindet!~
 
-@29   = ~Ich bat Euch nur darum, mir kurz zuzuhören. Also folgendes:~
+@29   = ~Ich bat Euch nur darum, mir kurz zuzuhÃ¶ren. Also folgendes:~
 
-@30   = ~Und bitte beeilt Euch! Wenn Ihr ein oder zwei Wochen wartet, mag es niemanden mehr geben, den Ihr retten könnt.~
+@30   = ~Und bitte beeilt Euch! Wenn Ihr ein oder zwei Wochen wartet, mag es niemanden mehr geben, den Ihr retten kÃ¶nnt.~
 
 @31   = ~Alles an Wert, was wir haben! Unser Gold und die alten Familienwaffen. Magische Schwerter, deren Klinge immer noch scharf sind! Schilde, die schon ihre Herkunft, aber noch nicht ihren Glanz verloren haben!~
 
-@32   = ~Wir haben nicht viel, was wir Euch geben können. Wir sind nur einfache Bauern.~
+@32   = ~Wir haben nicht viel, was wir Euch geben kÃ¶nnen. Wir sind nur einfache Bauern.~
 
-@33   = ~Euer Angebot hört sich vielversprechend an. Ich werde Euch meine Hilfe anbieten.~
+@33   = ~Euer Angebot hÃ¶rt sich vielversprechend an. Ich werde Euch meine Hilfe anbieten.~
 
-@34   = ~Während Ihr fort seid, werden wir die Belohnung für Euch zusammensammeln. Es gibt nicht viel, was ich für Euch tun kann, aber ich wünsche Euch Glück und den Segen der Götter!~
+@34   = ~WÃ¤hrend Ihr fort seid, werden wir die Belohnung fÃ¼r Euch zusammensammeln. Es gibt nicht viel, was ich fÃ¼r Euch tun kann, aber ich wÃ¼nsche Euch GlÃ¼ck und den Segen der GÃ¶tter!~
 
-@35   = ~Ich verstehe, aber Ihr seid möglicherweise unsere einzige Hoffnung! Wenn Ihr uns auch den Rücken kehrt, mag es sein, dass ich niemanden sonst zu unserer Rettung finden kann. Bitte, helft uns!~
+@35   = ~Ich verstehe, aber Ihr seid mÃ¶glicherweise unsere einzige Hoffnung! Wenn Ihr uns auch den RÃ¼cken kehrt, mag es sein, dass ich niemanden sonst zu unserer Rettung finden kann. Bitte, helft uns!~
 
 @36   = ~Entschuldigung, aber ich kann nicht. Ihr werdet von mir keine Hilfe bekommen.~
 
-@37   = ~Er ist ein guter Junge, ein Sohn eines guten Freundes von mir! Er arbeitete im Minenlager und hatte Glück, dass er überlebt hat! Und nebenbei, ich habe das zerstörte Lager selbst gesehen. Ich und einige andere gingen zur Mine, um dort nach dem Rechten zu sehen.~
+@37   = ~Er ist ein guter Junge, ein Sohn eines guten Freundes von mir! Er arbeitete im Minenlager und hatte GlÃ¼ck, dass er Ã¼berlebt hat! Und nebenbei, ich habe das zerstÃ¶rte Lager selbst gesehen. Ich und einige andere gingen zur Mine, um dort nach dem Rechten zu sehen.~
 
-@38   = ~Es war genau, wie der Junge beschrieben hatte, sogar noch schlimmer. Die Monster liefen Patrouille, so dass wir uns schnell zurückziehen mussten.~
+@38   = ~Es war genau, wie der Junge beschrieben hatte, sogar noch schlimmer. Die Monster liefen Patrouille, so dass wir uns schnell zurÃ¼ckziehen mussten.~
 
-@39   = ~Ich glaube Euch und kann Euch nicht einfach so den Rücken kehren. Ich muß Euch helfen. Erzählt mir was zu tun ist.~
+@39   = ~Ich glaube Euch und kann Euch nicht einfach so den RÃ¼cken kehren. Ich muÃŸ Euch helfen. ErzÃ¤hlt mir was zu tun ist.~
 
-@40   = ~Ich glaube Euch, aber was bekommen wir als Belohnung für das Eingehen solch einer gefährlichen Hilfsaktion?~
+@40   = ~Ich glaube Euch, aber was bekommen wir als Belohnung fÃ¼r das Eingehen solch einer gefÃ¤hrlichen Hilfsaktion?~
 
-@41   = ~Gut, ich glaube Euch, aber trotzdem muß ich Euch bitten, woanders nach Hilfe zu suchen. Ich habe nicht den Mut. um in das Herz dieser Mine vorzudringen und dieser schrecklichen Kreatur gegenüberzutreten.~
+@41   = ~Gut, ich glaube Euch, aber trotzdem muÃŸ ich Euch bitten, woanders nach Hilfe zu suchen. Ich habe nicht den Mut. um in das Herz dieser Mine vorzudringen und dieser schrecklichen Kreatur gegenÃ¼berzutreten.~
 
 @42   = ~Ich glaube Euch, aber dennoch, dies ist alleine Euer Problem. Lasst uns da 'raus.~
 
-@43   = ~Ich flehe Euch an! Es könnte zu lange dauern, eine andere Gruppe Abenteurer zu finden. Ihr könntet unsere einzige Hilfe sein! Bitte, helft uns!~
+@43   = ~Ich flehe Euch an! Es kÃ¶nnte zu lange dauern, eine andere Gruppe Abenteurer zu finden. Ihr kÃ¶nntet unsere einzige Hilfe sein! Bitte, helft uns!~
 
-@44   = ~Hmm... was bekomme ich dafür, wenn ich Euch helfe?~
+@44   = ~Hmm... was bekomme ich dafÃ¼r, wenn ich Euch helfe?~
 
-@45   = ~Also gut, aber ich bitte Euch noch einmal, darüber nachzudenken! Kehrt zu mir zurück, wenn Ihr es Euch überlegt habt.~
+@45   = ~Also gut, aber ich bitte Euch noch einmal, darÃ¼ber nachzudenken! Kehrt zu mir zurÃ¼ck, wenn Ihr es Euch Ã¼berlegt habt.~
 
-@46   = ~Ihr seid zurück! Es glitzert noch immer Hoffnung in meinen Augen! Habt Ihr Euch doch dafür entschieden, uns zu helfen und Euer Leben für das Gute in die Waagschale zu werfen?~
+@46   = ~Ihr seid zurÃ¼ck! Es glitzert noch immer Hoffnung in meinen Augen! Habt Ihr Euch doch dafÃ¼r entschieden, uns zu helfen und Euer Leben fÃ¼r das Gute in die Waagschale zu werfen?~
 
-@47   = ~Ja, Bauer Esath. Ich bin zurück und werde Euch retten.~
+@47   = ~Ja, Bauer Esath. Ich bin zurÃ¼ck und werde Euch retten.~
 
-@48   = ~Es ist schwer, aber ich werde Euch nicht helfen. Ihr müsst jemand anderen finden.~
+@48   = ~Es ist schwer, aber ich werde Euch nicht helfen. Ihr mÃ¼sst jemand anderen finden.~
 
-@49   = ~Eure Hoffnung trügt Euch. Verschwindet aus dieser Stadt. Sucht ruhig nach Rettung, aber sucht irgendwo woanders.~
+@49   = ~Eure Hoffnung trÃ¼gt Euch. Verschwindet aus dieser Stadt. Sucht ruhig nach Rettung, aber sucht irgendwo woanders.~
 
-@50   = ~Ihr habt nicht das Recht, mir Befehle zu geben. Ich habe das Recht, hier zu sein. Ich werde nicht länger darüber mit Euch diskutieren!~
+@50   = ~Ihr habt nicht das Recht, mir Befehle zu geben. Ich habe das Recht, hier zu sein. Ich werde nicht lÃ¤nger darÃ¼ber mit Euch diskutieren!~

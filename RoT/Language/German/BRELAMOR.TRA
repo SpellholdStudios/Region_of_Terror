@@ -1,7 +1,7 @@
-@0    = ~Hey, Ihr seid doch ein Abenteurer! Könntet Ihr mir einen Gefallen tun?~ ~Hey, Ihr seid doch eine Abenteurerin! Könntet Ihr mir einen Gefallen tun?~
+@0    = ~Hey, Ihr seid doch ein Abenteurer! KÃ¶nntet Ihr mir einen Gefallen tun?~ ~Hey, Ihr seid doch eine Abenteurerin! KÃ¶nntet Ihr mir einen Gefallen tun?~
 
 
-@1    = ~Und was für eine Art Gefallen?~
+@1    = ~Und was fÃ¼r eine Art Gefallen?~
 
 @2    = ~Vielleicht. Was soll ich denn tun?~
 
@@ -9,25 +9,25 @@
 
 @4    = ~Nein! Geht mir aus den Augen!~
 
-@5    = ~Mein Bruder Torvald will mich besuchen. Er ist ziemlich jung und lebhaft und kommt dieses Mal aus dem Norden durch die Berge. Er behauptet von sich, es mit jedem Gegner aufnehmen zu können.~
+@5    = ~Mein Bruder Torvald will mich besuchen. Er ist ziemlich jung und lebhaft und kommt dieses Mal aus dem Norden durch die Berge. Er behauptet von sich, es mit jedem Gegner aufnehmen zu kÃ¶nnen.~
 
-@6    = ~Niemand könnte ihm helfen, da habe ich mich gefragt, ob Ihr ihn nicht "zufälligerweise" treffen könntet und ihn sicher hierher geleiten würdet.~
+@6    = ~Niemand kÃ¶nnte ihm helfen, da habe ich mich gefragt, ob Ihr ihn nicht "zufÃ¤lligerweise" treffen kÃ¶nntet und ihn sicher hierher geleiten wÃ¼rdet.~
 
 @7    = ~Und sagt ihm nicht, dass ich Euch geschickt habe!~
 
 @8    = ~In Ordnung. Das kann ich machen. Wann kommt er?~
 
-@9    = ~Was springt für mich dabei heraus?~
+@9    = ~Was springt fÃ¼r mich dabei heraus?~
 
 @10   = ~Nee, das will ich nicht machen.~
 
-@11   = ~Ich schätze mal, dass er in den nächsten zwei bis fünf Tagen aus den Bergen eintreffen wird. Geht ihm einfach entgegen und helft ihm, gegen eventuelle Monster zu kämpfen.~
+@11   = ~Ich schÃ¤tze mal, dass er in den nÃ¤chsten zwei bis fÃ¼nf Tagen aus den Bergen eintreffen wird. Geht ihm einfach entgegen und helft ihm, gegen eventuelle Monster zu kÃ¤mpfen.~
 
 @12   = ~Danke!~
 
 @13   = ~...Nichts...~
 
-@14   = ~...Nun, ich schätze, ich kann das auch umsonst machen. Wann kommt er?~
+@14   = ~...Nun, ich schÃ¤tze, ich kann das auch umsonst machen. Wann kommt er?~
 
 @15   = ~Dann werde ich es nicht tun.~
 
@@ -35,7 +35,7 @@
 
 @17   = ~Alles klar! Wann kommt er?~
 
-@18   = ~Und was ist für mich drin?~
+@18   = ~Und was ist fÃ¼r mich drin?~
 
 @19   = ~Ich bin sicher. Die Antwort ist nein.~
 
@@ -47,11 +47,11 @@
 
 @23   = ~Ein einfaches "nein" ist nicht genug...~
 
-@24   = ~Hier lagern die Lebensmittelvorräte der Stadt.~
+@24   = ~Hier lagern die LebensmittelvorrÃ¤te der Stadt.~
 
-@25   = ~Also innerhalb von fünf Tagen... Und sagt ihm bloss nicht, dass ich Euch geschickt habe!~
+@25   = ~Also innerhalb von fÃ¼nf Tagen... Und sagt ihm bloss nicht, dass ich Euch geschickt habe!~
 
-@26   = ~Ich kann nicht glauben, dass er mich kaum grüßte, als er ging, um den anderen Männern zu helfen, die Hafenanlagen wieder aufzubauen!~
+@26   = ~Ich kann nicht glauben, dass er mich kaum grÃ¼ÃŸte, als er ging, um den anderen MÃ¤nnern zu helfen, die Hafenanlagen wieder aufzubauen!~
 
 @27   = ~Egal. Auf jeden Fall danke ich Euch, dass Ihr ihn sicher hierher gebracht habt.~
 
@@ -65,16 +65,16 @@
 
 @32   = ~Bitte, lasst mich allein.~
 
-@33   = ~Fünf Tage sind vergangen. Habt Ihr ihn gesehen?~
+@33   = ~FÃ¼nf Tage sind vergangen. Habt Ihr ihn gesehen?~
 
 @34   = ~Leider nicht.~
 
-@35   = ~... Seht nach. Vielleicht hat er sich nur verspätet...~
+@35   = ~... Seht nach. Vielleicht hat er sich nur verspÃ¤tet...~
 
-@36   = ~Er hat sich verspätet... das muss es sein...~
+@36   = ~Er hat sich verspÃ¤tet... das muss es sein...~
 
 @37   = ~Danke, dass Ihr ihn sicher hierher gebnracht habt.~
 
 @38   = ~Ich liess ihn alleine gehen.~
 
-@39   = ~Er ist noch nicht zurückgekehrt... Warum habt Ihr mich betrogen!? Geht!~
+@39   = ~Er ist noch nicht zurÃ¼ckgekehrt... Warum habt Ihr mich betrogen!? Geht!~

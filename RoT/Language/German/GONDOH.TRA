@@ -1,61 +1,61 @@
 @0    = ~Ahoi! Willkommen in meiner Taverne, <SIRMAAM>! Mein Name ist Gondo Hyman. Wie kann ich zu Diensten sein?~
 
-@1    = ~Ich würde gerne ein Zimmer mieten.~
+@1    = ~Ich wÃ¼rde gerne ein Zimmer mieten.~
 
-@2    = ~Wie sind die Geschäfte in letzter Zeit gelaufen?~
+@2    = ~Wie sind die GeschÃ¤fte in letzter Zeit gelaufen?~
 
-@3    = ~Könnt Ihr mir etwas über Eure Taverne erzählen?~
+@3    = ~KÃ¶nnt Ihr mir etwas Ã¼ber Eure Taverne erzÃ¤hlen?~
 
-@4    = ~Ich benötige zur Zeit Eure Dienste nicht, vielen Dank.~
+@4    = ~Ich benÃ¶tige zur Zeit Eure Dienste nicht, vielen Dank.~
 
-@5    = ~Nur für eine Nacht, oder möchtet Ihr einen Raum für eine längere Zeit mieten? Ein Monat kostet einhundert Goldstücke. Ihr könnt rasten und essen, wann immer Ihr wollt.~
+@5    = ~Nur fÃ¼r eine Nacht, oder mÃ¶chtet Ihr einen Raum fÃ¼r eine lÃ¤ngere Zeit mieten? Ein Monat kostet einhundert GoldstÃ¼cke. Ihr kÃ¶nnt rasten und essen, wann immer Ihr wollt.~
 
-@6    = ~Nur für eine Nacht.~
+@6    = ~Nur fÃ¼r eine Nacht.~
 
-@7    = ~Ich miete das Zimmer für einen Monat.~
+@7    = ~Ich miete das Zimmer fÃ¼r einen Monat.~
 
 @8    = ~Ich denke, ich werde erstmal wieder gehen.~
 
 @9    = ~In Ordnung. Mit welcher Art von Raum kann ich Euch dienen?~
 
-@10   = ~Musik für meine Ohren! Wann immer Ihr rasten möchtet, lasst es mich einfach wissen.~
+@10   = ~Musik fÃ¼r meine Ohren! Wann immer Ihr rasten mÃ¶chtet, lasst es mich einfach wissen.~
 
-@11   = ~Wie wäre es mit jetzt gleich?~
+@11   = ~Wie wÃ¤re es mit jetzt gleich?~
 
 @12   = ~In Ordnung.~
 
-@13   = ~Sie laufen bestens! Ich habe Euren Raum säubern lassen und frisches Essen haben wir ebenfalls bereitstehen.~
+@13   = ~Sie laufen bestens! Ich habe Euren Raum sÃ¤ubern lassen und frisches Essen haben wir ebenfalls bereitstehen.~
 
-@14   = ~Nicht so gut. Im Moment habe ich zwar eine Gruppe Abenteurer, die einen Raum für einen Monat angemietet haben, aber andererseits habe ich keinerlei weitere Reisende hier gehabt seit die Hafenanlagen zerstört wurden.~
+@14   = ~Nicht so gut. Im Moment habe ich zwar eine Gruppe Abenteurer, die einen Raum fÃ¼r einen Monat angemietet haben, aber andererseits habe ich keinerlei weitere Reisende hier gehabt seit die Hafenanlagen zerstÃ¶rt wurden.~
 
 @15   = ~Ich hoffe sie werden die Hafenanlagen bald wieder repariert haben.~
 
 @16   = ~Ich habe nichts weiter.~
 
-@17   = ~Nun, ich bin vor etwa fünfzehn Jahren hierher gekommen. Der alte Tavernenwirt war grade verstorben und der Schankraum wurde von einem Mann der Stadtgarde verwaltet.~
+@17   = ~Nun, ich bin vor etwa fÃ¼nfzehn Jahren hierher gekommen. Der alte Tavernenwirt war grade verstorben und der Schankraum wurde von einem Mann der Stadtgarde verwaltet.~
 
-@18   = ~Ich bat mich an, die Taverne zu übernehmen, und seit diesem Tag läuft sie auf meinen Namen. Ich hab sie sogar noch etwas vergrößert!~
+@18   = ~Ich bat mich an, die Taverne zu Ã¼bernehmen, und seit diesem Tag lÃ¤uft sie auf meinen Namen. Ich hab sie sogar noch etwas vergrÃ¶ÃŸert!~
 
 @19   = ~Also, dann kommt wieder, wann immer Ihr wollt!~
 
-@20   = ~Willkommen <SIRMAAM>! Möchtet Ihr jetzt gerne rasten, oder kann ich Euch mit sonst etwas dienen?~
+@20   = ~Willkommen <SIRMAAM>! MÃ¶chtet Ihr jetzt gerne rasten, oder kann ich Euch mit sonst etwas dienen?~
 
-@21   = ~Ich würde jetzt wirklich gerne rasten.~
+@21   = ~Ich wÃ¼rde jetzt wirklich gerne rasten.~
 
-@22   = ~Sicher! Möchtet Ihr auf Eurem Zimmer etwas essen?~
+@22   = ~Sicher! MÃ¶chtet Ihr auf Eurem Zimmer etwas essen?~
 
-@23   = ~Nein. Ich möchte einfach nur schlafen.~
+@23   = ~Nein. Ich mÃ¶chte einfach nur schlafen.~
 
 @24   = ~Ja, bitte.~
 
 @25   = ~Ja! Und viel zu trinken!~
 
-@26   = ~Gut. Ich werde Euch schnellstmöglich etwas bringen lassen.~
+@26   = ~Gut. Ich werde Euch schnellstmÃ¶glich etwas bringen lassen.~
 
 @27   = ~Gut. Aber das wird Euch was extra kosten.~
 
-@28   = ~Danke. Ihr könnt nun auf das Zimmer gehen. Bier und Braten werden bald da sein.~
+@28   = ~Danke. Ihr kÃ¶nnt nun auf das Zimmer gehen. Bier und Braten werden bald da sein.~
 
-@29   = ~Nicht so gut. Ich habe im Moment nur Euch und einige andere Abenteurer jeweils für einen Monat hier. Seit die Hafenanlagen zerstört wurden, sind keine weiteren Reisenden hier angekommen.~
+@29   = ~Nicht so gut. Ich habe im Moment nur Euch und einige andere Abenteurer jeweils fÃ¼r einen Monat hier. Seit die Hafenanlagen zerstÃ¶rt wurden, sind keine weiteren Reisenden hier angekommen.~
 
-@30   = ~Willkommen zurück, <SIRMAAM>! Wie kann ich Euch zu Diensten sein?~
+@30   = ~Willkommen zurÃ¼ck, <SIRMAAM>! Wie kann ich Euch zu Diensten sein?~

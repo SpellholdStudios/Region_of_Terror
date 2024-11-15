@@ -1,20 +1,20 @@
-@0    = ~Hier bewahren wir die Vorräte auf. Sie sind ganz schön zusammengeschrumpft.~
+@0    = ~Hier bewahren wir die VorrÃ¤te auf. Sie sind ganz schÃ¶n zusammengeschrumpft.~
 
 @1    = ~Ja, das kann ich mir vorstellen.~
 
-@2    = ~Ich bin wegen des Nachschubs für den Eremiten gekommen. Habt Ihr ihn bekommen?~
+@2    = ~Ich bin wegen des Nachschubs fÃ¼r den Eremiten gekommen. Habt Ihr ihn bekommen?~
 
-@3    = ~Ja, ja. Ich habe ihn... Warum ist er nicht selbst gekommen?... Oh, ich vergass, er ist ja ein Eremit... Meidet andere Leute, müsst Ihr wissen.~
+@3    = ~Ja, ja. Ich habe ihn... Warum ist er nicht selbst gekommen?... Oh, ich vergass, er ist ja ein Eremit... Meidet andere Leute, mÃ¼sst Ihr wissen.~
 
-@4    = ~Hier ist er jedenfalls. Der Eremit hat schon vor langer Zeit dafür bezahlt, daher müsst Ihr Euch darum keine Sorgen machen...~
+@4    = ~Hier ist er jedenfalls. Der Eremit hat schon vor langer Zeit dafÃ¼r bezahlt, daher mÃ¼sst Ihr Euch darum keine Sorgen machen...~
 
-@5    = ~Hey! Ihr seid ein Abentuerer! Unsere Jäger sind noch nicht aus den Bergen zurückgekommen. Könntet Ihr vielleicht nachsehen, was mit ihnen geschehen ist?~
+@5    = ~Hey! Ihr seid ein Abentuerer! Unsere JÃ¤ger sind noch nicht aus den Bergen zurÃ¼ckgekommen. KÃ¶nntet Ihr vielleicht nachsehen, was mit ihnen geschehen ist?~
 
 @6    = ~Sicher! Ich werde gleich aufbrechen!~
 
 @7    = ~Warum sollte ich das tun?~
 
-@8    = ~Ich weiss, was geschehen ist. Sie wurden von einer Horde Goblins und Orks angegriffen. Keiner überlebte.~
+@8    = ~Ich weiss, was geschehen ist. Sie wurden von einer Horde Goblins und Orks angegriffen. Keiner Ã¼berlebte.~
 
 @9    = ~Lasst mich mal nachdenken... Nein.~
 
@@ -22,21 +22,21 @@
 
 @11   = ~Ihr seid doch Abenteurer, oder... macht Ihr so etwas denn nicht?~
 
-@12   = ~Ich schätze schon... Ich werde nachsehen, ob ich sie finden kann.~
+@12   = ~Ich schÃ¤tze schon... Ich werde nachsehen, ob ich sie finden kann.~
 
 @13   = ~Klar, aber ich will eine Belohnung.~
 
 @14   = ~Nein.~
 
-@15   = ~Ich kann Euch aber nichts geben... es sei denn, Knäckebrot steht auf Eurer Liste...~
+@15   = ~Ich kann Euch aber nichts geben... es sei denn, KnÃ¤ckebrot steht auf Eurer Liste...~
 
 @16   = ~Dann werde ich Euch wohl umsonst helfen.~
 
-@17   = ~Natürlich tut es das! Gebt mir etwas Knäckebrot und ich werde es tun!~
+@17   = ~NatÃ¼rlich tut es das! Gebt mir etwas KnÃ¤ckebrot und ich werde es tun!~
 
 @18   = ~Nein, tut es nicht. Ich werde Euch nicht helfen.~
 
-@19   = ~Vielen Dank!... Ich hoffe, den Jägern geht es gut...~
+@19   = ~Vielen Dank!... Ich hoffe, den JÃ¤gern geht es gut...~
 
 @20   = ~Nun, hier ist etwas...~
 
@@ -44,25 +44,25 @@
 
 @22   = ~Alles klar. Danke...~
 
-@23   = ~In Ordnung... Hoffen wir nur, dass die Jäger sich aus einem guten Grund verspätet haben...~
+@23   = ~In Ordnung... Hoffen wir nur, dass die JÃ¤ger sich aus einem guten Grund verspÃ¤tet haben...~
 
-@24   = ~... Das ist ziemlich übel... Wir brauchen die Nahrung, denn es hängt viel davon ab...~
+@24   = ~... Das ist ziemlich Ã¼bel... Wir brauchen die Nahrung, denn es hÃ¤ngt viel davon ab...~
 
-@25   = ~In Ordnung... Hoffen wir nur, dass die Jäger sich aus einem guten Grund verspätet haben...~
-@26   = ~Ich muss dem Bürgermeister davon berichten. Ich hoffe, es kann etwas arrangiert werden...~
+@25   = ~In Ordnung... Hoffen wir nur, dass die JÃ¤ger sich aus einem guten Grund verspÃ¤tet haben...~
+@26   = ~Ich muss dem BÃ¼rgermeister davon berichten. Ich hoffe, es kann etwas arrangiert werden...~
 
-@27   = ~Habt ihr irgendwelche Information über die Jäger?~
+@27   = ~Habt ihr irgendwelche Information Ã¼ber die JÃ¤ger?~
 
-@28   = ~Ja. Aber leider sind sie alle tot. Anscheinend wurden sie von einer Horde Orks und Goblins angegriffen. Niemand überlebte.~
+@28   = ~Ja. Aber leider sind sie alle tot. Anscheinend wurden sie von einer Horde Orks und Goblins angegriffen. Niemand Ã¼berlebte.~
 
-@29   = ~Eigentlich bin ich wegen des Nachschubes für den Eremiten gekommen. Habt Ihr ihn?~
+@29   = ~Eigentlich bin ich wegen des Nachschubes fÃ¼r den Eremiten gekommen. Habt Ihr ihn?~
 
 @30   = ~Noch nicht.~
 
-@31   = ~Dann lasst mich zumindest wissen, wenn Ihr etwas von ihnen hört.~
+@31   = ~Dann lasst mich zumindest wissen, wenn Ihr etwas von ihnen hÃ¶rt.~
 
-@32   = ~Jetzt weiss ich, was mit ihnen geschehen ist. Anscheinend wurden sie von einer Horde Monster angegriffen. Da waren nur zwei Leichen, aber ich glaube, dass alle getötet wurden.~
+@32   = ~Jetzt weiss ich, was mit ihnen geschehen ist. Anscheinend wurden sie von einer Horde Monster angegriffen. Da waren nur zwei Leichen, aber ich glaube, dass alle getÃ¶tet wurden.~
 
-@33   = ~Das könnte sehr schlecht sein...~
+@33   = ~Das kÃ¶nnte sehr schlecht sein...~
 
-@34   = ~Trotzdem. Ich bin wegen des Nachschubes für den Eremiten hier. Habt Ihr ihn?~
+@34   = ~Trotzdem. Ich bin wegen des Nachschubes fÃ¼r den Eremiten hier. Habt Ihr ihn?~

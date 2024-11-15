@@ -1,40 +1,40 @@
 @0    = ~Grr! Was macht Ihr in meiner Burg!?~ [Olmar1]
 
-@1    = ~Ich muß mit Euch sprechen.~
+@1    = ~Ich muÃŸ mit Euch sprechen.~
 
-@2    = ~Ich hörte, Ihr habt einen Boten töten lassen... einen Boten aus Talavans Burg.~
+@2    = ~Ich hÃ¶rte, Ihr habt einen Boten tÃ¶ten lassen... einen Boten aus Talavans Burg.~
 
-@3    = ~Ich möchte Euch helfen (Warheit).~
+@3    = ~Ich mÃ¶chte Euch helfen (Warheit).~
 
-@4    = ~Ich möchte Euch helfen (Lüge).~
+@4    = ~Ich mÃ¶chte Euch helfen (LÃ¼ge).~
 
 @5    = ~Eigentlich nichts. Ich glaube, ich gehe lieber wieder.~
 
 @6    = ~Niemand spricht mit mir! Mir sprechen nur mit Schwertern!~
 
-@7    = ~Oh... nun gut, aber ich muß mich trotzdem mit Euch unterhalten. Ich möchte Euch helfen (Warheit).~
+@7    = ~Oh... nun gut, aber ich muÃŸ mich trotzdem mit Euch unterhalten. Ich mÃ¶chte Euch helfen (Warheit).~
 
-@8    = ~Oh...nun gut, aber ich muß mich trotzdem mit Euch unterhalten. Ich möchte Euch helfen (Lüge).~
+@8    = ~Oh...nun gut, aber ich muÃŸ mich trotzdem mit Euch unterhalten. Ich mÃ¶chte Euch helfen (LÃ¼ge).~
 
 @9    = ~...Schade! Na gut, dann gehen wir wieder.~
 
 @10   = ~Wenn Ihr wieder herkommt, zerschmetter ich Euch den Kopf!~
 
-@11   = ~HAHAHA!! Hätt ich gerne Gesichter gesehen, als sie den Kopf bekommen ham!~
+@11   = ~HAHAHA!! HÃ¤tt ich gerne Gesichter gesehen, als sie den Kopf bekommen ham!~
 
-@12   = ~HAHAHA!! Ich auch! Diese Bastarde!... Aber jetzt, lasst uns zum Punkt kommen. Ich möchte Euch helfen (Warheit).~
+@12   = ~HAHAHA!! Ich auch! Diese Bastarde!... Aber jetzt, lasst uns zum Punkt kommen. Ich mÃ¶chte Euch helfen (Warheit).~
 
-@13   = ~HAHAHA!! Ich auch! Diese Bastarde!... Aber jetzt, lasst uns zum Punkt kommen. Ich möchte Euch helfen (Lüge).~
+@13   = ~HAHAHA!! Ich auch! Diese Bastarde!... Aber jetzt, lasst uns zum Punkt kommen. Ich mÃ¶chte Euch helfen (LÃ¼ge).~
 
-@14   = ~Wie könnt Ihr so etwas nur sagen? Es war eine schrecklich brutale Tat.~
+@14   = ~Wie kÃ¶nnt Ihr so etwas nur sagen? Es war eine schrecklich brutale Tat.~
 
-@15   = ~Ihr scheint mir ein komischer Bursche zu sein... Also, ich verschwinde von hier. Ich habe kein Interesse an Gesprächen mit Typen wie Euch.~
+@15   = ~Ihr scheint mir ein komischer Bursche zu sein... Also, ich verschwinde von hier. Ich habe kein Interesse an GesprÃ¤chen mit Typen wie Euch.~
 
-@16   = ~Ich immer brutal! Ich mag töten und foltern!~
+@16   = ~Ich immer brutal! Ich mag tÃ¶ten und foltern!~
 
-@17   = ~Das glaube ich Euch gerne, aber kommen wir zum Punkt. Ich möchte Euch helfen (Warheit).~
+@17   = ~Das glaube ich Euch gerne, aber kommen wir zum Punkt. Ich mÃ¶chte Euch helfen (Warheit).~
 
-@18   = ~Das glaube ich Euch gerne, aber kommen wir zum Punkt. Ich möchte Euch helfen (Lüge).~
+@18   = ~Das glaube ich Euch gerne, aber kommen wir zum Punkt. Ich mÃ¶chte Euch helfen (LÃ¼ge).~
 
 @19   = ~...Ich verstehe. Ich gehe dann mal wieder.~
 
@@ -46,15 +46,15 @@
 
 @23   = ~Mir helfen!? Wie wollt Ihr mir helfen?~
 
-@24   = ~Ihr seid doch im Krieg mit Talavans Burg, oder. Sie vertrauen mir, und ich bin der Schlüssel für ihren Sieg... aber jetzt biete ich Euch meine Dienste an...~
+@24   = ~Ihr seid doch im Krieg mit Talavans Burg, oder. Sie vertrauen mir, und ich bin der SchlÃ¼ssel fÃ¼r ihren Sieg... aber jetzt biete ich Euch meine Dienste an...~
 
 @25   = ~Na ja, ich kann Euch im Krieg gegen Talavans Burg zum Sieg verhelfen.~
 
-@26   = ~Wenn ich ehrlich bin, kann ich nichts weiter für Euch tun... Wiedersehen!~
+@26   = ~Wenn ich ehrlich bin, kann ich nichts weiter fÃ¼r Euch tun... Wiedersehen!~
 
 @27   = ~Grrr! Verschwendet meine Zeit nicht nochmal!~
 
-@28   = ~Was!? Wie wollt Ihr mir denn helfen können?~
+@28   = ~Was!? Wie wollt Ihr mir denn helfen kÃ¶nnen?~
 
 @29   = ~Na ja, ich kann Euch im Krieg gegen Talavans Burg zum Sieg verhelfen.~
 
@@ -62,89 +62,89 @@
 
 @31   = ~Grrr! Verschwendet nochmal meine Zeit und ich lass' Euch leiden!~
 
-@32   = ~Ihr wollt sie betrügen! Ich mag Euch! Sagt mir was Ihr bietet?~
+@32   = ~Ihr wollt sie betrÃ¼gen! Ich mag Euch! Sagt mir was Ihr bietet?~
 
-@33   = ~Lasst mich erst den Hintergrund berichten... Talavan hat mich entsandt, damit ich Euch den Schlüssel für den Geheimgang abnehme. Kehre ich zurück, marschieren wir gegen Eure Armee. Wenn wir erstmal hier sind, dringen wir durch den Geheimgang in die Burg ein und erschlagen alle Verteidiger... All das werde ich aber nicht machen. Ich möchte lieber auf Eurer Seite stehen...~
+@33   = ~Lasst mich erst den Hintergrund berichten... Talavan hat mich entsandt, damit ich Euch den SchlÃ¼ssel fÃ¼r den Geheimgang abnehme. Kehre ich zurÃ¼ck, marschieren wir gegen Eure Armee. Wenn wir erstmal hier sind, dringen wir durch den Geheimgang in die Burg ein und erschlagen alle Verteidiger... All das werde ich aber nicht machen. Ich mÃ¶chte lieber auf Eurer Seite stehen...~
 
-@34   = ~Talavan hat mich hierher geschickt, damit ich Euch den Schlüssel für den Geheimgang stehle. Wenn ich ihn habe, marschiert die Armee gegen Eure Burg und vernichtet Eure Truppen... Aber diesem Plan werde ich nicht folge leisten. Ich möchte lieber auf Eurer Seite stehen...~
+@34   = ~Talavan hat mich hierher geschickt, damit ich Euch den SchlÃ¼ssel fÃ¼r den Geheimgang stehle. Wenn ich ihn habe, marschiert die Armee gegen Eure Burg und vernichtet Eure Truppen... Aber diesem Plan werde ich nicht folge leisten. Ich mÃ¶chte lieber auf Eurer Seite stehen...~
 
-@35   = ~Talavan sandte mich her, damit ich in den Besitz des Schlüssels für den Geheimgang komme. Ich soll mit dem Schlüssel zurückkehren, damit die Armee in die Burg eindringen und alle Verteidiger erschlagen kann.~
+@35   = ~Talavan sandte mich her, damit ich in den Besitz des SchlÃ¼ssels fÃ¼r den Geheimgang komme. Ich soll mit dem SchlÃ¼ssel zurÃ¼ckkehren, damit die Armee in die Burg eindringen und alle Verteidiger erschlagen kann.~
 
 @36   = ~Ahh... Was habt Ihr im Sinn?~
 
-@37   = ~Ihr gebt mir den von Talavan gewünschten Schlüssel. Wenn wir dann hier eintreffen, töte ich Talavan und seine Offiziere. Wenn sich seine Armee dann daraufhin führerlos zerstreut, marschieren wir gegen seine wehrlose Burg und erobern sie im Handstreich.~
+@37   = ~Ihr gebt mir den von Talavan gewÃ¼nschten SchlÃ¼ssel. Wenn wir dann hier eintreffen, tÃ¶te ich Talavan und seine Offiziere. Wenn sich seine Armee dann daraufhin fÃ¼hrerlos zerstreut, marschieren wir gegen seine wehrlose Burg und erobern sie im Handstreich.~
 
-@38   = ~Ihr gebt mir den von Talavan gewünschten Schlüssel. Dann kehre ich zu Talavan zurück und wir marschieren mit seiner Armee gegen Eure Festung. Ich töte daraufhin Talavan und seine Offiziere, Eure Armee vernichtet Talavans kopflosen Haufen und wir marschieren gemeinsam zu seiner Burg und erobern sie.~
+@38   = ~Ihr gebt mir den von Talavan gewÃ¼nschten SchlÃ¼ssel. Dann kehre ich zu Talavan zurÃ¼ck und wir marschieren mit seiner Armee gegen Eure Festung. Ich tÃ¶te daraufhin Talavan und seine Offiziere, Eure Armee vernichtet Talavans kopflosen Haufen und wir marschieren gemeinsam zu seiner Burg und erobern sie.~
 
-@39   = ~Ihr gebt mir den von Talavan gewünschten Schlüssel. Wenn ich dann mit Talavans Armee hierher zurückkehre, ermorde ich ihn und seine Offiziere hinterrücks, während Eure Armee sich um seine desorientierten Truppen kümmert. Dann marschiere ich zu Talavans Burg und erobere sie.~
+@39   = ~Ihr gebt mir den von Talavan gewÃ¼nschten SchlÃ¼ssel. Wenn ich dann mit Talavans Armee hierher zurÃ¼ckkehre, ermorde ich ihn und seine Offiziere hinterrÃ¼cks, wÃ¤hrend Eure Armee sich um seine desorientierten Truppen kÃ¼mmert. Dann marschiere ich zu Talavans Burg und erobere sie.~
 
-@40   = ~Ich mag dem Plan! Ich bin dabei, aber ich nicht dumm... Ihr wollt doch nochwas anderes dafür haben. Raus damit, was wollt Ihr?~
+@40   = ~Ich mag dem Plan! Ich bin dabei, aber ich nicht dumm... Ihr wollt doch nochwas anderes dafÃ¼r haben. Raus damit, was wollt Ihr?~
 
-@41   = ~Gebt mir fünftausend Goldstücke und der Handel ist perfekt.~
+@41   = ~Gebt mir fÃ¼nftausend GoldstÃ¼cke und der Handel ist perfekt.~
 
-@42   = ~Ich will zehntausend Goldstücke. Fünftausend jetzt, fünftausend nach Abschluss der Operation.~
+@42   = ~Ich will zehntausend GoldstÃ¼cke. FÃ¼nftausend jetzt, fÃ¼nftausend nach Abschluss der Operation.~
 
 @43   = ~Ich will drei magische Artefakte aus Eurer Schatzkammer.~
 
-@44   = ~Ich will, dass Eure Magier mir einen Zauber erstellen, der eine Fähigkeit meiner Wahl permanent verbessert.~
+@44   = ~Ich will, dass Eure Magier mir einen Zauber erstellen, der eine FÃ¤higkeit meiner Wahl permanent verbessert.~
 
 @45   = ~Ich mach das umsonst. Es ist mir eine Ehre, auf Eurer Seite zu stehen.~
 
-@46   = ~In Ordnung, mein Freund! Hier is' der Schlüssel. Geht jetzt!~
+@46   = ~In Ordnung, mein Freund! Hier is' der SchlÃ¼ssel. Geht jetzt!~
 
-@47   = ~...In Ordnung, mein Freund! Hier is' der Schlüssel. Geht jetzt!~
+@47   = ~...In Ordnung, mein Freund! Hier is' der SchlÃ¼ssel. Geht jetzt!~
 
-@48   = ~Ich mach das... Ihr kriegt sie, wenn der Auftrag erfüllt ist... Hier is' der Schlüssel. Geht jetzt!~
+@48   = ~Ich mach das... Ihr kriegt sie, wenn der Auftrag erfÃ¼llt ist... Hier is' der SchlÃ¼ssel. Geht jetzt!~
 
-@49   = ~...Ich mach das... Ihr kriegt Euren Zauber, wenn ihr den Auftrag erfüllt... Hier is' der Schlüssel. Geht jetzt!~
+@49   = ~...Ich mach das... Ihr kriegt Euren Zauber, wenn ihr den Auftrag erfÃ¼llt... Hier is' der SchlÃ¼ssel. Geht jetzt!~
 
-@50   = ~Jetzt mag ich Euch noch mehr! Hier is' der Schlüssel. Geht jetzt!~
+@50   = ~Jetzt mag ich Euch noch mehr! Hier is' der SchlÃ¼ssel. Geht jetzt!~
 
 @51   = ~Ich brauch keine Hilfe! Ich kann sie alle alleine zerschmettern!~
 
-@52   = ~Nein, könnt Ihr nicht. Der einzige Weg zu Eurem Sieg ist, wenn Ihr auf das hört, was ich Euch anzubieten habe.~
+@52   = ~Nein, kÃ¶nnt Ihr nicht. Der einzige Weg zu Eurem Sieg ist, wenn Ihr auf das hÃ¶rt, was ich Euch anzubieten habe.~
 
-@53   = ~Ich fürchte nicht... Seine Armee ist wahrlich mächtig... Ihr solltet auf mich hören.~
+@53   = ~Ich fÃ¼rchte nicht... Seine Armee ist wahrlich mÃ¤chtig... Ihr solltet auf mich hÃ¶ren.~
 
-@54   = ~Ich bin sicher, dass Ihr das könnt, aber wenn Ihr mir zuhört, könnten wir die Dinge noch ein wenig einfacher für Euch gestalten.~
+@54   = ~Ich bin sicher, dass Ihr das kÃ¶nnt, aber wenn Ihr mir zuhÃ¶rt, kÃ¶nnten wir die Dinge noch ein wenig einfacher fÃ¼r Euch gestalten.~
 
-@55   = ~Was meint Ihr damit? Erzählt mir alles!~
+@55   = ~Was meint Ihr damit? ErzÃ¤hlt mir alles!~
 
-@56   = ~Was meint Ihr damit? Erzählt mir alles!~
+@56   = ~Was meint Ihr damit? ErzÃ¤hlt mir alles!~
 
 @57   = ~IHR WIEDER! Sagt, was Ihr sagen wollt, bevor wir Euch den Kopf zerschmettern!~ [Olmar2]
 
 @58   = ~Beruhigt Euch. Ich glaube, ich kann Euch im Krieg gegen Euren Feind Talavan helfen (Warheit).~
 
-@59   = ~Ich glaube ich kann Euch bei Eurem kleinen Problem mit Talavan helfen (Lüge).~
+@59   = ~Ich glaube ich kann Euch bei Eurem kleinen Problem mit Talavan helfen (LÃ¼ge).~
 
 @60   = ~Eigentlich habe ich Euch im Moment nichts zu sagen. Auf Wiedersehen!~
 
-@61   = ~GRRR! Hört auf, mich zu nerven, sonst zerquetsch ich Euch bald den Kopf!~
+@61   = ~GRRR! HÃ¶rt auf, mich zu nerven, sonst zerquetsch ich Euch bald den Kopf!~
 
 @62   = ~Worauf wartet Ihr? Geht!~ [Olmar3]
 
-@63   = ~...Hmm... Dann sollte ich Euch den Schlüssel nicht geben!~
+@63   = ~...Hmm... Dann sollte ich Euch den SchlÃ¼ssel nicht geben!~
 
-@64   = ~Natürlich solltet Ihr! Mein Plan wird fehlschlagen, wenn Ihr ihn mir nicht gebt.~
+@64   = ~NatÃ¼rlich solltet Ihr! Mein Plan wird fehlschlagen, wenn Ihr ihn mir nicht gebt.~
 
-@65   = ~Natürlich solltet Ihr! Mein Plan wäre ruiniert, wenn ich von Euch den Schlüsel nicht erhalte.~
+@65   = ~NatÃ¼rlich solltet Ihr! Mein Plan wÃ¤re ruiniert, wenn ich von Euch den SchlÃ¼sel nicht erhalte.~
 
-@66   = ~...Was für'n Plan?~
+@66   = ~...Was fÃ¼r'n Plan?~
 
-@67   = ~Müll! Ich hör Euch nicht zu bei Eurem... Müll!~
+@67   = ~MÃ¼ll! Ich hÃ¶r Euch nicht zu bei Eurem... MÃ¼ll!~
 
-@68   = ~Nein, aber ich würde es Euch empfehlen.~
+@68   = ~Nein, aber ich wÃ¼rde es Euch empfehlen.~
 
-@69   = ~Nein, das müsst Ihr auch nicht, das stimmt. Aber Ihr solltet. Ihr könntet meinen... Müll interessant finden.~
+@69   = ~Nein, das mÃ¼sst Ihr auch nicht, das stimmt. Aber Ihr solltet. Ihr kÃ¶nntet meinen... MÃ¼ll interessant finden.~
 
-@70   = ~Ihr *müsst* zuhören. Es ist sehr wichtig!~
+@70   = ~Ihr *mÃ¼sst* zuhÃ¶ren. Es ist sehr wichtig!~
 
 @71   = ~...Also gut. Sprecht, aber sprecht schnell!~
 
-@72   = ~Ihr kehrt zurück!? Kein Geschäft! Ich will Talavans Burg haben!~
+@72   = ~Ihr kehrt zurÃ¼ck!? Kein GeschÃ¤ft! Ich will Talavans Burg haben!~
 
-@73   = ~Dann werde ich Euch den Schlüssel nicht geben! Verschwindet, Talavans Köter!~
+@73   = ~Dann werde ich Euch den SchlÃ¼ssel nicht geben! Verschwindet, Talavans KÃ¶ter!~
 
 @74   = ~Bah! Nervt mich nicht!~
 

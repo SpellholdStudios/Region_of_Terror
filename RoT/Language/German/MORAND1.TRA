@@ -1,24 +1,24 @@
 @0    = ~Hey, Fremder! Ich brauche Hilfe!~ ~Hey, Fremde! Ich brauche Hilfe!~
 
-@1    = ~Was denn für Hilfe?~
+@1    = ~Was denn fÃ¼r Hilfe?~
 
 @2    = ~Ihr werdet keine von mir bekommen.~
 
-@3    = ~Eigentlich würde ich Euch gerne ein paar Fragen stellen, wenn es Euch nichts ausmacht.~
+@3    = ~Eigentlich wÃ¼rde ich Euch gerne ein paar Fragen stellen, wenn es Euch nichts ausmacht.~
 
 @4    = ~Das Grab meines Vaters ist im Keller. Ich wollte zum Grab meines vaters hinunter gehen und entdeckte dort eine seltsame Kreatur! Sie begann einen Zauber zu wirken, doch ich lief davon.~
 
 @5    = ~Sie folgte mir nicht, doch ich kann jetzt nicht mehr hinunter gehen. Niemand weiss, was sie noch anstellen wird.~
 
-@6    = ~Daher frage ich Euch untertänigst, ob Ihr die Kreatur beseitgen könntet?~
+@6    = ~Daher frage ich Euch untertÃ¤nigst, ob Ihr die Kreatur beseitgen kÃ¶nntet?~
 
 @7    = ~Warum eigentlich nicht. Wie hat diese Kreatur denn ausgesehen?~
 
-@8    = ~Wenn ich diese Kreatur töten würde, was wäre meine Belohnung?~
+@8    = ~Wenn ich diese Kreatur tÃ¶ten wÃ¼rde, was wÃ¤re meine Belohnung?~
 
 @9    = ~Verzeiht, aber ich werde es nicht tun.~
 
-@10   = ~Mein Vater reiste viel, als er noch jung war. Seine Rüstung und sein Schwert sind in dem Grab. Ihr könnt sie haben. Ich habe keine Verwendung dafür.~
+@10   = ~Mein Vater reiste viel, als er noch jung war. Seine RÃ¼stung und sein Schwert sind in dem Grab. Ihr kÃ¶nnt sie haben. Ich habe keine Verwendung dafÃ¼r.~
 
 @11   = ~In Ordnung. Ich mache es.~
 
@@ -26,25 +26,25 @@
 
 @13   = ~Grossartig! Ich werde hier auf Euch warten.~
 
-@14   = ~... Verstehe... Kommt wieder, wenn Ihr es Euch anders überlegen solltet.~
+@14   = ~... Verstehe... Kommt wieder, wenn Ihr es Euch anders Ã¼berlegen solltet.~
 
-@15   = ~Keine Zeit für Fragen! Ich brauche Hilfe!~
+@15   = ~Keine Zeit fÃ¼r Fragen! Ich brauche Hilfe!~
 
 @16   = ~Ihr werdet aber keine bekommen.~
 
-@17   = ~Ich weiss es nicht. Ich sah nur einen Schädel.~
+@17   = ~Ich weiss es nicht. Ich sah nur einen SchÃ¤del.~
 
 @18   = ~Das hilft nicht viel... Aber ich werde die Kreatur beseitgen, wenn die Belohnung angemessen ist.~
 
 @19   = ~Zuerst brauche ich mehr Informationen. Sonst werde ich es nicht tun.~
 
-@20   = ~Das klingt ausgezeichnet. Ich werde es für Euch tun.~
+@20   = ~Das klingt ausgezeichnet. Ich werde es fÃ¼r Euch tun.~
 
-@21   = ~Das reicht nicht, fürchte ich. Ich werde es nicht tun.~
+@21   = ~Das reicht nicht, fÃ¼rchte ich. Ich werde es nicht tun.~
 
-@22   = ~... Verstanden. Kommt zurück, wenn Ihr es Euch anders überlegen solltet...~
+@22   = ~... Verstanden. Kommt zurÃ¼ck, wenn Ihr es Euch anders Ã¼berlegen solltet...~
 
-@23   = ~Ihr seid zurückgekehrt! Werdet Ihr mir jetzt helfen?~
+@23   = ~Ihr seid zurÃ¼ckgekehrt! Werdet Ihr mir jetzt helfen?~
 
 @24   = ~Ja.~
 
@@ -54,23 +54,23 @@
 
 @27   = ~Ja, ich auch. Ich gehe jetzt wieder.~
 
-@28   = ~Könnt Ihr mir noch einmal sagen, was ich tun soll?~
+@28   = ~KÃ¶nnt Ihr mir noch einmal sagen, was ich tun soll?~
 
-@29   = ~Eine seltsame Kreatur tauchte unten im Grab meines Vaters auf. Ich möchte, dass Ihr sie beseitigt.~
+@29   = ~Eine seltsame Kreatur tauchte unten im Grab meines Vaters auf. Ich mÃ¶chte, dass Ihr sie beseitigt.~
 
-@30   = ~Es war für mich fast unmöglich, die Kreatur genau zu erkennen, aber ich bin mir ziemlich sicher, dass ich einen Schädel gesehen habe.~
+@30   = ~Es war fÃ¼r mich fast unmÃ¶glich, die Kreatur genau zu erkennen, aber ich bin mir ziemlich sicher, dass ich einen SchÃ¤del gesehen habe.~
 
-@31   = ~Wenn Ihr die Kreatur getötet habt, könnt Ihr die Ausrüstung meines Vaters aus dem Grab haben.~
+@31   = ~Wenn Ihr die Kreatur getÃ¶tet habt, kÃ¶nnt Ihr die AusrÃ¼stung meines Vaters aus dem Grab haben.~
 
-@32   = ~Dann kommt zurück, wenn Ihr es Euch anders überlegen solltet.~
+@32   = ~Dann kommt zurÃ¼ck, wenn Ihr es Euch anders Ã¼berlegen solltet.~
 
-@33   = ~Ihr seid zurückgekehrt. Könnt Ihr mir jetzt helfen?~
+@33   = ~Ihr seid zurÃ¼ckgekehrt. KÃ¶nnt Ihr mir jetzt helfen?~
 
-@34   = ~Ich weiss es nicht. Sagt mir zuerst, welche Art Hilfe Ihr benötigt.~
+@34   = ~Ich weiss es nicht. Sagt mir zuerst, welche Art Hilfe Ihr benÃ¶tigt.~
 
 @35   = ~Nein, auf wiedersehen.~
 
-@36   = ~Ihr seid zurück! Habt Ihr die Kreatur beseitigt?~
+@36   = ~Ihr seid zurÃ¼ck! Habt Ihr die Kreatur beseitigt?~
 
 @37   = ~Nein, noch nicht.~
 
@@ -88,13 +88,13 @@
 
 @44   = ~Ja, dieser kleine Bastard wurde beseitigt.~
 
-@45   = ~Jawohl. Und nur, dass Ihr es wisst, es war ein Demi-Leichnam. Eine der mächtigsten Kreaturen in den Reichen.~
+@45   = ~Jawohl. Und nur, dass Ihr es wisst, es war ein Demi-Leichnam. Eine der mÃ¤chtigsten Kreaturen in den Reichen.~
 
 @46   = ~Was war es denn?~
 
-@47   = ~Ein Demi-Leichnam. Sie sind sehr mächtig. Es ist sehr gut, dass er jetzt vernichtet ist.~
+@47   = ~Ein Demi-Leichnam. Sie sind sehr mÃ¤chtig. Es ist sehr gut, dass er jetzt vernichtet ist.~
 
-@48   = ~Huh, ein Demi-Leichnam!? Den Göttern sei Dank, dass Ihr ihn beseitigt habt!... Ich hoffe, Ihr seid mit dem Schatz zufrieden.~
+@48   = ~Huh, ein Demi-Leichnam!? Den GÃ¶ttern sei Dank, dass Ihr ihn beseitigt habt!... Ich hoffe, Ihr seid mit dem Schatz zufrieden.~
 
 @49   = ~Ja, das bin ich. Ich gehe jetzt wieder.~
 
@@ -102,6 +102,6 @@
 
 @51   = ~Danke nochmals, dass Ihr den Demi-Leichnam beseitgt habt.~
 
-@52   = ~Vielen Dank, dass Ir das Grabe meines Vaters von diesem Demi-Leichnam gesäubert habt.~
+@52   = ~Vielen Dank, dass Ir das Grabe meines Vaters von diesem Demi-Leichnam gesÃ¤ubert habt.~
 
 @53   = ~In Ordnung. Vielen Dank. Ich werde jetzt in das Grab meines Vaters gehen.~

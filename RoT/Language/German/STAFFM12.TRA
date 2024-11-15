@@ -1,6 +1,6 @@
-@0    = ~Ahh... willkommen. Hier könnt Ihr Euch für die Arenakämpfe registrieren lassen. Am ersten Tag finden die Kämpfe für niedrigststufige Kombattanten statt. Möchte jemand von Euch teilnehmen?~
+@0    = ~Ahh... willkommen. Hier kÃ¶nnt Ihr Euch fÃ¼r die ArenakÃ¤mpfe registrieren lassen. Am ersten Tag finden die KÃ¤mpfe fÃ¼r niedrigststufige Kombattanten statt. MÃ¶chte jemand von Euch teilnehmen?~
 
-@1    = ~Ich, <CHARNAME>, werde kämpfen.~
+@1    = ~Ich, <CHARNAME>, werde kÃ¤mpfen.~
 
 @2    = ~Dieser Mann hier, Tapio Perkiomaki.~
 
@@ -14,31 +14,31 @@
 
 @7    = ~Nein, daran haben wir kein Interesse. Auf Wiedersehen.~
 
-@8    = ~Entschuldigt bitte, aber Ihr habt nicht genügend Gold für eine Teilnahme. Ihr benötigt eintausend Goldstücke für die Anmeldung.~
+@8    = ~Entschuldigt bitte, aber Ihr habt nicht genÃ¼gend Gold fÃ¼r eine Teilnahme. Ihr benÃ¶tigt eintausend GoldstÃ¼cke fÃ¼r die Anmeldung.~
 
-@9    = ~OGut, gebt mir eintausend Goldstücke und ich werde Euch einschreiben.~
+@9    = ~OGut, gebt mir eintausend GoldstÃ¼cke und ich werde Euch einschreiben.~
 
 @10   = ~Hier sind die tausend.~
 
 @11   = ~Eintausend! Soviel zahle ich nicht.~
 
-@12   = ~Vielen Dank. Geht nun zum Einweiser an der südlichen Kampfgrube. Er wird Euch weiter instruieren.~
+@12   = ~Vielen Dank. Geht nun zum Einweiser an der sÃ¼dlichen Kampfgrube. Er wird Euch weiter instruieren.~
 
-@13   = ~Nun ja, dann kehrt zurück, wenn Ihr Eure Meinung doch noch ändert. Die ausgesetzten Gewinne sind sicherlich das eingesetzte Gold wert.~
+@13   = ~Nun ja, dann kehrt zurÃ¼ck, wenn Ihr Eure Meinung doch noch Ã¤ndert. Die ausgesetzten Gewinne sind sicherlich das eingesetzte Gold wert.~
 
-@14   = ~Gut, gebt mir eintausend Goldmünzen und ich werde ihn einschreiben.~
+@14   = ~Gut, gebt mir eintausend GoldmÃ¼nzen und ich werde ihn einschreiben.~
 
-@15   = ~Gut, gebt mir eintausend Goldmünzen und ich werde sie einschreiben.~
+@15   = ~Gut, gebt mir eintausend GoldmÃ¼nzen und ich werde sie einschreiben.~
 
-@16   = ~Ihr seid soch schon registriert. Geht jetzt zum Einweiser an der südlichen Kampfgrube.~
+@16   = ~Ihr seid soch schon registriert. Geht jetzt zum Einweiser an der sÃ¼dlichen Kampfgrube.~
 
-@17   = ~Ahh... willkommen. Hier könnt Ihr Euch für die Arenakämpfe registrieren lassen. Am zweiten Tag finden die Kämpfe für niedrigstufige Kombattanten statt. Möchte jemand von Euch daran teilnehmen?~
+@17   = ~Ahh... willkommen. Hier kÃ¶nnt Ihr Euch fÃ¼r die ArenakÃ¤mpfe registrieren lassen. Am zweiten Tag finden die KÃ¤mpfe fÃ¼r niedrigstufige Kombattanten statt. MÃ¶chte jemand von Euch daran teilnehmen?~
 
-@18   = ~Ahh... willkommen. Hier könnt Ihr Euch für die Arenakämpfe registrieren lassen. Am dritten Tag finden die Kämpfe für erfahrene Kombattanten statt. Möchte jemand von Euch teilnehmen?~
+@18   = ~Ahh... willkommen. Hier kÃ¶nnt Ihr Euch fÃ¼r die ArenakÃ¤mpfe registrieren lassen. Am dritten Tag finden die KÃ¤mpfe fÃ¼r erfahrene Kombattanten statt. MÃ¶chte jemand von Euch teilnehmen?~
 
-@19   = ~Ahh... willkommen. Hier könnt Ihr Euch für die Arenakämpfe registrieren lassen. Am vierten Tag finden die Kämpfe für hochstufige Kombattanten statt. Möchte jemand von Euch teilnehmen?~
+@19   = ~Ahh... willkommen. Hier kÃ¶nnt Ihr Euch fÃ¼r die ArenakÃ¤mpfe registrieren lassen. Am vierten Tag finden die KÃ¤mpfe fÃ¼r hochstufige Kombattanten statt. MÃ¶chte jemand von Euch teilnehmen?~
 
-@20   = ~Ahh... willkommen. Hier könnt Ihr Euch für die finale Arenarunde registrieren lassen. Am fünften Tag finden die Kämpfe für die ultimativen Krieger statt. Möchte jemand von Euch teilnehmen?~
+@20   = ~Ahh... willkommen. Hier kÃ¶nnt Ihr Euch fÃ¼r die finale Arenarunde registrieren lassen. Am fÃ¼nften Tag finden die KÃ¤mpfe fÃ¼r die ultimativen Krieger statt. MÃ¶chte jemand von Euch teilnehmen?~
 
 @21   = ~Der erste Tag ist vorbei. Wartet auf den zweiten.~
 
@@ -46,10 +46,10 @@
 
 @23   = ~Der dritte Tag ist vorbei. Wartet auf den vierten.~
 
-@24   = ~Der vierte Tag ist vorbei. Wartet auf den fünften.~
+@24   = ~Der vierte Tag ist vorbei. Wartet auf den fÃ¼nften.~
 
-@25   = ~Für dieses Jahr sind die Arenakämpfe beendet. Kommt nächstes Jahr wieder.~
+@25   = ~FÃ¼r dieses Jahr sind die ArenakÃ¤mpfe beendet. Kommt nÃ¤chstes Jahr wieder.~
 
-@26   = ~Ihr seid soch schon registriert. Geht jetzt zum Einweiser an der nördlichen Kampfgrube. In dieser Grube findet der Finalkampf statt.~
+@26   = ~Ihr seid soch schon registriert. Geht jetzt zum Einweiser an der nÃ¶rdlichen Kampfgrube. In dieser Grube findet der Finalkampf statt.~
 
-@27   = ~Vielen Dank. Geht jetzt zum Einweiser an der nördlichen Kampfgrube. Er wird Euch weiterhelfen.~
+@27   = ~Vielen Dank. Geht jetzt zum Einweiser an der nÃ¶rdlichen Kampfgrube. Er wird Euch weiterhelfen.~

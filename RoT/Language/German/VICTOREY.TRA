@@ -1,75 +1,75 @@
-@0    = ~Hier könnt Ihr etwas über das Erstellen von Dialogen, Scripten, NPCs und dem Setzen von Globals erfahren. Was möchtet Ihr gerne wissen?~
+@0    = ~Hier kÃ¶nnt Ihr etwas Ã¼ber das Erstellen von Dialogen, Scripten, NPCs und dem Setzen von Globals erfahren. Was mÃ¶chtet Ihr gerne wissen?~
 
-@1    = ~Lasst uns über Dialoge sprechen.~
+@1    = ~Lasst uns Ã¼ber Dialoge sprechen.~
 
-@2    = ~Lasst uns über das scripten sprechen.~
+@2    = ~Lasst uns Ã¼ber das scripten sprechen.~
 
-@3    = ~Lasst uns über die Globals sprechen.~
+@3    = ~Lasst uns Ã¼ber die Globals sprechen.~
 
-@4    = ~Lasst uns über die NPCs sprechen.~
+@4    = ~Lasst uns Ã¼ber die NPCs sprechen.~
 
-@5    = ~Ich möchte zur Zeit über nichts davon sprechen.~
+@5    = ~Ich mÃ¶chte zur Zeit Ã¼ber nichts davon sprechen.~
 
-@6    = ~Gut. Momentan gibt es zwei verschiedene Tools zur Erstellung von Dialogen. Den Infinity Dialog Workshop und die Infinity Dialog Utility. Über welches dieser Tools möchtet Ihr mehr erfahren?~
+@6    = ~Gut. Momentan gibt es zwei verschiedene Tools zur Erstellung von Dialogen. Den Infinity Dialog Workshop und die Infinity Dialog Utility. Ãœber welches dieser Tools mÃ¶chtet Ihr mehr erfahren?~
 
-@7    = ~Ich würde gerne etwas über die Dialoge im Allgemeinen hören.~
+@7    = ~Ich wÃ¼rde gerne etwas Ã¼ber die Dialoge im Allgemeinen hÃ¶ren.~
 
-@8    = ~Erzählt mir von dem Dialog Utility.~
+@8    = ~ErzÃ¤hlt mir von dem Dialog Utility.~
 
-@9    = ~Erzählt mir vom Dialog Workshop.~
+@9    = ~ErzÃ¤hlt mir vom Dialog Workshop.~
 
-@10   = ~Ich möchte zur Zeit nichts weiter lernen.~
+@10   = ~Ich mÃ¶chte zur Zeit nichts weiter lernen.~
 
-@11   = ~Gut. Möchtet Ihr dann das Thema wechseln?~
+@11   = ~Gut. MÃ¶chtet Ihr dann das Thema wechseln?~
 
-@12   = ~Ja, ich möchte über etwas anderes mit Euch sprechen.~
+@12   = ~Ja, ich mÃ¶chte Ã¼ber etwas anderes mit Euch sprechen.~
 
-@13   = ~Nein. Dieses Gespräch ist beendet.~
+@13   = ~Nein. Dieses GesprÃ¤ch ist beendet.~
 
 @14   = ~Nun ja, sie sind vom Aufbau her recht simpel. Ihr schreibt einfach den Text nieder den Ihr im Spiel sehen wollt. Die Aufbaustruktur ist immer "Das was die Kreatur sagt", "Eure Erwiederung", "was die Kreatur sagt", "Eure Erwiederung"...~
 
-@15   = ~Ihr könnt auch "Eure Erwiederung" (Option) frei lassen um den Part "was die Kreatur sagt" (Text) länger zu lassen als nur eine einzige Dialogbox. Ihr könnt den Dialog auch mit einem "Link" versehen, so dass sich mehr als zwei Kreaturen am Dialog beteiligen.~
+@15   = ~Ihr kÃ¶nnt auch "Eure Erwiederung" (Option) frei lassen um den Part "was die Kreatur sagt" (Text) lÃ¤nger zu lassen als nur eine einzige Dialogbox. Ihr kÃ¶nnt den Dialog auch mit einem "Link" versehen, so dass sich mehr als zwei Kreaturen am Dialog beteiligen.~
 
-@16   = ~Es gibt eine "Condition Box" für den Satz, der den Dialog beginnen soll. Es muss immer ein bestimmtes Ereignis stattfinden, damit die Kreatur ihren Dialog startet. Sprecht mit mir über Globals, um mehr zu diesem Thema zu erfahren.~
+@16   = ~Es gibt eine "Condition Box" fÃ¼r den Satz, der den Dialog beginnen soll. Es muss immer ein bestimmtes Ereignis stattfinden, damit die Kreatur ihren Dialog startet. Sprecht mit mir Ã¼ber Globals, um mehr zu diesem Thema zu erfahren.~
 
-@17   = ~Als Optionen gibt es eine "Condition box", eine "Action box" und eine "Journal Entry box". Sprecht mit mir über Globals, um mehr über dieses Thema zu erfahren.~
+@17   = ~Als Optionen gibt es eine "Condition box", eine "Action box" und eine "Journal Entry box". Sprecht mit mir Ã¼ber Globals, um mehr Ã¼ber dieses Thema zu erfahren.~
 
-@18   = ~Ich benötige keine weiteren Informationen zur Dialogerstellung.~
+@18   = ~Ich benÃ¶tige keine weiteren Informationen zur Dialogerstellung.~
 
-@19   = ~Das war's soweit zum ersten Dialogtool, welches ich übrigens am häufigsten zur Dialogerstellung in meinem Mod benutzt habe. Es gibt keinerlei schwierige oder komplizierte Erweiterungen in diesem Editor und er ist viel einfacher und klarer aufgebaut als der "Infinity Dialog Workshop".~
+@19   = ~Das war's soweit zum ersten Dialogtool, welches ich Ã¼brigens am hÃ¤ufigsten zur Dialogerstellung in meinem Mod benutzt habe. Es gibt keinerlei schwierige oder komplizierte Erweiterungen in diesem Editor und er ist viel einfacher und klarer aufgebaut als der "Infinity Dialog Workshop".~
 
-@20   = ~Dieser sollte nur für verlinkte Dialoge benutzt werden. Der "IDWorkshop" kann mehrere Dialoge gleichzeitig öffnen, was es einfacher macht, einen angewählten Dialog mit einem anderen geöffneten Dialog an der richtigen Stelle zu verlinken, indem man den zu verlinkenden Dialog mit dem Klick "link here" versieht. (Ich hoffe, dieser Satz ist verständlich)~
+@20   = ~Dieser sollte nur fÃ¼r verlinkte Dialoge benutzt werden. Der "IDWorkshop" kann mehrere Dialoge gleichzeitig Ã¶ffnen, was es einfacher macht, einen angewÃ¤hlten Dialog mit einem anderen geÃ¶ffneten Dialog an der richtigen Stelle zu verlinken, indem man den zu verlinkenden Dialog mit dem Klick "link here" versieht. (Ich hoffe, dieser Satz ist verstÃ¤ndlich)~
 
-@21   = ~Wenn Ihr nicht wisst, was "linking" bedeutet, so stellt Euch vor, Ihr verknüpft damit eine Dialogzeile von Korgan mit einer Dialogzeile von Edwin und lasst die beiden so miteinander sprechen.~
+@21   = ~Wenn Ihr nicht wisst, was "linking" bedeutet, so stellt Euch vor, Ihr verknÃ¼pft damit eine Dialogzeile von Korgan mit einer Dialogzeile von Edwin und lasst die beiden so miteinander sprechen.~
 
-@22   = ~Dieses Tool sollte auch für die Anhängung von Sound-Dateien an Dialogzeilen genutzt werden.~
+@22   = ~Dieses Tool sollte auch fÃ¼r die AnhÃ¤ngung von Sound-Dateien an Dialogzeilen genutzt werden.~
 
 @23   = ~Nun denn. Hier also ein kleiner Leitfaden zur Erstellung von Scripten:~
 
-@24   = ~Scripte können ganz einfach mit "NotePad" geschrieben werden, wenngleich ich auch den "Infinity Script Editor" empfehle. Es gibt zwei verschiedene Arten von Script-Dateien: gepackte (compiled) und nicht gepackte (decompiled). Die Scripte müssen gepackt "compiled" sein, um im Spiel zu funktionieren.~
+@24   = ~Scripte kÃ¶nnen ganz einfach mit "NotePad" geschrieben werden, wenngleich ich auch den "Infinity Script Editor" empfehle. Es gibt zwei verschiedene Arten von Script-Dateien: gepackte (compiled) und nicht gepackte (decompiled). Die Scripte mÃ¼ssen gepackt "compiled" sein, um im Spiel zu funktionieren.~
 
-@25   = ~Ein Script zu packen (compiled) ist ganz einfach. Einfach auf "compile" im Script Editor klicken. Der Editor checkt das Scripts auf eventuelle typos oder andere Fehler und benachrichtigt Euch nach dem Packen darüber. Denkt daran, Eure Scripts auch ins Override-Verzeichnis zu verschieben.~
+@25   = ~Ein Script zu packen (compiled) ist ganz einfach. Einfach auf "compile" im Script Editor klicken. Der Editor checkt das Scripts auf eventuelle typos oder andere Fehler und benachrichtigt Euch nach dem Packen darÃ¼ber. Denkt daran, Eure Scripts auch ins Override-Verzeichnis zu verschieben.~
 
-@26   = ~Und nun zum Scripten selbst. Alle Zeilen, die Ihr verwenden könnt, befinden sich als .IDE-Dateien im "script compiler"-Verzeichnis. Mit Scripten könnt Ihr nahezu alles kontrollieren, was im Spiel passieren soll.~
+@26   = ~Und nun zum Scripten selbst. Alle Zeilen, die Ihr verwenden kÃ¶nnt, befinden sich als .IDE-Dateien im "script compiler"-Verzeichnis. Mit Scripten kÃ¶nnt Ihr nahezu alles kontrollieren, was im Spiel passieren soll.~
 
-@27   = ~Die Scripting-Zeilen sind selbsterklärend, so das ich nichts weiter dazu sagen muss. Die Struktur der Scripte ist immer gleich. IF - THEN - RESPONSE  #100 (Die Nummer kann durch etwas Anderes, z.B. einen erweiterten Spezialfall ersetzt werden) - END.~
+@27   = ~Die Scripting-Zeilen sind selbsterklÃ¤rend, so das ich nichts weiter dazu sagen muss. Die Struktur der Scripte ist immer gleich. IF - THEN - RESPONSE  #100 (Die Nummer kann durch etwas Anderes, z.B. einen erweiterten Spezialfall ersetzt werden) - END.~
 
-@28   = ~Öffnet einfach einmal ein paar Scripte aus dem Spiel, um Euch Ideen zu holen, was alles geht und wie es funktioniert. Es gibt auch mehrere Tutorials fürs Scripten, so dass Ihr Euch auch dort noch Tips holen könnt.~
+@28   = ~Ã–ffnet einfach einmal ein paar Scripte aus dem Spiel, um Euch Ideen zu holen, was alles geht und wie es funktioniert. Es gibt auch mehrere Tutorials fÃ¼rs Scripten, so dass Ihr Euch auch dort noch Tips holen kÃ¶nnt.~
 
-@29   = ~Möchtet Ihr noch über etwas anderes Bescheid wissen?~
+@29   = ~MÃ¶chtet Ihr noch Ã¼ber etwas anderes Bescheid wissen?~
 
-@30   = ~Ja bitte, lasst uns noch einmal an den Beginn des Gespräches zurückkehren.~
+@30   = ~Ja bitte, lasst uns noch einmal an den Beginn des GesprÃ¤ches zurÃ¼ckkehren.~
 
 @31   = ~Hier kommt etwas zum Thema Globals:~
 
-@32   = ~Die Globals sorgen dafür, dass alle Ereignisse im Spiel in der richtigen Reihenfolge ablaufen. Zum Beispiel können die Dialoge durch Globals kontrolliert werden. Der Anstoß für die erste Zeile eines Dialoges könnte folgendermaßen lauten: "Global("MMHDialog","LOCALS",0)".~
+@32   = ~Die Globals sorgen dafÃ¼r, dass alle Ereignisse im Spiel in der richtigen Reihenfolge ablaufen. Zum Beispiel kÃ¶nnen die Dialoge durch Globals kontrolliert werden. Der AnstoÃŸ fÃ¼r die erste Zeile eines Dialoges kÃ¶nnte folgendermaÃŸen lauten: "Global("MMHDialog","LOCALS",0)".~
 
-@33   = ~Der Dialog könnte enden mit "SetGlobal("MMHDialog","LOCALS",1)", so dass bei der nächsten Ansprache nicht wieder mit der ersten Zeile des Dialoges (LOCALS,0), sondern mit der nächsten begonnen wird (LOCALS,1).~
+@33   = ~Der Dialog kÃ¶nnte enden mit "SetGlobal("MMHDialog","LOCALS",1)", so dass bei der nÃ¤chsten Ansprache nicht wieder mit der ersten Zeile des Dialoges (LOCALS,0), sondern mit der nÃ¤chsten begonnen wird (LOCALS,1).~
 
-@34   = ~Es gibt drei verschiedene Arten von Globals. "LOCALS" betrifft nur die avisierte Kreatur. "ARXXXX" betrifft nur das avisierte Gebiet (ersetzt XXXX durch die betroffene Gebiets-Nummer) und "GLOBAL" betrifft alles überall.~
+@34   = ~Es gibt drei verschiedene Arten von Globals. "LOCALS" betrifft nur die avisierte Kreatur. "ARXXXX" betrifft nur das avisierte Gebiet (ersetzt XXXX durch die betroffene Gebiets-Nummer) und "GLOBAL" betrifft alles Ã¼berall.~
 
-@35   = ~Globals können auch in Scripten und Dialogen verwendet werden. Aber natürlich gibt es auch noch viele andere Verwendungen für sie.~
+@35   = ~Globals kÃ¶nnen auch in Scripten und Dialogen verwendet werden. Aber natÃ¼rlich gibt es auch noch viele andere Verwendungen fÃ¼r sie.~
 
-@36   = ~All dies ist schwer zu erklären, öffnet doch einfach einmal verschiedene Scripts und Dialoge, um den Wortlaut einiger Globals zu sehen und deren Aufbau bzw. ihre Auswirkungen auf das Spiel oder die Charactere zu erkennen.~
+@36   = ~All dies ist schwer zu erklÃ¤ren, Ã¶ffnet doch einfach einmal verschiedene Scripts und Dialoge, um den Wortlaut einiger Globals zu sehen und deren Aufbau bzw. ihre Auswirkungen auf das Spiel oder die Charactere zu erkennen.~
 
-@37   = ~Das kreieren von NPCs funktioniert im Grunde genommen genauso wie die Kreaturenerschaffung auch. Ihr müsst nur die Informationen über den neuen NPC in den 2DA-Dateien  "Npclevel", "Pdialog" und "Interdia" speichern, um ihn einsatzfähig zu machen. Seht Euch mal ein paar existierende NPC an. Es gibt auch ein eigenes Tutorial zur NPC-Erschaffung, schaut also einfach mal rein.~
+@37   = ~Das kreieren von NPCs funktioniert im Grunde genommen genauso wie die Kreaturenerschaffung auch. Ihr mÃ¼sst nur die Informationen Ã¼ber den neuen NPC in den 2DA-Dateien  "Npclevel", "Pdialog" und "Interdia" speichern, um ihn einsatzfÃ¤hig zu machen. Seht Euch mal ein paar existierende NPC an. Es gibt auch ein eigenes Tutorial zur NPC-Erschaffung, schaut also einfach mal rein.~

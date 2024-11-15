@@ -1,6 +1,6 @@
-@0    = ~Drizzt und Wulfgar! Ihr könnt Euch nicht vorstellen, wie froh ich bin, Euch zu sehen!~ [Regis7]
+@0    = ~Drizzt und Wulfgar! Ihr kÃ¶nnt Euch nicht vorstellen, wie froh ich bin, Euch zu sehen!~ [Regis7]
 
-@1    = ~Ja, ich weiß. Er sandte mich mit den Dämonen, die ihr getötet habt, hierher. Die Dämonen... folterten mich.~
+@1    = ~Ja, ich weiÃŸ. Er sandte mich mit den DÃ¤monen, die ihr getÃ¶tet habt, hierher. Die DÃ¤monen... folterten mich.~
 
 @2    = ~Ja, ich wurde sofort wieder geheilt... es war schrecklich...~
 
@@ -8,17 +8,17 @@
 
 @4    = ~... na ja, Ihr wisst ja, dass wir in dringender Angelegenheit gen Mithrilhalle unterwegs waren und einen Magier um seine Hilfe bitten mussten.~
 
-@5    = ~... aber dann geschah etwas... der Spruch muß schiefgelaufen sein und ich fand mich plötzlich in einem Wald wieder... ich wusste nicht, wo ich war.~
+@5    = ~... aber dann geschah etwas... der Spruch muÃŸ schiefgelaufen sein und ich fand mich plÃ¶tzlich in einem Wald wieder... ich wusste nicht, wo ich war.~
 
 @6    = ~Dann, nach einigen Tagen, kamen ein Paar Drow und brachten mich zu einem Kristallturm. Dort sah ich Bruenor, Catti-Brie, Artemis Entreri und diesen Drow, Jarlaxle.~
 
 @7    = ~Entreri und Jarlaxle benutzten den gesprungenen Kristall, um uns zu finden und gefangenzusetzen.~
 
-@8    = ~So, hier sind wir also, die Gefangenen von Entreri und Jarlaxle. Jarlaxle erwähnte etwas über Köder irgendeiner Art...~
+@8    = ~So, hier sind wir also, die Gefangenen von Entreri und Jarlaxle. Jarlaxle erwÃ¤hnte etwas Ã¼ber KÃ¶der irgendeiner Art...~
 
-@9    = ~Nun ja, wie auch immer, ich wurde von Bruenor und Catti-Brie getrennt und von den Dämonen, die ihr getötet habt, hierher gebracht.~
+@9    = ~Nun ja, wie auch immer, ich wurde von Bruenor und Catti-Brie getrennt und von den DÃ¤monen, die ihr getÃ¶tet habt, hierher gebracht.~
 
-@10   = ~Kurz bevor Entreri mich den Dämonen überließ, sagte er zu mir: "Geht zu den Umarhügeln"... Was sollte das bedeuten?~
+@10   = ~Kurz bevor Entreri mich den DÃ¤monen Ã¼berlieÃŸ, sagte er zu mir: "Geht zu den UmarhÃ¼geln"... Was sollte das bedeuten?~
 
 @11   = ~Nun, wer ist das da? Ein Freund von dir, Drizzt?~
 
@@ -26,11 +26,11 @@
 
 @13   = ~Ich bin <CHARNAME>. Ein Freund von Drizzt.~
 
-@14   = ~Ich würde auch gerne helfen. Ich habe einige Fähigkeiten als Dieb... sollen wir dann losziehen?~
+@14   = ~Ich wÃ¼rde auch gerne helfen. Ich habe einige FÃ¤higkeiten als Dieb... sollen wir dann losziehen?~
 
-@15   = ~Diebesfähigkeiten sind immer willkommen. Es wäre mir eine Freude, Euch in meiner Gruppe zu haben.~
+@15   = ~DiebesfÃ¤higkeiten sind immer willkommen. Es wÃ¤re mir eine Freude, Euch in meiner Gruppe zu haben.~
 
-@16   = ~Es tut mir leid, aber ich kann im Moment keine weiteren Diebesfertigkeiten gebrauchen. Entschuldigt... aber bitte, geht zur Kupferkrone in Athkatla. Ich komme zu Euch, wenn ich Eure Hilfe benötige.~
+@16   = ~Es tut mir leid, aber ich kann im Moment keine weiteren Diebesfertigkeiten gebrauchen. Entschuldigt... aber bitte, geht zur Kupferkrone in Athkatla. Ich komme zu Euch, wenn ich Eure Hilfe benÃ¶tige.~
 
 @17   = ~Grossartig! Dann lasst uns gehen!~
 
@@ -40,14 +40,14 @@
 
 @20   = ~Ja. Kommt schon.~
 
-@21   = ~Nein, tut mir Leid. Geht zur Kupferkrone in Athkatla und wartet dort auf uns. Ich komme zu Euch, wenn ich Eure Hilfe benötige.~
+@21   = ~Nein, tut mir Leid. Geht zur Kupferkrone in Athkatla und wartet dort auf uns. Ich komme zu Euch, wenn ich Eure Hilfe benÃ¶tige.~
 
-@22   = ~Drizzt! Ihr könnt Euch nicht vorstellen, wie glücklich ich bin, Euch hier zu sehen!~ [Regis8]
+@22   = ~Drizzt! Ihr kÃ¶nnt Euch nicht vorstellen, wie glÃ¼cklich ich bin, Euch hier zu sehen!~ [Regis8]
 
-@23   = ~Nun, wir ziehen jetzt weiter ins Eiswindtal und benötigen dafür noch die Hilfe eines Magiers.~
+@23   = ~Nun, wir ziehen jetzt weiter ins Eiswindtal und benÃ¶tigen dafÃ¼r noch die Hilfe eines Magiers.~
 
-@24   = ~Möchtet Ihr wieder mit mir reisen?~
+@24   = ~MÃ¶chtet Ihr wieder mit mir reisen?~
 
-@25   = ~Ja, es wäre mir eine Freude. Wilkommen in der Gruppe.~
+@25   = ~Ja, es wÃ¤re mir eine Freude. Wilkommen in der Gruppe.~
 
-@26   = ~Nein, im Moment nicht. Vielleicht später.~
+@26   = ~Nein, im Moment nicht. Vielleicht spÃ¤ter.~

@@ -1,6 +1,6 @@
-@0    = ~Buenos días, <SIRMAAM>. ¿Hay algo que pueda hacer por vos?~
-@1    = ~Si, hay una cueva cerca de la ciudad. ¿Me podéis indicar como ir?~
-@2    = ~Si, podéis empezar por dejarme.~
+@0    = ~Buenos dÃ­as, <SIRMAAM>. Â¿Hay algo que pueda hacer por vos?~
+@1    = ~Si, hay una cueva cerca de la ciudad. Â¿Me podÃ©is indicar como ir?~
+@2    = ~Si, podÃ©is empezar por dejarme.~
 @3    = ~No, ahora no.~
 @4    = ~Lo siento, pero no conozco ninguna cueva, <SIRMAAM>. No hay cuevas cerca de la ciudad.~
 @5    = ~Lo siento, ahora tengo mucho trabajo...~

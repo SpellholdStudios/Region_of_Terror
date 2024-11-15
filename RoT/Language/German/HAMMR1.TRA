@@ -2,7 +2,7 @@
 
 @1    = ~Ich bin <CHARNAME>. Was wollt Ihr von mir?~
 
-@2    = ~Was für eine Ähnlichkeit! Ich werde Hamal genannt.~
+@2    = ~Was fÃ¼r eine Ã„hnlichkeit! Ich werde Hamal genannt.~
 
 @3    = ~Warum fragt Ihr? Wollt Ihr etwas?~
 
@@ -10,13 +10,13 @@
 
 @5    = ~<CHARNAME>. Und jetzt verzieht Euch!~
 
-@6    = ~Ich habe keine Zeit für Euresgleichen. Verlasst mich, oder...~
+@6    = ~Ich habe keine Zeit fÃ¼r Euresgleichen. Verlasst mich, oder...~
 
 @7    = ~Man nennt mich den Tod. STERBT!!!~
 
-@8    = ~Wer? Ich? Nun, nichts Wichtiges... Wohl kürzlich ein paar Drachen getötet? Eheh...~
+@8    = ~Wer? Ich? Nun, nichts Wichtiges... Wohl kÃ¼rzlich ein paar Drachen getÃ¶tet? Eheh...~
 
-@9    = ~Eigentlich schon. Das hättet Ihr sehen sollen. Der war sooo gross, das schwöre ich! Aber für jemanden wie mich war er nicht besonders schwer zu töten.~
+@9    = ~Eigentlich schon. Das hÃ¤ttet Ihr sehen sollen. Der war sooo gross, das schwÃ¶re ich! Aber fÃ¼r jemanden wie mich war er nicht besonders schwer zu tÃ¶ten.~
 
 @10   = ~Ja. Warum?~
 
@@ -26,11 +26,11 @@
 
 @13   = ~Ich glaube, es ist besser, wenn Ihr jetzt geht.~
 
-@14   = ~Hmm... Ihr beginnt langsam, mich zu ärgern. Wisst Ihr, was ich mit jenen tue, die mich ärgern?... ICH TÖTE SIE!! STERBT!!!~
+@14   = ~Hmm... Ihr beginnt langsam, mich zu Ã¤rgern. Wisst Ihr, was ich mit jenen tue, die mich Ã¤rgern?... ICH TÃ–TE SIE!! STERBT!!!~
 
 @15   = ~... Wirklich? Ich glaube Euch nicht... Kommt schon. Wer seid ihr?~
 
-@16   = ~Schön, mein Name ist <CHARNAME>. Was wollt Ihr?~
+@16   = ~SchÃ¶n, mein Name ist <CHARNAME>. Was wollt Ihr?~
 
 @17   = ~Nennt mir einen guten Grund, warum ich mit Euch sprechen sollte.~
 
@@ -39,7 +39,7 @@
 
 @19   = ~... Tod. STERBT!!!~
 
-@20   = ~Nicht wirklich... Wollte mich nur ein wenig unterhalten... Habt Ihr schon einmal einen Drachen getötet?~
+@20   = ~Nicht wirklich... Wollte mich nur ein wenig unterhalten... Habt Ihr schon einmal einen Drachen getÃ¶tet?~
 
 @21   = ~Nun, ich kann mich in diesem Augenblick nicht an irgendwelche erinnern...~
 
@@ -47,29 +47,29 @@
 
 @23   = ~Dann geht weg!~
 
-@24   = ~Ihr hättet mich nicht stören sollen. Wisst Ihr, was ich mit denen mache, die mich stören?... ICH TÖTE SIE!! STERBT!!!~
+@24   = ~Ihr hÃ¤ttet mich nicht stÃ¶ren sollen. Wisst Ihr, was ich mit denen mache, die mich stÃ¶ren?... ICH TÃ–TE SIE!! STERBT!!!~
 
-@25   = ~Warum? So bald? Könnten wir denn nicht ein wenig reden?~
+@25   = ~Warum? So bald? KÃ¶nnten wir denn nicht ein wenig reden?~
 
 @26   = ~Nein. Geht!~
 
 @27   = ~Nein. Sterbt!~
 
-@28   = ~Wow! Ich habe noch keinen zu Gesicht bekommen. Um die Euch die Wahrheit zu sagen, bin ich erst seit kurzem Abenteurer. Habt Ihr vielleicht ein paar hilfreiche Tips für einen Neuling?~
+@28   = ~Wow! Ich habe noch keinen zu Gesicht bekommen. Um die Euch die Wahrheit zu sagen, bin ich erst seit kurzem Abenteurer. Habt Ihr vielleicht ein paar hilfreiche Tips fÃ¼r einen Neuling?~
 
-@29   = ~Findet ein paar Idioten, die Euch folgen wollen. Lasst sie das Risiko übernehmen, während Ihr Euch um die Schätze kümmert.~
+@29   = ~Findet ein paar Idioten, die Euch folgen wollen. Lasst sie das Risiko Ã¼bernehmen, wÃ¤hrend Ihr Euch um die SchÃ¤tze kÃ¼mmert.~
 
 @30   = ~Geht in eine Taverne und betrinkt Euch, bis Ihr tot umfallt. Dann ist die Welt schon viel besser.~
 
-@31   = ~Rettet eine Prinzessin und tötet einen Drachen.~
+@31   = ~Rettet eine Prinzessin und tÃ¶tet einen Drachen.~
 
-@32   = ~Geht zu Eurer Mutter zurück. Sie fragt sich sicher schon, wo Ihr so lange bleibt.~
+@32   = ~Geht zu Eurer Mutter zurÃ¼ck. Sie fragt sich sicher schon, wo Ihr so lange bleibt.~
 
 @33   = ~Geht anderen Abenteurern nicht auf die Nerven. Verschwindet!~
 
 @34   = ~Ja. STERBT!!~
 
-@35   = ~Klingt gut! Das werde ich machen!... Jetzt könnten wir uns doch einige Abenteuergeschichten erzählen, oder?~
+@35   = ~Klingt gut! Das werde ich machen!... Jetzt kÃ¶nnten wir uns doch einige Abenteuergeschichten erzÃ¤hlen, oder?~
 
 @36   = ~Ihr hattet doch noch gar keine richtigen Abenteuer.~
 
@@ -77,33 +77,33 @@
 
 @38   = ~Gut. Ihr zuerst.~
 
-@39   = ~Also dann bitte schön! (Ihr erzählt ihm eine wahre Geschichte)~
+@39   = ~Also dann bitte schÃ¶n! (Ihr erzÃ¤hlt ihm eine wahre Geschichte)~
 
-@40   = ~Na schön! (Ihr erzählt ihm eine Lügengeschichte)~
+@40   = ~Na schÃ¶n! (Ihr erzÃ¤hlt ihm eine LÃ¼gengeschichte)~
 
 @41   = ~Ich habe eine bessere Idee. Ihr geht, und zwar jetzt!~
 
-@42   = ~Nee, ich töte Euch lieber gleich.~
+@42   = ~Nee, ich tÃ¶te Euch lieber gleich.~
 
-@43   = ~Ich hatte schon ein Abenteuer. Hört es Euch an!~
+@43   = ~Ich hatte schon ein Abenteuer. HÃ¶rt es Euch an!~
 
-@44   = ~Ich verliess gerade ein Gasthaus, als diese wunderschöne Frau auf mich zukam. Sie rief: "Helft mir! Hilfe!".~
+@44   = ~Ich verliess gerade ein Gasthaus, als diese wunderschÃ¶ne Frau auf mich zukam. Sie rief: "Helft mir! Hilfe!".~
 
-@45   = ~(Ihr hört zu.)~
+@45   = ~(Ihr hÃ¶rt zu.)~
 
 @46   = ~(Ihr unterbrecht.)~
 
-@47   = ~(Töten)~
+@47   = ~(TÃ¶ten)~
 
-@48   = ~Daraufhin sagte ich: "Fürchtet Euch nicht, meine Dame! Ich werde Euch helfen! Was ist das Problem?"~
+@48   = ~Daraufhin sagte ich: "FÃ¼rchtet Euch nicht, meine Dame! Ich werde Euch helfen! Was ist das Problem?"~
 
 @49   = ~Daraufhin antwortete sie: "Ich wurde ausgeraubt!"~
 
-@50   = ~Ich sagte: "Fürchtet Euch nicht, meine Dame! Ich werde den Dieb fangen. Wo ging er hin? Wie sah er aus?"~
+@50   = ~Ich sagte: "FÃ¼rchtet Euch nicht, meine Dame! Ich werde den Dieb fangen. Wo ging er hin? Wie sah er aus?"~
 
 @51   = ~Sie antwortete: "Ich weiss es nicht! Ich konnte ihn nicht genauer erkennen. Er war ziemlich gross. Er fesselte mich an das Bett. Ich brauchte zwei Tage, um mich zu befreien!"~
 
-@52   = ~Ich sagte: "Fürchtet Euch nicht, meine Dame! Ich werde den Dieb fangen!"... Und jetzt beginne ich damit.~
+@52   = ~Ich sagte: "FÃ¼rchtet Euch nicht, meine Dame! Ich werde den Dieb fangen!"... Und jetzt beginne ich damit.~
 
 @53   = ~Das nennt Ihr ein Abenteuer!?~
 
@@ -113,26 +113,26 @@
 
 @56   = ~Geht einfach weg!~
 
-@57   = ~Hmm... keine besonders wichtige Aufgabe. Dann kann ich Euch ja töten.~
+@57   = ~Hmm... keine besonders wichtige Aufgabe. Dann kann ich Euch ja tÃ¶ten.~
 
-@58   = ~Nur zum Spass. Habe noch nie einen gesehen. Um die Euch die Wahrheit zu sagen, bin ich erst seit kurzem Abenteurer. Habt Ihr vielleicht ein paar hilfreiche Tips für einen Neuling?~
+@58   = ~Nur zum Spass. Habe noch nie einen gesehen. Um die Euch die Wahrheit zu sagen, bin ich erst seit kurzem Abenteurer. Habt Ihr vielleicht ein paar hilfreiche Tips fÃ¼r einen Neuling?~
 
 
-@59   = ~Dann könntet Ihr mir vielleicht ein paar Tips gegen. Ich bin noch nicht lange ein Abenteurer.~
+@59   = ~Dann kÃ¶nntet Ihr mir vielleicht ein paar Tips gegen. Ich bin noch nicht lange ein Abenteurer.~
 
-@60   = ~Wie Ihr wünscht. Ich hoffe, wir treffen uns wieder!~
+@60   = ~Wie Ihr wÃ¼nscht. Ich hoffe, wir treffen uns wieder!~
 
 @61   = ~Ja. Ich auch.~
 
 @62   = ~In Hoffnung zu leben, ist immer gut.~
 
-@63   = ~Wenn ich an Eurer Stelle wäre, würde ich das nicht.~
+@63   = ~Wenn ich an Eurer Stelle wÃ¤re, wÃ¼rde ich das nicht.~
 
-@64   = ~Nun, ja. Da ist etwas dran. Das Opfer, der Böse und der Gute... Oh, seht nur auf die Uhr. Ich muss jetzt gehen! Den Dieb fangen, wisst Ihr!~
+@64   = ~Nun, ja. Da ist etwas dran. Das Opfer, der BÃ¶se und der Gute... Oh, seht nur auf die Uhr. Ich muss jetzt gehen! Den Dieb fangen, wisst Ihr!~
 
 @65   = ~Nun, ich hoffe, wir treffen uns wieder!~
 
-@66   = ~Das war ziemlich unhöflich! Ich gehe dann wohl besser. Ich hoffe, ich treffe Euch einmal mit besserer Laune wieder. Wiedersehen!~
+@66   = ~Das war ziemlich unhÃ¶flich! Ich gehe dann wohl besser. Ich hoffe, ich treffe Euch einmal mit besserer Laune wieder. Wiedersehen!~
 
 @67   = ~Ja. Machts gut!~
 
@@ -142,13 +142,13 @@
 
 @70   = ~Fangt von vorne an.~
 
-@71   = ~Um Euch zu sagen, dass Ihr gehen solltet, solange Ihr es noch könnt!~
+@71   = ~Um Euch zu sagen, dass Ihr gehen solltet, solange Ihr es noch kÃ¶nnt!~
 
-@72   = ~Euch zu töten!~
+@72   = ~Euch zu tÃ¶ten!~
 
-@73   = ~Was für eine Schande... Dann ist es wohl besser, wenn ich jetzt gehe!~
+@73   = ~Was fÃ¼r eine Schande... Dann ist es wohl besser, wenn ich jetzt gehe!~
 
-@74   = ~Warum nicht? Ich habe noch diese tolle Geschichte. Hört zu!~
+@74   = ~Warum nicht? Ich habe noch diese tolle Geschichte. HÃ¶rt zu!~
 
 @75   = ~Nun, hier ist sie!~
 
@@ -158,4 +158,4 @@
 
 @78   = ~Mir gefiel dieser Ton nicht. Ich glaube, es ist besser, wenn ich jetzt gehe...~
 
-@79   = ~Hmm... Nur zum Spass! Wohl erst kürzlich ein paar Drachen getötet? Hehheh...~
+@79   = ~Hmm... Nur zum Spass! Wohl erst kÃ¼rzlich ein paar Drachen getÃ¶tet? Hehheh...~

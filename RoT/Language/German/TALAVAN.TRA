@@ -1,22 +1,22 @@
-@0    = ~Aah... Ihr seid angekommen. Ich bin froh, dass der Bote Hilfe finden konnte. Ich habe von Eurem guten Ruf in Athkatla gehört.~ [Talava1]
+@0    = ~Aah... Ihr seid angekommen. Ich bin froh, dass der Bote Hilfe finden konnte. Ich habe von Eurem guten Ruf in Athkatla gehÃ¶rt.~ [Talava1]
 
-@1    = ~Erzählt mir zuerst die ganze Geschichte, bevor wir über eine Hilfeleistung reden.~
+@1    = ~ErzÃ¤hlt mir zuerst die ganze Geschichte, bevor wir Ã¼ber eine Hilfeleistung reden.~
 
 @2    = ~Nun, Ihr wisst anscheinend, dass ich hier und da ein paar gute Taten vollbracht habe... *Keuch* Wie kann ich zu Diensten sein?~
 
-@3    = ~Ich bin erfreut, dass meine Hilfe gebraucht wird. Könnt Ihr mir die Situation erläutern?~
+@3    = ~Ich bin erfreut, dass meine Hilfe gebraucht wird. KÃ¶nnt Ihr mir die Situation erlÃ¤utern?~
 
 @4    = ~Hilfe... schauen wir einmal. Was wird von mir verlangt?~
 
 @5    = ~Wie Ihr vielleicht wisst, haben wir vor einigen Wochen einen Boten zur anderen Burg geschickt, um Friedensverhandlungen einzuleiten. Sie wird von Olmar beherrscht.~
 
-@6    = ~Sie enthaupteten den Boten und sandten seinen Kopf zu uns zurück. Das haben wir als Kriegserklärung angesehen.~
+@6    = ~Sie enthaupteten den Boten und sandten seinen Kopf zu uns zurÃ¼ck. Das haben wir als KriegserklÃ¤rung angesehen.~
 
 @7    = ~Wir haben vor, die Sache zu bereinigen und die Burg einzunehmen.~
 
 @8    = ~... Aber wir brauchen Hilfe und dabei kommt Ihr ins Spiel.~
 
-@9    = ~Was soll ich denn für Euch tun?~
+@9    = ~Was soll ich denn fÃ¼r Euch tun?~
 
 @10   = ~Ich helfe gerne. Sagt mir nur, was ich zu tun habe.~
 
@@ -24,31 +24,31 @@
 
 @12   = ~Nee... Ich lehne ab. Ich werde Euch nicht helfen.~
 
-@13   = ~Nun, wir planen einen Frontalangriff. Ich werde meine Armee gegen ihre führen.~
+@13   = ~Nun, wir planen einen Frontalangriff. Ich werde meine Armee gegen ihre fÃ¼hren.~
 
-@14   = ~... Aber sie haben eine grosse Anzahl von Kampfmagiern in der Burg. Wir können nichts gegen sie machen.~
+@14   = ~... Aber sie haben eine grosse Anzahl von Kampfmagiern in der Burg. Wir kÃ¶nnen nichts gegen sie machen.~
 
-@15   = ~Wollt Ihr Euch nicht doch anhören, was Eure Aufgabe wäre?~
+@15   = ~Wollt Ihr Euch nicht doch anhÃ¶ren, was Eure Aufgabe wÃ¤re?~
 
 @16   = ~Nein, auf Wiedersehen.~
 
-@17   = ~...Oh, na gut! Erzählt es mir.~
+@17   = ~...Oh, na gut! ErzÃ¤hlt es mir.~
 
-@18   = ~Lasst mich Euch zuerst die Situation erklären.~
+@18   = ~Lasst mich Euch zuerst die Situation erklÃ¤ren.~
 
-@19   = ~Hier kommt Ihr ins Spiel...  Wir hätten gerne, dass Ihr mit unserer Armee mitkommt und zu einem bestimmten Zeitpunkt der Schlacht schleicht Ihr Euch durch den Geheimeingang in die Burg. Drinnen sollt Ihr die Kampfmagier und den Anführer beseitigen - wenn er nicht bei seiner Armee sein sollte.~
+@19   = ~Hier kommt Ihr ins Spiel...  Wir hÃ¤tten gerne, dass Ihr mit unserer Armee mitkommt und zu einem bestimmten Zeitpunkt der Schlacht schleicht Ihr Euch durch den Geheimeingang in die Burg. Drinnen sollt Ihr die Kampfmagier und den AnfÃ¼hrer beseitigen - wenn er nicht bei seiner Armee sein sollte.~
 
-@20   = ~Unglücklicherweise braucht man für den geheimen Eingang einen magischen Schlüssel. Ihr müsst ihn Euch irgendwie besorgen.~
+@20   = ~UnglÃ¼cklicherweise braucht man fÃ¼r den geheimen Eingang einen magischen SchlÃ¼ssel. Ihr mÃ¼sst ihn Euch irgendwie besorgen.~
 
-@21   = ~Warum braucht Ihr mich? Warum können Eure Männer dies nicht erledigen?~
+@21   = ~Warum braucht Ihr mich? Warum kÃ¶nnen Eure MÃ¤nner dies nicht erledigen?~
 
-@22   = ~Klingt nach Spass. Ich werde es machen, aber wie komme ich an den magischen Schlüssel?~
+@22   = ~Klingt nach Spass. Ich werde es machen, aber wie komme ich an den magischen SchlÃ¼ssel?~
 
 @23   = ~Das ist mir eine Nummer zu gross. Ich werde es nicht machen.~
 
-@24   = ~Sie sind nicht mächtig genug. Und ausserdem brauchen wir jemanden, der den magischen Schlüssel vor der Schlacht besorgt. Ihr seid Fremde, daher wird man Euch nicht gleich beim ersten Anblick töten.~
+@24   = ~Sie sind nicht mÃ¤chtig genug. Und ausserdem brauchen wir jemanden, der den magischen SchlÃ¼ssel vor der Schlacht besorgt. Ihr seid Fremde, daher wird man Euch nicht gleich beim ersten Anblick tÃ¶ten.~
 
-@25   = ~Der Plan sieht vor, dass Ihr zu der Burg geht, vorgebt, ihnen helfen zu wollen und Euch unter einem Vorwand den magischen Schlüssel besorgt. Dann kehrt Ihr hierher zurück und wir werden den Angriff starten.~
+@25   = ~Der Plan sieht vor, dass Ihr zu der Burg geht, vorgebt, ihnen helfen zu wollen und Euch unter einem Vorwand den magischen SchlÃ¼ssel besorgt. Dann kehrt Ihr hierher zurÃ¼ck und wir werden den Angriff starten.~
 
 @26   = ~Klingt gut! Ich mache es. Wo liegt diese Burg?~
 
@@ -56,40 +56,40 @@
 
 @28   = ~Nein, ich werde es nicht machen. Zu riskant.~
 
-@29   = ~Vielen Dank!... Zeigt mir Eure Karte... dort. Bitte geht schnellstmöglich dorthin. Aber wenn Ihr möchtet, könnt Ihr auch ein paar Tage hier bleiben.~
+@29   = ~Vielen Dank!... Zeigt mir Eure Karte... dort. Bitte geht schnellstmÃ¶glich dorthin. Aber wenn Ihr mÃ¶chtet, kÃ¶nnt Ihr auch ein paar Tage hier bleiben.~
 
-@30   = ~Ja, natürlich. Darin befinden sich viele magische Gegenstände und sehr viel Gold.~
+@30   = ~Ja, natÃ¼rlich. Darin befinden sich viele magische GegenstÃ¤nde und sehr viel Gold.~
 
 @31   = ~Gut, dann werde ich es machen. Wo ist diese andere Burg?~
 
 @32   = ~Klingt gar nicht gut. Das mache ich nicht.~
 
-@33   = ~... In Ordnung... Kommt zurück, falls Ihr es Euch anders überlegen solltet...~
+@33   = ~... In Ordnung... Kommt zurÃ¼ck, falls Ihr es Euch anders Ã¼berlegen solltet...~
 
-@34   = ~Ihr kehrt zurück... Habt Ihr es Euch überlegt?~
+@34   = ~Ihr kehrt zurÃ¼ck... Habt Ihr es Euch Ã¼berlegt?~
 
-@35   = ~Zuerst würde ich gerne erfahren, was genau ich zu tun habe.~
+@35   = ~Zuerst wÃ¼rde ich gerne erfahren, was genau ich zu tun habe.~
 
-@36   = ~Ich helfe Euch trotz allem, aber wie bekomme ich den magischen Schlüssel?~
+@36   = ~Ich helfe Euch trotz allem, aber wie bekomme ich den magischen SchlÃ¼ssel?~
 
-@37   = ~Ich habe mich entschlossen, es zu tun. Erklärt mir, wo genau diese Burg liegt.~
+@37   = ~Ich habe mich entschlossen, es zu tun. ErklÃ¤rt mir, wo genau diese Burg liegt.~
 
 @38   = ~Nein, habe ich nicht. Wiedersehen.~
 
-@39   = ~Ah... Ihr wollt es Euch anhören.~
+@39   = ~Ah... Ihr wollt es Euch anhÃ¶ren.~
 
-@40   = ~Habt Ihr den magischen Schlüssel bekommen?~
+@40   = ~Habt Ihr den magischen SchlÃ¼ssel bekommen?~
 
 @41   = ~Nein, noch nicht.~
 
 @42   = ~Ja, hier ist er.~
 
-@43   = ~Kehrt zurück, wenn Ihr ihn habt.~
+@43   = ~Kehrt zurÃ¼ck, wenn Ihr ihn habt.~
 
-@44   = ~Ausgezeichnet! Wir werden den Angriff sofort starten. Denkt an Eure Aufgabe... tötet jeden, der sich darin befindet. Und Ihr müsst schnell sein. Die Magier dürfen sich nicht gegen meine Armee wenden.~
+@44   = ~Ausgezeichnet! Wir werden den Angriff sofort starten. Denkt an Eure Aufgabe... tÃ¶tet jeden, der sich darin befindet. Und Ihr mÃ¼sst schnell sein. Die Magier dÃ¼rfen sich nicht gegen meine Armee wenden.~
 
-@45   = ~Ich werde den Schlüssel jetzt nehmen. Ihr werdet ihn wieder bekommen, wenn es für Euch an der Zeit ist, aufzubrechen... Wir werden im traditionellen Stil angreifen. Elitetruppen gegen Elitetruppen. Das wird einige Zeit in Anspruch nehmen, deswegen werdet Ihr wahrscheinlich nicht die komplette Schlacht mitbekommen... Lasst uns trotzdem meine Männer sammeln. Die Magier werden bleiben und die Burg verteidigen.~
+@45   = ~Ich werde den SchlÃ¼ssel jetzt nehmen. Ihr werdet ihn wieder bekommen, wenn es fÃ¼r Euch an der Zeit ist, aufzubrechen... Wir werden im traditionellen Stil angreifen. Elitetruppen gegen Elitetruppen. Das wird einige Zeit in Anspruch nehmen, deswegen werdet Ihr wahrscheinlich nicht die komplette Schlacht mitbekommen... Lasst uns trotzdem meine MÃ¤nner sammeln. Die Magier werden bleiben und die Burg verteidigen.~
 
-@46   = ~Danke für Eure Hilfe, <CHARNAME>. Ihr seid wahrhaft heldenhaft.~ [Talava4]
+@46   = ~Danke fÃ¼r Eure Hilfe, <CHARNAME>. Ihr seid wahrhaft heldenhaft.~ [Talava4]
 
 @47   = ~Wenn Ihr noch Fragen haben sollten, dann kann Eranda Euch Rede und Antwort stehen.~

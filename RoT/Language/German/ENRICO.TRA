@@ -1,7 +1,7 @@
-@0    = ~Ich bin hier, um Euch etwas über die Erstellung neuer Kreaturen und das Editieren alter Kreaturen zu erzählen.~
+@0    = ~Ich bin hier, um Euch etwas Ã¼ber die Erstellung neuer Kreaturen und das Editieren alter Kreaturen zu erzÃ¤hlen.~
 
-@1    = ~Der Creature Maker ist sehr einfach zu benutzen. Einfach nur den Namen der Kreatur und deren Bio zur dialog.tlk-Datei hinzufügen. Andererseits wird sie im Spiel nicht angezeigt.~
+@1    = ~Der Creature Maker ist sehr einfach zu benutzen. Einfach nur den Namen der Kreatur und deren Bio zur dialog.tlk-Datei hinzufÃ¼gen. Andererseits wird sie im Spiel nicht angezeigt.~
 
-@2    = ~Man füllt einfach nur Felder aus. Es ist genau festgelegt, was man in die einzelnen Felder eintragen soll und nachdem die Kreatur fertig ist, wird sie in den override-Ordner kopiert, damit man sie im Spiel benutzen kann.~
+@2    = ~Man fÃ¼llt einfach nur Felder aus. Es ist genau festgelegt, was man in die einzelnen Felder eintragen soll und nachdem die Kreatur fertig ist, wird sie in den override-Ordner kopiert, damit man sie im Spiel benutzen kann.~
 
-@3    = ~Das Feld "Death Variable" muss mit dem Namen der Kreatur ausgefüllt werden. Der Text im "death variable" Feld wird bei den Scripten benutzt.~
+@3    = ~Das Feld "Death Variable" muss mit dem Namen der Kreatur ausgefÃ¼llt werden. Der Text im "death variable" Feld wird bei den Scripten benutzt.~

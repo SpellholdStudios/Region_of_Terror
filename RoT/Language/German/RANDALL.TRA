@@ -1,4 +1,4 @@
-@0    = ~Was wollt Ihr? Ich bin nicht in Stimmung für eine Unterhaltung.~ [RAN_COM1]
+@0    = ~Was wollt Ihr? Ich bin nicht in Stimmung fÃ¼r eine Unterhaltung.~ [RAN_COM1]
 
 @1    = ~Wer seid Ihr?~
 
@@ -10,9 +10,9 @@
 
 @5    = ~Ich werde <CHARNAME> genannt. Freut mich, Euch kennenzulernen.~
 
-@6    = ~Das sagt nicht sehr viel über Euch aus. "Wer" seid Ihr?~
+@6    = ~Das sagt nicht sehr viel Ã¼ber Euch aus. "Wer" seid Ihr?~
 
-@7    = ~Warum seid Ihr so unhöflich?~
+@7    = ~Warum seid Ihr so unhÃ¶flich?~
 
 @8    = ~Seit wann gibt es Leute, die sich freuen, mich kennenzulernen? Warum wollt Ihr mit mir sprechen?~
 
@@ -20,43 +20,43 @@
 
 @10   = ~Ich war nur neugierig. Was macht Ihr denn hier?~
 
-@11   = ~Ich suche nach ein paar Reisegefährten. Ihr scheint nützlich zu sein.~
+@11   = ~Ich suche nach ein paar ReisegefÃ¤hrten. Ihr scheint nÃ¼tzlich zu sein.~
 
 @12   = ~Ohne bestimmten Grund.~
 
-@13   = ~Nun, ich bin keine besonders fröhliche Seele, und wenn Ihr nichts Besseres zu tun habt, als dumme Fragen zu stellen, lasst mich bitte in Ruhe.~
+@13   = ~Nun, ich bin keine besonders frÃ¶hliche Seele, und wenn Ihr nichts Besseres zu tun habt, als dumme Fragen zu stellen, lasst mich bitte in Ruhe.~
 
-@14   = ~Eigentlich wollte ich Euch fragen, ob Ihr meiner Gruppe beitreten wollt. Ich suche nämlich nach neuen Reisegefährten.~
+@14   = ~Eigentlich wollte ich Euch fragen, ob Ihr meiner Gruppe beitreten wollt. Ich suche nÃ¤mlich nach neuen ReisegefÃ¤hrten.~
 
-@15   = ~In Ordnung. Wie Ihr wünscht.~
+@15   = ~In Ordnung. Wie Ihr wÃ¼nscht.~
 
 @16   = ~Was? Dahinter sehe ich keinen logischen Grund. Warum wollt Ihr eigentlich, dass ich mit Euch reise?~
 
-@17   = ~Ihr scheint nicht viel zu tun zu haben und seid möglicherweise ein kompetenter Magier.~
+@17   = ~Ihr scheint nicht viel zu tun zu haben und seid mÃ¶glicherweise ein kompetenter Magier.~
 
 @18   = ~Das Leben hat Euch offensichtlich schlecht behandelt. Vielleicht kann ich Euch helfen.~
 
-@19   = ~Niemand anderes ist in der Nähe.~
+@19   = ~Niemand anderes ist in der NÃ¤he.~
 
-@20   = ~Zumindest habt Ihr damit Recht, dass ich nicht viel zu tun habe. In diesem Leben bleibt mir nichts anders mehr übrig, als zu sterben... Vielleicht kommt das Ende schneller, wenn ich mich Euch anschliesse.~
+@20   = ~Zumindest habt Ihr damit Recht, dass ich nicht viel zu tun habe. In diesem Leben bleibt mir nichts anders mehr Ã¼brig, als zu sterben... Vielleicht kommt das Ende schneller, wenn ich mich Euch anschliesse.~
 
-@21   = ~Ihr seid sicher ein fröhlicher Gefährte!~
+@21   = ~Ihr seid sicher ein frÃ¶hlicher GefÃ¤hrte!~
 
-@22   = ~Ich glaube, wir werden an Eurer Einstellung etwas arbeiten müssen...~
+@22   = ~Ich glaube, wir werden an Eurer Einstellung etwas arbeiten mÃ¼ssen...~
 
 @23   = ~In Ordnung. Dann lasst uns gehen.~
 
 @24   = ~Ihr habt keine Ahnung.~
 
-@25   = ~Vorher sollte ich Euch aber noch sagen, dass ich eine alte Freundin retten muss, die von den verhüllten Magiern gefangengenommen wurde.~
+@25   = ~Vorher sollte ich Euch aber noch sagen, dass ich eine alte Freundin retten muss, die von den verhÃ¼llten Magiern gefangengenommen wurde.~
 
-@26   = ~Eines meiner Hauzptziele ist, einen mächtigen Magier namens Irenicus zu verfolgen... Nichts wird mich davon abhalten!~
+@26   = ~Eines meiner Hauzptziele ist, einen mÃ¤chtigen Magier namens Irenicus zu verfolgen... Nichts wird mich davon abhalten!~
 
-@27   = ~... Klingt gefährlich... Ich habe das Gefühl, dass ich das Ende dieser Aufgabe nicht erleben werde...~
+@27   = ~... Klingt gefÃ¤hrlich... Ich habe das GefÃ¼hl, dass ich das Ende dieser Aufgabe nicht erleben werde...~
 
 @28   = ~Nein.~
 
-@29   = ~Irgendwie bezweifle ich das... Aber ich kann mich genauso gut Euch anschliessen. Vielleicht kommt der Tod unterwegs früher...~
+@29   = ~Irgendwie bezweifle ich das... Aber ich kann mich genauso gut Euch anschliessen. Vielleicht kommt der Tod unterwegs frÃ¼her...~
 
 @30   = ~... Da frage ich mich, warum... Aber ich bin mir ziemlich sicher, den Tod schneller zu finden, wenn ich mit Euch reise. Daher werde ich mich Euch anschliessen.~
 
@@ -66,9 +66,9 @@
 
 @33   = ~Das Leben hat Euch wohl nicht gerade mit Samthandschuhen angefasst.~
 
-@34   = ~Ich bin ein Kind des Fürsten des Mordes, Bhaal. Es gibt Leute, die mich nur allein deswegen töten wollen.~
+@34   = ~Ich bin ein Kind des FÃ¼rsten des Mordes, Bhaal. Es gibt Leute, die mich nur allein deswegen tÃ¶ten wollen.~
 
-@35   = ~Hört zu, ich suche nach Reisegefährten. Ihr scheint passend zu sein.~
+@35   = ~HÃ¶rt zu, ich suche nach ReisegefÃ¤hrten. Ihr scheint passend zu sein.~
 
 @36   = ~Es gibt keinen Grund, es nicht zu sein.~
 
@@ -76,18 +76,18 @@
 
 @38   = ~Alles klar... Namen sagen nicht viel aus. "Wer" seid Ihr?~
 
-@39   = ~Ihr scheint nicht sehr gesellschaftsfähig zu sein.~
+@39   = ~Ihr scheint nicht sehr gesellschaftsfÃ¤hig zu sein.~
 
 @40   = ~Nichts... suchend... Nein. Nichts.~
 
 @41   = ~Ihr seid offensichtlich kein Magier aus dieser Stadt. Ich habe mich nur gefragt, wer Ihr seid.~
 
 
-@42   = ~Dann sehe ich keinen Grund, dieses Gespräch weiterzuführen.~
+@42   = ~Dann sehe ich keinen Grund, dieses GesprÃ¤ch weiterzufÃ¼hren.~
 
-@43   = ~Nun, ich bin an mein Leben gewöhnt. Zumindest habe ich gelernt, dass die wahre Bedeutung des Lebens dessen Ende ist.~
+@43   = ~Nun, ich bin an mein Leben gewÃ¶hnt. Zumindest habe ich gelernt, dass die wahre Bedeutung des Lebens dessen Ende ist.~
 
-@44   = ~... Was auch immer. Jedenfalls suche ich nach neuen Reisegefährten. Interessiert?~
+@44   = ~... Was auch immer. Jedenfalls suche ich nach neuen ReisegefÃ¤hrten. Interessiert?~
 
 @45   = ~Hmm... vielleicht. Auf jeden Fall wollte ich Euch fragen, ob Ihr Euch mir vielleicht anschliessen wollt.~
 
@@ -97,7 +97,7 @@
 
 @48   = ~Und durch diesen Tod kommt Bedeutung in dieses Leben. Jeder ist dazu verdammt, einmal zu sterben, und wenn das Leben selbst keine Bedeutung hat, dann ist der Tod diese Bedeutung.~
 
-@49   = ~Hmm... auf jeden Fall hätte ich Euch gerne in meiner Gruppe.~
+@49   = ~Hmm... auf jeden Fall hÃ¤tte ich Euch gerne in meiner Gruppe.~
 
 @50   = ~Ich bin nicht in der Stimmung, das Ganze fortzusetzen. Der Grund, warum ich hier bin, ist Euch zu fragen, ob Ihr Euch mir anschliessen wollt.~
 
@@ -105,17 +105,17 @@
 
 @52   = ~Dann geht weg.~
 
-@53   = ~Wenn das der Fall sein sollte, ist meine Bedeutung, zu sterben. Ich bin nur hier, um zu sterben, und möglicherweise wird jemand davon profitieren. Möglicherweise ein Dieb. Meine einzige Bedeutung ist der Tod, um einem Dieb eine neue Robe zu geben.~
+@53   = ~Wenn das der Fall sein sollte, ist meine Bedeutung, zu sterben. Ich bin nur hier, um zu sterben, und mÃ¶glicherweise wird jemand davon profitieren. MÃ¶glicherweise ein Dieb. Meine einzige Bedeutung ist der Tod, um einem Dieb eine neue Robe zu geben.~
 
 @54   = ~... Interessant.~
 
-@55   = ~Schon gut. Auf jeden Fall suche ich nach neuen Reisegefährten. Interessiert?~
+@55   = ~Schon gut. Auf jeden Fall suche ich nach neuen ReisegefÃ¤hrten. Interessiert?~
 
-@56   = ~Nicht wirklich. Aber sei's drum. Ich suche nach neuen Reisegefährten. Interessiert?~
+@56   = ~Nicht wirklich. Aber sei's drum. Ich suche nach neuen ReisegefÃ¤hrten. Interessiert?~
 
 @57   = ~Dann werde ich Euch wohl wieder alleine lassen.~
 
-@58   = ~Wie Ihr wünscht.~
+@58   = ~Wie Ihr wÃ¼nscht.~
 
 @59   = ~Nichts... Suchend... Nein. Nichts. Fragt nicht.~
 
@@ -123,14 +123,14 @@
 
 @61   = ~Ooh, anscheinend habt Ihr die Intelligenz eines Illithiden. Diese Unterhaltung ist beendet.~
 
-@62   = ~Warum kehrt Ihr zurück?~
+@62   = ~Warum kehrt Ihr zurÃ¼ck?~
 
 @63   = ~Mein Name ist <CHARNAME>. Freut mich, Euch kennenzulernen.~
 
-@64   = ~Ich würde gerne mehr über Euch erfahren. "Wer" seid Ihr?~
+@64   = ~Ich wÃ¼rde gerne mehr Ã¼ber Euch erfahren. "Wer" seid Ihr?~
 
 @65   = ~Kein Grund.~
 
-@66   = ~Ich suche nach Reisegefährten. Interessiert?~
+@66   = ~Ich suche nach ReisegefÃ¤hrten. Interessiert?~
 
-@67   = ~Warum kehrt Ihr zurück? Warum wollt Ihr mit mir sprechen?~
+@67   = ~Warum kehrt Ihr zurÃ¼ck? Warum wollt Ihr mit mir sprechen?~

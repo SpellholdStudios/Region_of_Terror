@@ -1,60 +1,60 @@
-@0    = ~Seid gegrüßt, <SIRMAAM>. Wie darf ich Euch zu Diensten sein?~
+@0    = ~Seid gegrÃ¼ÃŸt, <SIRMAAM>. Wie darf ich Euch zu Diensten sein?~
 
 @1    = ~Habt Ihr hier etwas zu verkaufen?~
 
 @2    = ~Was ist dort hinten die Treppe hoch?~
 
-@3    = ~Was ist hinter der verschlossenen Tür dort?~
+@3    = ~Was ist hinter der verschlossenen TÃ¼r dort?~
 
-@4    = ~Könnt Ihr mir etwas über das Haus am Südrand des Dorfes erzählen?~
+@4    = ~KÃ¶nnt Ihr mir etwas Ã¼ber das Haus am SÃ¼drand des Dorfes erzÃ¤hlen?~
 
-@5    = ~Es gibt nichts, was ich im Moment gebrauchen könnte, vielen Dank.~
+@5    = ~Es gibt nichts, was ich im Moment gebrauchen kÃ¶nnte, vielen Dank.~
 
-@6    = ~Ich habe gehört, Mollys Halskette wäre gestohlen worden. Habt Ihr eine Idee, wo sie sein könnte?~
+@6    = ~Ich habe gehÃ¶rt, Mollys Halskette wÃ¤re gestohlen worden. Habt Ihr eine Idee, wo sie sein kÃ¶nnte?~
 
-@7    = ~Ja, ich habe hier einige Flaschen mit gutem Tropfen. Wollt Ihr einen Blick darauf werfen?... und ich bin mir sicher, Ihr werdet auch einen Platz für die Nacht hier finden.~
+@7    = ~Ja, ich habe hier einige Flaschen mit gutem Tropfen. Wollt Ihr einen Blick darauf werfen?... und ich bin mir sicher, Ihr werdet auch einen Platz fÃ¼r die Nacht hier finden.~
 
 @8    = ~Ja bitte, lasst mich einmal schauen.~
 
-@9    = ~Nein, im Moment nicht. Ich habe aber einige Fragen, die Ihr mir beantworten könntet.~
+@9    = ~Nein, im Moment nicht. Ich habe aber einige Fragen, die Ihr mir beantworten kÃ¶nntet.~
 
-@10   = ~Großartig! Meine Getränke sind die besten weit und breit, das kann ich Euch versprechen.~
+@10   = ~GroÃŸartig! Meine GetrÃ¤nke sind die besten weit und breit, das kann ich Euch versprechen.~
 
-@11   = ~Na ja, es gibt nicht viel, was ich weiß, aber fragt nur, wenn Ihr wollt.~
+@11   = ~Na ja, es gibt nicht viel, was ich weiÃŸ, aber fragt nur, wenn Ihr wollt.~
 
-@12   = ~Das wäre schon genug. Danke für Eure Zeit.~
+@12   = ~Das wÃ¤re schon genug. Danke fÃ¼r Eure Zeit.~
 
-@13   = ~Das gehört Hedan und seiner Familie. Sie leben dort.~
+@13   = ~Das gehÃ¶rt Hedan und seiner Familie. Sie leben dort.~
 
 @14   = ~Das ist mein eigenes. Dort lebe ich.~
 
 @15   = ~Darf ich einen Blick hinein werfen?~
 
-@16   = ~Nein, ich schätze meine Privatsphäre.~
+@16   = ~Nein, ich schÃ¤tze meine PrivatsphÃ¤re.~
 
-@17   = ~Ihr meint, das Haus mit der verschlossenen Tür?... also darüber gibt es wenig zu sagen. Wir können die Tür nicht öffnen.~
+@17   = ~Ihr meint, das Haus mit der verschlossenen TÃ¼r?... also darÃ¼ber gibt es wenig zu sagen. Wir kÃ¶nnen die TÃ¼r nicht Ã¶ffnen.~
 
-@18   = ~Dort lebte eine Familie, jedenfalls bis eines Nachts etwas unerklärliches passierte und wir die Tür nicht mehr öffnen konnten. Wir wissen nicht einmal, ob noch jemand im Haus am Leben ist.~
+@18   = ~Dort lebte eine Familie, jedenfalls bis eines Nachts etwas unerklÃ¤rliches passierte und wir die TÃ¼r nicht mehr Ã¶ffnen konnten. Wir wissen nicht einmal, ob noch jemand im Haus am Leben ist.~
 
-@19   = ~Schön zu sehen, dass Ihr zurück seit, <SIRMAAM>. Möchtet Ihr etwas?~
+@19   = ~SchÃ¶n zu sehen, dass Ihr zurÃ¼ck seit, <SIRMAAM>. MÃ¶chtet Ihr etwas?~
 
-@20   = ~Ich würde gerne einen Blick auf Eure Getränke werfen.~
+@20   = ~Ich wÃ¼rde gerne einen Blick auf Eure GetrÃ¤nke werfen.~
 
-@21   = ~Erzählt mir, was ich dort die Treppe hoch finde.~
+@21   = ~ErzÃ¤hlt mir, was ich dort die Treppe hoch finde.~
 
 @22   = ~Nein, nicht heute, danke.~
 
-@23   = ~Musik in meinen Ohren. Ich habe exzellente Getränke hier! Gut genug, um auf einem fürstlichen Bankett gereicht zu werden.~
+@23   = ~Musik in meinen Ohren. Ich habe exzellente GetrÃ¤nke hier! Gut genug, um auf einem fÃ¼rstlichen Bankett gereicht zu werden.~
 
-@24   = ~Verdächtigt Ihr etwa mich? Das ist unerhört!~
+@24   = ~VerdÃ¤chtigt Ihr etwa mich? Das ist unerhÃ¶rt!~
 
 @25   = ~Ja, das tue ich. Sie denkt, Ihr habt sie genommen.~
 
-@26   = ~Nein, natürlich nicht. Ich habe nur eine einfache Frage gestellt.~
+@26   = ~Nein, natÃ¼rlich nicht. Ich habe nur eine einfache Frage gestellt.~
 
-@27   = ~Das ist unverschämt. Ich habe keine verdammte Halskette genommen. Verdächtigt jemand anders!~
+@27   = ~Das ist unverschÃ¤mt. Ich habe keine verdammte Halskette genommen. VerdÃ¤chtigt jemand anders!~
 
-@28   = ~...also ich habe keine Ahnung, wo die Halskette sein könnte. Ihr werdet mit jemand anderem sprechen müssen.~
+@28   = ~...also ich habe keine Ahnung, wo die Halskette sein kÃ¶nnte. Ihr werdet mit jemand anderem sprechen mÃ¼ssen.~
 
 @29   = ~Habt Ihr etwas bestimmtes im Sinn?~
 
@@ -66,6 +66,6 @@
 
 @33   = ~Gut, dann werde ich gehen.~
 
-@34   = ~...na ja, Jinna könnte durchaus Interesse an einer wertvollen Halskette haben...~
+@34   = ~...na ja, Jinna kÃ¶nnte durchaus Interesse an einer wertvollen Halskette haben...~
 
 @35   = ~Danke. Ich werde dann wieder gehen.~

@@ -1,18 +1,18 @@
-@0    = ~Hallo Reisende... Hättet Ihr vielleicht Interesse, für mich eine kleine Aufgabe zu erledigen?~
+@0    = ~Hallo Reisende... HÃ¤ttet Ihr vielleicht Interesse, fÃ¼r mich eine kleine Aufgabe zu erledigen?~
 
-@1    = ~Was denn für eine Aufgabe?~
+@1    = ~Was denn fÃ¼r eine Aufgabe?~
 
 @2    = ~Nein.~
 
-@3    = ~Habt Ihr Eure Meinung geändert?~
+@3    = ~Habt Ihr Eure Meinung geÃ¤ndert?~
 
-@4    = ~Ja, ich werde für Euch auf die Jagd gehen.~
+@4    = ~Ja, ich werde fÃ¼r Euch auf die Jagd gehen.~
 
-@5    = ~Nein, ich bin ein Abenteurer, kein Jäger.~ ~Nein, ich bin eine Abenteurerin, keine Jägerin.~
+@5    = ~Nein, ich bin ein Abenteurer, kein JÃ¤ger.~ ~Nein, ich bin eine Abenteurerin, keine JÃ¤gerin.~
 
-@6    = ~Habt Ihr Fleisch auftreiben können?~
+@6    = ~Habt Ihr Fleisch auftreiben kÃ¶nnen?~
 
-@7    = ~Hier sind fünfhundertzwanzig Pfund.~
+@7    = ~Hier sind fÃ¼nfhundertzwanzig Pfund.~
 
 @8    = ~Hier sind vierhundertachtzig Pfund.~
 
@@ -38,29 +38,29 @@
 
 @19   = ~Hier sind vierzig Pfund.~
 
-@20   = ~Ihr habt jetzt genug geliefert. Diese Vorräte kamen gerade zur rechten Zeit! Vielen herzlichen Dank!~
+@20   = ~Ihr habt jetzt genug geliefert. Diese VorrÃ¤te kamen gerade zur rechten Zeit! Vielen herzlichen Dank!~
 
 @21   = ~Vielen herzlichen Dank!~
 
 @22   = ~Wie Ihr vielleicht schon wisst, hatten wir in letzter Zeit unter Angriffen zu leiden. Die Nahrungreserven wurden langsam knapp, weil wir wegen der Verteidigung des Dorfes nicht auf die Jagd gehen konnten.~
 
-@23   = ~Wir würden es sehr begrüssen, wenn jemand für uns auf die jagd gehen würde. Wenn Ihr uns fünfhundert Pfund Fleisch beschafft, werde ich Euch dafür hundert Goldstücke bezahlen.~
+@23   = ~Wir wÃ¼rden es sehr begrÃ¼ssen, wenn jemand fÃ¼r uns auf die jagd gehen wÃ¼rde. Wenn Ihr uns fÃ¼nfhundert Pfund Fleisch beschafft, werde ich Euch dafÃ¼r hundert GoldstÃ¼cke bezahlen.~
 
 @24   = ~Klingt gut! Ich werde es tun.~
 
-@25   = ~Hmm... Ich hätte gerne ewtas mehr Geld...~
+@25   = ~Hmm... Ich hÃ¤tte gerne ewtas mehr Geld...~
 
-@26   = ~Ich bin ein Abenteurer, kein Jäger. Ich mache das nicht.~ ~Ich bin eine Abenteurerin, keine Jägerin. Ich mache das nicht.~
+@26   = ~Ich bin ein Abenteurer, kein JÃ¤ger. Ich mache das nicht.~ ~Ich bin eine Abenteurerin, keine JÃ¤gerin. Ich mache das nicht.~
 
-@27   = ~... Kommt zurück, falls Ihr Eure Meinung ändern soltet.~
+@27   = ~... Kommt zurÃ¼ck, falls Ihr Eure Meinung Ã¤ndern soltet.~
 
-@28   = ~Grossartig! Vielen Dank. Zeigt mir Eure Karte, hier... Das ist ein gutes Jagdrevier. Dort werdet Ihr fündig werden.~
+@28   = ~Grossartig! Vielen Dank. Zeigt mir Eure Karte, hier... Das ist ein gutes Jagdrevier. Dort werdet Ihr fÃ¼ndig werden.~
 
 @29   = ~Und bitte! Braucht nicht zu lange damit...~
 
-@30   = ~Dort ist nichts, fürchte ich.~
+@30   = ~Dort ist nichts, fÃ¼rchte ich.~
 
-@31   = ~Oh, gut. Dann mache ich es für hundert Goldstücke.~
+@31   = ~Oh, gut. Dann mache ich es fÃ¼r hundert GoldstÃ¼cke.~
 
 @32   = ~Dann werde ich Euch nicht helfen.~
 

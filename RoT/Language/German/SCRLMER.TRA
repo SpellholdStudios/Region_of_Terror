@@ -1,70 +1,70 @@
-@0    = ~Wenn Ihr Zauberspruchrollen kaufen wollt, seid Ihr genau am rechten Ort. Möchtet Ihr einen Blick auf meine Waren werfen?~
+@0    = ~Wenn Ihr Zauberspruchrollen kaufen wollt, seid Ihr genau am rechten Ort. MÃ¶chtet Ihr einen Blick auf meine Waren werfen?~
 
-@1    = ~Nicht dieses Mal. Ich habe etwas, das ich Euch zeigen möchte. Erkennt Ihr diesen Brief?~
+@1    = ~Nicht dieses Mal. Ich habe etwas, das ich Euch zeigen mÃ¶chte. Erkennt Ihr diesen Brief?~
 
 @2    = ~Wie Ihr wollt! Dann lasst mich einen Blick darauf werfen.~
 
-@3    = ~Nein, ich habe keinerlei Interesse an Euren Sprüchen.~
+@3    = ~Nein, ich habe keinerlei Interesse an Euren SprÃ¼chen.~
 
 @4    = ~(Er schaut ihn sich genau an und beginnt dann zu lesen...)~
 
-@5    = ~Ah, Ihr seid derjenige, der den bestellten Spruch abholen will. Ich hätte Euch nicht mit solch einer Gruppe von Gefährten erwartet...~ ~Ah, Ihr seid diejenige, die den bestellten Spruch abholen will. Ich hätte Euch nicht mit solch einer Gruppe von Gefährten erwartet...~
+@5    = ~Ah, Ihr seid derjenige, der den bestellten Spruch abholen will. Ich hÃ¤tte Euch nicht mit solch einer Gruppe von GefÃ¤hrten erwartet...~ ~Ah, Ihr seid diejenige, die den bestellten Spruch abholen will. Ich hÃ¤tte Euch nicht mit solch einer Gruppe von GefÃ¤hrten erwartet...~
 
-@6    = ~Wie dem auch sei, ich habe schlechte Nachrichten für Euch... Ich wurde ausgeraubt und die meißten meiner Spruchrollen wurden gestohlen. Leider inklusive des Spruches, nach dem Ihr sucht. Ich konnte bei meiner Flucht nur diese wenigen Bücher retten.~
+@6    = ~Wie dem auch sei, ich habe schlechte Nachrichten fÃ¼r Euch... Ich wurde ausgeraubt und die meiÃŸten meiner Spruchrollen wurden gestohlen. Leider inklusive des Spruches, nach dem Ihr sucht. Ich konnte bei meiner Flucht nur diese wenigen BÃ¼cher retten.~
 
-@7    = ~Es schien sich um Mitglieder von Gaidans Räuberbande zu handeln. Na ja, vielleicht ist Gruppe nicht das rechte Wort. Diese "Gruppe" ist an die hundert Mann stark.~
+@7    = ~Es schien sich um Mitglieder von Gaidans RÃ¤uberbande zu handeln. Na ja, vielleicht ist Gruppe nicht das rechte Wort. Diese "Gruppe" ist an die hundert Mann stark.~
 
-@8    = ~Gaidans Räuberbande? Wer sind die?~
+@8    = ~Gaidans RÃ¤uberbande? Wer sind die?~
 
-@9    = ~Der Spruch wurde gestohlen? Ich muss ihn zurück haben. Wo kann ich diesen Gaidan finden?~
+@9    = ~Der Spruch wurde gestohlen? Ich muss ihn zurÃ¼ck haben. Wo kann ich diesen Gaidan finden?~
 
-@10   = ~So, die Magier haben also für nichts und wieder nichts bezahlt. Ich will ihr Geld zurück.~
+@10   = ~So, die Magier haben also fÃ¼r nichts und wieder nichts bezahlt. Ich will ihr Geld zurÃ¼ck.~
 
-@11   = ~Oh, ja, ich seid kein Händler. Woher sollt Ihr das wissen?... Na ja, es gibt nicht viel, was ich Euch erzählen könnte...~
+@11   = ~Oh, ja, ich seid kein HÃ¤ndler. Woher sollt Ihr das wissen?... Na ja, es gibt nicht viel, was ich Euch erzÃ¤hlen kÃ¶nnte...~
 
-@12   = ~...Also, es gibt da eine alte Ruine in den Bergen, südlich von Athkatla. Die Handelsstraße führt sehr nahe an dieser Ruine vorbei. Um sie zu umgehen, müsste man sich durch die Wälder oder die westlichen Marschen schlagen.~
+@12   = ~...Also, es gibt da eine alte Ruine in den Bergen, sÃ¼dlich von Athkatla. Die HandelsstraÃŸe fÃ¼hrt sehr nahe an dieser Ruine vorbei. Um sie zu umgehen, mÃ¼sste man sich durch die WÃ¤lder oder die westlichen Marschen schlagen.~
 
-@13   = ~Die Bergstraße war immer die erste Wahl, bis die nahe Ruine von einer Gruppe Banditen übernommen und zu ihrer Operationsbasis erkoren wurde. Gaidan ist der Name ihres Bandenführers.~
+@13   = ~Die BergstraÃŸe war immer die erste Wahl, bis die nahe Ruine von einer Gruppe Banditen Ã¼bernommen und zu ihrer Operationsbasis erkoren wurde. Gaidan ist der Name ihres BandenfÃ¼hrers.~
 
-@14   = ~Jetzt plündern sie regelmäßig Händler auf der Straße aus. Mann kann auch nie vorhersagen, was sie machen werden. Manches Mal erpressen sie nur einen Wegzoll für die Benutzung der Straße.~
+@14   = ~Jetzt plÃ¼ndern sie regelmÃ¤ÃŸig HÃ¤ndler auf der StraÃŸe aus. Mann kann auch nie vorhersagen, was sie machen werden. Manches Mal erpressen sie nur einen Wegzoll fÃ¼r die Benutzung der StraÃŸe.~
 
-@15   = ~Manchmal greifen sie auch an und plündern sämtliche Waren und manchmal greifen sie an, plündern sämtliche Waren und lassen keinen der Händler und ihres Gefolges am Leben.~
+@15   = ~Manchmal greifen sie auch an und plÃ¼ndern sÃ¤mtliche Waren und manchmal greifen sie an, plÃ¼ndern sÃ¤mtliche Waren und lassen keinen der HÃ¤ndler und ihres Gefolges am Leben.~
 
-@16   = ~Die Ruine liegt nun aber mitten im Niemandsland, so dass es weit und breit niemanden gibt, der sie aufhalten kann. Sie gehen auch auf Nummer sicher und überfallen keinen der großen Handelszüge Athkatlas oder der großen Händlerstädte des Südens.~
+@16   = ~Die Ruine liegt nun aber mitten im Niemandsland, so dass es weit und breit niemanden gibt, der sie aufhalten kann. Sie gehen auch auf Nummer sicher und Ã¼berfallen keinen der groÃŸen HandelszÃ¼ge Athkatlas oder der groÃŸen HÃ¤ndlerstÃ¤dte des SÃ¼dens.~
 
-@17   = ~Auf diese Weise können sie ihren "Beruf" ausführen, ohne von irgendjemandem behelligt zu werden. Es ist eine verdammte Schande, aber wir können nichts dagegen tun.~
+@17   = ~Auf diese Weise kÃ¶nnen sie ihren "Beruf" ausfÃ¼hren, ohne von irgendjemandem behelligt zu werden. Es ist eine verdammte Schande, aber wir kÃ¶nnen nichts dagegen tun.~
 
-@18   = ~Jemand hat mal mit den Schattendieben gesprochen, aber die haben sich auch nicht um die Angelegenheit gekümmert. Es beeinträchtigt ja ihre eigenen Geschäfte nicht weiter.~
+@18   = ~Jemand hat mal mit den Schattendieben gesprochen, aber die haben sich auch nicht um die Angelegenheit gekÃ¼mmert. Es beeintrÃ¤chtigt ja ihre eigenen GeschÃ¤fte nicht weiter.~
 
-@19   = ~Weil die Anzahl von Gaidans Bande beinahe wöchentlich zunimmt, denke ich, dass Athkatlas Garden irgendwann die Ruine angreifen werden, wenngleich ich auch nicht weiß, ob das meine Situation dann wirklich verbessern wird.~
+@19   = ~Weil die Anzahl von Gaidans Bande beinahe wÃ¶chentlich zunimmt, denke ich, dass Athkatlas Garden irgendwann die Ruine angreifen werden, wenngleich ich auch nicht weiÃŸ, ob das meine Situation dann wirklich verbessern wird.~
 
-@20   = ~Aber ich muss diese Spruchrolle haben. Könntet ihr mir die Lage dieser Ruine auf meiner Karte markieren?~
+@20   = ~Aber ich muss diese Spruchrolle haben. KÃ¶nntet ihr mir die Lage dieser Ruine auf meiner Karte markieren?~
 
-@21   = ~Könnt Ihr die Lage der Ruine auf meiner Karte markieren?~
+@21   = ~KÃ¶nnt Ihr die Lage der Ruine auf meiner Karte markieren?~
 
 @22   = ~...Ich bezweifle, ob Ihr wirklich Erfolg haben werdet, aber... wie auch immer, hier ist die Ruine zu finden. Wenn Ihr noch Fragen habt oder gefallen an meinen Spruchrollen habt, kommt einfach zu mir.~
 
 @23   = ~Sicherlich. Warum auch nicht?... Hier ist sie... Und nun, wenn ihr noch Fragen habt oder Interesse an meinen Spruchrollen besteht, sprecht mich einfach wieder an.~
 
-@24   = ~Er hat eine alte Ruine bezogen. Sie ist jetzt sein Räuberlager... zeigt mir mal Eure Karte, ich markiere Euch die Lage der Ruine...~
+@24   = ~Er hat eine alte Ruine bezogen. Sie ist jetzt sein RÃ¤uberlager... zeigt mir mal Eure Karte, ich markiere Euch die Lage der Ruine...~
 
-@25   = ~...Ich bezweifle, ob Ihr wirklich Erfolg haben werdet, trotzdem viel Glück. Wenn Ihr noch Fragen habt oder gefallen an meinen Spruchrollen habt, kommt einfach zu mir.~
+@25   = ~...Ich bezweifle, ob Ihr wirklich Erfolg haben werdet, trotzdem viel GlÃ¼ck. Wenn Ihr noch Fragen habt oder gefallen an meinen Spruchrollen habt, kommt einfach zu mir.~
 
-@26   = ~Tut mir leid. Ich habe mein Geld beim Überfall verloren, und überhaupt... der Zauber gehörte bereits ihnen. Es ist nicht meine Sache, wenn er gestohlen wird.~
+@26   = ~Tut mir leid. Ich habe mein Geld beim Ãœberfall verloren, und Ã¼berhaupt... der Zauber gehÃ¶rte bereits ihnen. Es ist nicht meine Sache, wenn er gestohlen wird.~
 
-@27   = ~Also gut... könnt Ihr mir erzählen, was es mit dieser Räuberbande Gaidans' auf sich hat?~
+@27   = ~Also gut... kÃ¶nnt Ihr mir erzÃ¤hlen, was es mit dieser RÃ¤uberbande Gaidans' auf sich hat?~
 
 @28   = ~Aber ich muss diese Spruchrolle haben. Wo kann ich diesen Gaidan finden?~
 
-@29   = ~Hervorragend!  Durchsucht nur meine Bücher und ich bin mir sicher, Ihr werdet finden, was immer Euer Herz begehrt!~
+@29   = ~Hervorragend!  Durchsucht nur meine BÃ¼cher und ich bin mir sicher, Ihr werdet finden, was immer Euer Herz begehrt!~
 
-@30   = ~Aber was soll's, das ist mein Verlust. Wenn Ihr wieder mal verlangen nach hervorragenden Spruchrollen habt, kommt einfach zu mir. Ich wünsche Euch alles Gute auf Euren weiteren Wegen.~
+@30   = ~Aber was soll's, das ist mein Verlust. Wenn Ihr wieder mal verlangen nach hervorragenden Spruchrollen habt, kommt einfach zu mir. Ich wÃ¼nsche Euch alles Gute auf Euren weiteren Wegen.~
 
-@31   = ~Ah, ihr seid zurück. Möchtet ihr einige Zauber kaufen?~
+@31   = ~Ah, ihr seid zurÃ¼ck. MÃ¶chtet ihr einige Zauber kaufen?~
 
 @32   = ~Ja, zeigt mal her.~
 
-@33   = ~Nein, ich bin nur wegen mehr Informationen über diesen Gaidan hier.~
+@33   = ~Nein, ich bin nur wegen mehr Informationen Ã¼ber diesen Gaidan hier.~
 
 @34   = ~Nein, heute nicht.~
 
@@ -72,28 +72,28 @@
 
 @36   = ~Wer genau ist dieser Gaidan?~
 
-@37   = ~Erzählt mir mehr über Gaidans Räuberbande.~
+@37   = ~ErzÃ¤hlt mir mehr Ã¼ber Gaidans RÃ¤uberbande.~
 
 @38   = ~Ich habe keine weiteren Fragen...~
 
-@39   = ~Über ihn ist nicht viel bekannt. Nur wenige haben ihn je gesehen. Wir wissen nur, dass er der Führer der Banditen ist. Ich habe gehört, er wäre ein sehr gerissener Mann, und wenn er verschwinden möchte, dann verschwindet er.~
+@39   = ~Ãœber ihn ist nicht viel bekannt. Nur wenige haben ihn je gesehen. Wir wissen nur, dass er der FÃ¼hrer der Banditen ist. Ich habe gehÃ¶rt, er wÃ¤re ein sehr gerissener Mann, und wenn er verschwinden mÃ¶chte, dann verschwindet er.~
 
-@40   = ~Gerüchteweise kann er sich nur wenige Zentimeter hinter Euch vorbeischleichen, ohne dass Ihr ihn bemerken würdet.~
+@40   = ~GerÃ¼chteweise kann er sich nur wenige Zentimeter hinter Euch vorbeischleichen, ohne dass Ihr ihn bemerken wÃ¼rdet.~
 
 @41   = ~Keine weiteren Fragen.~
 
-@42   = ~Hmm... es gibt nicht viel, was ich Euch erzählen könnte...~
+@42   = ~Hmm... es gibt nicht viel, was ich Euch erzÃ¤hlen kÃ¶nnte...~
 
 @43   = ~Also gut, wer genau ist dieser Gaidan?~
 
 @44   = ~Hundert Mann stark sagt ihr? Nichts im Vergleich zu den Schattendieben, aber trotzdem recht viele. Welcher Art sind diese Schergen Gaidans?~
 
-@45   = ~Denkt Ihr, ich könnte mit diesem Gaidan einen Handel eingehen?~
+@45   = ~Denkt Ihr, ich kÃ¶nnte mit diesem Gaidan einen Handel eingehen?~
 
-@46   = ~Banditen, Wegelagerer, Schlägertypen... Aber ich muss sagen, dass auch einige verdammt begabte Diebe zu seinen Leuten zählen. Schätzungsweise sind etwa zwanzig seiner Schergen auch hervorragend ausgebildet im Umgang mit Waffen aller Art.~
+@46   = ~Banditen, Wegelagerer, SchlÃ¤gertypen... Aber ich muss sagen, dass auch einige verdammt begabte Diebe zu seinen Leuten zÃ¤hlen. SchÃ¤tzungsweise sind etwa zwanzig seiner Schergen auch hervorragend ausgebildet im Umgang mit Waffen aller Art.~
 
-@47   = ~Hmm... schwer zu sagen. Noch nie hat ein Händler mit ihm gesprochen, aber wenn Ihr die Gelegenheit erhaltet, denke ich, würde er zuhören. Er ist kein Dummkopf. Vielleicht kann man vernünftig mit ihm reden.~
+@47   = ~Hmm... schwer zu sagen. Noch nie hat ein HÃ¤ndler mit ihm gesprochen, aber wenn Ihr die Gelegenheit erhaltet, denke ich, wÃ¼rde er zuhÃ¶ren. Er ist kein Dummkopf. Vielleicht kann man vernÃ¼nftig mit ihm reden.~
 
 @48   = ~Wollt Ihr denn dann einen Blick auf meine Spruchrollen werfen?~
 
-@49   = ~Ja, das wäre schön. Zeigt mal Euer Sortiment.~
+@49   = ~Ja, das wÃ¤re schÃ¶n. Zeigt mal Euer Sortiment.~

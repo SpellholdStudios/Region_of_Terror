@@ -1,4 +1,4 @@
-@0    = ~Hallo Ihr da! Möchtet Ihr Euch fünfzig Goldstücke für eine einfache Aufgabe verdienen?~
+@0    = ~Hallo Ihr da! MÃ¶chtet Ihr Euch fÃ¼nfzig GoldstÃ¼cke fÃ¼r eine einfache Aufgabe verdienen?~
 
 @1    = ~Sicher! Was soll ich denn tun?~
 
@@ -6,56 +6,56 @@
 
 @3    = ~Ich bin nicht interessiert. Wiedersehen.~
 
-@4    = ~Ich habe meinen Ring vor ein paar Tagen in den Abwasserkanälen verloren. Ihr sollt ihn einfach finden und zu mir zurückbringen.~
+@4    = ~Ich habe meinen Ring vor ein paar Tagen in den AbwasserkanÃ¤len verloren. Ihr sollt ihn einfach finden und zu mir zurÃ¼ckbringen.~
 
 @5    = ~Das scheint eine leichte Aufgabe zu sein. Ich werde es tun.~
 
 @6    = ~Warum sucht Ihr nicht selbst danach?~
 
-@7    = ~Was ist so wertvoll an diesem Ring, dass Ihr mir fünfzig Goldstücke bietet, um ihn Euch aus den Abwasserkanälen zu holen?~
+@7    = ~Was ist so wertvoll an diesem Ring, dass Ihr mir fÃ¼nfzig GoldstÃ¼cke bietet, um ihn Euch aus den AbwasserkanÃ¤len zu holen?~
 
-@8    = ~Ich habe keine Zeit dafür, nach verlorenen Ringen zu suchen. Ihr müsst ihn schon selbst finden.~
+@8    = ~Ich habe keine Zeit dafÃ¼r, nach verlorenen Ringen zu suchen. Ihr mÃ¼sst ihn schon selbst finden.~
 
-@9    = ~Grossartig! Ihr werdet den Ring erkennen, wenn Ihr ihn finden solltet. Mein Name, Garem, und die Namen meines Vaters und Grossvaters sind darauf eingraviert. Es könnte ihn auch jemand aufgehoben haben, möglicherweise müsst Ihr ihn wieder an Euch bingen.~
+@9    = ~Grossartig! Ihr werdet den Ring erkennen, wenn Ihr ihn finden solltet. Mein Name, Garem, und die Namen meines Vaters und Grossvaters sind darauf eingraviert. Es kÃ¶nnte ihn auch jemand aufgehoben haben, mÃ¶glicherweise mÃ¼sst Ihr ihn wieder an Euch bingen.~
 
-@10   = ~Die Abwasserkanäle sind voller Diebe. Ich habe nicht den Mut, dorthin zu gehen. Aber Ihr scheint damit keine Probleme zu haben.~
+@10   = ~Die AbwasserkanÃ¤le sind voller Diebe. Ich habe nicht den Mut, dorthin zu gehen. Aber Ihr scheint damit keine Probleme zu haben.~
 
 @11   = ~Nun, das scheint eine einfache Aufgabe zu sein. Ich werde es tun.~
 
-@12   = ~Er hat für mich einen grossen persönlichen Wert. Er ist schon lange im Familienbesitz und es wäre eine grosse Schande, ihn nicht mehr zu haben.~
+@12   = ~Er hat fÃ¼r mich einen grossen persÃ¶nlichen Wert. Er ist schon lange im Familienbesitz und es wÃ¤re eine grosse Schande, ihn nicht mehr zu haben.~
 
-@13   = ~Dann kommt zurück, wenn Ihr Eure Meinung geändert habt.~
+@13   = ~Dann kommt zurÃ¼ck, wenn Ihr Eure Meinung geÃ¤ndert habt.~
 
 @14   = ~Habt Ihr ihn gefunden?~
 
 @15   = ~Ja, hier habe ich ihn. Nehmt ihn.~
 
-@16   = ~Jawohl, aber ich gebe ihn Euch erst, wenn Ihr mir hundert Goldstücke dafür gebt.~
+@16   = ~Jawohl, aber ich gebe ihn Euch erst, wenn Ihr mir hundert GoldstÃ¼cke dafÃ¼r gebt.~
 
 @17   = ~Nein, aber ich werde bald damit beginnen, nach ihm zu suchen.~
 
 @18   = ~Vielen herzlichen Dank! Hier ist das Gold, das ich Euch versprochen hatte. Das war sehr gute Arbeit.~
 
-@19   = ~Was soll das? Wir hatten doch ausgemacht, dass Ihr den Ring findet und ich Euch fünfzig Goldstücke dafür bezahle.~
+@19   = ~Was soll das? Wir hatten doch ausgemacht, dass Ihr den Ring findet und ich Euch fÃ¼nfzig GoldstÃ¼cke dafÃ¼r bezahle.~
 
 @20   = ~Ich weiss. Ich habe nur gescherzt. Hier ist der Ring.~
 
-@21   = ~Der Handel ist nicht mehr gültig. Nehmt die neuen Gegebenheiten hin, oder Ihr bekommt den Ring nicht.~
+@21   = ~Der Handel ist nicht mehr gÃ¼ltig. Nehmt die neuen Gegebenheiten hin, oder Ihr bekommt den Ring nicht.~
 
-@22   = ~Oh, Ihr habt mich wirklich erschreckt. Danke für den Ring. Hier ist das versprochene Gold. Lebt wohl!~
+@22   = ~Oh, Ihr habt mich wirklich erschreckt. Danke fÃ¼r den Ring. Hier ist das versprochene Gold. Lebt wohl!~
 
-@23   = ~Oh, in Ordnung! Hier sind hundert Goldst+ücke für Euch. Jetzt gebt mir den Ring.~
+@23   = ~Oh, in Ordnung! Hier sind hundert Goldst+Ã¼cke fÃ¼r Euch. Jetzt gebt mir den Ring.~
 
 @24   = ~Danke. Ich gehe jetzt wieder.~
 
-@25   = ~Hmm... der Ring ist den neuen Handel nicht wert. Entweder gebt Ihr ihn mir für fünfzig Goldstücke, oder unsere Unterhaltung ist beendet.~
+@25   = ~Hmm... der Ring ist den neuen Handel nicht wert. Entweder gebt Ihr ihn mir fÃ¼r fÃ¼nfzig GoldstÃ¼cke, oder unsere Unterhaltung ist beendet.~
 
 @26   = ~Oh, alles klar! Nehmt ihn und gebt mir das Gold.~
 
 @27   = ~Dann ist unsere Unterhaltung beendet.~
 
-@28   = ~Gut. Hier ist das Gold. Wenn Ihr mich jetzt entschuldigen würdet, ich muss jetzt gehen.~
+@28   = ~Gut. Hier ist das Gold. Wenn Ihr mich jetzt entschuldigen wÃ¼rdet, ich muss jetzt gehen.~
 
-@29   = ~Gebt Ihr mir  nun den Ring, oder nicht? Fünfzig Goldstücke waren ausgemacht und ich werde Euch nicht mehr geben.~
+@29   = ~Gebt Ihr mir  nun den Ring, oder nicht? FÃ¼nfzig GoldstÃ¼cke waren ausgemacht und ich werde Euch nicht mehr geben.~
 
-@30   = ~Nein, für diesen Preis werde ich ihn Euch nicht geben. Wiedersehen.~
+@30   = ~Nein, fÃ¼r diesen Preis werde ich ihn Euch nicht geben. Wiedersehen.~

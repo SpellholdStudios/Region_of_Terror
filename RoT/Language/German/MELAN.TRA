@@ -2,17 +2,17 @@
 
 @1    = ~Ich glaube, Ihr habt eine Schriftrolle von einer Magierin namens Maralda gestohlen.~
 
-@2    = ~Ihr habt etwas, das Euch nicht gehört...~
+@2    = ~Ihr habt etwas, das Euch nicht gehÃ¶rt...~
 
-@3    = ~Nein, nichts. Verzeiht die Störung.~
+@3    = ~Nein, nichts. Verzeiht die StÃ¶rung.~
 
-@4    = ~Ah, sie hat Euch geschickt, um die Sache zu untersuchen... Aber ich kann Euch versichern, dass ich die Schriftrolle nicht an mich genommen habe. Ich hätte keine Verwendung dafür.~
+@4    = ~Ah, sie hat Euch geschickt, um die Sache zu untersuchen... Aber ich kann Euch versichern, dass ich die Schriftrolle nicht an mich genommen habe. Ich hÃ¤tte keine Verwendung dafÃ¼r.~
 
 @5    = ~Was meint Ihr damit~
 
 @6    = ~Ich glaube Euch... Ihr seht nicht wie ein Mann aus, der ein Verbrechen begeht.~
 
-@7    = ~Nun, diese Schriftrolle kann nur von Frauen benutzt werden. Ich kann mir nicht vorstellen, warum sie mich verdächtigt...~
+@7    = ~Nun, diese Schriftrolle kann nur von Frauen benutzt werden. Ich kann mir nicht vorstellen, warum sie mich verdÃ¤chtigt...~
 
 @8    = ~Warum kann diese Schriftrolle nur von Frauen benutzt werden?~
 
@@ -20,17 +20,17 @@
 
 @10   = ~Oh? (Ein verwirrter Blick)~
 
-@11   = ~Sie würde jeden männlichen Zauberkundigen töten. Das ist der Hauptgrund, würde ich sagen...~
+@11   = ~Sie wÃ¼rde jeden mÃ¤nnlichen Zauberkundigen tÃ¶ten. Das ist der Hauptgrund, wÃ¼rde ich sagen...~
 
 @12   = ~Oh, ich verstehe. Aber wenn Ihr nicht der Dieb seid, dann ist es wohl Alenna, oder?~
 
 @13   = ~Ja, sie muss diejenige sein, die es getan hat.~
 
-@14   = ~Alles klar, dann werde ich wohl mit ihr sprechen müssen. Ich werde bald wieder zurück sein.~
+@14   = ~Alles klar, dann werde ich wohl mit ihr sprechen mÃ¼ssen. Ich werde bald wieder zurÃ¼ck sein.~
 
 @15   = ~Ich habe es gesehen. Ich bin ein Magier, ich weiss es.~
 
-@16   = ~Anscheinend seid Ihr wirklich nicht der Dieb. Ich werde wohl mit Alenna sprechen müssen, um herauszufinden was sie weiss.~
+@16   = ~Anscheinend seid Ihr wirklich nicht der Dieb. Ich werde wohl mit Alenna sprechen mÃ¼ssen, um herauszufinden was sie weiss.~
 
 @17   = ~Wenn Ihr den Dieb ausfindig machen wollt, ich weiss, wer es war. Alenna.~
 
@@ -40,44 +40,44 @@
 
 @20   = ~Ich bin nicht der Dieb, also muss sie es gewesen sein.~
 
-@21   = ~... Ahh... Ihr meint Maraldas Schriftrolle. Aber ich kann Euch versichern, dass ich die Schriftrolle nicht an mich genommen habe. Ich hätte keine Verwendung dafür.~
+@21   = ~... Ahh... Ihr meint Maraldas Schriftrolle. Aber ich kann Euch versichern, dass ich die Schriftrolle nicht an mich genommen habe. Ich hÃ¤tte keine Verwendung dafÃ¼r.~
 
 
 @22   = ~Ich habe mit den Magierinnen Alenna und Maralda gesprochen. Ich habe den ernsten Verdacht, dass Ihr Maralda eine Schriftrolle gestohlen habt.~
 
-@23   = ~Ich bin hier, um ein Verbrechen aufzuklären. Maraldas Schriftrolle wurde gestohlen. Ich habe mit der anderen Verdächtigen gesprochen. Ich würde gerne hören, was Ihr dazu zu sagen habt.~
+@23   = ~Ich bin hier, um ein Verbrechen aufzuklÃ¤ren. Maraldas Schriftrolle wurde gestohlen. Ich habe mit der anderen VerdÃ¤chtigen gesprochen. Ich wÃ¼rde gerne hÃ¶ren, was Ihr dazu zu sagen habt.~
 
-@24   = ~Ihr liegt falsch! Ich habe die Schriftrolle nicht genommen. Ich hätte dafür keine Verwendung.~
+@24   = ~Ihr liegt falsch! Ich habe die Schriftrolle nicht genommen. Ich hÃ¤tte dafÃ¼r keine Verwendung.~
 
-@25   = ~Weswegen? IHr könntet doch bestimmt etwas damit anfangen.~
+@25   = ~Weswegen? IHr kÃ¶nntet doch bestimmt etwas damit anfangen.~
 
-@26   = ~Hmm... Das erklärt mir mal genauer.~
+@26   = ~Hmm... Das erklÃ¤rt mir mal genauer.~
 
-@27   = ~... Dieser Spruch tötet alle männlichen Zauberkundigen. Er ist nur für Frauen.~
+@27   = ~... Dieser Spruch tÃ¶tet alle mÃ¤nnlichen Zauberkundigen. Er ist nur fÃ¼r Frauen.~
 
-@28   = ~Woher wisst Ihr, dass er nur für Frauen ist?~
+@28   = ~Woher wisst Ihr, dass er nur fÃ¼r Frauen ist?~
 
 @29   = ~Oh, ich verstehe. Dann muss Alenna die Schuldige sein. Ausserdem hat sie einen magisch verschlossenen Wandschrank und erlaubte mir nicht, einen Blick hineinzuwerfen.~
 
 @30   = ~Ich habe es gesehen. Ich bin ein Magier, ich weiss es.~
 
-@31   = ~Es sieht wohl so aus, als wäre Alenna schuldig. Sie hat einen magisch verschlossenen Wandschrank...~
+@31   = ~Es sieht wohl so aus, als wÃ¤re Alenna schuldig. Sie hat einen magisch verschlossenen Wandschrank...~
 
-@32   = ~Hmm... Ich könnte mitkommen und den Wandschrank für Euch öffnen. Ich bin mir sicher, dass wir die Schriftrolle dort finden werden.~
+@32   = ~Hmm... Ich kÃ¶nnte mitkommen und den Wandschrank fÃ¼r Euch Ã¶ffnen. Ich bin mir sicher, dass wir die Schriftrolle dort finden werden.~
 
 @33   = ~Gute Idee! Gehen wir.~
 
 @34   = ~In Ordnung. Das machen wir.~
 
-@35   = ~Was soll ich sagen? Ich habe sie nicht genommen. Ich hätte keine Verwendung dafür.~
+@35   = ~Was soll ich sagen? Ich habe sie nicht genommen. Ich hÃ¤tte keine Verwendung dafÃ¼r.~
 
-@36   = ~Nichts, verzeiht die Störung.~
+@36   = ~Nichts, verzeiht die StÃ¶rung.~
 
 @37   = ~Habt Ihr mit Ihr gesprochen?~
 
 @38   = ~Nein, noch nicht.~
 
-@39   = ~Ja, sie hat mir nicht erlaubt, einen Blick in ihren magisch verschlossenen Wandschrank zu werfen. Könntet Ihr mitkommen und ihn für mich öffnen?~
+@39   = ~Ja, sie hat mir nicht erlaubt, einen Blick in ihren magisch verschlossenen Wandschrank zu werfen. KÃ¶nntet Ihr mitkommen und ihn fÃ¼r mich Ã¶ffnen?~
 
 @40   = ~Sicher. Wenn die Schriftrolle gefunden wird, ist mein Ruf wieder hergestellt. Gehen wir.~
 
@@ -87,6 +87,6 @@
 
 @43   = ~Ja. Habt Ihr etwas zu Eurer Verteidigung zu sagen, Alenna?~
 
-@44   = ~Ich bin froh, dass Ihr dieses Problem lösen konntet.~
+@44   = ~Ich bin froh, dass Ihr dieses Problem lÃ¶sen konntet.~
 
-@45   = ~Ich habe Euch nichts zu sagen, Verräter.~
+@45   = ~Ich habe Euch nichts zu sagen, VerrÃ¤ter.~

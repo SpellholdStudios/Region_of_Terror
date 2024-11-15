@@ -6,19 +6,19 @@
 
 @3    = ~Ich bin <CHARNAME> und ich bin mir nicht sicher, ob ich in Frieden komme.~
 
-@4    = ~Gut zu hören. Mein Name ist Drizzt Do'Urden. Ihr habt vielleicht schon von mir gehört.~
+@4    = ~Gut zu hÃ¶ren. Mein Name ist Drizzt Do'Urden. Ihr habt vielleicht schon von mir gehÃ¶rt.~
 
 @5    = ~Ahh, ihr seid ein Freund Wulfgars.~
 
-@6    = ~Ja, Ihr seid der Drow, der aus dem Unterreich geflohen ist. Ob Eurer guten Taten seid Ihr weithin gerühmt.~
+@6    = ~Ja, Ihr seid der Drow, der aus dem Unterreich geflohen ist. Ob Eurer guten Taten seid Ihr weithin gerÃ¼hmt.~
 
 @7    = ~Klar, Ihr seid der Drow, der durch die Welt reist und lauter gute Taten vollbringt.~
 
-@8    = ~Nein, hab' noch nie von Euch gehört. Könnt Ihr mir etwas über Euch erzählen?~
+@8    = ~Nein, hab' noch nie von Euch gehÃ¶rt. KÃ¶nnt Ihr mir etwas Ã¼ber Euch erzÃ¤hlen?~
 
-@9    = ~Bitte, ich will nicht gegen Euch kämpfen.~
+@9    = ~Bitte, ich will nicht gegen Euch kÃ¤mpfen.~
 
-@10   = ~Nun ja, wenn Ihr es so ausdrücken wollt... Wer seid Ihr?~
+@10   = ~Nun ja, wenn Ihr es so ausdrÃ¼cken wollt... Wer seid Ihr?~
 
 @11   = ~Oh, klar werde ich das!~
 
@@ -26,17 +26,17 @@
 
 @13   = ~Hah! Was auch immer. Wer seid Ihr?~
 
-@14   = ~Mein Name lautet Drizzt Do'Urden und ich komme aus der Drowstadt Menzoberranzan. Ihr habt vielleicht schon von mir gehört.~
+@14   = ~Mein Name lautet Drizzt Do'Urden und ich komme aus der Drowstadt Menzoberranzan. Ihr habt vielleicht schon von mir gehÃ¶rt.~
 
-@15   = ~Ja, habe ich. Ob Eurer vielen guten Taten seid Ihr weithin gerühmt.~
+@15   = ~Ja, habe ich. Ob Eurer vielen guten Taten seid Ihr weithin gerÃ¼hmt.~
 
-@16   = ~Ja, ich hab schon von Euch in Baldurs Tor gehört.~
+@16   = ~Ja, ich hab schon von Euch in Baldurs Tor gehÃ¶rt.~
 
 @17   = ~Ja, ich kenne Euch und es ist mir eine Ehre, Euch zu treffen.~
 
-@18   = ~Nein, wenn ich ehrlich bin, noch nie. Bitte, erzählt etwas von Euch.~
+@18   = ~Nein, wenn ich ehrlich bin, noch nie. Bitte, erzÃ¤hlt etwas von Euch.~
 
-@19   = ~Ich habe schon mal von einem Drow namens Drizzt Do'Urden gehört... seine guten Taten sind weltweit bekannt...~
+@19   = ~Ich habe schon mal von einem Drow namens Drizzt Do'Urden gehÃ¶rt... seine guten Taten sind weltweit bekannt...~
 
 @20   = ~Gut. Ich bin nicht auf der Suche nach einem Kampf.~
 
@@ -46,35 +46,35 @@
 
 @23   = ~Oh, ja, ich bin Drizzt Do'Urden. Aus der Drowstadt Menzoberranzan.~
 
-@24   = ~Ich habe schon von Euch gehört. Es ist wirklich eine Ehre, Euch zu treffen.~
+@24   = ~Ich habe schon von Euch gehÃ¶rt. Es ist wirklich eine Ehre, Euch zu treffen.~
 
-@25   = ~Ich kenne Euch. Ich habe schon in Baldurs Tor von Euch gehört. Ihr seid sehr berühmt.~
+@25   = ~Ich kenne Euch. Ich habe schon in Baldurs Tor von Euch gehÃ¶rt. Ihr seid sehr berÃ¼hmt.~
 
-@26   = ~Ich hab' noch nie von Euch gehört. Könnt Ihr mir etwas über Euch erzählen?~
+@26   = ~Ich hab' noch nie von Euch gehÃ¶rt. KÃ¶nnt Ihr mir etwas Ã¼ber Euch erzÃ¤hlen?~
 
-@27   = ~Ich bin Drizzt Do'Urden. Vielleicht habt Ihr schon von mir gehört.~
+@27   = ~Ich bin Drizzt Do'Urden. Vielleicht habt Ihr schon von mir gehÃ¶rt.~
 
-@28   = ~Ja, ich hörte von Euch, als ich nahe Baldurs Tor vorbeireiste.~
+@28   = ~Ja, ich hÃ¶rte von Euch, als ich nahe Baldurs Tor vorbeireiste.~
 
-@29   = ~Ja, ich kenne Euch. Ich habe schon viel von Euch gehört, Ihr seid sehr berühmt.~
+@29   = ~Ja, ich kenne Euch. Ich habe schon viel von Euch gehÃ¶rt, Ihr seid sehr berÃ¼hmt.~
 
 @30   = ~Nun, also... was tut Ihr hier?~
 
 @31   = ~Ich wurde hier von einer Art Magier eingekerkert. Meine Freundin Imoen konnte mich befreien und wir entkamen und sind nun auf der Suche nach einem Ausgang.~
 
-@32   = ~Ich reiste gemeinsam mit meinen Freunden, als ich urplötzlich überfallen und hierher gebracht wurde. Ich konnte aus meiner Zelle befreit werden und bin nun auf der Suche nach dem Ausgang.~
+@32   = ~Ich reiste gemeinsam mit meinen Freunden, als ich urplÃ¶tzlich Ã¼berfallen und hierher gebracht wurde. Ich konnte aus meiner Zelle befreit werden und bin nun auf der Suche nach dem Ausgang.~
 
 @33   = ~Das hat Euch nicht zu interessieren.~
 
 @34   = ~Nun, ich habe keine Ahnung, wie ich hierher kam. Ich befand mich gemeinsam mit meinen Freunden auf einer Reise durch das Eiswindtal, als ich einen Teleportzauber wirkte und mich, ehe ich mich versah, hier wiederfand.~
 
-@35   = ~Vielen Dank, aber... könnt Ihr mir verraten, was Ihr hier macht?~
+@35   = ~Vielen Dank, aber... kÃ¶nnt Ihr mir verraten, was Ihr hier macht?~
 
-@36   = ~Gut, das ist richtig, aber ich würde auch gerne wissen, was Ihr hier macht.~
+@36   = ~Gut, das ist richtig, aber ich wÃ¼rde auch gerne wissen, was Ihr hier macht.~
 
 @37   = ~Ich wurde von einem Magier hier eingesperrt. Ich habe keine Ahnung, was er von mir will und versuche jetzt, zu fliehen.~
 
-@38   = ~Das ist richtig, aber ich würde auch gerne wissen, was Ihr hier macht.~
+@38   = ~Das ist richtig, aber ich wÃ¼rde auch gerne wissen, was Ihr hier macht.~
 
 @39   = ~Wulfgar! Gut, Euch zu sehen!... Aber leider, ich habe die Anderen nicht gesehen.~
 
@@ -86,33 +86,33 @@
 
 @43   = ~Ja, lasst uns dass tun.~
 
-@44   = ~Wulfgar! Heh da! Schön, Eucn zu sehen, mein Freund!... Doch nein, ich habe leider keinen der Anderen gesehen.~
+@44   = ~Wulfgar! Heh da! SchÃ¶n, Eucn zu sehen, mein Freund!... Doch nein, ich habe leider keinen der Anderen gesehen.~
 
-@45   = ~Wulfgar! Es ist auch schön, Euch zu sehen! Ich habe nach unseren Freunden Ausschau gehalten, aber sie scheinen nicht hier zu sein.~
+@45   = ~Wulfgar! Es ist auch schÃ¶n, Euch zu sehen! Ich habe nach unseren Freunden Ausschau gehalten, aber sie scheinen nicht hier zu sein.~
 
-@46   = ~Ich stimme zu. Wulfgar, können wir diesen Leuten trauen?~
+@46   = ~Ich stimme zu. Wulfgar, kÃ¶nnen wir diesen Leuten trauen?~
 
-@47   = ~Ja, das könnt Ihr. Begleitet meine Gruppe und ich werde Euch dabei helfen, Eure Freunde wiederzufinden, wenn Ihr mir helft, den Magier zu finden, der mich hier gefangen hielt.~
+@47   = ~Ja, das kÃ¶nnt Ihr. Begleitet meine Gruppe und ich werde Euch dabei helfen, Eure Freunde wiederzufinden, wenn Ihr mir helft, den Magier zu finden, der mich hier gefangen hielt.~
 
-@48   = ~Natürlich könnt Ihr. Begleitet meine Gruppe und wir helfen Euch dabei, Eure Freunde zu finden. Ihr könnt mir dafür helfen, den Magier zu finden, der mich hier eingesperrt hat.~
+@48   = ~NatÃ¼rlich kÃ¶nnt Ihr. Begleitet meine Gruppe und wir helfen Euch dabei, Eure Freunde zu finden. Ihr kÃ¶nnt mir dafÃ¼r helfen, den Magier zu finden, der mich hier eingesperrt hat.~
 
 @49   = ~Hmm...Ich nehme Euer Angebot an.~
 
 @50   = ~Das ist die richtige Einstellung! Lasst uns gehen.~
 
-@51   = ~Großartig! Lasst uns gehen, Drizzt Do'Urden.~
+@51   = ~GroÃŸartig! Lasst uns gehen, Drizzt Do'Urden.~
 
 @52   = ~Wulfgar! Ich habe nach Euch und den Anderen gesucht, konnte aber niemanden finden.~
 
 @53   = ~Ich verspreche Euch, dass wir Euch helfen werden, <CHARNAME>.~
 
-@54   = ~Großartig! Lasst uns gehen, Drizzt und Wulfgar.~
+@54   = ~GroÃŸartig! Lasst uns gehen, Drizzt und Wulfgar.~
 
 @55   = ~Sehr gut. Lasst uns gehen, Leute.~
 
-@56   = ~Wulfgar! Schön, Euch zu sehen... seid Ihr Euch sicher mit dieser Gruppe? Sie scheinen mir gegenüber sehr feindlich eingestellt zu sein.~
+@56   = ~Wulfgar! SchÃ¶n, Euch zu sehen... seid Ihr Euch sicher mit dieser Gruppe? Sie scheinen mir gegenÃ¼ber sehr feindlich eingestellt zu sein.~
 
-@57   = ~Das soll für's erste vergessen sein, aber Wulfgar, sind die Anderen auch hier?~
+@57   = ~Das soll fÃ¼r's erste vergessen sein, aber Wulfgar, sind die Anderen auch hier?~
 
 @58   = ~Sicherlich, ich begleite Euch, und wenn wir meine Freunde gefunden haben, helfe ich Euch bei der Suche nach diesem Magier, der Euch hier eingesperrt hat. Versprochen.~
 
@@ -120,36 +120,36 @@
 
 @60   = ~Gut zu wissen. Ich schlage vor, wir gehen jetzt.~
 
-@61   = ~Nachdem ich wieder klar denken konnte, begann ich, nach meinen Freunden zu suchen, aber es scheint so, als wären sie woanders hin geschleudert worden. Aber wenigstens konnte ich diesen Ausgang hier finden.~
+@61   = ~Nachdem ich wieder klar denken konnte, begann ich, nach meinen Freunden zu suchen, aber es scheint so, als wÃ¤ren sie woanders hin geschleudert worden. Aber wenigstens konnte ich diesen Ausgang hier finden.~
 
-@62   = ~Er ist genau vor uns, aber ich bin noch nicht hinausgegangen, weil er direkt in eine große Stadt führt, von deren Bewohnern ich vielleicht nichts Gutes zu erwarten hätte. Schließlich bin ich ein Drow.~
+@62   = ~Er ist genau vor uns, aber ich bin noch nicht hinausgegangen, weil er direkt in eine groÃŸe Stadt fÃ¼hrt, von deren Bewohnern ich vielleicht nichts Gutes zu erwarten hÃ¤tte. SchlieÃŸlich bin ich ein Drow.~
 
-@63   = ~Na ja, würdet Ihr mich begleiten, könnte ich die Leute vielleicht von Eurer friedlichen Art überzeugen.~
+@63   = ~Na ja, wÃ¼rdet Ihr mich begleiten, kÃ¶nnte ich die Leute vielleicht von Eurer friedlichen Art Ã¼berzeugen.~
 
-@64   = ~Das ist eine problematische Situation. Warum begleitet Ihr mich nicht, und wenn es zu irgendwelchen Problemen kommt, kümmere ich mich darum.~
+@64   = ~Das ist eine problematische Situation. Warum begleitet Ihr mich nicht, und wenn es zu irgendwelchen Problemen kommt, kÃ¼mmere ich mich darum.~
 
-@65   = ~Nein, ich kann Euch nicht helfen. Es war trotzdem schön, Euch zu treffen. Man sieht sich! (Wählt Ihr diese Option, könnt Ihr den Hauptteil des Mods nicht weiterführen)~
+@65   = ~Nein, ich kann Euch nicht helfen. Es war trotzdem schÃ¶n, Euch zu treffen. Man sieht sich! (WÃ¤hlt Ihr diese Option, kÃ¶nnt Ihr den Hauptteil des Mods nicht weiterfÃ¼hren)~
 
-@66   = ~Gute Idee, Freund <CHARNAME>. Aber bevor wir gehen, muss ich Euch sagen, dass ich meine Freunde nicht im Stich lassen möchte, deshalb sollten wir nach ihnen schauen, wenn wir wieder an der Oberfläche sind. Vielleicht kann ich Euch dafür helfen, den Zauberer zu finden, der Euch hier eingekerkert hatte.~ ~Gute Idee, Freundin <CHARNAME>. Aber bevor wir gehen, muss ich Euch sagen, dass ich meine Freunde nicht im Stich lassen möchte, deshalb sollten wir nach ihnen schauen, wenn wir wieder an der Oberfläche sind. Vielleicht kann ich Euch dafür helfen, den Zauberer zu finden, der Euch hier eingekerkert hatte.~
+@66   = ~Gute Idee, Freund <CHARNAME>. Aber bevor wir gehen, muss ich Euch sagen, dass ich meine Freunde nicht im Stich lassen mÃ¶chte, deshalb sollten wir nach ihnen schauen, wenn wir wieder an der OberflÃ¤che sind. Vielleicht kann ich Euch dafÃ¼r helfen, den Zauberer zu finden, der Euch hier eingekerkert hatte.~ ~Gute Idee, Freundin <CHARNAME>. Aber bevor wir gehen, muss ich Euch sagen, dass ich meine Freunde nicht im Stich lassen mÃ¶chte, deshalb sollten wir nach ihnen schauen, wenn wir wieder an der OberflÃ¤che sind. Vielleicht kann ich Euch dafÃ¼r helfen, den Zauberer zu finden, der Euch hier eingekerkert hatte.~
 
-@67   = ~Jede Hilfe ist willkommen. Danke für Euer Angebot. Ich akzeptiere.~
+@67   = ~Jede Hilfe ist willkommen. Danke fÃ¼r Euer Angebot. Ich akzeptiere.~
 
-@68   = ~Hört sich gut an. Ich akzeptiere Euer Angebot. Lasst uns gehen!~
+@68   = ~HÃ¶rt sich gut an. Ich akzeptiere Euer Angebot. Lasst uns gehen!~
 
-@69   = ~Seid Ihr sicher? Ich könnte Euch begleiten und wir kümmern uns dann gemeinsam um meine verschwundenen Freunde und den Magier, der Euch hier gefangen gehalten hat.~
+@69   = ~Seid Ihr sicher? Ich kÃ¶nnte Euch begleiten und wir kÃ¼mmern uns dann gemeinsam um meine verschwundenen Freunde und den Magier, der Euch hier gefangen gehalten hat.~
 
 @70   = ~Also, gut. Kommt mit mir.~
 
-@71   = ~Nee, kein Geschäft. Tschüss! (Wählt Ihr diese Option, könnt Ihr den Hauptteil des Mods nicht weiterführen)~
+@71   = ~Nee, kein GeschÃ¤ft. TschÃ¼ss! (WÃ¤hlt Ihr diese Option, kÃ¶nnt Ihr den Hauptteil des Mods nicht weiterfÃ¼hren)~
 
-@72   = ~Großartig! Lasst uns gehen.~
+@72   = ~GroÃŸartig! Lasst uns gehen.~
 
-@73   = ~Nun, ich entkam aus der Drowstadt Menzoberranzan, als ich noch sehr jung war und strandete an der Oberfläche. Seitdem bin ich auf der Suche nach einem Ort, den ich hier oben Heimat nennen kann.~
+@73   = ~Nun, ich entkam aus der Drowstadt Menzoberranzan, als ich noch sehr jung war und strandete an der OberflÃ¤che. Seitdem bin ich auf der Suche nach einem Ort, den ich hier oben Heimat nennen kann.~
 
 @74   = ~Ich fand im Laufe der Jahre einige Freunde und bin heutzutage an einigen Orten sogar willkommen... Na ja, dass war's eigentlich schon zu mir. Was ist mit Euch? Wie seid Ihr hierher geraten?~
 
-@75   = ~Ihr solltet mir das wirklich erzählen.~
+@75   = ~Ihr solltet mir das wirklich erzÃ¤hlen.~
 
 @76   = ~Nun... gut. Ich wurde hier von einer Art Zauberer eingekerkert. Meine Freundin Imoen konnte mich befreien und nun suchen wir gemeinsam nach einem Ausgang.~
 
-@77   = ~Nun... gut. Ich war grade mit einigen Freunden auf einer Reise von Baldurs Tor nach Amn, als wir plötzlich überfallen und hierher gebracht wurden. Ich wurde aus meiner Zelle befreit und bin nun auf der Suche nach einem Ausgang aus diesem Ort.~
+@77   = ~Nun... gut. Ich war grade mit einigen Freunden auf einer Reise von Baldurs Tor nach Amn, als wir plÃ¶tzlich Ã¼berfallen und hierher gebracht wurden. Ich wurde aus meiner Zelle befreit und bin nun auf der Suche nach einem Ausgang aus diesem Ort.~

@@ -1,62 +1,62 @@
-@0    = ~Hey! Ihr! Ich würde gerne ein paar Worte mit Euch wechseln!~
+@0    = ~Hey! Ihr! Ich wÃ¼rde gerne ein paar Worte mit Euch wechseln!~
 
-@1    = ~Ich habe gehört, dass Ihr nach einer Höhle gefragt habt. Ich weiss vielleicht etwas.~
+@1    = ~Ich habe gehÃ¶rt, dass Ihr nach einer HÃ¶hle gefragt habt. Ich weiss vielleicht etwas.~
 
 @2    = ~In Ordnung. Sprecht, Mann.~
 
 @3    = ~Endlich! Sagt mir, was Ihr wisst.~
 
-@4    = ~Ihr wisst etwas von einer Höhle? ...Gut. Sagt mir alles, was Ihr wisst.~
+@4    = ~Ihr wisst etwas von einer HÃ¶hle? ...Gut. Sagt mir alles, was Ihr wisst.~
 
-@5    = ~Es gibt in der Tat eine Höhle in der Nähe des Dorfes. Auf Eurer Karte liegt sie genau dort.~
+@5    = ~Es gibt in der Tat eine HÃ¶hle in der NÃ¤he des Dorfes. Auf Eurer Karte liegt sie genau dort.~
 
-@6    = ~Ich weiss, was Ihr jetzt denkt. Warum weiss keiner im Dorf etwas über diese Höhle, mit Ausnahme von mir?~
+@6    = ~Ich weiss, was Ihr jetzt denkt. Warum weiss keiner im Dorf etwas Ã¼ber diese HÃ¶hle, mit Ausnahme von mir?~
 
-@7    = ~... Ich bin mir natürlich nicht sicher, was die Antwort betrifft... aber ich vermute, dass die anderen... einer Gehirnwäsche unterzogen wurden.~
+@7    = ~... Ich bin mir natÃ¼rlich nicht sicher, was die Antwort betrifft... aber ich vermute, dass die anderen... einer GehirnwÃ¤sche unterzogen wurden.~
 
-@8    = ~Ja, nätürlich. Das muss es sein. Die Leute stehen unter der mentalen Kontrolle eines Mannes namens Artemis Entreri und einem Drow namens Jarlaxle.~
+@8    = ~Ja, nÃ¤tÃ¼rlich. Das muss es sein. Die Leute stehen unter der mentalen Kontrolle eines Mannes namens Artemis Entreri und einem Drow namens Jarlaxle.~
 
 @9    = ~Und warum ist Euch das nicht passiert?~
 
-@10   = ~Vielen Dank für diese Information. Ich werde mich jetzt zu dieser Höhle aufmachen.~
+@10   = ~Vielen Dank fÃ¼r diese Information. Ich werde mich jetzt zu dieser HÃ¶hle aufmachen.~
 
-@11   = ~Dann haben sich meine Befürchtungen bewahrheitet... Wer sind dieser Artemis Entreri und dieser Jarlaxle?~
+@11   = ~Dann haben sich meine BefÃ¼rchtungen bewahrheitet... Wer sind dieser Artemis Entreri und dieser Jarlaxle?~
 
-@12   = ~Nur ein paar Typen, die ich töten muss. Sorgt Euch nicht um sie.~
+@12   = ~Nur ein paar Typen, die ich tÃ¶ten muss. Sorgt Euch nicht um sie.~
 
-@13   = ~Ihr müsst wissen, dass sie böse sind und aufgehalten werden müssen. Aber jetzt habe ich eine Frage. Warum werdet Ihr nicht kontrolliert, wie all die anderen?~
+@13   = ~Ihr mÃ¼sst wissen, dass sie bÃ¶se sind und aufgehalten werden mÃ¼ssen. Aber jetzt habe ich eine Frage. Warum werdet Ihr nicht kontrolliert, wie all die anderen?~
 
-@14   = ~Das braucht Ihr nicht zu wissen. Ich gehe und töte sie jetzt.~
+@14   = ~Das braucht Ihr nicht zu wissen. Ich gehe und tÃ¶te sie jetzt.~
 
 @15   = ~Ich nehme an, dass die Leute wieder normal werden, wenn Ihr Erfolg haben solltet? Ich hoffe es zumindest.~
 
-@16   = ~In Ordnung... Ich hoffe, das beendet die Besessenheit des Dorfes, wenn Ihr sie tötet.~
+@16   = ~In Ordnung... Ich hoffe, das beendet die Besessenheit des Dorfes, wenn Ihr sie tÃ¶tet.~
 
-@17   = ~Ich glaube, es ist deswegen, weil ich eine Woche lange nicht im Dorf war. Die Dorfbewohner müssen übernommen worden sein, als ich abwesend war.~
+@17   = ~Ich glaube, es ist deswegen, weil ich eine Woche lange nicht im Dorf war. Die Dorfbewohner mÃ¼ssen Ã¼bernommen worden sein, als ich abwesend war.~
 
-@18   = ~Zuerst habe ich nichts bemerkt. Doch dann begann ich etwas zu vermuten, weil alle plötzlich Dinge vergaßen, die jeder Dorfbewohner wusste.~
+@18   = ~Zuerst habe ich nichts bemerkt. Doch dann begann ich etwas zu vermuten, weil alle plÃ¶tzlich Dinge vergaÃŸen, die jeder Dorfbewohner wusste.~
 
 @19   = ~Eure Vermutungen bewahrheiten sich. Die Leute sind in der Tat unter einem mentalen Einfluss. Ich werde mich des Problems annehmen. Kein Grund, sich Sorgen zu machen.~
 
 @20   = ~Mit Euren Vermutungen habt Ihr Recht. Die Leute stehen unter der mentalen Kontrolle eines Mannes namens Artemis Entreri und einem Drow namens Jarlaxle.~
-@21   = ~Vielen Dank für die Informationen. Ich werde mich jetzt zu der Höhle begeben.~
+@21   = ~Vielen Dank fÃ¼r die Informationen. Ich werde mich jetzt zu der HÃ¶hle begeben.~
 
 @22   = ~Alles klar. Wiedersehen.~
 
-@23   = ~Na schön. Ich werde das alles bald beenden. Ich werde Artemis Enteri und Jarlaxle beseitigen. Eure Leute werden wieder ihren eigenen Willen haben.~
+@23   = ~Na schÃ¶n. Ich werde das alles bald beenden. Ich werde Artemis Enteri und Jarlaxle beseitigen. Eure Leute werden wieder ihren eigenen Willen haben.~
 
-@24   = ~Macht Euch nur keine Sorgen. Ich werde mich des Problems annehmen. Ich werde Enteri and Jarlaxle töten und die Sache beenden.~
+@24   = ~Macht Euch nur keine Sorgen. Ich werde mich des Problems annehmen. Ich werde Enteri and Jarlaxle tÃ¶ten und die Sache beenden.~
 
-@25   = ~Äh... grossartig! Ich werde warten!~
+@25   = ~Ã„h... grossartig! Ich werde warten!~
 
-@26   = ~Dann sind meine Befürchtungen zutreffend... Woher wisst Ihr, dass sie unter fremdem Einfluss stehen?~
+@26   = ~Dann sind meine BefÃ¼rchtungen zutreffend... Woher wisst Ihr, dass sie unter fremdem Einfluss stehen?~
 
 @27   = ~Das braucht Ihr nicht zu wissen. Ich bin auf Eurer Seite. Ich werde das ganze beenden.~
 
 @28   = ~Diejenigen, die Eure Leute unter ihrem Einfluss haben, sind meine Feinde. Ich werde sie beseitigen. Das Dorf wird dann wieder frei sein.~
 
-@29   = ~Viel Glück!~
+@29   = ~Viel GlÃ¼ck!~
 
-@30   = ~Die Dorfbewohner stehen nicht mehr länger unter fremdem Einfluss! Ihr konnte sie anscheinend befreien! Ich danke Euch!~
+@30   = ~Die Dorfbewohner stehen nicht mehr lÃ¤nger unter fremdem Einfluss! Ihr konnte sie anscheinend befreien! Ich danke Euch!~
 
-@31   = ~Es ist eine Schande, dass hier niemand sonst etwas über Euren heroischen Akt weiss...~
+@31   = ~Es ist eine Schande, dass hier niemand sonst etwas Ã¼ber Euren heroischen Akt weiss...~

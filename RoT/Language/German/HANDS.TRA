@@ -1,77 +1,77 @@
-@0    = ~Einen schönen guten Tag, Abenteurer. Ihr scheint in ziemlich guter Verfassung zu sein. Könntet Ihr vielleicht etwas für mich erledigen?~ ~Einen schönen guten Tag, Abenteurerin. Ihr scheint in ziemlich guter Verfassung zu sein. Könntet Ihr vielleicht etwas für mich erledigen?~
+@0    = ~Einen schÃ¶nen guten Tag, Abenteurer. Ihr scheint in ziemlich guter Verfassung zu sein. KÃ¶nntet Ihr vielleicht etwas fÃ¼r mich erledigen?~ ~Einen schÃ¶nen guten Tag, Abenteurerin. Ihr scheint in ziemlich guter Verfassung zu sein. KÃ¶nntet Ihr vielleicht etwas fÃ¼r mich erledigen?~
 
 @1    = ~Aber sicher doch. Was soll ich denn tun?~
 
-@2    = ~Zuerst möchte ich wissen, was ich tun soll.~
+@2    = ~Zuerst mÃ¶chte ich wissen, was ich tun soll.~
 
 @3    = ~Ich bin nicht in der Stimmung, etwas zu erledigen.~
 
-@4    = ~Kommt zurück, wenn die Mission erledigt ist.~
+@4    = ~Kommt zurÃ¼ck, wenn die Mission erledigt ist.~
 
-@5    = ~... Vor einigen Wochen zog ich mit meiner Frau und meinen Söhnen durch die Lande.~
+@5    = ~... Vor einigen Wochen zog ich mit meiner Frau und meinen SÃ¶hnen durch die Lande.~
 
-@6    = ~Auf dem Rückweg wurden wir von einer Horde Monster angegriffen.~
+@6    = ~Auf dem RÃ¼ckweg wurden wir von einer Horde Monster angegriffen.~
 
-@7    = ~Wir konnten gerade noch entkommen, aber einer meiner Söhne... wurde getötet...~
+@7    = ~Wir konnten gerade noch entkommen, aber einer meiner SÃ¶hne... wurde getÃ¶tet...~
 
-@8    = ~... Wir konnten keinen Rachefeldzug unternehmen. Wir hatten wegen der Monster des Magiers nicht genügend Leute zur Verfügung.~
+@8    = ~... Wir konnten keinen Rachefeldzug unternehmen. Wir hatten wegen der Monster des Magiers nicht genÃ¼gend Leute zur VerfÃ¼gung.~
 
-@9    = ~Jetzt würde ich Euch bitten, für mich Rache zu nehmen. Ich flehe Euch untertänigst an. Tötet wenigstens ihren Anführer.~
+@9    = ~Jetzt wÃ¼rde ich Euch bitten, fÃ¼r mich Rache zu nehmen. Ich flehe Euch untertÃ¤nigst an. TÃ¶tet wenigstens ihren AnfÃ¼hrer.~
 
-@10   = ~Das tut mir Leid für Euch. Es wird mir ein Vergnügen sein, diese Monster zu beseitigen. Wo kann ich sie finden?~
+@10   = ~Das tut mir Leid fÃ¼r Euch. Es wird mir ein VergnÃ¼gen sein, diese Monster zu beseitigen. Wo kann ich sie finden?~
 
-@11   = ~Zeigt mir den Ort und überlasst den Rest mir!~
+@11   = ~Zeigt mir den Ort und Ã¼berlasst den Rest mir!~
 
 @12   = ~Hmm... Was bekomme ich denn, wenn ich  es tue?~
 
-@13   = ~Verzeiht mir, aber ich bezweifle, dass ich diese Monster besiegen kann. Ihr müsst Euch jemand anderen suchen.~
+@13   = ~Verzeiht mir, aber ich bezweifle, dass ich diese Monster besiegen kann. Ihr mÃ¼sst Euch jemand anderen suchen.~
 
-@14   = ~Ich habe für Euch nichts übrig. Und Euer Kind interessiert mich auch nicht. Belästigt mich nicht wieder damit!~
+@14   = ~Ich habe fÃ¼r Euch nichts Ã¼brig. Und Euer Kind interessiert mich auch nicht. BelÃ¤stigt mich nicht wieder damit!~
 
-@15   = ~Hier, lasst mich den Standort auf Eurer Karte markieren. Wenn Ihr dort angekommen seid, müsst Ihr selbst nach den Monstern suchen.~
+@15   = ~Hier, lasst mich den Standort auf Eurer Karte markieren. Wenn Ihr dort angekommen seid, mÃ¼sst Ihr selbst nach den Monstern suchen.~
 
-@16   = ~Ich vermute, dass sich dort eine Höhle oder so etwas befindet, in der sie sich verstecken.~
+@16   = ~Ich vermute, dass sich dort eine HÃ¶hle oder so etwas befindet, in der sie sich verstecken.~
 
-@17   = ~Danke. Ich komme mit dem Kopf ihres Anführers zurück.~
+@17   = ~Danke. Ich komme mit dem Kopf ihres AnfÃ¼hrers zurÃ¼ck.~
 
-@18   = ~Ich werde zurückkommen, wenn alle beseitigt sind.~
+@18   = ~Ich werde zurÃ¼ckkommen, wenn alle beseitigt sind.~
 
 @19   = ~Ich werde geduldig warten, aber seinen Kopf braucht Ihr mir nicht zu bringen...~
 
 @20   = ~Gut, ich werde geduldig warten.~
 
-@21   = ~Möglicherweise haben die Monster etwas wertvolles.~
+@21   = ~MÃ¶glicherweise haben die Monster etwas wertvolles.~
 
 @22   = ~Alles klar. Ich werde es tun. Wo kann ich sie finden?~
 
-@23   = ~Zeigt mir den Ort und überlasst den Rest mir!~
+@23   = ~Zeigt mir den Ort und Ã¼berlasst den Rest mir!~
 
-@24   = ~Für solch einen Preis ist mir das zu riskant. Ihr müsst Euch an jemand anderen wenden.~
+@24   = ~FÃ¼r solch einen Preis ist mir das zu riskant. Ihr mÃ¼sst Euch an jemand anderen wenden.~
 
-@25   = ~Das Angebot steht noch, falls Ihr es Euch anders überlegen solltet.~
+@25   = ~Das Angebot steht noch, falls Ihr es Euch anders Ã¼berlegen solltet.~
 
-@26   = ~Manche Leute können richtig grausam sein...~
+@26   = ~Manche Leute kÃ¶nnen richtig grausam sein...~
 
-@27   = ~Kommt wieder, falls Ihr es Euch anders überlegt. Das Angebot wird dann noch gelten.~
+@27   = ~Kommt wieder, falls Ihr es Euch anders Ã¼berlegt. Das Angebot wird dann noch gelten.~
 
-@28   = ~Habt Ihr es Euch noch einmal überlegt?~
+@28   = ~Habt Ihr es Euch noch einmal Ã¼berlegt?~
 
-@29   = ~Ja, das habe ich. Diese Monster müssen beseitigt werden. Ich werde es tun. Wo kann ich sie finden?~
+@29   = ~Ja, das habe ich. Diese Monster mÃ¼ssen beseitigt werden. Ich werde es tun. Wo kann ich sie finden?~
 
-@30   = ~Nein, natürich nicht.~
+@30   = ~Nein, natÃ¼rich nicht.~
 
 @31   = ~Ich habe nicht das Verlangen, mit Euch zu sprechen.~
 
-@32   = ~Habt Ihr für mich Rache genommen?~
+@32   = ~Habt Ihr fÃ¼r mich Rache genommen?~
 
 @33   = ~Ja. Ich habe sie zur Ader gelassen.~
 
 @34   = ~Ja, die Rache wurde vollzogen.~
 
-@35   = ~Ja! Und seht, was ich hier habe. Die Leiche Eures Sohnes. Jetzt könnt Ihr ihn in der Heimaterde begraben.~
+@35   = ~Ja! Und seht, was ich hier habe. Die Leiche Eures Sohnes. Jetzt kÃ¶nnt Ihr ihn in der Heimaterde begraben.~
 
 @36   = ~Gut. Das habt Ihr gut gemacht. Ihr seid in meinem Haus immer willkommen.~
 
-@37   = ~Ich danke Euch! Ihr habt Rache genommen und mir meinen Sohn zurückgebracht. Wie kann ich Euch jemals dafür danken? Ihr seid in meinem Haus immer willkommen.~
+@37   = ~Ich danke Euch! Ihr habt Rache genommen und mir meinen Sohn zurÃ¼ckgebracht. Wie kann ich Euch jemals dafÃ¼r danken? Ihr seid in meinem Haus immer willkommen.~
 
 @38   = ~Ihr seid hier immer willkommen.~

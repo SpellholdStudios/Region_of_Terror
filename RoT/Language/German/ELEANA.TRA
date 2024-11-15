@@ -1,11 +1,11 @@
 @0    = ~He da! Ich habe ein Problem und brauche jemanden, der mir dabei hilft. Ihr seid doch ein Abenteurer. Habe ich Recht?~ ~He da! Ich habe ein Problem und brauche jemanden, der mir dabei hilft. Ihr seid doch eine Abenteurerin. Habe ich Recht?~
 
-@1    = ~Ihr habt Recht. Fahrt fort und erklärt mir Euer Problem.~
+@1    = ~Ihr habt Recht. Fahrt fort und erklÃ¤rt mir Euer Problem.~
 
 @2    = ~Ja, ich bin ein Abenteurer.~ ~Ja, ich bin eine Abenteurerin.~
 
 
-@3    = ~Ich bin ein Abenteurer, aber ich habe keine Zeit für die Probleme anderer.~ ~Ich bin eine Abenteurerin, aber ich habe keine Zeit für die Probleme anderer.~
+@3    = ~Ich bin ein Abenteurer, aber ich habe keine Zeit fÃ¼r die Probleme anderer.~ ~Ich bin eine Abenteurerin, aber ich habe keine Zeit fÃ¼r die Probleme anderer.~
 
 
 @4    = ~Nein, ich bin kein Abenteurer.~
@@ -13,82 +13,82 @@
 
 @5    = ~Hm... aber zumindest seht Ihr so aus. Nun, dann auf wiedersehen.~
 
-@6    = ~In Ordnung. Ich bin damit betraut worden, eine seltene Spruchrolle von einem Kaufmann in Athkatla zu kaufen. Der Kaufmann wird nur zehn Tage dort bleiben, daher müsste ich gleich aufbrechen.~
+@6    = ~In Ordnung. Ich bin damit betraut worden, eine seltene Spruchrolle von einem Kaufmann in Athkatla zu kaufen. Der Kaufmann wird nur zehn Tage dort bleiben, daher mÃ¼sste ich gleich aufbrechen.~
 
-@7    = ~Das Problem ist, dass ich Privatangelegenheiten habe, die diese Woche erledigt werden müssen. Ich muss wirklich bleiben, aber ich kann die Aufgabe nicht ablehnen, die mir aufgetragen worden ist.~
+@7    = ~Das Problem ist, dass ich Privatangelegenheiten habe, die diese Woche erledigt werden mÃ¼ssen. Ich muss wirklich bleiben, aber ich kann die Aufgabe nicht ablehnen, die mir aufgetragen worden ist.~
 
-@8    = ~Macht Euch keine Sorgen! Ich werde gehen und diese Schriftrolle für Euch besorgen.~
+@8    = ~Macht Euch keine Sorgen! Ich werde gehen und diese Schriftrolle fÃ¼r Euch besorgen.~
 
-@9    = ~Ich sehe, was Ihr wollt und ich bin bereit, es zu tun. Ich töte jeden einzelnen Magier in dieser Stadt! Mit Ausnahme von Euch natürlich.~
+@9    = ~Ich sehe, was Ihr wollt und ich bin bereit, es zu tun. Ich tÃ¶te jeden einzelnen Magier in dieser Stadt! Mit Ausnahme von Euch natÃ¼rlich.~
 
-@10   = ~Ich könnte diese Schriftrolle für Euch besorgen, aber was würde ich dafür bekommen, wenn ich es tun würde?~
+@10   = ~Ich kÃ¶nnte diese Schriftrolle fÃ¼r Euch besorgen, aber was wÃ¼rde ich dafÃ¼r bekommen, wenn ich es tun wÃ¼rde?~
 
-@11   = ~Ich habe keine Zeit, irgendwelche Schriftrollen für faule Magier zu besorgen. Fragt jemand anderen.~
+@11   = ~Ich habe keine Zeit, irgendwelche Schriftrollen fÃ¼r faule Magier zu besorgen. Fragt jemand anderen.~
 
-@12   = ~Oh, den Himmeln sei Dank! Sehr edel von Euch, dass Ihr das für mich tut. Die Schriftrolle wurde bereits bezahlt. Hier, nehmt diesen Brief.~
+@12   = ~Oh, den Himmeln sei Dank! Sehr edel von Euch, dass Ihr das fÃ¼r mich tut. Die Schriftrolle wurde bereits bezahlt. Hier, nehmt diesen Brief.~
 
-@13   = ~Zeigt ihn dem Händler und er wird Euch die Schriftrolle geben. Ihr werdet ihn bei den Stadttoren von Athkatla finden.~
+@13   = ~Zeigt ihn dem HÃ¤ndler und er wird Euch die Schriftrolle geben. Ihr werdet ihn bei den Stadttoren von Athkatla finden.~
 
-@14   = ~Wenn Ihr mich jetzt entschuldigen würdet, ich muss jetzt wieder gehen. Wenn Ihr mich bei Eurer Rückkehr hier nicht finden solltet, dann bin ich wahrscheinlich in dem Haus neben dem Gefängnis. Ich kenne den Besitzer und besuche ihn manchmal.~
+@14   = ~Wenn Ihr mich jetzt entschuldigen wÃ¼rdet, ich muss jetzt wieder gehen. Wenn Ihr mich bei Eurer RÃ¼ckkehr hier nicht finden solltet, dann bin ich wahrscheinlich in dem Haus neben dem GefÃ¤ngnis. Ich kenne den Besitzer und besuche ihn manchmal.~
 
-@15   = ~Nein! Das habe ich nicht gemeint! ...Ihr müsst so intelligent wie ein Stuhlbein sein. Ihr sollt dorthin gehen und die Schriftrolle für mich besorgen. Ich könnte Euch dafür bezahlen.~
+@15   = ~Nein! Das habe ich nicht gemeint! ...Ihr mÃ¼sst so intelligent wie ein Stuhlbein sein. Ihr sollt dorthin gehen und die Schriftrolle fÃ¼r mich besorgen. Ich kÃ¶nnte Euch dafÃ¼r bezahlen.~
 
-@16   = ~Ich habe nur Spass gemacht. Ihr müsst mich nicht bezahlen. Ich werde Euch die Schriftrolle besorgen.~
+@16   = ~Ich habe nur Spass gemacht. Ihr mÃ¼sst mich nicht bezahlen. Ich werde Euch die Schriftrolle besorgen.~
 
-@17   = ~Wie viel würdet Ihr denn bezahlen...?~
+@17   = ~Wie viel wÃ¼rdet Ihr denn bezahlen...?~
 
-@18   = ~Ihr wagt es, mich zu beleidigen!? Ich werde nichts für Euch tun!~
+@18   = ~Ihr wagt es, mich zu beleidigen!? Ich werde nichts fÃ¼r Euch tun!~
 
-@19   = ~Verzeiht mir... wenn Ihr es Euch anders überlegen solltet, dann kommt wieder zu mir.~
+@19   = ~Verzeiht mir... wenn Ihr es Euch anders Ã¼berlegen solltet, dann kommt wieder zu mir.~
 
-@20   = ~Ich bin nicht sehr reich... hundert Goldstücke. Wie hört sich das an?~
+@20   = ~Ich bin nicht sehr reich... hundert GoldstÃ¼cke. Wie hÃ¶rt sich das an?~
 
 @21   = ~Hmm... klingt gut. Ich werde es tun.~
 
 @22   = ~Leider nicht genug. Ich brauche mehr. Sagen wir zweihundert.~
 
-@23   = ~Für einen solchen Preis mache ich gar nichts.~
+@23   = ~FÃ¼r einen solchen Preis mache ich gar nichts.~
 
-@24   = ~Hmm... lasst mich darüber nachdenken...~
+@24   = ~Hmm... lasst mich darÃ¼ber nachdenken...~
 
-@25   = ~...Oh, alles klar. Ich kann Euch zweihundert Goldstücke bezahlen. Erledigt einfach nur den Auftrag. Die Schriftrolle ist schon bezahlt. Hier, nehmt diesen Brief.~
+@25   = ~...Oh, alles klar. Ich kann Euch zweihundert GoldstÃ¼cke bezahlen. Erledigt einfach nur den Auftrag. Die Schriftrolle ist schon bezahlt. Hier, nehmt diesen Brief.~
 
-@26   = ~...Nein, ich kann einen solchen Preis nicht bezahlen. Ihr müsst Euch mit hundert zufrieden geben.~
+@26   = ~...Nein, ich kann einen solchen Preis nicht bezahlen. Ihr mÃ¼sst Euch mit hundert zufrieden geben.~
 
 @27   = ~Nicht gerade viel, aber ich werde es tun.~
 
-@28   = ~Nein, für hundert Goldstücke werde ich  es nicht tun. Ihr müsst Euch jemand anderen suchen.~
+@28   = ~Nein, fÃ¼r hundert GoldstÃ¼cke werde ich  es nicht tun. Ihr mÃ¼sst Euch jemand anderen suchen.~
 
-@29   = ~Nun, dann werde ich hier stehen, wenn Ihr es Euch anders überlegen solltet.~
+@29   = ~Nun, dann werde ich hier stehen, wenn Ihr es Euch anders Ã¼berlegen solltet.~
 
-@30   = ~Ja, das dachte ich mir. Wollt Ihr Euch mein Problem anhören?~
+@30   = ~Ja, das dachte ich mir. Wollt Ihr Euch mein Problem anhÃ¶ren?~
 
 @31   = ~Fahrt fort und sprecht.~
 
-@32   = ~Verzeiht, aber ich habe jetzt keine Zeit. Vielleicht später.~
+@32   = ~Verzeiht, aber ich habe jetzt keine Zeit. Vielleicht spÃ¤ter.~
 
-@33   = ~Gut. Kommt zurück, wann immer Ihr wollt.~
+@33   = ~Gut. Kommt zurÃ¼ck, wann immer Ihr wollt.~
 
 @34   = ~Sind die Probleme anderer nicht die Aufgaben eines Abenteurers?~ ~Sind die Probleme anderer nicht die Aufgaben einer Abenteurerin?~
 
 
-@35   = ~Hmm... Ihr habt möglicherweise Recht. Hören wir uns Euer Problem an.~
+@35   = ~Hmm... Ihr habt mÃ¶glicherweise Recht. HÃ¶ren wir uns Euer Problem an.~
 
-@36   = ~Nur wenn sie mir in den Kram passen. Beenden wir dieses Gespräch.~
+@36   = ~Nur wenn sie mir in den Kram passen. Beenden wir dieses GesprÃ¤ch.~
 
-@37   = ~Sehr schön. Wenn Ihr es später weiterführen wollt, dann kommt wieder.~
+@37   = ~Sehr schÃ¶n. Wenn Ihr es spÃ¤ter weiterfÃ¼hren wollt, dann kommt wieder.~
 
-@38   = ~Ich könnte schwören, dass ihr ein Abenteurer seid. Wollt Ihr Euch mein Problem anhören?~ 
-~Ich könnte schwören, dass ihr eine Abenteurerin seid. Wollt Ihr Euch mein Problem anhören?~
+@38   = ~Ich kÃ¶nnte schwÃ¶ren, dass ihr ein Abenteurer seid. Wollt Ihr Euch mein Problem anhÃ¶ren?~ 
+~Ich kÃ¶nnte schwÃ¶ren, dass ihr eine Abenteurerin seid. Wollt Ihr Euch mein Problem anhÃ¶ren?~
 
-@39   = ~Also gut, ich bin ein Abenteurer, aber ich will mir Eure Probleme nicht anhören.~ ~Also gut, ich bin eine Abenteurerin, aber ich will mir Eure Probleme nicht anhören.~
+@39   = ~Also gut, ich bin ein Abenteurer, aber ich will mir Eure Probleme nicht anhÃ¶ren.~ ~Also gut, ich bin eine Abenteurerin, aber ich will mir Eure Probleme nicht anhÃ¶ren.~
 
 
-@41   = ~Sehr schön. Kommt wieder, wenn Ihr Eure Meinung ändern solltet.~
+@41   = ~Sehr schÃ¶n. Kommt wieder, wenn Ihr Eure Meinung Ã¤ndern solltet.~
 
-@42   = ~Wollt Ihr Euch nun mein Problem anhören?~
+@42   = ~Wollt Ihr Euch nun mein Problem anhÃ¶ren?~
 
-@43   = ~Na schön. Sprecht, aber macht schnell.~
+@43   = ~Na schÃ¶n. Sprecht, aber macht schnell.~
 
 @44   = ~Nein! Ich habe vorher schon abgelehnt und werde es wieder tun.~
 
@@ -96,18 +96,18 @@
 
 @46   = ~Ja, was ist Euer Problem.~
 
-@47   = ~Nein, später.~
+@47   = ~Nein, spÃ¤ter.~
 
-@48   = ~Habt Ihr es Euch überlegt? Besorgt Ihr mir die Schriftrolle?~
+@48   = ~Habt Ihr es Euch Ã¼berlegt? Besorgt Ihr mir die Schriftrolle?~
 
-@49   = ~Ja, ich werde es tun. Erklärt mir die Details.~
+@49   = ~Ja, ich werde es tun. ErklÃ¤rt mir die Details.~
 
-@50   = ~Ich bin noch nicht sicher. Was würde ich denn bekommen?~
+@50   = ~Ich bin noch nicht sicher. Was wÃ¼rde ich denn bekommen?~
 
 @51   = ~Nein. Ich werde es nicht tun.~
 
-@52   = ~Werdet Ihr es tun? Ich bezahle Euch hundert Goldstücke.~
+@52   = ~Werdet Ihr es tun? Ich bezahle Euch hundert GoldstÃ¼cke.~
 
-@53   = ~Alles klar. Erklärt mir die Details.~
+@53   = ~Alles klar. ErklÃ¤rt mir die Details.~
 
 @54   = ~Nein, das ist nicht genug.~

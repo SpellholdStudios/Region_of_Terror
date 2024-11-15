@@ -1,43 +1,43 @@
-@0    = ~Hallo, Fremde. Kann ich etwas für Euch tun?~ [Alissa1]
+@0    = ~Hallo, Fremde. Kann ich etwas fÃ¼r Euch tun?~ [Alissa1]
 
 @1    = ~Mein Name ist <CHARNAME>. Wer seid Ihr denn?~
 
 @2    = ~Wer seid Ihr und was macht Ihr hier?~
 
-@3    = ~Was verlangt Ihr für eine Nacht, Mädchen?~
+@3    = ~Was verlangt Ihr fÃ¼r eine Nacht, MÃ¤dchen?~
 
-@4    = ~Nein. Verzeiht die Störung.~
+@4    = ~Nein. Verzeiht die StÃ¶rung.~
 
 @5    = ~Ich bin Alissa, Priesterin von Deneir.~
 
-@6    = ~Ich suche Begleiter für meine Reisen. Seid Ihr interessiert?~
+@6    = ~Ich suche Begleiter fÃ¼r meine Reisen. Seid Ihr interessiert?~
 
-@7    = ~Ich bin ein Abenteurer und ich würde gerne wissen, ob Ihr mich begleiten wollt, Alissa, Priesterin von Deneir.~
- ~Ich bin eine Abenteurerin und ich würde gerne wissen, ob Ihr mich begleiten wollt, Alissa, Priesterin von Deneir.~
+@7    = ~Ich bin ein Abenteurer und ich wÃ¼rde gerne wissen, ob Ihr mich begleiten wollt, Alissa, Priesterin von Deneir.~
+ ~Ich bin eine Abenteurerin und ich wÃ¼rde gerne wissen, ob Ihr mich begleiten wollt, Alissa, Priesterin von Deneir.~
 
-@8    = ~Schön zu wissen. Bis bald!~
+@8    = ~SchÃ¶n zu wissen. Bis bald!~
 
-@9    = ~Ich weiss nicht... Ich bin selbst auf der Suche und möchte sie nur ungern unterbrechen.~
+@9    = ~Ich weiss nicht... Ich bin selbst auf der Suche und mÃ¶chte sie nur ungern unterbrechen.~
 
 @10   = ~Und was sucht Ihr denn?~
 
 @11   = ~Macht nichts! Was hat Euer Interesse erweckt?~
 
-@12   = ~...Nun, ich habe diese fremden magischen Fähigkeiten schon seit einigen Jahren. Ich habe keine Ahnung, woher sie kommen. Ich versuche eine Antwort zu finden.~
+@12   = ~...Nun, ich habe diese fremden magischen FÃ¤higkeiten schon seit einigen Jahren. Ich habe keine Ahnung, woher sie kommen. Ich versuche eine Antwort zu finden.~
 
-@13   = ~Bisher hatte ich jedoch kein Glück.~
+@13   = ~Bisher hatte ich jedoch kein GlÃ¼ck.~
 
-@14   = ~Hmm... Klingt interessant. Ich wäre erfreut, wenn ich Euch bei Eurer Suche helfen könnte!~
+@14   = ~Hmm... Klingt interessant. Ich wÃ¤re erfreut, wenn ich Euch bei Eurer Suche helfen kÃ¶nnte!~
 
-@15   = ~Schön, dann werde ich Euch helfen.~
+@15   = ~SchÃ¶n, dann werde ich Euch helfen.~
 
-@16   = ~Das ist jammerschade. Viel Glück für die Zukunft.~
+@16   = ~Das ist jammerschade. Viel GlÃ¼ck fÃ¼r die Zukunft.~
 
-@17   = ~Oh, ich danke Euch! Ein wenig Hilfe wäre sehr willkommen. Vielleicht finde ich die Antworten, die ich suche, wenn ich mit Euch zusammen reise.~
+@17   = ~Oh, ich danke Euch! Ein wenig Hilfe wÃ¤re sehr willkommen. Vielleicht finde ich die Antworten, die ich suche, wenn ich mit Euch zusammen reise.~
 
-@18   = ~Bevor wir aufbrechen, solltet Ihr noch wissen, dass ich eine Freundin aus den Klauen der verhüllten Magier befreien will. Das könnte gefährlich werden.~
+@18   = ~Bevor wir aufbrechen, solltet Ihr noch wissen, dass ich eine Freundin aus den Klauen der verhÃ¼llten Magier befreien will. Das kÃ¶nnte gefÃ¤hrlich werden.~
 
-@19   = ~Zuerst solltet Ihr wissen, dass ich hinter einem mächtigen Magier her bin, der mich aus einem unbekannten Grund gefangen genommen hatte. Das ist ein ziemlich riskantes Unterfangen.~
+@19   = ~Zuerst solltet Ihr wissen, dass ich hinter einem mÃ¤chtigen Magier her bin, der mich aus einem unbekannten Grund gefangen genommen hatte. Das ist ein ziemlich riskantes Unterfangen.~
 
 @20   = ~In Ordnung! Dann lasst uns gehen.~
 
@@ -49,7 +49,7 @@
 
 @24   = ~Jawohl, danke.~
 
-@25   = ~Äh... Auch bis bald.~
+@25   = ~Ã„h... Auch bis bald.~
 
 @26   = ~Mein Name ist Alissa und das geht nur mich etwas an.~
 
@@ -57,37 +57,37 @@
 
 @28   = ~Nun, mein Name ist <CHARNAME>. Es ist mir eine Freude, Euch kennenzulernen.~
 
-@29   = ~Alles klar. Dann werde ich Euch nicht weiter stören.~
+@29   = ~Alles klar. Dann werde ich Euch nicht weiter stÃ¶ren.~
 
-@30   = ~Macht Euch nicht über mich lustig.~
+@30   = ~Macht Euch nicht Ã¼ber mich lustig.~
 
 @31   = ~Vielleicht. Was wollt Ihr denn genau?~
 
-@32   = ~Ähh... nichts. Bis bald!~
+@32   = ~Ã„hh... nichts. Bis bald!~
 
-@33   = ~W-Was!? Wie könnt Ihr es wagen!? *klatsch*~
+@33   = ~W-Was!? Wie kÃ¶nnt Ihr es wagen!? *klatsch*~
 
-@34   = ~Stört mich bloss nicht wieder.~
+@34   = ~StÃ¶rt mich bloss nicht wieder.~
 
 @35   = ~Verzeiht mir. Ich habe nur Spass gemacht.~
 
 @36   = ~Alles klar.~
 
-@37   = ~Nun, Ihr habt einen ziemlich merkwürdigen Sinn für Humor.~
+@37   = ~Nun, Ihr habt einen ziemlich merkwÃ¼rdigen Sinn fÃ¼r Humor.~
 
 @38   = ~Sei's drum. Mein Name ist <CHARNAME>. Freut mich, Euch kennenzulernen.~
 
-@39   = ~Ich schätze...~
+@39   = ~Ich schÃ¤tze...~
 
 @40   = ~Was wollt Ihr?~
 
-@41   = ~Ich bin ein Abenteurer und ich würde gerne wissen, ob Ihr mich begleiten wollt.~
- ~Ich bin eine Abenteurerin und ich würde gerne wissen, ob Ihr mich begleiten wollt.~
+@41   = ~Ich bin ein Abenteurer und ich wÃ¼rde gerne wissen, ob Ihr mich begleiten wollt.~
+ ~Ich bin eine Abenteurerin und ich wÃ¼rde gerne wissen, ob Ihr mich begleiten wollt.~
 
 @42   = ~Nichts...~
 
 @43   = ~Braucht Ihr etwas?~
 
-@44   = ~Wenn Ihr Euch mir anschliesst, dann könnte ich Euch bei Eurer Suche helfen.~
+@44   = ~Wenn Ihr Euch mir anschliesst, dann kÃ¶nnte ich Euch bei Eurer Suche helfen.~
 
 @45   = ~Nicht wirklich.~

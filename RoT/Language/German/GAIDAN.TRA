@@ -1,70 +1,70 @@
-@0    = ~Der Mörder ist angekommen. Was habe ich Euch denn getan?~
+@0    = ~Der MÃ¶rder ist angekommen. Was habe ich Euch denn getan?~
 
 @1    = ~Nichts, aber das ist nicht der Grund, warum ich hier bin. Es geht darum, was Ihr anderen angetan habt und um dem Ganzen ein Ende zu setzen.~
 
-@2    = ~Ich bin nur aus einem einzigen Grund gekommen. Ihr habt eine Schriftrolle gestohlen und ich will sie wieder zurück.~
+@2    = ~Ich bin nur aus einem einzigen Grund gekommen. Ihr habt eine Schriftrolle gestohlen und ich will sie wieder zurÃ¼ck.~
 
-@3    = ~Nichts, aber das hat keine Bedeutung für mich. Ihr werdet jetzt sterben.~
+@3    = ~Nichts, aber das hat keine Bedeutung fÃ¼r mich. Ihr werdet jetzt sterben.~
 
 @4    = ~Sterbt!~
 
-@5    = ~Was für eine Schande. Helden sind gekommen, um meinen "bösen" Machenschaften ein Ende zu setzen. Dann werde ich Euch wohl töten müssen...~
+@5    = ~Was fÃ¼r eine Schande. Helden sind gekommen, um meinen "bÃ¶sen" Machenschaften ein Ende zu setzen. Dann werde ich Euch wohl tÃ¶ten mÃ¼ssen...~
 
-@6    = ~"Böse"? Wie würdet Ihr denn das Töten von unschuldigen Händlern nennen? Notwendig?~
+@6    = ~"BÃ¶se"? Wie wÃ¼rdet Ihr denn das TÃ¶ten von unschuldigen HÃ¤ndlern nennen? Notwendig?~
 
-@7    = ~Ich bin auch hier, um eine gestohlene Schriftrolle zurückzuholen.~
+@7    = ~Ich bin auch hier, um eine gestohlene Schriftrolle zurÃ¼ckzuholen.~
 
-@8    = ~Ihr seid derjenige, der sterben wird. Möge der Kampf beginnen!~
+@8    = ~Ihr seid derjenige, der sterben wird. MÃ¶ge der Kampf beginnen!~
 
-@9    = ~Ah, Ihr seid wegen eines Gegenstandes hier! Lasst uns verhandeln. Was für eine Art Schriftrolle habt Ihr denn verloren? Ich besitze ziemlich viele davon.~
+@9    = ~Ah, Ihr seid wegen eines Gegenstandes hier! Lasst uns verhandeln. Was fÃ¼r eine Art Schriftrolle habt Ihr denn verloren? Ich besitze ziemlich viele davon.~
 
 @10   = ~Verhandeln? Was meint Ihr damit?~
 
-@11   = ~Ich habe keine Lust auf Verhandlungen. Diese Diskussion wird nur in einer Art und Weise enden, nämlich jetzt.~
+@11   = ~Ich habe keine Lust auf Verhandlungen. Diese Diskussion wird nur in einer Art und Weise enden, nÃ¤mlich jetzt.~
 
-@12   = ~Ihr wollt mich ohne Grund töten? Das wäre doch eine ziemliche Zeitverschwendung, oder etwa nicht?~
+@12   = ~Ihr wollt mich ohne Grund tÃ¶ten? Das wÃ¤re doch eine ziemliche Zeitverschwendung, oder etwa nicht?~
 
-@13   = ~Mir ist zu Ohren gekommen, was Ihr den Händlern angetan habt. Ich habe mich entschlossen, dies alles zu beenden.~
+@13   = ~Mir ist zu Ohren gekommen, was Ihr den HÃ¤ndlern angetan habt. Ich habe mich entschlossen, dies alles zu beenden.~
 
 @14   = ~Einem fast toten Mann kann man es ja ruhig sagen. Ich bin gekommen, um eine Schriftrolle zu holen, die Ihr gestohlen habt.~
 
-@15   = ~Eigentlich nicht. Der Kampf möge beginnen!~
+@15   = ~Eigentlich nicht. Der Kampf mÃ¶ge beginnen!~
 
 @16   = ~Nun... ja. Irgendwie muss man sich seinen Lebensunterhalt ja verdienen.~
 
-@17   = ~Ihr seid hoffnungslos! Bevor Ihr sterben werdet, sollt Ihr noch wissen, dass ich gar nicht hier wäre, wenn Ihr nicht eine seltene Schriftrolle gestohlen hättet. Ich bin gekommen, um sie zurückzuholen.~
+@17   = ~Ihr seid hoffnungslos! Bevor Ihr sterben werdet, sollt Ihr noch wissen, dass ich gar nicht hier wÃ¤re, wenn Ihr nicht eine seltene Schriftrolle gestohlen hÃ¤ttet. Ich bin gekommen, um sie zurÃ¼ckzuholen.~
 
-@18   = ~Unverschämtheit! Jetzt ist es für Euch an der Zeit, zu sterben!~
+@18   = ~UnverschÃ¤mtheit! Jetzt ist es fÃ¼r Euch an der Zeit, zu sterben!~
 
 @19   = ~Was heisst denn schon verhandeln!? Es sieht folgendermassen aus: Ihr bezahlt mir die Schriftrolle und ich lasse Euch wieder gehen. Wie klingt das in Euren Ohren?~
 
-@20   = ~Hmm... eigentlich nicht schlecht. Eigentlich verletzt Ihr mich ja nicht, warum sollten wir also kämpfen...? Wie hoch ist der Preis?~
+@20   = ~Hmm... eigentlich nicht schlecht. Eigentlich verletzt Ihr mich ja nicht, warum sollten wir also kÃ¤mpfen...? Wie hoch ist der Preis?~
 
-@21   = ~Was für ein lausiger Handel! Ich werde Euch einfach töten und das Ganze beenden.~
+@21   = ~Was fÃ¼r ein lausiger Handel! Ich werde Euch einfach tÃ¶ten und das Ganze beenden.~
 
-@22   = ~Zuerst würde ich gerne wissen, was für eine Art Schriftrolle das ist, nach der Ihr sucht?~
+@22   = ~Zuerst wÃ¼rde ich gerne wissen, was fÃ¼r eine Art Schriftrolle das ist, nach der Ihr sucht?~
 
-@23   = ~Hmm... Ich kann es Euch wirklich nicht sagen. Sie ist selten und Eure Männer stahlen sie von einem Schriftrollenhändler. Ich glaube nicht, dass seitdem sehr viel Zeit vergangen ist.~
+@23   = ~Hmm... Ich kann es Euch wirklich nicht sagen. Sie ist selten und Eure MÃ¤nner stahlen sie von einem SchriftrollenhÃ¤ndler. Ich glaube nicht, dass seitdem sehr viel Zeit vergangen ist.~
 
-@24   = ~Hmm... Trotz allem finde ich es wesentlich einfacher, wenn ich Euch einfach töte.~
+@24   = ~Hmm... Trotz allem finde ich es wesentlich einfacher, wenn ich Euch einfach tÃ¶te.~
 
-@25   = ~Dann muss es diejenige sein, die ich bei mir habe. Ich hatte mir schon gedacht, dass sie es sein könnte. Ich habe noch nie etwas ähnliches gesehen, daher will ich... zehntausend Goldstücke dafür.~
+@25   = ~Dann muss es diejenige sein, die ich bei mir habe. Ich hatte mir schon gedacht, dass sie es sein kÃ¶nnte. Ich habe noch nie etwas Ã¤hnliches gesehen, daher will ich... zehntausend GoldstÃ¼cke dafÃ¼r.~
 
 @26   = ~Zehntausend!? Ich muss wohl nicht ganz bei Trost sein, aber ich werde Euch bezahlen. Hier ist das Gold.~
 
-@27   = ~Zehn!? Ich biete Euch fünf an und kein Goldstück mehr. Nehmt es, oder sterbt!~
+@27   = ~Zehn!? Ich biete Euch fÃ¼nf an und kein GoldstÃ¼ck mehr. Nehmt es, oder sterbt!~
 
 @28   = ~Ich habe nicht so viel. Kann ich Euch vielleicht auf andere Weise bezahlen...?~
 
-@29   = ~Hah! Nur in Euren Träumen. Ich werde Euch besser gleich töten!~
+@29   = ~Hah! Nur in Euren TrÃ¤umen. Ich werde Euch besser gleich tÃ¶ten!~
 
-@30   = ~Schön, schön. Seht mal. Hier ist die Schriftrolle...~
+@30   = ~SchÃ¶n, schÃ¶n. Seht mal. Hier ist die Schriftrolle...~
 
-@31   = ~Es war schön, Geschäfte mit Euch zu machen. Meine Männer werden Euch hinausgeleiten...~
+@31   = ~Es war schÃ¶n, GeschÃ¤fte mit Euch zu machen. Meine MÃ¤nner werden Euch hinausgeleiten...~
 
-@32   = ~(Er schätzt den möglichen Ausgang des Kampfes ab...)~
+@32   = ~(Er schÃ¤tzt den mÃ¶glichen Ausgang des Kampfes ab...)~
 
-@33   = ~Fünftausend sind in Ordnung. Ich werde es nehmen. Hier ist die Schriftrolle. Gebt mir jetzt das Geld.~
+@33   = ~FÃ¼nftausend sind in Ordnung. Ich werde es nehmen. Hier ist die Schriftrolle. Gebt mir jetzt das Geld.~
 
 @34   = ~Sicher. Hier ist es.~
 
@@ -72,16 +72,16 @@
 
 @36   = ~Dann bedeutet das Kampf, Narr!~
 
-@37   = ~Ich wähle den Tod. Euren Tod!~
+@37   = ~Ich wÃ¤hle den Tod. Euren Tod!~
 
-@38   = ~Hmm, Ihr könntet für mich eine Aufgabe erledigen... Lasst mich mal nachdenken...~
+@38   = ~Hmm, Ihr kÃ¶nntet fÃ¼r mich eine Aufgabe erledigen... Lasst mich mal nachdenken...~
 
-@39   = ~Jetzt weiss ich es! Es kommt bald ein reicher Händler mit seiner Eskorte hier vorbei. Da Ihr viele meiner Männer getötet habt, will ich nicht mehr viel riskieren. Ihr tötet die Soldaten und den Händler für mich und ich gebe Euch dafür die Schriftrolle.~
+@39   = ~Jetzt weiss ich es! Es kommt bald ein reicher HÃ¤ndler mit seiner Eskorte hier vorbei. Da Ihr viele meiner MÃ¤nner getÃ¶tet habt, will ich nicht mehr viel riskieren. Ihr tÃ¶tet die Soldaten und den HÃ¤ndler fÃ¼r mich und ich gebe Euch dafÃ¼r die Schriftrolle.~
 
 @40   = ~Klingt fair. Ich werde es machen.~
 
-@41   = ~Schrecklich! So etwas mache ich nicht! Lieber töte ich Euch!~
+@41   = ~Schrecklich! So etwas mache ich nicht! Lieber tÃ¶te ich Euch!~
 
 @42   = ~Gut. Ich nehme an, dass Ihr ihnen auflauern werdet. Wenn sie kommen, greift Ihr sie an.~
 
-@43   = ~Nun, wenn Ihr wirklich kämpfen wollt, dann bin ich der Letzte, der dazu nein sagt...~
+@43   = ~Nun, wenn Ihr wirklich kÃ¤mpfen wollt, dann bin ich der Letzte, der dazu nein sagt...~

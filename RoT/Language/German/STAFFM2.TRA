@@ -1,14 +1,14 @@
-@0    = ~Magier der fünfzehnten Stufe sind gut genug. Hmm... es scheint mir nicht so, als hättet Ihr hochstufige Magier in Eurer Gruppe. Kommt zurück, wenn Ihr welche habt.~
+@0    = ~Magier der fÃ¼nfzehnten Stufe sind gut genug. Hmm... es scheint mir nicht so, als hÃ¤ttet Ihr hochstufige Magier in Eurer Gruppe. Kommt zurÃ¼ck, wenn Ihr welche habt.~
 
-@1    = ~Willkommen, Abenteurer! Würdet Ihr gerne an einem echten Zauberduell teilnehmen? Magier mit einer höheren Stufe als der vierzehnten dürfen sich einschreiben.~ ~Willkommen, Abenteurerin! Würdet Ihr gerne an einem echten Zauberduell teilnehmen? Magier mit einer höheren Stufe als der vierzehnten dürfen sich einschreiben.~
+@1    = ~Willkommen, Abenteurer! WÃ¼rdet Ihr gerne an einem echten Zauberduell teilnehmen? Magier mit einer hÃ¶heren Stufe als der vierzehnten dÃ¼rfen sich einschreiben.~ ~Willkommen, Abenteurerin! WÃ¼rdet Ihr gerne an einem echten Zauberduell teilnehmen? Magier mit einer hÃ¶heren Stufe als der vierzehnten dÃ¼rfen sich einschreiben.~
 
-@2    = ~Aerie ist eine hochstufige Magierin. Sie könnte kämpfen.~
+@2    = ~Aerie ist eine hochstufige Magierin. Sie kÃ¶nnte kÃ¤mpfen.~
 
-@3    = ~Edwin ist ein hochstufiger Magier. Er könnte kämpfen.~
+@3    = ~Edwin ist ein hochstufiger Magier. Er kÃ¶nnte kÃ¤mpfen.~
 
-@4    = ~Ich bin selbst ein mächtiger Magier. Ich könnte antreten.~ ~Ich bin selbst eine mächtige Magierin. Ich könnte antreten.~
+@4    = ~Ich bin selbst ein mÃ¤chtiger Magier. Ich kÃ¶nnte antreten.~ ~Ich bin selbst eine mÃ¤chtige Magierin. Ich kÃ¶nnte antreten.~
 
-@5    = ~Randall hier ist ein hochstufiger Magier. Er könnte kämpfen.~
+@5    = ~Randall hier ist ein hochstufiger Magier. Er kÃ¶nnte kÃ¤mpfen.~
 
 @6    = ~Nein, ich bin nicht interessiert.~
 
@@ -16,33 +16,33 @@
 
 @8    = ~Dieser Herr hier? Gut, er darf teilnehmen. Tretet bitte zum Portal vor, mein Herr.~
 
-@9    = ~Hmm... lasst mal schauen. Ja, Ihr dürft teilnehmen. Tretet bitte zum Portal vor, <SIRMAAM>.~
+@9    = ~Hmm... lasst mal schauen. Ja, Ihr dÃ¼rft teilnehmen. Tretet bitte zum Portal vor, <SIRMAAM>.~
 
-@10   = ~So, Edwin hat es also nicht geschafft. Schade für ihn.~
+@10   = ~So, Edwin hat es also nicht geschafft. Schade fÃ¼r ihn.~
 
-@11   = ~Macht Platz für den Champion! Edwin kehrt zurück als der ultimative Magier.~
+@11   = ~Macht Platz fÃ¼r den Champion! Edwin kehrt zurÃ¼ck als der ultimative Magier.~
 
 @12   = ~Ihr habt gewonnen, Edwin? Gratuliere!~
 
-@13   = ~Wir dachten wirklich, er würde gewinnen.~
+@13   = ~Wir dachten wirklich, er wÃ¼rde gewinnen.~
 
 @14   = ~Edwin ist der ultimative Magier. Ich gratuliere Euch allen.~
 
-@15   = ~So, Aerie hat es also nicht geschafft. Schade für sie.~
+@15   = ~So, Aerie hat es also nicht geschafft. Schade fÃ¼r sie.~
 
-@16   = ~Macht Platz für den Champion! Aerie kehrt zurück als ultimative Magierin.~
+@16   = ~Macht Platz fÃ¼r den Champion! Aerie kehrt zurÃ¼ck als ultimative Magierin.~
 
 @17   = ~Was!? Ihr habt gewonnen, Aerie? Ausgezeichnet!~
 
 @18   = ~Gute Arbeit, Aerie. Gut gemacht.~
 
-@19   = ~Hah, wie konnte denn ein junges Küken wie Aerie hier gewinnen?~
+@19   = ~Hah, wie konnte denn ein junges KÃ¼ken wie Aerie hier gewinnen?~
 
 @20   = ~Aerie ist die ultimate Magierin. Gratulation an Euch alle.~
 
-@21   = ~Junges Küken? Da liegt Ihr aber falsch. Diese Dame ist eine sehr fähige Magierin.~
+@21   = ~Junges KÃ¼ken? Da liegt Ihr aber falsch. Diese Dame ist eine sehr fÃ¤hige Magierin.~
 
-@22   = ~Macht Platz für den Champion! <CHARNAME> kehrt zurück als ultimativer Zauberer.~ ~Macht Platz für den Champion! <CHARNAME> kehrt zurück als ultimative Zaubererin.~
+@22   = ~Macht Platz fÃ¼r den Champion! <CHARNAME> kehrt zurÃ¼ck als ultimativer Zauberer.~ ~Macht Platz fÃ¼r den Champion! <CHARNAME> kehrt zurÃ¼ck als ultimative Zaubererin.~
 
 @23   = ~Ich kann Euch zu Eurem Sieg nur gratulieren, <CHARNAME>. Gut gemacht!~
 
@@ -50,8 +50,8 @@
 
 @25   = ~Randall ist der ultimative Magier. Ich gratuliere Euch allen.~
 
-@26   = ~Macht Platz für den Champion! Randall kehrt zurück als der ultimative Magier.~
+@26   = ~Macht Platz fÃ¼r den Champion! Randall kehrt zurÃ¼ck als der ultimative Magier.~
 
 @27   = ~Ihr habt gewonnen, Randall? Gratuliere!~
 
-@28   = ~So, Randall hat es also nicht geschafft. Schade für ihn.~
+@28   = ~So, Randall hat es also nicht geschafft. Schade fÃ¼r ihn.~

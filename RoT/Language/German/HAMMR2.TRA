@@ -1,6 +1,6 @@
-@0    = ~<CHARNAME>! So treffen wir uns also wieder! Was für ein angenehmes Wiedersehen! Seht, ich habe jetzt eine Abenteurergruppe. Lasst sie mich Euch vorstellen.~ [HAMAN2]
+@0    = ~<CHARNAME>! So treffen wir uns also wieder! Was fÃ¼r ein angenehmes Wiedersehen! Seht, ich habe jetzt eine Abenteurergruppe. Lasst sie mich Euch vorstellen.~ [HAMAN2]
 
-@1    = ~Hier ist Aragon. Ein Waldläufer, den ich in einer einsamen Hütte in der Wildnis fand.~
+@1    = ~Hier ist Aragon. Ein WaldlÃ¤ufer, den ich in einer einsamen HÃ¼tte in der Wildnis fand.~
 
 @2    = ~Das ist Rob. Ein Magier aus Athkatla.~
 
@@ -10,9 +10,9 @@
 
 @5    = ~Und zu guter letzt Olga. Sie ist eine halborkische Kampfmaschine.~
 
-@6    = ~So, Manev. Warum demonstriert Ihr nicht Euer Können? Stehlt Olgas Schwert.~
+@6    = ~So, Manev. Warum demonstriert Ihr nicht Euer KÃ¶nnen? Stehlt Olgas Schwert.~
 
-@7    = ~Ähm, nun, Rob. Zeigt, was Ihr könnt.~
+@7    = ~Ã„hm, nun, Rob. Zeigt, was Ihr kÃ¶nnt.~
 
 @8    = ~(Nicht schon wieder!) Jenave, erweckt die Toten...~
 

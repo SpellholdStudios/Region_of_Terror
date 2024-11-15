@@ -1,10 +1,10 @@
-@0    = ~Ich muss sagen, ich fange an, Euch zu mögen, <CHARNAME>. Ihr folgt dem rechten Weg.~
+@0    = ~Ich muss sagen, ich fange an, Euch zu mÃ¶gen, <CHARNAME>. Ihr folgt dem rechten Weg.~
 
-@1    = ~Ja. Es ist eine Freude, gute Taten zu vollbringen. Es befriedigt mich, Unschuldige zu schützen.~
+@1    = ~Ja. Es ist eine Freude, gute Taten zu vollbringen. Es befriedigt mich, Unschuldige zu schÃ¼tzen.~
 
-@2    = ~Hmm... wie auch immer. Ich tue nur, was ich muss, und wenn der Preis dafür stimmt. Normalerweise zahlen die Menschen viel Gold dafür, dass wir jemanden retten oder änliche Sachen machen.~
+@2    = ~Hmm... wie auch immer. Ich tue nur, was ich muss, und wenn der Preis dafÃ¼r stimmt. Normalerweise zahlen die Menschen viel Gold dafÃ¼r, dass wir jemanden retten oder Ã¤nliche Sachen machen.~
 
-@3    = ~Hah! Bringt mich nicht zum lachen. Das ist nur zeitweise so. Bald fangen wir wieder an, einfache Menschen nur so zum Spaß zu töten!~
+@3    = ~Hah! Bringt mich nicht zum lachen. Das ist nur zeitweise so. Bald fangen wir wieder an, einfache Menschen nur so zum SpaÃŸ zu tÃ¶ten!~
 
 @4    = ~Das selbe hier, das selbe da...~
 
@@ -12,9 +12,9 @@
 
 @6    = ~Vielleicht... aber ich liebe nunmal das Geld.~
 
-@7    = ~Niemand würde etwas Gutes tun, ohne dafür auch bezahlt zu werden.~
+@7    = ~Niemand wÃ¼rde etwas Gutes tun, ohne dafÃ¼r auch bezahlt zu werden.~
 
-@8    = ~Nun, es ist nichts schlechtes an Gold oder anderen Belohnungen, aber Ihr tut Gutes, weil Ihr es tun wollt. Nicht weil Ihr dafür bezahlt werdet.~
+@8    = ~Nun, es ist nichts schlechtes an Gold oder anderen Belohnungen, aber Ihr tut Gutes, weil Ihr es tun wollt. Nicht weil Ihr dafÃ¼r bezahlt werdet.~
 
 @9    = ~Hmm... Ihr habt Euren Standpunkt...~
 
@@ -34,7 +34,7 @@
 
 @17   = ~Dann hau ab, Du weinerlicher Barbar!~
 
-@18   = ~Nee, ich habe nur Witze gemacht. Wir machen natürlich weiter wie bisher.~
+@18   = ~Nee, ich habe nur Witze gemacht. Wir machen natÃ¼rlich weiter wie bisher.~
 
 @19   = ~Ich werde vielleicht...~
 
@@ -42,13 +42,13 @@
 
 @21   = ~Die Menschen lieben uns. Ich kann sehen, dass Ihr ein guter Mensch seid.~
 
-@22   = ~Ja, bin ich. Und ich versuche es so lange wie möglich zu bleiben.~
+@22   = ~Ja, bin ich. Und ich versuche es so lange wie mÃ¶glich zu bleiben.~
 
 @23   = ~Ja, ja. Immer ruhig bleiben. Halt den Ball mal lieber flach...~
 
-@24   = ~Es ist gut, das zu hören, <CHARNAME>. Lasst uns unsere Reise fortsetzen.~
+@24   = ~Es ist gut, das zu hÃ¶ren, <CHARNAME>. Lasst uns unsere Reise fortsetzen.~
 
-@25   = ~...Warum? Wir sind überall in Athkatla bekannt. Lasst uns unsere Beliebtheit ausnutzen.~
+@25   = ~...Warum? Wir sind Ã¼berall in Athkatla bekannt. Lasst uns unsere Beliebtheit ausnutzen.~
 
 @26   = ~Nun, ich denke, dann sollten wir das tun...~
 
@@ -58,81 +58,81 @@
 
 @29   = ~Wir sind jetzt Helden, <CHARNAME>. Wir sind Helden.~
 
-@30   = ~Ja, das sind wir. Fühlt sich gut an.~
+@30   = ~Ja, das sind wir. FÃ¼hlt sich gut an.~
 
 @31   = ~Da ist doch nichts tolles dran. Lasst uns weiterreisen.~
 
-@32   = ~Ja, das tut es. Ihr seid ein guter Anführer.~
+@32   = ~Ja, das tut es. Ihr seid ein guter AnfÃ¼hrer.~
 
-@33   = ~Mir gefällt der eingeschlagene Weg nicht. Ändert ihn lieber, bevor es zu spät dazu ist.~
+@33   = ~Mir gefÃ¤llt der eingeschlagene Weg nicht. Ã„ndert ihn lieber, bevor es zu spÃ¤t dazu ist.~
 
-@34   = ~Hört sofort auf damit! Wir verfallen der Dunkelheit... doch es ist noch nicht zu spät den eingeschlagenen Weg noch zu ändern...~
+@34   = ~HÃ¶rt sofort auf damit! Wir verfallen der Dunkelheit... doch es ist noch nicht zu spÃ¤t den eingeschlagenen Weg noch zu Ã¤ndern...~
 
-@35   = ~Doch, ist es. Wir verfallen der Dunkelheit und wir werden dem nicht widerstehen müssen.~
+@35   = ~Doch, ist es. Wir verfallen der Dunkelheit und wir werden dem nicht widerstehen mÃ¼ssen.~
 
 @36   = ~Vielleicht nicht, aber ich kann den Weg nicht erkennen...~
 
-@37   = ~MUSS ALLES GUTE AUSLöSCHEN!~
+@37   = ~MUSS ALLES GUTE AUSLÃ¶SCHEN!~
 
 @38   = ~...Also gut... Ihr verbrachtet den letzten Tag in meiner Gesellschaft...~
 
-@39   = ~Ihr müsst es versuchen. Ich vertraue Euch. Versucht das Licht zu finden.~
+@39   = ~Ihr mÃ¼sst es versuchen. Ich vertraue Euch. Versucht das Licht zu finden.~
 
 @40   = ~...Ihr seid krank. Ich werde Euch jetzt verlassen, und wenn wir uns noch einmal treffen, wird es zum Kampf sein.~
 
-@41   = ~Ja, Ihr habt recht. Hallo, Drizzt! Schön zu sehen, dass es Euch gut geht. Sind die Anderen auch hier?~
+@41   = ~Ja, Ihr habt recht. Hallo, Drizzt! SchÃ¶n zu sehen, dass es Euch gut geht. Sind die Anderen auch hier?~
 
 @42   = ~Stop! Das ist Drizzt Do'Urden, ein Freund von mir... Drizzt, ich bin mir sicher, <CHARNAME> meinte es nicht so wie <PRO_HESHE> es sagte. <PRO_HESHE> ist nur... gestresst an diesem Ort.~
 
-@43   = ~Ja, das sind sie mit sicherheit. Hallo, Drizzt! Schön, zu sehen, dass es Euch gut geht. Sind die Anderen auch hier?~
+@43   = ~Ja, das sind sie mit sicherheit. Hallo, Drizzt! SchÃ¶n, zu sehen, dass es Euch gut geht. Sind die Anderen auch hier?~
 
-@44   = ~Hallo Drizzt! Schön, zu sehen, dass es Euch gut geht. Sind die Anderen auch hier?~
+@44   = ~Hallo Drizzt! SchÃ¶n, zu sehen, dass es Euch gut geht. Sind die Anderen auch hier?~
 
 @45   = ~Stop, <CHARNAME>! Das ist ein Freund von mir, Drizzt! ...Drizzt, sind die Anderen auch hier?~
 
-@46   = ~Hallo, Drizzt! Schön Euch hier zu finden. Habt Ihr auch die Anderen gesehen?~
+@46   = ~Hallo, Drizzt! SchÃ¶n Euch hier zu finden. Habt Ihr auch die Anderen gesehen?~
 
-@47   = ~Oh, ich frage mich, wo sie sein könnten. Ich hoffe, sie sind zusammen und wohlauf.~
+@47   = ~Oh, ich frage mich, wo sie sein kÃ¶nnten. Ich hoffe, sie sind zusammen und wohlauf.~
 
 @48   = ~Ich frage mich, wo sie sind... und ich hoffe, sie sind wohlauf...~
 
-@49   = ~Ja, ich glaube schon, Drizzt. Schließt Euch uns an, damit wir zusammen nach unseren Freunden suchen können. <CHARNAME>, lasst Ihr Drizzt mit uns reisen?~
+@49   = ~Ja, ich glaube schon, Drizzt. SchlieÃŸt Euch uns an, damit wir zusammen nach unseren Freunden suchen kÃ¶nnen. <CHARNAME>, lasst Ihr Drizzt mit uns reisen?~
 
-@50   = ~Aber klar! Ich helfe Euch gerne, aber Ihr zwei müsst mir versprechen, dass Ihr mir auch gegen den Zauberer beisteht der mich hierher entführt hat.~
+@50   = ~Aber klar! Ich helfe Euch gerne, aber Ihr zwei mÃ¼sst mir versprechen, dass Ihr mir auch gegen den Zauberer beisteht der mich hierher entfÃ¼hrt hat.~
 
-@51   = ~Aber natürlich! Es ist mir eine Ehre zu helfen. Aber Ihr zwei müsst mir versprechen das Ihr mir auch gegen den Zauberer beisteht, der mich hierher entführt hat.~
+@51   = ~Aber natÃ¼rlich! Es ist mir eine Ehre zu helfen. Aber Ihr zwei mÃ¼sst mir versprechen das Ihr mir auch gegen den Zauberer beisteht, der mich hierher entfÃ¼hrt hat.~
 
-@52   = ~Also, ich hoffe, sie sind in Ordnung. Wir müssen sie finden, Drizzt.~
+@52   = ~Also, ich hoffe, sie sind in Ordnung. Wir mÃ¼ssen sie finden, Drizzt.~
 
-@53   = ~Nun, am besten beginnen wir mit der Suche nach unseren Freunden... Drizzt, schließt Euch uns an und wir finden mit Sicherheit den Ausgang.~
-@54   = ~Wenn Ihr Euch mir anschließt, müsst Ihr mir versprechen, dass Ihr mir bei der Suche nach dem Magier beisteht, der mich hier eingekerkert hat.~
+@53   = ~Nun, am besten beginnen wir mit der Suche nach unseren Freunden... Drizzt, schlieÃŸt Euch uns an und wir finden mit Sicherheit den Ausgang.~
+@54   = ~Wenn Ihr Euch mir anschlieÃŸt, mÃ¼sst Ihr mir versprechen, dass Ihr mir bei der Suche nach dem Magier beisteht, der mich hier eingekerkert hat.~
 
-@55   = ~Ja, Ihr dürft mich begleiten, aber Ihr müsst mir versprechen, dass Ihr mir auch gegen den Zauberer beisteht, der mich hierher entführt hat.~
+@55   = ~Ja, Ihr dÃ¼rft mich begleiten, aber Ihr mÃ¼sst mir versprechen, dass Ihr mir auch gegen den Zauberer beisteht, der mich hierher entfÃ¼hrt hat.~
 
 @56   = ~Ja, ich bin mir sicher. <CHARNAME> ist nicht wirklich agressiv.~
 
 @57   = ~Nein, ich habe mich geirrt. Entschuldigt, Drizzt, ich habe keine Ahnung, wer Ihr seid.~
 
-@58   = ~Im Moment schon, aber lasst uns nicht weiter darüber reden. Ich hätte nicht so gehandelt, hätte ich gewusst, wer Ihr seid.~
+@58   = ~Im Moment schon, aber lasst uns nicht weiter darÃ¼ber reden. Ich hÃ¤tte nicht so gehandelt, hÃ¤tte ich gewusst, wer Ihr seid.~
 
-@59   = ~Nein, sind sie nicht. Wir müssen sie finden. Schließt Euch mit mir dieser Gruppe an und wir werden gemeinsam nach ihnen suchen.~
+@59   = ~Nein, sind sie nicht. Wir mÃ¼ssen sie finden. SchlieÃŸt Euch mit mir dieser Gruppe an und wir werden gemeinsam nach ihnen suchen.~
 
-@60   = ~Wenn Ihr mich begleiten wollt, dann müsst Ihr mir versprechen, dass Ihr mir auch gegen den Zauberer beisteht, der mich hierher entführt hat.~
+@60   = ~Wenn Ihr mich begleiten wollt, dann mÃ¼sst Ihr mir versprechen, dass Ihr mir auch gegen den Zauberer beisteht, der mich hierher entfÃ¼hrt hat.~
 
-@61   = ~Ihr dürft mitkommen, Drizzt, aber Ihr müsst mir versprechen, dass Ihr mir auch gegen den Zauberer beisteht, der mich hierher entführt hat.~
+@61   = ~Ihr dÃ¼rft mitkommen, Drizzt, aber Ihr mÃ¼sst mir versprechen, dass Ihr mir auch gegen den Zauberer beisteht, der mich hierher entfÃ¼hrt hat.~
 
 @62   = ~Also dann, ich werde mit Drizzt gehen. Auf wiedersehen, <CHARNAME>.~
-@63   = ~Hallo, ich sehe, Ihr seid zurück. Habt Ihr auch Euren Verstand wiedergefunden?~
+@63   = ~Hallo, ich sehe, Ihr seid zurÃ¼ck. Habt Ihr auch Euren Verstand wiedergefunden?~
 
 @64   = ~Nein, wiedersehen.~
 
 @65   = ~Ja, Drizzt ist auch bei mir. Lass uns gehen.~
 
-@66   = ~Ob ich in Ordnung bin!?... Hab mich nie besser gefühlt! Und jetzt zeig ich diesem Dämon die wahre Bedeutung von Schmerz!~
+@66   = ~Ob ich in Ordnung bin!?... Hab mich nie besser gefÃ¼hlt! Und jetzt zeig ich diesem DÃ¤mon die wahre Bedeutung von Schmerz!~
 
-@67   = ~Das reicht! STERBT, DäMON!~
+@67   = ~Das reicht! STERBT, DÃ¤MON!~
 
-@68   = ~Jaaa, lasst sie uns töten.~
+@68   = ~Jaaa, lasst sie uns tÃ¶ten.~
 
 @69   = ~Wartet, wartet! Wulfgar! Ich muss ihm ein pPaar Fragen stellen.~
 
@@ -142,33 +142,33 @@
 
 @72   = ~Was ist mit meiner Frau und meinem Kind!? Sie waren im Eiswindtal. Geht es ihnen gut?~
 
-@73   = ~Ihr habt uns betrogen!? Dafür bringe ich Euch um!~ [Wu_Br3]
+@73   = ~Ihr habt uns betrogen!? DafÃ¼r bringe ich Euch um!~ [Wu_Br3]
 
-@74   = ~He, ihr beiden! Drizzt sagte, der "Anführer dieser Gruppe" wird uns betrügen, deshalb folgte ich Euch, um hier zu helfen. Lasst sie uns töten!~
+@74   = ~He, ihr beiden! Drizzt sagte, der "AnfÃ¼hrer dieser Gruppe" wird uns betrÃ¼gen, deshalb folgte ich Euch, um hier zu helfen. Lasst sie uns tÃ¶ten!~
 
-@75   = ~Ja, Bruenor! Drizzt vermutete dies schon, deshalb bin ich Euch zusammen mit Regis gefolgt, um Euch im Kampf zu helfen. Zusammen können wir sie schlagen!~
+@75   = ~Ja, Bruenor! Drizzt vermutete dies schon, deshalb bin ich Euch zusammen mit Regis gefolgt, um Euch im Kampf zu helfen. Zusammen kÃ¶nnen wir sie schlagen!~
 
-@76   = ~Natürlich! Bringt mir meinen Gegner!~
+@76   = ~NatÃ¼rlich! Bringt mir meinen Gegner!~
 
 @77   = ~Ja, bin ich. Lasst den Kampf beginnen!~
 
-@78   = ~Natürlich bin ich das! Lasst uns anfangen.~
+@78   = ~NatÃ¼rlich bin ich das! Lasst uns anfangen.~
 
-@79   = ~...Ja, würde es... aber was ist mit Catti-Brie? Sie ist noch immer gefangen...~
+@79   = ~...Ja, wÃ¼rde es... aber was ist mit Catti-Brie? Sie ist noch immer gefangen...~
 
 @80   = ~Also gut. <CHARNAME>, wir sollten dieses Angebot annehmen.~
 
-@81   = ~Natürlich. Wir sollten sofort abreisen. Und wir sollten so schnell reisen wie möglich.~
+@81   = ~NatÃ¼rlich. Wir sollten sofort abreisen. Und wir sollten so schnell reisen wie mÃ¶glich.~
 
 @82   = ~Warum in Mielikkis Namen sind Eure Waffen in Bremen!?~
 
-@83   = ~Natürlich, aber wir haben grade etwas wichtiges zu tun und können jetzt nicht einfach so abreisen. Wir kommen aber so schnell wie möglich zurück, Edomis.~
+@83   = ~NatÃ¼rlich, aber wir haben grade etwas wichtiges zu tun und kÃ¶nnen jetzt nicht einfach so abreisen. Wir kommen aber so schnell wie mÃ¶glich zurÃ¼ck, Edomis.~
 
 @84   = ~Nun, das ist eine verdammt lange Geschichte... wir halfen den Dorfbewohnern im Kampf gegen einige Horden von Monstern und wie es so ist... also... sie sind da, weil wir sie vergessen haben...~
 
 @85   = ~Also gut. Dann lasst uns jetzt gehen.~
 
-@86   = ~Gut. Wir machen diesen "Besuch", aber nicht jetzt. Ich muss mich zerst noch um andere Dinge kümmern. Aber sobald ich bereit bin, gehen wir.~
+@86   = ~Gut. Wir machen diesen "Besuch", aber nicht jetzt. Ich muss mich zerst noch um andere Dinge kÃ¼mmern. Aber sobald ich bereit bin, gehen wir.~
 
 @87   = ~Aegis Fang ist hier!~
 
@@ -178,20 +178,20 @@
 
 @90   = ~Dann lasst uns gehen!~
 
-@91   = ~Wo ist meine Frau, Dämon!?~
+@91   = ~Wo ist meine Frau, DÃ¤mon!?~
 
-@92   = ~Ich glaube Euch kein Wort, Dämon! Sie ist nicht tot! STERBT!~
+@92   = ~Ich glaube Euch kein Wort, DÃ¤mon! Sie ist nicht tot! STERBT!~
 
 @93   = ~Also... was genau ist passiert!? Wer nahm meine Frau mit?~
 
-@94   = ~...Ich habe noch nie von diesem Garath gehört... aber vielleicht kennt er mich... vielleicht will er sich an mir rächen... wenn ich nur wüsste, wofür...~
+@94   = ~...Ich habe noch nie von diesem Garath gehÃ¶rt... aber vielleicht kennt er mich... vielleicht will er sich an mir rÃ¤chen... wenn ich nur wÃ¼sste, wofÃ¼r...~
 
-@95   = ~...Dann lasst uns unsere Jagd fortsetzen. Wir müssen uns beeilen!~
+@95   = ~...Dann lasst uns unsere Jagd fortsetzen. Wir mÃ¼ssen uns beeilen!~
 
-@96   = ~Tempus! Sie sind alle tot! Ich werde Euch rächen!~
+@96   = ~Tempus! Sie sind alle tot! Ich werde Euch rÃ¤chen!~
 
 @97   = ~Wiedersehen, <CHARNAME>. Ich werde Drizzt folgen.~
 
-@98   = ~...Ich habe das selbe Gefühl... ich kann mir keinen anderen Grund vorstellen, als dass der Teleportspruch... vielleicht passierte uns etwas, während wir bewusstlos waren...~
+@98   = ~...Ich habe das selbe GefÃ¼hl... ich kann mir keinen anderen Grund vorstellen, als dass der Teleportspruch... vielleicht passierte uns etwas, wÃ¤hrend wir bewusstlos waren...~
 
 @99   = ~Ja, sicherlich. Ich hoffe, wir finden die anderen bald...~

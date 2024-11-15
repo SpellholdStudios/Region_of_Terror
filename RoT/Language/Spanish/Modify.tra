@@ -1,25 +1,25 @@
-@0    = ~¿Queréis que luche contra otros magos? Bueno, haré lo que queráis. Nunca se sabe, incluso puedo ganar.~
+@0    = ~Â¿QuerÃ©is que luche contra otros magos? Bueno, harÃ© lo que querÃ¡is. Nunca se sabe, incluso puedo ganar.~
 @1    = ~Bueno, en realidad no fue nada. Solo hice lo mejor.~
 @2    = ~No me gusta el tono de vuestras palabras, <CHARNAME>...~
 @3    = ~(Dejar hablar a Alissa)~
-@4    = ~Será un placer. Por favor.~
-@5    = ~Aah... esto está muy claro. Raro, pero claro. Sois el elegido de Oghma.~ ~Aah... esto está muy claro. Raro, pero claro. Sois la elegida de Oghma.~
-@6    = ~El Elegido de Oghma está destinado a ser Su seguidor. Vuestros talentos son una señal.~ ~La Elegida de Oghma está destinada a ser Su seguidora. Vuestros talentos son una señal.~
-@7    = ~Es inevitable. Más tarde o más temprano acabaréis siendo Su seguidor. Os ha elegido a vos.~ ~Es inevitable. Más tarde o más temprano acabaréis siendo Su seguidora. Os ha elegido a vos.~
+@4    = ~SerÃ¡ un placer. Por favor.~
+@5    = ~Aah... esto estÃ¡ muy claro. Raro, pero claro. Sois el elegido de Oghma.~ ~Aah... esto estÃ¡ muy claro. Raro, pero claro. Sois la elegida de Oghma.~
+@6    = ~El Elegido de Oghma estÃ¡ destinado a ser Su seguidor. Vuestros talentos son una seÃ±al.~ ~La Elegida de Oghma estÃ¡ destinada a ser Su seguidora. Vuestros talentos son una seÃ±al.~
+@7    = ~Es inevitable. MÃ¡s tarde o mÃ¡s temprano acabarÃ©is siendo Su seguidor. Os ha elegido a vos.~ ~Es inevitable. MÃ¡s tarde o mÃ¡s temprano acabarÃ©is siendo Su seguidora. Os ha elegido a vos.~
 @8    = ~Los caminos de los dioses son desconocidos.~
-@9    = ~Vendrá lentamente. No lo podéis evitar.~
+@9    = ~VendrÃ¡ lentamente. No lo podÃ©is evitar.~
 @10   = ~No hay problema.~
 @11   = ~Las habilidades de Alissa
 
-Un sacerdote de Oghma dijo que Alissa es la elegida de Oghma. Esto significa básicamente que los talentos son "señales" de Oghma y Alissa inevitablemente se volverá Su seguidora. Falta por ver si es cierto o no.~
-@12   = ~¿Queréis que vaya y gane alguna competición?... Muy bien, esta será una forma excelente de mostrar mi superioridad...~
+Un sacerdote de Oghma dijo que Alissa es la elegida de Oghma. Esto significa bÃ¡sicamente que los talentos son "seÃ±ales" de Oghma y Alissa inevitablemente se volverÃ¡ Su seguidora. Falta por ver si es cierto o no.~
+@12   = ~Â¿QuerÃ©is que vaya y gane alguna competiciÃ³n?... Muy bien, esta serÃ¡ una forma excelente de mostrar mi superioridad...~
 @13   = ~Decidme algo que ya no sepa.~
 @14   = ~Si, nunca hubo dudas de mi victoria.~
-@15   = ~¿¡Estáis sorprendido!? Nunca hubo dudas de mi victoria.~ ~¿¡Estáis sorprendida!? Nunca hubo dudas de mi victoria.~
-@16   = ~¡Si! ¡Pongámonos a ello! ¡Quiero patear algunos culos!~
-@17   = ~¡No tengo todo el día para quedarme aquí! ¡Traédmelos!~
-@18   = ~¡Siempre estoy preparada para un combate!~
-@19   = ~¡Por supuesto! ¿Quién quiere morir primero?~
-@20   = ~Si, supongo. Pongámonos a ello.~
-@21   = ~Si. ¡Traed a mi oponente!~
-@22   = ~Si, lo estoy. ¡Empecemos los combates!~
+@15   = ~Â¿Â¡EstÃ¡is sorprendido!? Nunca hubo dudas de mi victoria.~ ~Â¿Â¡EstÃ¡is sorprendida!? Nunca hubo dudas de mi victoria.~
+@16   = ~Â¡Si! Â¡PongÃ¡monos a ello! Â¡Quiero patear algunos culos!~
+@17   = ~Â¡No tengo todo el dÃ­a para quedarme aquÃ­! Â¡TraÃ©dmelos!~
+@18   = ~Â¡Siempre estoy preparada para un combate!~
+@19   = ~Â¡Por supuesto! Â¿QuiÃ©n quiere morir primero?~
+@20   = ~Si, supongo. PongÃ¡monos a ello.~
+@21   = ~Si. Â¡Traed a mi oponente!~
+@22   = ~Si, lo estoy. Â¡Empecemos los combates!~

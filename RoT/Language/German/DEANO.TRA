@@ -1,4 +1,4 @@
-@0    = ~Ich bin hier, um Euch die Grundlagen des Editierens von 2DA and IDE Dateien zu erläutern. Was wollt Ihr wissen?~
+@0    = ~Ich bin hier, um Euch die Grundlagen des Editierens von 2DA and IDE Dateien zu erlÃ¤utern. Was wollt Ihr wissen?~
 
 @1    = ~Was sind 2DA Dateien?~
 
@@ -16,10 +16,10 @@
 
 @8    = ~Ich habe keine weiteren Fragen.~
 
-@9    = ~Sie werden zum Skripten benutzt. Sie beinhalten alles, was man zum Skripten braucht. Man braucht sie nicht zu editieren, es sei denn, man hat einen neuen Spruch gemacht (oder ein Projektil...etc.) und Ihr wollt ein Skript, um den Spruch auszuführen.~
+@9    = ~Sie werden zum Skripten benutzt. Sie beinhalten alles, was man zum Skripten braucht. Man braucht sie nicht zu editieren, es sei denn, man hat einen neuen Spruch gemacht (oder ein Projektil...etc.) und Ihr wollt ein Skript, um den Spruch auszufÃ¼hren.~
 
-@10   = ~Ihr könnt damit die Regeln des Spiels ändern. Man kann damit errreichen, dass die Läden Euch 50% Rabatt geben, wenn Euer Ruf nur 2 sein sollte.~
+@10   = ~Ihr kÃ¶nnt damit die Regeln des Spiels Ã¤ndern. Man kann damit errreichen, dass die LÃ¤den Euch 50% Rabatt geben, wenn Euer Ruf nur 2 sein sollte.~
 
-@11   = ~Ihr könnt neue Sprüche (mit Skripten) und Projektile (Projektile werden benutzt um spezielle Animationen bei Gegenständen und Sprüchen hervorzurufen) nur benutzen, wenn man sie zu den IDE Dateien hinzugefügt hat. Diese IDE Dateien werden SPELL und PROJECTL genannt. Animationen werden ebenfalls in die IDE Dateien kopiert.~
+@11   = ~Ihr kÃ¶nnt neue SprÃ¼che (mit Skripten) und Projektile (Projektile werden benutzt um spezielle Animationen bei GegenstÃ¤nden und SprÃ¼chen hervorzurufen) nur benutzen, wenn man sie zu den IDE Dateien hinzugefÃ¼gt hat. Diese IDE Dateien werden SPELL und PROJECTL genannt. Animationen werden ebenfalls in die IDE Dateien kopiert.~
 
 @12   = ~Ihr braucht eigentlich nur Notepad oder jeden anderen Texteditor. Die dateien sind im Textformat. Ich rate zu Werkzeugen wie NI oder DLTCEP.~

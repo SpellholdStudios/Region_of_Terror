@@ -1,6 +1,6 @@
 @0    = ~Wer seid Ihr?~ [HIGHEST1]
 
-@1    = ~Mein Name ist <CHARNAME>. Ich möchte diesem Kult beitreten.~
+@1    = ~Mein Name ist <CHARNAME>. Ich mÃ¶chte diesem Kult beitreten.~
 
 @2    = ~<CHARNAME> werde ich genannt.~
 
@@ -18,19 +18,19 @@
 
 @9    = ~Ich schlich mich durch Matthew Wyndons Portal ein. (Wahrheit)~
 
-@10   = ~Matthew Wyndon brachte mich her. (Lüge)~
+@10   = ~Matthew Wyndon brachte mich her. (LÃ¼ge)~
 
 @11   = ~Irrelevant.~
 
 @12   = ~... Interessant. Wie seid Ihr hereingekommen?~
 
-@13   = ~Und was macht Ihr hier? Wollt Ihr getötet werden?~
+@13   = ~Und was macht Ihr hier? Wollt Ihr getÃ¶tet werden?~
 
 @14   = ~Nein. Um dem Kult beizutreten.~
 
-@15   = ~Ich untersuche die Aktivitäten von Matthew Wyndon.~
+@15   = ~Ich untersuche die AktivitÃ¤ten von Matthew Wyndon.~
 
-@16   = ~Nein. Um zu töten.~
+@16   = ~Nein. Um zu tÃ¶ten.~
 
 @17   = ~Dann werdet Ihr eliminiert.~
 
@@ -50,11 +50,11 @@
 
 @25   = ~Ich war neugierig.~
 
-@26   = ~Ich habe seine Aktivitäten untersucht.~
+@26   = ~Ich habe seine AktivitÃ¤ten untersucht.~
 
 @27   = ~Ich war interessiert.~
 
-@28   = ~... Sehr gut. Wir können Euch auch gleich testen. Habt Ihr Erfolg, dann seid Ihr ein neues Mitglied. Versagt Ihr, dann müsst Ihr sterben.~
+@28   = ~... Sehr gut. Wir kÃ¶nnen Euch auch gleich testen. Habt Ihr Erfolg, dann seid Ihr ein neues Mitglied. Versagt Ihr, dann mÃ¼sst Ihr sterben.~
 
 
 @29   = ~Klingt gut. Dann lasst uns diesen Test machen.~
@@ -63,11 +63,11 @@
 
 @31   = ~Entweder nehmt Ihr mich gleich als neues Mitglied auf, oder ich werde gar nicht beitreten.~
 
-@32   = ~Niemand untersucht die Angelegenheiten des Auserwählten. Ihr werdet eliminiert.~
+@32   = ~Niemand untersucht die Angelegenheiten des AuserwÃ¤hlten. Ihr werdet eliminiert.~
 
 @33   = ~Domin, seht zu, dass dieser Matthew... verschwindet.~
 
-@34   = ~Da Ihr schon hier seid, können wir Euch auch gleich testen. Habt Ihr Erfolg, dann seid Ihr ein neues Mitglied. Versagt Ihr, dann müsst Ihr sterben.~
+@34   = ~Da Ihr schon hier seid, kÃ¶nnen wir Euch auch gleich testen. Habt Ihr Erfolg, dann seid Ihr ein neues Mitglied. Versagt Ihr, dann mÃ¼sst Ihr sterben.~
 
 @35   = ~Ihr werdet wissen, was zu tun ist.~
 
@@ -79,13 +79,13 @@
 
 @39   = ~Ihr habt den Test bestanden. Hier, nehmt dies. Wenn es vibriert, benutzt es, um herzukommen. Ihr werdet Eure Reise, um ein vollwertiges Mitglied zu werden, bald beginnen.~
 
-@40   = ~Ihr habt versagt und daher gibt es jetzt nichts anderes für Euch mehr zu tun, als zu sterben.~
+@40   = ~Ihr habt versagt und daher gibt es jetzt nichts anderes fÃ¼r Euch mehr zu tun, als zu sterben.~
 
-@41   = ~Kommt zurück, wenn Ihr gerufen werdet.~ [HIGHEST2]
+@41   = ~Kommt zurÃ¼ck, wenn Ihr gerufen werdet.~ [HIGHEST2]
 
 @42   = ~Folgt mir.~
 
-@43   = ~Nehmt dies. Legt ihre Augen da hinein. Ich wende jetzt die Zaubersprüche auf sie an, dass wir ihre Schreie hören können, wenn Ihr ihnen die Augen herausnehmt.~
+@43   = ~Nehmt dies. Legt ihre Augen da hinein. Ich wende jetzt die ZaubersprÃ¼che auf sie an, dass wir ihre Schreie hÃ¶ren kÃ¶nnen, wenn Ihr ihnen die Augen herausnehmt.~
 
 @44   = ~Lasst sie schreien.~
 
@@ -103,15 +103,15 @@
 
 @51   = ~Wir werden uns treffen, wenn ich Euch rufen lasse.~
 
-@52   = ~Es ist an der Zeit, Eure Stärke zu beweisen. Besiegt Eure Gegner, um Euren Wert zu beweisen.~
+@52   = ~Es ist an der Zeit, Eure StÃ¤rke zu beweisen. Besiegt Eure Gegner, um Euren Wert zu beweisen.~
 
 @53   = ~Gut. Kommt wieder, wenn ich Euch rufe.~
 
 @54   = ~Kommt.~
 
-@55   = ~Schneidet ihre Hälse damit durch.~
+@55   = ~Schneidet ihre HÃ¤lse damit durch.~
 
-@56   = ~Taucht Euren Körper in das unheilige Wasser.~
+@56   = ~Taucht Euren KÃ¶rper in das unheilige Wasser.~
 
 @57   = ~In Ordnung. (Ihr entkleidet Euch)~
 
@@ -121,17 +121,17 @@
 
 @60   = ~Niemals!~
 
-@61   = ~Es ist egal, wie Ihr es macht. Taucht einfach Euren Körper in das Wasser.~
+@61   = ~Es ist egal, wie Ihr es macht. Taucht einfach Euren KÃ¶rper in das Wasser.~
 
 @62   = ~Dann sterbt!~
 
-@63   = ~Es ist jetzt Zeit für Eure letzte Zeremonie. Ihr werdet bald ein vollwertiges Mitglied sein.~ [HIGHEST4]
+@63   = ~Es ist jetzt Zeit fÃ¼r Eure letzte Zeremonie. Ihr werdet bald ein vollwertiges Mitglied sein.~ [HIGHEST4]
 
-@64   = ~(Er gibt Euch einen Kelch, der Euer Blut und das "Blut der Bestie" enthält. Was werdet Ihr tun?)~
+@64   = ~(Er gibt Euch einen Kelch, der Euer Blut und das "Blut der Bestie" enthÃ¤lt. Was werdet Ihr tun?)~
 
 @65   = ~Es trinken.~
 
-@66   = ~(Ich kann jetzt vortäuschen, es zu trinken. Ich muss es aber. Ich werde mich nachher übergeben.)~
+@66   = ~(Ich kann jetzt vortÃ¤uschen, es zu trinken. Ich muss es aber. Ich werde mich nachher Ã¼bergeben.)~
 
 @67   = ~Niemals! (Ihr werft es auf den Boden.)~
 
@@ -141,7 +141,7 @@
 
 @70   = ~Kommt mindestens einmal in der Woche zu einem Ritual hierher. Das Ritual des Blutes, das Ritual des Opfers oder das Ritual des Schwures.~
 
-@71   = ~Ganz nebenbei bemerkt... Ihr habt einen wunderschönen Körper. Ich würde mich freuen, wenn ich ihn benutzen könnte...~
+@71   = ~Ganz nebenbei bemerkt... Ihr habt einen wunderschÃ¶nen KÃ¶rper. Ich wÃ¼rde mich freuen, wenn ich ihn benutzen kÃ¶nnte...~
 
 @72   = ~... Kommt schon.~
 
@@ -153,19 +153,19 @@
 
 @76   = ~Ich will es nicht.~
 
-@77   = ~... Wie Ihr wünscht...~
+@77   = ~... Wie Ihr wÃ¼nscht...~
 
 @78   = ~Was wollt Ihr?~ [HIGHEST3]
 
-@79   = ~Ich möchte das Ritual des Blutes vollziehen.~
+@79   = ~Ich mÃ¶chte das Ritual des Blutes vollziehen.~
 
-@80   = ~Ich möchte das Ritual des Opfers vollziehen.~
+@80   = ~Ich mÃ¶chte das Ritual des Opfers vollziehen.~
 
-@81   = ~Ich möchte das Ritual des Schwures vollziehen.~
+@81   = ~Ich mÃ¶chte das Ritual des Schwures vollziehen.~
 
 @82   = ~Nichts.~
 
-@83   = ~Sehr schön.~
+@83   = ~Sehr schÃ¶n.~
 
 @84   = ~Blut.~
 
@@ -173,7 +173,7 @@
 
 @86   = ~Nein. Hier sind Kinder anwesend. Ich will es nicht machen.~
 
-@87   = ~Dann seid Ihr nicht am richtigen Ort. Wir können natürlich auch nicht zulassen, dass ihr jedem von dem Kult erzählt, daher...~
+@87   = ~Dann seid Ihr nicht am richtigen Ort. Wir kÃ¶nnen natÃ¼rlich auch nicht zulassen, dass ihr jedem von dem Kult erzÃ¤hlt, daher...~
 
 @88   = ~Folter.~
 

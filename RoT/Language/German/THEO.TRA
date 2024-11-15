@@ -1,51 +1,51 @@
-@0    = ~Ich bin hier, um Euch etwas über den Gebiete-Editor IETME zu lehren. Was möchtet Ihr gerne wissen?~
+@0    = ~Ich bin hier, um Euch etwas Ã¼ber den Gebiete-Editor IETME zu lehren. Was mÃ¶chtet Ihr gerne wissen?~
 
-@1    = ~Gebt mir eine kurze Einführung in das Tool.~
+@1    = ~Gebt mir eine kurze EinfÃ¼hrung in das Tool.~
 
-@2    = ~Erzählt mir etwas über die "Wände".~
+@2    = ~ErzÃ¤hlt mir etwas Ã¼ber die "WÃ¤nde".~
 
-@3    = ~Erzählt mir etwas über die Türen.~
+@3    = ~ErzÃ¤hlt mir etwas Ã¼ber die TÃ¼ren.~
 
-@4    = ~Erzählt mir etwas über Höhe-, Licht- und Suchmappen.~
+@4    = ~ErzÃ¤hlt mir etwas Ã¼ber HÃ¶he-, Licht- und Suchmappen.~
 
-@5    = ~Erzählt mir von der Weltkarte.~
+@5    = ~ErzÃ¤hlt mir von der Weltkarte.~
 
 @6    = ~Wie kann ich es auf meiner Map Nacht werden lassen?~
 
 @7    = ~Keine weiteren Fragen.~
 
-@8    = ~Nun, dieses Tool ermöglicht es jedem, seine eigenen Gebiete zu erschaffen. Der Editor enthält ein Tutorial, das Euch in einigen einfachen Schritten zeigt, wie Ihr vorgehen müsst, deshalb werde ich jetzt nicht vorab darauf eingehen.~
+@8    = ~Nun, dieses Tool ermÃ¶glicht es jedem, seine eigenen Gebiete zu erschaffen. Der Editor enthÃ¤lt ein Tutorial, das Euch in einigen einfachen Schritten zeigt, wie Ihr vorgehen mÃ¼sst, deshalb werde ich jetzt nicht vorab darauf eingehen.~
 
-@9    = ~Nach dem Speichern eines Gebietes gibt es sieben verschiedene Speicherdateien dazu. Zuerst die are.-Datei, die die Informationen über enthaltene Charaktere, Behälter und Animationen enthält....~
+@9    = ~Nach dem Speichern eines Gebietes gibt es sieben verschiedene Speicherdateien dazu. Zuerst die are.-Datei, die die Informationen Ã¼ber enthaltene Charaktere, BehÃ¤lter und Animationen enthÃ¤lt....~
 
-@10   = ~Dann die wed.-Datei, dedie die Daten der Türen, Mauern und die Daten, die zum Laufen der tis.-Datei benötigt werden, enthält. Diese tis.-Datei enthält alle Bezeichnungen Eures Gebietes.~
+@10   = ~Dann die wed.-Datei, dedie die Daten der TÃ¼ren, Mauern und die Daten, die zum Laufen der tis.-Datei benÃ¶tigt werden, enthÃ¤lt. Diese tis.-Datei enthÃ¤lt alle Bezeichnungen Eures Gebietes.~
 
-@11   = ~Dann gibt es noch die mos.-Datei. Sie enthält die Grunddaten Eures Gebietes wie Höhe-, Licht- und Such-Map. Die Höhe-Map definiert die Höhe der Charaktere an verschiedenen Orten des Gebietes.~
+@11   = ~Dann gibt es noch die mos.-Datei. Sie enthÃ¤lt die Grunddaten Eures Gebietes wie HÃ¶he-, Licht- und Such-Map. Die HÃ¶he-Map definiert die HÃ¶he der Charaktere an verschiedenen Orten des Gebietes.~
 
-@12   = ~Die Licht-MaMap definiert die Farben des Charakters an verschiedenen Orten und die Such-Map definiert welche Gebietsabschnitte man begehen kann und welche nicht. Auch das Geräusch für die Schritte wird dort eingestellt.~
+@12   = ~Die Licht-MaMap definiert die Farben des Charakters an verschiedenen Orten und die Such-Map definiert welche Gebietsabschnitte man begehen kann und welche nicht. Auch das GerÃ¤usch fÃ¼r die Schritte wird dort eingestellt.~
 
-@13   = ~Zu guter letzt gibt es noch die Script-Datei (Für das Gebiets-Script), allerdings nur wenn Ihr es separat anfertigt. Benötigt wird es nicht. Stellt dann sicher, dass Ihr den Namen des Gebietes unter den "Area Properties" eingegeben habt.~
+@13   = ~Zu guter letzt gibt es noch die Script-Datei (FÃ¼r das Gebiets-Script), allerdings nur wenn Ihr es separat anfertigt. BenÃ¶tigt wird es nicht. Stellt dann sicher, dass Ihr den Namen des Gebietes unter den "Area Properties" eingegeben habt.~
 
 @14   = ~Ich habe keine weiteren Fragen.~
 
-@15   = ~Wisst Ihr, dass, wenn Euer NPC sich hinter ein Objekt bewegt, es so aussieht, als befände er sich wirklich hinter diesen Ding. Um dafür zu sorgen müsst Ihr das betreffende Objekt mit handgezeichneten Linien von der Map separieren. Diese Handzeichnungen werden "walls" genannt.~
+@15   = ~Wisst Ihr, dass, wenn Euer NPC sich hinter ein Objekt bewegt, es so aussieht, als befÃ¤nde er sich wirklich hinter diesen Ding. Um dafÃ¼r zu sorgen mÃ¼sst Ihr das betreffende Objekt mit handgezeichneten Linien von der Map separieren. Diese Handzeichnungen werden "walls" genannt.~
 
-@16   = ~Wenn Ihr das hier lest, hoffe ich, dass es hinsichtlich der walls einige Verbesserungen in den Script-Tools gegeben hat, denn sie sind die nervigsten Anwendungen im ganzen System. Wenn nicht, werdet Ihr sehen, dass sie manchmal einfach nicht funktionieren, obwohl es keinerlei sichtbaren Grund dafür gibt.~
+@16   = ~Wenn Ihr das hier lest, hoffe ich, dass es hinsichtlich der walls einige Verbesserungen in den Script-Tools gegeben hat, denn sie sind die nervigsten Anwendungen im ganzen System. Wenn nicht, werdet Ihr sehen, dass sie manchmal einfach nicht funktionieren, obwohl es keinerlei sichtbaren Grund dafÃ¼r gibt.~
 
 @17   = ~Habt einfach viel Geduld und zeichnet die walls erneut, wenn sie nicht funktionieren.~
 
-@18   = ~Die Größe der Türen müß immer durch den Wert 64 teilbar sein. Benutzt ein Raster von 64 Options, um die Linien für Eure Türen anzupassen.~
+@18   = ~Die GrÃ¶ÃŸe der TÃ¼ren mÃ¼ÃŸ immer durch den Wert 64 teilbar sein. Benutzt ein Raster von 64 Options, um die Linien fÃ¼r Eure TÃ¼ren anzupassen.~
 
-@19   = ~Ihr werdet die Polygone und Sektoren für Eure Türen zeichnen müssen. Jeweils für die geöffnete und die geschlossene Tür. Die Polygone legen fest, wie Euer Charakter aussieht, wenn er sich hinter einem Objekt (der Tür) befindet, während die Sektoren das Gebiet definieren, das durch späteres anklicken die Tür öffnet.~
+@19   = ~Ihr werdet die Polygone und Sektoren fÃ¼r Eure TÃ¼ren zeichnen mÃ¼ssen. Jeweils fÃ¼r die geÃ¶ffnete und die geschlossene TÃ¼r. Die Polygone legen fest, wie Euer Charakter aussieht, wenn er sich hinter einem Objekt (der TÃ¼r) befindet, wÃ¤hrend die Sektoren das Gebiet definieren, das durch spÃ¤teres anklicken die TÃ¼r Ã¶ffnet.~
 
-@20   = ~Ihr müsst auch einen "a point where door can be opened" einsetzen (benutzt den rechten Mausknopf). Ihr könnt Euch sicherlich vorstellen, was er bewirkt. Dann könnt Ihr offene und geschlossene, unpassierbare Blocks zeichnen. Diese grenzen das Gebiet ein, das Euer Charakter nicht betreten kann, wenn die Tür geöffnet bzw. geschlossen ist.~
+@20   = ~Ihr mÃ¼sst auch einen "a point where door can be opened" einsetzen (benutzt den rechten Mausknopf). Ihr kÃ¶nnt Euch sicherlich vorstellen, was er bewirkt. Dann kÃ¶nnt Ihr offene und geschlossene, unpassierbare Blocks zeichnen. Diese grenzen das Gebiet ein, das Euer Charakter nicht betreten kann, wenn die TÃ¼r geÃ¶ffnet bzw. geschlossen ist.~
 
-@21   = ~Ihr müsst einfach nur die Plätze markieren, an denen Euer Charakter höher oder tiefer dargestellt sein soll (Höhe-Map), sowie die Plätze, an denen er heller oder dunkler erscheinen soll (Licht-Map)...~
+@21   = ~Ihr mÃ¼sst einfach nur die PlÃ¤tze markieren, an denen Euer Charakter hÃ¶her oder tiefer dargestellt sein soll (HÃ¶he-Map), sowie die PlÃ¤tze, an denen er heller oder dunkler erscheinen soll (Licht-Map)...~
 
-@22   = ~...und natürlich die Gebiete, die Euer Charakter gar nicht betreten kann (Such-Map). Die Such-Map enthält auch das Geräusch, das bei den Schritten abgespielt wird.~
+@22   = ~...und natÃ¼rlich die Gebiete, die Euer Charakter gar nicht betreten kann (Such-Map). Die Such-Map enthÃ¤lt auch das GerÃ¤usch, das bei den Schritten abgespielt wird.~
 
-@23   = ~Mit diesem Editor können sie maßgeschneidert werden. Klickt einfach auf "add area on worldmap" wenn Ihr wollt, dass das Gebiet auch auf der Weltkarte erscheint. Führt noch die notwendigen Änderungen am Gebiets-Bild für die Weltkarte durch.~
+@23   = ~Mit diesem Editor kÃ¶nnen sie maÃŸgeschneidert werden. Klickt einfach auf "add area on worldmap" wenn Ihr wollt, dass das Gebiet auch auf der Weltkarte erscheint. FÃ¼hrt noch die notwendigen Ã„nderungen am Gebiets-Bild fÃ¼r die Weltkarte durch.~
 
-@24   = ~Ihr müsst immer ein neues Spiel anfangen, wenn Ihr Änderungen an der Weltkarte sehen wollt.~
+@24   = ~Ihr mÃ¼sst immer ein neues Spiel anfangen, wenn Ihr Ã„nderungen an der Weltkarte sehen wollt.~
 
-@25   = ~Klickt einfach auf Tag/Nacht in den Gebietseigenschaften um es hell bzw. dunkel werden zu lassen. Die "Extended Night" wird nur benötigt, wenn Nachts ein separater Areacode benötigt wird (Ihr werdet warscheinlich keinen haben).~
+@25   = ~Klickt einfach auf Tag/Nacht in den Gebietseigenschaften um es hell bzw. dunkel werden zu lassen. Die "Extended Night" wird nur benÃ¶tigt, wenn Nachts ein separater Areacode benÃ¶tigt wird (Ihr werdet warscheinlich keinen haben).~

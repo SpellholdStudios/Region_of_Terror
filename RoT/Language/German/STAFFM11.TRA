@@ -1,16 +1,16 @@
-@0    = ~Willkommen, Edwin. Hier sind die Regeln: Solange Ihr gewinnt, könnt Ihr hier bleiben. Wenn Ihr verliert, ist alles vorbei. Ihr kämpft bis zum Tod, aber macht Euch keine Sorgen, denn Ihr werdet alle wiedererweckt werden.~
+@0    = ~Willkommen, Edwin. Hier sind die Regeln: Solange Ihr gewinnt, kÃ¶nnt Ihr hier bleiben. Wenn Ihr verliert, ist alles vorbei. Ihr kÃ¤mpft bis zum Tod, aber macht Euch keine Sorgen, denn Ihr werdet alle wiedererweckt werden.~
 
-@1    = ~Jeder Teilnehmer muss zuerst diesen Kampfplatz von den Monstern befreien, bevor er gegen die anderen Teilnehmer kämpfen darf.~
+@1    = ~Jeder Teilnehmer muss zuerst diesen Kampfplatz von den Monstern befreien, bevor er gegen die anderen Teilnehmer kÃ¤mpfen darf.~
 
-@2    = ~Geht und tötet jedes Monster, welches Ihr findet und kehrt dann zu mir zurück. Wenn Ihr erfolgreich seid, dann seid Ihr des Wettkampfes würdig.~
+@2    = ~Geht und tÃ¶tet jedes Monster, welches Ihr findet und kehrt dann zu mir zurÃ¼ck. Wenn Ihr erfolgreich seid, dann seid Ihr des Wettkampfes wÃ¼rdig.~
 
-@3    = ~Geht und tötet jedes Monster in der Höhle.~
+@3    = ~Geht und tÃ¶tet jedes Monster in der HÃ¶hle.~
 
-@4    = ~Ausgezeichnet. Jetzt müssen wir nur noch auf einige neue Teilnehmer warten. Wenn die Kämpfe begonnen haben, seid Ihr nur so lange hier, so lange Ihr gweinnt.~
+@4    = ~Ausgezeichnet. Jetzt mÃ¼ssen wir nur noch auf einige neue Teilnehmer warten. Wenn die KÃ¤mpfe begonnen haben, seid Ihr nur so lange hier, so lange Ihr gweinnt.~
 
-@5    = ~Fünf Siege hintereinander sind nötig, um zu siegen. Nach jedem Kampf könnt Ihr rasten. Viel Glück.~
+@5    = ~FÃ¼nf Siege hintereinander sind nÃ¶tig, um zu siegen. Nach jedem Kampf kÃ¶nnt Ihr rasten. Viel GlÃ¼ck.~
 
-@6    = ~Ihr seid gestorben. Sammelt Eure Ausrüstung wieder auf. Eure Zeit hier ist vorbei.~
+@6    = ~Ihr seid gestorben. Sammelt Eure AusrÃ¼stung wieder auf. Eure Zeit hier ist vorbei.~
 
 @7    = ~Seid Ihr bereit zu gehen?~
 
@@ -18,21 +18,21 @@
 
 @9    = ~Nein, noch nicht.~
 
-@10   = ~Ihr habt gewonnen! Meine Glückwünsche! Ihr seid der ultimative Magier!~ ~Ihr habt gewonnen! Meine Glückwünsche! Ihr seid die ultimative Magierin!~
+@10   = ~Ihr habt gewonnen! Meine GlÃ¼ckwÃ¼nsche! Ihr seid der ultimative Magier!~ ~Ihr habt gewonnen! Meine GlÃ¼ckwÃ¼nsche! Ihr seid die ultimative Magierin!~
 
 @11   = ~Ihr werdet viele Belohnungen bekommen. Hier ist die Schriftrolle, die Euch als Champion ausweist.~
 
-@12   = ~Nehmt auch diese Zaubersprüche. Ihr habt sie verdient.~
+@12   = ~Nehmt auch diese ZaubersprÃ¼che. Ihr habt sie verdient.~
 
 @13   = ~Und schliesslich... Nehmt diesen Stab und diese Armschienen.~
 
-@14   = ~Ich werde Euch jetzt wieder zurück teleportieren.~
+@14   = ~Ich werde Euch jetzt wieder zurÃ¼ck teleportieren.~
 
-@15   = ~Willkommen, Aerie. Hier sind die Regeln: Solange Ihr gewinnt, könnt Ihr hier bleiben. Wenn Ihr verliert, ist alles vorbei. Ihr kämpft bis zum Tod, aber macht Euch keine Sorgen, denn Ihr werdet alle wiedererweckt werden.~
-
-
-@16   = ~Willkommen, <CHARNAME>. Hier sind die Regeln: Solange Ihr gewinnt, könnt Ihr hier bleiben. Wenn Ihr verliert, ist alles vorbei. Ihr kämpft bis zum Tod, aber macht Euch keine Sorgen, denn Ihr werdet alle wiedererweckt werden.~
+@15   = ~Willkommen, Aerie. Hier sind die Regeln: Solange Ihr gewinnt, kÃ¶nnt Ihr hier bleiben. Wenn Ihr verliert, ist alles vorbei. Ihr kÃ¤mpft bis zum Tod, aber macht Euch keine Sorgen, denn Ihr werdet alle wiedererweckt werden.~
 
 
-@17   = ~Willkommen, Randall. Hier sind die Regeln: Solange Ihr gewinnt, könnt Ihr hier bleiben. Wenn Ihr verliert, ist alles vorbei. Ihr kämpft bis zum Tod, aber macht Euch keine Sorgen, denn Ihr werdet alle wiedererweckt werden.~
+@16   = ~Willkommen, <CHARNAME>. Hier sind die Regeln: Solange Ihr gewinnt, kÃ¶nnt Ihr hier bleiben. Wenn Ihr verliert, ist alles vorbei. Ihr kÃ¤mpft bis zum Tod, aber macht Euch keine Sorgen, denn Ihr werdet alle wiedererweckt werden.~
+
+
+@17   = ~Willkommen, Randall. Hier sind die Regeln: Solange Ihr gewinnt, kÃ¶nnt Ihr hier bleiben. Wenn Ihr verliert, ist alles vorbei. Ihr kÃ¤mpft bis zum Tod, aber macht Euch keine Sorgen, denn Ihr werdet alle wiedererweckt werden.~
 

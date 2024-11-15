@@ -3,29 +3,29 @@
 
 @1    = ~...Drizzt? Seid Ihr das, mein alter Freund! Welche Winde haben Euch denn hergetragen?~
 
-@2    = ~Auf was für eine Situation bezieht Ihr Euch?~
+@2    = ~Auf was fÃ¼r eine Situation bezieht Ihr Euch?~
 
-@3    = ~Ich verstehe nicht... Der Kristallsplitter wurde zerstört. Entreri und Jarlaxle selbst haben es getan.~
+@3    = ~Ich verstehe nicht... Der Kristallsplitter wurde zerstÃ¶rt. Entreri und Jarlaxle selbst haben es getan.~
 
-@4    = ~Sie kamen hierher und suchten nach Hilfe ihn zu zerstören. Wir hatten Erfolg.~
+@4    = ~Sie kamen hierher und suchten nach Hilfe ihn zu zerstÃ¶ren. Wir hatten Erfolg.~
 
-@5    = ~Ich glaube, sie hatten erkannt, wie gefährlich dieses Objekt sein kann und entschieden sich, es loszuwerden...~
+@5    = ~Ich glaube, sie hatten erkannt, wie gefÃ¤hrlich dieses Objekt sein kann und entschieden sich, es loszuwerden...~
 
-@6    = ~Das ist ziemlich mysteriös... Der Kristallsplitter wurde zerstört, das steht völlig ausser Frage.~
+@6    = ~Das ist ziemlich mysteriÃ¶s... Der Kristallsplitter wurde zerstÃ¶rt, das steht vÃ¶llig ausser Frage.~
 
 @7    = ~Vielleicht war der Turm nur eine Art Illusion.~
 
-@8    = ~Ich verstehe... Dann ist es vielleicht möglich, dass sie ein ähnliches Artefakt mit ähnlichen Fahigkeiten des Kristallsplitters haben. Das war nicht das einzige böse Objekt. In dieser Welt gibt es noch viel mehr davon.~
+@8    = ~Ich verstehe... Dann ist es vielleicht mÃ¶glich, dass sie ein Ã¤hnliches Artefakt mit Ã¤hnlichen Fahigkeiten des Kristallsplitters haben. Das war nicht das einzige bÃ¶se Objekt. In dieser Welt gibt es noch viel mehr davon.~
 
-@9    = ~Böse Artefakte sind zwar sehr selten, werden jedoch immer wieder gefunden.~
+@9    = ~BÃ¶se Artefakte sind zwar sehr selten, werden jedoch immer wieder gefunden.~
 
-@10   = ~Der Kristallsplitter wurde mit dem Odem des sehr alten roten Drachen Hephaestus zerstört. Er ist immer noch am Leben. Es ist möglich, dass sein Odem die neue Bedrohung ebenfalls vernichten könnte.~
+@10   = ~Der Kristallsplitter wurde mit dem Odem des sehr alten roten Drachen Hephaestus zerstÃ¶rt. Er ist immer noch am Leben. Es ist mÃ¶glich, dass sein Odem die neue Bedrohung ebenfalls vernichten kÃ¶nnte.~
 
-@11   = ~Das Problem ist nur, dass sich das neue Objekt in den Händen der Gegner befindet.~
+@11   = ~Das Problem ist nur, dass sich das neue Objekt in den HÃ¤nden der Gegner befindet.~
 
-@12   = ~Selbst der begabteste Dieb könnte es nicht aus dem Kristallturm stehlen. Es gibt keine Möglichkeit, an es heranzukommen.~
+@12   = ~Selbst der begabteste Dieb kÃ¶nnte es nicht aus dem Kristallturm stehlen. Es gibt keine MÃ¶glichkeit, an es heranzukommen.~
 
-@13   = ~Hmm... Ich muss mir die alten Schriftrollen ansehen... In ein oder zwei Tagen werde ich möglicherweise eine Antwort haben... Währenddessen könnt Ihr Euch hier ausruhen und Kräfte sammeln.~
+@13   = ~Hmm... Ich muss mir die alten Schriftrollen ansehen... In ein oder zwei Tagen werde ich mÃ¶glicherweise eine Antwort haben... WÃ¤hrenddessen kÃ¶nnt Ihr Euch hier ausruhen und KrÃ¤fte sammeln.~
 
 @14   = ~Es war mir eine Freude, Euch wieder getroffen zu haben, Drizzt. Ich werde mich mit den Schriften beeilen.~
 
@@ -35,49 +35,49 @@
 
 @17   = ~Ich habe meine Nachforschungen beendet und konnte etwas interssantes herausfinden.~
 
-@18   = ~Es gibt keine andere Möglichkeit, als das Artefakt durch den Odem eines mächtigen Drachen zu zerstören. Man kann den Splitter Enteri und Jarlaxle leider nicht abnehmen. Selbst wenn dies gelänge, besteht eine hohe Wahrscheinlichkeit, dass er sich mit seinem Bösen Eurer bemächtigen würde. Selbst Ihr könntet nichts dagegen tun!~
+@18   = ~Es gibt keine andere MÃ¶glichkeit, als das Artefakt durch den Odem eines mÃ¤chtigen Drachen zu zerstÃ¶ren. Man kann den Splitter Enteri und Jarlaxle leider nicht abnehmen. Selbst wenn dies gelÃ¤nge, besteht eine hohe Wahrscheinlichkeit, dass er sich mit seinem BÃ¶sen Eurer bemÃ¤chtigen wÃ¼rde. Selbst Ihr kÃ¶nntet nichts dagegen tun!~
 
-@19   = ~Deswegen muss das Artefakt an dem Ort zerstört werden, an dem es zu finden ist. Es gibt einen Gegenstand, mit dem man einen Drachen einfangen kann. Das ist genau das, was Ihr braucht.~
+@19   = ~Deswegen muss das Artefakt an dem Ort zerstÃ¶rt werden, an dem es zu finden ist. Es gibt einen Gegenstand, mit dem man einen Drachen einfangen kann. Das ist genau das, was Ihr braucht.~
 
-@20   = ~Ihr werdet diesen Gegenstand finden, Hephaestus darin einsperren und wenn Ihr Enteri und Jarlaxle gegenübersteht, benutzt Ihr ihn.~
+@20   = ~Ihr werdet diesen Gegenstand finden, Hephaestus darin einsperren und wenn Ihr Enteri und Jarlaxle gegenÃ¼bersteht, benutzt Ihr ihn.~
 
-@21   = ~Was mich auch gleich zum Standort dieses Gegenstandes führt... Ich fürchte, dass er in der Hölle zu finden ist. Ich werde einen Höllenbewohner beschwören, um ihn auszufragen. Ich hoffe, den genauen Standort damit zu erfahren.~
+@21   = ~Was mich auch gleich zum Standort dieses Gegenstandes fÃ¼hrt... Ich fÃ¼rchte, dass er in der HÃ¶lle zu finden ist. Ich werde einen HÃ¶llenbewohner beschwÃ¶ren, um ihn auszufragen. Ich hoffe, den genauen Standort damit zu erfahren.~
 
-@22   = ~So, ich werde jetzt in den Beschwörungsraum gehen. Ich beschwöre den Höllenbewohner und Ihr haltet Wache.~
+@22   = ~So, ich werde jetzt in den BeschwÃ¶rungsraum gehen. Ich beschwÃ¶re den HÃ¶llenbewohner und Ihr haltet Wache.~
 
-@23   = ~Ich werde die Informationen aus ihm ziehen und Euch dann zu dem richtigen Standort schicken. Ihr nehmt Euch dann den Gegenstand und kehrt wieder hierher zurück.~
+@23   = ~Ich werde die Informationen aus ihm ziehen und Euch dann zu dem richtigen Standort schicken. Ihr nehmt Euch dann den Gegenstand und kehrt wieder hierher zurÃ¼ck.~
 
-@24   = ~Dann werde ich ich Euch in den Hort des Drachen teleportieren und wir werden ihn einfangen. Natürlich werden wir ihn zuerst aufwecken müssen.~
+@24   = ~Dann werde ich ich Euch in den Hort des Drachen teleportieren und wir werden ihn einfangen. NatÃ¼rlich werden wir ihn zuerst aufwecken mÃ¼ssen.~
 
 @25   = ~Gute Arbeit! Wann sollen wir loslegen?~
 
-@26   = ~In die Hölle gehen? Einen Drachen bekämpfen? Mann... Ihr seid verrückt!~ ~In die Hölle gehen? Einen Drachen bekämpfen? Frau... Ihr seid verrückt!~
+@26   = ~In die HÃ¶lle gehen? Einen Drachen bekÃ¤mpfen? Mann... Ihr seid verrÃ¼ckt!~ ~In die HÃ¶lle gehen? Einen Drachen bekÃ¤mpfen? Frau... Ihr seid verrÃ¼ckt!~
 
 @27   = ~Werdet Ihr uns mit dem Drachen helfen?~
 
-@28   = ~Was immer Ihr wollt. Der Beschwörungsraum ist jetzt bereit.~
+@28   = ~Was immer Ihr wollt. Der BeschwÃ¶rungsraum ist jetzt bereit.~
 
-@29   = ~Ich habe ihn leeren lassen, damit wir die Beschwörung ordnungsgemäss durchführen können.~
+@29   = ~Ich habe ihn leeren lassen, damit wir die BeschwÃ¶rung ordnungsgemÃ¤ss durchfÃ¼hren kÃ¶nnen.~
 
 @30   = ~Gut. Lasst uns sofort aufbrechen.~
 
-@31   = ~Allles klar, doch zuerst werde ich mich hier noch ein wenig umsehen. Wir werden aufbrechen, wenn ich wieder zurück bin.~
+@31   = ~Allles klar, doch zuerst werde ich mich hier noch ein wenig umsehen. Wir werden aufbrechen, wenn ich wieder zurÃ¼ck bin.~
 
-@32   = ~Ich weiss, dass dies alles nicht einfach werden wird. Aber wir haben keine andere Wahl. Möge Deneir Euch beistehen.~
+@32   = ~Ich weiss, dass dies alles nicht einfach werden wird. Aber wir haben keine andere Wahl. MÃ¶ge Deneir Euch beistehen.~
 
-@33   = ~Ja, ich werde mit Euch kommen und Euch während des Kampfes heilen.~
+@33   = ~Ja, ich werde mit Euch kommen und Euch wÃ¤hrend des Kampfes heilen.~
 
 @34   = ~In Ordnung. Seid auf alles gefasst.~
 
 @35   = ~Ich werde hier auf Euch warten.~
 
-@36   = ~Wir können, wann immer Ihr wollt, aufbrechen. Der Beschwörungsraum ist vorbereitet.~
+@36   = ~Wir kÃ¶nnen, wann immer Ihr wollt, aufbrechen. Der BeschwÃ¶rungsraum ist vorbereitet.~
 
 @37   = ~Seid Ihr bereit zu gehen?~
 
 @38   = ~Ja, wir sollten sofort aufbrechen.~
 
-@39   = ~Nein, ich möchte mich zuerst hier noch ein wenig umsehen.~
+@39   = ~Nein, ich mÃ¶chte mich zuerst hier noch ein wenig umsehen.~
 
 @40   = ~Ich habe alles getan, was ich konnte. Der Rest liegt an Euch. Findet das Objekt und macht dem ein Ende.~
 
@@ -87,7 +87,7 @@
 
 @43   = ~Was soll das!? Lasst mich frei!~
 
-@44   = ~Was wisst Ihr über Fangors Drachenfänger?~
+@44   = ~Was wisst Ihr Ã¼ber Fangors DrachenfÃ¤nger?~
 
 @45   = ~Nichts! Lasst mich gehen!~
 
@@ -97,13 +97,13 @@
 
 @48   = ~Ich-Ich weiss nichts...~
 
-@49   = ~Was wisst Ihr über Fangors Drachenfänger!?~
+@49   = ~Was wisst Ihr Ã¼ber Fangors DrachenfÃ¤nger!?~
 
 @50   = ~Schon gut! Schon gut! Er ist in der...~
 
 @51   = ~Siebten Ebene! ...Crec'tur! ...Siebte Ebene! ...Crec'tur!~
 
-@52   = ~Alles klar. Siebte Ebene, in den Händen des Dämonen Crec'tur. Ich werde Euch dorthin teleportieren. Möge Deneir über Euch wachen.~
+@52   = ~Alles klar. Siebte Ebene, in den HÃ¤nden des DÃ¤monen Crec'tur. Ich werde Euch dorthin teleportieren. MÃ¶ge Deneir Ã¼ber Euch wachen.~
 
 @53   = ~Lasst uns zuerst den Gegenstand holen.~
 

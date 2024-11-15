@@ -2,23 +2,23 @@
 
 @1    = ~Ich bin <CHARNAME>. Freut mich, Euch zu treffen.~
 
-@2    = ~Ich bin die berühmte Bhaalbrut, <CHARNAME>. Ich wurde hier erst vor kurzem gefangen gehalten und weiss nicht, wo wir sind.~
+@2    = ~Ich bin die berÃ¼hmte Bhaalbrut, <CHARNAME>. Ich wurde hier erst vor kurzem gefangen gehalten und weiss nicht, wo wir sind.~
 
 @3    = ~Ich weiss nicht, wo wir sind. Geht weg.~
 
-@4    = ~W... was ist das für ein Ort?~
+@4    = ~W... was ist das fÃ¼r ein Ort?~
 
 @5    = ~Keine Ahnung. Ich wurde gefangen und habe keine Ahnung, wie lange ich schon hier bin. Auf jeden Fall versuche ich aber einen Ausgang zu finden. Wie seid Ihr hierher gekommen?~
 
 @6    = ~Ich habe keine Ahnung. Ich wurde gegen meinen Willen hierher gebracht. Wie seid Ihr hier gelandet?~
 
-@7    = ~Tja! Ich reiste mit Hilfe eines Teleportationsspruches zusammen mit meinen Gefährten, aber anscheinend lief irgendetwas schief. Ich wachte hier auf und ich habe keine Ahnung, wo meine Gefährten sind.~
+@7    = ~Tja! Ich reiste mit Hilfe eines Teleportationsspruches zusammen mit meinen GefÃ¤hrten, aber anscheinend lief irgendetwas schief. Ich wachte hier auf und ich habe keine Ahnung, wo meine GefÃ¤hrten sind.~
 
-@8    = ~Vielleicht könntet Ihr Euch ja meiner Gruppe anschliessen, damit wir zusammen einen Ausweg finden können. Wie war noch Euer Name...?~
+@8    = ~Vielleicht kÃ¶nntet Ihr Euch ja meiner Gruppe anschliessen, damit wir zusammen einen Ausweg finden kÃ¶nnen. Wie war noch Euer Name...?~
 
 @9    = ~Interessant. Wiedersehen.~
 
-@10   = ~Wulfgar, Sohn von Beornegar. Es wäre mir eine Ehre, mich Euch anzuschliessen, aber wir müssen auch die Augen nach meinen Gefährten offen halten... Ich hoffe, dass sie vielleicht auch hier sind.~
+@10   = ~Wulfgar, Sohn von Beornegar. Es wÃ¤re mir eine Ehre, mich Euch anzuschliessen, aber wir mÃ¼ssen auch die Augen nach meinen GefÃ¤hrten offen halten... Ich hoffe, dass sie vielleicht auch hier sind.~
 
 @11   = ~Sicher. Dann lasst uns gehen.~
 
@@ -26,19 +26,19 @@
 
 @13   = ~Ihr schon wieder. Was wollt Ihr?~
 
-@14   = ~Ihr könntet Euch ja meiner Gruppe anschliessen, damit wir zusammen einen Ausweg finden können.~
+@14   = ~Ihr kÃ¶nntet Euch ja meiner Gruppe anschliessen, damit wir zusammen einen Ausweg finden kÃ¶nnen.~
 
 @15   = ~Nichts. Wiedersehen.~
 
-@16   = ~Alles klar... Ich werde mich anschliessen... aber wir müssen auch die Augen nach meinen Gefährten offen halten... Ich hoffe, dass sie vielleicht auch hier sind.~
+@16   = ~Alles klar... Ich werde mich anschliessen... aber wir mÃ¼ssen auch die Augen nach meinen GefÃ¤hrten offen halten... Ich hoffe, dass sie vielleicht auch hier sind.~
 
-@17   = ~<CHARNAME>? Noch nie von Euch gehört... Aber Ihr sagtet, dass Ihr nicht wisst, wo wir sind. Vielleicht sollten wir das besser zusammen herausfinden...?~
+@17   = ~<CHARNAME>? Noch nie von Euch gehÃ¶rt... Aber Ihr sagtet, dass Ihr nicht wisst, wo wir sind. Vielleicht sollten wir das besser zusammen herausfinden...?~
 
 @18   = ~Sicher, mein Freund, aber wer seid Ihr und wie seid Ihr hierher gekommen?~
 
 @19   = ~Nein, ich glaube nicht.~
 
-@20   = ~Ich bin Wulfgar, ein Barbar aus dem Eiswindtal. Ich reiste mit Hilfe eines Teleportationsspruches zusammen mit meinen Gefährten, aber anscheinend lief irgendetwas schief. Ich wachte hier auf und ich habe keine Ahnung, wo meine Gefährten sind.~
+@20   = ~Ich bin Wulfgar, ein Barbar aus dem Eiswindtal. Ich reiste mit Hilfe eines Teleportationsspruches zusammen mit meinen GefÃ¤hrten, aber anscheinend lief irgendetwas schief. Ich wachte hier auf und ich habe keine Ahnung, wo meine GefÃ¤hrten sind.~
 
 
 @21   = ~Gut, Wulfgar. Gehen wir.~
@@ -47,10 +47,10 @@
 
 @23   = ~Vielleicht sollten wir doch nicht zusammen reisen. Wiedersehen!~
 
-@24   = ~Das werden wir tun, aber ich werde auch nach meinen Gefährten Ausschau halten, während wir zusammen sind... Ich hoffe, dass sie auch hier sind.~
+@24   = ~Das werden wir tun, aber ich werde auch nach meinen GefÃ¤hrten Ausschau halten, wÃ¤hrend wir zusammen sind... Ich hoffe, dass sie auch hier sind.~
 
-@25   = ~... Wie Ihr wünscht. Dann auf Wiedersehen.~
+@25   = ~... Wie Ihr wÃ¼nscht. Dann auf Wiedersehen.~
 
-@26   = ~Ich grüsse Euch, <CHARNAME>. Delly wartet bereits im Zelt. Sie wird mit uns gehen, wenn wir aufbrechen. Ich bin sicher, wir können einen kleinen Umweg machen, um sie nach Hause zu bringen.~
+@26   = ~Ich grÃ¼sse Euch, <CHARNAME>. Delly wartet bereits im Zelt. Sie wird mit uns gehen, wenn wir aufbrechen. Ich bin sicher, wir kÃ¶nnen einen kleinen Umweg machen, um sie nach Hause zu bringen.~
 
 @27   = ~Aber jetzt lasst uns gehen.~

@@ -1,50 +1,50 @@
-@0    = ~Hallo, <SIRMAAM>. Ich bin der Assistent des Bürgermeisters. Gibt es einen Grund, warum Ihr mit mir sprechen wollt?~
+@0    = ~Hallo, <SIRMAAM>. Ich bin der Assistent des BÃ¼rgermeisters. Gibt es einen Grund, warum Ihr mit mir sprechen wollt?~
 
-@1    = ~Nun, ich habe momentan etwas Zeit übrig und habe mich gefragt, ob Ihr vielleicht etwas für mich zu tun habt. Ich würde gerne helfen.~
+@1    = ~Nun, ich habe momentan etwas Zeit Ã¼brig und habe mich gefragt, ob Ihr vielleicht etwas fÃ¼r mich zu tun habt. Ich wÃ¼rde gerne helfen.~
 
-@2    = ~Ich brauche Gold und könnte gegen gute Bezahlung etwas für Euch tun.~
+@2    = ~Ich brauche Gold und kÃ¶nnte gegen gute Bezahlung etwas fÃ¼r Euch tun.~
 
 @3    = ~Eigentlich nicht.~
 
-@4    = ~... Da ist eine Sache, die Ihr Euch ansehen könntet. Ich habe darüber schon mit dem Bürgermeister gesprochen, aber wir haben entschieden, vorerst noch nichts zu unternehmen.~
+@4    = ~... Da ist eine Sache, die Ihr Euch ansehen kÃ¶nntet. Ich habe darÃ¼ber schon mit dem BÃ¼rgermeister gesprochen, aber wir haben entschieden, vorerst noch nichts zu unternehmen.~
 
-@5    = ~Da gibt es einen Kerl, Matthew Wyndon... immer zu Mitternacht gehen seltsame Dinge in seinem Haus vor sich. Seltsame Lichter sind zu sehen und manchmal hört man unheimliche Geräusche.~
+@5    = ~Da gibt es einen Kerl, Matthew Wyndon... immer zu Mitternacht gehen seltsame Dinge in seinem Haus vor sich. Seltsame Lichter sind zu sehen und manchmal hÃ¶rt man unheimliche GerÃ¤usche.~
 
-@6    = ~Ich war noch nie in dem Gebäude, wenn er diese Dinge macht, daher kann ich nicht sagen, was dort vor sich geht. Alles, was ich weiss, ist, dass es dort spukt.~
+@6    = ~Ich war noch nie in dem GebÃ¤ude, wenn er diese Dinge macht, daher kann ich nicht sagen, was dort vor sich geht. Alles, was ich weiss, ist, dass es dort spukt.~
 
-@7    = ~... Vielleicht ist es ja nichts, wovor man sich fürchten müsste, aber... Es hat einige Dorfbewohner nervös gemacht. Das ist gar nicht gut, wenn man bedenkt, dass sie darüber nachdenken, wegzugehen...~
+@7    = ~... Vielleicht ist es ja nichts, wovor man sich fÃ¼rchten mÃ¼sste, aber... Es hat einige Dorfbewohner nervÃ¶s gemacht. Das ist gar nicht gut, wenn man bedenkt, dass sie darÃ¼ber nachdenken, wegzugehen...~
 
-@8    = ~Matthew ist ein ziemlich merkwürdiger Mensch und bleibt lieber für sich allein. Wenn Ihr mit ihm zu sprechen versucht, wird er nicht antworten...~
+@8    = ~Matthew ist ein ziemlich merkwÃ¼rdiger Mensch und bleibt lieber fÃ¼r sich allein. Wenn Ihr mit ihm zu sprechen versucht, wird er nicht antworten...~
 
 @9    = ~Das einzige, was ihr zu tun habt, ist herauszufinden, was sich um Mitternacht in diesem Haus abspielt. Dann erstattet Ihr mir Bericht.~
 
-@10   = ~In Ordnung, das kann ich für Euch tun.~
+@10   = ~In Ordnung, das kann ich fÃ¼r Euch tun.~
 
 @11   = ~Wo lebt denn dieser Matthew?~
 
-@12   = ~Das klingt ziemlich gefährlich...~
+@12   = ~Das klingt ziemlich gefÃ¤hrlich...~
 
-@13   = ~Das mache ich auf keinen Fall! Zu gefährlich.~
+@13   = ~Das mache ich auf keinen Fall! Zu gefÃ¤hrlich.~
 
 @14   = ~Grossartig! Ich danke Euch. Ich werde hier auf Euch warten.~
 
-@15   = ~In dem Gebäude oberhalb des Hafens. Es liegt östlich dieses Gebäudes.~
+@15   = ~In dem GebÃ¤ude oberhalb des Hafens. Es liegt Ã¶stlich dieses GebÃ¤udes.~
 
 @16   = ~In Ordnung. Ich werde nachsehen, was er so alles anstellt.~
 
 @17   = ~Hmm... Ich glaube kaum, dass ich es machen werde.~
 
-@18   = ~Ich lüge nicht. Es könnte gefährlich werden... aber ich glaube, das Risiko ist immer noch sehr gering.~
+@18   = ~Ich lÃ¼ge nicht. Es kÃ¶nnte gefÃ¤hrlich werden... aber ich glaube, das Risiko ist immer noch sehr gering.~
 
 @19   = ~Alles klar. Ich werde gehen und nachsehen, was dieser Matthew so alles treibt.~
 
-@20   = ~Sehr schön. Wenn Ihr Euch aus irgendeinem Grund dennoch entschliessen solltet, zu helfen, lasst es mich wissen.~
+@20   = ~Sehr schÃ¶n. Wenn Ihr Euch aus irgendeinem Grund dennoch entschliessen solltet, zu helfen, lasst es mich wissen.~
 
-@21   = ~Eigentlich benötigen wir auch noch eine Menge Gold. Der Hafen ist in einem sehr schlechten Zustand und wir haben nur noch ein seetüchtiges Schiff. Es wird von einem reichen Edelmann benutzt, wurde mir gesagt. Wenigstens bezahlt er gut.~
+@21   = ~Eigentlich benÃ¶tigen wir auch noch eine Menge Gold. Der Hafen ist in einem sehr schlechten Zustand und wir haben nur noch ein seetÃ¼chtiges Schiff. Es wird von einem reichen Edelmann benutzt, wurde mir gesagt. Wenigstens bezahlt er gut.~
 
-@22   = ~Das verbliebene Geld reicht gerade noch, um die Leute für den Aufbau des Hafens zu bezahlen. Wir brauchen so schnell wie möglich neue Schiffe, um wieder Handel mit den anderen Städten treiben zu können, aber wir können nicht noch mehr Leute anheuern, weil uns sonst das Geld ausgehen würde.~
+@22   = ~Das verbliebene Geld reicht gerade noch, um die Leute fÃ¼r den Aufbau des Hafens zu bezahlen. Wir brauchen so schnell wie mÃ¶glich neue Schiffe, um wieder Handel mit den anderen StÃ¤dten treiben zu kÃ¶nnen, aber wir kÃ¶nnen nicht noch mehr Leute anheuern, weil uns sonst das Geld ausgehen wÃ¼rde.~
 
-@23   = ~Dann könnte ich ja etwas umsonst machen.~
+@23   = ~Dann kÃ¶nnte ich ja etwas umsonst machen.~
 
 @24   = ~Ich verstehe. Trotzdem danke.~
 
@@ -54,7 +54,7 @@
 
 @27   = ~Wollt Ihr jetzt trotzdem helfen?~
 
-@28   = ~Jetzt hatte ich die Zeit, darüber nachzudenken. Ich entschied mich, es zu tun.~
+@28   = ~Jetzt hatte ich die Zeit, darÃ¼ber nachzudenken. Ich entschied mich, es zu tun.~
 
 @29   = ~Nein.~
 
@@ -66,24 +66,24 @@
 
 @33   = ~Nein, noch nicht.~
 
-@34   = ~Tja... vielleicht ist es unverschämt, zu fragen, aber... könntet Ihr versuchen, herauszufinden, wohin er geht? Er könnte das ganze Dorf gefährden.~
+@34   = ~Tja... vielleicht ist es unverschÃ¤mt, zu fragen, aber... kÃ¶nntet Ihr versuchen, herauszufinden, wohin er geht? Er kÃ¶nnte das ganze Dorf gefÃ¤hrden.~
 
 @35   = ~Sicher! Kein Problem.~
 
-@36   = ~Ich fürchte, das ist zu gefährlich.~
+@36   = ~Ich fÃ¼rchte, das ist zu gefÃ¤hrlich.~
 
 @37   = ~Nein. Das mache ich nicht.~
 
 @38   = ~Vielen Dank! Lasst mich wissen, wenn Ihr mehr Informationen habt.~
 
-@39   = ~Na schön. Danke für das, was Ihr herausgefunden habt.~
+@39   = ~Na schÃ¶n. Danke fÃ¼r das, was Ihr herausgefunden habt.~
 
 @40   = ~Ja. Offensichtlich benutzt er eine Art Portal, um irgendwo hinzugehen. Anscheinend ist er ein Mitglied irgendeines Kultes.~
 
-@41   = ~...Hmm... Danke für die Informationen... Obwohl dies schlechte Neuigkeiten sind... werde ich mit dem Bürgermeister über die Konsequenzen Eurer Entdeckung sprechen müssen... Entschuldigt mich...~
+@41   = ~...Hmm... Danke fÃ¼r die Informationen... Obwohl dies schlechte Neuigkeiten sind... werde ich mit dem BÃ¼rgermeister Ã¼ber die Konsequenzen Eurer Entdeckung sprechen mÃ¼ssen... Entschuldigt mich...~
 
-@42   = ~Danke für das, was Ihr herausgefunden habt.~
+@42   = ~Danke fÃ¼r das, was Ihr herausgefunden habt.~
 
-@43   = ~Kehrt zurück, wenn Ihr mehr Informationen habt.~
+@43   = ~Kehrt zurÃ¼ck, wenn Ihr mehr Informationen habt.~
 
-@44   = ~Ich danke Euch für Eure Nachforschungen.~
+@44   = ~Ich danke Euch fÃ¼r Eure Nachforschungen.~

@@ -1,50 +1,50 @@
-@0    = ~Nichts zu berichten, Anführer.~
+@0    = ~Nichts zu berichten, AnfÃ¼hrer.~
 
 @1    = ~Ich werde mit eiserner Hand regieren.~
 
-@2    = ~Schön, Euch hier zu sehen, Anführer. Ich habe Euch einen profitablen Vorschlag zu machen, wenn Ihr mich anhört.~
+@2    = ~SchÃ¶n, Euch hier zu sehen, AnfÃ¼hrer. Ich habe Euch einen profitablen Vorschlag zu machen, wenn Ihr mich anhÃ¶rt.~
 
 @3    = ~Hmm... interessant. Was habt Ihr vor?~
 
 @4    = ~Das klingt ziemlich illegal...~
 
-@5    = ~Nicht jetzt, Ilhan. Später.~
+@5    = ~Nicht jetzt, Ilhan. SpÃ¤ter.~
 
 @6    = ~Ich habe kein Interesse an Eurem Angebot, Magier.~
 
-@7    = ~Es gibt einen wohlhabend aussehenden Händler, der mit seiner Leibwache nach Norden zieht. Anscheinend hat er seine Waren alle verkauft und will nach Hause zurückkehren. Er wird die Burg etwa eine Meile westlich pasieren.~
+@7    = ~Es gibt einen wohlhabend aussehenden HÃ¤ndler, der mit seiner Leibwache nach Norden zieht. Anscheinend hat er seine Waren alle verkauft und will nach Hause zurÃ¼ckkehren. Er wird die Burg etwa eine Meile westlich pasieren.~
 
-@8    = ~Olmar liess ab und zu Händler und Karawanen ausrauben, deswegen dachte ich mir, dass wir das doch auch machen könnten... Die Beute wird natürlich geteilt.~
+@8    = ~Olmar liess ab und zu HÃ¤ndler und Karawanen ausrauben, deswegen dachte ich mir, dass wir das doch auch machen kÃ¶nnten... Die Beute wird natÃ¼rlich geteilt.~
 
-@9    = ~Die Wachen sind schwer bewaffnet, aber ich glaube, dass wir mit ihnen fertig werden können. Der Händler selbst hat irgendwie seine Wagen und Pferde verloren, daher wird es leicht werden, ihn zu beseitigen. Was sagt Ihr dazu?~
+@9    = ~Die Wachen sind schwer bewaffnet, aber ich glaube, dass wir mit ihnen fertig werden kÃ¶nnen. Der HÃ¤ndler selbst hat irgendwie seine Wagen und Pferde verloren, daher wird es leicht werden, ihn zu beseitigen. Was sagt Ihr dazu?~
 
 @10   = ~Sehr gute Idee, Ilhan! Ich bin dabei.~
 
-@11   = ~Hier ist mein Vorschlag. Neunzig Prozent für mich, zehn für Euch.~
+@11   = ~Hier ist mein Vorschlag. Neunzig Prozent fÃ¼r mich, zehn fÃ¼r Euch.~
 
-@12   = ~Das könnt Ihr selbst erledigen. Ich möchte nichts damit zu tun haben.~
+@12   = ~Das kÃ¶nnt Ihr selbst erledigen. Ich mÃ¶chte nichts damit zu tun haben.~
 
-@13   = ~Nein, das werde ich nicht tun. Ausserdem verbiete ich sämtliche feindlichen Aktionen gegen unschuldige Zivilisten. Hier geht es jetzt nach meinen Regeln.~
+@13   = ~Nein, das werde ich nicht tun. Ausserdem verbiete ich sÃ¤mtliche feindlichen Aktionen gegen unschuldige Zivilisten. Hier geht es jetzt nach meinen Regeln.~
 
-@14   = ~Grossartig! Lasst uns nun rasten und nachdem unser Spion uns mitgeteilt hat, dass der Händler in der Nähe ist, brechen wir auf.~
+@14   = ~Grossartig! Lasst uns nun rasten und nachdem unser Spion uns mitgeteilt hat, dass der HÃ¤ndler in der NÃ¤he ist, brechen wir auf.~
 
 @15   = ~Kein Vorschlag.~
 
-@16   = ~Ilhan, kommt schon! Ich habe nur Spass geacht! Natürlich bin ich mit Eurem Vorschlag einverstanden! Wir machen halbe, halbe.~
+@16   = ~Ilhan, kommt schon! Ich habe nur Spass geacht! NatÃ¼rlich bin ich mit Eurem Vorschlag einverstanden! Wir machen halbe, halbe.~
 
-@17   = ~Wie wäre es mit sechzig für mich und vierzig für Euch? Meine Gruppe und ich haben mehr Arbeit damit als Ihr...~
+@17   = ~Wie wÃ¤re es mit sechzig fÃ¼r mich und vierzig fÃ¼r Euch? Meine Gruppe und ich haben mehr Arbeit damit als Ihr...~
 
 @18   = ~Ja, kein Handel.~
 
 @19   = ~In Ordnung. Dann verbiete ich Euch, dies zu tun. Habt Ihr verstanden!?~
 
-@20   = ~Und ich könnte Eure Regentschaft ignorieren und alles selbst in die Hände nehmen.~
+@20   = ~Und ich kÃ¶nnte Eure Regentschaft ignorieren und alles selbst in die HÃ¤nde nehmen.~
 
 @21   = ~Dann also halbe, halbe. Ich bin dabei.~
 
-@22   = ~Das stimmt nicht ganz... Da steckt noch etwas dahinter... Ohne mich könnt Ihr es mit dieser Gruppe nicht aufnehmen... Ich bin in dieser Sache wichtiger als Ihr!~
+@22   = ~Das stimmt nicht ganz... Da steckt noch etwas dahinter... Ohne mich kÃ¶nnt Ihr es mit dieser Gruppe nicht aufnehmen... Ich bin in dieser Sache wichtiger als Ihr!~
 
-@23   = ~Dann werde ich nicht daran teilnehmen. Kümmeret Euch selbst.~
+@23   = ~Dann werde ich nicht daran teilnehmen. KÃ¼mmeret Euch selbst.~
 
 @24   = ~Ich werde nicht daran teilnehmen und ich verbiete Euch strengstens, dies zu tun! Habt Ihr verstanden!?~
 
@@ -52,19 +52,19 @@
 
 @26   = ~Oh, alles klar! Ihr sollt Eure verdammten sechzig Prozent haben!~
 
-@27   = ~Lasst uns nun rasten und nachdem unser Spion uns mitgeteilt hat, dass der Händler in der Nähe ist, brechen wir auf.~
+@27   = ~Lasst uns nun rasten und nachdem unser Spion uns mitgeteilt hat, dass der HÃ¤ndler in der NÃ¤he ist, brechen wir auf.~
 
 
-@28   = ~Wir sind in dieser Sache beide wichtig. Ohne mich wüsstet Ihr nichts von dieser Sache und ohne Euch könnte ich das alles nicht durchführen. Halbe, halbe.~
+@28   = ~Wir sind in dieser Sache beide wichtig. Ohne mich wÃ¼sstet Ihr nichts von dieser Sache und ohne Euch kÃ¶nnte ich das alles nicht durchfÃ¼hren. Halbe, halbe.~
 
 @29   = ~Also gut. Dann eben halbe, halbe.~
 
 @30   = ~Ich lehne ab. Es wird keinen Handel geben.~
 
-@31   = ~Schön, dass Ihr Euch besonnen habt. Lasst uns nun rasten und nachdem unser Spion uns mitgeteilt hat, dass der Händler in der Nähe ist, brechen wir auf.~
+@31   = ~SchÃ¶n, dass Ihr Euch besonnen habt. Lasst uns nun rasten und nachdem unser Spion uns mitgeteilt hat, dass der HÃ¤ndler in der NÃ¤he ist, brechen wir auf.~
 
 
-@32   = ~Schön. Wie Ihr wünscht, "<SIRMAAM>".~
+@32   = ~SchÃ¶n. Wie Ihr wÃ¼nscht, "<SIRMAAM>".~
 
 @33   = ~Absolut, "<SIRMAAM>".~
 
@@ -76,15 +76,15 @@
 
 @37   = ~Dann werde ich nicht daran teilnehmen.~
 
-@38   = ~Während ich hier regiere, werden hier keine illegealen Machenschaften toleriert! Habe ich mich klar ausgedrückt!?~
+@38   = ~WÃ¤hrend ich hier regiere, werden hier keine illegealen Machenschaften toleriert! Habe ich mich klar ausgedrÃ¼ckt!?~
 
-@39   = ~Wie Ihr wünscht. Dieses Anliegen ist ziemlich dringend, daher rate ich Euch, schnellstens wieder zurück zu kommen.~
+@39   = ~Wie Ihr wÃ¼nscht. Dieses Anliegen ist ziemlich dringend, daher rate ich Euch, schnellstens wieder zurÃ¼ck zu kommen.~
 
 @40   = ~Ist das so!? (Ihr wartet...!)~
 
 @41   = ~Es ist gar nichts, "<SIRMAAM>".~
 
-@42   = ~Wie Ihr wünscht, <SIRMAAM>.~
+@42   = ~Wie Ihr wÃ¼nscht, <SIRMAAM>.~
 
 @43   = ~Gut, <SIRMAAM>. Ich verstehe (Wir werden sehen, wie lange Ihr regieren werdet!).~
 
@@ -92,25 +92,25 @@
 
 @45   = ~Bereitet Euch jetzt vor. Sie werden bald vorbei kommen.~
 
-@46   = ~Gut gemacht. Sollen wir zur Burg zurückkehren?~
+@46   = ~Gut gemacht. Sollen wir zur Burg zurÃ¼ckkehren?~
 
 @47   = ~Ja. Gehen wir.~
 
 @48   = ~Wartet. Zuerst werde ich noch die Leichen fleddern.~
 
-@49   = ~Die Gegenstände könnt Ihr behalten, aber das Gold teilen wir. Fünfzig Prozent für jeden von uns.~
+@49   = ~Die GegenstÃ¤nde kÃ¶nnt Ihr behalten, aber das Gold teilen wir. FÃ¼nfzig Prozent fÃ¼r jeden von uns.~
 
-@50   = ~Danke... Ich glaube, das war es. Ich werde es Euch wissen lassen, wenn Eure Anwesenheit hier wieder von Nöten ist.~
+@50   = ~Danke... Ich glaube, das war es. Ich werde es Euch wissen lassen, wenn Eure Anwesenheit hier wieder von NÃ¶ten ist.~
 
-@51   = ~Die Gegenstände könnt Ihr behalten, aber das Gold teilen wir. Sechzig Prozent für Euch, vierzig für mich.~
+@51   = ~Die GegenstÃ¤nde kÃ¶nnt Ihr behalten, aber das Gold teilen wir. Sechzig Prozent fÃ¼r Euch, vierzig fÃ¼r mich.~
 
 @52   = ~Ich lasse es Euch wissen, wenn sich etwas Interssantes ergibt...~
 
-@53   = ~Sie tauchen auf. Lasst mich diese Sprüche auf Euch sprechen.~
+@53   = ~Sie tauchen auf. Lasst mich diese SprÃ¼che auf Euch sprechen.~
 
-@54   = ~Ihr habt den Händler anscheinend schon getötet. Habt Ihr seine Leiche schon gefleddert?~
+@54   = ~Ihr habt den HÃ¤ndler anscheinend schon getÃ¶tet. Habt Ihr seine Leiche schon gefleddert?~
 
-@55   = ~Ja, wir können zur Burg zurückkehren.~
+@55   = ~Ja, wir kÃ¶nnen zur Burg zurÃ¼ckkehren.~
 
 @56   = ~Nein, noch nicht.~
 
@@ -118,20 +118,20 @@
 
 @58   = ~Habt Ihr die Leiche gefleddert?~
 
-@59   = ~Ich habe den Händler getötet. Gehen wir zurück zur Burg.~
+@59   = ~Ich habe den HÃ¤ndler getÃ¶tet. Gehen wir zurÃ¼ck zur Burg.~
 
-@60   = ~Dann lasst uns mal das Gold teilen, welches ich bei dem Händler gefunden habe. 988 Goldstücke. Die Hälfte für mich, die andere für Euch.~
+@60   = ~Dann lasst uns mal das Gold teilen, welches ich bei dem HÃ¤ndler gefunden habe. 988 GoldstÃ¼cke. Die HÃ¤lfte fÃ¼r mich, die andere fÃ¼r Euch.~
 
 @61   = ~Hier. Das war es auch schon.~
 
-@62   = ~Dann lasst uns mal das Gold teilen, welches ich bei dem Händler gefunden habe. 988 Goldstücke. Sechzig Prozent für Euch, vierzig für mich.~
+@62   = ~Dann lasst uns mal das Gold teilen, welches ich bei dem HÃ¤ndler gefunden habe. 988 GoldstÃ¼cke. Sechzig Prozent fÃ¼r Euch, vierzig fÃ¼r mich.~
 
-@63   = ~Dann lasst uns mal das Gold teilen, welches ich bei dem Händler gefunden habe. Es waren 988 Goldstücke. Jeder bekommt die Hälfte.~
+@63   = ~Dann lasst uns mal das Gold teilen, welches ich bei dem HÃ¤ndler gefunden habe. Es waren 988 GoldstÃ¼cke. Jeder bekommt die HÃ¤lfte.~
 
 @64   = ~Ja, ich glaube, wir sind jetzt fertig miteinander.~
 
-@65   = ~Dann lasst uns mal das Gold teilen, welches ich bei dem Händler gefunden habe. Das waren 988 Goldstücke, glaube ich. Sechzig Prozent für Euch, vierzig für mich.~
+@65   = ~Dann lasst uns mal das Gold teilen, welches ich bei dem HÃ¤ndler gefunden habe. Das waren 988 GoldstÃ¼cke, glaube ich. Sechzig Prozent fÃ¼r Euch, vierzig fÃ¼r mich.~
 
-@66   = ~Wie Ihr wünscht...~
+@66   = ~Wie Ihr wÃ¼nscht...~
 
 @67   = ~Ja, das seid Ihr sicher...~

@@ -1,4 +1,4 @@
-@0    = ~Was möchtet Ihr über das Modden im Allgemeinen hören?~
+@0    = ~Was mÃ¶chtet Ihr Ã¼ber das Modden im Allgemeinen hÃ¶ren?~
 
 @1    = ~Wie viel Zeit braucht es?~
 
@@ -6,36 +6,36 @@
 
 @3    = ~Wie ist es aufgebaut?~
 
-@4    = ~Was benötige ich, um ein Modder zu sein?~
+@4    = ~Was benÃ¶tige ich, um ein Modder zu sein?~
 
 @5    = ~Wie kann ich mit dem Modden beginnen?~
 
 @6    = ~Nichts.~
 
-@7    = ~Das kommt darauf an, wie groß Euer Modul werden soll. Wenn Ihr alleine an einem großen Mod arbeitet, und das zwei Stunden jeden Tag, werdet Ihr etwa zwei Jahre dafür brauchen.~
+@7    = ~Das kommt darauf an, wie groÃŸ Euer Modul werden soll. Wenn Ihr alleine an einem groÃŸen Mod arbeitet, und das zwei Stunden jeden Tag, werdet Ihr etwa zwei Jahre dafÃ¼r brauchen.~
 
 @8    = ~Ich habe keine weiteren Fragen.~
 
 @9    = ~Nein, eigentlich nicht. TeamBG bietet mehrere Tutorials an und schon nach einigen Wochen Training werdet Ihr ein begabter Modder sein.~
 
-@10   = ~Nun, zuerst füllt Ihr eigentlich nur Kästchen mit Nummern und etwas Text. Es ist keinerlei codierung oder ähnliches vonnöten. Ihr setzt ETW0-Variablen für Charactere, Schadens-Variablen für Waffen und so weiter.~
+@10   = ~Nun, zuerst fÃ¼llt Ihr eigentlich nur KÃ¤stchen mit Nummern und etwas Text. Es ist keinerlei codierung oder Ã¤hnliches vonnÃ¶ten. Ihr setzt ETW0-Variablen fÃ¼r Charactere, Schadens-Variablen fÃ¼r Waffen und so weiter.~
 
-@11   = ~Und dann kommt natürlich noch etwas Kunstfertigkeit hinzu. Gebietskarten werden benötigt. Portraits ebenfalls. Ihr könnt im Internet auf die Suche nach Künstlern gehen, die bereit wären, Portraits oder Karten für Euch anzufertigen, wenn Ihr selbst Euch nicht dazu in der Lage seht.~
+@11   = ~Und dann kommt natÃ¼rlich noch etwas Kunstfertigkeit hinzu. Gebietskarten werden benÃ¶tigt. Portraits ebenfalls. Ihr kÃ¶nnt im Internet auf die Suche nach KÃ¼nstlern gehen, die bereit wÃ¤ren, Portraits oder Karten fÃ¼r Euch anzufertigen, wenn Ihr selbst Euch nicht dazu in der Lage seht.~
 
-@12   = ~Danach müsst Ihr das scripten lernen. Geht eigentlich ganz einfach. Schreibt zunächst einen Trigger/Auslöser und dann die Aktion, die ausgelöst werden soll, schon habt Ihr ein fertiges Script.~
+@12   = ~Danach mÃ¼sst Ihr das scripten lernen. Geht eigentlich ganz einfach. Schreibt zunÃ¤chst einen Trigger/AuslÃ¶ser und dann die Aktion, die ausgelÃ¶st werden soll, schon habt Ihr ein fertiges Script.~
 
-@13   = ~Zunächst fühlt sich das Modden wie ein Hobby an, was es ja schließlich auch ist. An manchen Stellen fühlt es sich aber auch wie Arbeit an, doch wenn Ihr diese Stellen erstmal hinter Euch gelassen habt, wird Euer Mod schnell fertig werden.~
+@13   = ~ZunÃ¤chst fÃ¼hlt sich das Modden wie ein Hobby an, was es ja schlieÃŸlich auch ist. An manchen Stellen fÃ¼hlt es sich aber auch wie Arbeit an, doch wenn Ihr diese Stellen erstmal hinter Euch gelassen habt, wird Euer Mod schnell fertig werden.~
 
-@14   = ~Ihr benötigt erstmal alle Tools von der Seite "www.teambg.com". Lest sie ganau, um sie auch richtig ans laufen zu bekommen und anwenden zu können.~
+@14   = ~Ihr benÃ¶tigt erstmal alle Tools von der Seite "www.teambg.com". Lest sie ganau, um sie auch richtig ans laufen zu bekommen und anwenden zu kÃ¶nnen.~
 
-@15   = ~Dann benötigst Du noch Geduld, Beharrlichkeit und Vorstellungskraft. Das Modden benötigt Zeit, und mehr als einmal willst du alles hinschmeißen, glaub mir.~
+@15   = ~Dann benÃ¶tigst Du noch Geduld, Beharrlichkeit und Vorstellungskraft. Das Modden benÃ¶tigt Zeit, und mehr als einmal willst du alles hinschmeiÃŸen, glaub mir.~
 
-@16   = ~Das war es schon. Dann müsst Ihr natürlich noch weiter mit den Tools üben, müsst eine Idee für Euren Mod entwerfen, und ich kann Euch nur raten, andere Modder zu finden, die Euch helfen und mit Rat und Tat zur Seite stehen. Alleine modden ist hart.~
+@16   = ~Das war es schon. Dann mÃ¼sst Ihr natÃ¼rlich noch weiter mit den Tools Ã¼ben, mÃ¼sst eine Idee fÃ¼r Euren Mod entwerfen, und ich kann Euch nur raten, andere Modder zu finden, die Euch helfen und mit Rat und Tat zur Seite stehen. Alleine modden ist hart.~
 
-@17   = ~Wenn Ihr denn dann alle Tools habt und sie anwenden könnt, solltet Ihr mit einem Mini-Mod anfangen.~
+@17   = ~Wenn Ihr denn dann alle Tools habt und sie anwenden kÃ¶nnt, solltet Ihr mit einem Mini-Mod anfangen.~
 
-@18   = ~Entwerft ein einzelnes Gebiet und setzt einige Kreaturen hinein. Schreibt ein Paar Dialoge für sie und langsam entwickelt sich ein Quest für Euren Charakter.~
+@18   = ~Entwerft ein einzelnes Gebiet und setzt einige Kreaturen hinein. Schreibt ein Paar Dialoge fÃ¼r sie und langsam entwickelt sich ein Quest fÃ¼r Euren Charakter.~
 
-@19   = ~Die Quest(s) könnten so zu ein oder zwei Stunden weiterem Spielspaß führen. Ich empfehle Euch, Euren Mod mit anderen Mods kompatibel zu machen (nutzt dafür WeiDu).~
+@19   = ~Die Quest(s) kÃ¶nnten so zu ein oder zwei Stunden weiterem SpielspaÃŸ fÃ¼hren. Ich empfehle Euch, Euren Mod mit anderen Mods kompatibel zu machen (nutzt dafÃ¼r WeiDu).~
 
-@20   = ~Wenn Ihr für einen größeren Mod einen weiteren Quest-Mini-Mod schreiben wollt, könnt Ihr dafür zum Beispiel weitere Quests zu den enthaltenen Festungen schreiben. Die sind schließlich genau für solch einen Zweck geschaffen worden.~
+@20   = ~Wenn Ihr fÃ¼r einen grÃ¶ÃŸeren Mod einen weiteren Quest-Mini-Mod schreiben wollt, kÃ¶nnt Ihr dafÃ¼r zum Beispiel weitere Quests zu den enthaltenen Festungen schreiben. Die sind schlieÃŸlich genau fÃ¼r solch einen Zweck geschaffen worden.~

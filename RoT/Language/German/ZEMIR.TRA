@@ -1,4 +1,4 @@
-@0    = ~Was macht Ihr hier? Dies ist kein Aufenthaltsort für Abenteurer...~
+@0    = ~Was macht Ihr hier? Dies ist kein Aufenthaltsort fÃ¼r Abenteurer...~
 
 @1    = ~Ich bin hier, um Euch zu helfen.~
 
@@ -8,15 +8,15 @@
 
 @4    = ~Ich glaube, ich werde wieder gehen.~
 
-@5    = ~Wie könntet Ihr mir wohl helfen? Ich habe keine Verwendung für Euch.~
+@5    = ~Wie kÃ¶nntet Ihr mir wohl helfen? Ich habe keine Verwendung fÃ¼r Euch.~
 
-@6    = ~Nun, ich kann fast alles, was ihr wollt, anstellen. Braucht Ihr einen Auftragskiller? Ich bin die Person, die Ihr sucht. Oder braucht Ihr vielleicht einen fähigen Leibwächer? Ihr findet keinen besseren wie mich.~
+@6    = ~Nun, ich kann fast alles, was ihr wollt, anstellen. Braucht Ihr einen Auftragskiller? Ich bin die Person, die Ihr sucht. Oder braucht Ihr vielleicht einen fÃ¤higen LeibwÃ¤cher? Ihr findet keinen besseren wie mich.~
 
 @7    = ~Seid Ihr sicher? Ich kann viele Dinge erledigen.~
 
-@8    = ~Nun, dann glaube ich, dass hier nichts Interessantes für mich hier ist.~
+@8    = ~Nun, dann glaube ich, dass hier nichts Interessantes fÃ¼r mich hier ist.~
 
-@9    = ~Nun, dann habt Ihr es jetzt gesehen. Ich rate Euch, zu gehen, solange Ihr es noch könnt...~
+@9    = ~Nun, dann habt Ihr es jetzt gesehen. Ich rate Euch, zu gehen, solange Ihr es noch kÃ¶nnt...~
 
 @10   = ~Aber ich bin doch nur gekommen, um zu helfen.~
 
@@ -34,9 +34,9 @@
 
 @17   = ~Dann ist es wohl das beste, wenn ich gehe.~
 
-@18   = ~Wie Ihr wünscht...~
+@18   = ~Wie Ihr wÃ¼nscht...~
 
-@19   = ~Ja! Und kehrt nicht zurück.~
+@19   = ~Ja! Und kehrt nicht zurÃ¼ck.~
 
 @20   = ~Das ist unser Territorium.~
 
@@ -44,19 +44,19 @@
 
 @22   = ~Ich verstehe. Dann werde ich wieder gehen.~
 
-@23   = ~Gut. Kehrt nicht zurück.~
+@23   = ~Gut. Kehrt nicht zurÃ¼ck.~
 
-@24   = ~Es ist mir egal, was Ihr tun könnt. Ich habe keine Verwendung für Euch und vertraue keinen Abenteurern! Geht jetzt!~
+@24   = ~Es ist mir egal, was Ihr tun kÃ¶nnt. Ich habe keine Verwendung fÃ¼r Euch und vertraue keinen Abenteurern! Geht jetzt!~
 
 @25   = ~Ihr schon wieder? Was wollt Ihr denn nun?~
 
-@26   = ~Ähh... nichts. Ich gehe wieder.~
+@26   = ~Ã„hh... nichts. Ich gehe wieder.~
 
-@27   = ~Etwas ist vorgefallen. Vielleicht könnt Ihr mir ja doch noch helfen... Aber Ihr müsst mir Eure Vertrauenswürdigkeit beweisen... in Ordnung?~
+@27   = ~Etwas ist vorgefallen. Vielleicht kÃ¶nnt Ihr mir ja doch noch helfen... Aber Ihr mÃ¼sst mir Eure VertrauenswÃ¼rdigkeit beweisen... in Ordnung?~
 
 @28   = ~Wie soll ich sie beweisen?~
 
-@29   = ~Was wäre meine Aufgabe?~
+@29   = ~Was wÃ¤re meine Aufgabe?~
 
 @30   = ~Nein. Ich gehe wieder.~
 
@@ -66,17 +66,17 @@
 
 @33   = ~Klingt gut. Ich werde es tun.~
 
-@34   = ~Hmm... Ich glaube, ich werde diese Möglichkeit ausser Acht lassen...~
+@34   = ~Hmm... Ich glaube, ich werde diese MÃ¶glichkeit ausser Acht lassen...~
 
 @35   = ~Ein Auftragskiller...~
 
-@36   = ~Gut. Dann lasst uns diese Bastarde töten.~
+@36   = ~Gut. Dann lasst uns diese Bastarde tÃ¶ten.~
 
-@37   = ~Ich fürchte, ich muss ablehnen.~
+@37   = ~Ich fÃ¼rchte, ich muss ablehnen.~
 
 @38   = ~Gut. Sie werden bald hier sein...~
 
-@39   = ~Klingt ausgezeichnet. Wie beweise ich meine Vertrauenswürdigkeit?~
+@39   = ~Klingt ausgezeichnet. Wie beweise ich meine VertrauenswÃ¼rdigkeit?~
 
 @40   = ~Nee, ich bin nicht interessiert.~
 
@@ -84,7 +84,7 @@
 
 @42   = ~Nee, ich lehne ab.~
 
-@43   = ~Behrrscht Euch und merkt Euch, dass hier kein Weg mehr her führt...~
+@43   = ~Behrrscht Euch und merkt Euch, dass hier kein Weg mehr her fÃ¼hrt...~
 
 @44   = ~Ich gaube, wir haben nichts mehr miteinander zu besprechen.~
 
@@ -96,23 +96,23 @@
 
 @48   = ~Noch nicht.~
 
-@49   = ~Ihr Name ist Galan. Man findet sie jede Nacht im Hafen von Athkatla. Sie ist ziemlich gefährlich... Sie tötete meinen letzten Auftragskiller... Geht und beseitigt sie.~
+@49   = ~Ihr Name ist Galan. Man findet sie jede Nacht im Hafen von Athkatla. Sie ist ziemlich gefÃ¤hrlich... Sie tÃ¶tete meinen letzten Auftragskiller... Geht und beseitigt sie.~
 
 @50   = ~Beherrscht Euch.~
 
-@51   = ~Kehrt zurück, wenn sie tot ist.~
+@51   = ~Kehrt zurÃ¼ck, wenn sie tot ist.~
 
-@52   = ~Meine Spione haben mir berichtet, dass ihr sie getötet habt... Gute Arbeit. Bereit für Eure zweite Aufgabe?~
+@52   = ~Meine Spione haben mir berichtet, dass ihr sie getÃ¶tet habt... Gute Arbeit. Bereit fÃ¼r Eure zweite Aufgabe?~
 
 @53   = ~Ja. Wer ist das Ziel?~
 
 @54   = ~Nein, ich werde diese Liquidationen nicht mehr machen.~
 
-@55   = ~Es gibt einen Händler, der mich betrogen hat... Er verkauft seine Waren bei Waukeens Promenade. Sein Name ist Laron. Er hat einen guten Ruf, passt also auf, dass Euch niemand sieht...~
+@55   = ~Es gibt einen HÃ¤ndler, der mich betrogen hat... Er verkauft seine Waren bei Waukeens Promenade. Sein Name ist Laron. Er hat einen guten Ruf, passt also auf, dass Euch niemand sieht...~
 
-@56   = ~Nun, dann müsst Ihr getötet werden.~
+@56   = ~Nun, dann mÃ¼sst Ihr getÃ¶tet werden.~
 
-@57   = ~Kehrt zurück, wenn er tot ist.~
+@57   = ~Kehrt zurÃ¼ck, wenn er tot ist.~
 
 @58   = ~Gut gemacht... Nur noch ein Mord steht aus. Seid Ihr bereit?~
 
@@ -120,31 +120,31 @@
 
 @60   = ~Ich werde es tun.~
 
-@61   = ~Was!? Ihr erwartet von mir, dass ich in das Gebäude des hohen Rates marschiere und einen dieser Erzmagier töte?~
+@61   = ~Was!? Ihr erwartet von mir, dass ich in das GebÃ¤ude des hohen Rates marschiere und einen dieser Erzmagier tÃ¶te?~
 
 @62   = ~Ihr haltet besser eine Belohnung bereit, wenn ich das tun soll.~
 
-@63   = ~Nein. Ich werde ihn nicht töten. Unmöglich.~
+@63   = ~Nein. Ich werde ihn nicht tÃ¶ten. UnmÃ¶glich.~
 
 @64   = ~Gut. Ich werde warten...~
 
-@65   = ~Setzt Euren Verstand ein. Lauert ihm auf und tötet ihn leise.~
+@65   = ~Setzt Euren Verstand ein. Lauert ihm auf und tÃ¶tet ihn leise.~
 
 @66   = ~Alles klar. Ich mache es.~
 
-@67   = ~Ich hätte da ein hübsches Katana für Euch auf Lager.~
+@67   = ~Ich hÃ¤tte da ein hÃ¼bsches Katana fÃ¼r Euch auf Lager.~
 
-@68   = ~Das ist mir nicht genug. Ich mache es nicht. Ich werde ihn nicht töten.~
+@68   = ~Das ist mir nicht genug. Ich mache es nicht. Ich werde ihn nicht tÃ¶ten.~
 
-@69   = ~Und wie soll ich einen der Erzmagier töten?~
+@69   = ~Und wie soll ich einen der Erzmagier tÃ¶ten?~
 
-@70   = ~Benutzt Euren Verstand. Lauert ihm auf und tötet ihn leise.~
+@70   = ~Benutzt Euren Verstand. Lauert ihm auf und tÃ¶tet ihn leise.~
 
-@71   = ~Nein. Das mache ich nicht. Ich töte ihn nicht.~
+@71   = ~Nein. Das mache ich nicht. Ich tÃ¶te ihn nicht.~
 
 @72   = ~Ich warte...~
 
-@73   = ~Ihr habt ihn getötet. Gut gemacht! Ihr habt ein kleines Geschenk verdient... Hier.~
+@73   = ~Ihr habt ihn getÃ¶tet. Gut gemacht! Ihr habt ein kleines Geschenk verdient... Hier.~
 
 @74   = ~Jetzt geht.~
 
@@ -156,6 +156,6 @@
 
 @78   = ~Das soll eine gute Waffe sein?~
 
-@79   = ~Zur Hölle, nein! Dafür werde ich Euch töten!~
+@79   = ~Zur HÃ¶lle, nein! DafÃ¼r werde ich Euch tÃ¶ten!~
 
 @80   = ~Ja... Ich denke schon...~

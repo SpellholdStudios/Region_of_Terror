@@ -1,71 +1,71 @@
 @0    = ~Hallo Reisende. Willkommen in unserer Burg.~
 
-@1    = ~Danke, Magier. Könntet Ihr mir etwas über diesen Ort erzählen?~
+@1    = ~Danke, Magier. KÃ¶nntet Ihr mir etwas Ã¼ber diesen Ort erzÃ¤hlen?~
 
-@2    = ~Danke. Könnt Ihr mir etwas über Euren Herrn erzählen?~
+@2    = ~Danke. KÃ¶nnt Ihr mir etwas Ã¼ber Euren Herrn erzÃ¤hlen?~
 
-@3    = ~Ja, ja! Aber könntet Ihr mir auch etwas über diese andere Burg erzählen, von der Euer Herr sprach?~
+@3    = ~Ja, ja! Aber kÃ¶nntet Ihr mir auch etwas Ã¼ber diese andere Burg erzÃ¤hlen, von der Euer Herr sprach?~
 
-@4    = ~Gibt es in dieser Burg vielleicht Geschäfte?~
+@4    = ~Gibt es in dieser Burg vielleicht GeschÃ¤fte?~
 
 @5    = ~Danke und auf wiedersehen.~
 
 @6    = ~Braucht Ihr Informationen? Fragt und ich werde antworten.~
 
-@7    = ~Könnt Ihr mir etwas über diesen Ort verraten?~
+@7    = ~KÃ¶nnt Ihr mir etwas Ã¼ber diesen Ort verraten?~
 
-@8    = ~Könnt Ihr mir etwas über Euren Herrn erzählen?~
+@8    = ~KÃ¶nnt Ihr mir etwas Ã¼ber Euren Herrn erzÃ¤hlen?~
 
-@9    = ~Könnt Ihr mir etwas über diese andere Burg erzählen?~
+@9    = ~KÃ¶nnt Ihr mir etwas Ã¼ber diese andere Burg erzÃ¤hlen?~
 
-@10   = ~Gibt es irgendwelche Läden in dieser Burg?~
+@10   = ~Gibt es irgendwelche LÃ¤den in dieser Burg?~
 
 @11   = ~Im Moment habe ich keine Fragen. Vielen Dank.~
 
 @12   = ~Diese Burg ist schon seit Generationen im Besitz der Familie meines Herrn.~
 
-@13   = ~Sie würde ursprünglich von seinem Ur-Ur-Urgrossvater erbaut.~
+@13   = ~Sie wÃ¼rde ursprÃ¼nglich von seinem Ur-Ur-Urgrossvater erbaut.~
 
 @14   = ~Das ist alles. Es gibt nichts Besonderes an diesem Ort. Nur eine alte Burg.~
 
-@15   = ~Dann würde ich Euch noch gerne ein paar andere Fragen stellen.~
+@15   = ~Dann wÃ¼rde ich Euch noch gerne ein paar andere Fragen stellen.~
 
 @16   = ~Danke. Ich werde jetzt wieder gehen.~
 
-@17   = ~Er ist der letzte von Talavans Familie. Er hat keinen Erben, um die Burg in Zukunft zu führen.~
+@17   = ~Er ist der letzte von Talavans Familie. Er hat keinen Erben, um die Burg in Zukunft zu fÃ¼hren.~
 
-@18   = ~Er ist ein guter und rechtschaffener Anführer, aber wenn er ärgerlich wird, wird er gewalttätig.~
+@18   = ~Er ist ein guter und rechtschaffener AnfÃ¼hrer, aber wenn er Ã¤rgerlich wird, wird er gewalttÃ¤tig.~
 
-@19   = ~Einmal tötete er fast einen der Edlleute der Burg.~
+@19   = ~Einmal tÃ¶tete er fast einen der Edlleute der Burg.~
 
-@20   = ~Über ihn gibt es nicht so viel zu sagen. Ein guter Mann, meistens.~
+@20   = ~Ãœber ihn gibt es nicht so viel zu sagen. Ein guter Mann, meistens.~
 
-@21   = ~Danke. Ich hätte da noch ein paar andere Fragen..~
+@21   = ~Danke. Ich hÃ¤tte da noch ein paar andere Fragen..~
 
-@22   = ~Danke. Das ist alles für den Moment.~
+@22   = ~Danke. Das ist alles fÃ¼r den Moment.~
 
 @23   = ~Sie wurde im selben Jahrzeht wie diese Burg erbaut. Seit diesem Zeitpunkt waren sie unsere Feinde.~
 
 @24   = ~Niemand weiss mehr genau, wie dieser Konflikt begann, aber Friedensverhandlungen sind sinnlos.~
 
-@25   = ~Es wird behauptet, dass ihr Anführer orkisches Blut in seinen Venen haben soll. Ich glaube schon, dass dies stimmt, wenn man sein Handeln betrachtet.~
+@25   = ~Es wird behauptet, dass ihr AnfÃ¼hrer orkisches Blut in seinen Venen haben soll. Ich glaube schon, dass dies stimmt, wenn man sein Handeln betrachtet.~
 
 @26   = ~Ich danke Euch. Jetzt werde ich wieder gehen.~
 
-@27   = ~Ja, Ihr findet sie im oberen Stockwerk, und  der Mann in der Nähe von Talavan kann Euch Ausrüstung verkaufen.~
+@27   = ~Ja, Ihr findet sie im oberen Stockwerk, und  der Mann in der NÃ¤he von Talavan kann Euch AusrÃ¼stung verkaufen.~
 
 @28   = ~Gut, dann gehe ich mal einkaufen.~
 
 @29   = ~Sicher, ich antworte gerne.~
 
-@30   = ~Ich würde gerne etwas über diese Burg erfahren.~
+@30   = ~Ich wÃ¼rde gerne etwas Ã¼ber diese Burg erfahren.~
 
-@31   = ~Ich würde gerne etwas über Euren Herrn erfahren.~
+@31   = ~Ich wÃ¼rde gerne etwas Ã¼ber Euren Herrn erfahren.~
 
-@32   = ~Könnt Ihr mir etwas über die andere Burg sagen?~
+@32   = ~KÃ¶nnt Ihr mir etwas Ã¼ber die andere Burg sagen?~
 
 @33   = ~Ich habe keine weiteren Fragen.~
 
-@34   = ~Hallo Anführer. Alles ist in Ordnung. Ich werde es Euch wissen lassen, wenn es etwas Wichtiges geben sollte.~
+@34   = ~Hallo AnfÃ¼hrer. Alles ist in Ordnung. Ich werde es Euch wissen lassen, wenn es etwas Wichtiges geben sollte.~
 
 @35   = ~Jetzt, da ich hier regiere, werde ich die Fehler, die Olmar gemacht hat, wieder gut machen.~

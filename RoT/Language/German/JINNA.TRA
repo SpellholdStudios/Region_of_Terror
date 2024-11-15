@@ -1,55 +1,55 @@
-@0    = ~Möchtet Ihr etwas über die Geschichte der Stadt hören? Ich kann sie Euch erzählen.~
+@0    = ~MÃ¶chtet Ihr etwas Ã¼ber die Geschichte der Stadt hÃ¶ren? Ich kann sie Euch erzÃ¤hlen.~
 
 @1    = ~Ja, bitte. Erleuchtet mich.~
 
 @2    = ~Nein, ich habe kein Interesse an Euren Geschichten.~
 
-@3    = ~Der Gründer der Stadt und seine Familie fanden einstmals Gold im Fluß, der heute durch die Stadt fließ.~
+@3    = ~Der GrÃ¼nder der Stadt und seine Familie fanden einstmals Gold im FluÃŸ, der heute durch die Stadt flieÃŸ.~
 
-@4    = ~Sie siedelten sich hier an und begannen mit der Arbeit. Weil sie ja weit von jeglicher anderen Siedlung lebten, mussten sie lernen, zu kämpfen und zu jagen, um sich am Leben zu halten.~
+@4    = ~Sie siedelten sich hier an und begannen mit der Arbeit. Weil sie ja weit von jeglicher anderen Siedlung lebten, mussten sie lernen, zu kÃ¤mpfen und zu jagen, um sich am Leben zu halten.~
 
-@5    = ~Eventuell hörten noch andere von den Goldfunden im Fluß und zogen ebenfalls hierher, doch weil es nie viel Gold war, wurden die Funde bald rar.~
+@5    = ~Eventuell hÃ¶rten noch andere von den Goldfunden im FluÃŸ und zogen ebenfalls hierher, doch weil es nie viel Gold war, wurden die Funde bald rar.~
 
-@6    = ~Na ja, weil die Einwohner aber inzwischen diesen Ort Heimat nannten, blieben sie schließlich hier.~
+@6    = ~Na ja, weil die Einwohner aber inzwischen diesen Ort Heimat nannten, blieben sie schlieÃŸlich hier.~
 
-@7    = ~Jeder Einwohner dieses Dorfes ist ein guter Kämpfer, ein Jäger und Fischer.~
+@7    = ~Jeder Einwohner dieses Dorfes ist ein guter KÃ¤mpfer, ein JÃ¤ger und Fischer.~
 
-@8    = ~Ein Kämpfer zu werden ist hier leicht, wegen...~
+@8    = ~Ein KÃ¤mpfer zu werden ist hier leicht, wegen...~
 
 @9    = ~Emanath, dem Magier.~
 
 @10   = ~Danke. Man sieht sich.~
 
-@11   = ~Was für eine langweilige Geschichte. Keine Prinzessin, kein Drache. Na ja, man sieht sich.~
+@11   = ~Was fÃ¼r eine langweilige Geschichte. Keine Prinzessin, kein Drache. Na ja, man sieht sich.~
 
 @12   = ~Bevor der Magier hierher zog,ist hier nie etwas besonderes passiert.~
 
-@13   = ~Vielleicht solltet Ihr zu einem Märchenerzähler gehe, wenn Ihr Prinzessinnen und Drachen wollt.~
+@13   = ~Vielleicht solltet Ihr zu einem MÃ¤rchenerzÃ¤hler gehe, wenn Ihr Prinzessinnen und Drachen wollt.~
 
 @14   = ~Was wollt Ihr?~
 
-@15   = ~Mollys Halskette wurde gestohlen. Ich wollte fragen, ob Ihr etwas darüber wisst.~
+@15   = ~Mollys Halskette wurde gestohlen. Ich wollte fragen, ob Ihr etwas darÃ¼ber wisst.~
 
-@16   = ~Ich bin hier, um ein Verbrechen aufzuklären. Mollys Halskette wurde gestohlen. Ich möchte Euch fragen, ob Ihr etwas darüber wisst.~
+@16   = ~Ich bin hier, um ein Verbrechen aufzuklÃ¤ren. Mollys Halskette wurde gestohlen. Ich mÃ¶chte Euch fragen, ob Ihr etwas darÃ¼ber wisst.~
 
-@17   = ~Also, jetzt wo Ihr es erwähnt... ich sah da etwas verdächtiges vor einigen Nächten.~
+@17   = ~Also, jetzt wo Ihr es erwÃ¤hnt... ich sah da etwas verdÃ¤chtiges vor einigen NÃ¤chten.~
 
-@18   = ~Ich war noch wach und saß, vor mich hin brütend, in der Ecke, als ein kleiner Junge die Treppe raufschlich. Ich hab's damals ignoriert, weil ich dachte, es wäre Hedans Sohn.~
+@18   = ~Ich war noch wach und saÃŸ, vor mich hin brÃ¼tend, in der Ecke, als ein kleiner Junge die Treppe raufschlich. Ich hab's damals ignoriert, weil ich dachte, es wÃ¤re Hedans Sohn.~
 
 @19   = ~Na ja, wer immer er auch war, vielleicht hat er ja die Halskette gestohlen...~
 
 @20   = ~Danke. Ihr habt mir ein Paar brauchbare Informationen geliefert. Ich werde mal mit den Jungen sprechen, um zu erfahren, ob sie etwas wissen.~
 
-@21   = ~Danke für Eure Information.~
+@21   = ~Danke fÃ¼r Eure Information.~
 
 @22   = ~Habt Ihr schon einen Verdacht?~
 
-@23   = ~Wenn ich ehrlich bin, ja. Ein Kind sagte: "Ich war es nicht. Es war der böse Mann". Könnt Ihr Euch vorstellen, wen er damit meinte?~
+@23   = ~Wenn ich ehrlich bin, ja. Ein Kind sagte: "Ich war es nicht. Es war der bÃ¶se Mann". KÃ¶nnt Ihr Euch vorstellen, wen er damit meinte?~
 
-@24   = ~Ich hörte etwas von einem "bösen Mann". Wer könnte das sein?~
+@24   = ~Ich hÃ¶rte etwas von einem "bÃ¶sen Mann". Wer kÃ¶nnte das sein?~
 
-@25   = ~Die Kinder meinten vielleicht den Mann, der im Holzturm lebt. Sie nennen ihn den "bösen Mann".~
+@25   = ~Die Kinder meinten vielleicht den Mann, der im Holzturm lebt. Sie nennen ihn den "bÃ¶sen Mann".~
 
-@26   = ~Danke. Ich werde mal nachsehen und schauen, ob er etwas weiß.~
+@26   = ~Danke. Ich werde mal nachsehen und schauen, ob er etwas weiÃŸ.~
 
-@27   = ~Kennt Ihr den Holzturm im Ostteil des Dorfes... also, die Kinder nennen den Kerl, der drinnen wohnt, "den bösen Mann"...~
+@27   = ~Kennt Ihr den Holzturm im Ostteil des Dorfes... also, die Kinder nennen den Kerl, der drinnen wohnt, "den bÃ¶sen Mann"...~

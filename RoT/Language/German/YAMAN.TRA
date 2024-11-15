@@ -1,5 +1,5 @@
-@0    = ~Mit dem Effect Maker kann man neue Effekte im Spiel erschaffen. Die Effekte werden nachträglich zu den Zaubersprüchen oder den Gegenständen mit dem Kommando Use EFF hinzugefügt. Eine Datei (im IEEP Werkzeug).~
+@0    = ~Mit dem Effect Maker kann man neue Effekte im Spiel erschaffen. Die Effekte werden nachtrÃ¤glich zu den ZaubersprÃ¼chen oder den GegenstÃ¤nden mit dem Kommando Use EFF hinzugefÃ¼gt. Eine Datei (im IEEP Werkzeug).~
 
-@1    = ~Beispielsweise können diese Effekte benutzt werden, um einer bestimmtenm Kreatur mehr Schaden mit Eurer waffe zuzufügen. Nur wenige Kästchen sind auszufüllen, um dies zu bewerkstelligen, daher sollte es damit keine Probleme geben.~
+@1    = ~Beispielsweise kÃ¶nnen diese Effekte benutzt werden, um einer bestimmtenm Kreatur mehr Schaden mit Eurer waffe zuzufÃ¼gen. Nur wenige KÃ¤stchen sind auszufÃ¼llen, um dies zu bewerkstelligen, daher sollte es damit keine Probleme geben.~
 
 @2    = ~Und ja... 0 % - 100 % bedeutet, dass Euer Effekt bei jedem Treffer oder Spruch funktionieren wird. 0 % - 100 % bedeutet immer eine 100%ige Chance, dass dies geschieht.~

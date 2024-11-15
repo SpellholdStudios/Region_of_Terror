@@ -1,28 +1,28 @@
-@0    = ~Wilkommen in Meister Brundors Schmiede! Ich bin sein loyalster Geselle, Pip Graufuß. Wie kann ich Euch dienen?~ [pip1]
+@0    = ~Wilkommen in Meister Brundors Schmiede! Ich bin sein loyalster Geselle, Pip GraufuÃŸ. Wie kann ich Euch dienen?~ [pip1]
 
 @1    = ~Nein, bitte! Nicht wieder die Latrine!~ [pip2]
 
-@2    = ~Hört nicht auf Ihn! Es war nicht meine Schuld! Der Hammer war völlig verdreht und...~
+@2    = ~HÃ¶rt nicht auf Ihn! Es war nicht meine Schuld! Der Hammer war vÃ¶llig verdreht und...~
 
-@3    = ~Oh, hallo guter Kunde! Ich bin ein Edelsteinschmied! Wenn Ihr ein Juwel an Eurem Schwert oder Schild benötigt, dann bin ich der richtige Mann!~ [pip19]
+@3    = ~Oh, hallo guter Kunde! Ich bin ein Edelsteinschmied! Wenn Ihr ein Juwel an Eurem Schwert oder Schild benÃ¶tigt, dann bin ich der richtige Mann!~ [pip19]
 
-@4    = ~Edelsteinschmiedender... äh, was!?~
+@4    = ~Edelsteinschmiedender... Ã¤h, was!?~
 
-@5    = ~Was macht Ihr tatsächlich hier? Warum seid Ihr hier?~
+@5    = ~Was macht Ihr tatsÃ¤chlich hier? Warum seid Ihr hier?~
 
-@6    = ~...Könnt Ihm mir etwas über Brundor und seine Schmiede erzählen?~
+@6    = ~...KÃ¶nnt Ihm mir etwas Ã¼ber Brundor und seine Schmiede erzÃ¤hlen?~
 
 @7    = ~*Schmatz* Interessant, sehr interessant.~
 
-@8    = ~Entschuldigt, aber ich muß gehen.~
+@8    = ~Entschuldigt, aber ich muÃŸ gehen.~
 
-@9    = ~Na ja, ein Edelsteinschmied ist ein Spezialist für die Magie edler Steine. Wisst Ihr, Ihr bringt mir einen magischen Stein und ich bringe ihn für Euch an einem Gegenstand an.~
+@9    = ~Na ja, ein Edelsteinschmied ist ein Spezialist fÃ¼r die Magie edler Steine. Wisst Ihr, Ihr bringt mir einen magischen Stein und ich bringe ihn fÃ¼r Euch an einem Gegenstand an.~
 
-@10   = ~Magische Steine? Was sind das für welche?~
+@10   = ~Magische Steine? Was sind das fÃ¼r welche?~
 
 @11   = ~Warum seid Ihr hier?~
 
-@12   = ~Könnt Ihr mir etwas über Brundor und seine Schmiede erzählen?~
+@12   = ~KÃ¶nnt Ihr mir etwas Ã¼ber Brundor und seine Schmiede erzÃ¤hlen?~
 
 @13   = ~Ich verstehe. Ich werde wieder gehen.~
 
@@ -32,27 +32,27 @@
 
 @16   = ~OK, ich werde dann mal gehen.~
 
-@17   = ~Also, Brundor ist ein alter Spinner. Früher hatte er eine Schmiede am Stadtausgang, doch kurz bevor ich hier ankam, hatte er dieses Gebäude hier bezogen.~
+@17   = ~Also, Brundor ist ein alter Spinner. FrÃ¼her hatte er eine Schmiede am Stadtausgang, doch kurz bevor ich hier ankam, hatte er dieses GebÃ¤ude hier bezogen.~
 
-@18   = ~Ich denke, er stammt aus der Mithrilhalle... Wir sprechen niemals über solche Dinge.~
+@18   = ~Ich denke, er stammt aus der Mithrilhalle... Wir sprechen niemals Ã¼ber solche Dinge.~
 
-@19   = ~So, Ihr seid also ein Edelstein... äh, was?~
+@19   = ~So, Ihr seid also ein Edelstein... Ã¤h, was?~
 
-@20   = ~Gut, gut, das ist ein Argument, aber ich an Eurer Stelle würde auf das hören, was ich sage!~
+@20   = ~Gut, gut, das ist ein Argument, aber ich an Eurer Stelle wÃ¼rde auf das hÃ¶ren, was ich sage!~
 
-@21   = ~Gut. Aber kommt später wieder und erinnert Euch an das, was ich Euch über Edelsteine und Artefakte gesagt habe!~
+@21   = ~Gut. Aber kommt spÃ¤ter wieder und erinnert Euch an das, was ich Euch Ã¼ber Edelsteine und Artefakte gesagt habe!~
 
-@22   = ~Was meint Ihr? Es handelt sich um magische Edelsteine. Werden sie mit Gegenständen verbunden, geht die Kraft des Steins auf das neue Artefakt über.~
+@22   = ~Was meint Ihr? Es handelt sich um magische Edelsteine. Werden sie mit GegenstÃ¤nden verbunden, geht die Kraft des Steins auf das neue Artefakt Ã¼ber.~
 
-@23   = ~Hmm... ich denke, ich habe bereits einige Edelsteine in meinem Besitz, die Ihr verschmieden könntet.~
+@23   = ~Hmm... ich denke, ich habe bereits einige Edelsteine in meinem Besitz, die Ihr verschmieden kÃ¶nntet.~
 
-@24   = ~Gut. Also gut, ich wüsste gerne, warum Ihr hier seid.~
+@24   = ~Gut. Also gut, ich wÃ¼sste gerne, warum Ihr hier seid.~
 
-@25   = ~Nehmt dieses Buch von mir. Ihr findet darin alle möglichen Edelstein- und Artefaktkombinationen.~
+@25   = ~Nehmt dieses Buch von mir. Ihr findet darin alle mÃ¶glichen Edelstein- und Artefaktkombinationen.~
 
-@26   = ~Danke. Ich denke, ich habe bereits einige Edelsteine, die Ihr mit Gegenständen verbinden könnt.~
+@26   = ~Danke. Ich denke, ich habe bereits einige Edelsteine, die Ihr mit GegenstÃ¤nden verbinden kÃ¶nnt.~
 
-@27   = ~Danke, aber könnt Ihr mir noch erzählen, warum Ihr hier seid?~
+@27   = ~Danke, aber kÃ¶nnt Ihr mir noch erzÃ¤hlen, warum Ihr hier seid?~
 
 @28   = ~Habt Ihr? Lasst mich sehen.~
 
@@ -62,55 +62,55 @@
 
 @31   = ~Ich habe hier einen Stein der Dunkelheit.~
 
-@32   = ~Ich habe hier ein Säurejuwel.~
+@32   = ~Ich habe hier ein SÃ¤urejuwel.~
 
 @33   = ~Ich habe hier eine Feuerkugel.~
 
 @34   = ~Ich habe hier einen gefrorenen Kristall.~
 
-@35   = ~Ich habe hier einen glühenden Sternenfels.~
+@35   = ~Ich habe hier einen glÃ¼henden Sternenfels.~
 
-@36   = ~Na gut, benötigt Ihr noch etwas anderes?~
+@36   = ~Na gut, benÃ¶tigt Ihr noch etwas anderes?~
 
-@37   = ~...wenn ich recht überlege, besitze ich bereits einige Edelsteine, die Ihr mir mit Gegenständen verbinden könntet.~
+@37   = ~...wenn ich recht Ã¼berlege, besitze ich bereits einige Edelsteine, die Ihr mir mit GegenstÃ¤nden verbinden kÃ¶nntet.~
 
-@38   = ~Ich würde gerne wissen, warum Ihr hier seid?~
+@38   = ~Ich wÃ¼rde gerne wissen, warum Ihr hier seid?~
 
 @39   = ~Nichts. Ich werde lieber gehen.~
 
-@40   = ~Ich möchte Schmied werden! Meine Eltern gaben mich zu Brundor hier in die Lehre, damit ich von ihm lerne.~
+@40   = ~Ich mÃ¶chte Schmied werden! Meine Eltern gaben mich zu Brundor hier in die Lehre, damit ich von ihm lerne.~
 
 @41   = ~Hmm... diese magischen Steine, von denen Ihr gesprochen habt. Was sind sie?~
 
-@42   = ~Willkommen zurück bei Pip Graufuß, dem Edelsteinschmiedespezialisten. Habt Ihr schon nutzbare Edelsteine für mich gefunden?~ [PIP20]
+@42   = ~Willkommen zurÃ¼ck bei Pip GraufuÃŸ, dem Edelsteinschmiedespezialisten. Habt Ihr schon nutzbare Edelsteine fÃ¼r mich gefunden?~ [PIP20]
 
-@43   = ~Ich denke, ich habe hier einige vielversprechende Steine für Eure Fähigkeiten. Könnt Ihr einen Blick darauf werfen?~
+@43   = ~Ich denke, ich habe hier einige vielversprechende Steine fÃ¼r Eure FÃ¤higkeiten. KÃ¶nnt Ihr einen Blick darauf werfen?~
 
-@44   = ~Im Moment würde ich gerne etwas über Brundor und seine Schmiede hören.~
+@44   = ~Im Moment wÃ¼rde ich gerne etwas Ã¼ber Brundor und seine Schmiede hÃ¶ren.~
 
-@45   = ~Nein. Ich werde zurückkehren, wenn ich welche gefunden habe.~
+@45   = ~Nein. Ich werde zurÃ¼ckkehren, wenn ich welche gefunden habe.~
 
-@46   = ~Natürlich! Ich wäre glücklich, Euch zu Diensten zu sein.~
+@46   = ~NatÃ¼rlich! Ich wÃ¤re glÃ¼cklich, Euch zu Diensten zu sein.~
 
 @47   = ~Hmm... ich habe doch noch nichts gefunden.~
 
-@48   = ~Und sonst, benötigt Ihr noch etwas anderes?~
+@48   = ~Und sonst, benÃ¶tigt Ihr noch etwas anderes?~
 
-@49   = ~Wenn ich noch einmal genau darüber nachdenke, ich glaube, ich habe doch noch einige nützliche Steine hier. Würdet Ihr einen Blick darauf werfen?~
+@49   = ~Wenn ich noch einmal genau darÃ¼ber nachdenke, ich glaube, ich habe doch noch einige nÃ¼tzliche Steine hier. WÃ¼rdet Ihr einen Blick darauf werfen?~
 
-@50   = ~Ich würde gerne etwas über Brundor und seine Schmiede hören.~
+@50   = ~Ich wÃ¼rde gerne etwas Ã¼ber Brundor und seine Schmiede hÃ¶ren.~
 
-@51   = ~Kommt später jederzeit wiederzukommen!~
+@51   = ~Kommt spÃ¤ter jederzeit wiederzukommen!~
 
-@52   = ~So... Ihr seid also ein Edelstein, ähh...was?~
+@52   = ~So... Ihr seid also ein Edelstein, Ã¤hh...was?~
 
-@53   = ~Gut, wegen dieser Edelsteine... ich denke, ich habe einige vielversprechende Stücke hier. Könntet Ihr einen Blick darauf werfen?~
+@53   = ~Gut, wegen dieser Edelsteine... ich denke, ich habe einige vielversprechende StÃ¼cke hier. KÃ¶nntet Ihr einen Blick darauf werfen?~
 
 @54   = ~Also gut, ich werde dann gehen.~
 
 @55   = ~Gut. Ich werde genau hier warten!~
 
-@56   = ~Hmm... ein Gelber Stern. Ich könnte ihn mit einem offenen Helm, einem kleinen Schild oder einem Streitkolben verschmieden.~
+@56   = ~Hmm... ein Gelber Stern. Ich kÃ¶nnte ihn mit einem offenen Helm, einem kleinen Schild oder einem Streitkolben verschmieden.~
 
 @57   = ~Ich will ihn am Helm.~
 
@@ -124,45 +124,45 @@
 
 @62   = ~Klingt nicht sehr gut. Ich denke, ich werde jetzt wieder gehen.~
 
-@63   = ~Ein Stein der Dunkelheit?... ich könnte ihn mit einer Plattenrüstung oder einem Kriegshammer verbinden.~
+@63   = ~Ein Stein der Dunkelheit?... ich kÃ¶nnte ihn mit einer PlattenrÃ¼stung oder einem Kriegshammer verbinden.~
 
 @64   = ~Ich will ihn am Kriegshammer.~
 
-@65   = ~Ich will ihn an der Plattenrüstung.~
+@65   = ~Ich will ihn an der PlattenrÃ¼stung.~
 
 @66   = ~Habt Ihr eine Ahnung, was ich als Resultat zu erwarten habe?~
 
-@67   = ~Aah... ein Säurejuwel. Ich könnte ihn an einem Kriegsbeil oder einem Flegel anbringen.~
+@67   = ~Aah... ein SÃ¤urejuwel. Ich kÃ¶nnte ihn an einem Kriegsbeil oder einem Flegel anbringen.~
 
 @68   = ~Ich will ihn an der Axt.~
 
 @69   = ~Ich will ihn am Flegel haben.~
 
-@70   = ~Eine Feuerkugel? Ich kann sie an einem mittelgroßen Schild oder einem Langschwert anbringen.~
+@70   = ~Eine Feuerkugel? Ich kann sie an einem mittelgroÃŸen Schild oder einem Langschwert anbringen.~
 
-@71   = ~Ich möchte sie am Schwert haben.~
+@71   = ~Ich mÃ¶chte sie am Schwert haben.~
 
-@72   = ~Ein gefrorener Kristall... den könnte ich an einem Prunkharnisch, einem Großschild oder einer Katana anbringen.~
+@72   = ~Ein gefrorener Kristall... den kÃ¶nnte ich an einem Prunkharnisch, einem GroÃŸschild oder einer Katana anbringen.~
 
 @73   = ~Ich will ihn am Prunkharnisch haben.~
 
 @74   = ~Ich will ihn an der Katana haben.~
 
-@75   = ~Ein glühender Sternenfels!? Das ist ein seltenes Stück! Hmm... lasst mich nachdenken... ich könnte ihn mit einem Schienenpanzer oder einer Hellebarde verbinden. Wartet eine Minute...~
+@75   = ~Ein glÃ¼hender Sternenfels!? Das ist ein seltenes StÃ¼ck! Hmm... lasst mich nachdenken... ich kÃ¶nnte ihn mit einem Schienenpanzer oder einer Hellebarde verbinden. Wartet eine Minute...~
 
-@76   = ~Klingt nicht so gut, aber ich habe noch andere Steine hier. Könnt Ihr einen Blick darauf werfen?~
+@76   = ~Klingt nicht so gut, aber ich habe noch andere Steine hier. KÃ¶nnt Ihr einen Blick darauf werfen?~
 
 @77   = ~Klingt nicht gut genug. Ich denke, ich werde wieder gehen.~
 
-@78   = ~Aah... ein Säurestein. Ich könnte ihn an einer Axt oder einem Flegel anbringen.~
+@78   = ~Aah... ein SÃ¤urestein. Ich kÃ¶nnte ihn an einer Axt oder einem Flegel anbringen.~
 
-@79   = ~Ein glühender Sternenfels!? Das ist ein seltenes Stück! Hmm... lasst mich nachdenken... ich könnte ihn mit einem Schienenpanzer oder einer Hellebarde verbinden.~
+@79   = ~Ein glÃ¼hender Sternenfels!? Das ist ein seltenes StÃ¼ck! Hmm... lasst mich nachdenken... ich kÃ¶nnte ihn mit einem Schienenpanzer oder einer Hellebarde verbinden.~
 
 @80   = ~Ich will ihn am Schienenpanzer.~
 
 @81   = ~Ich will ihn an der Hellebarde.~
 
-@82   = ~Gut. Der Preis dafür beträgt dreitausend.~
+@82   = ~Gut. Der Preis dafÃ¼r betrÃ¤gt dreitausend.~
 
 @83   = ~Klingt fair. Hier ist das Geld.~
 
@@ -170,35 +170,35 @@
 
 @85   = ~Danke! Ich werde sofort mit der Arbeit beginnen!~
 
-@86   = ~Also gut, aber wenn Ihr Euch das nicht leisten könnt, dann könnt Ihr Euch keine meiner Dienste leisten. Bitte, kommt mit etwas mehr Geld zurück, wenn Ihr noch interessiert seid.~
+@86   = ~Also gut, aber wenn Ihr Euch das nicht leisten kÃ¶nnt, dann kÃ¶nnt Ihr Euch keine meiner Dienste leisten. Bitte, kommt mit etwas mehr Geld zurÃ¼ck, wenn Ihr noch interessiert seid.~
 
-@87   = ~Also, wenn Ihr den Helm wählt... denke ich, erhaltet Ihr etwas mit elektrischer Kraft, und möglicherweise regenerativer Fähigkeiten.~
+@87   = ~Also, wenn Ihr den Helm wÃ¤hlt... denke ich, erhaltet Ihr etwas mit elektrischer Kraft, und mÃ¶glicherweise regenerativer FÃ¤higkeiten.~
 
-@88   = ~Die Rüstung wird ebenfalls elektrische Energien aufweisen. Möglicherweise sogar mehr Kraft als der Helm...~
+@88   = ~Die RÃ¼stung wird ebenfalls elektrische Energien aufweisen. MÃ¶glicherweise sogar mehr Kraft als der Helm...~
 
-@89   = ~Der Schild wird ebenfalls elektrisch geladen sein. Vielleicht sogar noch etwas mehr als Helm und Rüstung.~
+@89   = ~Der Schild wird ebenfalls elektrisch geladen sein. Vielleicht sogar noch etwas mehr als Helm und RÃ¼stung.~
 
 @90   = ~Hmm... ich will ihn am Helm.~
 
 @91   = ~Hmm... ich will ihn am Schild.~
 
-@92   = ~Hmm... ich will ihn an der Rüstung.~
+@92   = ~Hmm... ich will ihn an der RÃ¼stung.~
 
-@93   = ~Gut. Wenn Ihr Eure Meinung zu diesem Stein noch ändert, oder vielleicht einen anderen interessanten Edelstein findet, kehrt jederzeit zu mir zurück.~
+@93   = ~Gut. Wenn Ihr Eure Meinung zu diesem Stein noch Ã¤ndert, oder vielleicht einen anderen interessanten Edelstein findet, kehrt jederzeit zu mir zurÃ¼ck.~
 
-@94   = ~Entschuldigt, aber ich werde nächstesmal besser arbeiten... Wie dem auch sei, hier ist Euer neuer Helm, <CHARNAME>.~
+@94   = ~Entschuldigt, aber ich werde nÃ¤chstesmal besser arbeiten... Wie dem auch sei, hier ist Euer neuer Helm, <CHARNAME>.~
 
-@95   = ~Vielen Dank. Ach übrigens, ich habe noch andere Edelsteine hier...~
+@95   = ~Vielen Dank. Ach Ã¼brigens, ich habe noch andere Edelsteine hier...~
 
-@96   = ~Dank Euch. Ach übrigens, ich habe noch andere Steine. Würdet Ihr einen Blick darauf werfen?~
+@96   = ~Dank Euch. Ach Ã¼brigens, ich habe noch andere Steine. WÃ¼rdet Ihr einen Blick darauf werfen?~
 
 @97   = ~Danke! Ich werde jetzt wieder gehen.~
 
-@98   = ~Gut, ich hoffe, Ihr werdet bald zurückkehren!~
+@98   = ~Gut, ich hoffe, Ihr werdet bald zurÃ¼ckkehren!~
 
 @99   = ~Danke Meister Brundor! Hier ist Euer neuer Schild, <CHARNAME>!~
 
-@100  = ~Gut, ich werde das nächste Mal härter arbeiten, Meister... Hier ist Euer neuer Panzer, <CHARNAME>.~
+@100  = ~Gut, ich werde das nÃ¤chste Mal hÃ¤rter arbeiten, Meister... Hier ist Euer neuer Panzer, <CHARNAME>.~
 
 @101  = ~So, hier ist Euer...~
 
@@ -210,49 +210,49 @@
 
 @105  = ~Vielen Dank! Ich werde sofort mit der Arbeit beginnen!~
 
-@106  = ~Hmm... wenn Ihr den Hammer, werdet Ihr damit Eure Feinde zum Schweigen bringen können...~
+@106  = ~Hmm... wenn Ihr den Hammer, werdet Ihr damit Eure Feinde zum Schweigen bringen kÃ¶nnen...~
 
-@107  = ~Bei dem Plattenpanzer würde ich auf magische Reflektionskräfte tippen.~
+@107  = ~Bei dem Plattenpanzer wÃ¼rde ich auf magische ReflektionskrÃ¤fte tippen.~
 
 @108  = ~...ich nehme den Hammer.~
 
-@109  = ~...ich nehme die Plattenrüstung.~
+@109  = ~...ich nehme die PlattenrÃ¼stung.~
 
 @110  = ~Gut, hier ist Euer...~
 
-@111  = ~Danke für das Kompliment, Meister! Ich bin mir sicher, dessen nicht würdig zu sein.~
+@111  = ~Danke fÃ¼r das Kompliment, Meister! Ich bin mir sicher, dessen nicht wÃ¼rdig zu sein.~
 
 @112  = ~Also gut, hier ist Euer Hammer, <CHARNAME>.~
 
-@113  = ~Großartig! Ich werde jetzt gehen.~
+@113  = ~GroÃŸartig! Ich werde jetzt gehen.~
 
-@114  = ~Gut, ich hoffe, Ihr werdet bald zurückkehren! Es ist immer wieder eine Ehre, für Euch zu arbeiten.~
+@114  = ~Gut, ich hoffe, Ihr werdet bald zurÃ¼ckkehren! Es ist immer wieder eine Ehre, fÃ¼r Euch zu arbeiten.~
 
-@115  = ~Entschuldigt, Meister! Ich verspreche, beim nächsten Mal gründlicher zu arbeiten.~
+@115  = ~Entschuldigt, Meister! Ich verspreche, beim nÃ¤chsten Mal grÃ¼ndlicher zu arbeiten.~
 
 @116  = ~Wie dem auch sei, hier ist Euer neuer Plattenpanzer, <CHARNAME>.~
 
-@117  = ~Sehr gut. Ich verlange dafür dreitausend Goldstücke.~
+@117  = ~Sehr gut. Ich verlange dafÃ¼r dreitausend GoldstÃ¼cke.~
 
 @118  = ~Ich habe im Moment nicht so viel Gold.~
 
 @119  = ~Gut! Ich werde sofort mit der Arbeit beginnen.~
 
-@120  = ~Ich würde wetten, die Axt verfügt danach über korrodierende Fähigkeiten... vielleicht wie ein Zauber in Spruchform...~
+@120  = ~Ich wÃ¼rde wetten, die Axt verfÃ¼gt danach Ã¼ber korrodierende FÃ¤higkeiten... vielleicht wie ein Zauber in Spruchform...~
 
 @121  = ~Ich denke, die Magie des Flegels wird sich auf astrale Schutzzauber konzentrieren.~
 @122  = ~Also gut, ich denke, ich nehme die Axt.~
 @123  = ~Also gut, ich denke, ich nehme den Flegel.~
 @124  = ~Gut. Die Arbeit wird Euch dreitausend kosten.~
-@125  = ~Ich kann einen Preis in dieser Höhe nicht zahlen.~
-@126  = ~Hmm... der Schild wird sicherlich über magischen Schutz vor Feuer verfügen.~
-@127  = ~Das Schwert wird, denke ich, allgemein stärker sein und vielleicht über magisches Feuer an der Klinge verfügen...~
+@125  = ~Ich kann einen Preis in dieser HÃ¶he nicht zahlen.~
+@126  = ~Hmm... der Schild wird sicherlich Ã¼ber magischen Schutz vor Feuer verfÃ¼gen.~
+@127  = ~Das Schwert wird, denke ich, allgemein stÃ¤rker sein und vielleicht Ã¼ber magisches Feuer an der Klinge verfÃ¼gen...~
 @128  = ~Hmm... ich nehme den Schild.~
 @129  = ~Hmm... ich nehme das Schwert.~
 @130  = ~Hervorragend! Ich werde sofort mit der Arbeit beginnen.~
-@131  = ~Die Katana könnte über erweiterten Kälteschaden verfügen.~
-@132  = ~Der Prunkharnisch ist vielleicht nicht so mächtig, verfügt aber danach über beeindruckende Schutzzauber... Würde ich sagen.~
-@133  = ~Der Schild wird über eigene magische Kräfte verfügen, vielleicht über Kräfte der Regenerationsmagie.~
+@131  = ~Die Katana kÃ¶nnte Ã¼ber erweiterten KÃ¤lteschaden verfÃ¼gen.~
+@132  = ~Der Prunkharnisch ist vielleicht nicht so mÃ¤chtig, verfÃ¼gt aber danach Ã¼ber beeindruckende Schutzzauber... WÃ¼rde ich sagen.~
+@133  = ~Der Schild wird Ã¼ber eigene magische KrÃ¤fte verfÃ¼gen, vielleicht Ã¼ber KrÃ¤fte der Regenerationsmagie.~
 @134  = ~...ich denke, ich nehme den Prunkharnisch.~
 @135  = ~...ich denke, ich nehme den Schild.~
 
@@ -260,15 +260,15 @@
 
 @137  = ~Hier ist sie! Was denkt Ihr, Meister?~
 
-@138  = ~Ich werde mir beim nächsten Mal noch mehr Mühe geben...~
+@138  = ~Ich werde mir beim nÃ¤chsten Mal noch mehr MÃ¼he geben...~
 
-@139  = ~Vielen Dank, Meister! Ich werde meine gute Arbeit weiterführen!~
+@139  = ~Vielen Dank, Meister! Ich werde meine gute Arbeit weiterfÃ¼hren!~
 
 @140  = ~Vielen Dank, Meister Brundor! Ihr habt mich gut gelehrt.~
 
-@141  = ~Ich werde nächstes Mal noch härter arbeiten, Meister...~
+@141  = ~Ich werde nÃ¤chstes Mal noch hÃ¤rter arbeiten, Meister...~
 
-@142  = ~Vielen Dank, Meister! Ich werde mich Eurer Komplimente hoffentlich für würdig erweisen!~
+@142  = ~Vielen Dank, Meister! Ich werde mich Eurer Komplimente hoffentlich fÃ¼r wÃ¼rdig erweisen!~
 
 @143  = ~Entschuldigt, Meister Brundor. Ich werde sicherstellen, dass ich nicht wieder Mist bauen werde...~
 
@@ -282,7 +282,7 @@
 
 @148  = ~So, hier ist Euer neues Schwert!~
 
-@149  = ~Hier ist sie, Eure neue Plattenrüstung, <CHARNAME>.~
+@149  = ~Hier ist sie, Eure neue PlattenrÃ¼stung, <CHARNAME>.~
 
 @150  = ~Und hier ist Euer Schild.~
 
@@ -290,7 +290,7 @@
 
 @152  = ~Hier ist sie, Eure Katana, <CHARNAME>.~
 
-@153  = ~Also gut. Aber Ihr müsst fünftausend für diese Arbeit zahlen. Der Stein ist schwieriger zu schmieden als die anderen.~
+@153  = ~Also gut. Aber Ihr mÃ¼sst fÃ¼nftausend fÃ¼r diese Arbeit zahlen. Der Stein ist schwieriger zu schmieden als die anderen.~
 
 @154  = ~Gut, klingt fair. Hier ist das Geld.~
 
@@ -300,15 +300,15 @@
 
 @157  = ~Also dann, habt Ihr noch andere Edelsteine...?~
 
-@158  = ~Wenn ich ehrlich bin, dann ja. Könntet Ihr einen Blick darauf werfen?~
+@158  = ~Wenn ich ehrlich bin, dann ja. KÃ¶nntet Ihr einen Blick darauf werfen?~
 
 @159  = ~Nein, ich werde jetzt wieder gehen.~
 
-@160  = ~Gut. Versucht bitte, mit mehr Geld zurückzukehren. Der glühende Sternenstein wäre sicherlich höchst interessant zu verschmieden.~
+@160  = ~Gut. Versucht bitte, mit mehr Geld zurÃ¼ckzukehren. Der glÃ¼hende Sternenstein wÃ¤re sicherlich hÃ¶chst interessant zu verschmieden.~
 
-@161  = ~Hmm... es ist schwierig vorherzusagen, aber ich denke, der Schienenpanzer hätte danach verbesserte Schutzeigenschaften...~
+@161  = ~Hmm... es ist schwierig vorherzusagen, aber ich denke, der Schienenpanzer hÃ¤tte danach verbesserte Schutzeigenschaften...~
 
-@162  = ~Die Hellebarde könnte zusätzlichen Schaden verursachen.~
+@162  = ~Die Hellebarde kÃ¶nnte zusÃ¤tzlichen Schaden verursachen.~
 
 @163  = ~Hmm... ich nehme den Schienenpanzer.~
 
@@ -320,11 +320,11 @@
 
 @167  = ~Gut, Meister. Ich bin fertig. Hier ist das geschmiedete Artefakt.~
 
-@168  = ~Ich danke Euch, Meister Brundor! Während all dem Latrinenputzen habe ich immer befürchtet, dieser Tag würde niemals kommen!~
+@168  = ~Ich danke Euch, Meister Brundor! WÃ¤hrend all dem Latrinenputzen habe ich immer befÃ¼rchtet, dieser Tag wÃ¼rde niemals kommen!~
 
-@169  = ~Aber, nun ist der Augenblick doch gekommen und ich werde doch noch ganz schwermütig.~
+@169  = ~Aber, nun ist der Augenblick doch gekommen und ich werde doch noch ganz schwermÃ¼tig.~
 
-@170  = ~Ich danke Euch für alles, was Ihr für mich getan habt. Ich bin jetzt ein besserer Halbling als früher.~
+@170  = ~Ich danke Euch fÃ¼r alles, was Ihr fÃ¼r mich getan habt. Ich bin jetzt ein besserer Halbling als frÃ¼her.~
 
 @171  = ~Ich hatte schon vor, ihn mitzunehmen. Danke, dass Ihr ihn mich mitnehmen lasst.~
 
@@ -332,15 +332,15 @@
 
 @173  = ~Also dann, ich werde dann mal anfangen zu packen...~
 
-@174  = ~So, das war es also. Ich werde jetzt meiner Wege gehen. Ich möchte Euch ein herzliches Lebewohl wünschen. Kommt mich mal von Zeit zu Zeit besuchen, Ihr alter... Zwerg.~
+@174  = ~So, das war es also. Ich werde jetzt meiner Wege gehen. Ich mÃ¶chte Euch ein herzliches Lebewohl wÃ¼nschen. Kommt mich mal von Zeit zu Zeit besuchen, Ihr alter... Zwerg.~
 
-@175  = ~Ich werde mit der Suche nach einer guten Stadt für ein eigenes Haus beginnen... und für eine neue Schmiede natürlich.~
+@175  = ~Ich werde mit der Suche nach einer guten Stadt fÃ¼r ein eigenes Haus beginnen... und fÃ¼r eine neue Schmiede natÃ¼rlich.~
 
 @176  = ~Gebt auch auf Euch acht.~
 
 @177  = ~Aber..~ [pip3]
 
-@178  = ~*Murmelt etwas unverständlich obszönes* alter Knacker...~ [pip4]
+@178  = ~*Murmelt etwas unverstÃ¤ndlich obszÃ¶nes* alter Knacker...~ [pip4]
 
 @179  = ~Um, nichts. Ich sage nur, ich nehme einem neuen Untermieter auf.~ [pip5]
 
@@ -352,20 +352,20 @@
 
 @183  = ~Was ist das?~ [pip9]
 
-@184  = ~Ähmm...~ [pip10]
+@184  = ~Ã„hmm...~ [pip10]
 
 @185  = ~Hm mm...~ [pip11]
 
 @186  = ~Hm... was stimmt nicht?~ [pip12]
 
-@187  = ~Sieht gut für mich aus.~ [pip13]
+@187  = ~Sieht gut fÃ¼r mich aus.~ [pip13]
 
 @188  = ~Hm, ich denke, ich danke Euch.~ [pip14]
 
-@189  = ~Und das wäre?~ [pip15]
+@189  = ~Und das wÃ¤re?~ [pip15]
 
-@190  = ~Was für schlimme Dinge habe ich denn jetzt wieder verbrochen?~ [pip16]
+@190  = ~Was fÃ¼r schlimme Dinge habe ich denn jetzt wieder verbrochen?~ [pip16]
 
-@191  = ~Oh, das ist... *erklärt seine Arbeit*~ [pip17]
+@191  = ~Oh, das ist... *erklÃ¤rt seine Arbeit*~ [pip17]
 
 @192  = ~Vielen Dank, Meister!~ [pip18]

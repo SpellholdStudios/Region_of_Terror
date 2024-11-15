@@ -1,22 +1,22 @@
-@0    = ~Zehn Tage sind vergangen. Ihr habt doch mit dem Händler gesprochen, oder?~
+@0    = ~Zehn Tage sind vergangen. Ihr habt doch mit dem HÃ¤ndler gesprochen, oder?~
 
-@1    = ~Ähmm... eigentlich nicht...~
+@1    = ~Ã„hmm... eigentlich nicht...~
 
 @2    = ~Nein, das habe ich nicht...~
 
-@3    = ~Ihr Narr! Ihr habt es versprochen! Dank Euch werde ich jetzt bestraft, oder so etwas in der Art. Ich könnte auch Hausverbot für das Gebäude des hohen Rates der Magier bekommen.~ ~Ihr Närrin! Ihr habt es versprochen! Dank Euch werde ich jetzt bestraft, oder so etwas in der Art. Ich könnte auch Hausverbot für das Gebäude des hohen Rates der Magier bekommen.~
+@3    = ~Ihr Narr! Ihr habt es versprochen! Dank Euch werde ich jetzt bestraft, oder so etwas in der Art. Ich kÃ¶nnte auch Hausverbot fÃ¼r das GebÃ¤ude des hohen Rates der Magier bekommen.~ ~Ihr NÃ¤rrin! Ihr habt es versprochen! Dank Euch werde ich jetzt bestraft, oder so etwas in der Art. Ich kÃ¶nnte auch Hausverbot fÃ¼r das GebÃ¤ude des hohen Rates der Magier bekommen.~
 
 @4    = ~Das war unsere letzte Unterhaltung.~
 
 @5    = ~Habt Ihr die Schriftrolle bekommen?~
 
-@6    = ~Nein, aber ich habe mit dem Händler gesprochen. Die Schriftrolle wurde ihm gestohlen.~
+@6    = ~Nein, aber ich habe mit dem HÃ¤ndler gesprochen. Die Schriftrolle wurde ihm gestohlen.~
 
 @7    = ~Nein, aber ich werde sie bald bekommen.~
 
-@8    = ~Gestohlen!? Hmm... dann ist es nicht unser Problem. Ich werde gehen und davon berichten. Danke für die Information.~
+@8    = ~Gestohlen!? Hmm... dann ist es nicht unser Problem. Ich werde gehen und davon berichten. Danke fÃ¼r die Information.~
 
-@9    = ~Ja. Sie wurde dem Händler gestohlen, aber ich konnte sie zurück bekommen.~
+@9    = ~Ja. Sie wurde dem HÃ¤ndler gestohlen, aber ich konnte sie zurÃ¼ck bekommen.~
 
 @10   = ~Ja, ich habe sie gleich hier.~
 
@@ -24,15 +24,15 @@
 
 @12   = ~Grossartig! Vielen herzlichen Dank. Gute Arbeit!~
 
-@13   = ~Nur noch eines. Ich musste 10.000 Goldstücke bezahlen, um sie zu bekommen...~
+@13   = ~Nur noch eines. Ich musste 10.000 GoldstÃ¼cke bezahlen, um sie zu bekommen...~
 
-@14   = ~Nur noch eines. Ich musste 5.000 Goldstücke bezahlen, um sie zu bekommen...~
+@14   = ~Nur noch eines. Ich musste 5.000 GoldstÃ¼cke bezahlen, um sie zu bekommen...~
 
-@15   = ~Oh ja! Hier ist Eure Belohnung. Hundert Goldstücke.~
+@15   = ~Oh ja! Hier ist Eure Belohnung. Hundert GoldstÃ¼cke.~
 
-@16   = ~Hmm... Ich werde nachfragen, ob man Euch Euer Geld zurückgeben kann. Wartet hier.~
+@16   = ~Hmm... Ich werde nachfragen, ob man Euch Euer Geld zurÃ¼ckgeben kann. Wartet hier.~
 
-@17   = ~Oh ja! Hier ist Eure Belohnung. Zweihundert Goldstücke.~
+@17   = ~Oh ja! Hier ist Eure Belohnung. Zweihundert GoldstÃ¼cke.~
 
 @18   = ~Zehn Tage sind schon vergangen. Ich hoffe, Ihr wisst wo sie ist...~
 
@@ -42,14 +42,14 @@
 
 @21   = ~Nein, aber ich verspreche Euch, dass Ihr sie bald bekommen werdet.~
 
-@22   = ~Ich sprach mit dem Mann, der mir diesen Auftrag gab. Er erklärte sich damit einverstanden, zu bezahlen. Jedoch nur die Hälfte. Hier sind Eure 5.000 Goldstücke.~
+@22   = ~Ich sprach mit dem Mann, der mir diesen Auftrag gab. Er erklÃ¤rte sich damit einverstanden, zu bezahlen. Jedoch nur die HÃ¤lfte. Hier sind Eure 5.000 GoldstÃ¼cke.~
 
 @23   = ~Nun, das ist besser als Nichts. Danke.~
 
-@24   = ~Nur die Hälfte!? Was für ein Geizkragen!~
+@24   = ~Nur die HÃ¤lfte!? Was fÃ¼r ein Geizkragen!~
 
-@25   = ~Gern geschehen. Wenn Ihr mich jetzt entschuldigen würdet, ich werde jetzt gehen. Lebt wohl!~
+@25   = ~Gern geschehen. Wenn Ihr mich jetzt entschuldigen wÃ¼rdet, ich werde jetzt gehen. Lebt wohl!~
 
-@26   = ~Das war das höchste, was er zahlen wollte...~
+@26   = ~Das war das hÃ¶chste, was er zahlen wollte...~
 
-@27   = ~Ich sprach mit dem Mann, der mir diesen Auftrag gab. Er erklärte sich damit einverstanden, zu bezahlen. Jedoch nur die Hälfte. Hier sind Eure 2.500 Goldstücke.~
+@27   = ~Ich sprach mit dem Mann, der mir diesen Auftrag gab. Er erklÃ¤rte sich damit einverstanden, zu bezahlen. Jedoch nur die HÃ¤lfte. Hier sind Eure 2.500 GoldstÃ¼cke.~

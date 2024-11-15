@@ -2,17 +2,17 @@
 
 @1    = ~MIR WURDE GEHOLFEN... VON EUREM FREUND, ARTEMIS.~ [Errtu2]
 
-@2    = ~HAHAHA! DAS DACHTE ICH MIR. NACHDEM ICH ALLE ANDEREN GETÖTET HABE, WERDE ICH WIEDER MIT EUCH SPIELEN, WULFGAR.~ [Errtu3]
+@2    = ~HAHAHA! DAS DACHTE ICH MIR. NACHDEM ICH ALLE ANDEREN GETÃ–TET HABE, WERDE ICH WIEDER MIT EUCH SPIELEN, WULFGAR.~ [Errtu3]
 
 @3    = ~UND WER IST DIESE RATTE HIER?~ [Errtu5]
 
-@4    = ~Ich bin <CHARNAME>. Die berühmte Bhaalbrut.~
+@4    = ~Ich bin <CHARNAME>. Die berÃ¼hmte Bhaalbrut.~
 
 @5    = ~Das geht Euch nichts an. Beantwortet nur meine Fragen.~
 
 @6    = ~Hmm... STERBT!~
 
-@7    = ~BHAALBRUT!? INTERESSANT, DER FÜRST DES MORDES IST EUER VATER.~
+@7    = ~BHAALBRUT!? INTERESSANT, DER FÃœRST DES MORDES IST EUER VATER.~
 
 @8    = ~Wahrlich interessant, aber jetzt zu den Fragen.~
 
@@ -24,55 +24,55 @@
 
 @12   = ~Nun, das ist Eure Entscheidung. Ich hoffe, Ihr kooperiert.~
 
-@13   = ~NUN, ICH SCHÄTZE, ICH KANN MIR EINEN KLEINEN DIALOG MIT EINER BHAALBRUT LEISTEN, BEVOR ICH "SIE" TÖTE. FRAGT!~
+@13   = ~NUN, ICH SCHÃ„TZE, ICH KANN MIR EINEN KLEINEN DIALOG MIT EINER BHAALBRUT LEISTEN, BEVOR ICH "SIE" TÃ–TE. FRAGT!~
 
-@14   = ~Alles klar. Habt Ihr irgendwelche Informationen darüber, was Entreri vorhaben könnte?~
+@14   = ~Alles klar. Habt Ihr irgendwelche Informationen darÃ¼ber, was Entreri vorhaben kÃ¶nnte?~
 
 @15   = ~Wisst Ihr vielleicht, wo dieser Entreri jetzt ist?~
 
-@16   = ~Wie schaffte es Entreri, Euch aus der Hölle zu befreien? Drizzt sagte ja schon, dass ihr noch einige Jährchen abzusitzen hattet.~
+@16   = ~Wie schaffte es Entreri, Euch aus der HÃ¶lle zu befreien? Drizzt sagte ja schon, dass ihr noch einige JÃ¤hrchen abzusitzen hattet.~
 
 @17   = ~Ich habe nichts zu fragen. Zeit, Eurem Verderben entgegen zu sehen.~
 
-@18   = ~HAHAHA!! DANN MÖGE ES SO SEIN!~ [Errtu4]
+@18   = ~HAHAHA!! DANN MÃ–GE ES SO SEIN!~ [Errtu4]
 
 @19   = ~HAHAHA! IHR SEID WIRKLICH EINE MITLEID ERREGENDE KREATUR! ABER GUT, ICH WERDE EURE FRAGEN BEANTWORTEN...~
 
-@20   = ~ICH WEISS NUR, DASS ICH DRIZZT DO'URDEN TÖTEN SOLL.~
+@20   = ~ICH WEISS NUR, DASS ICH DRIZZT DO'URDEN TÃ–TEN SOLL.~
 
-@21   = ~IHR SOLLTET EUCH MEHR SORGEN DARÜBER MACHEN, WAS ICH VORHABE...~
+@21   = ~IHR SOLLTET EUCH MEHR SORGEN DARÃœBER MACHEN, WAS ICH VORHABE...~
 
 @22   = ~Wisst Ihr vielleicht, wo sich dieser Entreri jetzt befindet?~
 
 @23   = ~ICH WEISS NUR, DASS ER IM KRISTALLTURM IST.~
 
-@24   = ~Im Kristallturm? Was für ein Kristallturm?~
+@24   = ~Im Kristallturm? Was fÃ¼r ein Kristallturm?~
 
-@25   = ~Habt Ihr irgendwelche Informationen, was Entreri vorhaben könnte?~
+@25   = ~Habt Ihr irgendwelche Informationen, was Entreri vorhaben kÃ¶nnte?~
 
-@26   = ~IHR WISST ES NICHT!? ... NUN, DER KRISTALLTURM IST EINE SCHÖPFUNG DES KRISTALLSPLITTERS.~
+@26   = ~IHR WISST ES NICHT!? ... NUN, DER KRISTALLTURM IST EINE SCHÃ–PFUNG DES KRISTALLSPLITTERS.~
 
-@27   = ~DER KRISTALLSPLITTER IST EIN SEHR MÄCHTIGER GEGENSTAND, MIT DEM MAN GEDANKEN KONTROLLIEREN UND ILLUSIONEN ERSCHAFFEN KANN.~
+@27   = ~DER KRISTALLSPLITTER IST EIN SEHR MÃ„CHTIGER GEGENSTAND, MIT DEM MAN GEDANKEN KONTROLLIEREN UND ILLUSIONEN ERSCHAFFEN KANN.~
 
-@28   = ~EINES TAGES WIRD DIESER NARR ENTRERI IHN VERLIEREN UND DANN WIRD ER MIR GEHÖREN!~
+@28   = ~EINES TAGES WIRD DIESER NARR ENTRERI IHN VERLIEREN UND DANN WIRD ER MIR GEHÃ–REN!~
 
-@29   = ~ER BENUTZTE DEN KRISTALLSPLITTER. DAS IST EIN WAHRHAFT MÄCHTIGER GEGENSTAND...~
+@29   = ~ER BENUTZTE DEN KRISTALLSPLITTER. DAS IST EIN WAHRHAFT MÃ„CHTIGER GEGENSTAND...~
 
 @30   = ~Kristallsplitter? Was ist der Kristallsplitter?~
 
-@31   = ~Habt Ihr vielleicht auch eine Ahnung, was dieser Entreri vorhaben könnte?~
+@31   = ~Habt Ihr vielleicht auch eine Ahnung, was dieser Entreri vorhaben kÃ¶nnte?~
 
 @32   = ~Wisst Ihr vielleicht, wo dieser Entreri jetzt ist?~
 
-@33   = ~IHR WISST ES NICHT!?... DER KRISTALLSPLITTER IST EIN SEHR MÄCHTIGER GEGENSTAND, MIT DEM MAN GEDANKEN KONTROLLIEREN UND ILLUSIONEN ERSCHAFFEN KANN.~
+@33   = ~IHR WISST ES NICHT!?... DER KRISTALLSPLITTER IST EIN SEHR MÃ„CHTIGER GEGENSTAND, MIT DEM MAN GEDANKEN KONTROLLIEREN UND ILLUSIONEN ERSCHAFFEN KANN.~
 
 
 @34   = ~SONST NOCH ETWAS?~
 
-@35   = ~NATÜRLICH. ICH BIN DER STÄRKSTE.~ [Errtu6]
+@35   = ~NATÃœRLICH. ICH BIN DER STÃ„RKSTE.~ [Errtu6]
 
 @36   = ~WO IST DRIZZT?~
 
 @37   = ~AAH...~
 
-@38   = ~DANN WÄHLT IHR JETZT ALSO DEN TOD.~ [Errtu7]
+@38   = ~DANN WÃ„HLT IHR JETZT ALSO DEN TOD.~ [Errtu7]

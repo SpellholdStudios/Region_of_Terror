@@ -1,50 +1,50 @@
-@0    = ~Gut, dass ich etwas zur Seite gelegt habe, damit ich noch für eine Weile hier bleiben kann.~
+@0    = ~Gut, dass ich etwas zur Seite gelegt habe, damit ich noch fÃ¼r eine Weile hier bleiben kann.~
 
-@1    = ~Die Anderen sprechen oft davon, die Siedlung zu verlassen. Was würdet Ihr an meiner Stelle tun?~
+@1    = ~Die Anderen sprechen oft davon, die Siedlung zu verlassen. Was wÃ¼rdet Ihr an meiner Stelle tun?~
 
-@2    = ~Nun ja, könntet Ihr mir zunächst einmal etwas über Euch erzählen?~
+@2    = ~Nun ja, kÃ¶nntet Ihr mir zunÃ¤chst einmal etwas Ã¼ber Euch erzÃ¤hlen?~
 
 @3    = ~Langweilt mich nicht!~
 
-@4    = ~Also geboren wurde ich in Einsamwald und habe auch dort gelebt, bis ist fünfundzwanzig war. Dann kam ich hierher um im Hafen zu arbeiten, aber weil er im Moment nicht genutzt wird, bin ich jetzt ohne Beschäftigung.~
+@4    = ~Also geboren wurde ich in Einsamwald und habe auch dort gelebt, bis ist fÃ¼nfundzwanzig war. Dann kam ich hierher um im Hafen zu arbeiten, aber weil er im Moment nicht genutzt wird, bin ich jetzt ohne BeschÃ¤ftigung.~
 
 @5    = ~Wie geht es Euch finanziell?~
 
 @6    = ~Ihr solltet auf jeden Fall hier bleiben.~
 
-@7    = ~Haut ab. Geht zurück nach Einsamwald und sucht Euch dort eine Arbeit.~
+@7    = ~Haut ab. Geht zurÃ¼ck nach Einsamwald und sucht Euch dort eine Arbeit.~
 
-@8    = ~Na ja, ich hab genug Gold, um mir was zu Essen und ein Bett für die Nacht zu leisten, jedenfalls für die nächsten ein oder zwei Monate. Wenn ich bis dahin allerdings keine richtige Arbeit gefunden habe, weiß ich nicht, was ich weiter tun soll.~
+@8    = ~Na ja, ich hab genug Gold, um mir was zu Essen und ein Bett fÃ¼r die Nacht zu leisten, jedenfalls fÃ¼r die nÃ¤chsten ein oder zwei Monate. Wenn ich bis dahin allerdings keine richtige Arbeit gefunden habe, weiÃŸ ich nicht, was ich weiter tun soll.~
 
-@9    = ~Soll ich mein Geld für eine  Passage zurück nach Einsamwald benutzen oder doch lieber hier bleiben?~
+@9    = ~Soll ich mein Geld fÃ¼r eine  Passage zurÃ¼ck nach Einsamwald benutzen oder doch lieber hier bleiben?~
 
-@10   = ~Geht zurück nach Einsamwald. Ich bin sicher, dort wird es wesentlich einfacher für Euch sein.~
+@10   = ~Geht zurÃ¼ck nach Einsamwald. Ich bin sicher, dort wird es wesentlich einfacher fÃ¼r Euch sein.~
 
 @11   = ~Ich denke, Ihr solltet Eure Dienste anbieten, um die Siedlung wieder aufzubauen...~
 
-@12   = ~Ihr solltet bleiben. Ich habe gehört, ein Adliger wäre auf dem Weg hierher, um ein Geschäft aufzubauen... ich bin sicher, er wird nach fähigen Händen wie den Euren Ausschau halten...~
+@12   = ~Ihr solltet bleiben. Ich habe gehÃ¶rt, ein Adliger wÃ¤re auf dem Weg hierher, um ein GeschÃ¤ft aufzubauen... ich bin sicher, er wird nach fÃ¤higen HÃ¤nden wie den Euren Ausschau halten...~
 
 @13   = ~Ich hab keine Ahnung. Sagt Ihr es mir!~
 
-@14   = ~Also, danke für Euren Rat.~
+@14   = ~Also, danke fÃ¼r Euren Rat.~
 
-@15   = ~...warum habe ich denn nicht selbst daran gedacht!? Natürlich! Ich helfe beim Wiederaufbau und verdiene mir etwas Geld dabei. Wenn erstmal wieder alles steht, trete ich meine alte Stelle im Hafen wieder an! Danke!~
+@15   = ~...warum habe ich denn nicht selbst daran gedacht!? NatÃ¼rlich! Ich helfe beim Wiederaufbau und verdiene mir etwas Geld dabei. Wenn erstmal wieder alles steht, trete ich meine alte Stelle im Hafen wieder an! Danke!~
 
-@16   = ~Könnt Ihr mir sagen, warum?~
+@16   = ~KÃ¶nnt Ihr mir sagen, warum?~
 
-@17   = ~Ich hörte, dass dieser Ort in den nächsten Jahren stetig wachsen wird. Angeblich plant ein Adliger, hier ein neues Geschäft zu eröffnen...~
+@17   = ~Ich hÃ¶rte, dass dieser Ort in den nÃ¤chsten Jahren stetig wachsen wird. Angeblich plant ein Adliger, hier ein neues GeschÃ¤ft zu erÃ¶ffnen...~
 
 @18   = ~Na ja, es gibt keinen guten Grund zu gehen.~
 
-@19   = ~Na ja, ich bin mir sicher, Ihr werdet in den nächsten zwei Monaten eine Arbeit finden. Hier wird doch überall gebaut! Ich wäre überrascht, wenn Ihr nirgendwo gebraucht werden würdet.~
+@19   = ~Na ja, ich bin mir sicher, Ihr werdet in den nÃ¤chsten zwei Monaten eine Arbeit finden. Hier wird doch Ã¼berall gebaut! Ich wÃ¤re Ã¼berrascht, wenn Ihr nirgendwo gebraucht werden wÃ¼rdet.~
 
 @20   = ~Na ja, im Moment nicht.~
 
 @21   = ~Wirklich... klingt vielversprechend... ich denke, dann werde ich hierbleiben...~
 
-@22   = ~...also sowas kann ich nicht glauben. Ich bin sicher, irgendjemand hier würde davon schon gehört haben. Na ja, trotzdem danke für Euren guten Rat.~
+@22   = ~...also sowas kann ich nicht glauben. Ich bin sicher, irgendjemand hier wÃ¼rde davon schon gehÃ¶rt haben. Na ja, trotzdem danke fÃ¼r Euren guten Rat.~
 
-@23   = ~Woher wollt Ihr das wissen? Oh, na ja, trotzdem vielen Dank für Euren "Rat".~
+@23   = ~Woher wollt Ihr das wissen? Oh, na ja, trotzdem vielen Dank fÃ¼r Euren "Rat".~
 
 @24   = ~Ihr habt Recht... ich denke, ich werde bleiben.~
 
@@ -56,11 +56,11 @@
 
 @28   = ~Ich denke, ich werde hier bleiben...~
 
-@29   = ~Ich weiß immer noch nicht, was ich tun soll...~
+@29   = ~Ich weiÃŸ immer noch nicht, was ich tun soll...~
 
-@30   = ~Hier scheint sich so wenig zu ändern...~
+@30   = ~Hier scheint sich so wenig zu Ã¤ndern...~
 
-@31   = ~Die Stimmung hier wird immer und immer schlechter. Ich denke, es wird das Beste sein, wenn ich mit dem nächsten Schiff abreise...~
+@31   = ~Die Stimmung hier wird immer und immer schlechter. Ich denke, es wird das Beste sein, wenn ich mit dem nÃ¤chsten Schiff abreise...~
 
 @32   = ~Es scheint langsam wieder besser zu werden mit der Stimmung der Leute hier...~
 

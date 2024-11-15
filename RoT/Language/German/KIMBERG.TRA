@@ -1,9 +1,9 @@
-@0    = ~Es gibt nur wenige VVC (VVC Utility) Dateien im Spiel und Ihr werdet sie wahrscheinlich nicht benutzen. Sie werden nur gebraucht, wenn Ihr einen visuellen Effekt über ein Script erstellen wollt.~
+@0    = ~Es gibt nur wenige VVC (VVC Utility) Dateien im Spiel und Ihr werdet sie wahrscheinlich nicht benutzen. Sie werden nur gebraucht, wenn Ihr einen visuellen Effekt Ã¼ber ein Script erstellen wollt.~
 
-@1    = ~Im VVC Utility fügt Ihr einfach den Namen einer BAM - Datei (Animation) hinzu und vielleicht auch Sounds und speichert sie in den override-Ordner. Dann macht Ihr ein Script um sie mit der Kommandozeile CreateVisualEffect zu verbinden. (Eine Hilfefunktion steht hierfür zur Verfügung).~
+@1    = ~Im VVC Utility fÃ¼gt Ihr einfach den Namen einer BAM - Datei (Animation) hinzu und vielleicht auch Sounds und speichert sie in den override-Ordner. Dann macht Ihr ein Script um sie mit der Kommandozeile CreateVisualEffect zu verbinden. (Eine Hilfefunktion steht hierfÃ¼r zur VerfÃ¼gung).~
 
-@2    = ~Die Projektile werden öfters verwendet. Beispielsweise werden sie für spezielle Pfeilanimationen oder Drachenodem oder etwas in der Art verwendet. Man kann einige coole Dinge mit Projektilen machen, daher probiert das Infinity Projectile Utility aus.~
+@2    = ~Die Projektile werden Ã¶fters verwendet. Beispielsweise werden sie fÃ¼r spezielle Pfeilanimationen oder Drachenodem oder etwas in der Art verwendet. Man kann einige coole Dinge mit Projektilen machen, daher probiert das Infinity Projectile Utility aus.~
 
-@3    = ~Nachdem Ihr ein fertiges Projektil habt, wird es zuerst zur Projectl.ids-Datei hinzugefügt (Add Entry), und dann die Datei gesichert. Die projectl.ids muss im override-Ordner sein.~
+@3    = ~Nachdem Ihr ein fertiges Projektil habt, wird es zuerst zur Projectl.ids-Datei hinzugefÃ¼gt (Add Entry), und dann die Datei gesichert. Die projectl.ids muss im override-Ordner sein.~
 
-@4    = ~Dann könnt Ihr das Werkzeug (Inf.Proj.Ut.) benutzen, um neue Projektile oder Sprüche hinzuzufügen.~
+@4    = ~Dann kÃ¶nnt Ihr das Werkzeug (Inf.Proj.Ut.) benutzen, um neue Projektile oder SprÃ¼che hinzuzufÃ¼gen.~

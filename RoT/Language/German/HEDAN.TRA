@@ -1,61 +1,61 @@
-@0    = ~Dann seid Ihr derjenige, den Ryon getroffen hatte. Ich bin sehr erfreut darüber, dass Ihr endlich angekommen seid.~ [Hedan1] ~Dann seid Ihr diejenige, die Ryon getroffen hatte. Ich bin sehr erfreut darüber, dass Ihr endlich angekommen seid.~ [Hedan1]
+@0    = ~Dann seid Ihr derjenige, den Ryon getroffen hatte. Ich bin sehr erfreut darÃ¼ber, dass Ihr endlich angekommen seid.~ [Hedan1] ~Dann seid Ihr diejenige, die Ryon getroffen hatte. Ich bin sehr erfreut darÃ¼ber, dass Ihr endlich angekommen seid.~ [Hedan1]
 
-@1    = ~Ja, dieser Emanath muss aufgehalten werden, bevor es zu spät ist. Könnt Ihr mir sein Haus zeigen?~
+@1    = ~Ja, dieser Emanath muss aufgehalten werden, bevor es zu spÃ¤t ist. KÃ¶nnt Ihr mir sein Haus zeigen?~
 
-@2    = ~Es war eine lange Reise, aber ich hatte das Gefühl, kommen zu müssen. Was liegt an?~
+@2    = ~Es war eine lange Reise, aber ich hatte das GefÃ¼hl, kommen zu mÃ¼ssen. Was liegt an?~
 
-@3    = ~Während der Reise hatte ich Zeit zum Nachdenken und bin zu dem Entschluss gekommen, dass mir das zu gefährlich ist. Verzeiht mir, aber ich kann Euch nicht helfen.~
+@3    = ~WÃ¤hrend der Reise hatte ich Zeit zum Nachdenken und bin zu dem Entschluss gekommen, dass mir das zu gefÃ¤hrlich ist. Verzeiht mir, aber ich kann Euch nicht helfen.~
 
 @4    = ~Ja, es liegt in der nordwestlichen Ecke des Dorfes.~
 
-@5    = ~Wir haben die Tür verschlossen. Dies ist der Schlüssel, mit dem Ihr ins Haus kommt.~
+@5    = ~Wir haben die TÃ¼r verschlossen. Dies ist der SchlÃ¼ssel, mit dem Ihr ins Haus kommt.~
 
-@6    = ~Ach, übrigens... Er nennt sich selbst "Ultimativer Meister". Das könnte wichtig sein.~
+@6    = ~Ach, Ã¼brigens... Er nennt sich selbst "Ultimativer Meister". Das kÃ¶nnte wichtig sein.~
 
-@7    = ~Ich werde gehen und ihn beseitigen. Das könnt Ihr mir glauben.~
+@7    = ~Ich werde gehen und ihn beseitigen. Das kÃ¶nnt Ihr mir glauben.~
 
-@8    = ~Macht Euch keine Sorgen. Dieser Magier wird für mich kein Problem sein.~
+@8    = ~Macht Euch keine Sorgen. Dieser Magier wird fÃ¼r mich kein Problem sein.~
 
-@9    = ~Unser Schicksal liegt in Euren Händen. Bitte, rettet unser Dorf.~ [HEDAN2]
+@9    = ~Unser Schicksal liegt in Euren HÃ¤nden. Bitte, rettet unser Dorf.~ [HEDAN2]
 
-@10   = ~Ihr werdet Emanath gegenübertreten müssen.~
+@10   = ~Ihr werdet Emanath gegenÃ¼bertreten mÃ¼ssen.~
 
-@11   = ~Bitte, überlegt es Euch noch einmal. Wir werden das Dorf verlassen müssen, wenn Ihr uns nicht helft.~
+@11   = ~Bitte, Ã¼berlegt es Euch noch einmal. Wir werden das Dorf verlassen mÃ¼ssen, wenn Ihr uns nicht helft.~
 
-@12   = ~... das kann ich nicht auf mir sitzen lassen. Ihr habt mich überzeugt, ich werde Euch helfen.~
+@12   = ~... das kann ich nicht auf mir sitzen lassen. Ihr habt mich Ã¼berzeugt, ich werde Euch helfen.~
 
 @13   = ~Verzeiht mir, ich kann Euch nicht helfen.~
 
-@14   = ~Oh, danke! Ihr wisst nun, was Euch erwartet. Ihr werdet Emanath gegenübertreten müssen.~
+@14   = ~Oh, danke! Ihr wisst nun, was Euch erwartet. Ihr werdet Emanath gegenÃ¼bertreten mÃ¼ssen.~
 
-@15   = ~Na schön... Wir haben nichts mehr zu besprechen. Ich rate Euch, zu Eurer eigenen Sicherheit wieder zu gehen.~
+@15   = ~Na schÃ¶n... Wir haben nichts mehr zu besprechen. Ich rate Euch, zu Eurer eigenen Sicherheit wieder zu gehen.~
 
 @16   = ~Nun, das war wohl von einem Fremden zu viel verlangt...~ ~Nun, das war wohl von einer Fremden zu viel verlangt...~
 
 
-@17   = ~Unser Schicksal liegt in Euren Händen. Bitte, rettet unser Dorf!~ [Hedan2]
+@17   = ~Unser Schicksal liegt in Euren HÃ¤nden. Bitte, rettet unser Dorf!~ [Hedan2]
 
-@18   = ~Dies ist kein sicherer Ort für Besucher. Warum seid Ihr hier?~ [Hedan3]
+@18   = ~Dies ist kein sicherer Ort fÃ¼r Besucher. Warum seid Ihr hier?~ [Hedan3]
 
 @19   = ~Ich bin nur auf der Durchreise... Warum ist dies kein sicherer Ort?~
 
 @20   = ~Ohne Grund. Ich bin nur auf der Durchreise. Ich werde wieder gehen.~
 
-@21   = ~Ich traf einen Mann namens Ryon. Er erzählte mir von Euren Problemen. Ich glaube, ich kann Euch helfen.~
+@21   = ~Ich traf einen Mann namens Ryon. Er erzÃ¤hlte mir von Euren Problemen. Ich glaube, ich kann Euch helfen.~
 
-@22   = ~Bleibt nicht zu lange. Wir können nicht für Eure Sicherheit garantieren.~
+@22   = ~Bleibt nicht zu lange. Wir kÃ¶nnen nicht fÃ¼r Eure Sicherheit garantieren.~
 
-@23   = ~Aus welchem Grund seid Ihr zurückgekehrt? Wollt Ihr etwas?~ [Hedan4]
+@23   = ~Aus welchem Grund seid Ihr zurÃ¼ckgekehrt? Wollt Ihr etwas?~ [Hedan4]
 
-@24   = ~Ich würde gerne wissen, warum dies kein sicherer Ort ist.~
+@24   = ~Ich wÃ¼rde gerne wissen, warum dies kein sicherer Ort ist.~
 
-@25   = ~Äähh... Nichts. Ich mache mich gleich wieder auf den Weg.~
+@25   = ~Ã„Ã¤hh... Nichts. Ich mache mich gleich wieder auf den Weg.~
 
 @26   = ~Es ist wegen des Magiers, Emanath.~
 
 @27   = ~Grossartig! Das ist genau das, wonach wir gesucht haben.~
 
-@28   = ~Dieser Emanath muss aufgehalten werden, bevor es zu spät ist. Könnt Ihr mir sein Haus zeigen?~
+@28   = ~Dieser Emanath muss aufgehalten werden, bevor es zu spÃ¤t ist. KÃ¶nnt Ihr mir sein Haus zeigen?~
 
 @29   = ~Jeder hier ist ein Krieger, ausser ihm. Er ist ein Magier.~
 
@@ -63,63 +63,63 @@
 
 @31   = ~Er baute ein Haus am Rande des Dorfes und begann dort mit seinen Zaubereien.~
 
-@32   = ~Niemand wagte es, sich dem Haus zu nähern. Sie hatten Angst, dass Emanath sie in Stein verwandeln könnte.~
+@32   = ~Niemand wagte es, sich dem Haus zu nÃ¤hern. Sie hatten Angst, dass Emanath sie in Stein verwandeln kÃ¶nnte.~
 
-@33   = ~Dann  erschienen eines Tages plötzlich Monster. Goblins, Orks, Dämonen...~
+@33   = ~Dann  erschienen eines Tages plÃ¶tzlich Monster. Goblins, Orks, DÃ¤monen...~
 
-@34   = ~Wir wussten, dass Emanath dafür verantwortlich war. Fünf unserer besten Krieger wurden ausgesandt, um ihn zu beseitigen. Sie sind nie zurückgekehrt.~
+@34   = ~Wir wussten, dass Emanath dafÃ¼r verantwortlich war. FÃ¼nf unserer besten Krieger wurden ausgesandt, um ihn zu beseitigen. Sie sind nie zurÃ¼ckgekehrt.~
 
-@35   = ~Wir können diese Horden nicht mehr länger aufhalten. Emanath muss aufgehalten werden.~
+@35   = ~Wir kÃ¶nnen diese Horden nicht mehr lÃ¤nger aufhalten. Emanath muss aufgehalten werden.~
 
-@36   = ~Ich könnte Euch helfen. Ich glaube, ich kann es mit diesem Emanath aufnehmen.~
+@36   = ~Ich kÃ¶nnte Euch helfen. Ich glaube, ich kann es mit diesem Emanath aufnehmen.~
 
-@37   = ~Ich könnte diesen Emanath für Euch töten... Was bekomme ich dafür, wenn ich es tue?~
+@37   = ~Ich kÃ¶nnte diesen Emanath fÃ¼r Euch tÃ¶ten... Was bekomme ich dafÃ¼r, wenn ich es tue?~
 
-@38   = ~Nun, glücklicherweise werde ich nicht lange bleiben. Auf bald!~
+@38   = ~Nun, glÃ¼cklicherweise werde ich nicht lange bleiben. Auf bald!~
 
-@39   = ~Ihr könntet ihn töten? Wir wären Euch dafür sehr dankbar, wenn Ihr dies tun würdet!~
+@39   = ~Ihr kÃ¶nntet ihn tÃ¶ten? Wir wÃ¤ren Euch dafÃ¼r sehr dankbar, wenn Ihr dies tun wÃ¼rdet!~
 
 @40   = ~Ja, ich werde es tun. Geleitet mich zu seinem Haus.~
 
-@41   = ~Hmm... Was würde ich denn bekommen, wenn ich es täte?~
+@41   = ~Hmm... Was wÃ¼rde ich denn bekommen, wenn ich es tÃ¤te?~
 
 @42   = ~Nein, eigentlich will ich es gar nicht tun. Verzeiht mir, wenn ich Euch falsche Hoffnungen gemacht haben sollte.~
 
-@43   = ~... Wir sind nur arme Leute und können Euch nur unseren Dank und die Besitztümer von Emanath anbieten.~
+@43   = ~... Wir sind nur arme Leute und kÃ¶nnen Euch nur unseren Dank und die BesitztÃ¼mer von Emanath anbieten.~
 
 @44   = ~In Ordnung. Ich werde es tun. Geleitet mich zu diesem Haus.~
 
-@45   = ~Nein, für eine solche Belohnung werde ich es nicht machen. Verzeiht mir.~
+@45   = ~Nein, fÃ¼r eine solche Belohnung werde ich es nicht machen. Verzeiht mir.~
 
-@46   = ~Ihr würdet ihn töten!? Vielen Dank! Aber ich fürchte, wir haben nichts anzubieten. Hauptsächlich unseren Dank und die Besitztümer von Emanath.~
+@46   = ~Ihr wÃ¼rdet ihn tÃ¶ten!? Vielen Dank! Aber ich fÃ¼rchte, wir haben nichts anzubieten. HauptsÃ¤chlich unseren Dank und die BesitztÃ¼mer von Emanath.~
 
 @47   = ~Ich kann Euch doch nicht einfach hier sterben lassen. Ich werde Euch helfen.~
 
 @48   = ~Grossartig! Ich weiss, dass Ihr Erfolg haben werdet!~
 
-@49   = ~Ich erkenne, dass Ihr und Eure Gefährten sehr mächtig seid... Ich frage ja nur ungern, aber... könntet Ihr vielleicht Emanath töten?~
+@49   = ~Ich erkenne, dass Ihr und Eure GefÃ¤hrten sehr mÃ¤chtig seid... Ich frage ja nur ungern, aber... kÃ¶nntet Ihr vielleicht Emanath tÃ¶ten?~
 
-@50   = ~...Oh, alles klar... Ich könnte die Zerstörung des Dorfes nicht auf mir sitzen lassen. Ich werde Euch helfen.~
+@50   = ~...Oh, alles klar... Ich kÃ¶nnte die ZerstÃ¶rung des Dorfes nicht auf mir sitzen lassen. Ich werde Euch helfen.~
 
-@51   = ~Die Horden sind verschwunden. Wir wissen, dass Ihr Erfolg hattet. Dennoch tut es uns immer noch Leid, dass wir Euch nichts bezahlen können.~
+@51   = ~Die Horden sind verschwunden. Wir wissen, dass Ihr Erfolg hattet. Dennoch tut es uns immer noch Leid, dass wir Euch nichts bezahlen kÃ¶nnen.~
 
-@52   = ~Das ist schon in Ordnung. Ich habe genug von Emanaths Besitztümern bekommen.~
+@52   = ~Das ist schon in Ordnung. Ich habe genug von Emanaths BesitztÃ¼mern bekommen.~
 
 @53   = ~Die Belohnung war mir nie wichtig. Ich habe Euch geholfen, weil ich es so wollte.~
 
 @54   = ~Arme Bastarde! Ich verschwinde jetzt von hier, Bettler!~
 
-@55   = ~Das ist gut. Ich wünsche Euch viel Glück bei Euren bevorstehenden Reisen. Vielen Dank!~
+@55   = ~Das ist gut. Ich wÃ¼nsche Euch viel GlÃ¼ck bei Euren bevorstehenden Reisen. Vielen Dank!~
 
-@56   = ~Ihr seid eine wahrhaft gute Person. Ich wünsche Euch viel Glück bei Euren bevorstehenden Reisen. Vielen Dank!~
+@56   = ~Ihr seid eine wahrhaft gute Person. Ich wÃ¼nsche Euch viel GlÃ¼ck bei Euren bevorstehenden Reisen. Vielen Dank!~
 
 
 @57   = ~Wir schulden Euch eine ganze Menge. Ihr Helden habt unser Dorf gerettet.~ [Hedan5]
 
-@58   = ~Eigentlich konnte ich Emanath überreden, zu gehen. Er wird Euch nie wieder belästigen, das kann ich Euch versprechen.~
+@58   = ~Eigentlich konnte ich Emanath Ã¼berreden, zu gehen. Er wird Euch nie wieder belÃ¤stigen, das kann ich Euch versprechen.~
 
 @59   = ~Ich habe schon genug mit dem Besitz von Emanath.~
 
-@60   = ~Ich hoffe, dass Ihr wusstet, was Ihr tatet... Trotz allem vielen Dank. Ihr habt grossartige Arbeit geleistet. Ich wünsche Euch Glück bei Euren bevorstehenden Abenteuern.~
+@60   = ~Ich hoffe, dass Ihr wusstet, was Ihr tatet... Trotz allem vielen Dank. Ihr habt grossartige Arbeit geleistet. Ich wÃ¼nsche Euch GlÃ¼ck bei Euren bevorstehenden Abenteuern.~
 
 @61   = ~Sein Haus liegt in der nordwestlichen Ecke des Dorfes.~

@@ -1,4 +1,4 @@
-@0    = ~Habt ihr einen Dieb gesehen? Er war blau gekleidet mit einer schwarzen Lederrüstung.~
+@0    = ~Habt ihr einen Dieb gesehen? Er war blau gekleidet mit einer schwarzen LederrÃ¼stung.~
 
 @1    = ~Ja. Er ging dort entlang.~
 
@@ -6,19 +6,19 @@
 
 @3    = ~Nein, habe ich nicht. Warum fragt Ihr?~
 
-@4    = ~Belästigt mich nicht mit diesem Unsinn.~
+@4    = ~BelÃ¤stigt mich nicht mit diesem Unsinn.~
 
 @5    = ~Sehr lustig.~
 
 @6    = ~Geht klar.~
 
-@7    = ~Er hat etwas, das mir gehört...~
+@7    = ~Er hat etwas, das mir gehÃ¶rt...~
 
-@8    = ~Hmm... Ich könnte Euch helfen, ihn aufzuspüren.~
+@8    = ~Hmm... Ich kÃ¶nnte Euch helfen, ihn aufzuspÃ¼ren.~
 
 @9    = ~Dann muss er es gefunden werden. Ich kann Euch helfen.~
 
-@10   = ~In Ordnung. Viel Glück.~
+@10   = ~In Ordnung. Viel GlÃ¼ck.~
 
 @11   = ~Ich glaube nicht, dass ich Hilfe brauche...~
 
@@ -30,37 +30,37 @@
 
 @15   = ~Oh, doch, das kann es... Es kann mir definitiv schaden... Warum wollt Ihr es tun?~
 
-@16   = ~Um der Gerechtigkeit Genüge zu tun.~
+@16   = ~Um der Gerechtigkeit GenÃ¼ge zu tun.~
 
 @17   = ~Ich will den Dieb qualvoll sterben sehen.~
 
-@18   = ~Ich brauche ebenfalls Hilfe. Vielleicht könnten wir einen Hnadel machen.~
+@18   = ~Ich brauche ebenfalls Hilfe. Vielleicht kÃ¶nnten wir einen Hnadel machen.~
 
 @19   = ~... Ich verstehe... Ich glaube, ich kann Eurer Gruppe beitreten... Alles, um hier rauszukommen...~
 
-@20   = ~Bevor wir gehen, sollte ich Euch noch sagen, dass ich hinter einem mächtigen Magier herjage, der mir ziemlichen Ärger verursacht hat. Das wird ziemlich gefährlich werden.~
+@20   = ~Bevor wir gehen, sollte ich Euch noch sagen, dass ich hinter einem mÃ¤chtigen Magier herjage, der mir ziemlichen Ã„rger verursacht hat. Das wird ziemlich gefÃ¤hrlich werden.~
 
-@21   = ~Bevor wir gehen, solltet Ihr noch wissen, dass ich vorhabe, eine alte Freundin aus den Klauen der verhüllten Magier zu befreien. Gefahr wird immer präsent sein.~
+@21   = ~Bevor wir gehen, solltet Ihr noch wissen, dass ich vorhabe, eine alte Freundin aus den Klauen der verhÃ¼llten Magier zu befreien. Gefahr wird immer prÃ¤sent sein.~
 
 @22   = ~In Ordnung. Dann lasst uns gehen.~
 
-@23   = ~Je gefährlicher, desto besser.~
+@23   = ~Je gefÃ¤hrlicher, desto besser.~
 
 @24   = ~Dann verfolgen wir das selbe Ziel. Ich akzeptiere Eure Hilfe.~
 
-@25   = ~Was für eine Art Handel?~
+@25   = ~Was fÃ¼r eine Art Handel?~
 
 @26   = ~Ich werde Euch helfen, den Dieb zu finden und Ihr helft mir, den Magier zur Strecke zu bringen.~
 
-@27   = ~Ich werde Euch helfen, den Dieb zu finden und Ihr werdet mir helfen, meine Freundin von den verhüllten Magiern zu befreien.~
+@27   = ~Ich werde Euch helfen, den Dieb zu finden und Ihr werdet mir helfen, meine Freundin von den verhÃ¼llten Magiern zu befreien.~
 
-@28   = ~Klingt gut. Bei beiden Aufgaben erwarten uns viele Körper... Ich akzeptiere Eure Hilfe.~
+@28   = ~Klingt gut. Bei beiden Aufgaben erwarten uns viele KÃ¶rper... Ich akzeptiere Eure Hilfe.~
 
 @29   = ~Dann lasst uns gehen.~
 
 @30   = ~Ja. Ich kann es gar nicht erwarten...~
 
-@31   = ~... Schön. Ich glaube, es wird interessant werden, einige Magier zu töten...~
+@31   = ~... SchÃ¶n. Ich glaube, es wird interessant werden, einige Magier zu tÃ¶ten...~
 
 @32   = ~Dann haben wir etwas gemeinsam. Kommt.~
 
@@ -72,7 +72,7 @@
 
 @36   = ~Was wollt Ihr?~
 
-@37   = ~Hört zu... Warum habt Ihr nach diesem Dieb gefragt?~
+@37   = ~HÃ¶rt zu... Warum habt Ihr nach diesem Dieb gefragt?~
 
 @38   = ~Nichts...~
 
@@ -86,7 +86,7 @@
 
 @43   = ~Was macht Ihr hier?~
 
-@44   = ~Nichts. Verzeiht die Störung.~
+@44   = ~Nichts. Verzeiht die StÃ¶rung.~
 
 @45   = ~...Mordragon.~
 
@@ -96,15 +96,15 @@
 
 @48   = ~Ich verstehe. Dann werde ich wieder gehen.~
 
-@49   = ~... Kümmert Euch um Eure Angelegenheiten.~
+@49   = ~... KÃ¼mmert Euch um Eure Angelegenheiten.~
 
-@50   = ~... Alles klar... Ihr scheint in guter körperlicher Verfassung zu sein.~
+@50   = ~... Alles klar... Ihr scheint in guter kÃ¶rperlicher Verfassung zu sein.~
 
 @51   = ~...Gut. Ich mache mich wieder auf den Weg.~
 
 @52   = ~Ja.~
 
-@53   = ~Vielleicht wollt Ihr ja meiner Gruppe beitreten. Ich habe Verwendung für Leute wie Euch.~
+@53   = ~Vielleicht wollt Ihr ja meiner Gruppe beitreten. Ich habe Verwendung fÃ¼r Leute wie Euch.~
 
 @54   = ~... Ich werde wieder gehen.~
 
