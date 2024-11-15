@@ -4,7 +4,7 @@ THEN
 	RESPONSE #100
 		CutSceneId("Grayfot2")
 		Wait(1)
-		JumpToPoint([2956.1075])
+		MoveToPoint([2956.1075])
 		Face(7)
 		Wait(2)
 		CreateVisualEffect("sparmor2",[2956.1065])
@@ -17,7 +17,7 @@ THEN
 		Wait(1)
 		Swing()
 		Wait(2)
-		JumpToPoint([2956.1085])
+		MoveToPoint([2956.1085])
 		Face(14)
 		Wait(1)
 		SetGlobal("StartForgGray2","RR3100",0)

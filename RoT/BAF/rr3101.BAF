@@ -45,6 +45,7 @@ IF
 	Global("Ifixthisabit","RR3101",1)
 THEN
 	RESPONSE #100
+		ClearAllActions()
 		HideGUI()
 		StartCutSceneMode()
 		FadeToColor([30.0],0)
