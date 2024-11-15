@@ -293,8 +293,15 @@ This component requires the main component to be installed. It installs the foll
 
 #### Under development
 
+By Roberciiik:
+
 - Fixed player return coordinates after second cutscene.
 - Fixed view point coordinates of third cutscene.
+- Added NPC portraits for EE engine.
+
+By Lzw104522773:
+
+- Updated Simplified Chinese translation.
 
 #### Version 5.0 (April 16, 2024)
 
