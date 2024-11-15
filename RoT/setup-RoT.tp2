@@ -1277,7 +1277,7 @@ ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
    END
 
   //preliminary step - making LANGUAGE temporary file until the new WeiDU
-  COPY - ~RoT/Worldmap/%LANGUAGE%/worldmap.tra~  ~tmp_worldmap.tra~
+  COPY - ~%TRA_LOCATION%/%LANGUAGE%/Worldmap.tra~  ~tmp_worldmap.tra~
   COPY ~Worldmap/map_mods_trans.tra~  ~Worldmap~
    APPEND_FILE ~tmp_worldmap.tra~
 END
@@ -1285,7 +1285,7 @@ ELSE BEGIN
   MKDIR ~Worldmap~
   COPY ~RoT/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
   COPY ~RoT/Worldmap/links.tbl~ ~Worldmap/map_mods_links.tbl~
-  COPY ~RoT/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+  COPY ~%TRA_LOCATION%/%LANGUAGE%/Worldmap.tra~ ~Worldmap/map_mods_trans.tra~
 END
 
 ACTION_IF GAME_IS ~eet~ BEGIN
@@ -1309,7 +1309,7 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 		path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-areas.tbl~
 //		path_to_areas_bp = EVAL ~%MOD_FOLDER%/Worldmap/areas.tbl~
 		path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/eet/eet-links.tbl~
-		path_to_trans = EVAL ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
+		path_to_trans = EVAL ~%TRA_LOCATION%/%LANGUAGE%/Worldmap.tra~
 	END
 	//INCLUDE ~%MOD_FOLDER%/worldmap/eet/PatchingAreas.tpa~
 END
