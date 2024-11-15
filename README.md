@@ -297,6 +297,7 @@ By Roberciiik:
 
 - Fixed player return coordinates after second cutscene.
 - Fixed view point coordinates of third cutscene.
+- Added Spirit Soaring area to the BP-BGT-Worldmap.
 - Fixed incorrect name of Commoner Women from Arlax.
 - Added NPC portraits for EE engine.
 
