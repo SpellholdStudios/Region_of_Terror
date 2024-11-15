@@ -295,9 +295,13 @@ This component requires the main component to be installed. It installs the foll
 
 By Roberciiik:
 
+- Fixed original Drizzt Encounter bug introduced in version 5.0.
+- Added Spirit Soaring area to the BP-BGT-Worldmap.
+- Fixed endless loop of Pip & Brundor forge cutscene.
 - Fixed player return coordinates after second cutscene.
 - Fixed view point coordinates of third cutscene.
 - Added NPC portraits for EE engine.
+- Fixed incorrect name of Commoner Women from Arlax.
 
 By Lzw104522773:
 
@@ -325,7 +329,7 @@ By Roberciiik:
 - Aligned and fixed Brundor/Brundor2 dialog files.
 - Opened three permanently locked doors from RA5602 area in "Wulfgar's Wife" quest.
 - Animation compatibility with DrizztSaga (Red Harpy animation slot) (thanks to TotoR).
-- Restored small size of NPC portraits for oBG2.
+- Restored small size of NPC for oBG2.
 - Reduced waiting time to 8 hours (single rest) in the Spirit Soarning.
 - Changed incorrect Ice Salamander type from UNDEAD to MONSTER
 - Traified Cadderly's name and missing string-refs.

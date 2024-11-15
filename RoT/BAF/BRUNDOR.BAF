@@ -1,10 +1,11 @@
 IF
-        True()
+	!Global("Ifixthisabit","RR3101",1)
+	!Global("ForgedItemGray","RR3101",1)
 THEN
 	RESPONSE #100
 		CutSceneId("Brundor")
 		Wait(1)
-		JumpToPoint([401.348])
+		MoveToPoint([401.348])
 		Face(6)
 		Wait(2)
 		CreateVisualEffect("sppolymp",[401.348])
@@ -17,7 +18,7 @@ THEN
 		Wait(1)
 		Swing()
 		Wait(1)
-		JumpToPoint([505.353])
+		MoveToPoint([505.353])
 		Face(13)
 		Wait(1)
 		SetGlobal("StartForging","RR3101",0)
