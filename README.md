@@ -1,3 +1,8 @@
+<hr>
+
+:warning: **The maintenance and support of this project has been moved to a [new repository](https://github.com/Spellhold-Studios/Region-of-Terror).**
+
+<hr><br>
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Region_of_Terror?label=Release&include_prereleases&color=darkred)
 ![Downloads](https://img.shields.io/github/downloads/SpellholdStudios/Region_of_Terror/total.svg?color=blue&label=Downloads)
